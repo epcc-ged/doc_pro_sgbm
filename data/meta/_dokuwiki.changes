@@ -138,3 +138,11 @@
 1553785936	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:champ-852-modification	jchiavassa	créée		86
 1553785967	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:champ-853-choisir-le-modele-de-prevision-et-mettre-en-place-le-calendrier-previsionnel	jchiavassa	créée		150
 1553785984	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:champ-866-etat-de-collection	jchiavassa	créée		91
+1553787311	81.194.43.244	C	condorcet:acquisition:reception-et-facturation:presentation-generale	rguidoni	créée		76
+1553787482	81.194.43.244	C	condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires	rguidoni	créée		601
+1553787539	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:presentation-generale	rguidoni			-2
+1553787589	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires	rguidoni			36
+1553787664	81.194.43.244	C	condorcet:acquisition:reception-et-facturation:facturer-des-lignes-de-commande	rguidoni	créée		402
+1553787724	81.194.43.244	C	condorcet:acquisition:reception-et-facturation:reception-apres-facturation	rguidoni	créée		340
+1553787867	194.254.171.10	C	condorcet:ebook:test	jchiavassa	Sélection enregistrée		153
+1553787969	194.254.171.10	D	condorcet:ebook:test	jchiavassa	La sélection a été effacée		-153

@@ -1,0 +1,16 @@
+==== ACQUISITION : RECEPTION ET FACTURATION : FACTURER DES LIGNES DE COMMANDE ====
+
+=== Contexte général ===
+
+=== Facturation à partir d’un bon de commande réceptionné entièrement ===
+
+== Créer une facture ==
+
+== Réviser une facture ==
+
+== Les alertes ==
+
+== Payer une facture ==
+
+=== Facturer à partir d’une facture créée manuellement (bon de commande réceptionné partiellement) ===
+

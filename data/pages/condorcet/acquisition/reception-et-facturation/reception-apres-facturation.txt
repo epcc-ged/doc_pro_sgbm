@@ -1,0 +1,14 @@
+==== ACQUISITION : RECEPTION ET FACTURATION : RECEPTION APRES FACTURATION ====
+
+=== Contexte général ===
+
+=== Création d’une facture ===
+
+== Création d’une facture à partir d’une commande ==
+
+== Création d’une facture   ex nihilo   ==
+
+=== Paiement de la facture ===
+
+=== Renvoyer la facture en révision après paiement ===
+

@@ -1,0 +1,34 @@
+==== ACQUISITION : RECEPTION ET FACTURATION : RECEPTIONNER DES EXEMPLAIRES ====
+
+=== Contexte général ===
+
+===   ===
+
+=== Accéder à la liste des lignes de commande à réceptionner ===
+
+===   ===
+
+=== Rechercher les lignes de commande à réceptionner ===
+
+=== Réceptionner les lignes de commande à réceptionner ===
+
+== Réceptionner une ligne de commande : circuit court ==
+
+==   ==
+
+== Réceptionner une ligne de commande : circuit long ==
+
+=== Cas particuliers ===
+
+== Réceptionner des dons ==
+
+==   ==
+
+== Réceptionner une partie des exemplaires commandés ==
+
+==   ==
+
+== Annuler la réception d’exemplaires ==
+
+==   ==
+
