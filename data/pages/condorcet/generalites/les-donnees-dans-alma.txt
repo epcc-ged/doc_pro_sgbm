@@ -1,0 +1,14 @@
+===== GENERALITES : LES DONNEES DANS ALMA =====
+
+==== Zone « Institution » et zone « Communauté » ====
+
+====   ====
+
+==== Structure des données ====
+
+=== Ressources physiques : données bibliographiques et d'exemplaires ===
+
+===   ===
+
+=== Ressources électroniques ===
+

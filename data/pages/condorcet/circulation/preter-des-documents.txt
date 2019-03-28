@@ -1,0 +1,25 @@
+===== CIRCULATION : PRETER DES DOCUMENTS =====
+
+==== Appeler un compte lecteur ====
+
+Tout prêt doit être fait à partir d'un //bureau de prêt//. Il peut être choisi / modifié au moment de la connexion, ou après la connexion à gauche des **//icônes du Menu principal//**  dans le **//menu permanent//**  , par exemple : ''GED - Circulation''
+
+Le prêt est accessible via le menu **//Services aux usagers > prêts/retours > services aux usagers//**
+
+L’écran //**Identification Lecteur**//  permet d'appeler le dossier usager :
+
+   * par l'//identifiant de l'usager//, qui peut être scanné ou tapé dans la boite de recherche
+  * par son //nom//: Alma propose une auto-complétion de votre recherche
+
+==== Enregistrer un prêt ====
+
+Le prêt s'effectue depuis le dossier usager tel que présenté ci-dessus.
+
+Dans cet écran, il faut d'abord identifier l'exemplaire du titre à prêter. Pour cela, on dispose une zone de saisie du code-barre que l'on peut renseigner ainsi :
+
+  * on peut scanner le //code-barre//  de l'exemplaire
+  * ou on peut saisir manuellement ce même code-barre
+  * ou, si l'on ne dispose pas du code-barre, ouvrir la fenêtre de recherche associé au champ de saisie du code-barre et ainsi retrouver l'exemplaire par la recherche (par exemple sur la base du titre). Cette recherche renvoie le code-barre dans le champ de saisie. La recherche est accessible par le bouton {{:condorcet:circulation:testjpg.jpg?nolink&  |Toto}}.
+
+Le code-barre scanné, tapé ou retrouvé par la recherche, il faut cliquer sur le bouton ''OK''  associé au champ de saisie du code-barre.
+

@@ -1,0 +1,14 @@
+<WRAP center round box 100%>
+
+====== Alma - GED - Campus Condorcet ======
+
+</WRAP>
+
+<WRAP center round info 60%> <font inherit/Georgia,serif;;inherit;;inherit>Documentation professionnelle pour l'utilisation de l'instance Alma du Grand Equipement Documentaire du Campus Condorcet.</font></WRAP>
+
+  - [[:condorcet:generalites:start|Généralités]]
+  - [[:condorcet:acquisition:start|Acquisitions]]
+  - [[:condorcet:periodiques:start|Périodiques]]
+  - [[:condorcet:circulation:start|Circulation]]
+  - [[:condorcet:signalement:start|Signalement des collections]]
+

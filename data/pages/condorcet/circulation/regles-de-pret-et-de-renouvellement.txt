@@ -1,0 +1,54 @@
+===== CIRCULATION : REGLES DE PRÊT =====
+
+==== Durée de prêt ====
+
+=== Généralités ===
+
+Les durées de prêt dans Alma sont calculées par croisement de groupes d’usagers et de localisations (ou de TPU et de collections, au sens Horizon du terme).
+
+<font inherit/inherit;;inherit;;#c0392b>Par exemple, il peut être décidé que tous les documents appartenant à la localisation 63S seront prêtables :</font>
+
+  * <font inherit/inherit;;inherit;;#c0392b>21 jours aux étudiants de niveau L</font>
+  * <font inherit/inherit;;inherit;;#c0392b>28 jours aux étudiants de niveau M</font>
+  * <font inherit/inherit;;inherit;;#c0392b>35 jours aux étudiants de niveau D</font>
+  * <font inherit/inherit;;inherit;;#c0392b>ainsi qu’aux professeurs et personnels des établissements</font>
+  * <font inherit/inherit;;inherit;;#c0392b>14 jours aux lecteurs autorisés</font>
+
+Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche, ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
+
+La date de retour est assortie d’une heure limite de retour, qui correspond à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt, comme il sera précisé plus loin.
+
+Ces deux dernières particularités (retour repoussé au prochain jour ouvré et date de retour assortie d’une heure de retour) s’expliquent par le fait que les calendriers et heures d’ouverture et de fermeture doivent être détaillés bibliothèque par bibliothèque dans Alma. Ne rien renseigner provoquerait des effets de bord, à commencer par des retours fixés en période de fermeture des bibliothèques.
+
+=== Exceptions de circulation ===
+
+Certains documents d’une même localisation peuvent être soumis à des règles de circulation différentes. Dans ce cas, ils reçoivent une ou plusieurs « exceptions de circulation », qui correspondent peu ou prou aux TPE Horizon. Ces exceptions de circulation peuvent être une exception de type « Exclu du prêt » ou correspondre à des durées de prêt plus courtes (24 heures, 7 jours) ou plus longues (60 jours, 180 jours) que celle appliquée au niveau de la localisation. Dans tous les cas, elle s’applique de manière indifférenciée à l’ensemble des groupes d’usagers.
+
+Par exemple, il peut être décidé que tous les documents appartenant à la localisation 63S seront prêtables aux conditions décrites plus haut, sauf trois lots de documents :
+
+• Un premier lot sera exclu du prêt pour tous les usagers
+
+• Un deuxième sera prêtable 48 heures pour tous les usagers
+
+• Un troisième sera prêtable 90 jours pour tous les usagers
+
+Voici la liste des exceptions de circulation actuellement configurées. Veuillez noter qu’à la différence des TPE Horizon, ces exceptions de circulation sont communes à l’ensemble des bibliothèques et utilisables par toutes :
+
+  * <font inherit/inherit;;inherit;;#c0392b>Exclu du prêt</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 24h - non renouvelable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 48 heures - non renouvelable - non réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 48 heures - non renouvelable - réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 72h - non renouvelable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 7 jours - non renouvelable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 1 semaine - renouvelable 1 semaine ‑ réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 10 jours - non renouvelable - non réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 2 semaines - non renouvelable - non réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 2 semaines - renouvelable 2 semaines - réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 2 semaines - renouvelable 2 semaines - non réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 21 jours - non renouvelable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 3 semaines - renouvelables 3 semaines ‑ réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 4 semaines - non renouvelable - réservable</font>
+  * <font inherit/inherit;;inherit;;#c0392b>Prêt 90 jours - non renouvelable - non réservable</font>
+
+Ces exceptions de circulation sont donc à utiliser lorsqu’un exemplaire est soumis à des durées de prêt différentes de celles définies pour sa localisation de rangement. Pour un nouvel exemplaire, l’exception de circulation peut être renseigné dès la commande, mais le sera en règle générale après la réception. Voir le support « Gestion des données » pour plus de renseignements.
+

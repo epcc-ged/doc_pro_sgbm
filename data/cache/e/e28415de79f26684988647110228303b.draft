@@ -1,0 +1,35 @@
+a:6:{s:2:"id";s:42:"condorcet:circulation:preter-des-documents";s:6:"prefix";b:0;s:4:"text";s:2212:"<h2>CIRCULATION : PRETER DES DOCUMENTS</h2>
+
+<div class="level2">&nbsp;</div>
+
+<h3>Appeler un compte lecteur</h3>
+
+<div class="level3">
+<p>Tout pr&ecirc;t doit &ecirc;tre fait &agrave; partir d&#39;un <em>bureau de pr&ecirc;t</em>. Il peut &ecirc;tre choisi / modifi&eacute; au moment de la connexion, ou apr&egrave;s la connexion &agrave; gauche des <b><em>ic&ocirc;nes du Menu principal</em></b> dans le <b><em>menu permanent</em></b> , par exemple : <code>GED - Circulation</code></p>
+
+<p>Le pr&ecirc;t est accessible via le menu <b><em>Services aux usagers &gt; pr&ecirc;ts/retours &gt; services aux usagers</em></b></p>
+
+<p>L&rsquo;&eacute;cran <em><b>Identification Lecteur</b></em> permet d&#39;appeler le dossier usager :</p>
+
+<ul>
+	<li class="level1">par l&#39;<em>identifiant de l&#39;usager</em>, qui peut &ecirc;tre scann&eacute; ou tap&eacute; dans la boite de recherche</li>
+	<li class="level1">par son <em>nom</em>: Alma propose une auto-compl&eacute;tion de votre recherche</li>
+</ul>
+</div>
+
+<h3>Enregistrer un pr&ecirc;t</h3>
+
+<div class="level3">
+<p>Le pr&ecirc;t s&#39;effectue depuis le dossier usager tel que pr&eacute;sent&eacute; ci-dessus.</p>
+
+<p>Dans cet &eacute;cran, il faut d&#39;abord identifier l&#39;exemplaire du titre &agrave; pr&ecirc;ter. Pour cela, on dispose une zone de saisie du code-barre que l&#39;on peut renseigner ainsi :</p>
+
+<ul>
+	<li class="level1">on peut scanner le <em>code-barre</em> de l&#39;exemplaire</li>
+	<li class="level1">ou on peut saisir manuellement ce m&ecirc;me code-barre</li>
+	<li class="level1">ou, si l&#39;on ne dispose pas du code-barre, ouvrir la fen&ecirc;tre de recherche associ&eacute; au champ de saisie du code-barre et ainsi retrouver l&#39;exemplaire par la recherche (par exemple sur la base du titre). Cette recherche renvoie le code-barre dans le champ de saisie. La recherche est accessible par le bouton <img alt="Toto" class="medialeft" src="/dokuwiki/lib/exe/fetch.php?media=condorcet:circulation:testjpg.jpg" title="Toto" />.</li>
+</ul>
+
+<p>Le code-barre scann&eacute;, tap&eacute; ou retrouv&eacute; par la recherche, il faut cliquer sur le bouton <code>OK</code> associ&eacute; au champ de saisie du code-barre.</p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1553779281;s:6:"client";s:10:"jchiavassa";}

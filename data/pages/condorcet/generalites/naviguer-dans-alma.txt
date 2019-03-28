@@ -1,0 +1,26 @@
+===== GENERALITES : NAVIGUER DANS ALMA =====
+
+==== Se connecter à Alma ====
+
+====   ====
+
+==== Se localiser dans Alma ====
+
+====   ====
+
+==== Page d’accueil d’Alma ====
+
+=== Vue générale ===
+
+===   ===
+
+=== Menu permanent ===
+
+=== Barre de recherche permanente ===
+
+===   ===
+
+=== Widgets Alma ===
+
+=== Configuration des favoris ===
+

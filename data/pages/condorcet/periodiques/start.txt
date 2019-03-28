@@ -1,0 +1,5 @@
+====== PERIODIQUES : TABLE DES MATIERES ======
+
+  - [[condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:start|Bulletinage et gestion des exemplaires]]
+  - [[condorcet:periodiques:catalogage-et-abonnement:start|Catalogage et abonnement]]
+  - [[condorcet:periodiques:holdings-et-prevision:start|Holdings et prévision]]

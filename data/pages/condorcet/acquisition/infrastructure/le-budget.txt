@@ -1,0 +1,46 @@
+==== ACQUISITION : INFRASTRUCTURE : LE BUDGET ====
+
+=== Généralités ===
+
+===   ===
+
+=== Particularités ===
+
+===   ===
+
+=== Modes opératoires ===
+
+== Accéder à la liste des registres et des comptes ==
+
+==   ==
+
+== Créer un registre comptable et ajouter des règles d’utilisation du registre ==
+
+==   ==
+
+== Créer un compte de synthèse et ajouter des règles d’utilisation du compte de synthèse ==
+
+==   ==
+
+== Créer un compte budgétaire et ajouter des règles d’utilisation du compte budgétaire ==
+
+==   ==
+
+== Allouer des fonds à un compte budgétaire ==
+
+==   ==
+
+== Déplacer un compte de synthèse ou budgétaire dans la hiérarchie budgétaire ==
+
+==   ==
+
+== Transférer des fonds d’un compte budgétaire à un autre ==
+
+==   ==
+
+== Désactiver/supprimer des registres et des comptes ==
+
+==   ==
+
+== Analytics ==
+

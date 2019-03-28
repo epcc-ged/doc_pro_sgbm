@@ -1,0 +1,53 @@
+<a name="condorcetcirculationpreter-des-documents__"></a>
+<h2><bookmark content="CIRCULATION : PRETER DES DOCUMENTS" level="1" /><a name="condorcetcirculationpreter-des-documents__circulationpreter_des_documents">CIRCULATION : PRETER DES DOCUMENTS</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Appeler un compte lecteur" level="2" /><a name="condorcetcirculationpreter-des-documents__appeler_un_compte_lecteur">Appeler un compte lecteur</a></h3>
+<div class="level3">
+
+<p>
+Tout prêt doit être fait à partir d&#039;un <em>bureau de prêt</em>. Il peut être choisi / modifié au moment de la connexion, ou après la connexion à gauche des <strong><em>icônes du Menu principal</em></strong>  dans le <strong><em>menu permanent</em></strong>  , par exemple : <code>GED - Circulation</code>
+</p>
+
+<p>
+Le prêt est accessible via le menu <strong><em>Services aux usagers &gt; prêts/retours &gt; services aux usagers</em> </strong>
+</p>
+
+<p>
+L’écran <em><strong>Identification Lecteur</strong></em>  permet d&#039;appeler le dossier usager :
+</p>
+<ul>
+<li class="level1"><div class="li"> par l&#039;<em>identifiant de l&#039;usager</em>, qui peut être scanné ou tapé dans la boite de recherche</div>
+</li>
+<li class="level1"><div class="li"> par son <em>nom</em>: Alma propose une auto-complétion de votre recherche</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Enregistrer un prêt" level="2" /><a name="condorcetcirculationpreter-des-documents__enregistrer_un_pret">Enregistrer un prêt</a></h3>
+<div class="level3">
+
+<p>
+Le prêt s&#039;effectue depuis le dossier usager tel que présenté ci-dessus.
+</p>
+
+<p>
+Dans cet écran, il faut d&#039;abord identifier l&#039;exemplaire du titre à prêter. Pour cela, on dispose une zone de saisie du code-barre que l&#039;on peut renseigner ainsi :
+</p>
+<ul>
+<li class="level1"><div class="li"> on peut scanner le <em>code-barre</em>  de l&#039;exemplaire</div>
+</li>
+<li class="level1"><div class="li"> ou on peut saisir manuellement ce même code-barre</div>
+</li>
+<li class="level1"><div class="li"> ou, si l&#039;on ne dispose pas du code-barre, ouvrir la fenêtre de recherche associé au champ de saisie du code-barre et ainsi retrouver l&#039;exemplaire par la recherche (par exemple sur la base du titre). Cette recherche renvoie le code-barre dans le champ de saisie. La recherche est accessible par le bouton <img src="/dokuwiki/lib/exe/fetch.php?media=condorcet:circulation:testjpg.jpg" class="medialeft" title="Toto" alt="Toto" />.</div>
+</li>
+</ul>
+
+<p>
+Le code-barre scanné, tapé ou retrouvé par la recherche, il faut cliquer sur le bouton <code>OK</code>  associé au champ de saisie du code-barre.
+</p>
+
+</div>

@@ -1,0 +1,7 @@
+Connexion à Alma pour le catalogage
+Organisation des données. Rappel
+
+Dans Alma, les données de signalement sont découpées en trois "couches" :
+  * Les "métadonnées descriptives" décrivent un document. La notice bibliographiquecorrespond à ce niveau dans Alma.
+  * Le "niveau intermédiaire" est un regroupement entre différentes instanciations du même titre. Ce niveau n'a pas la même forme selon qu'on parle de ressources physiques, électroniques ou numériques.
+  * Le niveau "inventaire" contient les informations du document au sens de l'objet constituant le document recherché en tant que porteur de l'information. Par exemple : un exemplaire donné, un fichier donné, une revue électronique donnée.

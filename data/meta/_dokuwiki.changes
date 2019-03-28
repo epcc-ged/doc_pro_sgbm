@@ -1,0 +1,97 @@
+1553182473	194.254.171.10	C	start	jchiavassa	créée		63
+1553182628	194.254.171.10	C	wiki:circulation	jchiavassa	créée		283
+1553182677	194.254.171.10	C	wiki:circulation:introduction-et-recherche	jchiavassa	créée		727
+1553182701	194.254.171.10	E	wiki:circulation:introduction-et-recherche	jchiavassa			-5
+1553241331	194.254.171.10	E	start	jchiavassa			5
+1553242863	127.0.0.1	E	condorcet:circulation:start		modification externe		16
+1553242904	194.254.171.10	E	condorcet:circulation:start	jchiavassa			54
+1553242970	194.254.171.10	E	condorcet:circulation:start	jchiavassa			554
+1553184329	127.0.0.1	E	condorcet:circulation:1-introduction-et-recherche		modification externe		26
+1553243042	194.254.171.10	E	condorcet:circulation:1-introduction-et-recherche	jchiavassa			29
+1553243057	194.254.171.10	E	condorcet:circulation:1-introduction-et-recherche	jchiavassa			14
+1553243076	194.254.171.10	E	condorcet:circulation:start	jchiavassa			14
+1553183918	127.0.0.1	E	condorcet:circulation:2-editeur-de-metadonnees		modification externe		0
+1553243105	194.254.171.10	E	condorcet:circulation:2-editeur-de-metadonnees	jchiavassa			65
+1553183954	127.0.0.1	E	condorcet:circulation:3-holdings-et-exemplaires:1-traitement-dans-le-circuit-d-acquisition-alma		modification externe		0
+1553243159	194.254.171.10	E	condorcet:circulation:3-holdings-et-exemplaires:1-traitement-dans-le-circuit-d-acquisition-alma	jchiavassa			115
+1553183963	127.0.0.1	E	condorcet:circulation:3-holdings-et-exemplaires:2-traitement-hors-circuit-d-acquisition-alma		modification externe		0
+1553243187	194.254.171.10	E	condorcet:circulation:3-holdings-et-exemplaires:2-traitement-hors-circuit-d-acquisition-alma	jchiavassa			112
+1553243208	194.254.171.10	C	condorcet:circulation:4-gestion-des-exemplaires	jchiavassa	créée		67
+1553243796	127.0.0.1	E	condorcet:start		modification externe		273
+1553251088	194.254.171.10	E	condorcet:start	jchiavassa			19
+1553251348	194.254.171.10	C	condorcet:generalites:start	jchiavassa	créée		161
+1553252019	127.0.0.1	E	condorcet:generalites:naviguer-dans-alma		modification externe		0
+1553252320	194.254.171.10	E	condorcet:generalites:naviguer-dans-alma	jchiavassa			61
+1553252029	127.0.0.1	E	condorcet:generalites:les-donnees-dans-alma		modification externe		0
+1553252386	194.254.171.10	E	condorcet:generalites:les-donnees-dans-alma	jchiavassa			64
+1553252041	127.0.0.1	E	condorcet:generalites:faire-une-recherche-dans-alma		modification externe		0
+1553252411	194.254.171.10	E	condorcet:generalites:faire-une-recherche-dans-alma	jchiavassa			72
+1553252055	127.0.0.1	E	condorcet:generalites:affichage-des-resultats		modification externe		0
+1553252433	194.254.171.10	E	condorcet:generalites:affichage-des-resultats	jchiavassa			66
+1553242513	127.0.0.1	E	start		modification externe		15
+1553252503	194.254.171.10	E	start	jchiavassa			28
+1553252513	194.254.171.10	E	start	jchiavassa			15
+1553252709	194.254.171.10	E	start	jchiavassa			-1
+1553252768	194.254.171.10	E	start	jchiavassa			120
+1553252794	194.254.171.10	E	start	jchiavassa			38
+1553252806	194.254.171.10	E	start	jchiavassa			11
+1553252866	194.254.171.10	E	start	jchiavassa			22
+1553252877	194.254.171.10	E	start	jchiavassa			-16
+1553261569	194.254.171.10	C	condorcet:acquisition:infrastructure:start	jchiavassa	créée		0
+1553261691	194.254.171.10	C	condorcet:acquisition:infrastructure:start	jchiavassa	créée		85
+1553261704	194.254.171.10	E	condorcet:acquisition:infrastructure:start	jchiavassa			13
+1553261783	194.254.171.10	C	condorcet:acquisition:circuit-de-commande:start	jchiavassa	créée		619
+1553261804	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	jchiavassa			-9
+1553261834	194.254.171.10	C	condorcet:acquisition:reception-et-facturation:start	jchiavassa	créée		76
+1553261847	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	jchiavassa			14
+1553262009	127.0.0.1	E	condorcet:acquisition:infrastructure:start		modification externe		188
+1553262661	194.254.171.10	E	condorcet:acquisition:infrastructure:start	jchiavassa			-79
+1553262022	127.0.0.1	E	condorcet:acquisition:infrastructure:le-budget		modification externe		0
+1553262723	194.254.171.10	E	condorcet:acquisition:infrastructure:le-budget	jchiavassa			65
+1553262030	127.0.0.1	E	condorcet:acquisition:infrastructure:les-fournisseurs		modification externe		0
+1553262751	194.254.171.10	E	condorcet:acquisition:infrastructure:les-fournisseurs	jchiavassa			73
+1553262766	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	jchiavassa			-2
+1553243376	127.0.0.1	E	condorcet:signalement:start		modification externe		590
+1553262960	194.254.171.10	E	condorcet:signalement:start	jchiavassa			-14
+1553263199	194.254.171.10	C	condorcet:circulation:start	jchiavassa	créée		558
+1553263216	194.254.171.10	E	condorcet:circulation:start	jchiavassa			9
+1553263384	194.254.171.10	E	condorcet:circulation:start	jchiavassa			673
+1553263405	194.254.171.10	E	condorcet:circulation:start	jchiavassa			22
+1553263449	194.254.171.10	C	condorcet:circulation:ergonomie	jchiavassa	créée		50
+1553263465	194.254.171.10	C	condorcet:circulation:inscriptions-et-categories-d-usagers	jchiavassa	créée		77
+1553263485	194.254.171.10	C	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa	créée		59
+1553263493	194.254.171.10	C	condorcet:circulation:preter-des-documents	jchiavassa	créée		59
+1553263498	194.254.171.10	C	condorcet:circulation:renouveler-des-prets-depuis-alma-et-primo	jchiavassa	créée		59
+1553263505	194.254.171.10	C	condorcet:circulation:reserver-des-documents-depuis-alma-et-primo	jchiavassa	créée		59
+1553263512	194.254.171.10	C	condorcet:circulation:retourner-des-documents	jchiavassa	créée		59
+1553263517	194.254.171.10	C	condorcet:circulation:questions-pratiques-au-bureau-de-renseignement	jchiavassa	créée		59
+1553263523	194.254.171.10	C	condorcet:circulation:preter-et-retourner-des-lots-de-documents	jchiavassa	créée		59
+1553263531	194.254.171.10	C	condorcet:circulation:preter-et-retourner-des-exemplaires-non-catalogues	jchiavassa	créée		59
+1553263536	194.254.171.10	C	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa	créée		59
+1553263542	194.254.171.10	C	condorcet:circulation:gestion-des-rappels	jchiavassa	créée		59
+1553264322	194.254.171.10	E	start	rguidoni			212
+1553264775	194.254.171.10	E	start	admin			59
+1553777198	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			2
+1553777393	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			650
+1553777467	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			1089
+1553777796	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			-56
+1553777897	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			-126
+1553778018	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			100
+1553778584	194.254.171.10	E	condorcet:circulation:preter-des-documents	jchiavassa			-113
+1553779639	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			4082
+1553779852	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-58
+1553779911	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-14
+1553779987	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			282
+1553780040	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			705
+1553780181	127.0.0.1	E	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:start		modification externe		546
+1553780211	194.254.171.10	E	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:start	jchiavassa			5
+1553781197	81.194.43.244	E	condorcet:generalites:naviguer-dans-alma	rguidoni			-51
+1553781285	81.194.43.244	R	condorcet:generalites:naviguer-dans-alma	rguidoni	ancienne révision (2019/03/22 11:58) restaurée	1553252320	53
+1553781313	81.194.43.244	E	condorcet:generalites:naviguer-dans-alma	rguidoni			248
+1553781439	81.194.43.244	E	condorcet:generalites:les-donnees-dans-alma	rguidoni			199
+1553781555	81.194.43.244	E	condorcet:generalites:naviguer-dans-alma	rguidoni			30
+1553781666	81.194.43.244	E	condorcet:generalites:les-donnees-dans-alma	rguidoni			14
+1553781837	81.194.43.244	E	condorcet:generalites:faire-une-recherche-dans-alma	rguidoni			253
+1553782023	81.194.43.244	E	condorcet:generalites:affichage-des-resultats	rguidoni			572
+1553782484	81.194.43.244	E	condorcet:acquisition:infrastructure:le-budget	rguidoni			731
+1553782714	81.194.43.244	E	condorcet:acquisition:infrastructure:le-budget	rguidoni			46

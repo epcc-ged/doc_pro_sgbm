@@ -1,0 +1,4 @@
+===== ACQUISITION : INFRASTRUCTURE : TABLE DES MATIERES =====
+
+  - [[condorcet:acquisition:infrastructure:le-budget|Le budget]]
+  - [[condorcet:acquisition:infrastructure:les-fournisseurs|Les fournisseurs]]

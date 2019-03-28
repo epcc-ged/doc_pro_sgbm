@@ -1,0 +1,24 @@
+===== GENERALITES : AFFICHAGE DES RESULTATS =====
+
+==== Tri des résultats ====
+
+==== Liste des résultats ====
+
+==== Afficher les données d’inventaire de documents physiques issues des notices de holdings et d’exemplaires ====
+
+=== Premier mode d’accès ===
+
+=== Second mode d’accès ===
+
+==== Afficher les données d’accès aux documents électroniques ====
+
+=== Recherche par titre de collection ===
+
+=== Recherche par titre de portfolio : index Portfolios électroniques ===
+
+=== Portfolio indépendant ===
+
+=== Recherche par l’index titres électroniques ===
+
+==== « Pictos » zone communauté / zone institution ====
+
