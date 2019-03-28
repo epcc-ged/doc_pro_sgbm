@@ -1,0 +1,34 @@
+a:6:{s:2:"id";s:102:"condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande";s:6:"prefix";b:0;s:4:"text";s:2570:"<h3>ACQUISITIONS : CIRCUIT DE COMMANDE : MODIFICATION, ANNULATION ET SUPPRESSION DE LIGNES DE COMMANDE</h3>
+
+<div class="level1">
+<h4 id="user-content-fonctionnement-général-5">Fonctionnement g&eacute;n&eacute;ral</h4>
+
+<h4 id="user-content-modifier-une-ligne-de-commande">Modifier une ligne de commande</h4>
+
+<h5 id="user-content-modifications-à-létape-«-réviser-»-exemple--changement-du-nombre-dexemplaires-commandés">Modifications &agrave; l&rsquo;&eacute;tape &laquo; R&eacute;viser &raquo;. Exemple : changement du nombre d&rsquo;exemplaires command&eacute;s</h5>
+
+<h5 id="user-content-modifications-à-létape-«-paqueter-»-exemple--changer-de-fournisseur">Modifications &agrave; l&rsquo;&eacute;tape &laquo; Paqueter &raquo;. Exemple : changer de fournisseur</h5>
+
+<h5 id="user-content-différer-une-ligne-de-commande">Diff&eacute;rer une ligne de commande</h5>
+
+<h5 id="user-content-annuler-une-ligne-de-commande-avant-le-paquetage">Annuler une ligne de commande avant le paquetage</h5>
+
+<h5 id="user-content-supprimer-une-ligne-de-commande-et-éventuellement-la-notice-bibliographique-avant-le-paquetage">Supprimer une ligne de commande et &eacute;ventuellement la notice bibliographique, avant le paquetage</h5>
+
+<h2 id="user-content-modifier-ou-supprimer-un-bon-de-commande-avant-envoi">Modifier ou supprimer un bon de commande avant envoi</h2>
+
+<h3 id="user-content-modifier-une-ligne-de-commande-après-le-paquetage-dans-un-bon-de-commande-avant-envoi">Modifier une ligne de commande apr&egrave;s le paquetage dans un bon de commande (avant envoi)</h3>
+
+<h3 id="user-content-annuler-ou-supprimer-une-ligne-de-commande-après-le-paquetage-dans-un-bon-de-commande-avant-envoi">Annuler ou supprimer une ligne de commande apr&egrave;s le paquetage dans un bon de commande (avant envoi)</h3>
+
+<h3 id="user-content-ajouter-des-lignes-de-commande-à-un-bc-avant-envoi">Ajouter des lignes de commande &agrave; un BC avant envoi</h3>
+
+<h3 id="user-content-supprimer-un-bon-de-commande-avant-envoi">Supprimer un bon de commande avant envoi</h3>
+
+<h2 id="user-content-modifier-ou-supprimer-un-bon-de-commande-après-envoi">Modifier ou supprimer un bon de commande apr&egrave;s envoi</h2>
+
+<h3 id="user-content-modifier-des-lignes-de-commande-envoyées-et-renvoyer-le-bon-de-commande">Modifier des lignes de commande envoy&eacute;es et renvoyer le bon de commande</h3>
+
+<h3 id="user-content-annuler-des-lignes-de-commande-envoyées-et-les-enlever-du-bon-de-commande">Annuler des lignes de commande envoy&eacute;es et les enlever du bon de commande</h3>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1553262588;s:6:"client";s:8:"rguidoni";}

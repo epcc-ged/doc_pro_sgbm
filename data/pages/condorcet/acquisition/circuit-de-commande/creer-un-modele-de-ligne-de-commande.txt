@@ -1,3 +1,16 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : CREER UN MODELE DE LIGNE DE COMMANDE ====
 
-COMPLETER ICI
+=== Fonctionnement général ===
+
+=== Créer un modèle de ligne de commande ===
+
+==== Enregistrer un modèle depuis une nouvelle ligne de commande ====
+
+==== Enregistrer un modèle depuis une ligne de commande en révision ====
+
+=== Utiliser un modèle de ligne de commande ===
+
+=== Modifier un modèle de ligne de commande ===
+
+=== Supprimer un modèle de ligne de commande ===
+

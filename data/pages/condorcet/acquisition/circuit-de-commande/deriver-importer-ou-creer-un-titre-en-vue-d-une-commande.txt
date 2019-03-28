@@ -1,3 +1,34 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : DERIVER, IMPORTER OU CREER UN TITRE EN VUE D'UNE COMMANDE ====
 
-COMPLETER ICI
+=== Dériver une notice depuis un catalogue extérieur ===
+
+== Fonctionnement général ==
+
+== Rechercher un titre dans un catalogue extérieur ==
+
+== Dériver la notice ==
+
+=== Importer une notice depuis un réservoir extérieur ===
+
+== Fonctionnement général ==
+
+== Accéder à la fonction d’import ==
+
+== Lancer l’import des données ==
+
+== Résoudre les problèmes d’import ==
+
+== Visualiser le rapport de traitement ==
+
+== Visualiser et modifier les lignes de commande créées ==
+
+== Retrouver les imports de données déjà effectués ==
+
+=== Créer une notice succincte ===
+
+== Fonctionnement général ==
+
+== Créer une notice bibliographique ex nihilo depuis la fonction d’ajout d’un exemplaire physique (catalogage rapide) ==
+
+== Créer une notice bibliographique ex nihilo depuis un modèle dans l’éditeur de métadonnées ==
+

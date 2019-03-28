@@ -1,3 +1,6 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : RECHERCHER UN TITRE DANS LA BASE ====
 
-COMPLETER ICI
+=== Rechercher une ressource dans le catalogue du réseau ===
+
+=== Elargir la recherche à la « zone communautaire » Alma ===
+

@@ -1,3 +1,8 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : CAS PARTICULIER 1 RACHAT D'EXEMPLAIRES ====
 
-COMPLETER ICI
+=== Rechercher un titre au catalogue ===
+
+=== Renseigner le type d’achat et le propriétaire de la ligne de commande ===
+
+=== Créer la ligne de commande ===
+

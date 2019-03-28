@@ -1,3 +1,32 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : MODIFICATION, ANNULATION ET SUPPRESSION DE LIGNES DE COMMANDE ====
 
-COMPLETER ICI
+=== Fonctionnement général ===
+
+=== Modifier une ligne de commande ===
+
+== Modifications à l’étape « Réviser ». Exemple : changement du nombre d’exemplaires commandés ==
+
+== Modifications à l’étape « Paqueter ». Exemple : changer de fournisseur ==
+
+== Différer une ligne de commande ==
+
+== Annuler une ligne de commande avant le paquetage ==
+
+== Supprimer une ligne de commande et éventuellement la notice bibliographique, avant le paquetage ==
+
+=== Modifier ou supprimer un bon de commande avant envoi ===
+
+== Modifier une ligne de commande après le paquetage dans un bon de commande (avant envoi) ==
+
+== Annuler ou supprimer une ligne de commande après le paquetage dans un bon de commande (avant envoi) ==
+
+== Ajouter des lignes de commande à un BC avant envoi ==
+
+== Supprimer un bon de commande avant envoi ==
+
+=== Modifier ou supprimer un bon de commande après envoi ===
+
+== Modifier des lignes de commande envoyées et renvoyer le bon de commande ==
+
+== Annuler des lignes de commande envoyées et les enlever du bon de commande ==
+

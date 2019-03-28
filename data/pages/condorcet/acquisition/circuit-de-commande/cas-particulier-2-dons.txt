@@ -1,3 +1,6 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : CAS PARTICULIER 2 DONS ====
 
-COMPLETER ICI
+=== Fonctionnement général ===
+
+=== Particularités du circuit de traitement des dons dans Alma ===
+

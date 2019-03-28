@@ -72,3 +72,17 @@ condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:introduction-et-rec
 condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:donnees-d-exemplaire
 condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:bulletingage-reception-des-fascicules
 condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:gestion-des-exemplaires
+condorcet:periodiques:catalogage-et-abonnement:introduction
+condorcet:periodiques:catalogage-et-abonnement:catalogage
+condorcet:periodiques:catalogage-et-abonnement:commande
+condorcet:periodiques:catalogage-et-abonnement:abonnement-termine
+condorcet:periodiques:catalogage-et-abonnement:cas-particuliers
+condorcet:periodiques:catalogage-et-abonnement:reclamation-de-fascicules-de-periodiques
+condorcet:periodiques:holdings-et-prevision:introduction
+condorcet:periodiques:holdings-et-prevision:champ-852-modification
+condorcet:periodiques:holdings-et-prevision:champ-853-choisir-le-modele-de-prevision-et-mettre-en-place-le-calendrier-previsionnel
+condorcet:periodiques:holdings-et-prevision:champ-866-etat-de-collection
+condorcet:acquisition:reception-et-facturation:presentation-generale
+condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires
+condorcet:acquisition:reception-et-facturation:facturer-des-lignes-de-commande
+condorcet:acquisition:reception-et-facturation:reception-apres-facturation

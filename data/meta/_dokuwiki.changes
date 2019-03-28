@@ -98,3 +98,43 @@
 1553783033	194.254.171.10	E	condorcet:acquisition:infrastructure:les-fournisseurs	jchiavassa			-9
 1553262522	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit		modification externe		85
 1553783478	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			62
+1553262532	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base		modification externe		85
+1553783554	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			125
+1553262539	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande		modification externe		85
+1553783712	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			875
+1553262547	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande		modification externe		85
+1553783973	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			381
+1553262555	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general		modification externe		85
+1553784107	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general	rguidoni			1221
+1553262563	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires		modification externe		85
+1553784190	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires	rguidoni			163
+1553262571	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons		modification externe		85
+1553784242	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons	rguidoni			89
+1553262588	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande		modification externe		85
+1553784408	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande	rguidoni			1089
+1553262596	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:reclamation-des-monographies		modification externe		85
+1553784501	81.194.43.244	E	condorcet:acquisition:circuit-de-commande:reclamation-des-monographies	rguidoni			267
+1553262374	127.0.0.1	E	condorcet:acquisition:circuit-de-commande:start		modification externe		858
+1553784865	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	jchiavassa			20
+1553784946	194.254.171.10	C	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:introduction-et-recherche	jchiavassa	créée		108
+1553784984	194.254.171.10	C	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:donnees-d-exemplaire	jchiavassa	créée		103
+1553785016	194.254.171.10	C	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:bulletingage-reception-des-fascicules	jchiavassa	créée		122
+1553785031	194.254.171.10	E	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:bulletingage-reception-des-fascicules	jchiavassa			-1
+1553785048	194.254.171.10	C	condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:gestion-des-exemplaires	jchiavassa	créée		105
+1553785501	194.254.171.10	C	condorcet:periodiques:catalogage-et-abonnement:introduction	jchiavassa	créée		81
+1553785452	127.0.0.1	E	condorcet:periodiques:catalogage-et-abonnement:start		modification externe		628
+1553785564	194.254.171.10	E	condorcet:periodiques:catalogage-et-abonnement:start	jchiavassa			-2
+1553785594	194.254.171.10	C	condorcet:periodiques:catalogage-et-abonnement:catalogage	jchiavassa	créée		79
+1553785605	194.254.171.10	C	condorcet:periodiques:catalogage-et-abonnement:commande	jchiavassa	créée		77
+1553785617	194.254.171.10	C	condorcet:periodiques:catalogage-et-abonnement:abonnement-termine	jchiavassa	créée		87
+1553785630	194.254.171.10	C	condorcet:periodiques:catalogage-et-abonnement:cas-particuliers	jchiavassa	créée		85
+1553785652	194.254.171.10	C	condorcet:periodiques:catalogage-et-abonnement:reclamation-de-fascicules-de-periodiques	jchiavassa	créée		109
+1553785847	127.0.0.1	E	condorcet:periodiques:holdings-et-prevision:start		modification externe		571
+1553785879	194.254.171.10	E	condorcet:periodiques:holdings-et-prevision:start	jchiavassa			-2
+1553785885	81.194.43.244	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			84
+1553785902	81.194.43.244	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			10
+1553785906	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:introduction	jchiavassa	créée		74
+1553785931	81.194.43.244	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			310
+1553785936	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:champ-852-modification	jchiavassa	créée		86
+1553785967	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:champ-853-choisir-le-modele-de-prevision-et-mettre-en-place-le-calendrier-previsionnel	jchiavassa	créée		150
+1553785984	194.254.171.10	C	condorcet:periodiques:holdings-et-prevision:champ-866-etat-de-collection	jchiavassa	créée		91

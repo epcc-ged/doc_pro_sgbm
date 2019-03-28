@@ -1,0 +1,6 @@
+===== PERIODIQUES : TABLE DES MATIERES =====
+
+  - [[condorcet:periodiques:holdings-et-prevision:introduction|Introduction]]
+  - [[condorcet:periodiques:holdings-et-prevision:champ-852-modification|Champ 852 : modification]]
+  - [[condorcet:periodiques:holdings-et-prevision:champ-853-choisir-le-modele-de-prevision-et-mettre-en-place-le-calendrier-previsionnel|Champ 853 : choisir le modèle de prévision et mettre en place le calendrier prévisionnel]]
+  - [[condorcet:periodiques:holdings-et-prevision:champ-866-etat-de-collection|Champs 866 : état de collection]]

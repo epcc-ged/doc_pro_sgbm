@@ -1,3 +1,12 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : RECLAMATION DES MONOGRAPHIES ====
 
-COMPLETER ICI
+=== Fonctionnement général ===
+
+== Particularités de fonctionnement ==
+
+=== Recevoir une notification concernant les lignes de commande en réclamation ===
+
+=== Retrouver les lignes de commande en réclamation ===
+
+=== Exporter les lignes de commande en réclamation ===
+

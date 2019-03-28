@@ -1,4 +1,28 @@
 ==== ACQUISITION : INFRASTRUCTURE : LES FOURNISSEURS ====
 
-sdf
+=== Généralités ===
+
+===   ===
+
+=== Particularités ===
+
+===   ===
+
+=== Modes opératoires ===
+
+== Accéder à la liste des fournisseurs ==
+
+== Créer une fiche fournisseur de matériel ==
+
+== Créer un compte fournisseur ==
+
+== Compléter la fiche fournisseur ==
+
+== Compléter un compte fournisseur ==
+
+== Supprimer une fiche ou un compte fournisseur ==
+
+== Créer un fournisseur d’accès ==
+
+==   ==
 

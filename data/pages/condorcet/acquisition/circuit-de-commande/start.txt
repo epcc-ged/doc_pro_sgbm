@@ -1,13 +1,13 @@
 ===== ACQUISITION : CIRCUIT DE COMMANDE : TABLE DES MATIERES =====
 
-  -[[condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
-  -[[condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base|Rechercher un titre dans la base]]
-  -[[condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande|Dériver, importer ou créer un titre en vue d'une commande]]
-  -[[condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande|Créer un modèle de ligne de commande]]
-  -[[condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general|Processus de commande : fonctionnement général]]
-  -[[condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires|Cas particulier n° 1 : rachat d'exemplaires]]
-  -[[condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons|Cas particulier n° 2 : dons]]
-  -[[condorcet:acquisition:circuit-de-commande:cas-particulier-3-que-faire-si-une-ligne-de-commande-est-en-paquetage-automatique|Cas particulier n° 3 : que faire si une ligne de commande est en paquetage automatique]]
-  -[[condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande|Modification, annulation et suppression de lignes de commande]]
-  -[[condorcet:acquisition:circuit-de-commande:reclamation-des-monographies|Réclamation des monographies]]
+  - [[:condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
+  - [[:condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base|Rechercher un titre dans la base]]
+  - [[:condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande|Dériver, importer ou créer un titre en vue d'une commande]]
+  - [[:condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande|Créer un modèle de ligne de commande]]
+  - [[:condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general|Processus de commande : fonctionnement général]]
+  - [[:condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires|Cas particulier n° 1 : rachat d'exemplaires]]
+  - [[:condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons|Cas particulier n° 2 : dons]]
+  - [[:condorcet:acquisition:circuit-de-commande:cas-particulier-3-que-faire-si-une-ligne-de-commande-est-en-paquetage-automatique|Cas particulier n° 3 : que faire si une ligne de commande est en paquetage automatique]]
+  - [[:condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande|Modification, annulation et suppression de lignes de commande]]
+  - [[:condorcet:acquisition:circuit-de-commande:reclamation-des-monographies|Réclamation des monographies]]
 

@@ -1,3 +1,48 @@
-====== ACQUISITIONS : CIRCUIT DE COMMANDE : COMPLETER LE TITRE ======
+==== ACQUISITIONS : CIRCUIT DE COMMANDE : FONCTIONNEMENT GENERAL DU PROCESSUS DE COMMANDE ====
 
-COMPLETER ICI
+=== Rechercher un titre au catalogue ===
+
+=== Renseigner le type d’achat et le propriétaire de la ligne de commande ===
+
+=== Créer la ligne de commande ===
+
+== Vue générale sur l’écran de création des lignes de commande ==
+
+== Renseigner les informations sur les exemplaires commandés ==
+
+== Renseigner le fournisseur ==
+
+== Renseigner le prix ==
+
+== Ajouter le budget ==
+
+== Renseigner les autres informations sur la ligne de commande ==
+
+=== « Enregistrer » la ligne de commande ===
+
+=== « Réviser » la ligne de commande ===
+
+=== Créer un bon de commande ===
+
+== Paqueter des lignes de commande ==
+
+== Vue générale sur le bon de commande ==
+
+=== Réviser un bon de commande ===
+
+=== Approuver un bon de commande ===
+
+=== Descriptif de la notification « bon de commande » ===
+
+=== Affichage des commandes dans Primo ===
+
+=== Accéder à la liste des bons de commande ===
+
+=== Télécharger la notification « bon de commande » ===
+
+=== Exporter une liste de lignes de commande pour faire une demande de devis ===
+
+== Exporter une liste à partir de lignes de commande en révision ==
+
+== Exporter une liste à partir de lignes de commande constituant un bon de commande en révision ==
+
