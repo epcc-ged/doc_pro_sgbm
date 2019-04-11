@@ -1,4 +1,4 @@
-===== CIRCULATION : EDITEUR DE METADONNEES =====
+===== CIRCULATION : EDITEUR DE METADONNEES ET NOTICES BIBLIOGRAPHIQUES =====
 
 Les notices bibliographiques sont en principe créées dans le Sudoc. L'éditeur de métadonnées sera donc essentiellement utilisées en modification de ces notices ou pour y attacher une notice holding, un exemplaire ou un portfolio.
 
@@ -51,4 +51,19 @@ C'est pour cette raison que le menu Fichier propose plusieurs options d'enregist
   * Si l'enregistrement marque la fin du travail sur la notice, il est très recommandé d'utiliser **Fichier > Enregistrer et débloquer la notice**. Les modifications sur la notice sont enregistrées et un autre utilisateur peut éventuellement travailler dessus.
 
 De la même façon, si l'on quitte la notice //sans enregistrer//, il faut penser à cliquer sur **Fichier > Débloquer la notice **pour permettre à un autre utilisateur de travailler dessus ensuite. Si l'on quitte la notice en pressant sur le bouton quitter de l'éditeur, celui-ci vous demandera si vous souhaitez débloquer la notice. Il est recommandé de répondre "oui". Attention : si vous avez cliqué //en cours de travail //sur **Enregistrer **ou sur l'icône de la disquette, le fait de quitter la notice d'une manière ou d'une autre n'annulera pas ce précédent enregistrement.
+
+==== Supprimer une notice ====
+
+Une notice se supprime dans l'éditeur de données. Une fois dans la notice, on clique sur **Fichier > Supprimer la notice**. Le raccourci clavier Ctrl + D fonctionne également.
+
+Alma vous demandera de confirmer la suppression.
+
+Attention :
+
+  * La suppression de la notice bibliographique entraîne la suppression des holdings qui lui sont attachées et, par conséquent, des exemplaires. En vous demandant la confirmation, Alma précise le nombre de holdings et d'exemplaires rattachés à la notice.
+  * Si à la notice est rattachée une ligne de commande ou à un prêt en cours, Alma refuse la suppression.
+
+==== Fusionner deux notices ====
+
+A COMPLETER
 

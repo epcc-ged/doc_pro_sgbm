@@ -1,0 +1,43 @@
+===== SIGNALEMENT : HOLDINGS =====
+
+Une holding contient des informations sur la localisation d'un exemplaire d'un titre physique et sur sa cote. La holding est représentée par une notice de holding rattachée à la notice bibliographique du titre concerné. A la notice holding est ensuite rattaché l'exemplaire (ou plusieurs s'il y en a plus d'un).
+
+==== Ajouter une holding ====
+
+=== Ajout de la première holding ===
+
+Lors de la commande, en général, une notice bibliographique élémentaire est créée et une holding lui est rattachée puisqu'il faut indiquer la future localisation du document. Mais il peut y avoir des cas où l'on aura besoin de créer une holding de toute pièce.
+
+Pour ajouter une holding, la démarche est la suivante :
+
+Il faut d'abord rechercher la notice bibliographique du titre voulu. Il est important d'utiliser le critère de recherche **Tous les titres **et pas **Titre physique **seulement. Si la notice bibliographique n'existe pas, il faudra préalablement la créer ou la faire redescendre depuis le Sudoc (fortement recommandé). Sinon, en cas de doublons, il importe de bien s'assurer qu'on identifie la notice adéquate.
+
+La notice bibliographique étant identifiée dans la liste des résultats, il faut cliquer sur le bouton **Modifier la notice** qui lui est associé. On est alors envoyer dans l'éditeur de médatonnées.
+
+Pour créer une holding sous cette notice bibliographique, il faut cliquer sur l'icône suivante : {{:condorcet:signalement:signalement-ajouter-holding.jpg?nolink&|signalement-ajouter-holding.jpg}}(Ajouter une notice holding) ou presser les touches Ctrl + Alt + H ou encore utiliser le menu **Outils > Bibliographique MARC > Ajouter une notice holding**. Cela crée une notice holding qui, dans l'éditeur, apparaît à droite de la notice bibliographique. La notice est automatiquement préremplie et sa 852 présente avec des valeurs vides. C'est dans cette zone que l'on va travailler.
+
+{{  :condorcet:signalement:signalement-biblio-et-holding.jpg?nolink&  |signalement-biblio-et-holding.jpg}}Il faut alors renseigner la 852 de la holding. Une fois positionné sur ce champ, vous pouvez cliquer sur Ctrl + F pour faire apparaître un formulaire de saisie.
+
+Il faut renseigner les champs :
+
+  * **$b : bibliothèque**. La valeur est toujours GED. C'est la seule valeur de notre liste de valeurs.
+  * **$c : localisation**. Une liste de valeurs vous assiste.
+  * **$h : cote**.
+Ceci fait, il faut enregistrer la notice soit en passant par le menu Fichier > Enregistrer la notice, soit par le raccourci Ctrl + S, soit par l'icône en forme de disquette.
+
+Il reste à ajouter un exemplaire à la holding. Se reporter au chapitre consacré aux exemplaires.
+
+=== Ajout de deuxième holding ou plus ===
+
+Lorsqu'une holding existe déjà sous une notice bibliographique, on peut en ajouter une nouvelle. On peut procéder comme si on ajoutait une première notice : la procédure fonctionne. Mais on peut aussi directement travailler au niveau de la notice holding sans passer par la notice bibliographique.
+
+Celle-ci reste néanmoins le point de départ : comme précédemment, on recherche la notice bibliographique. Puis on clique sur le bouton **Notices de fonds**. Ce bouton permet de voir toutes les notices holdings attachées à la notice bibliographique choisie.
+
+Sur le nouvel écran, le lien Ajouter une nouvelle notice de fonds au-dessus de la liste des holdings existantes permet de basculer sur l'éditeur de métadonnées qui ne contient qu'une nouvelle notice holding prérémplie et qu'il faut remplir comme l'on a décrit ci-dessus pour la première holding. Lorsqu'on enregistre la notice, on retourne à l'écran listant les holdings. Il faut maintenant ajouter l'exemplaire.
+
+<WRAP center round important 60%> \\ Rappel : pensez bien à enregistrer et à débloquer la notice holding de la même façon qu'on doit débloquer les notices bibliographiques. Si vous ne le faites pas, la notice reste bloquée pendant une heure. \\ </WRAP>
+
+==== Mettre à jour une holding ====
+
+==== Supprimer une holding ====
+

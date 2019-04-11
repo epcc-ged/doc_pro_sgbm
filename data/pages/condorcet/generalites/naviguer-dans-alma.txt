@@ -2,29 +2,168 @@
 
 ==== Se connecter à Alma ====
 
-<font 11pt/inherit;;#000000;;inherit>Alma est un</font> <font 11pt/inherit;;#000000;;inherit>système de gestion hébergé sur les serveurs du fournisseur Ex</font> <font 11pt/inherit;;#000000;;inherit>Libris</font> <font 11pt/inherit;;#000000;;inherit>. Il est utilisable depuis un navigateur Internet. P</font> <font 11pt/inherit;;#000000;;inherit>our</font> <font 11pt/inherit;;#000000;;inherit>s’y connecter,</font> <font 11pt/inherit;;#000000;;inherit>utiliser le lien</font> <font 11pt/inherit;;#000000;;inherit>suivant</font> <font 11pt/inherit;;#000000;;inherit>:</font> <font 11pt/inherit;;#000000;;#f1c40f>__XXX</font>__
+Alma est un système de gestion hébergé sur les serveurs du fournisseur Ex Libris. Il est utilisable depuis un navigateur Internet. Pour s’y connecter, utiliser le lien suivant : <font inherit/inherit;;#e74c3c;;inherit>XXX</font>
 
-<font 11pt/inherit;;#000000;;inherit>L</font> <font 11pt/inherit;;#000000;;#f1c40f>es identifiant et mot de passe à renseigner sont ceux que vous utilisez habituellement pour aller sur l’Intranet réseau ou l’ENT de votre établissement</font>  <font 11pt/inherit;;#000000;;inherit>.</font>
+Les identifiant et mot de passe pour se connecter sont ceux que vous utilisez habituellement pour aller sur <font inherit/inherit;;#e74c3c;;inherit>l’Intranet réseau ou l’ENT de votre établissement.</font>
 
-<font 11pt/inherit;;#000000;;inherit>Veuillez noter que l</font> <font 11pt/inherit;;#000000;;#f1c40f>a déconnexion est automatique après 30 mn</font>sans action.
+Veuillez noter que la déconnexion est automatique après <font inherit/inherit;;#e74c3c;;inherit>30 min</font> sans action.
 
 ==== Se localiser dans Alma ====
 
-====   ====
+Les fonctionnalités proposées sont déterminées par les **rôles **qui vous ont été attribués. Certaines de ces fonctionnalités sont associées à des localisations, bureau de prêt ou <font inherit/inherit;;#e74c3c;;inherit>département d’acquisition</font>: elles ne sont pas proposées si vous ne vous êtes pas préalablement localisé.
 
-==== Page d’accueil d’Alma ====
+A chaque connexion, vous êtes donc invité à choisir un bureau de prêt ou un <font inherit/inherit;;#e74c3c;;inherit>département d’acquisition</font>, en fonction de vos rôles.
+
+<font inherit/inherit;;#16a085;;inherit>(capture d'écran)</font>
+
+Veuillez noter que cette liste peut être différente en fonction des rôles que vous aurez dans Alma.
+
+====\\
+Page d’accueil d’Alma ====
 
 === Vue générale ===
 
-===   ===
+Après la connexion, vous êtes dirigé automatiquement vers la page d’accueil.
 
-=== Menu permanent ===
+Cette page se découpe en différentes zones. L’affichage de certaines d’entre elles est personnalisé, dont la zone basse qui l’est par l’ajout de widgets.
 
-=== Barre de recherche permanente ===
+(<font inherit/inherit;;#1abc9c;;inherit>capture d'écran)</font>
 
-===   ===
+  * Menu permanent
 
-=== Widgets Alma ===
+Chaque page Alma a le même en-tête appelé **Menu permanent**
+  * **Barre de recherche**  pemanente
+Apparaît toujours sous le Menu permanent de chaque page
 
-=== Configuration des favoris ===
+  * Message de bienvenue
+
+Inclut votre nom d'utilisateur et la date
+
+  * Message de maintenance
+
+Informations affichées par Alma sur des changements de version, des mises à jour. Cet encart peut être supprimé
+
+  * Historique
+
+Affiche les pages d’Alma les plus utilisées pendant votre session, permet un accès direct à ces pages
+
+  * Widgets
+
+L’affichage des widgets est paramétrable (voir plus loin)
+
+NB : veuillez noter dès maintenant que la navigation dans Alma se fait avec les **boutons du logiciel**. N’utilisez pas les flèches de votre navigateur, mais uniquement les flèches de navigation d’Alma.
+
+Il est aussi recommandé d’autoriser les pop-ups pour Alma.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+=== === \\
+Menu permanent
+
+Ce menu comporte 4 segments distincts de gauche à droite :
+
+1. Le **logo **de l’institution
+
+2. L'étoile, symbole du **Lien vers les Favoris**
+
+Voir plus bas, les modalités de configuration des Favoris
+
+3. La barre de navigation du **Menu principal**
+
+Ce menu permet de naviguer dans Alma et d’accéder aux sous-menus.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+En fonction de vos rôles, vous accéderez aux menus suivants, ainsi qu’à tout ou partie de leurs sous-menus :
+
+  * Acquisitions : achat de ressources
+  * Ressources : accès aux fonctions de catalogage, d’exemplarisation et d’activation des ressources électroniques
+  * Services aux usagers : accès aux fonctions de prêt, de retour et d’inscription
+  * Admin : accès à des fonctions relevant de l’administration générale du système
+  * Analytique : accès à un tableau de bord avec listes et statistiques
+
+4. Les **icônes **du Menu permanent
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+  * Sélection du bureau de prêt ou du <font inherit/inherit;;#e74c3c;;inherit>département</font>, la liste varie en fonction des rôles attribués.
+
+NB : l’emplacement actuel n’apparaît pas par défaut, il faut le cocher pour l’afficher.
+
+Exemple :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+  * <font inherit/inherit;;#e74c3c;;inherit>Icône de connexion à la RFID</font> . Attention, n’est utile qu’aux bibliothèques équipées de RFID. Sinon, cette icône doit être laissée désactivée comme dans l’illustration précédente.
+
+{{:condorcet:generalites:logo_perso.jpg?nolink&|logo_perso.jpg}}
+
+  * Votre nom apparaît, avec un lien vers votre fiche usager.
+
+Cette icône vous permet de configurer la taille de la police, et aussi de vous déconnecter pour quitter la session.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+{{:condorcet:generalites:liste_taches.jpg?nolink&57x64|liste_taches.jpg}}
+
+  * Liste des tâches : indique le type de tâches et le nombre. Chaque ligne est cliquable.
+
+Par exemple :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+{{:condorcet:generalites:configuration.jpg?nolink&|configuration.jpg}}
+
+  * Lien vers la page Configuration d’Alma.
+
+{{:condorcet:generalites:aide_en_ligne.jpg?nolink&|aide_en_ligne.jpg}}
+
+  * Lien vers l’aide en ligne.
+
+==== === \\
+Barre de recherche permanente === ====
+
+Cette barre de recherche apparaît sous le Menu permanent, et figure sur toutes les pages.
+
+{{:condorcet:generalites:barre_recherche_simple.jpg?nolink&|barre_recherche_simple.jpg}}
+
+Par défaut c’est la recherche simple qui est proposée avec pour périmètre de recherche l’Institution, c’est-à-dire tout le réseau.
+
+La recherche avancée permet de combiner différents critères de recherche, d’utiliser des opérateurs booléens et de modifier la zone de recherche (Zone Institution ou Communautaire).
+
+=== \\
+Widgets Alma ===
+
+Les widgets sont de petites fenêtres disponibles suivant votre rôle dans Alma. Vous pouvez afficher ou supprimer des widgets depuis votre page d’accueil Alma.
+
+Le contenu et la disponibilité des widgets sont configurables au niveau de l’administration d’Alma.
+
+  * Pour afficher les widgets :
+
+Le bouton ''Gérer les widgets''  permet d’afficher le tableaudes widgets disponibles pour vous à l’instant T :
+
+Dans la liste proposée, sélectionner ou décocher le widget souhaité.
+
+  * Pour supprimer un widget :
+
+Sélectionner ''Supprimer ''dans le menu déroulant en haut à droite du widget.
+
+=== \\
+Configuration des favoris ===
+
+On peut sélectionner ses favoris en cliquant sur l'étoile devant le nom des fonctions dans tous les menus. De le même manière, on désactive ces fonctions de la liste des favoris en recliquant sur l'étoile.
+
+On peut également configurer des favoris en utilisant l’étoile du Menu permanent.
+
+Par exemple, pour configurer le prêt et le retour, aller dans le menu ''Service aux Usagers''
+
+Cliquer devant les fonctions que vous voulez sélectionner parmi vos favoris (par exemple **Service aux usagers / Rentrer des exemplaires**)
+
+Pour accéder ensuite à vos favoris, il suffit de cliquer sur l'étoile dans la barre du Menu permanent.
+
+Cette barre ne comporte que les favoris que vous avez sélectionnés.
+
+Pour retourner au Menu permanent, cliquez sur les trois barres parallèles
+
+NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Plusieurs favoris ne sont donc proposés que lorsque l’on est dans une banque de prêt ; d’autres quand on est au Département acquisitions.
 

@@ -76,3 +76,6 @@ condorcet:acquisition:reception-et-facturation:reception-apres-facturation
 condorcet:ebook
 condorcet:ebook:test
 condorcet:ebook:mon_autre_guide
+condorcet:signalement:gestion-des-exemplaires
+condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma
+condorcet:signalement:les-notices-holdings

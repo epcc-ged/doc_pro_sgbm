@@ -1,6 +1,3 @@
-1554364898	194.254.171.10	D	condorcet:circulation:circulation-scanner-cb-exemplaire.png	admin	supprimée		-6292
-1554364912	194.254.171.10	D	condorcet:circulation:testjpg.jpg	admin	supprimée		-22822
-1554365044	194.254.171.10	C	condorcet:circulation:circulation-scanner-code-barre-exemplaire.jpg	admin	créée		15621
 1554365144	194.254.171.10	C	condorcet:circulation:circulation-liste-prets.jpg	admin	créée		40267
 1554365266	194.254.171.10	C	condorcet:circulation:circulation-filtre-tous-les-prets.jpg	admin	créée		9891
 1554365485	194.254.171.10	C	condorcet:circulation:circulation-choisir-date-de-retour.jpg	admin	créée		27283
@@ -20,3 +17,13 @@
 1554800955	194.254.171.10	C	condorcet:signalement:signalement-modele-donnees-electroniques.jpg	jchiavassa	créée		31354
 1554802494	194.254.171.10	C	condorcet:signalement:signalement-acces-editeur.jpg	jchiavassa	créée		36733
 1554808970	194.254.171.10	C	condorcet:signalement:signalement-ecran-editeur.jpg	jchiavassa	créée		121003
+1554983074	81.67.148.147	C	condorcet:generalites:barre_recherche_simple.jpg	rguidoni	créée		15426
+1554991029	81.67.148.147	C	condorcet:generalites:aide_en_ligne.jpg	rguidoni	créée		8301
+1554991029	81.67.148.147	C	condorcet:generalites:liste_taches.jpg	rguidoni	créée		8227
+1554991029	81.67.148.147	C	condorcet:generalites:configuration.jpg	rguidoni	créée		8476
+1554991029	81.67.148.147	C	condorcet:generalites:logo_perso.jpg	rguidoni	créée		8355
+1554991710	194.254.171.10	C	condorcet:signalement:signalement-ajouter-holding.jpg	jchiavassa	créée		8233
+1554991962	194.254.171.10	C	condorcet:signalement:signalement-biblio-et-holding.jpg	jchiavassa	créée		76947
+1554993187	81.67.148.147	C	condorcet:generalites:etoile.jpg	rguidoni	créée		13136
+1554993187	81.67.148.147	C	condorcet:generalites:retour_favoris.jpg	rguidoni	créée		8187
+1554993187	81.67.148.147	C	condorcet:generalites:deux_zones_de_recherche.jpg	rguidoni	créée		15375
