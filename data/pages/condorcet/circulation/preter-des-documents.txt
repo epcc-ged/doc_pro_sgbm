@@ -4,7 +4,7 @@
 
 Tout prêt doit être fait à partir d'un //bureau de prêt//. Il peut être choisi / modifié au moment de la connexion, ou après la connexion à gauche des **//icônes du Menu principal//**  dans le **//menu permanent//**  , par exemple : ''GED - Circulation''
 
-Le prêt est accessible via le menu **//Services aux usagers > prêts/retours > services aux usagers//**
+Le prêt est accessible via le menu **//Services aux usagers > prêts/retours > services aux usagers// **
 
 L’écran //**Identification Lecteur**//  permet d'appeler le dossier usager :
 
@@ -19,7 +19,67 @@ Dans cet écran, il faut d'abord identifier l'exemplaire du titre à prêter. Po
 
   * on peut scanner le //code-barre//  de l'exemplaire
   * ou on peut saisir manuellement ce même code-barre
-  * ou, si l'on ne dispose pas du code-barre, ouvrir la fenêtre de recherche associé au champ de saisie du code-barre et ainsi retrouver l'exemplaire par la recherche (par exemple sur la base du titre). Cette recherche renvoie le code-barre dans le champ de saisie. La recherche est accessible par le bouton {{:condorcet:circulation:testjpg.jpg?nolink&  |Toto}}.
+  * ou, si l'on ne dispose pas du code-barre, ouvrir la fenêtre de recherche associé au champ de saisie du code-barre et ainsi retrouver l'exemplaire par la recherche (par exemple sur la base du titre). Cette recherche renvoie le code-barre dans le champ de saisie. La recherche est accessible par le bouton {{:condorcet:circulation:bouton-details.png?nolink&|bouton détails}}.
 
 Le code-barre scanné, tapé ou retrouvé par la recherche, il faut cliquer sur le bouton ''OK''  associé au champ de saisie du code-barre.
+
+{{:condorcet:circulation:circulation-scanner-code-barre-exemplaire.jpg?nolink&|circulation-scanner-code-barre-exemplaire.jpg}}
+
+Dès que le bouton ''OK''  a été pressé, un nouvel exemplaire prêté apparaît dans la liste des prêts associés au lecteur située sous la zone de saisie du code-barre.
+
+Dans la liste des prêts, plusieurs informations sont indiquées, notamment :
+
+  * La ''date de retour''  qui indique quand l'exemplaire doit être restitué par le lecteur. Si le prêt de l'exemplaire a été renouvelé, la date de retour initiale est écrasée dans cette colonne par la nouvelle date de retour.
+  * La valeur de l'''amende''  éventuellement attachée au prêt
+  * La ''date du prêt'': c'est la date du jour où le prêt a été fait pour la première fois.
+  * Le ''statut du prêt'': au moment du prêt initial, ce statut vaut ''Normal''. Après un renouvellement, il vaut ''Renouvelé''.
+  * La ''bibliothèque'': c'est la bibliothèque où ce prêt a été réalisé.
+
+{{:condorcet:circulation:circulation-liste-prets.jpg?nolink&|circulation-liste-prets.jpg}}
+
+On peut utiliser le menu **''···''  **sur la ligne du prêt pour effectuer diverses actions sur ce prêt, notamment pour l'annuler s'il y a eu une erreur (auquel cas, il faut cliquer sur ''Supprimer le prêt''dans ce menu ; dans ce cas l'exemplaire est immédiatement considéré comme "en rayon") ou modifier la date de retour.
+
+Vous pouvez scanner différents exemplaires pour prêt sans avoir à revenir à cet écran, mais il faut effectuer l'opération successivement (on scanne un code-barre, on clique sur OK et on recommence avec le code-barre suivant).
+
+==== Afficher tous les prêts en cours d’un usager ====
+
+Dans l'écran de dossier usager, on peut voir les prêts que celui-ci a à son actif.
+
+Au-dessus de la liste des prêts, le filtre ''Affichage de prêt''  permet d'afficher soit ''tous les prêts''  associés à cet usager soit les ''prêts de cette session''.
+
+{{:condorcet:circulation:circulation-filtre-tous-les-prets.jpg?nolink&|circulation-filtre-tous-les-prets.jpg}}
+
+Dans le premier cas, ''tous les prêts'', la liste affiche l'ensemble des prêts en cours pour cet usager.
+
+Dans le second cas, ''prêts de cette session'', la liste n'affiche que les prêts qui ont été faits pour cet usager dans la présente session de connexion de l'utilisateur professionnel qui est en train de visualiser le dossier du lecteur.
+
+==== Vider la fenêtre ====
+
+Cliquer sur le bouton ''Effectué''  en haut à gauche de l'écran quand vous avez terminé vos opérations sur cet écran pour retourner à l'écran d'identification des lecteurs.
+
+Attention : il n'est pas nécessaire de cliquer sur ce bouton pour valider les opérations sur les prêts que vous avez effectués auparavant. Ces opérations sont automatiquement validés au fur et à mesure de leur effectuation.
+
+==== Consulter les règles de prêt liées à un exemplaire ====
+
+Il faut accéder au menu contextuel **''···''  **attaché au prêt dont on souhaite consulter les règles et choisir ''Consulter les règles''.
+
+==== Dossier usager avec retards et/ou blocages ====
+
+=== Usager ayant des prêts en retard ===
+
+=== Usagers ayant des blocages de prêt en retard (suspensions) ===
+
+=== (Re)Voir les blocages dans un dossier usager ===
+
+==== Outrepasser les messages bloquants ====
+
+Si un problème est identifié au moment de la création du prêt, une fenêtre avertit de l'erreur rencontré. Par exemple, elle peut indiquer que l'exemplaire n'est pas prêtable. Dans certains cas, il pourra être proposé de passer outre cette erreur. Pour passer outre, il suffit de cliquer sur le bouton ''outrepasser''  dans la fenêtre d'erreur. En outrepassant, le prêt est effectué malgré l'erreur signalé.
+
+La capacité à outrepasser est fonction du rôle de l'utilisateur bibliothécaire qui réalise le prêt.
+
+==== Modifier une date de retour manuellement ====
+
+Il faut accéder au menu contextuel **''···''  **  attaché au prêt qu'on souhaite renouveler et cliquer sur Modifier la date limite. Une fenêtre pop-up apparaît et permet de spécifier la date de retour souhaitée.
+
+{{:condorcet:circulation:circulation-choisir-date-de-retour.jpg?nolink&|circulation-choisir-date-de-retour.jpg}}
 

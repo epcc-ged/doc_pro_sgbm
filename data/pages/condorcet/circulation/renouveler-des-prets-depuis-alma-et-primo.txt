@@ -1,3 +1,62 @@
-===== CIRCULATION : COMPLETER LE TITRE =====
+===== CIRCULATION : RENOUVELER DES PRÊTS =====
 
-COMPLETER ICI
+Le renouvellement de prêt d'un document peut être effectué par le lecteur depuis son compte lecteur sur Primo VE ou par un bibliothécaire disposant d'un rôle adéquat sur Alma.
+
+Le renouvellement peut être partiel c'est-à-dire que le lecteur ne souhaite renouveler que certains de ses prêts, ou il peut être total, auquel cas le lecteur souhaite renouveler tous ses prêts en cours.
+
+==== Renouvellement depuis Alma ====
+
+=== Appeler un compte lecteur ===
+
+Cette opération est la même que celle décrite de même nom décrite au chapitre précédent sur le [[:condorcet:circulation:preter-des-documents|prêt]].
+
+=== Afficher les prêts en cours du lecteur ===
+
+Dans l'écran de dossier usager, on peut voir les prêts que celui-ci a à son actif. Vérifiez bien que le filtre ''Affichage de prêt'' soit à la valeur ''tous les prêts'' pour être en mesure de voir tous les prêts que ce lecteur a fait.
+=== Renouveler les documents ===
+
+Que le renouvellement soit total ou partiel, on dispose de deux modes opératoires.
+
+Le premier mode consiste à sélectionner tous les prêts ou une partie d'entre eux (selon le type de renouvellement souhaité) directement dans la liste des prêts en cours du lecteur. On clique alors sur le lien ''Renouveler la sélection ''au-dessus et à droite de la liste des prêts.
+
+{{:condorcet:circulation:circulation-renouveler-pret.jpg?nolink&|circulation-renouveler-pret.jpg}}
+
+Le second mode consiste :
+
+  * Pour le renouvellement total : à cliquer directement sur le lien ''Tout renouveler'', sans nécessité de sélectionner dans la liste les prêts au préalable.
+  * Pour le renouvellement partiel : à utiliser le menu contextuel **''···'' **attaché au prêt qu'on souhaite renouveler. Le menu contextuel propose alors l'option ''Renouveler''. En la cliquant, le renouvellement du prêt concerné sera réalisé.
+
+=== Vérifier la bonne prise en compte du renouvellement ===
+
+Lorsqu'un prêt est bien renouvelé, un message le confirme en haut de la page et dans l'affichage des prêts, une icône verte (avec un V blanc) {{:condorcet:circulation:circulation-icone-validation.jpg?nolink&|circulation-icone-validation.jpg}}apparaît à côté du prêt renouvelé et son statut est désormais ''renouvelé''  au lieu de ''normal''.
+
+{{:condorcet:circulation:circulation-statut-renouvele.jpg?nolink&|circulation-statut-renouvele.jpg}}
+
+Attention : l'affichage de la petite icône verte ne perdurera pas. Elle disparaîtra si vous cliquez dessus ou quand vous changerez d'écran. Sa disparition à l'affichage ne signifie néanmoins pas que le renouvellement a été annulé. Elle sert simplement à indiquer que l'action que vous venez d'effectuer s'est bien déroulée. Il vaut donc mieux se baser sur la colonne ''Statut''de la liste des prêts pour vérifier si un prêt a été renouvelé ou pas.
+
+==== Renouvellement depuis Primo ====
+
+=== Se connecter ===
+
+Un lien en haut de l'écran à droite permet d'afficher la fenêtre de connexion.
+
+=== Accéder à son compte lecteur ===
+
+Après la connexion, le nom du lecteur apparaît en haut de l'écran à droite apparaît. Il est cliquable et permet l'affichage d'un menu où le compte lecteur est accessible.
+
+{{:condorcet:circulation:circulation-primo-acces-compte-lecteur.jpg?nolink&|circulation-primo-acces-compte-lecteur.jpg}}
+
+=== Accéder à ses prêts en cours ===
+
+Dans le menu décrit ci-dessus, il faut choisir ''Mes prêts''pour accéder à la liste des prêts du lecteur.
+
+=== Renouveler ses prêts en cours ===
+
+Le principe est le même que dans Alma mais c'est ici l'utilisateur qui fait l'action et non un bibliothécaire. Le renouvellement peut être partiel ou total.
+
+Quand on fait une sélection de titres à renouveler, le lien équivalent à ''Renouveler la sélection''  dans Alma se nomme toutefois ''Prolonger la sélection''  dans Primo.
+
+Comme dans Alma, on peut agir soit par les liens ''Tout renouveler''  (ou ''Prolonger la sélection'') au-dessus de la liste des prêts soit renouveler prêt à prêt grâce au lien attaché à la ligne de prêt.
+
+Un bibliothécaire qui se connecterait dans Alma pour voir les prêts attachés à l'utilisateur ayant renouvelé dans Primo, verra que les prêts concernés sont au statut ''Renouvelé''.
+

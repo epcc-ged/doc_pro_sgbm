@@ -1,3 +1,69 @@
-====== CIRCULATION : INTRODUCTION ET RECHERCHE ======
+===== SIGNALEMENT : ORGANISATION DES DONNEES ET ACCES A L'EDITEUR DE METADONNEES =====
 
-COMPLETER ICI
+==== Connexion à Alma pour le catalogage ====
+
+Pour pouvoir effectuer le signalement des collections dans Alma, il faut disposer du rôle adéquat à cette fin : rôle de catalogueur au minimum.
+
+==== Organisation des données. Rappel ====
+
+Dans Alma, les données de signalement sont découpées en trois "niveaux" :
+
+  * Le niveau des "métadonnées descriptives" décrit un document. La //**notice bibliographique**//  correspond à ce niveau dans Alma. Elle est commune aussi bien aux ressources électroniques qu'au ressources physiques.
+  * Le niveau "intermédiaire" est un regroupement entre différentes instanciations du même titre. Ce niveau n'a pas la même forme selon qu'on parle de ressources physiques, électroniques ou numériques. Pour les ressources physiques, par exemple, il s'agit de la //**notice holding**//  .
+  * Le niveau "inventaire" contient les informations du document au sens de l'objet constituant le document recherché en tant que porteur de l'information. Par exemple : un exemplaire donné, un fichier donné, une revue électronique donnée.
+
+Pour le niveau intermédiaire et le niveau inventaire, on a dans Alma différents objets selon qu'on a une ressource physique ou électronique.
+
+Il est à noter que dans les documents Alma mis en ligne par ExLibris, ce vocabulaire n'est pas toujours cohérent. Notamment, la notion d'inventaire englobe généralement le niveau intermédiaire et le niveau inventaire. On fera de même dans ce qui suit et, au moins pour les ressources physiques, quand on parlera d'inventaire on désignera généralement à la fois la holding et l'exemplaire proprement dit.
+
+{{  :condorcet:signalement:signalement-structure-donnees.jpg?nolink&  |signalement-structure-donnees.jpg}}
+
+== Cas des ressources physiques : holding et exemplaire ==
+
+Le modèle de données est le suivant :
+
+{{  :condorcet:signalement:signalement-modele-donnees-physiques.jpg?nolink&  |signalement-modele-donnees-physiques.jpg}}
+
+Dans cet exemple, deux holdings sont rattachée à la même notice bibliographique. La notice décrivant la holding est une notice différente de la notice bibliographique mais la holding est évidemment rattachée à sa notice bibliographique.
+
+Une notice bibliographique peut avoir plusieurs notices de holding mais une notice holding ne peut être rattachée qu'à une seule notice bibliographique.
+
+La notice holding contient l'information sur la bibliothèque où se trouve l'exemplaire,sur la localisation de celui-ci et sa cote. Dans le cas du GED, il n'y a qu'une bibliothèque qui est le GED. On ne peut avoir qu'une holding pour un titre pour une localisation donnée.
+
+//La notice holding est en MARC21 //: c'est le champ 852. On peut noter en particulier les sous-champs suivants :
+
+  * bibliothèque : 852$b
+  * localisation : 852$c
+  * cote: 852$h
+
+[[http://www.loc.gov/marc/holdings/hd852.html|La structure de la zone 852 du MARC21 est décrite ici.]]
+
+L'exemplaire (niveau inventaire) est décrit par une notice d'exemplaire. Celle-ci ne peut pas directement être éditée en Marc dans Alma mais elle peut être créé et modifiée à travers un écran prévu à cet effet comme cela sera décrit plus loin.
+
+Cas des ressources électroniques
+
+Le modèle de données est le suivant :
+
+{{  :condorcet:signalement:signalement-modele-donnees-electroniques.jpg?nolink&  |signalement-modele-donnees-electroniques.jpg}}
+
+Dans le modèle proposée ci-dessus, deux portfolios sont attachés à la même notice bibliographique. Un portfolio permet couvre les années d'une revue entre 2002 et 2013, l'autre entre 1997 et 2011. Chaque de ces portfolios en accessible chez un fournisseur différent.
+
+On peut considérer en première approche que le portfolio est comme un "exemplaire électronique" au sens où c'est à travers lui qu'on accède à l'information. Mais il n'est pas tout à fait correct de plaquer le modèle holding / exemplaire des ressources physiques sur le modèle service / portfolio des ressources électroniques. C'est pourquoi nous nous abstiendrons en général d'une telle analogie.
+
+==== Accéder à l'éditeur de métadonnées ====
+
+Pour accéder à l'éditeur de métadonnées : **Ressources > Ouvrir l'éditeur de métadonnées**.
+
+Quand on accède directement à l'éditeur de médatonnées pour modifier une notice sans avoir préalablement le titre concerné, il faut alors rechercher le titre.
+
+Sinon, on peut rechercher le titre dans Alma et accéder depuis le résultat de la recherche à l'éditeur de métadonnées. On a alors deux possibilités :
+
+  * Accéder à la notice bibliographique : c'est le bouton **Modifier la notice **qu'il faut cliquer (voir image ci-dessous).
+  * Accéder à la notice holding : il faut cliquer sur le bouton **Notice de fonds **puis dans l'écran qui permet de visualiser cette notice, cliquer sur le bouton **Modifier**  (au-dessus de la notice à droite).
+
+{{  :condorcet:signalement:signalement-acces-editeur.jpg?nolink&  |signalement-acces-editeur.jpg}}
+
+Le menu **Ressources > Parcourir la liste des emplacements sur les rayons **ouvre également l'éditeur de métadonnées et permet de rechercher des notices par cote (a minima : ce critère est obligatoire), par bibliothèque (dans le cas du GED, il n'y en a qu'une) et par localisation (critère facultatif). On obtient alors une liste des titres concernés.
+
+Le menu **Ressources > Naviguer dans les vedettes bibliographiques **ouvre également l'éditeur de métadonnées et permet de rechercher des notices sur les critères suivants : titres, sujets, noms, collections, cote/classification soit en Marc21 soit en Unimarc. Selon le critère choisi, on pourra éventuellement préciser un (des) sous-critère(s).
+

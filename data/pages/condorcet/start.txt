@@ -1,6 +1,6 @@
 <WRAP center round box 100%>
 
-====== Alma - GED - Campus Condorcet ======
+====== Documentation Alma - GED ======
 
 </WRAP>
 

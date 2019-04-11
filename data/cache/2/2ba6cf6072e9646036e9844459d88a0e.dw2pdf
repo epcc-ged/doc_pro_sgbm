@@ -1,0 +1,112 @@
+<a name="condorcetsignalementediteur-de-metadonnees__"></a>
+<h2><bookmark content="CIRCULATION : EDITEUR DE METADONNEES" level="1" /><a name="condorcetsignalementediteur-de-metadonnees__circulationediteur_de_metadonnees">CIRCULATION : EDITEUR DE METADONNEES</a></h2>
+<div class="level2">
+
+<p>
+Les notices bibliographiques sont en principe créées dans le Sudoc. L&#039;éditeur de métadonnées sera donc essentiellement utilisées en modification de ces notices ou pour y attacher une notice holding, un exemplaire ou un portfolio.
+</p>
+
+<p>
+On sera néanmoins amené à créer des notices d&#039;acquisition contenant les informations requises <em>a minima</em> pour signaler le titre (voir le chapitre sur les acquisitions) mais une notice de ce type est amenée à être écrasée par la suite par la notice Sudoc correspondante.
+</p>
+
+</div>
+
+<h3><bookmark content="Vue générale" level="2" /><a name="condorcetsignalementediteur-de-metadonnees__vue_generale">Vue générale</a></h3>
+<div class="level3">
+
+<p>
+Quand on visualise une notice dans l&#039;éditeur de métadonnées, l&#039;écran est divisée en trois parties principales :
+</p>
+<ul>
+<li class="level1"><div class="li"> bandeau de gauche : accès aux modèles de notices, <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>aux notices récentes (??)</span>et aux règles permettant d&#039;effectuer automatiquement des transformations sur les notices</div>
+</li>
+<li class="level1"><div class="li"> bandeau de droite haut : partie principale contenant la notice et dans laquelle on réalise l&#039;édition de la notice</div>
+</li>
+<li class="level1"><div class="li"> bandeau de droite bas : différentes informations</div>
+</li>
+</ul>
+
+<p>
+Nous nous concentrons ici sur le bandeau de droite haut qui est la partie essentielle de l&#039;éditeur puisqu&#039;il contient la notice au format Marc. Dans les copies d&#039;écran ci-dessous, la notice est au format Marc 21.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/dokuwiki/lib/exe/fetch.php?media=condorcet:signalement:signalement-ecran-editeur.jpg" class="mediacenter" title="signalement-ecran-editeur.jpg" alt="signalement-ecran-editeur.jpg" /></div>Dans cette zone de l&#039;écran, il faut noter la barre de menu avec trois menus déroulants (Fichier, Modifier et Outils) et une suite d&#039;icônes.
+</p>
+
+</div>
+
+<h3><bookmark content="Modifier une notice bibliographique" level="2" /><a name="condorcetsignalementediteur-de-metadonnees__modifier_une_notice_bibliographique">Modifier une notice bibliographique</a></h3>
+<div class="level3">
+
+<p>
+Comme vu au chapitre précédent, on peut accéder à une notice bibliographique en modification de plusieurs façons.
+</p>
+
+</div>
+
+<h4><bookmark content="Ajout un champ" level="3" /><a name="condorcetsignalementediteur-de-metadonnees__ajout_un_champ">Ajout un champ</a></h4>
+<div class="level4">
+
+<p>
+Dans le menu Modifier, il faut cliquer sur l&#039;entrée Ajouter un champ (ou presser directement la touche F8).
+</p>
+
+</div>
+
+<h4><bookmark content="Modifier un champ" level="3" /><a name="condorcetsignalementediteur-de-metadonnees__modifier_un_champ">Modifier un champ</a></h4>
+<div class="level4">
+
+<p>
+Il suffit de se positionner sur le champ que l&#039;on souhaite modifier et de cliquer dessus : le champ devient alors éditable.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:1,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_important plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+Attention :On note le &#039;$&#039; en redoublant ce signe, soit &#039;$$&#039; dans l&#039;éditeur de métadonnées. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:2,&quot;range&quot;:&quot;0-&quot;} -->
+</div>
+
+<h4><bookmark content="Suppression de champ" level="3" /><a name="condorcetsignalementediteur-de-metadonnees__suppression_de_champ">Suppression de champ</a></h4>
+<div class="level4">
+
+<p>
+Il suffit de se positionner sur le champ qu&#039;on souhaite puis soit dans le menu Modifier, de cliquer sur Supprimer le champ ou d&#039;utiliser le raccourci clavier Ctrl+F6.
+</p>
+
+<p>
+Attention : si l&#039;on veut supprimer un sous-champ dans un champ donné, il faut modifier ce champ et effacer le texte correspondant à ce sous-champ (et son $).
+</p>
+
+</div>
+
+<h4><bookmark content="Enregistrer la notice (ou pas) et la débloquer" level="3" /><a name="condorcetsignalementediteur-de-metadonnees__enregistrer_la_notice_ou_pas_et_la_debloquer">Enregistrer la notice (ou pas) et la débloquer</a></h4>
+<div class="level4">
+
+<p>
+Le fait d&#039;enregistrer la notice ou de la quitter sans enregistrer doit prendre en compte la notion de blocage de la notice.
+</p>
+
+<p>
+Quand il travaille dessus, une notice est bloquée par l&#039;utilisateur. C<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>ela signifie qu&#039;à compter de sa dernière action</span>, la notice reste <em>bloquée </em>en édition : personne d&#039;autre que lui ne peut y accéder. Quand le travail sur la notice est terminée et qu&#039;on la quitte définitivement, il est donc recommandé de la débloquer.
+</p>
+
+<p>
+C&#039;est pour cette raison que le menu Fichier propose plusieurs options d&#039;enregistrement :
+</p>
+<ul>
+<li class="level1"><div class="li"> On peut enregistrer “simplement” la notice soit en cliquant l&#039;icône de la disquette, soit dans le menu <strong>Fichier &gt; Enregistrer la notice </strong>soit en pressant Ctrl + S. En ce cas, on enregistre le travail effectué mais <em>on ne débloque pas </em>la notice pour un autre utilisateur (voir ci-dessous).</div>
+</li>
+<li class="level1"><div class="li"> Si l&#039;enregistrement marque la fin du travail sur la notice, il est très recommandé d&#039;utiliser <strong>Fichier &gt; Enregistrer et débloquer la notice</strong>. Les modifications sur la notice sont enregistrées et un autre utilisateur peut éventuellement travailler dessus.</div>
+</li>
+</ul>
+
+<p>
+De la même façon, si l&#039;on quitte la notice <em>sans enregistrer</em>, il faut penser à cliquer sur <strong>Fichier &gt; Débloquer la notice </strong>pour permettre à un autre utilisateur de travailler dessus ensuite. Si l&#039;on quitte la notice en pressant sur le bouton quitter de l&#039;éditeur, celui-ci vous demandera si vous souhaitez débloquer la notice. Il est recommandé de répondre “oui”. Attention : si vous avez cliqué <em>en cours de travail </em>sur <strong>Enregistrer </strong>ou sur l&#039;icône de la disquette, le fait de quitter la notice d&#039;une manière ou d&#039;une autre n&#039;annulera pas ce précédent enregistrement.
+</p>
+
+</div>

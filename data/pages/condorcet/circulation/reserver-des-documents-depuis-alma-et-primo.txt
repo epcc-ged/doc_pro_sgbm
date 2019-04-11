@@ -1,3 +1,86 @@
-===== CIRCULATION : COMPLETER LE TITRE =====
+===== CIRCULATION : RESERVER DES DOCUMENTS =====
 
-COMPLETER ICI
+==== Fonctionnement général des réservations ====
+
+Dans Alma et dans Primo, une réservation est une //demande//.
+==== Réserver des documents depuis Alma ====
+
+On peut faire une réserve dans Alma au nom d'un lecteur.
+
+=== Sélectionner un bureau de prêt ===
+
+=== Réservation depuis le catalogue ===
+
+On recherche le titre souhaité par l'utilisateur. Puis on consulte les exemplaires liés à ce titre pour vérifier qu'aucun exemplaire n'est disponible en rayon. Si ce n'est pas le cas, on peut indiquer à l'utilisateur qu'un exemplaire est disponible dès maintenant.
+
+Sinon on peut faire une demande. Il faut alors retourner au titre dans la recherche. Le menu contextuel **''···'' **permet de faire une demande. La raison de la demande est alors "Demande de mise de côté d'un document emprunté ou en rayon". On remplit le formulaire associé. Puis on clique sur le bouton ''Soumettre''. Si l'utilisateur se connecte sur son compte lecteur Primo, il verra que la demande est apparue dans son compte.
+=== Réservation depuis un dossier usager ===
+
+On peut visualiser les demandes faites par un usager dans Alma en allant sur le compte lecteur tel que décrit ci-dessus par le menu **Services aux usagers > Services aux usagers**. L'onglet ''Demandes'' permet de voir les demandes du lecteur considéré.
+
+On peut créer une nouvelle demande directement dans cet écran. Il faut alors cliquer sur le bouton ''Soumettre la demande''. On fait alors une recherche dans la fenêtre modale qui s'ouvre afin de retrouver le titre souhaité. Lorsque le titre est trouvé, un bouton "Demande du lecteur" devient disponible dans cette fenêtre.
+
+{{:condorcet:circulation:circulation-soumettre-demande.jpg?nolink&|circulation-soumettre-demande.jpg}}
+
+Lorsqu'on clique sur ce bouton, on est redirigé vers un formulaire qui permet de réaliser la réservation. Si la demande réussie, Alma affiche le dossier du lecteur où l'on peut voir que la demande de réservation a été ajoutée.
+
+{{:condorcet:circulation:circulation-liste-demandes.jpg?nolink&|circulation-liste-demandes.jpg}}
+
+=== Vérifier / Annuler / Modifier une demande de réservation ===
+
+Ces opérations peuvent se faire depuis la recherche de titre ou depuis un dossier usager.
+
+**Depuis une recherche**, on recherche le titre. Au niveau du titre dans la liste de résultat, on voit le nombre de demande (réservation) associé à celui-ci :
+
+{{:condorcet:circulation:circulation-nb-demande-recherche.jpg?nolink&|circulation-nb-demande-recherche.jpg}}
+
+On clique alors sur le chiffre associé à ce champ Demandes pour arriver au détail de la liste des demandes de réservation.
+
+{{:condorcet:circulation:circulation-suivi-demande.jpg?nolink&|circulation-suivi-demande.jpg}}
+
+On peut alors agir sur la demande grâce aux boutons associés.
+
+**Depuis le dossier usager**, il faut accéder au dossier du lecteur concerné, aller dans l'onglet Demandes et d'agir à partir du menu contextuel.
+
+Concernant le nombre de demandes : il est possible de modifier l'ordre dans la liste des demandes.
+
+=== Rayon des réservations actives ===
+
+Dans le menu Services aux usagers > Demandes de ressource > Rayon des réservations actives, on peut voir la liste des réservations actives. Il s'agit des exemplaires retirés des rayons qui attendent que l'utilisateur ayant fait la réservation viennent chercher le livre.
+
+==== Réserver des documents depuis Primo ====
+
+La réservation de documents est une "demande" dans le vocabulaire de Primo. Réserver un document c'est donc le demander. Dans Primo, c'est le lecteur qui déclenche cette action.
+
+Le lecteur ne peut pas faire de demande regroupant plusieurs titres. Il faut travailler titre par titre.
+
+=== Se connecter et accéder à son compte lecteur ===
+
+Cette opération se réaliser comme déjà exposé ci-dessus.
+
+=== Consulter ses demandes ===
+
+Il faut cliquer sur le menu ''demandes'' de la barre de menu de l'écran du compte utilisateur.
+
+{{:condorcet:circulation:circulation-barre-primo.jpg?nolink&|circulation-barre-primo.jpg}}
+
+On peut aussi passer directement par le menu accessible en cliquant sur le nom du lecteur.
+
+=== Faire une demande de réservation ===
+
+Sur Primo, les demandes se font au niveau de la notice que l'utilisateur est en train de consulter. Il doit être préalablement connecté.
+
+Les demandes ne concernent évidemment que les ressources physiques.
+
+Sur la notice, la demande se fait en cliquant sur le lien ''Demander''affiché sous la notice que l'on consulte, au niveau de la rubrique **Obtenir**.
+
+{{:condorcet:circulation:circulation-primo-obtenir.jpg?nolink&|circulation-primo-obtenir.jpg}}
+
+En cliquant sur ''Demander'', un formulaire apparaît : il faut le remplir puis cliquer sur ''Envoyer la demande''.
+
+{{:condorcet:circulation:circulation-primo-formulaire-demande.jpg?nolink&|circulation-primo-formulaire-demande.jpg}}
+
+Un message indique si la demande a aboutie ou pas.
+
+Si c'est le cas, elle est visible depuis la liste des demandes dans le compte de l'utilisateur sous Primo. Elle est évidemment visible dans Alma pour le personnel de la bibliothèque ayant un rôle adéquat.
+

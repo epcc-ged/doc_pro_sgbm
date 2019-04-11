@@ -2,7 +2,11 @@
 
 ==== Se connecter à Alma ====
 
-====   ====
+<font 11pt/inherit;;#000000;;inherit>Alma est un</font> <font 11pt/inherit;;#000000;;inherit>système de gestion hébergé sur les serveurs du fournisseur Ex</font> <font 11pt/inherit;;#000000;;inherit>Libris</font> <font 11pt/inherit;;#000000;;inherit>. Il est utilisable depuis un navigateur Internet. P</font> <font 11pt/inherit;;#000000;;inherit>our</font> <font 11pt/inherit;;#000000;;inherit>s’y connecter,</font> <font 11pt/inherit;;#000000;;inherit>utiliser le lien</font> <font 11pt/inherit;;#000000;;inherit>suivant</font> <font 11pt/inherit;;#000000;;inherit>:</font> <font 11pt/inherit;;#000000;;#f1c40f>__XXX</font>__
+
+<font 11pt/inherit;;#000000;;inherit>L</font> <font 11pt/inherit;;#000000;;#f1c40f>es identifiant et mot de passe à renseigner sont ceux que vous utilisez habituellement pour aller sur l’Intranet réseau ou l’ENT de votre établissement</font>  <font 11pt/inherit;;#000000;;inherit>.</font>
+
+<font 11pt/inherit;;#000000;;inherit>Veuillez noter que l</font> <font 11pt/inherit;;#000000;;#f1c40f>a déconnexion est automatique après 30 mn</font>sans action.
 
 ==== Se localiser dans Alma ====
 

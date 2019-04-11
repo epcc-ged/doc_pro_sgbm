@@ -1,7 +1,8 @@
-====== CIRCULATION : TABLE DES MATIERES ======
+====== SIGNALEMENT : TABLE DES MATIERES ======
 
-  - [[condorcet:signalement:introduction-et-recherche|Introduction et recherche]]
-  - [[condorcet:signalement:editeur-de-metadonnees|Editeur de métadonnées]]
-  - [[condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma|Holdings et exemplaires : traitement dans le circuit d'acquisition Alma]]
-  - [[condorcet:signalement:traitement-hors-circuit-d-acquisition-alma|Holdings et exemplaires : traitement hors circuit d'acquisition Alma]]
-  - [[condorcet:signalement:gestion-des-exemplaires|Gestion des exemplaires]]
+  - [[:condorcet:signalement:introduction-et-recherche|Organisation des données et accès à l'éditeur de métadonnées]]
+  - [[:condorcet:signalement:editeur-de-metadonnees|L'éditeur de métadonnées]]
+  - [[:condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma|Holdings et exemplaires : traitement dans le circuit d'acquisition Alma]]
+  - [[:condorcet:signalement:traitement-hors-circuit-d-acquisition-alma|Holdings et exemplaires : traitement hors circuit d'acquisition Alma]]
+  - [[:condorcet:signalement:gestion-des-exemplaires|Gestion des exemplaires]]
+

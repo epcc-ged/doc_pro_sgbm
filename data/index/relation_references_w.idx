@@ -87,3 +87,6 @@ condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires
 condorcet:acquisition:reception-et-facturation:facturer-des-lignes-de-commande
 condorcet:acquisition:reception-et-facturation:reception-apres-facturation
 start
+namespace:previous
+namespace:startpage
+namespace:next
