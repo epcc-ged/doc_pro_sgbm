@@ -1,0 +1,40 @@
+===== SIGNALEMENT : LES NOTICES D'EXEMPLAIRES =====
+
+La notice d'exemplaire contient des éléments propres à l'exemplaire comme son code-barre par exemple.
+
+La notice d'exemplaire est nécessairement attachée à une holding qui donne notamment la localisation de l'exemplaire et sa cote. La notice d'exemplaire peut contenir néanmoins des informations de localisation temporaire et de cote temporaire (voir ci-dessous).
+
+On ne peut pas visualiser la notice d'exemplaire dans un format Marc dans Alma. On passe nécessairement par écran muni de plusieurs onglets pour décrire l'exemplaire et le consulter.
+
+==== Voir tous les exemplaires attachés à un titre ====
+
+On peut accéder à l'écran listant les exemplaires attachés à un titre de plusieurs façons :
+
+  * Depuis le résultat d'une recherche sur les titres, on peut obtenir une liste simplifiée des exemplaires physiques disponibles en cliquant sur le lien Physique (le chiffre entre parenthèses indique le nombre d'exemplaires). Quelques informations sont données qui correspondent à la holding en réalité.
+
+{{  :condorcet:signalement:signalement-liste-exemplaire-1.jpg?nolink&1064x312  |signalement-liste-exemplaire-1.jpg}}De là, le lien **Tous les exemplaires **ou dans le menu **''···''  **  le lien **Exemplaires **permet d'obtenir la liste des exemplaires à partir de laquelle les détails seront accessibles.
+
+  * Depuis la liste des notices de fonds (holding) attachées à un exemplaire, le lien **Voir les exemplaires **du menu **''···'' **  attaché à une notice donnée permet d'arriver à cette même liste des exemplaires.
+
+La liste des exemplaires à l'aspect suivant :
+
+{{  :condorcet:signalement:signalement-liste-exemplaire-2.jpg?nolink&1224x421  |signalement-liste-exemplaire-2.jpg}}
+
+  * Enfin, une autre possibilité est de rechercher sur les exemplaires physiques dans la barre de recherche. La liste des résultats ne renvoient que les titres dont au moins un exemplaire répond au critère. Depuis cette liste, on peut pour chaque notice directement modifier l'exemplaire ou voir tous les exemplaires grâce au menu **''···'' **.
+
+==== Consulter le détail d'un exemplaire sans le modifier ====
+
+Dans la liste des exemplaires, il faut cliquer sur **Voir **dans le menu ''**···**'', on peut visualiser le détail des informations sur l'exemplaire. Si vous cliquez sur le code-barre, vous serez automatiquement en mode de modification de l'exemplaire. L'écran de consultation de l'exemplaire est le même que celui d'ajout ou de modification mais les champs ne sont pas saisissables.
+
+<font inherit/inherit;;inherit;;#c0392b>Le détail de l'exemplaire est réparti dans quatre onglets :</font>
+
+==== Ajouter un exemplaire ====
+
+==== Mettre à jour un exemplaire ====
+
+==== Supprimer un exemplaire ====
+
+==== Déplacer un exemplaire ====
+
+==== Pilonner un exemplaire ====
+

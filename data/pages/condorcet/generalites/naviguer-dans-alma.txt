@@ -18,8 +18,10 @@ A chaque connexion, vous êtes donc invité à choisir un bureau de prêt ou un 
 
 Veuillez noter que cette liste peut être différente en fonction des rôles que vous aurez dans Alma.
 
-====\\
-Page d’accueil d’Alma ====
+==== ====\\
+Page d’accueil d’Alma
+
+====   ====
 
 === Vue générale ===
 
@@ -86,7 +88,7 @@ En fonction de vos rôles, vous accéderez aux menus suivants, ainsi qu’à tou
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-  * Sélection du bureau de prêt ou du <font inherit/inherit;;#e74c3c;;inherit>département</font>, la liste varie en fonction des rôles attribués.
+  * Icône localisation : sélection du bureau de prêt ou du <font inherit/inherit;;#e74c3c;;inherit>département</font>, la liste varie en fonction des rôles attribués.
 
 NB : l’emplacement actuel n’apparaît pas par défaut, il faut le cocher pour l’afficher.
 
@@ -94,11 +96,11 @@ Exemple :
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-  * <font inherit/inherit;;#e74c3c;;inherit>Icône de connexion à la RFID</font> . Attention, n’est utile qu’aux bibliothèques équipées de RFID. Sinon, cette icône doit être laissée désactivée comme dans l’illustration précédente.
+  * <font inherit/inherit;;#e74c3c;;inherit>Icône de connexion à la RFID</font>. Attention, n’est utile qu’aux bibliothèques équipées de RFID. Sinon, cette icône doit être laissée désactivée comme dans l’illustration précédente.
 
 {{:condorcet:generalites:logo_perso.jpg?nolink&|logo_perso.jpg}}
 
-  * Votre nom apparaît, avec un lien vers votre fiche usager.
+  * Icône utilisateur : votre nom apparaît, avec un lien vers votre fiche usager.
 
 Cette icône vous permet de configurer la taille de la police, et aussi de vous déconnecter pour quitter la session.
 
@@ -106,7 +108,7 @@ Cette icône vous permet de configurer la taille de la police, et aussi de vous 
 
 {{:condorcet:generalites:liste_taches.jpg?nolink&57x64|liste_taches.jpg}}
 
-  * Liste des tâches : indique le type de tâches et le nombre. Chaque ligne est cliquable.
+  * Icône liste des tâches : indique le type de tâches et le nombre. Chaque ligne est cliquable.
 
 Par exemple :
 
@@ -114,22 +116,26 @@ Par exemple :
 
 {{:condorcet:generalites:configuration.jpg?nolink&|configuration.jpg}}
 
-  * Lien vers la page Configuration d’Alma.
+  * Icône configuration d’Alma
 
 {{:condorcet:generalites:aide_en_ligne.jpg?nolink&|aide_en_ligne.jpg}}
 
-  * Lien vers l’aide en ligne.
+  * Icône aide en ligne
 
-==== === \\
-Barre de recherche permanente === ====
+=== \\
+Barre de recherche permanente ===
 
 Cette barre de recherche apparaît sous le Menu permanent, et figure sur toutes les pages.
 
 {{:condorcet:generalites:barre_recherche_simple.jpg?nolink&|barre_recherche_simple.jpg}}
 
-Par défaut c’est la recherche simple qui est proposée avec pour périmètre de recherche l’Institution, c’est-à-dire tout le réseau.
+Par défaut c’est la recherche simple qui est proposée, avec pour périmètre de recherche l’Institution, c’est-à-dire tout le réseau Condorcet.
+
+{{:condorcet:generalites:deux_zones_de_recherche.jpg?nolink&|deux_zones_de_recherche.jpg}}
 
 La recherche avancée permet de combiner différents critères de recherche, d’utiliser des opérateurs booléens et de modifier la zone de recherche (Zone Institution ou Communautaire).
+
+{{:condorcet:generalites:recherche_avancee.jpg?nolink&|recherche_avancee.jpg}}
 
 === \\
 Widgets Alma ===
@@ -140,7 +146,11 @@ Le contenu et la disponibilité des widgets sont configurables au niveau de l’
 
   * Pour afficher les widgets :
 
-Le bouton ''Gérer les widgets''  permet d’afficher le tableaudes widgets disponibles pour vous à l’instant T :
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le bouton ''Gérer les widgets''  permet d’afficher le tableau des widgets disponibles pour vous à l’instant T :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 Dans la liste proposée, sélectionner ou décocher le widget souhaité.
 
@@ -148,22 +158,22 @@ Dans la liste proposée, sélectionner ou décocher le widget souhaité.
 
 Sélectionner ''Supprimer ''dans le menu déroulant en haut à droite du widget.
 
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 === \\
 Configuration des favoris ===
 
-On peut sélectionner ses favoris en cliquant sur l'étoile devant le nom des fonctions dans tous les menus. De le même manière, on désactive ces fonctions de la liste des favoris en recliquant sur l'étoile.
+On peut sélectionner des favoris en cliquant sur l'étoile devant le nom des fonctions dans tous les menus. De le même manière, on désactive ces fonctions de la liste des favoris en recliquant sur l'étoile.
 
-On peut également configurer des favoris en utilisant l’étoile du Menu permanent.
+Pour accéder à vos favoris, il suffit de cliquer sur l’étoile dans la barre du Menu permanent :
 
-Par exemple, pour configurer le prêt et le retour, aller dans le menu ''Service aux Usagers''
-
-Cliquer devant les fonctions que vous voulez sélectionner parmi vos favoris (par exemple **Service aux usagers / Rentrer des exemplaires**)
-
-Pour accéder ensuite à vos favoris, il suffit de cliquer sur l'étoile dans la barre du Menu permanent.
+{{:condorcet:generalites:etoile.jpg?nolink&|etoile.jpg}}
 
 Cette barre ne comporte que les favoris que vous avez sélectionnés.
 
-Pour retourner au Menu permanent, cliquez sur les trois barres parallèles
+Pour retourner au Menu permanent, cliquez sur les trois barres parallèles.
 
-NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Plusieurs favoris ne sont donc proposés que lorsque l’on est dans une banque de prêt ; d’autres quand on est au Département acquisitions.
+{{:condorcet:generalites:retour_favoris.jpg?nolink&|retour_favoris.jpg}}
+
+NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Plusieurs favoris ne sont donc proposés que lorsque l’on est dans une banque de prêt ; d’autres quand on est au <font inherit/inherit;;#e74c3c;;inherit>Département acquisitions</font>.
 

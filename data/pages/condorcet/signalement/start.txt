@@ -3,6 +3,5 @@
   - [[:condorcet:signalement:introduction-et-recherche|Organisation des données et accès à l'éditeur de métadonnées]]
   - [[:condorcet:signalement:editeur-de-metadonnees|L'éditeur de métadonnées et les notices bibliographiques]]
   - [[:condorcet:signalement:les-notices-holdings|Les notices holdings]]
-  - [[:condorcet:signalement:traitement-hors-circuit-d-acquisition-alma|Holdings et exemplaires : traitement hors circuit d'acquisition Alma]]
-  - [[:condorcet:signalement:gestion-des-exemplaires|Gestion des exemplaires]]
+  - [[:condorcet:signalement:les-exemplaires|Les notices d'exemplaires]]
 
