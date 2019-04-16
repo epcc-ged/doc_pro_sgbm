@@ -4,4 +4,5 @@
   - [[:condorcet:signalement:editeur-de-metadonnees|L'éditeur de métadonnées et les notices bibliographiques]]
   - [[:condorcet:signalement:les-notices-holdings|Les notices holdings]]
   - [[:condorcet:signalement:les-exemplaires|Les notices d'exemplaires]]
+  - Le catalogage rapide
 

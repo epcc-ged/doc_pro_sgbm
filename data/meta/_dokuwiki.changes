@@ -1,16 +1,3 @@
-1554385867	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			903
-1554385881	194.254.171.10	E	condorcet:signalement:start	jchiavassa			6
-1554385928	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			92
-1554385950	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa	[Connexion à Alma pour le catalogage] 		47
-1554386143	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			126
-1554386158	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa	[Connexion à Alma pour le catalogage] 		1084
-1554386191	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			-48
-1554386201	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			-1
-1554386223	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			1
-1554386316	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			72
-1554386374	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			-987
-1554387450	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			1431
-1554387520	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			54
 1554801524	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			1121
 1554801548	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			48
 1554801650	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			102
@@ -99,7 +86,6 @@
 1554990189	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			2
 1554990368	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			-2
 1554990722	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			164
-1553243159	127.0.0.1	E	condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma		modification externe		115
 1554990967	194.254.171.10	E	condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma	jchiavassa			56
 1554991111	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			107
 1554991147	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			19
@@ -113,6 +99,7 @@
 1554992244	194.254.171.10	E	condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma	jchiavassa			87
 1554992958	194.254.171.10	E	condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma	jchiavassa			1269
 1554993067	194.254.171.10	E	condorcet:signalement:traitement-dans-le-circuit-d-acquisition-alma	jchiavassa			67
+1554993067	127.0.0.1	E	condorcet:signalement:les-notices-holdings		modification externe		4101
 1554993374	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			93
 1554993661	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			11
 1554993715	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			-4
@@ -129,17 +116,29 @@
 1554995041	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			-253
 1554995352	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			10
 1554995544	81.67.148.147	E	condorcet:generalites:naviguer-dans-alma	rguidoni			32
-1554993067	127.0.0.1	E	condorcet:signalement:les-notices-holdings		modification externe		4101
 1555057726	194.254.171.10	E	condorcet:signalement:les-notices-holdings	jchiavassa			537
 1555058171	194.254.171.10	E	condorcet:signalement:les-notices-holdings	jchiavassa			642
 1555058478	194.254.171.10	E	condorcet:signalement:les-notices-holdings	jchiavassa			540
 1555060208	194.254.171.10	E	condorcet:signalement:les-notices-holdings	jchiavassa			2096
 1555061645	194.254.171.10	E	condorcet:signalement:start	jchiavassa			-132
 1555061735	194.254.171.10	E	condorcet:signalement:start	jchiavassa			-27
-1553243187	127.0.0.1	E	condorcet:signalement:les-exemplaires		modification externe		112
 1555061762	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			-53
 1555061903	194.254.171.10	E	condorcet:signalement:start	jchiavassa			10
 1555062110	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			765
 1555062745	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			1204
 1555062964	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			511
 1555063220	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			345
+1555402034	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			452
+1555403292	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			540
+1555408472	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			866
+1555408490	194.254.171.10	E	condorcet:signalement:start	jchiavassa			25
+1555408769	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			699
+1555408830	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			93
+1555408897	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			-3
+1555408923	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			-148
+1555409051	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			155
+1555409430	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			59
+1555424500	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			-41
+1555424615	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			124
+1555424980	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			103
+1555425391	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			886

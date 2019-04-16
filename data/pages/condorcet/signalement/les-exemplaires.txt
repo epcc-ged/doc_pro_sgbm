@@ -26,15 +26,54 @@ La liste des exemplaires à l'aspect suivant :
 
 Dans la liste des exemplaires, il faut cliquer sur **Voir **dans le menu ''**···**'', on peut visualiser le détail des informations sur l'exemplaire. Si vous cliquez sur le code-barre, vous serez automatiquement en mode de modification de l'exemplaire. L'écran de consultation de l'exemplaire est le même que celui d'ajout ou de modification mais les champs ne sont pas saisissables.
 
-<font inherit/inherit;;inherit;;#c0392b>Le détail de l'exemplaire est réparti dans quatre onglets :</font>
+Le détail de l'exemplaire est réparti dans quatre onglets :
+
+  * information générale : on y saisit notamment le code-barre de l'exemplaire, une cote alternative si nécessaire (c'est une cote de rangement), une localisation temporaire avec une cote temporaire si nécessaire, etc.
+  * information ENUM/CHRON : cette onglet permet de suivre les périodiques et de générer le champ "description" dans l'onglet de informations générales (selon un modèle configurable par un administrateur).
+  * notes : notes publiques, notes internes, notes statistiques
+  * historique : onglet de consultation seulement où sont tracées toutes les opérations faites sur les informations de l'exemplaire.
 
 ==== Ajouter un exemplaire ====
 
+L'ajout de l'exemplaire peut se faire depuis plusieurs accès :
+
+  - Depuis l'éditeur de métadonnées, quand on est sur une notice holding, grâce au bouton {{:condorcet:signalement:signalement-ajouter-exemplaire.jpg?nolink&|signalement-ajouter-exemplaire.jpg}}ou le raccourci clavier Alt + i
+  - Depuis la liste des exemplaires attachés à une notice en cliquant sur le lien **Ajouter un exemplaire**.
+  - Menu Ressources > Créer l'inventaire > Ajouter un exemplaire physique
+  - <font inherit/inherit;;inherit;;#d35400>A COMPLETER</font>
+
+Lorsque l'on veut ajouter un exemplaire, on arrive sur un écran semblable à celui de l'écran de consultation des exemplaires.
+
+Par les accès 1 et 2 à la création, le titre auquel l'exemplaire est associé sera déterminé automatiquement.
+
+Par l'accès 3, merci de vous référer au chapitre **catalogage rapide**  dans la présente documentation.
+
+<WRAP center round info 60%> \\
+1. Le code-barre de l'exemplaire est une donnée obligatoire mais, par défaut, Alma ne vous bloquera pas si vous oubliez de l'indiquer. Dans ce cas, Alma calculera un code-barre et l'imposera (vous pourrez le modifier a posteriori)
+
+2. L'utlisation de l'onglet ENUM/CHRON puis du champ "description" dans l'onglet des informations générales est très important pour déterminer si l'exemplaire est une monographie ou un périodique. Si le champ **description**  est défini (c'est-à-dire s'il contient des caractères), l'exemplaire est un périodique. Si le champ "description" est vide, l'exemplaire est une monographie. Ce champ **description **est calculé à partir des informations contenu dans ENUM/CHRON. \\
+</WRAP>
+
+<font inherit/inherit;;#d35400;;inherit><WRAP center round important 60%> \\
+Attention : si vous modifiez la localisation de l'exemplaire, cela aura un effet dans la holding : si l'exemplaire est le seul de sa holding alors la localisation sera modifiée également dans la holding ; si l'exemplaire n'est pas le seul dans sa holding alors une nouvelle holding sera créée avec la nouvelle localisation. Elle ne contiendra que l'exemplaire en cours de création. La holding initiale continuera de contenir les autres exemplaires.</WRAP></font>
+
 ==== Mettre à jour un exemplaire ====
+
+La procédure d'accès est la même que ci-dessus (sauf celle qui se passe par le catalogage rapide).
 
 ==== Supprimer un exemplaire ====
 
+La suppression de l'exemplaire est réalisée depuis la liste des exemplaires dans le menu **''···'' **attaché à l'exemplaire.
+
+Si l'exemplaire était le seul ou le dernier attaché à sa holding, Alma déclenchera un traitement pour savoir que faire de la holding et de la notice bibliographique. Plusieurs choix vous seront proposés : il faudra en choisir un (ne pas modifier la holding, supprimer la holding, supprimer la notice bibliographique s'il n'y a pas d'autres holdings etc.)
+
 ==== Déplacer un exemplaire ====
 
-==== Pilonner un exemplaire ====
+====  Pilonner un exemplaire  ====
+
+<font inherit/inherit;;inherit;;#d35400>La notion de pilon n'existe pas dans Alma.</font>
+
+<font inherit/inherit;;inherit;;#d35400>On préconise donc d'utiliser une note de statistiques au niveau de l'exemplaire pour indiquer "Pilon".</font>
+
+<font inherit/inherit;;inherit;;#d35400>On ne peut pas non plus cacher d'exemplaire. Un exemplaire pilonné ne peut donc pas être caché.</font>
 
