@@ -4,7 +4,11 @@
 
 La barre de tri se trouve juste au-dessus de la liste des résultats.
 
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 ==== Liste des résultats ====
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 Pour chaque titre, une notice brève donne des éléments d'identification du document.
 
@@ -18,37 +22,87 @@ A ce stade, pour un document donné, on voit s'il s'agit :
 
 ==== Afficher les données d’inventaire de documents physiques issues des notices de holdings et d’exemplaires ====
 
+ (capture d'écran)
+
 === Premier mode d’accès ===
 
-Vous pouvez cliquer sur ''Physique''  pour afficher l'inventaire complet d'un titre dans ses versions imprimées.
+Vous pouvez cliquer sur ''Physique''  pour afficher l'inventaire complet d'un titre.
 
 Cet affichage correpond à un premier niveau d'information qui regroupe des éléments issus de la notice de holding et des informations sur les exemplaires.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 En cliquant sur ''Toutes les collections'', on accède aux notices de holding puis aux exemplaires qui leur sont rattachés.
 
 En cliquant sur ''Tous les exemplaires'', on accède directement aux exemplaires de toutes les notices de holdings.
-
   * Détail de l'affichage quand on clique sur ''Toutes les collections ''
 
-On clique ensuite sur ''Voir les exemplaires''  pour voir tous les exemaplires rattachés à cette notice de holding
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+On clique ensuite sur ''Voir les exemplaires''  pour voir tous les exemaplires rattachés à cette notice de holding.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 NB : à ce niveau d'affichage ''Exemplaire ''figurent les mentions spécifiques pour l'exemplaire, indiquant le statut et la disponibilité tels que "exemplaire pas en rayon", "lost", etc.
-
   * Détail de l'affichage quand on clique sur ''Tous les exemplaires''
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 On visualise ainsi tous les exemplaires, quelle que soit la notice de holding à laquelle ils sont rattachés.
 
 === Second mode d’accès ===
 
+Vous pouvez cliquer sur ''Données de fonds''  pour afficher les notices de holdings, et voir aussi les notices d'exemplaires rattachées à la notice de holding sélectionnée.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 ==== Afficher les données d’accès aux documents électroniques ====
 
 === Recherche par titre de collection ===
 
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Dans l'exemple ci-dessus, il existe <font inherit/inherit;;#e74c3c;;inherit>3014</font> portfolios, c'est-à-dire <font inherit/inherit;;#e74c3c;;inherit>3014</font> titres disponibles dans la collection JSTOR.
+
+Un clic sur ''Disponible pour''  permet d'afficher l'établissement abonné à cette ressource.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Un clic sur ''Portfolio ''permet de voir la liste des portfolios contenus dans la collection.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 === Recherche par titre de portfolio : index Portfolios électroniques ===
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Comme pour les collections, il existe, pour un même titre, une notice de portfolio par établissement ( <font inherit/inherit;;#8e44ad;;inherit>pas pertinent dans notre cas, non ?</font> )
+
+NB : un portfolio n'est pas nécessairement rattaché à une collection.
 
 === Portfolio indépendant ===
 
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+En cliquant sur ''Electronique'', on obtient le détail permettant de consulter le portfolio, mais on remarque qu'aucun titre de collection n'apparaît, pusique dans le cas présent, le portfolio est un titre isolé indépendant de toute collection électronique.
+
 === Recherche par l’index titres électroniques ===
 
+On obtient une seule réponse pour un titre donné, puis en cliquant sur ''Electronique'', on obtient la liste des abonnements avec pour chacun le nom de la collection et la possibilité de consulter le portfolio correspondant.
+
+Dans cet affichage, le terme "portefeuille" équivaut à "portfolio".
+
 ==== « Pictos » zone communauté / zone institution ====
+
+Recherche effectuée dans la zone Institution :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Recherche effectuée dans la zone Communauté :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+NB : Lorsque vous visualisez une notice dans la zone Institution ou Communuauté, un clic sur l'icône vous conduit sur la notice de l'autre zone (quand elle existe).
 

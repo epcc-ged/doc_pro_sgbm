@@ -1,3 +1,13 @@
-===== CIRCULATION : COMPLETER LE TITRE =====
+===== CIRCULATION : RETOURNER DES DOCUMENTS =====
 
-COMPLETER ICI
+Avant de pouvoir faire le retour d'un document, vous devez vous placer dans le bureau de prêt.
+
+Le retour des documents peut se faire de plusieurs façons :
+
+  - Par le menu Services aux usagers > Prêt/Retour > Retourner des exemplaires : dans ce cas, l'écran vous proposera de scanner le code-barre. Vous pourrez éventuellement modifier la date de retour en indiquant une date antérieure à la date du jour.
+  - Par le menu Services aux usagers > Prêt/Retour > Services aux usagers : dans ce cas, l'écran vous demande d'abord d'identifier un usager. Sur la fiche de l'usager, l'onglet Retour permet de faire un retour d'exemplaire en scannant l'exemplaire.
+
+<font inherit/inherit;;inherit;;#d35400>Dans les deux cas, l'exemplaire n'est pas automatiquement en rayon : il doit y être remis. On faire la manipulation à la main en scannant l'exemplaire dans la localisation où il doit être rangé.</font>
+
+Si l'exemplaire est rendu avec du retard alors Alma appliquera les règles de blocage / pénalité selon le paramétrage existant.
+

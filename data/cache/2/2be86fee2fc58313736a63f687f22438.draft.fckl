@@ -1,0 +1,17 @@
+a:6:{s:2:"id";s:45:"condorcet:circulation:retourner-des-documents";s:6:"prefix";b:0;s:4:"text";s:1237:"<h2>CIRCULATION : RETOURNER DES DOCUMENTS</h2>
+
+<div class="level2">
+<p>Avant de pouvoir faire le retour d&#39;un document, vous devez vous placer dans le bureau de pr&ecirc;t.</p>
+
+<p>Le retour des documents peut se faire de plusieurs fa&ccedil;ons :</p>
+
+<ol>
+	<li>Par le menu Services aux usagers &gt; Pr&ecirc;t/Retour &gt; Retourner des exemplaires : dans ce cas, l&#39;&eacute;cran vous proposera de scanner le code-barre. Vous pourrez &eacute;ventuellement modifier la date de retour en indiquant une date ant&eacute;rieure &agrave; la date du jour.</li>
+	<li>Par le menu Services aux usagers &gt; Pr&ecirc;t/Retour &gt; Services aux usagers : dans ce cas, l&#39;&eacute;cran vous demande d&#39;abord d&#39;identifier un usager. Sur la fiche de l&#39;usager, l&#39;onglet Retour permet de faire un retour d&#39;exemplaire en scannant l&#39;exemplaire.</li>
+</ol>
+
+<p><span style="background-color:#d35400;">Dans les deux cas, l&#39;exemplaire n&#39;est pas automatiquement en rayon : il doit y &ecirc;tre remis. On faire la manipulation &agrave; la main en scannant l&#39;exemplaire dans la localisation o&ugrave; il doit &ecirc;tre rang&eacute;. </span></p>
+
+<p>Si l&#39;exemplaire est rendu avec du retard alors Alma</p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1553263512;s:6:"client";s:10:"jchiavassa";}
