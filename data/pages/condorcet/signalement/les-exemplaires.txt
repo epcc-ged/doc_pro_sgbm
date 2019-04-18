@@ -69,7 +69,26 @@ Si l'exemplaire était le seul ou le dernier attaché à sa holding, Alma décle
 
 ==== Déplacer un exemplaire ====
 
-====  Pilonner un exemplaire  ====
+La localisation d'un exemplaire étant indiquée au niveau de la notice holding, déplacer un exemplaire revient à le rattacher à une autre holding que celui où il se trouve actuellement rattaché. Il est préférable de déplacer un exemplaire plutôt que de le supprimer puis d'en créer un autre : ainsi, on ne perd pas l'historique de cet exemplaire.
+
+Remarque: si une holding contient plusieurs exemplaires et que l'on veut changer la localisation de //tous //ses exemplaires, il faut travailler directement sur la notice holding et modifier la localisation dans celle-ci. Cela a un effet immédiat sur ses exemplaires en termes de localisation. Pour cela, il suffit d'aller dans l'éditeur de métadonnées pour cette holding et d'y modifier la localisation.
+
+On peut effectuer le déplacement de l'exemplaire de plusieurs façons.
+
+Une première façon consiste à partir de la holding : en observant les exemplaires qu'elle contient, on peut, au niveau de l'exemplaire à déplacer, accéder au sous-menu Modifier la localisation qui se trouve dans le menu **''···'' **attaché à l'exemplaire concerné. En cliquant sur ce menu, Alma vous guidera pour déplacer l'exemplaire (de façon permanente ou pas). Vous pouvez alors sélectionner la localisation souhaitée.
+
+<WRAP center round info 60%> \\
+1. Lorsqu'un exemplaire est déplacé, il passe au statut "en transit" jusqu'au moment où un bureau de prêt associé à la nouvelle localisation scanne l'exemplaire.
+
+2. Le déplacement de l'exemplaire de façon permanente crée une nouvelle holding sous la notice bibliographique avec la nouvelle localisation s'il n'y avait pas une telle holding auparavant. Si la holding pour la nouvelle localisation existait déjà alors elle n'est pas recréée et l'exemplaire est rattachée à la holding existante automatiquement. \\
+</WRAP>
+
+ \\
+On peut également directement travailler depuis la page de modification de l'exemplaire. Si vous effectuez le déplacement directement depuis cette page de modification de l'exemplaire en modifiant la valeur du champ "Localisation détentrice", le principe sera le même que ci-dessus mais l'exemplaire //ne sera pas //"en transit" : il sera immédiatement placé en rayon dans la nouvelle localisation !
+
+Pour déplacer //plusieurs //exemplaires d'un même titre dans une même localisation (et donc dans une même holding) vers une autre localisation existante pour un autre exemplaire du même titre (et donc une holding existe déjà), on peut sélectionner les exemplaires à déplacer dans la liste des exemplaires de la holding d'origine et cliquer sur le lien **Modifier les notices de fonds**. On doit alors sélectionner la holding vers laquelle on souhaite déplacer les exemplaires sélectionnés. Le déplacement est immédiat : les exemplaires sont immédiatement en rayon dans la nouvelle localisation.
+
+==== Pilonner un exemplaire ====
 
 <font inherit/inherit;;inherit;;#d35400>La notion de pilon n'existe pas dans Alma.</font>
 

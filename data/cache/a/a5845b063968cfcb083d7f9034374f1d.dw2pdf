@@ -1,0 +1,120 @@
+<a name="condorcetgeneralitesaffichage-des-resultats__"></a>
+<h2><bookmark content="GENERALITES : AFFICHAGE DES RESULTATS" level="1" /><a name="condorcetgeneralitesaffichage-des-resultats__generalitesaffichage_des_resultats">GENERALITES : AFFICHAGE DES RESULTATS</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Tri des résultats" level="2" /><a name="condorcetgeneralitesaffichage-des-resultats__tri_des_resultats">Tri des résultats</a></h3>
+<div class="level3">
+
+<p>
+La barre de tri se trouve juste au-dessus de la liste des résultats.
+</p>
+
+</div>
+
+<h3><bookmark content="Liste des résultats" level="2" /><a name="condorcetgeneralitesaffichage-des-resultats__liste_des_resultats">Liste des résultats</a></h3>
+<div class="level3">
+
+<p>
+Pour chaque titre, une notice brève donne des éléments d&#039;identification du document.
+</p>
+
+<p>
+Si on clique sur le titre de la notice brève, on affiche la notice complète.
+</p>
+
+<p>
+A ce stade, pour un document donné, on voit s&#039;il s&#039;agit :
+</p>
+<ul>
+<li class="level1"><div class="li"> d&#039;un document imprimé = “Physique”</div>
+</li>
+<li class="level1"><div class="li"> d&#039;un document électronique = “Electronique”</div>
+</li>
+<li class="level1"><div class="li"> d&#039;un document numérisé localement = “Numérique”</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Afficher les données d’inventaire de documents physiques issues des notices de holdings et d’exemplaires" level="2" /><a name="condorcetgeneralitesaffichage-des-resultats__afficher_les_donnees_d_inventaire_de_documents_physiques_issues_des_notices_de_holdings_et_d_exemplaires">Afficher les données d’inventaire de documents physiques issues des notices de holdings et d’exemplaires</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Premier mode d’accès" level="3" /><a name="condorcetgeneralitesaffichage-des-resultats__premier_mode_d_acces">Premier mode d’accès</a></h4>
+<div class="level4">
+
+<p>
+Vous pouvez cliquer sur <code>Physique</code>  pour afficher l&#039;inventaire complet d&#039;un titre dans ses versions imprimées.
+</p>
+
+<p>
+Cet affichage correpond à un premier niveau d&#039;information qui regroupe des éléments issus de la notice de holding et des informations sur les exemplaires.
+</p>
+
+<p>
+En cliquant sur <code>Toutes les collections</code>, on accède aux notices de holding puis aux exemplaires qui leur sont rattachés.
+</p>
+
+<p>
+En cliquant sur <code>Tous les exemplaires</code>, on accède directement aux exemplaires de toutes les notices de holdings.
+</p>
+<ul>
+<li class="level1"><div class="li"> Détail de l&#039;affichage quand on clique sur <code>Toutes les collections </code></div>
+</li>
+</ul>
+
+<p>
+On clique ensuite sur <code>Voir les exemplaires</code>  pour voir tous les exemaplires rattachés à cette notice de holding
+</p>
+
+<p>
+NB : à ce niveau d&#039;affichage <code>Exemplaire </code>figurent les mentions spécifiques pour l&#039;exemplaire, indiquant le statut et la disponibilité tels que “exemplaire pas en rayon”, “lost”, etc.
+</p>
+<ul>
+<li class="level1"><div class="li"> Détail de l&#039;affichage quand on clique sur <code>Tous les exemplaires</code></div>
+</li>
+</ul>
+
+<p>
+On visualise ainsi tous les exemplaires, quelle que soit la notice de holding à laquelle ils sont rattachés.
+</p>
+
+</div>
+
+<h4><bookmark content="Second mode d’accès" level="3" /><a name="condorcetgeneralitesaffichage-des-resultats__second_mode_d_acces">Second mode d’accès</a></h4>
+<div class="level4">
+
+</div>
+
+<h3><bookmark content="Afficher les données d’accès aux documents électroniques" level="2" /><a name="condorcetgeneralitesaffichage-des-resultats__afficher_les_donnees_d_acces_aux_documents_electroniques">Afficher les données d’accès aux documents électroniques</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Recherche par titre de collection" level="3" /><a name="condorcetgeneralitesaffichage-des-resultats__recherche_par_titre_de_collection">Recherche par titre de collection</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Recherche par titre de portfolio : index Portfolios électroniques" level="3" /><a name="condorcetgeneralitesaffichage-des-resultats__recherche_par_titre_de_portfolioindex_portfolios_electroniques">Recherche par titre de portfolio : index Portfolios électroniques</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Portfolio indépendant" level="3" /><a name="condorcetgeneralitesaffichage-des-resultats__portfolio_independant">Portfolio indépendant</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Recherche par l’index titres électroniques" level="3" /><a name="condorcetgeneralitesaffichage-des-resultats__recherche_par_l_index_titres_electroniques">Recherche par l’index titres électroniques</a></h4>
+<div class="level4">
+
+</div>
+
+<h3><bookmark content="« Pictos » zone communauté / zone institution" level="2" /><a name="condorcetgeneralitesaffichage-des-resultats__pictos_zone_communaute_zone_institution">« Pictos » zone communauté / zone institution</a></h3>
+<div class="level3">
+
+</div>

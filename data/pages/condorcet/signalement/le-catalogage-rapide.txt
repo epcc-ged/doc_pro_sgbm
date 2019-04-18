@@ -1,0 +1,40 @@
+==== SIGNALEMENT : LE CATALOGAGE RAPIDE ====
+
+Alma permet d'ajouter rapidement un exemplaire dans les ressources disponibles dans la bibliothèque quand la ressource en question n'est pas passée dans le circuit normal des acquisitions.
+
+Ce type de catalogage peut permettre :
+
+Cas 1 : d'ajouter un exemplaire à une notice holding existante
+
+Cas 2 : d'ajouter un exemplaire à une notice holding inexistante.
+
+On y accède par le menu Ressources > Créer l'inventaire > Ajouter un exemplaire physique.
+
+En premier lieu, il faudra choisir le cas applicable.
+
+{{  :condorcet:signalement:signalement-catalogage-rapide-etape-1.jpg?nolink&908x286  |signalement-catalogage-rapide-etape-1.jpg}}
+
+=== Cas du catalogage rapide pour une holding existante ===
+
+La fenêtre de travail qui apparaît après le clic sur le bouton Choisir ci-dessus est la suivante :
+
+{{  :condorcet:signalement:signalement-catalogage-rapide-existante-1.jpg?nolink&1500x315  |signalement-catalogage-rapide-existante-1.jpg}}Grâce à la zone de saisie Titre, il faut chercher le titre pour lequel on veut ajouter un exemplaire.
+
+Le titre identifié, les champs relatifs à l'exemplaire deviennent renseignables. La localisation est un champ obligatoire ! Dans la liste de valeurs associée à ce champ ne seront listées que les localisations pour lequel ce titre a une holding. L'exemplaire recevra donc la cote que contient cette holding.
+
+Si vous n'indiquez pas de code-barre, Alma en attribue un automatiquement.
+
+A la fin de l'enregistrement, Alma place automatiquement l'exemplaire en rayon. Il peut être immédiatement prêté.
+
+=== Cas du catalogage rapide pour une holding inexistante ===
+
+Dans ce cas, la première fenêtre vous demande d'indiquer le type de la ressource : s'agit-il d'un livre ou d'un article ?
+
+Dans ce mode, puisque la holding n'existe pas, Alma assume que la notice bibliographique n'existe pas non plus ! Il faut donc créer une notice bibliographique élémentaire pour ce titre à la main dans l'écran qui apparaît (voir ci-dessous).
+
+{{  :condorcet:signalement:signalement-catalogage-rapide-inexistant.jpg?nolink&1470x832  |signalement-catalogage-rapide-inexistant.jpg}}La liste des champs obligatoires s'adapte en fonction du type de ressource choisi.
+
+Notez que dans tous les cas, la localisation est obligatoire : c'est elle qui permet de créer la holding.
+
+A l'enregistrement, la notice bibliographique, la notice holding et l'exemplaire sont créés simultanément. Chacun de ces niveaux pourra ensuite faire l'objet de modification. Attention : on ne peut pas ajouter la cote dans la holding au moment de la création.
+

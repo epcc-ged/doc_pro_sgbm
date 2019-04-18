@@ -2,13 +2,77 @@
 
 ==== Zone « Institution » et zone « Communauté » ====
 
-====   ====
+Dans Alma, on distingue deux zones différentes : la zone "Institution" et la zone "Communauté".
+
+<font inherit/inherit;;#1abc9c;;inherit>(tableau)</font>
+
+NB : la zone proposée par défaut est toujours celle de l'institution (= périmètre Condorcet)
+
+La zone "Institution" comprend :
+
+  * les notices de ressources imprimées et électronique issues du SID chantier après le dernier chargement de décembre 2018
+  * les notices issues du Sudoc saisies entre le dernier export vers le SID chantier et la mise en production d'Alma
+  * les notices de ressources électroniques issues de <font inherit/inherit;;#e74c3c;;inherit>?</font>
+
+La zone "Communauté" regroupe les notices de tous les établissements (en France et aileurs dans le monde) utilisant Alma, elle comporte donc des notices d'autorités, des notices bibliographiques et des notices de ressources électroniques. Cette zone peut ainsi servir de réservoir de notices pour les acquisitions de ressources imprimées ou électroniques, ainsi que pour l'activation de ressources libres.
+
+<font inherit/inherit;;#1abc9c;;inherit>(copie d'écran)</font>
+
+Nous verrons plus tard comment identifier la provenance et l'appartenanace d'une notice à l'une ou l'autre de ces zones.
 
 ==== Structure des données ====
 
 === Ressources physiques : données bibliographiques et d'exemplaires ===
 
-===   ===
+ (tableau)
+
+== Notice bibliographique ==
+
+Source initiale : SID chantier + Sudoc (de déc. 2018 à sept. 2019)
+
+Source en production : Sudoc
+
+Format : Unimarc
+
+== Notice de holding ==
+
+Notice intermédiaire entre la notice bibliographique et les notices d'exemplaires pour les monographies et les périodiques imprimés. Elle regroupe les exemplaires d'une même "localisation", c'est-à-dire d'un même emplacement.
+
+Cette notice contient les éléments communs à différents exemplaires : la localisation et la bibliothèque donc, mais aussi la cote des exempalires qui lui sont rattachés.
+
+La notice de holding est parfois appelée notice de fonds ou de collection.
+
+Une notice bibliographique peut donc avoir plusieurs notices de holding, et une notice de holding peut avoir une ou plusieurs notices d'exemplaires qui lui sont liées.
+
+== Notice d'exemplaire ==
+
+Cette notice contient les informations spécifiques à chaque exemplaire, comme par exemple le code barres.
+
+Elle ne contient des informations sur les règles de prêt que dans le cas où les règles qui s'appliquent à cet exemplaire sont différentes de celles qui s'appliquent à la localisation à laquelle il appartient, par exemple un exemplaire exclu du prêt alors que la règle qui s'applique aux exemplaires de cette localisation autorise le prêt.
 
 === Ressources électroniques ===
+
+ (tableau)
+
+== Notice bibliographique ==
+
+Rappel : Alma regoupe à la fois les notices de documents électroniques catalogués dans Sudoc (livres, thèses…) et les notices bibliographiques des livres et périodiques électroniques issues de SFX .
+
+== Portfolio ==
+
+Terme pouvant être considéré comme l'équivalent de l'exemplaire pour les ressources électroniques. Il consiste en l'unité documentaire la plus "élémentaire". En l'occurrence, il contient les informations d'accès à la ressource telle que le lien URL, les éventuelles restrictions d'accès, la période de couverture, etc.
+
+Un portfolio peut faire partie d'une collection ou être isolé (par exemple, le porfolio d'un livre électronique acheté en dehors de tout bouquet).
+
+Pour un même établissement, il peut y avoir plusieurs porfolios rattachés à un même titre électronique ; c'est le cas par exemple lorsqu'un titre appartient à plusieurs bouquets souscrits par l'établissement.
+
+== Collection électronique ==
+
+Une collection électronique regroupe plusieurs portfolios. Elle correpond à un bouquet de publications électroniques (périodiques ou ebooks) ou à une base de données.
+
+== Service ==
+
+Correpond aux services qu'une collection électronique propose pour accéder à ses portfolios. Dans Alma, vous aurez accès à des services de texte intégral.
+
+Le service contient des informations de lien ou de connexion sur l'accès au texte intégral.
 

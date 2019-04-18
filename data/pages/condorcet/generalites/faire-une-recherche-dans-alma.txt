@@ -2,19 +2,145 @@
 
 ==== Critères de pré-recherche ====
 
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Les critères de pré-recherche ont une incidence sur les types de résultats obtenus. Ainsi, si vous sélectionnez
+
+  * "exemplaires physiques" : les résultats affichés seront des exemplaires
+  * "titres électroniques" : les résultats affichés seront des notices de ressources électroniques.
+
+La liste des critères de pré-recherche proposée dépend de votre rôle dans Alma :
+
+  * en vert (1e accolade de gauche, en haut) : critères pour la recherche bibliographique : sont disponibles pour **tout le monde**, quel que soit le rôle dans Alma
+  * en orange (2e accolade de gauche) : critères pour la recherche sur les données d'acquisitions, réservées aux **acquéreurs**
+  * en orange (2e accolade de droite) : critères pour la recherche sur les données d'usagers, réservées aux **gestionnaires d'usagers**
+  * en rouge (1e accolade de droite et 3e de gauche) : critères qui s'affichent mais qui <font inherit/inherit;;#e74c3c;;inherit>sont sans objet pour nous</font> : Titres, fichiers et collections numériques correspondent aux documents numérisés par la bibliothèque ; Autorités car il n'y a pas de notices d'autorité dans Alma.
+
+Pour sélectionner un critère de pré-recherche, il suffit de cliquer sur la flèche blanche à droite de ''Tous les titres''.
+
 ==== Recherche simple ====
 
-=== Tous les titres / Tout ===
+===   Tous les titres / Tout   ===
+
+C'est la recherche de base : Alma recherche les termes saisis dans tous les champs indexés.
+
+Exemple 1 : dans ''Utilisateurs'', chercher Martin (<font inherit/inherit;;#8e44ad;;inherit>est-ce vraiment un  exemplaire pertinent ici ?</font>)
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Exemple 2 : chercher histoire Japon
+
+dans ''Tous titres''  : recherche les notices bibliographiques contenant ces deux mots
+
+dans ''Tout''  : cherchent toutes les occurences qui contiennent ces deux mots
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+NB :
+
+  * le système n'est sensible ni à la casse (majuscule/minuscule), ni aux caractère diacritiques (français = francais)
+  * en revanche il n'y pas de mots vides
+
+exemple :
+
+histoire chine = X résultats
+
+histoire de la chine = Y résultats
+
+l'histoire de la chine = Z résultats
+
+  * la troncature se fait uniquement à la fin de l'expression de recherche, à doite du dernier mot et en ajoutant l'astérisque *
+  * il est possible de faire des recherches dans d'autres écritures
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 === Tri des résultats ===
 
+La barre de tri se trouve juste au-dessus de la liste des résultats.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 === Index de recherche ===
+
+Pour chaque critère de pré-recherche, on peut sélectionner l'index qu'on veut interroger. Pour afficher la liste de ces index, il faut **placer le curseur de la souris à côté de l'index**  affiché par défaut (ici, ''Tout'')
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+La liste déroulante des index s'affiche. Ils sont classés par ordre alphabétique, à l'exception des 5 premiers, car ayant été interrogés en dernier, ils sont donc remontés en haut de la liste, avec l'icône de l'horloge.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cette liste des index est contextuelle : certains sont communs à tous les critères de pré-recherche, tandis que d'autres ne sont disponibles que pour l'un ou l'autre des index.
 
 === Critères de pré-recherche ===
 
+Le choix du critère de pré-recherche détermine le résultat de la recherche.
+
+Exemple : si on recherche histoire chine dans ''Tout''
+
+<font inherit/inherit;;#1abc9c;;inherit>(tableau)</font>
+
 === Facettes ===
+
+Les facettes permettent de filtrer les résultats de la recherche. Elle sonst aussi contextuelles et dépendent du critère de pré-recherche.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquer sur une facette pour la sélectionner.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Les facettes sélectionnées apparaissent maintenant dans la barre des filtres, au-dessus de la liste des résultats. Le nombre de résultats est recalculé en conséquence.
+
+Cliquer sur <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font> pour supprimer une facette.
 
 ==== Recherche avancée ====
 
+La recherche avancée permet d'affiner la recherche en interrogeant plusieurs index, et de faire des limitations.
+
+Cliquer sur ''Avancé''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Une nouvelle ligne de commande s'ouvre. Elle comprend 3 zones :
+
+  * la zone de l'index qu'on souhaite interroger
+  * une liste déroulante contextuelle qui permet de préciser comment on interroge l'index
+  * la zone de saisie ou de sélection des termes de recherche
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquer sur <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>pour ajouter une ligne
+
+cliquer sur <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>pour dupliquer une ligne
+
+cliquer sur <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font> pour supprimer une ligne
+
 === Index de recherche ===
+
+== Tous les titres ==
+
+Les index se présentent comme dans la recherche simple, ils sont simplement plus nombreux.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+== Titres physiques / Exemplaires physiques ==
+
+Liste des index disponibles :
+
+On retrouve en haut les 5 derniers index interrogés. Juste en dessous, 3 sous-menus grisés se déplient si on clique sur la flèche :
+
+  * Titre : pour chercher des données dans les notices bibliographiques
+  * Holding : pour chercher des données dans les notices de holding
+  * Exemplaire : pour chercher des données dans les notices d'exemplaires.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Exemple : rechercher un titre dans une bibliothèque précise
+
+Le résultat affiche la notice dont un exemplaire se trouve bien dans la bibliothèque demandée.
+
+Attention ! Cette recherche n'est possible que pour les **titres physiques**.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 

@@ -1,0 +1,173 @@
+<a name="condorcetsignalementles-exemplaires__"></a>
+<h2><bookmark content="SIGNALEMENT : LES NOTICES D&#039;EXEMPLAIRES" level="1" /><a name="condorcetsignalementles-exemplaires__signalementles_notices_d_exemplaires">SIGNALEMENT : LES NOTICES D&#039;EXEMPLAIRES</a></h2>
+<div class="level2">
+
+<p>
+La notice d&#039;exemplaire contient des éléments propres à l&#039;exemplaire comme son code-barre par exemple.
+</p>
+
+<p>
+La notice d&#039;exemplaire est nécessairement attachée à une holding qui donne notamment la localisation de l&#039;exemplaire et sa cote. La notice d&#039;exemplaire peut contenir néanmoins des informations de localisation temporaire et de cote temporaire (voir ci-dessous).
+</p>
+
+<p>
+On ne peut pas visualiser la notice d&#039;exemplaire dans un format Marc dans Alma. On passe nécessairement par écran muni de plusieurs onglets pour décrire l&#039;exemplaire et le consulter.
+</p>
+
+</div>
+
+<h3><bookmark content="Voir tous les exemplaires attachés à un titre" level="2" /><a name="condorcetsignalementles-exemplaires__voir_tous_les_exemplaires_attaches_a_un_titre">Voir tous les exemplaires attachés à un titre</a></h3>
+<div class="level3">
+
+<p>
+On peut accéder à l&#039;écran listant les exemplaires attachés à un titre de plusieurs façons :
+</p>
+<ul>
+<li class="level1"><div class="li"> Depuis le résultat d&#039;une recherche sur les titres, on peut obtenir une liste simplifiée des exemplaires physiques disponibles en cliquant sur le lien Physique (le chiffre entre parenthèses indique le nombre d&#039;exemplaires). Quelques informations sont données qui correspondent à la holding en réalité.</div>
+</li>
+</ul>
+
+<p>
+<div align="center" style="text-align: center"><img src="/dokuwiki/lib/exe/fetch.php?w=1064&amp;h=312&amp;tok=e64840&amp;media=condorcet:signalement:signalement-liste-exemplaire-1.jpg" class="mediacenter" title="signalement-liste-exemplaire-1.jpg" alt="signalement-liste-exemplaire-1.jpg" width="1064" height="312" /></div>De là, le lien <strong>Tous les exemplaires </strong>ou dans le menu <strong><code>···</code>  </strong>  le lien <strong>Exemplaires </strong>permet d&#039;obtenir la liste des exemplaires à partir de laquelle les détails seront accessibles.
+</p>
+<ul>
+<li class="level1"><div class="li"> Depuis la liste des notices de fonds (holding) attachées à un exemplaire, le lien <strong>Voir les exemplaires </strong>du menu <strong><code>···</code> </strong>  attaché à une notice donnée permet d&#039;arriver à cette même liste des exemplaires.</div>
+</li>
+</ul>
+
+<p>
+La liste des exemplaires à l&#039;aspect suivant :
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/dokuwiki/lib/exe/fetch.php?w=1224&amp;h=421&amp;tok=0f018b&amp;media=condorcet:signalement:signalement-liste-exemplaire-2.jpg" class="mediacenter" title="signalement-liste-exemplaire-2.jpg" alt="signalement-liste-exemplaire-2.jpg" width="1224" height="421" /></div>
+</p>
+<ul>
+<li class="level1"><div class="li"> Enfin, une autre possibilité est de rechercher sur les exemplaires physiques dans la barre de recherche. La liste des résultats ne renvoient que les titres dont au moins un exemplaire répond au critère. Depuis cette liste, on peut pour chaque notice directement modifier l&#039;exemplaire ou voir tous les exemplaires grâce au menu <strong><code>···</code> </strong>.</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Consulter le détail d&#039;un exemplaire sans le modifier" level="2" /><a name="condorcetsignalementles-exemplaires__consulter_le_detail_d_un_exemplaire_sans_le_modifier">Consulter le détail d&#039;un exemplaire sans le modifier</a></h3>
+<div class="level3">
+
+<p>
+Dans la liste des exemplaires, il faut cliquer sur <strong>Voir </strong>dans le menu <code><strong>···</strong></code>, on peut visualiser le détail des informations sur l&#039;exemplaire. Si vous cliquez sur le code-barre, vous serez automatiquement en mode de modification de l&#039;exemplaire. L&#039;écran de consultation de l&#039;exemplaire est le même que celui d&#039;ajout ou de modification mais les champs ne sont pas saisissables.
+</p>
+
+<p>
+Le détail de l&#039;exemplaire est réparti dans quatre onglets :
+</p>
+<ul>
+<li class="level1"><div class="li"> information générale : on y saisit notamment le code-barre de l&#039;exemplaire, une cote alternative si nécessaire (c&#039;est une cote de rangement), une localisation temporaire avec une cote temporaire si nécessaire, etc.</div>
+</li>
+<li class="level1"><div class="li"> information ENUM/CHRON : cette onglet permet de suivre les périodiques et de générer le champ “description” dans l&#039;onglet de informations générales (selon un modèle configurable par un administrateur).</div>
+</li>
+<li class="level1"><div class="li"> notes : notes publiques, notes internes, notes statistiques</div>
+</li>
+<li class="level1"><div class="li"> historique : onglet de consultation seulement où sont tracées toutes les opérations faites sur les informations de l&#039;exemplaire.</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Ajouter un exemplaire" level="2" /><a name="condorcetsignalementles-exemplaires__ajouter_un_exemplaire">Ajouter un exemplaire</a></h3>
+<div class="level3">
+
+<p>
+L&#039;ajout de l&#039;exemplaire peut se faire depuis plusieurs accès :
+</p>
+<ol>
+<li class="level1"><div class="li"> Depuis l&#039;éditeur de métadonnées, quand on est sur une notice holding, grâce au bouton <img src="/dokuwiki/lib/exe/fetch.php?media=condorcet:signalement:signalement-ajouter-exemplaire.jpg" class="media" title="signalement-ajouter-exemplaire.jpg" alt="signalement-ajouter-exemplaire.jpg" />ou le raccourci clavier Alt + i</div>
+</li>
+<li class="level1"><div class="li"> Depuis la liste des exemplaires attachés à une notice en cliquant sur le lien <strong>Ajouter un exemplaire</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Menu Ressources &gt; Créer l&#039;inventaire &gt; Ajouter un exemplaire physique</div>
+</li>
+<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>A COMPLETER</span></div>
+</li>
+</ol>
+
+<p>
+Lorsque l&#039;on veut ajouter un exemplaire, on arrive sur un écran semblable à celui de l&#039;écran de consultation des exemplaires.
+</p>
+
+<p>
+Par les accès 1 et 2 à la création, le titre auquel l&#039;exemplaire est associé sera déterminé automatiquement.
+</p>
+
+<p>
+Par l&#039;accès 3, merci de vous référer au chapitre <strong>catalogage rapide</strong>  dans la présente documentation.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:1,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_info plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+1. Le code-barre de l&#039;exemplaire est une donnée obligatoire mais, par défaut, Alma ne vous bloquera pas si vous oubliez de l&#039;indiquer. Dans ce cas, Alma calculera un code-barre et l&#039;imposera (vous pourrez le modifier a posteriori)
+</p>
+
+<p>
+2. L&#039;utlisation de l&#039;onglet ENUM/CHRON puis du champ “description” dans l&#039;onglet des informations générales est très important pour déterminer si l&#039;exemplaire est une monographie ou un périodique. Si le champ <strong>description</strong>  est défini (c&#039;est-à-dire s&#039;il contient des caractères), l&#039;exemplaire est un périodique. Si le champ “description” est vide, l&#039;exemplaire est une monographie. Ce champ <strong>description </strong>est calculé à partir des informations contenu dans ENUM/CHRON. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:2,&quot;range&quot;:&quot;0-&quot;} -->
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #d35400;  background-color: inherit '>
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:3,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_important plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+Attention : si vous modifiez la localisation de l&#039;exemplaire, cela aura un effet dans la holding : si l&#039;exemplaire est le seul de sa holding alors la localisation sera modifiée également dans la holding ; si l&#039;exemplaire n&#039;est pas le seul dans sa holding alors une nouvelle holding sera créée avec la nouvelle localisation. Elle ne contiendra que l&#039;exemplaire en cours de création. La holding initiale continuera de contenir les autres exemplaires.
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:4,&quot;range&quot;:&quot;0-&quot;} -->
+<p>
+</span>
+</p>
+
+</div>
+
+<h3><bookmark content="Mettre à jour un exemplaire" level="2" /><a name="condorcetsignalementles-exemplaires__mettre_a_jour_un_exemplaire">Mettre à jour un exemplaire</a></h3>
+<div class="level3">
+
+<p>
+La procédure d&#039;accès est la même que ci-dessus (sauf celle qui se passe par le catalogage rapide).
+</p>
+
+</div>
+
+<h3><bookmark content="Supprimer un exemplaire" level="2" /><a name="condorcetsignalementles-exemplaires__supprimer_un_exemplaire">Supprimer un exemplaire</a></h3>
+<div class="level3">
+
+<p>
+La suppression de l&#039;exemplaire est réalisée depuis la liste des exemplaires dans le menu <strong><code>···</code> </strong>attaché à l&#039;exemplaire.
+</p>
+
+<p>
+Si l&#039;exemplaire était le seul ou le dernier attaché à sa holding, Alma déclenchera un traitement pour savoir que faire de la holding et de la notice bibliographique. Plusieurs choix vous seront proposés : il faudra en choisir un (ne pas modifier la holding, supprimer la holding, supprimer la notice bibliographique s&#039;il n&#039;y a pas d&#039;autres holdings etc.)
+</p>
+
+</div>
+
+<h3><bookmark content="Déplacer un exemplaire" level="2" /><a name="condorcetsignalementles-exemplaires__deplacer_un_exemplaire">Déplacer un exemplaire</a></h3>
+<div class="level3">
+
+</div>
+
+<h3><bookmark content="Pilonner un exemplaire" level="2" /><a name="condorcetsignalementles-exemplaires__pilonner_un_exemplaire">Pilonner un exemplaire</a></h3>
+<div class="level3">
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>La notion de pilon n&#039;existe pas dans Alma.</span>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>On préconise donc d&#039;utiliser une note de statistiques au niveau de l&#039;exemplaire pour indiquer “Pilon”.</span>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>On ne peut pas non plus cacher d&#039;exemplaire. Un exemplaire pilonné ne peut donc pas être caché.</span>
+</p>
+
+</div>

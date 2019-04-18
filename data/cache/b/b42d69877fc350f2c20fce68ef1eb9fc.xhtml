@@ -57,33 +57,155 @@ Dans la liste des exemplaires, il faut cliquer sur <strong>Voir </strong>dans le
 </p>
 
 <p>
-<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Le détail de l&#039;exemplaire est réparti dans quatre onglets :</span>
+Le détail de l&#039;exemplaire est réparti dans quatre onglets :
 </p>
+<ul>
+<li class="level1"><div class="li"> information générale : on y saisit notamment le code-barre de l&#039;exemplaire, une cote alternative si nécessaire (c&#039;est une cote de rangement), une localisation temporaire avec une cote temporaire si nécessaire, etc.</div>
+</li>
+<li class="level1"><div class="li"> information ENUM/CHRON : cette onglet permet de suivre les périodiques et de générer le champ “description” dans l&#039;onglet de informations générales (selon un modèle configurable par un administrateur).</div>
+</li>
+<li class="level1"><div class="li"> notes : notes publiques, notes internes, notes statistiques</div>
+</li>
+<li class="level1"><div class="li"> historique : onglet de consultation seulement où sont tracées toutes les opérations faites sur les informations de l&#039;exemplaire.</div>
+</li>
+</ul>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Consulter le d\u00e9tail d&#039;un exemplaire sans le modifier&quot;,&quot;hid&quot;:&quot;consulter_le_detail_d_un_exemplaire_sans_le_modifier&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;2142-2707&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Consulter le d\u00e9tail d&#039;un exemplaire sans le modifier&quot;,&quot;hid&quot;:&quot;consulter_le_detail_d_un_exemplaire_sans_le_modifier&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;2142-3296&quot;} -->
 <h3 class="sectionedit4" id="ajouter_un_exemplaire">Ajouter un exemplaire</h3>
 <div class="level3">
 
-</div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ajouter un exemplaire&quot;,&quot;hid&quot;:&quot;ajouter_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;2708-2740&quot;} -->
-<h3 class="sectionedit5" id="mettre_a_jour_un_exemplaire">Mettre à jour un exemplaire</h3>
-<div class="level3">
+<p>
+L&#039;ajout de l&#039;exemplaire peut se faire depuis plusieurs accès :
+</p>
+<ol>
+<li class="level1"><div class="li"> Depuis l&#039;éditeur de métadonnées, quand on est sur une notice holding, grâce au bouton <img src="/dokuwiki/lib/exe/fetch.php?media=condorcet:signalement:signalement-ajouter-exemplaire.jpg" class="media" title="signalement-ajouter-exemplaire.jpg" alt="signalement-ajouter-exemplaire.jpg" />ou le raccourci clavier Alt + i</div>
+</li>
+<li class="level1"><div class="li"> Depuis la liste des exemplaires attachés à une notice en cliquant sur le lien <strong>Ajouter un exemplaire</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Menu Ressources &gt; Créer l&#039;inventaire &gt; Ajouter un exemplaire physique</div>
+</li>
+<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>A COMPLETER</span></div>
+</li>
+</ol>
+
+<p>
+Lorsque l&#039;on veut ajouter un exemplaire, on arrive sur un écran semblable à celui de l&#039;écran de consultation des exemplaires.
+</p>
+
+<p>
+Par les accès 1 et 2 à la création, le titre auquel l&#039;exemplaire est associé sera déterminé automatiquement.
+</p>
+
+<p>
+Par l&#039;accès 3, merci de vous référer au chapitre <strong>catalogage rapide</strong>  dans la présente documentation.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:5,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_info plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+1. Le code-barre de l&#039;exemplaire est une donnée obligatoire mais, par défaut, Alma ne vous bloquera pas si vous oubliez de l&#039;indiquer. Dans ce cas, Alma calculera un code-barre et l&#039;imposera (vous pourrez le modifier a posteriori)
+</p>
+
+<p>
+2. L&#039;utlisation de l&#039;onglet ENUM/CHRON puis du champ “description” dans l&#039;onglet des informations générales est très important pour déterminer si l&#039;exemplaire est une monographie ou un périodique. Si le champ <strong>description</strong>  est défini (c&#039;est-à-dire s&#039;il contient des caractères), l&#039;exemplaire est un périodique. Si le champ “description” est vide, l&#039;exemplaire est une monographie. Ce champ <strong>description </strong>est calculé à partir des informations contenu dans ENUM/CHRON. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:6,&quot;range&quot;:&quot;0-&quot;} -->
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #d35400;  background-color: inherit '>
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:7,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_important plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+Attention : si vous modifiez la localisation de l&#039;exemplaire, cela aura un effet dans la holding : si l&#039;exemplaire est le seul de sa holding alors la localisation sera modifiée également dans la holding ; si l&#039;exemplaire n&#039;est pas le seul dans sa holding alors une nouvelle holding sera créée avec la nouvelle localisation. Elle ne contiendra que l&#039;exemplaire en cours de création. La holding initiale continuera de contenir les autres exemplaires.
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:8,&quot;range&quot;:&quot;0-&quot;} -->
+<p>
+</span>
+</p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Mettre \u00e0 jour un exemplaire&quot;,&quot;hid&quot;:&quot;mettre_a_jour_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;2741-2780&quot;} -->
-<h3 class="sectionedit6" id="supprimer_un_exemplaire">Supprimer un exemplaire</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ajouter un exemplaire&quot;,&quot;hid&quot;:&quot;ajouter_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;3297-5536&quot;} -->
+<h3 class="sectionedit9" id="mettre_a_jour_un_exemplaire">Mettre à jour un exemplaire</h3>
 <div class="level3">
 
-</div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supprimer un exemplaire&quot;,&quot;hid&quot;:&quot;supprimer_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;2781-2815&quot;} -->
-<h3 class="sectionedit7" id="deplacer_un_exemplaire">Déplacer un exemplaire</h3>
-<div class="level3">
+<p>
+La procédure d&#039;accès est la même que ci-dessus (sauf celle qui se passe par le catalogage rapide).
+</p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;D\u00e9placer un exemplaire&quot;,&quot;hid&quot;:&quot;deplacer_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;2816-2850&quot;} -->
-<h3 class="sectionedit8" id="pilonner_un_exemplaire">Pilonner un exemplaire</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Mettre \u00e0 jour un exemplaire&quot;,&quot;hid&quot;:&quot;mettre_a_jour_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:9,&quot;range&quot;:&quot;5537-5679&quot;} -->
+<h3 class="sectionedit10" id="supprimer_un_exemplaire">Supprimer un exemplaire</h3>
 <div class="level3">
 
+<p>
+La suppression de l&#039;exemplaire est réalisée depuis la liste des exemplaires dans le menu <strong><code>···</code> </strong>attaché à l&#039;exemplaire.
+</p>
+
+<p>
+Si l&#039;exemplaire était le seul ou le dernier attaché à sa holding, Alma déclenchera un traitement pour savoir que faire de la holding et de la notice bibliographique. Plusieurs choix vous seront proposés : il faudra en choisir un (ne pas modifier la holding, supprimer la holding, supprimer la notice bibliographique s&#039;il n&#039;y a pas d&#039;autres holdings etc.)
+</p>
+
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Pilonner un exemplaire&quot;,&quot;hid&quot;:&quot;pilonner_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;2851-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supprimer un exemplaire&quot;,&quot;hid&quot;:&quot;supprimer_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:10,&quot;range&quot;:&quot;5680-6208&quot;} -->
+<h3 class="sectionedit11" id="deplacer_un_exemplaire">Déplacer un exemplaire</h3>
+<div class="level3">
+
+<p>
+La localisation d&#039;un exemplaire étant indiquée au niveau de la notice holding, déplacer un exemplaire revient à le rattacher à une autre holding que celui où il se trouve actuellement rattaché. Il est préférable de déplacer un exemplaire plutôt que de le supprimer puis d&#039;en créer un autre : ainsi, on ne perd pas l&#039;historique de cet exemplaire.
+</p>
+
+<p>
+Remarque: si une holding contient plusieurs exemplaires et que l&#039;on veut changer la localisation de <em>tous </em>ses exemplaires, il faut travailler directement sur la notice holding et modifier la localisation dans celle-ci. Cela a un effet immédiat sur ses exemplaires en termes de localisation. Pour cela, il suffit d&#039;aller dans l&#039;éditeur de métadonnées pour cette holding et d&#039;y modifier la localisation.
+</p>
+
+<p>
+On peut effectuer le déplacement de l&#039;exemplaire de plusieurs façons.
+</p>
+
+<p>
+Une première façon consiste à partir de la holding : en observant les exemplaires qu&#039;elle contient, on peut, au niveau de l&#039;exemplaire à déplacer, accéder au sous-menu Modifier la localisation qui se trouve dans le menu <strong><code>···</code> </strong>attaché à l&#039;exemplaire concerné. En cliquant sur ce menu, Alma vous guidera pour déplacer l&#039;exemplaire (de façon permanente ou pas). Vous pouvez alors sélectionner la localisation souhaitée.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:12,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_info plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+1. Lorsqu&#039;un exemplaire est déplacé, il passe au statut “en transit” jusqu&#039;au moment où un bureau de prêt associé à la nouvelle localisation scanne l&#039;exemplaire.
+</p>
+
+<p>
+2. Le déplacement de l&#039;exemplaire de façon permanente crée une nouvelle holding sous la notice bibliographique avec la nouvelle localisation s&#039;il n&#039;y avait pas une telle holding auparavant. Si la holding pour la nouvelle localisation existait déjà alors elle n&#039;est pas recréée et l&#039;exemplaire est rattachée à la holding existante automatiquement. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:13,&quot;range&quot;:&quot;0-&quot;} -->
+<p>
+ <br/>
+
+On peut également directement travailler depuis la page de modification de l&#039;exemplaire. Si vous effectuez le déplacement directement depuis cette page de modification de l&#039;exemplaire en modifiant la valeur du champ “Localisation détentrice”, le principe sera le même que ci-dessus mais l&#039;exemplaire <em>ne sera pas </em>“en transit” : il sera immédiatement placé en rayon dans la nouvelle localisation !
+</p>
+
+<p>
+Pour déplacer <em>plusieurs </em>exemplaires d&#039;un même titre dans une même localisation (et donc dans une même holding) vers une autre localisation existante pour un autre exemplaire du même titre (et donc une holding existe déjà), on peut sélectionner les exemplaires à déplacer dans la liste des exemplaires de la holding d&#039;origine et cliquer sur le lien <strong>Modifier les notices de fonds</strong>. On doit alors sélectionner la holding vers laquelle on souhaite déplacer les exemplaires sélectionnés. Le déplacement est immédiat : les exemplaires sont immédiatement en rayon dans la nouvelle localisation.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;D\u00e9placer un exemplaire&quot;,&quot;hid&quot;:&quot;deplacer_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:11,&quot;range&quot;:&quot;6209-9118&quot;} -->
+<h3 class="sectionedit14" id="pilonner_un_exemplaire">Pilonner un exemplaire</h3>
+<div class="level3">
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>La notion de pilon n&#039;existe pas dans Alma.</span>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>On préconise donc d&#039;utiliser une note de statistiques au niveau de l&#039;exemplaire pour indiquer “Pilon”.</span>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>On ne peut pas non plus cacher d&#039;exemplaire. Un exemplaire pilonné ne peut donc pas être caché.</span>
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Pilonner un exemplaire&quot;,&quot;hid&quot;:&quot;pilonner_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:14,&quot;range&quot;:&quot;9119-&quot;} -->
