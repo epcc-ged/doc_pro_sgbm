@@ -1,3 +1,6 @@
-===== CIRCULATION : COMPLETER LE TITRE =====
+===== CIRCULATION : PRÊTER ET RETOURNER DES EXEMPLAIRES NON CATALOGUES =====
 
-COMPLETER ICI
+Ce cas revient à faire un [[:condorcet:signalement:le-catalogage-rapide|catalogage rapide]] et à prêter immédiatement.
+
+<font inherit/inherit;;inherit;;#d35400>Lors du retour, on pourra envoyer l'exemplaire pour un signalement plus complet : Alma est paramétrée pour envoyer le livre dans le processus de signalement complet.</font>
+

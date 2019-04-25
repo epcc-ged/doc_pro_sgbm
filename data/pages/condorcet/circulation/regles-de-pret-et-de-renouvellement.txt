@@ -1,54 +1,69 @@
 ===== CIRCULATION : REGLES DE PRÊT =====
 
-==== Durée de prêt ====
+==== Groupes d'utilisateurs et droit de prêt ====
 
-=== Généralités ===
+Au Campus Condorcet, les durées de prêt dans Alma sont fonction du groupe auquel appartient le lecteur.
 
-Les durées de prêt dans Alma sont calculées par croisement de groupes d’usagers et de localisations (ou de TPU et de collections, au sens Horizon du terme).
+Les groupes d'utilisateurs sont les suivants :
 
-<font inherit/inherit;;inherit;;#c0392b>Par exemple, il peut être décidé que tous les documents appartenant à la localisation 63S seront prêtables :</font>
+  * CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. <font inherit/inherit;;inherit;;#d35400>Inclus les personnels du Campus Condorcet</font>.
+  * CU2 : Résidents M : masterants résidents du Campus venant des établissements membres
+  * CU3 : Chercheurs membres non résidents : chercheurs non résidents venant des établissements membres
+  * CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres
+  * CU5 : M+ non-membres : masterants, doctorants ou chercheurs et autres profils académiques venant d'un établissement non-membre
+  * CU6 : Autres : personnes ne venant pas d'un établissement membre et n'ayant pas de profil académique
+  * CU7 : Personnel GED : personnel du GED.
 
-  * <font inherit/inherit;;inherit;;#c0392b>21 jours aux étudiants de niveau L</font>
-  * <font inherit/inherit;;inherit;;#c0392b>28 jours aux étudiants de niveau M</font>
-  * <font inherit/inherit;;inherit;;#c0392b>35 jours aux étudiants de niveau D</font>
-  * <font inherit/inherit;;inherit;;#c0392b>ainsi qu’aux professeurs et personnels des établissements</font>
-  * <font inherit/inherit;;inherit;;#c0392b>14 jours aux lecteurs autorisés</font>
+A partir de ces groupes de lecteurs, on pose les droits de prêts suivants :
 
-Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche, ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
+^Catégorie d'usager^  Nombre de documents prêtables simultanément^Durée initiale du prêt (jours)^Durée maximale du prêt (jours^Période au bout de laquelle le prêt devient rappelable (jours)|
+^CU1|30|60|365|30|
+^CU2|20|30|30|14|
+^CU3|10|60|365|30|
+^CU4|0| | | |
+^CU5|0| | | |
+^CU6|0| | | |
 
-La date de retour est assortie d’une heure limite de retour, qui correspond à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt, comme il sera précisé plus loin.
+Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
+
+La date de retour est assortie d’une heure limite de retour, qui correspond à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
 
 Ces deux dernières particularités (retour repoussé au prochain jour ouvré et date de retour assortie d’une heure de retour) s’expliquent par le fait que les calendriers et heures d’ouverture et de fermeture doivent être détaillés bibliothèque par bibliothèque dans Alma. Ne rien renseigner provoquerait des effets de bord, à commencer par des retours fixés en période de fermeture des bibliothèques.
 
-=== Exceptions de circulation ===
+==== Exceptions de circulation ====
 
-Certains documents d’une même localisation peuvent être soumis à des règles de circulation différentes. Dans ce cas, ils reçoivent une ou plusieurs « exceptions de circulation », qui correspondent peu ou prou aux TPE Horizon. Ces exceptions de circulation peuvent être une exception de type « Exclu du prêt » ou correspondre à des durées de prêt plus courtes (24 heures, 7 jours) ou plus longues (60 jours, 180 jours) que celle appliquée au niveau de la localisation. Dans tous les cas, elle s’applique de manière indifférenciée à l’ensemble des groupes d’usagers.
+Le principe au GED est que tous les documents du libre-accès ou au CTLES sont prêtables.
 
-Par exemple, il peut être décidé que tous les documents appartenant à la localisation 63S seront prêtables aux conditions décrites plus haut, sauf trois lots de documents :
+Néanmoins, quelques exceptions existent :
 
-• Un premier lot sera exclu du prêt pour tous les usagers
+  * les nouveautés (monographies, périodiques) ne sont pas prêtables
+  * les usuels ne sont pas prêtables
+  * Les documents de la réserve ne sont pas prêtables. De plus, ils doivent être consultés dans une salle réservée à cet effet.
 
-• Un deuxième sera prêtable 48 heures pour tous les usagers
+Il existe une exception générique "autre exception de prêt" qui permet au besoin d'exclure un document du prêt.
 
-• Un troisième sera prêtable 90 jours pour tous les usagers
+==== Rappels ====
 
-Voici la liste des exceptions de circulation actuellement configurées. Veuillez noter qu’à la différence des TPE Horizon, ces exceptions de circulation sont communes à l’ensemble des bibliothèques et utilisables par toutes :
+En général, Alma se charge d'effectuer les rappels automatiquement et procède alors à l'envoi de message à cette fin auprès des lecteurs concernés. Ce traitement est généralement fait en temps réel.
 
-  * <font inherit/inherit;;inherit;;#c0392b>Exclu du prêt</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 24h - non renouvelable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 48 heures - non renouvelable - non réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 48 heures - non renouvelable - réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 72h - non renouvelable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 7 jours - non renouvelable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 1 semaine - renouvelable 1 semaine ‑ réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 10 jours - non renouvelable - non réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 2 semaines - non renouvelable - non réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 2 semaines - renouvelable 2 semaines - réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 2 semaines - renouvelable 2 semaines - non réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 21 jours - non renouvelable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 3 semaines - renouvelables 3 semaines ‑ réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 4 semaines - non renouvelable - réservable</font>
-  * <font inherit/inherit;;inherit;;#c0392b>Prêt 90 jours - non renouvelable - non réservable</font>
+Lorsqu'un document est prêté, Alma est théoriquement susceptible d'envoyer :
 
-Ces exceptions de circulation sont donc à utiliser lorsqu’un exemplaire est soumis à des durées de prêt différentes de celles définies pour sa localisation de rangement. Pour un nouvel exemplaire, l’exception de circulation peut être renseigné dès la commande, mais le sera en règle générale après la réception. Voir le support « Gestion des données » pour plus de renseignements.
+  * une lettre de courtoisie pour rappeler au lecteur que la date de retour du document prêté approche
+  * une lettre de rappel envoyée le jour du retour
+  * une lettre de relance lorsque le document n'est pas rendu et est en retard. Selon le paramétrage, plusieurs lettres de ce type pourront être envoyés selon une périodicité à définir
+  * une lettre de facturation informant l'usager qu'il doit rembourser un livre jamais rendu ou payer une amende suite au retard
+
+Dans notre cas, le retard n'entraîne pas de paiement d'une amende. Si un document (ou plus) est perdu, le<font inherit/inherit;;inherit;;#d35400>forfait de dédommagement que l'utilisateur doit payer à la bibliothèque est de 100€ par document.</font>
+
+Le cycle de relance quand le document n'est pas rendu à temps est le suivant (jours calendaires) :
+
+  * Première relance : après 3 jours de retard
+  * Deuxième relance : après 17 jours de retard
+  * Troisième relance : après 30 jours de retard
+  * Quatrième relance : après 90 jours de retard
+  * Cinquième relance : après 180 jours de retard.
+
+Après la cinquième relance, le document est considéré comme perdu.
+
+\\
 
