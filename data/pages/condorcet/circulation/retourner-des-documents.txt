@@ -9,5 +9,5 @@ Le retour des documents peut se faire de plusieurs façons :
 
 <font inherit/inherit;;inherit;;#d35400>Dans les deux cas, l'exemplaire n'est pas automatiquement en rayon : il doit y être remis. On faire la manipulation à la main en scannant l'exemplaire dans la localisation où il doit être rangé.</font>
 
-Si l'exemplaire est rendu avec du retard alors Alma appliquera les règles de blocage / pénalité selon le paramétrage existant.
+Si l'exemplaire est rendu avec du retard alors Alma appliquera les règles de blocage et les pénalités [[:condorcet:circulation:regles-de-pret-et-de-renouvellement|selon les cas énoncés ici]].
 

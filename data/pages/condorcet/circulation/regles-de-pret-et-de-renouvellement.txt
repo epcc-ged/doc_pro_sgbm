@@ -1,10 +1,11 @@
-===== CIRCULATION : REGLES DE PRÊT =====
+===== CIRCULATION : CATEGORIES D'USAGERS, REGLES DE PRET ET RAPPELS =====
 
-==== Groupes d'utilisateurs et droit de prêt ====
 
-Au Campus Condorcet, les durées de prêt dans Alma sont fonction du groupe auquel appartient le lecteur.
+==== Catégories d'usagers ====
 
-Les groupes d'utilisateurs sont les suivants :
+Au Campus Condorcet, les durées de prêt dans Alma sont fonction de la catégorie à laquelle appartient le lecteur.
+
+Les catégories sont les suivantes :
 
   * CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. <font inherit/inherit;;inherit;;#d35400>Inclus les personnels du Campus Condorcet</font>.
   * CU2 : Résidents M : masterants résidents du Campus venant des établissements membres
@@ -14,7 +15,9 @@ Les groupes d'utilisateurs sont les suivants :
   * CU6 : Autres : personnes ne venant pas d'un établissement membre et n'ayant pas de profil académique
   * CU7 : Personnel GED : personnel du GED.
 
-A partir de ces groupes de lecteurs, on pose les droits de prêts suivants :
+==== Droits de prêt ====
+
+A partir de ces catégories de lecteurs, on pose les droits de prêt suivants :
 
 ^Catégorie d'usager^  Nombre de documents prêtables simultanément^Durée initiale du prêt (jours)^Durée maximale du prêt (jours^Période au bout de laquelle le prêt devient rappelable (jours)|
 ^CU1|30|60|365|30|
@@ -26,7 +29,9 @@ A partir de ces groupes de lecteurs, on pose les droits de prêts suivants :
 
 Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
 
-La date de retour est assortie d’une heure limite de retour, qui correspond à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
+La date de retour est assortie d’une heure limite de retour, qui correspond<font inherit/inherit;;inherit;;#d35400>, par défaut,</font> à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
+
+Il n'y a pas de délai de grâce par rapport à la date de retour.
 
 Ces deux dernières particularités (retour repoussé au prochain jour ouvré et date de retour assortie d’une heure de retour) s’expliquent par le fait que les calendriers et heures d’ouverture et de fermeture doivent être détaillés bibliothèque par bibliothèque dans Alma. Ne rien renseigner provoquerait des effets de bord, à commencer par des retours fixés en période de fermeture des bibliothèques.
 
@@ -42,18 +47,20 @@ Néanmoins, quelques exceptions existent :
 
 Il existe une exception générique "autre exception de prêt" qui permet au besoin d'exclure un document du prêt.
 
-==== Rappels ====
+==== Gestion des retours et des rappels anticipés ====
 
-En général, Alma se charge d'effectuer les rappels automatiquement et procède alors à l'envoi de message à cette fin auprès des lecteurs concernés. Ce traitement est généralement fait en temps réel.
+On désigne par rappel anticipé, la demande adressée à un lecteur ayant emprunté un document de retourner le-dit document avant la date de retour normalement déterminée au moment du prêt.
 
-Lorsqu'un document est prêté, Alma est théoriquement susceptible d'envoyer :
+Pour un retour normal, Alma se charge généralement de signaler automatiquement au lecteur qu'il doit rapporter le document en procédant à l'envoi d'un message à cette fin. Ce traitement est fait en temps réel.
+
+Lorsqu'un document est prêté, Alma est théoriquement susceptible d'envoyer les messages suivants :
 
   * une lettre de courtoisie pour rappeler au lecteur que la date de retour du document prêté approche
   * une lettre de rappel envoyée le jour du retour
   * une lettre de relance lorsque le document n'est pas rendu et est en retard. Selon le paramétrage, plusieurs lettres de ce type pourront être envoyés selon une périodicité à définir
   * une lettre de facturation informant l'usager qu'il doit rembourser un livre jamais rendu ou payer une amende suite au retard
 
-Dans notre cas, le retard n'entraîne pas de paiement d'une amende. Si un document (ou plus) est perdu, le<font inherit/inherit;;inherit;;#d35400>forfait de dédommagement que l'utilisateur doit payer à la bibliothèque est de 100€ par document.</font>
+Dans notre cas, qu'il s'agisse d'un retour normal ou d'un rappel non honorés, le retard n'entraîne pas de paiement d'une amende avant la cinquième relance. A la cinquième relance, l'amende est de 100€.
 
 Le cycle de relance quand le document n'est pas rendu à temps est le suivant (jours calendaires) :
 
@@ -63,7 +70,20 @@ Le cycle de relance quand le document n'est pas rendu à temps est le suivant (j
   * Quatrième relance : après 90 jours de retard
   * Cinquième relance : après 180 jours de retard.
 
-Après la cinquième relance, le document est considéré comme perdu.
+Après la cinquième relance, le document est considéré comme perdu. Comme on le disait ci-dessus, le lecteur doit s'acquitter d'une amende de 100€.
+
+== Rappel anticipé ==
+
+Le rappel anticipé consiste à demander au lecteur de rapporter un document avant la date de retour qui avait été calculée lors du prêt. Le lecteur dispose de trente jours à compter de la date du rappel anticipé pour rapporter le document.
+
+==== Blocage du compte lecteur ====
+
+Le compte d'un lecteur peut être bloqué si au moins l'un des cas suivants arrive sur son compte :
+
+  * Le lecteur a un document en retard et ne l'a pas rapporté après la cinquième relance. Dès que cette cinquième relance est émise, son compte est bloqué.
+  * Le lecteur a plusieurs documents en retard simultanément :
+      * Si le lecteur est dans la catégorie CU1 alors si cinq documents empruntés sont en retard simultanément et ce qu'il s'agisse d'un retour normal non honoré à temps ou d'un rappel anticipé de document non honoré dans la période de trente jours dans lequel le rappel doit être effectué, alors son compte est bloqué quel que soit l'avancement du processus de relance pour chacun des documents.
+      * Si le lecteur est dans la catégorie CU2 ou CU3, le cas est le même que pour CU1 mais à compter de deux documents en retard simultanément.
 
 \\
 

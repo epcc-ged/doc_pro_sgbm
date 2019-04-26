@@ -153,9 +153,46 @@ Si l&#039;exemplaire était le seul ou le dernier attaché à sa holding, Alma d
 <h3 class="sectionedit11" id="deplacer_un_exemplaire">Déplacer un exemplaire</h3>
 <div class="level3">
 
+<p>
+La localisation d&#039;un exemplaire étant indiquée au niveau de la notice holding, déplacer un exemplaire revient à le rattacher à une autre holding que celui où il se trouve actuellement rattaché. Il est préférable de déplacer un exemplaire plutôt que de le supprimer puis d&#039;en créer un autre : ainsi, on ne perd pas l&#039;historique de cet exemplaire.
+</p>
+
+<p>
+Remarque: si une holding contient plusieurs exemplaires et que l&#039;on veut changer la localisation de <em>tous </em>ses exemplaires, il faut travailler directement sur la notice holding et modifier la localisation dans celle-ci. Cela a un effet immédiat sur ses exemplaires en termes de localisation. Pour cela, il suffit d&#039;aller dans l&#039;éditeur de métadonnées pour cette holding et d&#039;y modifier la localisation.
+</p>
+
+<p>
+On peut effectuer le déplacement de l&#039;exemplaire de plusieurs façons.
+</p>
+
+<p>
+Une première façon consiste à partir de la holding : en observant les exemplaires qu&#039;elle contient, on peut, au niveau de l&#039;exemplaire à déplacer, accéder au sous-menu Modifier la localisation qui se trouve dans le menu <strong><code>···</code> </strong>attaché à l&#039;exemplaire concerné. En cliquant sur ce menu, Alma vous guidera pour déplacer l&#039;exemplaire (de façon permanente ou pas). Vous pouvez alors sélectionner la localisation souhaitée.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:12,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_info plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+
+1. Lorsqu&#039;un exemplaire est déplacé, il passe au statut “en transit” jusqu&#039;au moment où un bureau de prêt associé à la nouvelle localisation scanne l&#039;exemplaire.
+</p>
+
+<p>
+2. Le déplacement de l&#039;exemplaire de façon permanente crée une nouvelle holding sous la notice bibliographique avec la nouvelle localisation s&#039;il n&#039;y avait pas une telle holding auparavant. Si la holding pour la nouvelle localisation existait déjà alors elle n&#039;est pas recréée et l&#039;exemplaire est rattachée à la holding existante automatiquement. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:13,&quot;range&quot;:&quot;0-&quot;} -->
+<p>
+ <br/>
+
+On peut également directement travailler depuis la page de modification de l&#039;exemplaire. Si vous effectuez le déplacement directement depuis cette page de modification de l&#039;exemplaire en modifiant la valeur du champ “Localisation détentrice”, le principe sera le même que ci-dessus mais l&#039;exemplaire <em>ne sera pas </em>“en transit” : il sera immédiatement placé en rayon dans la nouvelle localisation !
+</p>
+
+<p>
+Pour déplacer <em>plusieurs </em>exemplaires d&#039;un même titre dans une même localisation (et donc dans une même holding) vers une autre localisation existante pour un autre exemplaire du même titre (et donc une holding existe déjà), on peut sélectionner les exemplaires à déplacer dans la liste des exemplaires de la holding d&#039;origine et cliquer sur le lien <strong>Modifier les notices de fonds</strong>. On doit alors sélectionner la holding vers laquelle on souhaite déplacer les exemplaires sélectionnés. Le déplacement est immédiat : les exemplaires sont immédiatement en rayon dans la nouvelle localisation.
+</p>
+
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;D\u00e9placer un exemplaire&quot;,&quot;hid&quot;:&quot;deplacer_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:11,&quot;range&quot;:&quot;6209-6243&quot;} -->
-<h3 class="sectionedit12" id="pilonner_un_exemplaire">Pilonner un exemplaire</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;D\u00e9placer un exemplaire&quot;,&quot;hid&quot;:&quot;deplacer_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:11,&quot;range&quot;:&quot;6209-9118&quot;} -->
+<h3 class="sectionedit14" id="pilonner_un_exemplaire">Pilonner un exemplaire</h3>
 <div class="level3">
 
 <p>
@@ -171,4 +208,4 @@ Si l&#039;exemplaire était le seul ou le dernier attaché à sa holding, Alma d
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Pilonner un exemplaire&quot;,&quot;hid&quot;:&quot;pilonner_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:12,&quot;range&quot;:&quot;6244-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Pilonner un exemplaire&quot;,&quot;hid&quot;:&quot;pilonner_un_exemplaire&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:14,&quot;range&quot;:&quot;9119-&quot;} -->

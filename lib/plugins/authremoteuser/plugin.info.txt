@@ -1,0 +1,7 @@
+base   authremoteuser
+author Karl-Wilhelm Rips
+email  dokuwiki.org@rips.de
+date   2016-03-29
+name   REMOTE_USER Auth plugin
+desc   Provides authentication via web server's REMOTE_USER environment variable which is set through authentication systems like HTTP-Auth, LDAP, CAS, Cosign, NTLM, PAM, WebAuth, SSPI, and so on.
+url    https://www.dokuwiki.org/plugin:authremoteuser

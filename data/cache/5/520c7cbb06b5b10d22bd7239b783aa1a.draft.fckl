@@ -1,0 +1,70 @@
+a:6:{s:2:"id";s:44:"condorcet:signalement:editeur-de-metadonnees";s:6:"prefix";s:5286:"===== CIRCULATION : EDITEUR DE METADONNEES ET NOTICES BIBLIOGRAPHIQUES =====
+
+Les notices bibliographiques sont en principe créées dans le Sudoc. L'éditeur de métadonnées sera donc essentiellement utilisées en modification de ces notices ou pour y attacher une notice holding, un exemplaire ou un portfolio.
+
+On sera néanmoins amené à créer des notices d'acquisition contenant les informations requises //a minima// pour signaler le titre (voir le chapitre sur les acquisitions) mais une notice de ce type est amenée à être écrasée par la suite par la notice Sudoc correspondante.
+==== Vue générale ====
+
+Quand on visualise une notice dans l'éditeur de métadonnées, l'écran est divisée en trois parties principales :
+
+  * bandeau de gauche : accès aux modèles de notices, <font inherit/inherit;;inherit;;#d35400>aux notices récentes (??)</font>et aux règles permettant d'effectuer automatiquement des transformations sur les notices
+  * bandeau de droite haut : partie principale contenant la notice et dans laquelle on réalise l'édition de la notice
+  * bandeau de droite bas : différentes informations
+
+Nous nous concentrons ici sur le bandeau de droite haut qui est la partie essentielle de l'éditeur puisqu'il contient la notice au format Marc. Dans les copies d'écran ci-dessous, la notice est au format Marc 21.
+
+{{  :condorcet:signalement:signalement-ecran-editeur.jpg?nolink&  |signalement-ecran-editeur.jpg}}Dans cette zone de l'écran, il faut noter la barre de menu avec trois menus déroulants (Fichier, Modifier et Outils) et une suite d'icônes.
+
+==== Modifier une notice bibliographique ====
+
+Comme vu au chapitre précédent, on peut accéder à une notice bibliographique en modification de plusieurs façons.
+
+=== Ajout un champ ===
+
+Dans le menu Modifier, il faut cliquer sur l'entrée Ajouter un champ (ou presser directement la touche F8).
+
+=== Modifier un champ ===
+
+Il suffit de se positionner sur le champ que l'on souhaite modifier et de cliquer dessus : le champ devient alors éditable.
+
+<WRAP center round important 60%> \\
+Attention : on note le '$' en redoublant ce signe, soit '$$' dans l'éditeur de métadonnées.
+
+Quand vous êtes positionnés sur le label et sur certaines autres zones codées, vous pouvez presser les touches Ctrl + F : un formulaire de saisie apparaît et peut constituer une aide appréciable. \\
+</WRAP>
+
+=== Suppression de champ ===
+
+Il suffit de se positionner sur le champ qu'on souhaite retirer puis soit dans le menu Modifier, de cliquer sur Supprimer le champ ou d'utiliser le raccourci clavier Ctrl+F6.
+
+Attention : si l'on veut supprimer un sous-champ dans un champ donné, il faut modifier ce champ et effacer le texte correspondant à ce sous-champ (et son $).
+
+=== Enregistrer la notice (ou pas) et la débloquer ===
+
+Le fait d'enregistrer la notice ou de la quitter sans enregistrer doit prendre en compte la notion de blocage de la notice.
+
+Quand il travaille dessus, une notice est bloquée par l'utilisateur. C<font inherit/inherit;;inherit;;#c0392b>ela signifie qu'à compter de sa dernière action</font>, la notice reste //bloquée //en édition : personne d'autre que lui ne peut y accéder. Quand le travail sur la notice est terminée et qu'on la quitte définitivement, il est donc recommandé de la débloquer.
+
+C'est pour cette raison que le menu Fichier propose plusieurs options d'enregistrement :
+
+  * On peut enregistrer "simplement" la notice soit en cliquant l'icône de la disquette, soit dans le menu **Fichier > Enregistrer la notice **soit en pressant Ctrl + S. En ce cas, on enregistre le travail effectué mais //on ne débloque pas //la notice pour un autre utilisateur (voir ci-dessous).
+  * Si l'enregistrement marque la fin du travail sur la notice, il est très recommandé d'utiliser **Fichier > Enregistrer et débloquer la notice**. Les modifications sur la notice sont enregistrées et un autre utilisateur peut éventuellement travailler dessus.
+
+De la même façon, si l'on quitte la notice //sans enregistrer//, il faut penser à cliquer sur **Fichier > Débloquer la notice **pour permettre à un autre utilisateur de travailler dessus ensuite. Si l'on quitte la notice en pressant sur le bouton quitter de l'éditeur, celui-ci vous demandera si vous souhaitez débloquer la notice. Il est recommandé de répondre "oui". Attention : si vous avez cliqué //en cours de travail //sur **Enregistrer **ou sur l'icône de la disquette, le fait de quitter la notice d'une manière ou d'une autre n'annulera pas ce précédent enregistrement.
+
+==== Supprimer une notice ====
+
+Une notice se supprime dans l'éditeur de données. Une fois dans la notice, on clique sur **Fichier > Supprimer la notice**. Le raccourci clavier Ctrl + D fonctionne également.
+
+Alma vous demandera de confirmer la suppression.
+
+Attention :
+
+  * La suppression de la notice bibliographique entraîne la suppression des holdings qui lui sont attachées et, par conséquent, des exemplaires. En vous demandant la confirmation, Alma précise le nombre de holdings et d'exemplaires rattachés à la notice.
+  * Si à la notice est rattachée une ligne de commande ou à un prêt en cours, Alma refuse la suppression.
+
+";s:4:"text";s:195:"==== Fusionner deux notices ====
+
+A COMPLETER
+
+<-condorcet:signalement:introduction-et-recherche|Introduction et recher^ ^ condorcet:signalement:les-notices-holding|Editeur de métadonnées->";s:6:"suffix";s:0:"";s:4:"date";i:1554993773;s:6:"client";s:10:"jchiavassa";}

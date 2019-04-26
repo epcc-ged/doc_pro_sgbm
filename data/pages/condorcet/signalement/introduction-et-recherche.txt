@@ -4,7 +4,7 @@
 
 Pour pouvoir effectuer le signalement des collections dans Alma, il faut disposer du rôle adéquat à cette fin : rôle de catalogueur au minimum.
 
-==== Organisation des données. Rappel ====
+==== Organisation des données. ====
 
 Dans Alma, les données de signalement sont découpées en trois "niveaux" :
 
