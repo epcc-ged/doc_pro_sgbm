@@ -1,0 +1,182 @@
+a:6:{s:2:"id";s:51:"condorcet:generalites:faire-une-recherche-dans-alma";s:6:"prefix";b:0;s:4:"text";s:8299:"<h2>GENERALITES : FAIRE UNE RECHERCHE DANS ALMA</h2>
+
+<div class="level2">&nbsp;</div>
+
+<h3>Crit&egrave;res de pr&eacute;-recherche</h3>
+
+<div class="level3">
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Les crit&egrave;res de pr&eacute;-recherche ont une incidence sur les types de r&eacute;sultats obtenus. Ainsi, si vous s&eacute;lectionnez</p>
+
+<ul>
+	<li class="level1">&quot;exemplaires physiques&quot; : les r&eacute;sultats affich&eacute;s seront des exemplaires</li>
+	<li class="level1">&quot;titres &eacute;lectroniques&quot; : les r&eacute;sultats affich&eacute;s seront des notices de ressources &eacute;lectroniques.</li>
+</ul>
+
+<p>La liste des crit&egrave;res de pr&eacute;-recherche propos&eacute;e d&eacute;pend de votre r&ocirc;le dans Alma :</p>
+
+<ul>
+	<li class="level1">en vert (1e accolade de gauche, en haut) : crit&egrave;res pour la recherche bibliographique : sont disponibles pour <b>tout le monde</b>, quel que soit le r&ocirc;le dans Alma</li>
+	<li class="level1">en orange (2e accolade de gauche) : crit&egrave;res pour la recherche sur les donn&eacute;es d&#39;acquisitions, r&eacute;serv&eacute;es aux <b>acqu&eacute;reurs</b></li>
+	<li class="level1">en orange (2e accolade de droite) : crit&egrave;res pour la recherche sur les donn&eacute;es d&#39;usagers, r&eacute;serv&eacute;es aux <b>gestionnaires d&#39;usagers</b></li>
+	<li class="level1">en rouge (1e accolade de droite et 3e de gauche) : crit&egrave;res qui s&#39;affichent mais qui <span style="color:#e74c3c">sont sans objet pour nous</span> : Titres, fichiers et collections num&eacute;riques correspondent aux documents num&eacute;ris&eacute;s par la biblioth&egrave;que ; Autorit&eacute;s car il n&#39;y a pas de notices d&#39;autorit&eacute; dans Alma.</li>
+</ul>
+
+<p>Pour s&eacute;lectionner un crit&egrave;re de pr&eacute;-recherche, il suffit de cliquer sur la fl&egrave;che blanche &agrave; droite de <code>Tous les titres</code>.</p>
+</div>
+
+<h3>Recherche simple</h3>
+
+<div class="level3">&nbsp;</div>
+
+<h4>Tous les titres / Tout</h4>
+
+<div class="level4">
+<p>C&#39;est la recherche de base : Alma recherche les termes saisis dans tous les champs index&eacute;s.</p>
+
+<p>Exemple 1 : dans <code>Utilisateurs</code>, chercher Martin (<span style="color:#8e44ad">est-ce vraiment un exemplaire pertinent ici ?</span>)</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Exemple 2 : chercher histoire Japon</p>
+
+<p>dans <code>Tous titres</code> : recherche les notices bibliographiques contenant ces deux mots</p>
+
+<p>dans <code>Tout</code> : cherchent toutes les occurrences qui contiennent ces deux mots</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>NB :</p>
+
+<ul>
+	<li class="level1">le syst&egrave;me n&#39;est sensible ni &agrave; la casse (majuscule/minuscule), ni aux caract&egrave;res diacritiques (fran&ccedil;ais = francais)</li>
+	<li class="level1">en revanche il n&#39;y pas de mots vides</li>
+</ul>
+
+<p>exemple :</p>
+
+<p>histoire chine = X r&eacute;sultats</p>
+
+<p>histoire de la chine = Y r&eacute;sultats</p>
+
+<p>l&#39;histoire de la chine = Z r&eacute;sultats</p>
+
+<ul>
+	<li class="level1">la troncature se fait uniquement &agrave; la fin de l&#39;expression de recherche, &agrave; droite du dernier mot et en ajoutant l&#39;ast&eacute;risque *</li>
+	<li class="level1">il est possible de faire des recherches dans d&#39;autres &eacute;critures</li>
+</ul>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+</div>
+
+<h4>Tri des r&eacute;sultats</h4>
+
+<div class="level4">
+<p>La barre de tri se trouve juste au-dessus de la liste des r&eacute;sultats.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+</div>
+
+<h4>Index de recherche</h4>
+
+<div class="level4">
+<p>Pour chaque crit&egrave;re de pr&eacute;-recherche, on peut s&eacute;lectionner l&#39;index qu&#39;on veut interroger. Pour afficher la liste de ces index, il faut <b>placer le curseur de la souris &agrave; c&ocirc;t&eacute; de l&#39;index</b> affich&eacute; par d&eacute;faut (ici, <code>Tout</code>)</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>La liste d&eacute;roulante des index s&#39;affiche. Ils sont class&eacute;s par ordre alphab&eacute;tique, &agrave; l&#39;exception des 5 premiers, car ayant &eacute;t&eacute; interrog&eacute;s en dernier, ils sont donc remont&eacute;s en haut de la liste, avec l&#39;ic&ocirc;ne de l&#39;horloge.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Cette liste des index est contextuelle : certains sont communs &agrave; tous les crit&egrave;res de pr&eacute;-recherche, tandis que d&#39;autres ne sont disponibles que pour l&#39;un ou l&#39;autre des index.</p>
+</div>
+
+<h4>Crit&egrave;res de pr&eacute;-recherche</h4>
+
+<div class="level4">
+<p>Le choix du crit&egrave;re de pr&eacute;-recherche d&eacute;termine le r&eacute;sultat de la recherche.</p>
+
+<p>Exemple : si on recherche histoire chine dans <code>Tout</code></p>
+
+<p><span style="color:#1abc9c">(tableau)</span></p>
+</div>
+
+<h4>Facettes</h4>
+
+<div class="level4">
+<p>Les facettes permettent de filtrer les r&eacute;sultats de la recherche. Elle sonst aussi contextuelles et d&eacute;pendent du crit&egrave;re de pr&eacute;-recherche.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Cliquer sur une facette pour la s&eacute;lectionner.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Les facettes s&eacute;lectionn&eacute;es apparaissent maintenant dans la barre des filtres, au-dessus de la liste des r&eacute;sultats. Le nombre de r&eacute;sultats est recalcul&eacute; en cons&eacute;quence.</p>
+
+<p>Cliquer sur <span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span> pour supprimer une facette.</p>
+</div>
+
+<h3>Recherche avanc&eacute;e</h3>
+
+<div class="level3">
+<p>La recherche avanc&eacute;e permet d&#39;affiner la recherche en interrogeant plusieurs index, et de faire des limitations.</p>
+
+<p>Cliquer sur <code>Avanc&eacute;</code>.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Une nouvelle ligne de commande s&#39;ouvre. Elle comprend 3 zones :</p>
+
+<ul>
+	<li class="level1">la zone de l&#39;index qu&#39;on souhaite interroger</li>
+	<li class="level1">une liste d&eacute;roulante contextuelle qui permet de pr&eacute;ciser comment on interroge l&#39;index</li>
+	<li class="level1">la zone de saisie ou de s&eacute;lection des termes de recherche</li>
+</ul>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Cliquer sur <span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span>pour ajouter une ligne</p>
+
+<p>cliquer sur <span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span>pour dupliquer une ligne</p>
+
+<p>cliquer sur <span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span> pour supprimer une ligne</p>
+</div>
+
+<h4>Index de recherche</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h5>Tous les titres</h5>
+
+<div class="level5">
+<p>Les index se pr&eacute;sentent comme dans la recherche simple, ils sont simplement plus nombreux.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+</div>
+
+<h5>Titres physiques / Exemplaires physiques</h5>
+
+<div class="level5">
+<p>Liste des index disponibles :</p>
+
+<p>On retrouve en haut les 5 derniers index interrog&eacute;s. Juste en dessous, 3 sous-menus gris&eacute;s se d&eacute;plient si on clique sur la fl&egrave;che :</p>
+
+<ul>
+	<li class="level1">Titre : pour chercher des donn&eacute;es dans les notices bibliographiques</li>
+	<li class="level1">Holding : pour chercher des donn&eacute;es dans les notices de holding</li>
+	<li class="level1">Exemplaire : pour chercher des donn&eacute;es dans les notices d&#39;exemplaires.</li>
+</ul>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Exemple : rechercher un titre dans une biblioth&egrave;que pr&eacute;cise</p>
+
+<p>Le r&eacute;sultat affiche la notice dont un exemplaire se trouve bien dans la biblioth&egrave;que demand&eacute;e.</p>
+
+<p>Attention ! Cette recherche n&#39;est possible que pour les <b>titres physiques</b>.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1555586207;s:6:"client";s:8:"rguidoni";}

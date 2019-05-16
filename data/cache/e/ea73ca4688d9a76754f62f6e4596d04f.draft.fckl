@@ -1,0 +1,104 @@
+a:6:{s:2:"id";s:43:"condorcet:generalites:les-donnees-dans-alma";s:6:"prefix";b:0;s:4:"text";s:5645:"<h2>GENERALITES : LES DONNEES DANS ALMA</h2>
+
+<div class="level2">&nbsp;</div>
+
+<h3>Zone &laquo; Institution &raquo; et zone &laquo; Communaut&eacute; &raquo;</h3>
+
+<div class="level3">
+<p>Dans Alma, on distingue deux zones diff&eacute;rentes : la zone &quot;Institution&quot; et la zone &quot;Communaut&eacute;&quot;.</p>
+
+<p><span style="color:#1abc9c">(tableau)</span></p>
+
+<p>NB : la zone propos&eacute;e par d&eacute;faut est toujours celle de l&#39;institution (= p&eacute;rim&egrave;tre Condorcet)</p>
+
+<p>La zone &quot;Institution&quot; comprend :</p>
+
+<ul>
+	<li class="level1">les notices de ressources imprim&eacute;es et &eacute;lectronique issues du SID chantier apr&egrave;s le dernier chargement de d&eacute;cembre 2018</li>
+	<li class="level1">les notices issues du Sudoc saisies entre le dernier export vers le SID chantier et la mise en production d&#39;Alma</li>
+	<li class="level1">les notices de ressources &eacute;lectroniques issues de <span style="color:#e74c3c">?</span></li>
+</ul>
+
+<p>La zone &quot;Communaut&eacute;&quot; regroupe les notices de tous les &eacute;tablissements (en France et aileurs dans le monde) utilisant Alma, elle comporte donc des notices d&#39;autorit&eacute;s, des notices bibliographiques et des notices de ressources &eacute;lectroniques. Cette zone peut ainsi servir de r&eacute;servoir de notices pour les acquisitions de ressources imprim&eacute;es ou &eacute;lectroniques, ainsi que pour l&#39;activation de ressources libres.</p>
+
+<p><span style="color:#1abc9c">(copie d&#39;&eacute;cran)</span></p>
+
+<p>Nous verrons plus tard comment identifier la provenance et l&#39;appartenanace d&#39;une notice &agrave; l&#39;une ou l&#39;autre de ces zones.</p>
+</div>
+
+<h3>Structure des donn&eacute;es</h3>
+
+<div class="level3">&nbsp;</div>
+
+<h4>Ressources physiques : donn&eacute;es bibliographiques et d&#39;exemplaires</h4>
+
+<div class="level4">
+<p>(tableau)</p>
+</div>
+
+<h5>Notice bibliographique</h5>
+
+<div class="level5">
+<p>Source initiale : SID chantier + Sudoc (de d&eacute;c. 2018 &agrave; sept. 2019)</p>
+
+<p>Source en production : Sudoc</p>
+
+<p>Format : Unimarc</p>
+</div>
+
+<h5>Notice de holding</h5>
+
+<div class="level5">
+<p>Notice interm&eacute;diaire entre la notice bibliographique et les notices d&#39;exemplaires pour les monographies et les p&eacute;riodiques imprim&eacute;s. Elle regroupe les exemplaires d&#39;une m&ecirc;me &quot;localisation&quot;, c&#39;est-&agrave;-dire d&#39;un m&ecirc;me emplacement.</p>
+
+<p>Cette notice contient les &eacute;l&eacute;ments communs &agrave; diff&eacute;rents exemplaires : la localisation et la biblioth&egrave;que donc, mais aussi la cote des exemplaires qui lui sont rattach&eacute;s.</p>
+
+<p>La notice de holding est parfois appel&eacute;e notice de fonds ou de collection.</p>
+
+<p>Une notice bibliographique peut donc avoir plusieurs notices de holding, et une notice de holding peut avoir une ou plusieurs notices d&#39;exemplaires qui lui sont li&eacute;es.</p>
+</div>
+
+<h5>Notice d&#39;exemplaire</h5>
+
+<div class="level5">
+<p>Cette notice contient les informations sp&eacute;cifiques &agrave; chaque exemplaire, comme par exemple le code barres.</p>
+
+<p>Elle ne contient des informations sur les r&egrave;gles de pr&ecirc;t que dans le cas o&ugrave; les r&egrave;gles qui s&#39;appliquent &agrave; cet exemplaire sont diff&eacute;rentes de celles qui s&#39;appliquent &agrave; la localisation &agrave; laquelle il appartient, par exemple un exemplaire exclu du pr&ecirc;t alors que la r&egrave;gle qui s&#39;applique aux exemplaires de cette localisation autorise le pr&ecirc;t.</p>
+</div>
+
+<h4>Ressources &eacute;lectroniques</h4>
+
+<div class="level4">
+<p>(tableau)</p>
+</div>
+
+<h5>Notice bibliographique</h5>
+
+<div class="level5">
+<p>Rappel : Alma regoupe &agrave; la fois les notices de documents &eacute;lectroniques catalogu&eacute;s dans Sudoc (livres, th&egrave;ses&hellip;) et les notices bibliographiques des livres et p&eacute;riodiques &eacute;lectroniques issues de SFX .</p>
+</div>
+
+<h5>Portfolio</h5>
+
+<div class="level5">
+<p>Terme pouvant &ecirc;tre consid&eacute;r&eacute; comme l&#39;&eacute;quivalent de l&#39;exemplaire pour les ressources &eacute;lectroniques. Il consiste en l&#39;unit&eacute; documentaire la plus &quot;&eacute;l&eacute;mentaire&quot;. En l&#39;occurrence, il contient les informations d&#39;acc&egrave;s &agrave; la ressource telle que le lien URL, les &eacute;ventuelles restrictions d&#39;acc&egrave;s, la p&eacute;riode de couverture, etc.</p>
+
+<p>Un portfolio peut faire partie d&#39;une collection ou &ecirc;tre isol&eacute; (par exemple, le porfolio d&#39;un livre &eacute;lectronique achet&eacute; en dehors de tout bouquet).</p>
+
+<p>Pour un m&ecirc;me &eacute;tablissement, il peut y avoir plusieurs porfolios rattach&eacute;s &agrave; un m&ecirc;me titre &eacute;lectronique ; c&#39;est le cas par exemple lorsqu&#39;un titre appartient &agrave; plusieurs bouquets souscrits par l&#39;&eacute;tablissement.</p>
+</div>
+
+<h5>Collection &eacute;lectronique</h5>
+
+<div class="level5">
+<p>Une collection &eacute;lectronique regroupe plusieurs portfolios. Elle correpond &agrave; un bouquet de publications &eacute;lectroniques (p&eacute;riodiques ou ebooks) ou &agrave; une base de donn&eacute;es.</p>
+</div>
+
+<h5>Service</h5>
+
+<div class="level5">
+<p>Correpond aux services qu&#39;une collection &eacute;lectronique propose pour acc&eacute;der &agrave; ses portfolios. Dans Alma, vous aurez acc&egrave;s &agrave; des services de texte int&eacute;gral.</p>
+
+<p>Le service contient des informations de lien ou de connexion sur l&#39;acc&egrave;s au texte int&eacute;gral.</p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1555575632;s:6:"client";s:8:"rguidoni";}

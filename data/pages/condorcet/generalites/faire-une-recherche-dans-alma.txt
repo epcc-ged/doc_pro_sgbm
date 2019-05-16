@@ -20,11 +20,11 @@ Pour sélectionner un critère de pré-recherche, il suffit de cliquer sur la fl
 
 ==== Recherche simple ====
 
-===   Tous les titres / Tout   ===
+=== Tous les titres / Tout ===
 
 C'est la recherche de base : Alma recherche les termes saisis dans tous les champs indexés.
 
-Exemple 1 : dans ''Utilisateurs'', chercher Martin (<font inherit/inherit;;#8e44ad;;inherit>est-ce vraiment un  exemplaire pertinent ici ?</font>)
+Exemple 1 : dans ''Utilisateurs'', chercher Martin (<font inherit/inherit;;#8e44ad;;inherit>est-ce vraiment un exemplaire pertinent ici ?</font>)
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -32,13 +32,13 @@ Exemple 2 : chercher histoire Japon
 
 dans ''Tous titres''  : recherche les notices bibliographiques contenant ces deux mots
 
-dans ''Tout''  : cherchent toutes les occurences qui contiennent ces deux mots
+dans ''Tout''  : cherchent toutes les occurrences qui contiennent ces deux mots
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 NB :
 
-  * le système n'est sensible ni à la casse (majuscule/minuscule), ni aux caractère diacritiques (français = francais)
+  * le système n'est sensible ni à la casse (majuscule/minuscule), ni aux caractères diacritiques (français = francais)
   * en revanche il n'y pas de mots vides
 
 exemple :
@@ -49,7 +49,7 @@ histoire de la chine = Y résultats
 
 l'histoire de la chine = Z résultats
 
-  * la troncature se fait uniquement à la fin de l'expression de recherche, à doite du dernier mot et en ajoutant l'astérisque *
+  * la troncature se fait uniquement à la fin de l'expression de recherche, à droite du dernier mot et en ajoutant l'astérisque *
   * il est possible de faire des recherches dans d'autres écritures
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
@@ -66,11 +66,11 @@ Pour chaque critère de pré-recherche, on peut sélectionner l'index qu'on veut
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-La liste déroulante des index s'affiche. Ils sont classés par ordre alphabétique, à l'exception des 5 premiers, car ayant été interrogés en dernier, ils sont donc remontés en haut de la liste, avec l'icône de l'horloge.
+La liste déroulante des index s'affiche. Ils sont classés par ordre alphabétique, à l'exception des 5 premiers, car ayant été interrogés en dernier, ils sont remontés en haut de la liste, avec l'icône de l'horloge.
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Cette liste des index est contextuelle : certains sont communs à tous les critères de pré-recherche, tandis que d'autres ne sont disponibles que pour l'un ou l'autre des index.
+La liste des index est contextuelle : certains sont communs à tous les critères de pré-recherche, tandis que d'autres ne sont disponibles que pour l'un ou l'autre des index.
 
 === Critères de pré-recherche ===
 

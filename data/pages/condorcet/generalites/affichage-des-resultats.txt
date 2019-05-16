@@ -22,7 +22,7 @@ A ce stade, pour un document donné, on voit s'il s'agit :
 
 ==== Afficher les données d’inventaire de documents physiques issues des notices de holdings et d’exemplaires ====
 
- (capture d'écran)
+(capture d'écran)
 
 === Premier mode d’accès ===
 
@@ -34,7 +34,7 @@ Cet affichage correpond à un premier niveau d'information qui regroupe des él�
 
 En cliquant sur ''Toutes les collections'', on accède aux notices de holding puis aux exemplaires qui leur sont rattachés.
 
-En cliquant sur ''Tous les exemplaires'', on accède directement aux exemplaires de toutes les notices de holdings.
+En cliquant sur ''Tous les exemplaires'', on accède directement aux exemplaires de toutes les notices de holding.
   * Détail de l'affichage quand on clique sur ''Toutes les collections ''
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>

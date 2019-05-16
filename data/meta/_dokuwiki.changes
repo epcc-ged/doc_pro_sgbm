@@ -1,40 +1,38 @@
-1555589740	81.67.148.147	E	condorcet:generalites:affichage-des-resultats	rguidoni			144
-1555590398	81.67.148.147	E	condorcet:generalites:affichage-des-resultats	rguidoni			686
-1555591138	81.67.148.147	E	condorcet:generalites:affichage-des-resultats	rguidoni			266
-1555591532	81.67.148.147	E	condorcet:generalites:affichage-des-resultats	rguidoni			1094
-1555594518	194.254.171.10	E	condorcet:circulation:retourner-des-documents	jchiavassa			1038
-1555598567	194.254.171.10	E	condorcet:circulation:preter-et-retourner-des-exemplaires-non-catalogues	jchiavassa			144
-1555598747	194.254.171.10	E	condorcet:circulation:preter-et-retourner-des-exemplaires-non-catalogues	jchiavassa			82
-1555679722	194.254.171.10	E	condorcet:circulation:preter-et-retourner-des-exemplaires-non-catalogues	jchiavassa			134
-1556109103	194.254.171.10	E	condorcet:circulation:start	jchiavassa			-49
-1556109165	194.254.171.10	E	condorcet:circulation:start	jchiavassa			-125
-1556110218	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-2327
-1556110403	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-4
-1556110463	194.254.171.10	R	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa	ancienne révision (2019/04/24 14:50) restaurée	1556110218	19
-1556110512	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-35
-1556110566	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-23
-1556111031	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-139
-1556111096	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			-7
-1556114272	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			1934
-1556114317	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			20
-1556114393	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			5
-1556200546	194.254.171.10	E	condorcet:signalement:le-catalogage-rapide	jchiavassa			210
-1556200594	194.254.171.10	E	condorcet:signalement:le-catalogage-rapide	jchiavassa			2
-1556268141	194.254.171.10	E	condorcet:circulation:start	jchiavassa			23
-1556268153	194.254.171.10	E	condorcet:circulation:start	jchiavassa			-106
-1556268193	194.254.171.10	E	condorcet:circulation:start	jchiavassa			-19
-1556268392	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			265
-1556271352	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa			1393
-1556272136	194.254.171.10	E	condorcet:circulation:start	jchiavassa			-64
-1556272149	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	jchiavassa	[CIRCULATION : CATEGORIES D'USAGERS ET REGLES DE PRET] 		10
-1556272217	194.254.171.10	E	condorcet:circulation:retourner-des-documents	jchiavassa			67
-1556272265	194.254.171.10	E	condorcet:circulation:retourner-des-documents	jchiavassa			-1
-1556272722	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			-7
-1556273043	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa	[Accéder à l'éditeur de métadonnées] 		51
-1556273071	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa	[Accéder à l'éditeur de métadonnées] 		-2
-1556273086	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa	[Accéder à l'éditeur de métadonnées] 		5
-1556273155	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa	[Accéder à l'éditeur de métadonnées] 		25
-1556273266	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	jchiavassa	[Fusionner deux notices] 		143
-1556273301	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	jchiavassa	[Fusionner deux notices] 		41
-1556273375	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	jchiavassa			-184
-1556273388	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			-79
+1556806927	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			701
+1556809376	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			1270
+1556809415	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			-3
+1557405606	81.67.148.147	E	condorcet:acquisition:infrastructure:le-budget	rguidoni			-1
+1557405820	81.67.148.147	E	condorcet:acquisition:infrastructure:le-budget	rguidoni			-1
+1557406035	81.67.148.147	E	condorcet:acquisition:infrastructure:le-budget	rguidoni			-1
+1557409550	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			2472
+1557410634	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			1419
+1557410679	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			-3
+1557411783	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			2334
+1557413378	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			1648
+1557414550	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			3665
+1557414690	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			0
+1557415151	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			13
+1557480139	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			457
+1557481615	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			2170
+1557481721	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			0
+1557483132	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			1005
+1557483244	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			-133
+1557485043	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			18
+1558000248	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			3087
+1558000425	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			11
+1558001148	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			1093
+1558002699	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			897
+1558002887	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			386
+1558002923	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			-21
+1558007968	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			3842
+1558008173	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			212
+1558008577	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			722
+1558008626	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			6
+1558009051	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			1169
+1558009438	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			715
+1558009957	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			72
+1558010017	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			1359
+1558010050	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			68
+1558010073	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			-5
+1558010352	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			77
+1558010529	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			305

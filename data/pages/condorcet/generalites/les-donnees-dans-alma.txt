@@ -24,7 +24,7 @@ Nous verrons plus tard comment identifier la provenance et l'appartenanace d'une
 
 === Ressources physiques : données bibliographiques et d'exemplaires ===
 
- (tableau)
+(tableau)
 
 == Notice bibliographique ==
 
@@ -38,7 +38,7 @@ Format : Unimarc
 
 Notice intermédiaire entre la notice bibliographique et les notices d'exemplaires pour les monographies et les périodiques imprimés. Elle regroupe les exemplaires d'une même "localisation", c'est-à-dire d'un même emplacement.
 
-Cette notice contient les éléments communs à différents exemplaires : la localisation et la bibliothèque donc, mais aussi la cote des exempalires qui lui sont rattachés.
+Cette notice contient les éléments communs à différents exemplaires : la localisation et la bibliothèque donc, mais aussi la cote des exemplaires qui lui sont rattachés.
 
 La notice de holding est parfois appelée notice de fonds ou de collection.
 
@@ -52,7 +52,7 @@ Elle ne contient des informations sur les règles de prêt que dans le cas où l
 
 === Ressources électroniques ===
 
- (tableau)
+(tableau)
 
 == Notice bibliographique ==
 
@@ -68,11 +68,11 @@ Pour un même établissement, il peut y avoir plusieurs porfolios rattachés à 
 
 == Collection électronique ==
 
-Une collection électronique regroupe plusieurs portfolios. Elle correpond à un bouquet de publications électroniques (périodiques ou ebooks) ou à une base de données.
+Une collection électronique regroupe plusieurs portfolios. Elle correspond à un bouquet de publications électroniques (périodiques ou ebooks) ou à une base de données.
 
 == Service ==
 
-Correpond aux services qu'une collection électronique propose pour accéder à ses portfolios. Dans Alma, vous aurez accès à des services de texte intégral.
+Correspond aux services qu'une collection électronique propose pour accéder à ses portfolios. Dans Alma, vous aurez accès à des services de texte intégral.
 
 Le service contient des informations de lien ou de connexion sur l'accès au texte intégral.
 

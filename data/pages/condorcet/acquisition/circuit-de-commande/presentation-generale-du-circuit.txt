@@ -2,5 +2,43 @@
 
 === Contexte général ===
 
+Le circuit de commande dans Alma se décompose en 5 étapes principales :
+
+  - Créer et compléter une ou plusieurs lignes de commande
+  - Créer un bon de commande, par regroupement d'un ou plusieurs lignes de commandes
+  - Envoyer le bon de commande validé
+  - Réceptionner les exemplaires
+  - Facturer les exemplaires reçus
+
+La commande doit être réalisée à partir d'un titre présent au catalogue. Le point de départ du processus varie donc en fonction de la présence ou non de la notice du titre désiré.
+
+Si cette notice est absente, le traitement de la commande nécessite une étape préalable : l'ajout de la notice au catalogue, que ce soit par :
+
+  * dérivation d'une notice depuis un catalogue extérieur
+  * importation d'une notice depuis un réservoir extérieur
+  * création d'une notice succincte
+
+Le schéma suivant présente de manière synthétique ces différentes étapes, en mettant en regard les statuts appliqués à chaque étape aux lignes et/ou bons de commande.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 === Plan du support de formation ===
+
+Le présent support se concentre sur le circuit de commande des monographies imprimées. Il est utile, néanmoins, à toute personne amenée à faire des acquisitions ou des commandes d'abonnements dans Alma.
+
+En effet, à quelques variantes près, le circuit de commande est commun pour tous les types de supports et tous les types de ressources.
+
+Les adaptations propres aux livres électroniques acquis titre à tire, aux bouquets de ressources électroniques et aux périodiques imprimés seront présentés dans d'autres supports de formation, complémentaires à celui-ci.
+
+De la même manière, les deux dernières étapes du circuit (réception et facturation) sont décrites dans un support séparé.
+
+Le présent support décrit :
+
+  * comment rechercher un titre dans un catalogue
+  * comment ajouter un titre absent au catalogue
+  * comment créer un modèle de ligne de commande
+  * comment créer et envoyer une commande, depuis l'étape de la création des lignes de commandes jusqu'à l'envoi d'un bon de commande validé
+  * les adaptations du circuit de commande dues à des modes d'achat particuliers (dons, rachats, suggestions de commande)
+  * comment modifier ou annuler des lignes ou des bons de commandes
+  * comment réclamer des monographies non livrées.
 

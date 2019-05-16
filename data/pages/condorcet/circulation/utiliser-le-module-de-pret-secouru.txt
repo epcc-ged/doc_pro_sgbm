@@ -1,3 +1,70 @@
-===== CIRCULATION : COMPLETER LE TITRE =====
+===== CIRCULATION : MODULE DE PRÊT SECOURU =====
 
-COMPLETER ICI
+Les prêts et les retours peuvent être effectués quand la connectivité réseau est interrompue, grâce à l'Utilitaire prêt secouru/retour secouru. Une fois la connectivité réseau restaurée, la page **Liste prêt secouru/retour secouru **dans Alma vous permet de télécharger un fichier de données vers Alma. Ce fichier contient les transactions de prêt et de retour secourus.
+
+<WRAP center round important 60%>\\
+Le prêt secouru nécessite le téléchargement sur votre poste de travail d'un utiltaire à cet effet. Il est donc recommandé de faire ce téléchargement dès que possible. Voir ci-dessous.
+
+Le module ne fonctionne que pour les prêts et les retours. Aucune autre opération ne peut être réalisée dans ce mode secouru.\\
+</WRAP>
+
+==== Télécharger et installer le module de prêt secouru ====
+
+<WRAP center round info 60%>\\
+Disponible uniquement sous Windows ! Les indications données ici correspondent au programme téléchargé le 16/05/2019 et ne peut préjuger du fonctionnement d'une version future.\\
+</WRAP>\\
+On peut télécharger le module de prêt secouru [[https://developers.exlibrisgroup.com/wp-content/uploads/2015/08/setup_offcirc.zip|ici : https://developers.exlibrisgroup.com/wp-content/uploads/2015/08/setup_offcirc.zip]]
+
+Le fichier zip doit être décompressé à l'endroit qui vous convient sur votre poste : vous obtenez un fichier nommé ''setup_offcirc.exe''.
+
+Une fois ce fichier décompressé, lancez le fichier .exe obtenu. C'est le programme qui va installer le module de prêt secouru. Laissez toutes les options par défaut. Le programme est alors installé dans le répertoire ''C:\Alma Offline Circulation''.
+
+En principe, Alma installe également un lien pour lancer le programme dans le menu Démarrer de Windows.
+
+==== Faire des prêts et des retours hors-ligne ====
+
+Après avoir téléchargé l'Utilitaire Prêt secouru/Retour secouru, vous pouvez effectuer des prêts et des retours hors-ligne.
+
+Pour effectuer des prêts et des retours hors-ligne, procédez comme suit :
+
+1. Lancer le programme Alma Offline Circulation installé précédemment.La fenêtre de dialogue suivante s'ouvre (sur un fond bleu qui occupe tout l'écran, probablement) :
+
+{{  :condorcet:circulation:modulepretsepare.jpg?nolink&448x507  |modulepretsepare.jpg}}
+
+2. Dans **Choisir une transaction ** (''Choose transaction'') , sélectionnez **Prêt ** (''Loan'') ou **Retour ** (''Return''). Les champs qui sont au-dessus de ce bloc **Choisir une transaction **s'adaptent à votre choix :
+
+Si vous prêter, vous devrez remplir deux champs et le bouton déclenchant l'action s'appelle **Prêter ** (''Loan''),
+
+Si vous rendez, vous devrez remplir un seul champ et le bouton déclenchant l'action s'appelle **Retour ** (''Return'').
+
+3. Si vous prêtez, scannez la carte de bibliothèque de l'emprunteur ou saisissez son code-barre à la main pour remplir le champ **Emprunteur ** (''Borrower'')
+
+4. SI vous prêtez et si vous rendez, scannez le code-barres de l'exemplaire pour remplir le champ associé (''Item barcode'').
+
+5. Cliquez sur le bouton **Prêt ** (''Loan'') ou **Retour** (''Return'')pour terminer la transaction.
+
+Ceci fait, une ligne s'ajoute dans la liste située dans le bas de la fenêtre de l'application. A ce moment, vous pouvez soit cliquez sur le bouton Enregistrer dans le fichier (Save to file) soit faire une autre opération de prêt / retour. Mais dans tous les cas avant de quitter l'application, pensez à cliquer sur ce bouton, sinon il vous faudra refaire toutes vos manipulations.
+
+<WRAP center round tip 60%>\\
+Nous vous conseillons de sauvegarder **après chaque opération de prêt/retour**.
+
+Le module ajoutera les lignes au fichier automatiquement sans perte d'informations. Cette façon de procéder réduit les risques de pertes d'informations.\\
+</WRAP>
+
+Le fichier contenant toutes les transactions effecutées est situé dans le répertoire ''C:\Alma Offline Circulation\OffCirc\files\'' et se nomme ''OffCirc.dat''
+==== Enregistrer les opérations dans Alma lorsque la connexion est rétablie ====
+
+Quand votre connexion internet est rétablie, les fichiers de données peuvent être téléchargés vers Alma à partir de la page **Liste prêt secouru/retour secouru ** (**Services aux usagers > Outils avancés > Prêt secouru/Retour secouru **).
+
+{{  :condorcet:circulation:almasecouru.jpg?nolink&  |almasecouru.jpg}}
+
+**Après avoir indiqué le fichier à télécharger, cliquez sur le bouton Télécharger et valider le contenu du fichier. **
+
+Dans ce même écran, le fichier est indiqué comme traité : vous pouvez accéder à un rapport qui listera les erreurs éventuelles (dans le menu ''···'').
+
+Une fois les fichiers de données téléchargés vers Alma, vous pouvez les supprimer du répertoire ''C:\Alma Offline Circulation\OffCirc\files''. Vous devez faire la suppression **manuellement**.
+
+<WRAP center round tip 60%>\\
+Il est conseillé d'effectuer cette suppression **dès que possible**. En effet, ni Alma ni le programme ne supprimeront le fichier à votre place. Si vous ne supprimez pas le fichier, à la prochaine utilisation, vous renverrez des données qui ont déjà été traitées, c'est-à-dire soit de recréer des prêts déjà faits soit d'effectuer des retours déjà faits !\\
+</WRAP>
+
