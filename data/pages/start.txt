@@ -1,1 +1,13 @@
-./condorcet/start.txt
+<WRAP center round box 100%>
+
+====== GED - Campus Condorcet ======
+
+</WRAP>
+
+<WRAP center round info 60%> Documentation professionnelle du Grand Equipement Documentaire du Campus Condorcet. </WRAP>
+
+Depuis cette page, vous pouvez accéder à :
+
+  * la [[:condorcet:start|documentation Alma du GED]] ;
+  * la [[:condorcet-sp:start|documentation service public]].
+

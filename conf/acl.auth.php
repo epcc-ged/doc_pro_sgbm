@@ -8,3 +8,5 @@
 # Date: Thu, 21 Mar 2019 12:29:23 +0000
 *	@ALL	1
 *	@user	8
+condorcet-sp:*	mhgatto	8
+condorcet:*	mhgatto	1

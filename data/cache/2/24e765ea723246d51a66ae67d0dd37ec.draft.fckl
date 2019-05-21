@@ -1,0 +1,81 @@
+a:6:{s:2:"id";s:56:"condorcet:circulation:utiliser-le-module-de-pret-secouru";s:6:"prefix";b:0;s:4:"text";s:7608:"<h2>CIRCULATION : MODULE DE PR&Ecirc;T SECOURU</h2>
+
+<div class="level2">
+<p>Les pr&ecirc;ts et les retours peuvent &ecirc;tre effectu&eacute;s quand la connectivit&eacute; r&eacute;seau est interrompue, gr&acirc;ce &agrave; l&#39;Utilitaire pr&ecirc;t secouru/retour secouru. Une fois la connectivit&eacute; r&eacute;seau restaur&eacute;e, la page <b>Liste pr&ecirc;t secouru/retour secouru </b>dans Alma vous permet de t&eacute;l&eacute;charger un fichier de donn&eacute;es vers Alma. Ce fichier contient les transactions de pr&ecirc;t et de retour secourus.</p>
+
+<p>&lt;WRAP center round important 60%&gt;<br />
+Le pr&ecirc;t secouru n&eacute;cessite le t&eacute;l&eacute;chargement sur votre poste de travail d&#39;un utiltaire &agrave; cet effet. Il est donc recommand&eacute; de faire ce t&eacute;l&eacute;chargement d&egrave;s que possible. Voir ci-dessous.</p>
+
+<p>Le module ne fonctionne que pour les pr&ecirc;ts et les retours. Aucune autre op&eacute;ration ne peut &ecirc;tre r&eacute;alis&eacute;e dans ce mode secouru.<br />
+&lt;/WRAP&gt;</p>
+</div>
+
+<h3>T&eacute;l&eacute;charger et installer le module de pr&ecirc;t secouru</h3>
+
+<div class="level3">
+<p>&lt;WRAP center round info 60%&gt;<br />
+Disponible uniquement sous Windows ! Les indications donn&eacute;es ici correspondent au programme t&eacute;l&eacute;charg&eacute; le 16/05/2019 et ne peut pr&eacute;juger du fonctionnement d&#39;une version future.<br />
+&lt;/WRAP&gt;<br />
+On peut t&eacute;l&eacute;charger le module de pr&ecirc;t secouru <a class="urlextern" href="https://developers.exlibrisgroup.com/wp-content/uploads/2015/08/setup_offcirc.zip" rel="nofollow" title="https://developers.exlibrisgroup.com/wp-content/uploads/2015/08/setup_offcirc.zip">ici : https://developers.exlibrisgroup.com/wp-content/uploads/2015/08/setup_offcirc.zip</a></p>
+
+<p>Le fichier zip doit &ecirc;tre d&eacute;compress&eacute; &agrave; l&#39;endroit qui vous convient sur votre poste : vous obtenez un fichier nomm&eacute; <code>setup_offcirc.exe</code>.</p>
+
+<p>Une fois ce fichier d&eacute;compress&eacute;, lancez le fichier .exe obtenu. C&#39;est le programme qui va installer le module de pr&ecirc;t secouru. Laissez toutes les options par d&eacute;faut. Le programme est alors install&eacute; dans le r&eacute;pertoire <code>C:\Alma Offline Circulation</code>.</p>
+
+<p>En principe, Alma installe &eacute;galement un lien pour lancer le programme dans le menu D&eacute;marrer de Windows.</p>
+</div>
+
+<h3>Faire des pr&ecirc;ts et des retours hors-ligne</h3>
+
+<div class="level3">
+<p>Apr&egrave;s avoir t&eacute;l&eacute;charg&eacute; l&#39;Utilitaire Pr&ecirc;t secouru/Retour secouru, vous pouvez effectuer des pr&ecirc;ts et des retours hors-ligne.</p>
+
+<p>Pour effectuer des pr&ecirc;ts et des retours hors-ligne, proc&eacute;dez comme suit :</p>
+
+<p>1. Lancer le programme Alma Offline Circulation install&eacute; pr&eacute;c&eacute;demment.La fen&ecirc;tre de dialogue suivante s&#39;ouvre (sur un fond bleu qui occupe tout l&#39;&eacute;cran, probablement) :</p>
+
+<p><img alt="modulepretsepare.jpg" class="mediacenter" height="507" src="/dokuwiki/lib/exe/fetch.php?w=448&amp;h=507&amp;tok=54e297&amp;media=condorcet:circulation:modulepretsepare.jpg" title="modulepretsepare.jpg" width="448" /></p>
+
+<p>2. Dans <b>Choisir une transaction </b> (<code>Choose transaction</code>) , s&eacute;lectionnez <b>Pr&ecirc;t </b> (<code>Loan</code>) ou <b>Retour </b> (<code>Return</code>). Les champs qui sont au-dessus de ce bloc <b>Choisir une transaction </b>s&#39;adaptent &agrave; votre choix :</p>
+
+<p>Si vous pr&ecirc;ter, vous devrez remplir deux champs et le bouton d&eacute;clenchant l&#39;action s&#39;appelle <b>Pr&ecirc;ter </b> (<code>Loan</code>),</p>
+
+<p>Si vous rendez, vous devrez remplir un seul champ et le bouton d&eacute;clenchant l&#39;action s&#39;appelle <b>Retour </b> (<code>Return</code>).</p>
+
+<p>3. Si vous pr&ecirc;tez, scannez la carte de biblioth&egrave;que de l&#39;emprunteur ou saisissez son code-barre &agrave; la main pour remplir le champ <b>Emprunteur </b> (<code>Borrower</code>)</p>
+
+<p>4. SI vous pr&ecirc;tez et si vous rendez, scannez le code-barres de l&#39;exemplaire pour remplir le champ associ&eacute; (<code>Item barcode</code>).</p>
+
+<p>5. Cliquez sur le bouton <b>Pr&ecirc;t </b> (<code>Loan</code>) ou <b>Retour</b> (<code>Return</code>)pour terminer la transaction.</p>
+
+<p>Ceci fait, une ligne s&#39;ajoute dans la liste situ&eacute;e dans le bas de la fen&ecirc;tre de l&#39;application. A ce moment, vous pouvez soit cliquez sur le bouton Enregistrer dans le fichier (Save to file) soit faire une autre op&eacute;ration de pr&ecirc;t / retour. Mais dans tous les cas avant de quitter l&#39;application, pensez &agrave; cliquer sur ce bouton, sinon il vous faudra refaire toutes vos manipulations.</p>
+
+<p>&lt;WRAP center round tip 60%&gt;<br />
+Nous vous conseillons de sauvegarder <b>apr&egrave;s chaque op&eacute;ration de pr&ecirc;t/retour</b>.</p>
+
+<p>Le module ajoutera les lignes au fichier automatiquement sans perte d&#39;informations. Cette fa&ccedil;on de proc&eacute;der r&eacute;duit les risques de pertes d&#39;informations.<br />
+&lt;/WRAP&gt;</p>
+
+<p>Le fichier contenant toutes les transactions effecut&eacute;es est situ&eacute; dans le r&eacute;pertoire <code>C:\Alma Offline Circulation\OffCirc\files\</code> et se nomme <code>OffCirc.dat</code></p>
+</div>
+
+<h3>Enregistrer les op&eacute;rations dans Alma lorsque la connexion est r&eacute;tablie</h3>
+
+<div class="level3">
+<p>Quand votre connexion internet est r&eacute;tablie, les fichiers de donn&eacute;es peuvent &ecirc;tre t&eacute;l&eacute;charg&eacute;s vers Alma &agrave; partir de la page <b>Liste pr&ecirc;t secouru/retour secouru </b> (<b>Services aux usagers &gt; Outils avanc&eacute;s &gt; Pr&ecirc;t secouru/Retour secouru </b>).</p>
+
+<p><img alt="almasecouru.jpg" class="mediacenter" src="/dokuwiki/lib/exe/fetch.php?media=condorcet:circulation:almasecouru.jpg" title="almasecouru.jpg" /></p>
+
+<p><b>Apr&egrave;s avoir indiqu&eacute; le fichier &agrave; t&eacute;l&eacute;charger, cliquez sur le bouton T&eacute;l&eacute;charger et valider le contenu du fichier. </b></p>
+
+<p>Dans ce m&ecirc;me &eacute;cran, le fichier est indiqu&eacute; comme trait&eacute; : vous pouvez acc&eacute;der &agrave; un rapport qui listera les erreurs &eacute;ventuelles (dans le menu <code>&middot;&middot;&middot;</code>).</p>
+
+<p>Une fois les fichiers de donn&eacute;es t&eacute;l&eacute;charg&eacute;s vers Alma, vous pouvez les supprimer du r&eacute;pertoire <code>C:\Alma Offline Circulation\OffCirc\files</code>. Vous devez faire la suppression <b>manuellement</b>.</p>
+
+<p>&lt;WRAP center round tip 60%&gt;<br />
+Il est conseill&eacute; d&#39;effectuer cette suppression <b>d&egrave;s que possible</b>. En effet, ni Alma ni le programme ne supprimeront le fichier &agrave; votre place. Si vous ne supprimez pas le fichier, &agrave; la prochaine utilisation, vous renverrez des donn&eacute;es qui ont d&eacute;j&agrave; &eacute;t&eacute; trait&eacute;es, c&#39;est-&agrave;-dire soit de recr&eacute;er des pr&ecirc;ts d&eacute;j&agrave; faits soit d&#39;effectuer des retours d&eacute;j&agrave; faits !<br />
+&lt;/WRAP&gt;</p>
+
+<p>Rem. : la structure du fichier stock&eacute; cr&eacute;&eacute; par le module de pr&ecirc;t secouru est d&eacute;crit <a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/030Services_aux_usagers/070Outils_avanc%C3%A9s/060Pr%C3%AAt_secouru//Retour_secouru#Fichier_pr.C3.AAt_secouru.2Fretour_secouru">sur cette page ExLibris</a>.</p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1558010529;s:6:"client";s:10:"jchiavassa";}

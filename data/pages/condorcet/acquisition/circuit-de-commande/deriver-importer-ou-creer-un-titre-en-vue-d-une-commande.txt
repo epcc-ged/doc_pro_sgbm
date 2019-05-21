@@ -1,16 +1,154 @@
 ==== ACQUISITIONS : CIRCUIT DE COMMANDE : DERIVER, IMPORTER OU CREER UN TITRE EN VUE D'UNE COMMANDE ====
 
+Lorsque la notice d'un titre est absente du catalogue, il convient de l'y ajouter afin de pouvoir lancer le processus de commande. Pour ce faire, trois modes opératoires peuvent être utilisés :
+
+  - dériver une notice depuis un catalogue extérieur
+  - importer une notice depuis un réservoir extérieur
+  - créer une notice succincte ex nihilo
+
 === Dériver une notice depuis un catalogue extérieur ===
 
 == Fonctionnement général ==
 
+La recherche dans un catalogue extérieur et la dérivation de notice qui s'ensuit sont réalisées depuis Alma et la fonction intitulée ''Recherche ressources externes''.
+
+Les administrateurs du système ont la possiiblité d'ajouter des réservoirs de données interrogeables via des protocoles standardisés (Z39.50 ou SRU) et de créer des profils de recherche. La création de ces profils de recherche est réalisé par le <font inherit/inherit;;#9b59b6;;inherit>SICD</font>pour l'ensemble des acquéreurs et catalogueurs habilités à utiliser cette fonction.
+
+Actuellement, seul le catalogue SUDOC est interrogeable par ce moyen.
+
+L'utilisation de catalogues étrangers ou, du moins, de catalogues dans un format de donnés autres qu'Unimarc pose actuellement un problème technique : une notice Marc21 dérivée d'un catalogue extérieur pour servir de notice d'acquisition ne serait pas écrasée par l'importation de la notice Sudoc, ce qui complique d'autant le processus de gestion.
+
+Le profil de recherche "Sudoc" a été créé dans Alma pour pouvoir dériver une notice du Sudoc. La notice ainsi dérivée portera la mention "NOTICE D'ACQUISITION DERIVEE DU SUDOC" dans une zone 930 ; toutes les autres zones du bloc 9XX seront supprimées lors de la dérivation. Cela facilite l'identification des notices du Sudoc utilisées comme notices d'acquisition.
+
+L'accès à la fonction ''Recherche ressources externes''  nécessite d'avoir le rôle de "catalogueur" qui sera donc associé par défaut à tous les acquéreurs du réseau.
+
 == Rechercher un titre dans un catalogue extérieur ==
 
+Cliquez sur le menu ''Ressources''  puis sur ''Recherche ressources externes''  :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le profil "Sudoc" est sélectionné par défaut, dans le champ ''Rechercher un profil de catalogage''  :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Saisissez ensuite le ou les termes de recherche souhaités dans les différents index proposés (ici : "Richard et Jean Tassel" dans le ''Titre''  pour la formule ''Contient la phrase''). Cliquez sur ''Recherche''  :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Les résultats sont affichés sous forme de notices succinctes. Un onglet précise qu'il s'agit de notices provenant du Sudoc et au format Unimarc.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 == Dériver la notice ==
+
+Depuis la page de résultat, il vous est possible d'afficher le détail d'une notice, en cliquant sur ''Voir''  sous la notice succincte.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+La notice s'ouvre en lecture, dans le format de catalogage de la base source (ici : Unimarc).
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Vous pouvez importer la notice dans le catalogue du réseau en cliquant sur ''Importer''  en bas de l'écran précédent.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Vous avez aussi la possibilié d'importer la notice depuis la liste des résultats :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Après avoir cliqué sur l'un des boutons ''Importer'', la notice s'ouvre en mode édition dans l'éditeur de métadonnées d'Alma.
+
+Comme indiqué plus haut, la notice ainsi dérivée du Sudoc a subi plusieurs traitements comme la suppression des zones 9XX, des zones 856, des zones 31X et la création d'une zone provisoire "930$a NOTICE D'ACQUISITION DERIVEE DU SUDOC".
+
+Ces modifications apportées sur la notice ont pour but de la simplifier et de la rendre "reconnaissable" comme notice d'acquisition et de ne pas la confondre avec des notices issues des imports Sudoc par transferts réguliers.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Vous pouvez alors enregistrer et débloquer la notice : cliquez sur ''Enregistrer et débloquer la notice''  à partir du menu ''Fichier''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Vous pouvez alors quitter l'écran (cliquez sur ''Quitter'', en haut à droite la page, puis sur ''Oui'', en réponse à la question "Voulez-vous enregistrer le brouillon avant de fermer ?"). La notice est désormais importée et accessible dans le catalogue du réseau et peut être retrouvée à partir d'une recherche sur son titre : elle est dépourvue de tout exemplaire comme en atteste le fait que l'onglet ''Physique''  est laissé en grisé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Une ligne de commande peut désormais ête créée : cliquez sur ''Commande''
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Vous êtes alors dirigé vers l'écran de sélection du type d'achat et <font inherit/inherit;;#9b59b6;;inherit>de la bibliothèque propriétaire</font> de la ligne de commande.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Pour les étapes suivantes, veuillez vou reporter à la partie "Processus de commande : fonctionnement général" du présent support.
+
+NB : vous pouvez aussi lancer la création de la ligne de commande directement depuis l'éditeur de métadonnées en cliquant sur l'icône chariot
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+NB : avant de procéder à la recherche d'une notice dans le catalogue externe Sudoc, assurez-vous d'abord que la notice n'existe pas dans Alma. Si toutefois cette vérification n'a pas été faite en amont, le système envoie ce message d'alerte s'il détecte un doublon.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Répondez "Oui" à ce message pour pouvoir visualiser la notice déjà existante.
+
+Puis cliquez sur ''Quitter''  afin de ne pas créer de doublons dans Alma.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Recherchez ensuite la notice existante dans la base par son titre ou son ISBN et cliquez sur le bouton-action puis sur ''Commande''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Pour les étapes suivantes, veuillez vous reporter à la partie "Processus de commande : fonctionnement général" du présent support.
 
 === Importer une notice depuis un réservoir extérieur ===
 
 == Fonctionnement général ==
+
+Alma permet l'importation de paniers de notices constitués sur des plateformes commerciales (Electre, Erasmus et Decitre). Le système permet aussi l'importation d'une notice isolée ou de plusieurs notices en Marc21 et exportées de catalogues extérieurs comme la Library of Congress, par exemple.
+
+Profil d'import Electre, Erasmus et Decitre : <font inherit/inherit;;#9b59b6;;inherit>ne rédiger que si on la même configuration à Condorcet</font>
+
+**Profil d'import Marc21**  : exemple de notices issues de la Library of Congress (LoC) : principes généraux
+
+Aux fins de test et de formation, un profil d'import "Marc21" minimal a été configuré par le <font inherit/inherit;;#9b59b6;;inherit>SICD</font>. C'est le profil décrit ici sous l'intitulé "Marc21 TEST procédures" et configuré <font inherit/inherit;;#9b59b6;;inherit>comme le profil Electre à l'exception des particularités suivantes</font> :
+
+  * le format de la source attendu pour l'import de notices en Marc21 (converti en Unimarc dans Alma)
+  * le nombre d'exemplaires commandés n'est pas importé dans Alma
+  * le prix n'est pas importé dans la ligne de commande.
+
+Dans la liste des profils d'import, le profil "Marc21 TEST procédures" permet d'importer les notices selon les modalités décrites. Il est à adapter pour votre bibliothèque. Il peut être utilisé pour tous les catalogus et toutes les plateformes permettant l'export de notices en UTF-8 et en Marc21.
+
+Pour exporter les notices depuis la LoC, voici la marche à suivre.
+
+Faites une recherche en interrrogeant le catalogue : [[https://catalog.loc.gov/vwebv/searchBrowse|https://catalog.loc.gov/vwebv/searchBrowse]]
+
+S'il n'y a qu'un seul résultat, la notice s'affche au format public. Cliquez sur le bouton "Save record", gardez l'encodage par défaut UTF-8 et cliquez sur le bouton "Save".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Enregistrez le ficher sur le bureau après avoir créé un dossier nommé, par exemple, "Panier LoC".
+
+Nommez le fichier de chaque notice importée, par exemple record_01, record_02, etc.
+
+S'il y a plusieurs résultats, vous obtenez une liste. Il est possible d'importer plusieurs notices en même temps. Cochez les notices à importer puis cliquez sur le bouton "Save".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Puis procédez aux étapes suivantes comme nous venons de les décrire pour enregistrer les notices sur votre bureau.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+**Adaptation des profils d'import à votre contexte en bibliothèque**
+
+Des profils d'import adaptés aux bibliothèques ont été créés dans Alma. Ils peuvent encore être affinés (par exemple, par l'ajout du compte fournissuer et des initiales de l'acquéreur) et des nouveaux profils peuvent être ajoutés. Les administrateurs système sont habilités à procéder à ces mises à jour ou créations.
+
+**Précautions à prendre dans l'utilisation d'un profil d'import depuis une plateforme payante**
+
+Si vous souhaitez (p. 22)
 
 == Accéder à la fonction d’import ==
 

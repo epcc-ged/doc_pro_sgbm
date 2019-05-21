@@ -2,6 +2,18 @@
 <h3 class="sectionedit1" id="acquisitionscircuit_de_commandederiver_importer_ou_creer_un_titre_en_vue_d_une_commande">ACQUISITIONS : CIRCUIT DE COMMANDE : DERIVER, IMPORTER OU CREER UN TITRE EN VUE D&#039;UNE COMMANDE</h3>
 <div class="level3">
 
+<p>
+Lorsque la notice d&#039;un titre est absente du catalogue, il convient de l&#039;y ajouter afin de pouvoir lancer le processus de commande. Pour ce faire, trois modes opératoires peuvent être utilisés :
+</p>
+<ol>
+<li class="level1"><div class="li"> dériver une notice depuis un catalogue extérieur</div>
+</li>
+<li class="level1"><div class="li"> importer une notice depuis un réservoir extérieur</div>
+</li>
+<li class="level1"><div class="li"> créer une notice succincte ex nihilo</div>
+</li>
+</ol>
+
 </div>
 
 <h4 id="deriver_une_notice_depuis_un_catalogue_exterieur">Dériver une notice depuis un catalogue extérieur</h4>
@@ -12,15 +24,195 @@
 <h5 id="fonctionnement_general">Fonctionnement général</h5>
 <div class="level5">
 
+<p>
+La recherche dans un catalogue extérieur et la dérivation de notice qui s&#039;ensuit sont réalisées depuis Alma et la fonction intitulée <code>Recherche ressources externes</code>.
+</p>
+
+<p>
+Les administrateurs du système ont la possiiblité d&#039;ajouter des réservoirs de données interrogeables via des protocoles standardisés (Z39.50 ou SRU) et de créer des profils de recherche. La création de ces profils de recherche est réalisé par le <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>SICD</span>pour l&#039;ensemble des acquéreurs et catalogueurs habilités à utiliser cette fonction.
+</p>
+
+<p>
+Actuellement, seul le catalogue SUDOC est interrogeable par ce moyen.
+</p>
+
+<p>
+L&#039;utilisation de catalogues étrangers ou, du moins, de catalogues dans un format de donnés autres qu&#039;Unimarc pose actuellement un problème technique : une notice Marc21 dérivée d&#039;un catalogue extérieur pour servir de notice d&#039;acquisition ne serait pas écrasée par l&#039;importation de la notice Sudoc, ce qui complique d&#039;autant le processus de gestion.
+</p>
+
+<p>
+Le profil de recherche “Sudoc” a été créé dans Alma pour pouvoir dériver une notice du Sudoc. La notice ainsi dérivée portera la mention “NOTICE D&#039;ACQUISITION DERIVEE DU SUDOC” dans une zone 930 ; toutes les autres zones du bloc 9XX seront supprimées lors de la dérivation. Cela facilite l&#039;identification des notices du Sudoc utilisées comme notices d&#039;acquisition.
+</p>
+
+<p>
+L&#039;accès à la fonction <code>Recherche ressources externes</code>  nécessite d&#039;avoir le rôle de “catalogueur” qui sera donc associé par défaut à tous les acquéreurs du réseau.
+</p>
+
 </div>
 
 <h5 id="rechercher_un_titre_dans_un_catalogue_exterieur">Rechercher un titre dans un catalogue extérieur</h5>
 <div class="level5">
 
+<p>
+Cliquez sur le menu <code>Ressources</code>  puis sur <code>Recherche ressources externes</code>  :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le profil “Sudoc” est sélectionné par défaut, dans le champ <code>Rechercher un profil de catalogage</code>  :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Saisissez ensuite le ou les termes de recherche souhaités dans les différents index proposés (ici : “Richard et Jean Tassel” dans le <code>Titre</code>  pour la formule <code>Contient la phrase</code>). Cliquez sur <code>Recherche</code>  :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les résultats sont affichés sous forme de notices succinctes. Un onglet précise qu&#039;il s&#039;agit de notices provenant du Sudoc et au format Unimarc.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
 </div>
 
 <h5 id="deriver_la_notice">Dériver la notice</h5>
 <div class="level5">
+
+<p>
+Depuis la page de résultat, il vous est possible d&#039;afficher le détail d&#039;une notice, en cliquant sur <code>Voir</code>  sous la notice succincte.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La notice s&#039;ouvre en lecture, dans le format de catalogage de la base source (ici : Unimarc).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous pouvez importer la notice dans le catalogue du réseau en cliquant sur <code>Importer</code>  en bas de l&#039;écran précédent.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous avez aussi la possibilié d&#039;importer la notice depuis la liste des résultats :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Après avoir cliqué sur l&#039;un des boutons <code>Importer</code>, la notice s&#039;ouvre en mode édition dans l&#039;éditeur de métadonnées d&#039;Alma.
+</p>
+
+<p>
+Comme indiqué plus haut, la notice ainsi dérivée du Sudoc a subi plusieurs traitements comme la suppression des zones 9XX, des zones 856, des zones 31X et la création d&#039;une zone provisoire “930$a NOTICE D&#039;ACQUISITION DERIVEE DU SUDOC”.
+</p>
+
+<p>
+Ces modifications apportées sur la notice ont pour but de la simplifier et de la rendre “reconnaissable” comme notice d&#039;acquisition et de ne pas la confondre avec des notices issues des imports Sudoc par transferts réguliers.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous pouvez alors enregistrer et débloquer la notice : cliquez sur <code>Enregistrer et débloquer la notice</code>  à partir du menu <code>Fichier</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous pouvez alors quitter l&#039;écran (cliquez sur <code>Quitter</code>, en haut à droite la page, puis sur <code>Oui</code>, en réponse à la question “Voulez-vous enregistrer le brouillon avant de fermer ?”). La notice est désormais importée et accessible dans le catalogue du réseau et peut être retrouvée à partir d&#039;une recherche sur son titre : elle est dépourvue de tout exemplaire comme en atteste le fait que l&#039;onglet <code>Physique</code>  est laissé en grisé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une ligne de commande peut désormais ête créée : cliquez sur <code>Commande</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous êtes alors dirigé vers l&#039;écran de sélection du type d&#039;achat et <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>de la bibliothèque propriétaire</span> de la ligne de commande.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour les étapes suivantes, veuillez vou reporter à la partie “Processus de commande : fonctionnement général” du présent support.
+</p>
+
+<p>
+NB : vous pouvez aussi lancer la création de la ligne de commande directement depuis l&#039;éditeur de métadonnées en cliquant sur l&#039;icône chariot
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+NB : avant de procéder à la recherche d&#039;une notice dans le catalogue externe Sudoc, assurez-vous d&#039;abord que la notice n&#039;existe pas dans Alma. Si toutefois cette vérification n&#039;a pas été faite en amont, le système envoie ce message d&#039;alerte s&#039;il détecte un doublon.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Répondez “Oui” à ce message pour pouvoir visualiser la notice déjà existante.
+</p>
+
+<p>
+Puis cliquez sur <code>Quitter</code>  afin de ne pas créer de doublons dans Alma.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Recherchez ensuite la notice existante dans la base par son titre ou son ISBN et cliquez sur le bouton-action puis sur <code>Commande</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour les étapes suivantes, veuillez vous reporter à la partie “Processus de commande : fonctionnement général” du présent support.
+</p>
 
 </div>
 
@@ -31,6 +223,90 @@
 
 <h5 id="fonctionnement_general1">Fonctionnement général</h5>
 <div class="level5">
+
+<p>
+Alma permet l&#039;importation de paniers de notices constitués sur des plateformes commerciales (Electre, Erasmus et Decitre). Le système permet aussi l&#039;importation d&#039;une notice isolée ou de plusieurs notices en Marc21 et exportées de catalogues extérieurs comme la Library of Congress, par exemple.
+</p>
+
+<p>
+Profil d&#039;import Electre, Erasmus et Decitre : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>ne rédiger que si on la même configuration à Condorcet</span>
+</p>
+
+<p>
+<strong>Profil d&#039;import Marc21</strong>  : exemple de notices issues de la Library of Congress (LoC) : principes généraux
+</p>
+
+<p>
+Aux fins de test et de formation, un profil d&#039;import “Marc21” minimal a été configuré par le <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>SICD</span>. C&#039;est le profil décrit ici sous l&#039;intitulé “Marc21 TEST procédures” et configuré <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>comme le profil Electre à l&#039;exception des particularités suivantes</span> :
+</p>
+<ul>
+<li class="level1"><div class="li"> le format de la source attendu pour l&#039;import de notices en Marc21 (converti en Unimarc dans Alma)</div>
+</li>
+<li class="level1"><div class="li"> le nombre d&#039;exemplaires commandés n&#039;est pas importé dans Alma</div>
+</li>
+<li class="level1"><div class="li"> le prix n&#039;est pas importé dans la ligne de commande.</div>
+</li>
+</ul>
+
+<p>
+Dans la liste des profils d&#039;import, le profil “Marc21 TEST procédures” permet d&#039;importer les notices selon les modalités décrites. Il est à adapter pour votre bibliothèque. Il peut être utilisé pour tous les catalogus et toutes les plateformes permettant l&#039;export de notices en UTF-8 et en Marc21.
+</p>
+
+<p>
+Pour exporter les notices depuis la LoC, voici la marche à suivre.
+</p>
+
+<p>
+Faites une recherche en interrrogeant le catalogue : <a href="https://catalog.loc.gov/vwebv/searchBrowse" class="urlextern" title="https://catalog.loc.gov/vwebv/searchBrowse" rel="nofollow">https://catalog.loc.gov/vwebv/searchBrowse</a>
+</p>
+
+<p>
+S&#039;il n&#039;y a qu&#039;un seul résultat, la notice s&#039;affche au format public. Cliquez sur le bouton “Save record”, gardez l&#039;encodage par défaut UTF-8 et cliquez sur le bouton “Save”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Enregistrez le ficher sur le bureau après avoir créé un dossier nommé, par exemple, “Panier LoC”.
+</p>
+
+<p>
+Nommez le fichier de chaque notice importée, par exemple record_01, record_02, etc.
+</p>
+
+<p>
+S&#039;il y a plusieurs résultats, vous obtenez une liste. Il est possible d&#039;importer plusieurs notices en même temps. Cochez les notices à importer puis cliquez sur le bouton “Save”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Puis procédez aux étapes suivantes comme nous venons de les décrire pour enregistrer les notices sur votre bureau.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+<strong>Adaptation des profils d&#039;import à votre contexte en bibliothèque</strong>
+</p>
+
+<p>
+Des profils d&#039;import adaptés aux bibliothèques ont été créés dans Alma. Ils peuvent encore être affinés (par exemple, par l&#039;ajout du compte fournissuer et des initiales de l&#039;acquéreur) et des nouveaux profils peuvent être ajoutés. Les administrateurs système sont habilités à procéder à ces mises à jour ou créations.
+</p>
+
+<p>
+<strong>Précautions à prendre dans l&#039;utilisation d&#039;un profil d&#039;import depuis une plateforme payante</strong>
+</p>
+
+<p>
+Si vous souhaitez (p. 22)
+</p>
 
 </div>
 

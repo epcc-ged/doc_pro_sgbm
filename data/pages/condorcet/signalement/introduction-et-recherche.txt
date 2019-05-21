@@ -8,7 +8,7 @@ Pour pouvoir effectuer le signalement des collections dans Alma, il faut dispose
 
 Dans Alma, les données de signalement sont découpées en trois "niveaux" :
 
-  * Le niveau des "métadonnées descriptives" décrit un document. La //**notice bibliographique**//  correspond à ce niveau dans Alma. Elle est commune aussi bien aux ressources électroniques qu'au ressources physiques.
+  * Le niveau des "métadonnées descriptives" décrit un document. La //**notice bibliographique**//  correspond à ce niveau dans Alma. Elle est commune aussi bien aux ressources électroniques qu'aux ressources physiques.
   * Le niveau "intermédiaire" est un regroupement entre différentes instanciations du même titre. Ce niveau n'a pas la même forme selon qu'on parle de ressources physiques, électroniques ou numériques. Pour les ressources physiques, par exemple, il s'agit de la //**notice holding**//  .
   * Le niveau "inventaire" contient les informations du document au sens de l'objet constituant le document recherché en tant que porteur de l'information. Par exemple : un exemplaire donné, un fichier donné, une revue électronique donnée.
 
@@ -54,12 +54,12 @@ On peut considérer en première approche que le portfolio est comme un "exempla
 
 Pour accéder à l'éditeur de métadonnées : **Ressources > Ouvrir l'éditeur de métadonnées**.
 
-Quand on accède directement à l'éditeur de médatonnées pour modifier une notice sans avoir préalablement le titre concerné, il faut alors rechercher le titre.
+Si l'on accède directement à l'éditeur de métadonnées, sans être préalablement sur un titre précis dans Alma, alors l'éditeur de métadonnées sera vide, c'est-à-dire qu'on ne verra aucune notice affichée dedans. Il faut alors rechercher un titre dans la barre de recherche placée au-dessus de l'éditeur.
 
-Sinon, on peut rechercher le titre dans Alma et accéder depuis le résultat de la recherche à l'éditeur de métadonnées. On a alors deux possibilités :
+Si l'on veut accéder à la notice d'un titre dans l'éditeur de métadonnées en voyant cette notice dès qu'on arrive dans l'éditeur, il faut d'abord rechercher le titre dans Alma et accéder à l'éditeur de métadonnées depuis le résultat de la recherche. On a alors deux possibilités d'accéder à l'éditeur selon la notice que l'on veut éditeur :
 
-  * Accéder à la notice bibliographique : c'est le bouton **Modifier la notice **qu'il faut cliquer (voir image ci-dessous).
-  * Accéder à la notice holding : il faut cliquer sur le bouton **Notice de fonds **puis dans l'écran qui permet de visualiser cette notice, cliquer sur le bouton **Modifier**  (au-dessus de la notice à droite).
+  * Accéder à la notice //bibliographique //: c'est le bouton **Modifier la notice **qu'il faut cliquer (voir image ci-dessous).
+  * Accéder à la notice //holding //: il faut cliquer sur le bouton **Notice de fonds **puis dans l'écran qui permet de visualiser cette notice, cliquer sur le bouton **Modifier**  (au-dessus de la notice à droite).
 
 {{  :condorcet:signalement:signalement-acces-editeur.jpg?nolink&  |signalement-acces-editeur.jpg}}
 

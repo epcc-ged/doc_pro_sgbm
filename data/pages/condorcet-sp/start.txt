@@ -1,0 +1,6 @@
+===== ECRIVEZ ICI VOTRE DOCUMENTATION SP. =====
+
+[[:condorcet-sp:permanence-accueil|Les permanences d'accueil au ged]]
+
+[[:condorcet-sp:horaires-ged|Les horaires du ged]]
+

@@ -35,12 +35,13 @@ Le détail de l'exemplaire est réparti dans quatre onglets :
 
 ==== Ajouter un exemplaire ====
 
-L'ajout de l'exemplaire peut se faire depuis plusieurs accès :
+L'ajout de l'exemplaire peut se faire depuis plusieurs accès. Voici quelques possibilités :
 
   - Depuis l'éditeur de métadonnées, quand on est sur une notice holding, grâce au bouton {{:condorcet:signalement:signalement-ajouter-exemplaire.jpg?nolink&|signalement-ajouter-exemplaire.jpg}}ou le raccourci clavier Alt + i
   - Depuis la liste des exemplaires attachés à une notice en cliquant sur le lien **Ajouter un exemplaire**.
-  - Menu Ressources > Créer l'inventaire > Ajouter un exemplaire physique
-  - <font inherit/inherit;;inherit;;#d35400>A COMPLETER</font>
+  - Menu Ressources > Créer l'inventaire > Ajouter un exemplaire physique.
+
+Rem. : évidemment l'ajout d'exemplaire (et de notice en général) se fait aussi par import automatique, par transfert régulier, etc. Ces points ne sont pas abordés ici.
 
 Lorsque l'on veut ajouter un exemplaire, on arrive sur un écran semblable à celui de l'écran de consultation des exemplaires.
 
@@ -48,11 +49,9 @@ Par les accès 1 et 2 à la création, le titre auquel l'exemplaire est associé
 
 Par l'accès 3, merci de vous référer au chapitre **catalogage rapide**  dans la présente documentation.
 
-<WRAP center round info 60%> \\
-1. Le code-barre de l'exemplaire est une donnée obligatoire mais, par défaut, Alma ne vous bloquera pas si vous oubliez de l'indiquer. Dans ce cas, Alma calculera un code-barre et l'imposera (vous pourrez le modifier a posteriori)
+<WRAP center round info 60%> \\ 1. Le code-barre de l'exemplaire est une donnée obligatoire mais, par défaut, Alma ne vous bloquera pas si vous oubliez de l'indiquer. Dans ce cas, Alma calculera un code-barre et l'imposera (vous pourrez le modifier a posteriori)
 
-2. L'utlisation de l'onglet ENUM/CHRON puis du champ "description" dans l'onglet des informations générales est très important pour déterminer si l'exemplaire est une monographie ou un périodique. Si le champ **description**  est défini (c'est-à-dire s'il contient des caractères), l'exemplaire est un périodique. Si le champ "description" est vide, l'exemplaire est une monographie. Ce champ **description **est calculé à partir des informations contenu dans ENUM/CHRON. \\
-</WRAP>
+2. L'utlisation de l'onglet ENUM/CHRON puis du champ "description" dans l'onglet des informations générales est très important pour déterminer si l'exemplaire est une monographie ou un périodique. Si le champ **description**  est défini (c'est-à-dire s'il contient des caractères), l'exemplaire est un périodique. Si le champ "description" est vide, l'exemplaire est une monographie. Ce champ **description **est calculé à partir des informations contenu dans ENUM/CHRON. \\ </WRAP>
 
 <font inherit/inherit;;#d35400;;inherit><WRAP center round important 60%> \\
 Attention : si vous modifiez la localisation de l'exemplaire, cela aura un effet dans la holding : si l'exemplaire est le seul de sa holding alors la localisation sera modifiée également dans la holding ; si l'exemplaire n'est pas le seul dans sa holding alors une nouvelle holding sera créée avec la nouvelle localisation. Elle ne contiendra que l'exemplaire en cours de création. La holding initiale continuera de contenir les autres exemplaires.</WRAP></font>

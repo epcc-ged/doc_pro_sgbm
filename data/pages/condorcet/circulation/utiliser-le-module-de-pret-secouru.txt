@@ -68,3 +68,5 @@ Une fois les fichiers de données téléchargés vers Alma, vous pouvez les supp
 Il est conseillé d'effectuer cette suppression **dès que possible**. En effet, ni Alma ni le programme ne supprimeront le fichier à votre place. Si vous ne supprimez pas le fichier, à la prochaine utilisation, vous renverrez des données qui ont déjà été traitées, c'est-à-dire soit de recréer des prêts déjà faits soit d'effectuer des retours déjà faits !\\
 </WRAP>
 
+Rem. : la structure du fichier stocké créé par le module de prêt secouru est décrit [[https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/030Services_aux_usagers/070Outils_avancés/060Prêt_secouru//Retour_secouru#Fichier_pr.C3.AAt_secouru.2Fretour_secouru|sur cette page ExLibris]].
+
