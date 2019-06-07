@@ -1,0 +1,24 @@
+a:6:{s:2:"id";s:54:"condorcet-sp:permanence-ged-hors-les-murs:inscriptions";s:6:"prefix";b:0;s:4:"text";s:2282:"<h1>Inscriptions</h1>
+
+<div class="level1">
+<p><span style="font-size:11pt">Le catalogue du GED est accessible en ligne, mais la r&eacute;servation pour consultation ou emprunt de documents n&#39;est possible qu&rsquo;apr&egrave;s inscription.</span></p>
+
+<p><span style="font-size:11pt">Plusieurs cas de figure sont possibles :</span></p>
+
+<ul>
+	<li class="level1"><span style="font-size:11pt">Le lecteur a d&eacute;j&agrave; cr&eacute;&eacute; son compte Campus Condorcet, suite &agrave; un mail de son &eacute;tablissement d&rsquo;origine. Il peut se connecter avec son adresse @campus-condorcet.fr et le mot de passe qu&rsquo;il a choisi.</span></li>
+	<li class="level1"><span style="font-size:11pt">Le lecteur, universitaire, n&rsquo;a pas encore de compte Campus Condorcet. Il s&eacute;lectionne l&rsquo;&eacute;tablissement d&#39;enseignement sup&eacute;rieur dont il d&eacute;pend dans le menu d&eacute;roulant, et se connecte &agrave; son compte d&#39;&eacute;tablissement. Celui-ci renvoie les informations</span><span style="color:#e67e22"><span style="font-size:11pt"> (au bout de combien de temps ?</span></span>) qui permettent de pr&eacute;remplir le formulaire. L&#39;&eacute;tablissement peut &ecirc;tre un membre ou un non-membre (par exemple l&rsquo;EHESP).</li>
+	<li class="level1"><span style="font-size:11.0pt">Le lecteur n&rsquo;appartient pas au monde universitaire. Il remplit le formulaire dans Alma</span><span style="color:#e67e22"><span style="font-size:11.0pt"> (Il est inscrit via Alma, qui envoie le compte vers le r&eacute;f&eacute;rentiel et r&eacute;cup&egrave;re un identifiant de r&eacute;f&eacute;rentiel) et ensuite ? d&eacute;lai avant de pouvoir utiliser sa carte ?</span></span></li>
+</ul>
+
+<p class="level1">Que faire si :</p>
+
+<ul>
+	<li class="level1">un chercheur n&#39;a pas recu le mail de son &eacute;tablissement lui permettant de cr&eacute;er son compte ? (Est-ce qu&#39;on peut le lui cr&eacute;er via le r&eacute;fentiel ?)</li>
+	<li class="level1">un lecteur affirme &ecirc;tre membre du campus sans que son nom figure dans le r&eacute;f&eacute;rentiel d&#39;identit&eacute; du Campus Condorcet ?</li>
+	<li class="level1">un chercheur retrait&eacute; veut emprunter des ouvrages ?</li>
+</ul>
+
+<p class="level1">&nbsp;</p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1559823823;s:6:"client";s:7:"mhgatto";}

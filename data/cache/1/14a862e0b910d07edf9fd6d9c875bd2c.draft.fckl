@@ -1,10 +1,10 @@
-a:6:{s:2:"id";s:18:"condorcet-sp:start";s:6:"prefix";b:0;s:4:"text";s:577:"<h2>ECRIVEZ ICI VOTRE DOCUMENTATION SP.</h2>
+a:6:{s:2:"id";s:18:"condorcet-sp:start";s:6:"prefix";b:0;s:4:"text";s:537:"<h2>TABLE DES MATIERES</h2>
 
 <div class="level2">
-<p><a class="wikilink2" href="/dokuwiki/doku.php?id=condorcet-sp:permanence-accueil" rel="nofollow" title="condorcet-sp:permanence-accueil">Les permanences d&#39;accueil au ged</a></p>
-
-<p><a class="wikilink1" href="/dokuwiki/doku.php?id=condorcet-sp:horaires-ged" title="condorcet-sp:horaires-ged">Les horaires du ged</a></p>
-
-<p><img alt="" class="media" src="/dokuwiki/lib/plugins/ckgedit/fckeditor/userfiles/image/condorcet-sp/capture4.jpg" style="width: 931px; height: 727px;" type="nolink" /></p>
+<ol>
+	<li><a class="wikilink1" href="outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=:condorcet-sp:permanence-ged-hors-les-murs" title="permanence-ged-hors-les-murs">Les permanences du GED hors les murs </a></li>
+	<li><a class="wikilink1" href="http://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=:outils-test.campus-condorcet.fr:dokuwiki:doku.php?id=:condorcet-sp:Règlement intérieur" title="Règlement intérieur">Autre point</a></li>
+	<li>Autre point</li>
+</ol>
 </div>
-";s:6:"suffix";s:0:"";s:4:"date";i:1558431408;s:6:"client";s:7:"mhgatto";}
+";s:6:"suffix";s:0:"";s:4:"date";i:1558684712;s:6:"client";s:7:"mhgatto";}

@@ -1,0 +1,160 @@
+a:6:{s:2:"id";s:86:"condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general";s:6:"prefix";b:0;s:4:"text";s:7486:"<h3>ACQUISITIONS : CIRCUIT DE COMMANDE : FONCTIONNEMENT GENERAL DU PROCESSUS DE COMMANDE</h3>
+
+<div class="level3">&nbsp;</div>
+
+<h4>Rechercher un titre au catalogue</h4>
+
+<div class="level4">
+<p>Recherchez une notice de document imprim&eacute; dans Alma en utilisant le crit&egrave;re de pr&eacute;-recherche <code>Tous les titres</code> ou <code>Titres physiques</code>. Le premier crit&egrave;re est &agrave; privil&eacute;gier.</p>
+
+<p>Pour rappel, le second crit&egrave;re cherche les notices bibliographiques de ressources physiques ayant au moins une notice de holding attach&eacute;e. Le premier, lui, recherche indiff&eacute;remment des ressources physiques ou &eacute;lectroniques, mais permet de ramener des titres de ressources ressources physiques sans holding ni exemplaire, ce qui est le cas d&#39;une notice qui vient d&#39;&ecirc;tre d&eacute;riv&eacute;e d&#39;un catalogue ext&eacute;rieur.</p>
+
+<p>Ces crit&egrave;res de pr&eacute;-recherche doivent &ecirc;tre combin&eacute;s avec un ou plusieurs index de votre choix (&quot;Tout&quot;, &quot;Titre&quot;, &quot;ISBN&quot;, etc.).</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Si la notice est sans exemplaire, l&#39;onglet &quot;Physique&quot; est laiss&eacute; en gris&eacute;. C&#39;est le cas dans l&#39;exemple suivant, qui correspond &agrave; une notice d&eacute;riv&eacute;e du Sudoc &agrave; des fins d&#39;acquisition.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p>Si la notice a des exemplaires, l&#39;onglet &quot;Physique&quot; apapra&icirc;t avec un point vert, suivi du nombre d&#39;exemplaires entre parenth&egrave;ses. En cliquant sur &quot;Physique&quot;, la liste des holdings li&eacute;es &agrave; cette notice bibliographique appara&icirc;t et permet de savoir qui, au sein du r&eacute;seau, poss&egrave;de cette ressource.</p>
+
+<p>Dans un cas comme dans l&#39;autre, une fois le titre trouv&eacute;, cliquez sur le bouton-action puis sur &quot;Commande&quot;.</p>
+
+<p><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+</div>
+
+<h4>Renseigner le type d&rsquo;achat et le propri&eacute;taire de la ligne de commande</h4>
+
+<div class="level4">Un &eacute;cran s&#39;affiche vous invitant &agrave; renseigner :</div>
+
+<ul>
+	<li class="level4">le type d&#39;achat
+	<ul>
+		<li class="level4">achat de livre imprim&eacute; : &agrave; l&#39;unit&eacute; ou commande permanente de toutes les monographies parues dans une m&ecirc;me collection</li>
+		<li class="level4">achat de livre &eacute;lectronique</li>
+		<li class="level4">souscription par abonnement &agrave; un livre &eacute;lectronique</li>
+		<li class="level4">achat de mat&eacute;riel : &quot;Physique - Achat ponctuel&quot; ou &quot;Physique - Commande permanente monographie&quot; (NB : le terme de monographie rel&egrave;ve ici d&#39;une mauvaise traduction de l&#39;anglais)</li>
+		<li class="level4">etc.</li>
+	</ul>
+	</li>
+</ul>
+
+<p class="level4">Cette liste est g&eacute;n&eacute;r&eacute;e de mani&egrave;re contextualis&eacute;e, en fonction des informations contenues dans la notice. Le choix du type d&#39;achat d&eacute;termine l&#39;affichage de certains champs du formulaire de cr&eacute;ation de ligne de commande.</p>
+
+<p class="level4">Ici nous s&eacute;lectionnerons &quot;Livre imprim&eacute; - Achat ponctuel&quot;.</p>
+
+<p class="level4"><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<ul>
+	<li class="level4">le propri&eacute;taire de la ligne de commande</li>
+</ul>
+
+<p class="level4">Le choix effectu&eacute; d&eacute;termine quelle biblioth&egrave;que est responsable de l&#39;achat. La biblioth&egrave;que propri&eacute;taire peut acheter pour elle-m&ecirc;me mais aussi pour d&#39;autres biblioth&egrave;ques dans le cadre d&#39;une politique d&#39;acquisition centralis&eacute;e. La distinction concernant la localisation de l&#39;exemplaire command&eacute; se fera au niveau de la ligne de commande.</p>
+
+<p class="level4">L&#39;affichage de cette liste est contextualis&eacute;e. Il d&eacute;pend du p&eacute;rim&egrave;tre institutionnel associ&eacute; &agrave; votre r&ocirc;le d&#39;acq&eacute;reur. Dans l&#39;exemple, l&#39;acqu&eacute;reur ne peut acheter des documents que pour la biblioth&egrave;que <span style="color:#9b59b6;">SICD (BU Arsenal</span>).</p>
+
+<p class="level4"><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<ul>
+	<li class="level4">un mod&egrave;le de bon de commande : si souhait&eacute;, s&eacute;lectionnez ici un mod&egrave;le de ligne de commande comme vu dans la aprtie pr&eacute;c&eacute;dente.</li>
+</ul>
+
+<p class="level4"><span style="color:#1abc9c">(capture d&#39;&eacute;cran)</span></p>
+
+<p class="level4">Apr&egrave;s la s&eacute;lection de ces informations, deux lignes suppl&eacute;mentaires s&#39;ajoutent :</p>
+
+<ol>
+	<li class="level4">&quot;G&eacute;n&eacute;rer un code-barres &agrave; l&#39;aide d&#39;une s&eacute;quence&quot; : s&eacute;lectionnez &quot;default_institution&quot;. Les codes-barres des exemplaires en commande seront pr&eacute;fix&eacute;s &quot;ACQ&quot;.</li>
+	<li class="level4">&quot;Assigner l&#39;inventaire manuellement&quot; :
+	<ol>
+		<li class="level4">Si la case est coch&eacute;e, le oules exemplaires en commande devront &ecirc;tre cr&eacute;&eacute;s manuellement, code-barres inclus,</li>
+		<li class="level4">Si la case est d&eacute;coch&eacute;e, un exemplaire sera automatiq</li>
+	</ol>
+	</li>
+</ol>
+
+<h4>Cr&eacute;er la ligne de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h5>Vue g&eacute;n&eacute;rale sur l&rsquo;&eacute;cran de cr&eacute;ation des lignes de commande</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Renseigner les informations sur les exemplaires command&eacute;s</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Renseigner le fournisseur</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Renseigner le prix</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Ajouter le budget</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Renseigner les autres informations sur la ligne de commande</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h4>&laquo; Enregistrer &raquo; la ligne de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>&laquo; R&eacute;viser &raquo; la ligne de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>Cr&eacute;er un bon de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h5>Paqueter des lignes de commande</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Vue g&eacute;n&eacute;rale sur le bon de commande</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h4>R&eacute;viser un bon de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>Approuver un bon de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>Descriptif de la notification &laquo; bon de commande &raquo;</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>Affichage des commandes dans Primo</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>Acc&eacute;der &agrave; la liste des bons de commande</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>T&eacute;l&eacute;charger la notification &laquo; bon de commande &raquo;</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h4>Exporter une liste de lignes de commande pour faire une demande de devis</h4>
+
+<div class="level4">&nbsp;</div>
+
+<h5>Exporter une liste &agrave; partir de lignes de commande en r&eacute;vision</h5>
+
+<div class="level5">&nbsp;</div>
+
+<h5>Exporter une liste &agrave; partir de lignes de commande constituant un bon de commande en r&eacute;vision</h5>
+
+<div class="level5">&nbsp;</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1559910116;s:6:"client";s:8:"rguidoni";}

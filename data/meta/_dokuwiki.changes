@@ -1,46 +1,104 @@
-1558000248	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			3087
-1558000425	81.67.148.147	E	condorcet:acquisition:infrastructure:les-fournisseurs	rguidoni			11
-1558001148	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			1093
-1558002699	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			897
-1558002887	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			386
-1558002923	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			-21
-1558007968	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			3842
-1558008173	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			212
-1558008577	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			722
-1558008626	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			6
-1558009051	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			1169
-1558009438	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			715
-1558009957	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			72
-1558010017	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			1359
-1558010050	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			68
-1558010073	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			-5
-1558010352	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			77
-1558010529	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			305
-1558010711	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			394
-1558011290	194.254.171.10	E	condorcet:circulation:utiliser-le-module-de-pret-secouru	jchiavassa			329
-1558011405	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			1507
-1558012659	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			161
-1558013891	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			663
-1558015899	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			206
-1558016872	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			2645
-1558017258	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			567
-1558017504	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			352
-1558018472	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			547
-1558019389	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			1928
-1558019928	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			582
-1558426214	127.0.0.1	E	start		modification externe		-151
-1558426231	194.254.171.10	E	start	jchiavassa			12
-1558426252	194.254.171.10	E	start	jchiavassa			12
-1558426412	194.254.171.10	C	condorcet-sp:start	jchiavassa	créée		51
-1558428947	194.254.171.10	E	condorcet:signalement:les-exemplaires	jchiavassa			142
-1558430321	194.254.171.10	E	condorcet:signalement:introduction-et-recherche	jchiavassa			363
-1558430537	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	jchiavassa			335
-1558430605	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	jchiavassa			38
-1558430727	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	jchiavassa			-139
-1558431063	194.254.171.10	E	condorcet-sp:start	mhgatto			78
-1558431143	194.254.171.10	E	condorcet-sp:start	mhgatto			66
-1558431265	194.254.171.10	E	condorcet-sp:start	mhgatto			-75
-1558431408	194.254.171.10	E	condorcet-sp:start	mhgatto			52
-1558431466	194.254.171.10	C	condorcet-sp:horaires-ged	mhgatto	créée		202
-1558431674	194.254.171.10	E	condorcet-sp:start	mhgatto			47
-1558446848	194.254.171.10	E	condorcet-sp:start	jchiavassa			-47
+1559315812	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			62
+1559315853	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-62
+1559315873	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-4
+1559554588	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			68
+1559554646	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto	créée		2228
+1559554698	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-76
+1559554786	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			37
+1559554902	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto	créée		1088
+1559555015	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			49
+1559555059	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-25
+1559555229	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			69
+1559555294	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:outils-professionnels	mhgatto	créée		212
+1559555366	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-40
+1559555435	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:contacts	mhgatto	créée		287
+1559555483	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-6
+1559555517	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-11
+1559555819	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			60
+1559555922	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:inscriptions	mhgatto	créée		1289
+1559556035	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			36
+1559556176	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			165
+1559556365	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:outils-professionnels	mhgatto			124
+1559556814	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			62
+1559557175	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			52
+1559557268	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:categories-de-lecteurs-regles-de-pret	mhgatto	créée		543
+1559557350	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			3
+1559562833	194.254.171.10	E	condorcet-sp:reglement_interieur	mhgatto			-102
+1559564759	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			48
+1559564779	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-48
+1559564813	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			73
+1559565306	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto	créée		1693
+1559565694	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			62
+1559567589	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:demande-de-peb	mhgatto	créée		600
+1559574027	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			8
+1559574112	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-24
+1559574128	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:le-peb	mhgatto	créée		22
+1559575205	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:le-peb	mhgatto			1607
+1559575288	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:le-peb	mhgatto			77
+1559638564	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			73
+1559638742	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto			-47
+1559639316	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto	[Horaires] 		194
+1559641569	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			27
+1559641741	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			67
+1559642780	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:objets-trouves-vols	mhgatto	créée		284
+1559733972	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			48
+1559734141	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			135
+1559734585	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques	mhgatto	créée		544
+1559735079	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques	mhgatto			42
+1559735285	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			104
+1559735710	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-imprimes	mhgatto	créée		375
+1559735853	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-1562
+1559735971	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			1385
+1559736122	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-8
+1559736217	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-imprimes	mhgatto			2
+1559736498	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:objets-trouves-vols	mhgatto			11
+1559737176	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto	[Horaires] 		128
+1559737283	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			153
+1559737472	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			43
+1559737591	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			79
+1559737627	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:inscriptions	mhgatto			-1
+1559737652	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-imprimes	mhgatto			141
+1559737718	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques	mhgatto			111
+1559737802	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:le-peb	mhgatto			33
+1559823121	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			43
+1559823158	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-2
+1559823252	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			130
+1559823304	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			77
+1559823343	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			41
+1559823658	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			439
+1559823799	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:categories-de-lecteurs-regles-de-pret	mhgatto			123
+1559823823	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:inscriptions	mhgatto			5
+1559824447	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:inscriptions	mhgatto			494
+1559824503	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-imprimes	mhgatto			1
+1559824578	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			2
+1559824614	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:communication-des-imprimes	mhgatto	créée		43
+1559825025	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-imprimes	mhgatto			571
+1559825116	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			1
+1559825267	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto	créée		647
+1559825468	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			94
+1559825551	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			-868
+1559825628	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			8
+1559825637	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			-4
+1559825712	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto			-8
+1559825780	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto			169
+1559825803	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques	mhgatto			-1
+1559890526	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			70
+1559891043	194.254.171.10	C	condorcet-sp:permanence-ged-hors-les-murs:procedures-de-securite	mhgatto	créée		426
+1559891164	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:contacts	mhgatto			77
+1559891493	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			193
+1559891997	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			128
+1559892009	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			-4
+1559892079	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			19
+1559892638	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			62
+1559893494	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit	rguidoni			-2
+1559893567	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			10
+1559894651	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base	rguidoni			-9
+1559895961	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande	rguidoni			51
+1559896717	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			1275
+1559901040	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			908
+1559901618	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			1436
+1559901968	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			564
+1559902822	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			1008
+1559909162	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			1572
+1559909295	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande	rguidoni			370
+1559910116	81.67.148.147	E	condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general	rguidoni			1531

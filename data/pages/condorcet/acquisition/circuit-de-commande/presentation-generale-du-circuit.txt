@@ -5,7 +5,7 @@
 Le circuit de commande dans Alma se décompose en 5 étapes principales :
 
   - Créer et compléter une ou plusieurs lignes de commande
-  - Créer un bon de commande, par regroupement d'un ou plusieurs lignes de commandes
+  - Créer un bon de commande, par regroupement d'une ou plusieurs lignes de commandes
   - Envoyer le bon de commande validé
   - Réceptionner les exemplaires
   - Facturer les exemplaires reçus
@@ -28,7 +28,7 @@ Le présent support se concentre sur le circuit de commande des monographies imp
 
 En effet, à quelques variantes près, le circuit de commande est commun pour tous les types de supports et tous les types de ressources.
 
-Les adaptations propres aux livres électroniques acquis titre à tire, aux bouquets de ressources électroniques et aux périodiques imprimés seront présentés dans d'autres supports de formation, complémentaires à celui-ci.
+Les adaptations propres aux livres électroniques acquis titre à tire, aux bouquets de ressources électroniques et aux périodiques imprimés sont présentés dans d'autres supports de formation, complémentaires à celui-ci.
 
 De la même manière, les deux dernières étapes du circuit (réception et facturation) sont décrites dans un support séparé.
 
@@ -39,6 +39,6 @@ Le présent support décrit :
   * comment créer un modèle de ligne de commande
   * comment créer et envoyer une commande, depuis l'étape de la création des lignes de commandes jusqu'à l'envoi d'un bon de commande validé
   * les adaptations du circuit de commande dues à des modes d'achat particuliers (dons, rachats, suggestions de commande)
-  * comment modifier ou annuler des lignes ou des bons de commandes
+  * comment modifier ou annuler des lignes ou des bons de commande
   * comment réclamer des monographies non livrées.
 

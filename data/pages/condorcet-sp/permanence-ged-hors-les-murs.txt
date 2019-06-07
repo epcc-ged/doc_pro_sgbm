@@ -1,0 +1,19 @@
+
+
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:principes|Principes]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle|Organisation matérielle]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:outils-professionnels|Outils professionnels]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:inscriptions|Inscription]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:categories-de-lecteurs-regles-de-pret|Catégories de lecteurs, règles de prêt...]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents|Communication des documents]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives|Consultation des archives]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques|Consultation des ressources électroniques]]
+  - Consultation de microformes
+  - Photocopier, scanner
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:le-peb|Le PEB]]
+  - Réponses à distance
+  - Accessibilité
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:procedures-de-securite|Procédures de sécurité]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:objets-trouves-vols|Objets trouvés / vols]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:contacts|Contacts]]
+

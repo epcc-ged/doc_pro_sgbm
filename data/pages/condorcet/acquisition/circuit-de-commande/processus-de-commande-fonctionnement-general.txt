@@ -2,6 +2,24 @@
 
 === Rechercher un titre au catalogue ===
 
+Recherchez une notice de document imprimé dans Alma en utilisant le critère de pré-recherche ''Tous les titres'' ou ''Titres physiques''. Le premier critère est à privilégier.
+
+Pour rappel, le second critère cherche les notices bibliographiques de ressources physiques ayant au moins une notice de holding attachée. Le premier, lui, recherche indifféremment des ressources physiques ou électroniques, mais permet de ramener des titres de ressources ressources physiques sans holding ni exemplaire, ce qui est le cas d'une notice qui vient d'être dérivée d'un catalogue extérieur.
+
+Ces critères de pré-recherche doivent être combinés avec un ou plusieurs index de votre choix ("Tout", "Titre", "ISBN", etc.).
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Si la notice est sans exemplaire, l'onglet "Physique" est laissé en grisé. C'est le cas dans l'exemple suivant, qui correspond à une notice dérivée du Sudoc à des fins d'acquisition.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Si la notice a des exemplaires, l'onglet "Physique" apapraît avec un point vert, suivi du nombre d'exemplaires entre parenthèses. En cliquant sur "Physique", la liste des holdings liées à cette notice bibliographique apparaît et permet de savoir qui, au sein du réseau, possède cette ressource.
+
+Dans un cas comme dans l'autre, une fois le titre trouvé, cliquez sur le bouton-action puis sur "Commande".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 === Renseigner le type d’achat et le propriétaire de la ligne de commande ===
 
 === Créer la ligne de commande ===

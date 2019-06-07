@@ -1,0 +1,27 @@
+====== Organisation matérielle ======
+
+<font 11pt/inherit;;inherit;;inherit>Les permanences d'accueil du GED hors les murs ont lieu dans la bibliothèque du rez-de-jardin de la la MSH Paris Nord.</font>
+
+<font 11pt/inherit;;inherit;;inherit>Les clefs de la salle de lecture sont à retirer et à restituer à l’accueil du bâtiment à l’ouverture et à la fermeture.</font>
+
+<font 11pt/inherit;;inherit;;inherit>Pour remplir leur mission, les agents ont à leur disposition :</font>
+
+  * un badge GED Campus Condorcet
+  * un ordinateur portable,
+  * un téléphone portable,
+  * une platine RFID,
+  * un registre de consultation des archives, (dématrialisé ?)
+  * un lecteur scanner de microforme(achat ?).Mode d'emploi
+  * une visionneuse de diapositives (achat ?)
+  * une machine à lire(achat ?)mode d'emploi
+  * une boucle magnétique(achat?)Mode d'emploi
+  * une loupe(achat)
+  * un cahier des lecteurs (qui le consulte et y répond ?)
+  * du petit matériel pour dépanner les lecteurs.
+
+<font 11pt/inherit;;inherit;;inherit>Ils ont également accès au planning hebdomadaire, à l’annuaire du Campus Condorcet, au calendrier des déménagements des collections.</font><font 11pt/inherit;;#e67e22;;inherit>mettre des liens qui s'actualisent</font>
+
+<font 11pt/inherit;;inherit;;inherit>Les équipements sont stockés sur les étagères mises à disposition par l'EHESP dans le local du fond.</font><font 11pt/inherit;;#e67e22;;inherit>?</font>
+
+<font 11pt/inherit;;inherit;;inherit>Penser à recharger les batteries des appareils électriques !</font>
+

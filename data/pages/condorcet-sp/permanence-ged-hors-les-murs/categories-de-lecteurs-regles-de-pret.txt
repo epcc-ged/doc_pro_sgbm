@@ -1,0 +1,10 @@
+====== Catégories de lecteurs, règles de prêt ======
+
+<font 11pt/inherit;;inherit;;inherit>Les droits et durée de prêt dépendent du statut du lecteur.</font>
+
+<font 11pt/inherit;;inherit;;inherit>Ils apparaissent automatiquement dans Alma lorsque le lecteur est inscrit.</font>
+
+<font 11pt/inherit;;inherit;;inherit>Les catégories de lecteurs et règles de prêt sont rappelées dans la documentation Alma :</font>
+
+[[https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:circulation:regles-de-pret-et-de-renouvellement|https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:circulation:regles-de-pret-et-de-renouvellement]]
+

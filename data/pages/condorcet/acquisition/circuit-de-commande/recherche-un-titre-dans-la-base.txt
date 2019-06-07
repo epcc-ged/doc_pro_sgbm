@@ -4,26 +4,30 @@
 
 Au départ d'une commande, il est nécessaire de rechercher si le titre est déjà présent au catalogue.
 
-Le périmètre de recherche dépend de la nature des réponses attendues. Souhaitez-vous juste chercher des ressources imprimées ayant des exemplaires physiques (dans ce cas utilisez le crière de pré-recherche ''Titres physiques'') ou souhaitez-vous chercher indifféremment parmi les ressources imprimées et électroniques (dans ce cas utilisez ''Tous les titres'') ?
+Le périmètre de recherche dépend de la nature des réponses attendues :
 
-Suivant le choix effectué, différents index de recherche vous sont proposés. Par défaut, Alma est positionné sur ''Tout'', ce qui signifie que la recherche s'effectue sur l'ensemble des index interrogeables. Quel que soit le critère de pré-recherche sélectionné, vous avez la possiiblité d'utiliser la recherche avancée pour laquelle deux opérateurs booléens (ET et OU) et quatre formules de recherches (''Contient les mots-clés'', ''Contient une phrase'', ''Commence par'' et ''Est égal à'') sont proposés.
+  * Souhaitez-vous juste chercher des ressources imprimées ayant des exemplaires physiques ? Dans ce cas utilisez le critère de pré-recherche ''Titres physiques''
+  * Souhaitez-vous chercher indifféremment parmi les ressources imprimées et électroniques ? Dans ce cas utilisez ''Tous les titres''
 
-Dans l'exemple suivant, la recherche est faite sur ''Tous les titres'' et l'index ''Titre'' :
+Suivant le choix effectué, différents index de recherche vous sont proposés. Par défaut, Alma est positionné sur ''Tout'', ce qui signifie que la recherche s'effectue sur l'ensemble des index interrogeables. Quel que soit le critère de pré-recherche sélectionné, vous avez la possibilité d'utiliser la recherche avancée pour laquelle deux opérateurs booléens (ET et OU) et quatre formules de recherches (''Contient les mots-clés'', ''Contient une phrase'', ''Commence par''  et ''Est égal à'') sont proposés.
+
+Dans l'exemple suivant, la recherche est faite sur ''Tous les titres''  et l'index ''Titre''  :
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 Pour cette recherche ("Richard et Jean Tassel"), aucun résultat n'a été trouvé ("Aucun enregistrement n'a été trouvé"). Le titre est donc absent du catalogue (<font inherit/inherit;;#9b59b6;;inherit>NB : depuis que cette capture d'écran a été faite, ce titre a été ajouté au catalogue</font>).
 
-NB : la recherche sur le périmètre ''Titres physiques'' limite la recherche aux notices bibliographiques ayant une hodling liée.
+NB : la recherche sur le périmètre ''Titres physiques''  limite la recherche aux notices bibliographiques ayant une hodling liée.
 
-Notez aussi qu'il n'est pas utile de limiter la recherche aux ressources de son établissement. Depuis une recherche ''Titres physiques'' ou ''Tous les titres'', vous verrez dans l'onglet ''Physique'', situé juste sous la notice, quelles bibliothèques possèdent ce titre.
+<font inherit/inherit;;#9b59b6;;inherit>Notez aussi qu'il n'est pas utile de limiter la recherche aux ressources de l'établissement. Depuis une recherche ''Titres physiques'' ou ''Tous les titres'', vous verrez dans l'onglet ''Physique'', situé juste sous la notice, quelles bibliothèques possèdent ce titre. (inutile pour condorcet il me semble)</font>
+
 === Elargir la recherche à la « zone communautaire » Alma ===
 
 Avant de créer ou d'importer une notice dans le catalogue de l'institution, vous pouvez élargir la recherche à la "zone communautaire" Alma, c'est-à-dire au réservoir de données partagé par l'ensemble des établissements utilisateurs d'Alma dans le monde.
 
-<font inherit/inherit;;#9b59b6;;inherit>En-dehors des notices d'autorité,</font> ce réservoir ne contient aujoud'hui que des ressources électroniques. Si on ne souhaite pas acheter le titre au format électronique, cette étape peut donc être sautée. Dans le cas contraire, vous pouvez lancer, depuis ce réservoir, une commande d'ebook. La méthode sera présentée dans un autre support de formation.
+<font inherit/inherit;;#9b59b6;;inherit>En-dehors des notices d'autorité,</font> ce réservoir ne contient aujoud'hui que des ressources électroniques. Si on ne souhaite pas acheter le titre au format électronique, cette étape peut donc être sautée. Dans le cas contraire, vous pouvez lancer, depuis ce réservoir, une commande d'ebook. La méthode est présentée dans un autre support de formation.
 
-Pour élargir la recherche à la "zone communautaire", cliquez sur l'onglet ''Communauté'' :
+Pour élargir la recherche à la "zone communautaire", cliquez sur l'onglet ''Communauté''  :
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -33,5 +37,5 @@ Dans le cas présent, aucun résultat n'a été trouvé. Une notice va donc devo
 
 NB : le terme "Institution" désigne la bibliothèque du Campus Condorcet. Pour revenir à ce catalogue, il suffit donc de cliquer sur l'onglet ''Institution''.
 
-Veuillez noter qu'à terme, cette "zone comunautaire" pourrait contenir aussi des notices de ressources imprimées. Aucune échéance n'est toutefois annoncée pour le moment.
+Notez qu'à terme, cette "zone communautaire" pourra contenir aussi des notices de ressources imprimées. Aucune échéance n'est toutefois annoncée pour le moment.
 

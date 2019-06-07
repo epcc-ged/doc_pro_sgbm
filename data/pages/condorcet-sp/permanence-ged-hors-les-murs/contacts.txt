@@ -1,0 +1,10 @@
+====== Contacts ======
+
+<font 11pt/inherit;;inherit;;inherit>En cas d’absence imprévue de l'agent :</font>
+
+<font 11pt/inherit;;inherit;;inherit>En cas de problème informatique :</font>
+
+<font 11pt/inherit;;inherit;;inherit>En cas de problème lié au bâtiment : nettoyage</font>
+
+<font 11pt/inherit;;inherit;;inherit>En cas de malaise d'un lecteur :</font>
+

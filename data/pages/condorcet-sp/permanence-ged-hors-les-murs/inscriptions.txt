@@ -1,0 +1,15 @@
+====== Inscriptions ======
+
+<font 11pt/inherit;;inherit;;inherit>Le catalogue du GED est accessible en ligne, mais la réservation pour consultation ou emprunt de documents n'est possible qu’après inscription.</font>
+
+<font 11pt/inherit;;inherit;;inherit>Plusieurs cas de figure sont possibles :</font>
+
+  * <font 11pt/inherit;;inherit;;inherit>Le lecteur a déjà créé son compte Campus Condorcet, suite à un mail de son établissement d’origine. Il peut se connecter avec son adresse @campus-condorcet.fr et le mot de passe qu’il a choisi.</font>  * <font 11pt/inherit;;inherit;;inherit>Le lecteur, universitaire, n’a pas encore de compte Campus Condorcet. Il sélectionne l’établissement d'enseignement supérieur dont il dépend dans le menu déroulant, et se connecte à son compte d'établissement. Celui-ci renvoie les informations</font><font 11pt/inherit;;#e67e22;;inherit>(au bout de combien de temps ?</font>) qui permettent de préremplir le formulaire. L'établissement peut être un membre ou un non-membre (par exemple l’EHESP).
+  * <font 11.0pt/inherit;;inherit;;inherit>Le lecteur n’appartient pas au monde universitaire. Il remplit le formulaire dans Alma</font><font 11.0pt/inherit;;#e67e22;;inherit>(Il est inscrit via Alma, qui envoie le compte vers le référentiel et récupère un identifiant de référentiel) et ensuite ? délai avant de pouvoir utiliser sa carte ?</font>
+
+Que faire si :
+
+  * un chercheur n'a pas recu le mail de son établissement lui permettant de créer son compte ? (Est-ce qu'on peut le lui créer via le réfentiel ?)
+  * un lecteur affirme être membre du campus sans que son nom figure dans le référentiel d'identité du Campus Condorcet ?
+  * un chercheur retraité veut s'inscrire pour emprunter des ouvrages ?
+

@@ -2,15 +2,113 @@
 
 === Fonctionnement général ===
 
+A la création d'une ligne de commande, il est possible d'enregistrer un modèle de ligne de commande, qui gardera en mémoire la ou les données de gestion saisies dans le formulaire à ce moment-là (fournisseur, budget, type de matériel, codes staistiques, etc.).
+
+Dès lors, ce modèle pourra être réutilisé à chaque fois que nécessaire : les champs concernés seront pré-remplis, ce qui évitera la saisie de toutes les informations de la ligne de commande.
+
+Les modèles de lignes de commande présentent deux particularités :
+
+  * ils peuvent être créés pour tout type d'achat : on peut ainsi avoir un ou plusieurs modèles de ligne de commande pour les monographies imprimées (par exemple, un par fournisseur), un autre pour les livres électroniques, un autre pour les abonnements de périodiques, etc.
+  * un modèle de ligne de commande peut être:
+      * privé : il ne sera visible et utilisable que par l'acquéreur l'ayant créé
+      * public : il sera visible et utilisable par tous les acquéreurs du réseau.
+
+<font inherit/inherit;;#9b59b6;;inherit>**Compte tenu de cette particularité de fonctionnement, il est recommandé de créer des modèles de lignes de commande uniquement en mode privé.**</font>
+
+Aucune limitation n'est imposée au nombre de modèles de ligne de commande que peut créer un acquéreur. La création d'au moins un modèle comportant uniquement la case "Regroupement manuel" cochée est recommandée. Il sera expliqué plus loin à quoi corespond ce "regroupement manuel" et pourquoi cocher cette option est d'une grande importance.
+
+NB : un modèle ne peut pas être utilisé quand la ligne de commande est créée par import de données depuis un réservoir extérieur (Electre, etc.). Seule la création manuelle de lignes de commande permet l'utilisation d'un modèle défini par un acqéreur.
+
 === Créer un modèle de ligne de commande ===
+
+La création d'un modèle de ligne de commande peut être réalisée à partir d'une ligne de commande créée //ex nihilo//  ou à partir d'une ligne de commande déjà existante, en cours de révision.
 
 ==== Enregistrer un modèle depuis une nouvelle ligne de commande ====
 
+Dans ce premier cas de figure, recherchez un titre dans le catalogue. Cliquez sur le bouton-action puis sur ''Commande''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Sélectionnez le "type d'achat" puis le "propriétaire de la ligne de commande" (voir la partie "Processus de commande : fonctionnement général" pour plus de détails). Cliquez sur ''Créer une ligne de commande''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Vous arrivez sur un formulaire de création de ligne de commande ; complétez-le. Dans le cas présent, on se contente des informations de localisation (bibliothèque et localisation de destination de l'exemplaire commandé) et de cocher la case "regroupement manuel".
+
+Cliquez sur le bouton-action situé en haut à gauche de l'écran et sélectionnez "Enregistrer comme modèle".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Dans l'écran suivant, donnez un nom à votre modèle. Laissez "modèle publique" sur le bouton radio "Non" : votre modèle ne sera visible et utilisable que par vous.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquer sur "Enregistrer". Votre modèle sera réutilisable à la création de la prochaine ligne de commande.
+
+NB : le modèle de ligne de commande peut comporter davantage de renseignements (fournisseur, budget, etc.). Pour plus de renseignements sur la manière de compléter ce formulaire, reportez-vous à la partie "Processus de commande : fonctionnement général" du présent support.
+
 ==== Enregistrer un modèle depuis une ligne de commande en révision ====
+
+Dans le second cas de figure mentionné, allez dans le menu ''Acquisitions'', et cliquez sur ''Réviser''  dans la section "Ligne de commande". Par défaut, vous arrivez sur la liste de vos lignes de commande qui sont en attente de complément.
+
+Pour l'une d'elles, cliquez sur le bouton-action puis sur ''Modifier''. Vous ouvrez le formulaire d'édition de la ligne de commande.
+
+Pour enregistrer cette ligne comme modèle, procédez comme décrit précédemment : cliquez sur le bouton-action (en haut à gauche) et sélectionnez ''Enregistrer comme modèle''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Dans le formulaire qui s'ouvre, il suffit de nommer le modèle, puis de cliquer sur ''Enregistrer''. Pensez, encore une fois, à laisser le modèle créé en mode "privé" (répondez non à la question "Modèle publique").
 
 === Utiliser un modèle de ligne de commande ===
 
+Recherchez un titre au catalogue pour lancer une commande. Cliquez sur le bouton-action puis sur ''Commande''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le formulaire de sélection du type d'achat et du propriétaire de la ligne de commande s'ouvre. C'est ici, dans le champ "Charger à partir du modèle", que peut être sélectionné un modèle de ligne de commande.
+
+Le choix se fait entre deux propositions :
+
+  * "Mes modèles", qui affiche les modèles de ligne de commande que j'ai créés en mode privé
+  * "Public", qui affiche les modèles de ligne de commande partagés au niveau du réseau.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Après avoir sélectionné le modèle à utiliser et complété les informations obligatoires, cliquez sur ''Créer une ligne de commande''.
+
+Le formulaire de création de la ligne s'ouvre. Il est pré-rempli avec des informations qui étaient contenues dans le modèle sélectionné (ici : sélection de l'option "Renouvellement manuel").
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 === Modifier un modèle de ligne de commande ===
 
+Pour modifier un modèle existant (ajout, modification ou suppression des informations enregistrées), il faut partir d'une ligne de commande et reprendre la même procédure que celle décrite pour la création d'un modèle.
+
+Lorsque la ligne est complétée avec les informations souhaitées pour la nouvelle version du modèle, cliquez sur le bouton-action (en haut à gauche) et sélectionner ''Enregistrer comme modèle''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Dans le formulaire qui s'ouvre, sélectionnez le modèle souhaité dans "Mes modèles".
+
+Sélectionnez le modèle à modifier, puis cliquez sur "Enregistrer" pour enregistrer les modifications.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Un message vous avertit qu'il existe déjà un modèle à ce nom : cliquez sur "Confirmer".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Votre modèle est mis à jour et est prêt à être utilisé pour la création d'une nouvelle ligne de commande. Notez que si par erreur vous avez positionné votre modèle de ligne de commande en mode "public", vous pouvez le rebasculer en "privé" par ce moyen.
+
 === Supprimer un modèle de ligne de commande ===
+
+Pour supprimer un modèle, la procédure est identique à celle pour modifier un modèle.
+
+A la sélection d'un modèle existant, il suffit de cliquer sur le bouton ''Supprimer''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Un message confirme que le modèle a été supprimé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 

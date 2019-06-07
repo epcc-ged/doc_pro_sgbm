@@ -1,0 +1,12 @@
+====== Communication des imprimés ======
+
+Pour consulter un document, une réservation dans Alma est nécessaire.
+
+Sont exclus du prêt pendant le GED hors les murs, les documents :
+
+<font inherit/inherit;;#e67e22;;inherit>conservés sur palette (comment cela apparaît-il dans Alma ?)</font>
+
+<font inherit/inherit;;#e67e22;;inherit>cotés réserve (cote uniforme ?)</font>
+
+<font inherit/inherit;;#e67e22;;inherit>sur support fragile (?) ou de dimension exceptionnelle. (est-ce que c'est prévu dans Alma ?)</font>
+

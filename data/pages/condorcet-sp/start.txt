@@ -1,6 +1,6 @@
-===== ECRIVEZ ICI VOTRE DOCUMENTATION SP. =====
+===== TABLE DES MATIERES =====
 
-[[:condorcet-sp:permanence-accueil|Les permanences d'accueil au ged]]
-
-[[:condorcet-sp:horaires-ged|Les horaires du ged]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs|Les permanences du GED hors les murs ]]
+  - [[:outils-test.campus-condorcet.fr:dokuwiki:doku.php?id=:condorcet-sp:Règlement intérieur|Règlement intérieur]]
+  - Autre point
 

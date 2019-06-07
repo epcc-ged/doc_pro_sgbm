@@ -1,0 +1,16 @@
+====== Communication des imprimés ======
+
+La réservation des documents se fait via le catalogue du GED.
+
+Cet outil est mis à jour au fur et à mesure des déménagements des collections.
+
+Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai J+1 (jours ouvrable)
+
+Les ouvrages sont mis de côté pendant 10 jours.
+
+===== Pendant le GED hors les mus, sont exclus du prêt, les documents : =====
+
+  * conservés sur palettes (est-ce qu'Alma le dit ?)
+  * de format exceptionnel (préciser)
+  * sur support fragile (plaque de verres)
+

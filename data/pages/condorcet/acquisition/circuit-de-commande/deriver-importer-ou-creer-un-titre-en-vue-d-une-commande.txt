@@ -12,7 +12,7 @@ Lorsque la notice d'un titre est absente du catalogue, il convient de l'y ajoute
 
 La recherche dans un catalogue extérieur et la dérivation de notice qui s'ensuit sont réalisées depuis Alma et la fonction intitulée ''Recherche ressources externes''.
 
-Les administrateurs du système ont la possiiblité d'ajouter des réservoirs de données interrogeables via des protocoles standardisés (Z39.50 ou SRU) et de créer des profils de recherche. La création de ces profils de recherche est réalisé par le <font inherit/inherit;;#9b59b6;;inherit>SICD</font>pour l'ensemble des acquéreurs et catalogueurs habilités à utiliser cette fonction.
+Les administrateurs du système ont la possiiblité d'ajouter des réservoirs de données interrogeables via des protocoles standardisés (Z39.50 ou SRU) et de créer des profils de recherche. La création de ces profils de recherche est réalisée par le <font inherit/inherit;;#9b59b6;;inherit>SICD</font> pour l'ensemble des acquéreurs et catalogueurs habilités à utiliser cette fonction.
 
 Actuellement, seul le catalogue SUDOC est interrogeable par ce moyen.
 
@@ -54,7 +54,7 @@ Vous pouvez importer la notice dans le catalogue du réseau en cliquant sur ''Im
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Vous avez aussi la possibilié d'importer la notice depuis la liste des résultats :
+Vous avez aussi la possibilité d'importer la notice depuis la liste des résultats :
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -82,19 +82,17 @@ Vous êtes alors dirigé vers l'écran de sélection du type d'achat et <font in
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Pour les étapes suivantes, veuillez vou reporter à la partie "Processus de commande : fonctionnement général" du présent support.
+Pour les étapes suivantes, veuillez vous reporter à la partie "Processus de commande : fonctionnement général" du présent support.
 
-NB : vous pouvez aussi lancer la création de la ligne de commande directement depuis l'éditeur de métadonnées en cliquant sur l'icône chariot
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-NB : avant de procéder à la recherche d'une notice dans le catalogue externe Sudoc, assurez-vous d'abord que la notice n'existe pas dans Alma. Si toutefois cette vérification n'a pas été faite en amont, le système envoie ce message d'alerte s'il détecte un doublon.
+NB : vous pouvez aussi lancer la création de la ligne de commande directement depuis l'éditeur de métadonnées en cliquant sur l'icône chariot.
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Répondez "Oui" à ce message pour pouvoir visualiser la notice déjà existante.
+NB : avant de procéder à la recherche d'une notice dans le catalogue externe Sudoc, assurez-vous que la notice n'existe pas dans Alma. Si toutefois cette vérification n'a pas été faite en amont, le système envoie ce message d'alerte s'il détecte un doublon.
 
-Puis cliquez sur ''Quitter''  afin de ne pas créer de doublons dans Alma.
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Répondez "Oui" à ce message pour pouvoir visualiser la notice déjà existante, puis cliquez sur ''Quitter''  afin de ne pas créer de doublons dans Alma.
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -110,63 +108,295 @@ Pour les étapes suivantes, veuillez vous reporter à la partie "Processus de co
 
 Alma permet l'importation de paniers de notices constitués sur des plateformes commerciales (Electre, Erasmus et Decitre). Le système permet aussi l'importation d'une notice isolée ou de plusieurs notices en Marc21 et exportées de catalogues extérieurs comme la Library of Congress, par exemple.
 
-Profil d'import Electre, Erasmus et Decitre : <font inherit/inherit;;#9b59b6;;inherit>ne rédiger que si on la même configuration à Condorcet</font>
+**Profil d'import**  Electre, Erasmus et Decitre : <font inherit/inherit;;#9b59b6;;inherit>ne rédiger que si on a la même configuration à Condorcet</font>
 
 **Profil d'import Marc21**  : exemple de notices issues de la Library of Congress (LoC) : principes généraux
 
-Aux fins de test et de formation, un profil d'import "Marc21" minimal a été configuré par le <font inherit/inherit;;#9b59b6;;inherit>SICD</font>. C'est le profil décrit ici sous l'intitulé "Marc21 TEST procédures" et configuré <font inherit/inherit;;#9b59b6;;inherit>comme le profil Electre à l'exception des particularités suivantes</font> :
+A des fins de test et de formation, un profil d'import "Marc21" minimal a été configuré par le <font inherit/inherit;;#9b59b6;;inherit>SICD</font>. C'est le profil décrit ici sous l'intitulé "Marc21 TEST procédures" et configuré <font inherit/inherit;;#9b59b6;;inherit>comme le profil Electre à l'exception des particularités suivantes</font> :
 
-  * le format de la source attendu pour l'import de notices en Marc21 (converti en Unimarc dans Alma)
+  * le format de la source attendu pour l'import de notices est en Marc21 (converti en Unimarc dans Alma)
   * le nombre d'exemplaires commandés n'est pas importé dans Alma
   * le prix n'est pas importé dans la ligne de commande.
 
-Dans la liste des profils d'import, le profil "Marc21 TEST procédures" permet d'importer les notices selon les modalités décrites. Il est à adapter pour votre bibliothèque. Il peut être utilisé pour tous les catalogus et toutes les plateformes permettant l'export de notices en UTF-8 et en Marc21.
+Dans la liste des profils d'import, ce profil "Marc21 TEST procédures" permet d'importer les notices selon les modalités décrites. Il peut être utilisé pour tous les catalogues et toutes les plateformes permettant l'export de notices en UTF-8 et en Marc21.
 
 Pour exporter les notices depuis la LoC, voici la marche à suivre.
 
 Faites une recherche en interrrogeant le catalogue : [[https://catalog.loc.gov/vwebv/searchBrowse|https://catalog.loc.gov/vwebv/searchBrowse]]
 
-S'il n'y a qu'un seul résultat, la notice s'affche au format public. Cliquez sur le bouton "Save record", gardez l'encodage par défaut UTF-8 et cliquez sur le bouton "Save".
+S'il n'y a qu'un seul résultat, la notice s'affiche au format public. Cliquez sur le bouton "Save record", gardez l'encodage par défaut UTF-8 et cliquez sur le bouton "Save".
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Enregistrez le ficher sur le bureau après avoir créé un dossier nommé, par exemple, "Panier LoC".
+Enregistrez le ficher sur le bureau après avoir créé un dossier que vous aurez nommé, par exemple, "Panier LoC".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 Nommez le fichier de chaque notice importée, par exemple record_01, record_02, etc.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 S'il y a plusieurs résultats, vous obtenez une liste. Il est possible d'importer plusieurs notices en même temps. Cochez les notices à importer puis cliquez sur le bouton "Save".
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Puis procédez aux étapes suivantes comme nous venons de les décrire pour enregistrer les notices sur votre bureau.
+Puis procédez aux étapes suivantes comme nous venons de le décrire pour enregistrer les notices sur votre bureau.
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-**Adaptation des profils d'import à votre contexte en bibliothèque**
+**Adaptation des profils d'import <font inherit/inherit;;#9b59b6;;inherit>à votre contexte en bibliothèque</font>**
 
-Des profils d'import adaptés aux bibliothèques ont été créés dans Alma. Ils peuvent encore être affinés (par exemple, par l'ajout du compte fournissuer et des initiales de l'acquéreur) et des nouveaux profils peuvent être ajoutés. Les administrateurs système sont habilités à procéder à ces mises à jour ou créations.
+Des profils d'import adaptés <font inherit/inherit;;#9b59b6;;inherit>à vos bibliothèques</font> ont été créés dans Alma. Ils peuvent encore être affinés (par exemple, par l'ajout du compte fournisseur et des initiales de l'acquéreur) et des nouveaux profils peuvent être ajoutés. Les administrateurs système sont habilités à procéder à ces mises à jour ou créations.
 
 **Précautions à prendre dans l'utilisation d'un profil d'import depuis une plateforme payante**
 
-Si vous souhaitez (p. 22)
+Si vous souhaitez réduire le nombre de notices dans un panier, il est recommandé, avant de le constituer, de vérifier l'existence des notices dans Alma. Si les notices sont déjà présentes dans la base, la commande peut être effectuée directement depuis celle-ci.
+
+Cette recherche préalable permet de limiter le nombre de notices utilisées, les conditions d'abonnement aux plateformes payantes prévoyant souvent un nombre limité de notices à utiliser dans l'année.
 
 == Accéder à la fonction d’import ==
 
+Cliquez sur le menu ''Acquisitions''  puis sur la sous-section'' Importer''  (section ''Importer'').
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Choisissez le profil, par exemple "Electre TEST procédures" parmi tous les profils créés pour l'ensemble du réseau.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+NB : en phase courante, vous choisirez ici le ou l'un des profils de votre établissement. Pour retrouver facilement le profil qui vous concerne, vous pouvez utiliser la barre de recherche et rechercher par le nom du profil en saisissant, par exemple, le nom <font inherit/inherit;;#9b59b6;;inherit>de votre bibliothèque</font>.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 == Lancer l’import des données ==
+
+Sur la ligne correspondant au profil choisi, cliquez sur le boutont-action puis sur ''Exécuter''
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquez sur ''Sélectionner le fichier''  pour accéder au fichier des notices exportées depuis Electre et enregistré sur votre bureau, par exemple
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Sélectionnez le fichier
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquez sur le bouton ''Soumettre''  pour lancer le processus d'import de données.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+L'avancement du processus est visible dans la colonne ''Fichiers traités''  : le % et la barre de téléchargement augmentent au fur et à mesure de l'avancée du traitement.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquez sur ''Rafraîchir''  pour mettre à jour la page et visualiser la fin du traitement. Quand la barre de téléchargement est verte et que le compteur indique 100%, alors le traitement est terminé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 == Résoudre les problèmes d’import ==
 
+Si un traitement ne s'effectue pas correctement, le statut "Traitement manuel requis" apparaît.
+
+Cliquez sur ''Traitement manuel requis''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+La page "Résoudre les erreurs de validation" s'affiche. Cliquez sur le bouton-action puis sur ''Modifier''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+La liste des erreurs s'affiche. Cliquez sur le bouton-action puis sur ''Voir les erreurs''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le détail des erreurs s'affiche (ici, la notice n'a pas de titre). Cliquez sur ''Ne pas importer''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+La page ''Résoudre les erreurs de validation''  est désormais vide. Cliquez sur le boutont ''Retour''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le reste du ficher est maintenant importé. Le traitement s'est bien déroulé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 == Visualiser le rapport de traitement ==
+
+Si vous souhaitez visualiser le rapport détaillé du traitement, cliquez sur le bouton-action ''Rapport''  pour avoir accès au rapport détaillé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le rapport détaillé indique que l'import s'est bien déroulé et qu'il n'y a pas eu de problème technique.
+
+Dans la section ''Compteurs'', le total des enregistrements traités est égal au total des enregistrements importés, ce qui signifie qu'aucune notice n'a été rejetée.
+
+Le rapport de traitement indique également le nombre total d'exemplaires créés pour l'ensemble des lignes de commande, il doit être égal à la quantité d'exemplaires indiquée dans Electre (pour Erasmus et Decitre, le nombre d'exemplaires n'est pas importé).
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Le même rapport est envoyé sous forme de notification par mail à l'agent qui a procédé à l'import de données.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Dans la section ''Notices bibliographiques correspondantes'', vous pouvez voir combien de notices existaient dans la base ("matches found"). Les lignes de commande ont été créées à partir de ces notices.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Pour revenir à la page précédente, cliquez sur la flèche retour.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 == Visualiser et modifier les lignes de commande créées ==
 
+Cliquez sur le bouton-action ''Lignes de commande importées''  pour visualiser les lignes de commande crées par l'import Electre.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Dans la liste de résultats, on voit sur chaque ligne de commande les informations saisies par défaut dans le profil d'import :
+
+  * le type d'achat "Livre imprimé - achat ponctuel"
+  * le propriétaire de la ligne de commande "<font inherit/inherit;;#9b59b6;;inherit>Campus Condorcet</font>"
+  * la localisation de ce futur exemplaire "<font inherit/inherit;;#9b59b6;;inherit>Campus Condorcet - UNASSIGNED location</font>"
+  * le prix total de la ligne
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Les lignes de commande sont en statut "in review" ("en révision") car plusieurs informations sont manquantes, notamment :
+
+  * le fournisseur
+  * le compte budgétaire à imputer
+  * le code statistique
+
+D'autres informations peuvent être mises à jour si nécessaire, comme par exemple le type de matériel de l'exemplaire.
+
+Pour mettre à jour les lignes de commande à partir de ce niveau, il faut cliquer sur le bouton "Aller à la liste des tâches".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Toutes les lignes de commande créées par import Electre peuvent aussi être retrouvées à partir du menu ''Acquisitions'', depuis la fonction ''Réviser''  de la section ''Lignes de commande''. Par défaut, elles se trouvent derrière l'onglet "Non attribué", c'est-à-dire qu'elles ne sont associées à aucun acquéreur.
+
+Pour n'afficher que les lignes de commande relatives à cet import, il est possible d'utiliser la barre de recherche et l'index "identifiant du traitement d'import". Cet identifiant peut se retrouver depuis le menu ''Acquisitions > Importer > Suivre et visualiser les imports'', dans la première colonne "Identifiant de traitement".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Il suffit alors de le copier-coller dans la barre de recherche (à partir du menu ''Acquisitions'', depuis la fonction "réviser" de la section ''Lignes de commande''), pour accéder à la liste des lignes de commande issues de l'import Electre et à réviser.
+
 == Retrouver les imports de données déjà effectués ==
+
+A tout moment, il est possible de retrouver les derniers imports effectués. Pour cela, allez dans le menu ''Acquisitions''  et cliquez sur ''Importer''  dans la section ''Suivre et visualiser les imports''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Pour retrouver l'import qui vous concerne, utilisez les options de tri :
+
+  * nom du profil (ici, "Electre TEST procédures")
+  * nom de l'utilisateur (celui qui a procédé à l'import de données)
+
+Il faut ensuite cliquer sur le bouton-action ''Lignes de commande importées''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
 === Créer une notice succincte ===
 
 == Fonctionnement général ==
 
+Si vous n'avez pas trouvé le titre que vous souhaitez commander dans les catalogues extérieurs interrogeables depuis Alma ou dans la base Electre, vous avez la possibilité de créer une notice directement dans le catalogue, selon deux méthodes.
+
+La première méthode se base sur un formulaire de catalogage rapide. Elle prévoit la création automatique d'une notice de holding et d'un exemplaire, tous deux rattachés à la notice bibliographiques créée. La notice de holding pourra être conservée mais l'exemplaire devra être supprimé avant d'effectuer la commande. En effet, la création de la ligne de commande entraîne aussi la création d'un exemlpaire, rendant inutile le premier.
+
+La seconde méthode se base sur un modèle de notice succincte proposée dans l'éditeur de métadonnées. Elle est à utiliser par ceux qui se sentent à l'aise avec l'interface de catalogage. Une fois la notice créée, la commande pourra directement se faire depuis l'éditeur de métadonnées.
+
 == Créer une notice bibliographique ex nihilo depuis la fonction d’ajout d’un exemplaire physique (catalogage rapide) ==
 
+Créer la notice bibliographique
+
+Depuis le menu ''Ressources'', sélectionnez ''Ajouter un exemplaire physique''  dans la section ''Créer l'inventaire''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Afin de créer une nouvelle notice dans le catalogue, sélectionnez le critère "Nouveau" comme type de holding et "Livre" comme type de référence :
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Validez l'opération en cliquant sur ''Choisir''. Un formulaire s'ouvre et permet la saisie des champs décrivant la ressource.
+
+A ce stade, il faut renseigner tous les champs utiles à la commande (titre, auteur, ISBN, date de publication, éditeur), même si seule la saisie du champ "Titre" est rendue obligatoire par le système (astérisque rouge).
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Renseignez ensuite la localisation du document en choisissant celle d'acquisition. Comme l'exemplaire créé à ce stade sera supprimé ultérieurement, il n'est pas nécessaire de sélectionner la localisation définitive. Ici par exemple, on utilise une localisation de type "Unassigned" dans la mesure où la bibliothèque ne dispose pas de localisation d'acquisition.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Finissez l'opération en cliquant sur ''Enregistrer''. Une notice bibliographique est créée, ainsi qu'une notice de holding et un exemplaires liés à la localisation choisie précédemment.
+
+NB : le formulaire de création des ajouts rapides (ou catalogage rapide) est disponible également depuis la fonction ''Services aux usagers''. Il est identique au formulaire présenté ici. La création d'ajouts rapides depuis la banque de prêt est décrite dans le support de formation "Services aux usagers".
+
+Supprimer l'exemplaire fictif créé précédemment.
+
+Avant de procéder à la commande, il convient de supprimer l'exemplaire fictif qui vient d'être créé mais de conserver la notice de holding existante. Comme indiqué plus haut, un nouvel exemplaire sera créé lors de l'enregistrement de la ligne de commande : cet exemplaire est donc inutile et créerait un doublon.
+
+Pour pouvoir le supprimer, recherchez la notice en utilisant le critère de pré-recherche "Titres physiques" et l'index "Titre" ou "ISBN" par exemple. A partir de la liste de résultats obtenus, cliquez sur le bouton-action puis sur ''Exemplaires''
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Une fois sur la liste des exemplaires, cliquez sur el bouton-action puis sur ''Supprimer''. Notez qu'il ne doit y avoir, en théorie, qu'un seul exemplaire : celui qui vient d'être créé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Un message de confirmation s'affiche. Il faut répondre ''Confirmer''  pour que l'exemplaire soit supprimé.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Un autre message s'affiche, il indique la suppression effective de l'exemplaire et demande si la notice de holding doit être supprimée ou pas. Il faut laisser coché ''Ne pas modifier la notice holding''  (NB : "Notice de fonds" et "Notice de holding" sont synonymes).
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Un dernier message confirme la suppression de l'exemplaire.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+La notice peut désormais servir de base à la création d'une ligne de commande. Cette création peut se faire depuis l'éditeur de métadonnées ou depuis une liste de résultats en recherchant la notice créée dans Alma.
+
+Pour accéder à l'éditeur de métadonnées, cliquez sur le titre de la notice.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquez ensuite sur le bouton ''Editer''
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+A partir de l'éditeur de métadonnées, cliquez sur le chariot.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Pour la créer depuis une liste de résultats issus d'une recherche, il faut chercher la notice qui vient d'être créée dans Alma et utiliser le bouton-action puis ''Commande''
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 == Créer une notice bibliographique ex nihilo depuis un modèle dans l’éditeur de métadonnées ==
+
+Depuis le menu ''Ressources'', sélectionnez ''Ouvrir l'éditeur de métadonnées''  dans la section ''Catalogage''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Cliquez sur le menu ''Modèles''  situé à gauche de l'écran.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Déployez le menu et selectionnez le modèle "Notice brève" contenu dans le dossier ''Unimarc Bibliographic''  (sous-dossier "partagé"). Cliquez ensuite sur ''Nouveau''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Complétez les différents champs de la notice succincte.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Procédez ensuite à la création de la ligne de commande à partir de l'icône chariot.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
