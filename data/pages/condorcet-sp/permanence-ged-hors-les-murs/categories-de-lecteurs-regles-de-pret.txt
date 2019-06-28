@@ -8,3 +8,9 @@
 
 [[https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:circulation:regles-de-pret-et-de-renouvellement|https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:circulation:regles-de-pret-et-de-renouvellement]]
 
+===== Que faire si : =====
+
+un lecteur estime ne pas être dans la bonne catégorie de lecteurs ?
+
+Le référentiel du Campus Condorcet est alimenté par les différents établissements membres. Ce sont eux qui déterminent l'appartenance aux différentes catégories.
+

@@ -1,6 +1,6 @@
 ====== Communication des documents ======
 
-La réservation des documents pour consultation ou emprûnt se fait via le catalogue du GED.
+La réservation des documents pour consultation ou emprunt se fait via le catalogue du GED.
 
 Cet outil est mis à jour au fur et à mesure des déménagements des collections.
 
@@ -8,19 +8,16 @@ Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Ién
 
 Les ouvrages sont mis de côté pendant 10 jours.
 
-=====\\
-Pendant le GED hors les mus, sont exclus du prêt, les documents :
+\\
+Pendant le GED hors les murs, sont exclus de la communication, les documents :
 
-=====   =====
-
-  * conservés sur palettes (est-ce qu'Alma le dit ?)
+  * conservés sur palettes (voir déménageurs ?)
   * de format exceptionnel (préciser)
   * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD)
+  * des bibliothèques qui ne démégement pas dans la phase 1 (liste)
 
 ===== Que faire si : =====
 
-  * le document réservé par un lecteur n'a pas été trouvé ?
-  * le document rapporté ne correspond pas au document réservé ?
-  * le document demandé est en très mauvais état ?
-  * un lecteur demande un ouvrage déjà emprunté et ne peut pas attendre le délai de rappel ?
+  * un document qui a été réservé n'est pas communiqué ? Quelque soit la raison (ouvrage non trouvé, en trop mauvais état...) le GED (MH QUI ?) apporte une réponse au lecteur dans Alma. L'agent de permanence peut s'y référer ou, en l'absence de celle-ci, le signaler (MH à qui ?).
+  * un lecteur demande un ouvrage déjà emprunté et ne peut pas attendre le délai de rappel ? L'agent de permanence peut prendre l'initiative de contacter le lecteur emprunteur pour expliquer la situation.
 

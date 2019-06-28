@@ -1,6 +1,8 @@
 ====== Consultation des archives ======
 
-<font 11pt/inherit;;inherit;;inherit>[Instruction en interne de la demande de communication des archives inventoriées.]</font>
+<font 11pt/inherit;;inherit;;inherit>[Au préalable, instruction en interne de la demande]</font>
+
+<font 11pt/inherit;;inherit;;inherit>Sont communiquées les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire.</font>
 
 Avant communication, le bibliothécaire vérifie le contenu à l’aide de l’inventaire (est-ce que cette opération est faite avant, en interne ou en présence du lecteur ?), retire éventuellement les documents non communicables. Il vérifie l’identité du lecteur (carte d’identité - uniquement ? autres pièces possibles ?) et remplit le registre des consultations (nom, prénom, adresse, fonds consultés, date, etc.) possible de dématérialiser le registre ?
 

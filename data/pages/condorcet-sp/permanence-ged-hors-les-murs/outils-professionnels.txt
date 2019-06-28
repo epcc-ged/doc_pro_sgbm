@@ -1,10 +1,38 @@
 ====== Outils professionnels ======
 
-<font 11pt/inherit;;inherit;;inherit>Alma, voir documentation notamment</font>
+===== Le catalogue du Grand équipement documentaire =====
 
-https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:generalites:faire-une-recherche-dans-alma
+<font 11pt/inherit;;inherit;;inherit>Documentation disponible :</font>[[https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:generalites:faire-une-recherche-dans-alma|https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:generalites:faire-une-recherche-dans-alma]]
 
-<font 11pt/inherit;;inherit;;inherit>Calames,</font>
+<font 11pt/inherit;;inherit;;inherit>Important : les collections s'affichent au fur et à mesure des déménagements des structures documentaires. Pour connaître le calendrier des déménagements :</font><font inherit/inherit;;#f39c12;;inherit>lien</font>
 
-<font 11pt/inherit;;inherit;;inherit>Sudoc</font>
+Les établissements qui ne déménagent pas en phase 1 continuent de communiquer leurs documents selon leurs propres modalités :
+
+[[http://bibliotheque.fmsh.fr/|FMSH]]
+
+MH autres ?
+
+===== Le SID-chantier =====
+
+Donner des <font inherit/inherit;;#f39c12;;inherit>exemples</font> où il est intéressant d'interroger le SID chantier,
+
+<font inherit/inherit;;#f39c12;;inherit>MH lien, login et mot de passe</font>
+
+===== Le Sudoc =====
+
+Permet de localiser un ouvrage ou un périodique qui n'est pas dans les collections du Grand équipement documentaire.
+
+===== Calames Campus Condorcet =====
+
+Fonds d'archives du Campus Condorcet inventoriés
+
+===== Adria =====
+
+Application dynamique pour le recensement et l'inventaire des archives
+
+<font inherit/inherit;;#f39c12;;inherit>MH lien, login et mot de passe</font>
+
+===== Autres ressources utiles pour les archives =====
+
+Salle des inventaires virtuelle (SIV) des Archives nationales, Archives Portal Europe France-Archives, BnF Archives et Manuscrits…
 

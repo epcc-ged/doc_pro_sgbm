@@ -1,6 +1,6 @@
 ====== Le PEB ======
 
-<font 12pt/inherit;;#e67e22;;inherit>Le PEB permet aux lecteurs d'obtenir des documents conservés dans d'autres bibliothèques françaises (hormis les bibliothèques franciliennes) et étrangères. Pendant le GED hors les murs, seul le PEB demandeur est possible. Il est réservé aux résidents D+ et est facturé aux laboratoires de recherche, avec accord péalable.(préciser)</font>
+<font 12pt/inherit;;inherit;;inherit>Le PEB permet aux lecteurs d'obtenir des documents conservés dans d'autres bibliothèques françaises (hormis les bibliothèques franciliennes) et étrangères. Pendant le GED hors les murs, seul le PEB demandeur est possible. Il est réservé aux résidents D+ et est facturé aux laboratoires de recherche, avec accord péalable</font><font 12pt/inherit;;#e67e22;;inherit>.(préciser)</font>
 
 <font 12pt/inherit;;inherit;;inherit>La demande de PEB se fait via le formulaire disponible sur le portail du Campus Condorcet.</font>
 
@@ -14,7 +14,7 @@
 
 <font 12pt/inherit;;inherit;;inherit>Tarifs</font>
 
-  * <font 12.0pt/inherit;;inherit;;inherit>Prêt d’originaux : 8 euros par volume</font>  * <font 12.0pt/inherit;;inherit;;inherit>Photocopies d’articles : 4 euros par tranche de 10pages</font>
+  * <font 12.0pt/inherit;;inherit;;inherit>Prêt d’originaux : 8 euros par volume</font>* <font 12.0pt/inherit;;inherit;;inherit>Photocopies d’articles : 4 euros par tranche de 10pages</font>
 
 <font 12.0pt/inherit;;#e67e22;;inherit>Le nombre de demandes simultanées est limité à : combien ? par qui ? par chercheur ou par labo ? ou pas ?</font>
 

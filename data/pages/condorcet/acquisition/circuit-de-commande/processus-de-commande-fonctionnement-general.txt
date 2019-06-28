@@ -4,7 +4,7 @@
 
 Recherchez une notice de document imprimé dans Alma en utilisant le critère de pré-recherche ''Tous les titres'' ou ''Titres physiques''. Le premier critère est à privilégier.
 
-Pour rappel, le second critère cherche les notices bibliographiques de ressources physiques ayant au moins une notice de holding attachée. Le premier, lui, recherche indifféremment des ressources physiques ou électroniques, mais permet de ramener des titres de ressources ressources physiques sans holding ni exemplaire, ce qui est le cas d'une notice qui vient d'être dérivée d'un catalogue extérieur.
+Pour rappel, le second critère cherche les notices bibliographiques de ressources physiques ayant au moins une notice de holding attachée. Le premier, lui, recherche indifféremment des ressources physiques ou électroniques, mais permet de ramener des titres de ressources physiques sans holding ni exemplaire, ce qui est le cas d'une notice qui vient d'être dérivée d'un catalogue extérieur.
 
 Ces critères de pré-recherche doivent être combinés avec un ou plusieurs index de votre choix ("Tout", "Titre", "ISBN", etc.).
 
@@ -14,7 +14,7 @@ Si la notice est sans exemplaire, l'onglet "Physique" est laissé en grisé. C'e
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Si la notice a des exemplaires, l'onglet "Physique" apapraît avec un point vert, suivi du nombre d'exemplaires entre parenthèses. En cliquant sur "Physique", la liste des holdings liées à cette notice bibliographique apparaît et permet de savoir qui, au sein du réseau, possède cette ressource.
+Si la notice a des exemplaires, l'onglet "Physique" apparaît avec un point vert, suivi du nombre d'exemplaires entre parenthèses. En cliquant sur "Physique", la liste des holdings liés à cette notice bibliographique apparaît et permet de savoir qui, au sein du réseau, possède cette ressource.
 
 Dans un cas comme dans l'autre, une fois le titre trouvé, cliquez sur le bouton-action puis sur "Commande".
 
@@ -22,9 +22,79 @@ Dans un cas comme dans l'autre, une fois le titre trouvé, cliquez sur le bouton
 
 === Renseigner le type d’achat et le propriétaire de la ligne de commande ===
 
+Un écran s'affiche vous invitant à renseigner :
+
+  * le type d'achat
+      * achat de livre imprimé : à l'unité ou commande permanente de toutes les monographies parues dans une même collection
+      * achat de livre électronique
+      * souscription par abonnement à un livre électronique
+      * achat de matériel : "Physique - Achat ponctuel" ou "Physique - Commande permanente monographie" (NB : le terme de monographie relève ici d'une mauvaise traduction de l'anglais)
+      * etc.
+
+Cette liste est générée de manière contextualisée, en fonction des informations contenues dans la notice. Le choix du type d'achat détermine l'affichage de certains champs du formulaire de création de ligne de commande.
+
+Ici nous sélectionnerons "Livre imprimé - Achat ponctuel".
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+  * le propriétaire de la ligne de commande
+
+Le choix effectué détermine quelle bibliothèque est responsable de l'achat. La bibliothèque propriétaire peut acheter pour elle-même mais aussi pour d'autres bibliothèques dans le cadre d'une politique d'acquisition centralisée. La distinction concernant la localisation de l'exemplaire commandé se fera au niveau de la ligne de commande.
+
+L'affichage de cette liste est contextualisée. Il dépend du périmètre institutionnel associé à votre rôle d'acqéreur. Dans l'exemple, l'acquéreur ne peut acheter des documents que pour la bibliothèque <font inherit/inherit;;#9b59b6;;inherit>SICD (BU Arsenal</font>).
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+  * un modèle de bon de commande : si souhaité, sélectionnez ici un modèle de ligne de commande comme vu dans la partie précédente.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Après la sélection de ces informations, deux lignes supplémentaires s'ajoutent :
+
+  - "Générer un code-barres à l'aide d'une séquence" : sélectionnez "default_institution". Les codes-barres des exemplaires en commande seront préfixés "ACQ".
+  - "Assigner l'inventaire manuellement" :
+      - Si la case est cochée, le ou les exemplaires en commande devront être créés manuellement, code-barres inclus
+      - Si la case est décochée, un exemplaire sera automatiquement créé avec un certain nombre d'informations pré-renseignées comme la "localisation d'acquisition par défaut" (localisation de type "ACQ", pour les bibliothèques ayant des collections de ce type). Ces informations pourront être modifiées ultérieurement, si besoin est.
+
+Dans l'exemple suivant, "Assigner l'inventaire manuellement" est décoché.
+
+Après avoir renseigné ces informations, cliquez sur ''Créer une ligne de commande''.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+NB : si "Assigner l'inventaire manuellement" est coché, la ligne "Générer un code-barres à l'aide d'une séquence" est supprimée. Le code-barres sera créé manuellement.
+
 === Créer la ligne de commande ===
 
+Une ligne de commande vient d'être créée. Elle est dite "en révision", ce qui signifie qu'elle doit être complétée.
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
+Notez dès mainteannt que pour être "paquetable", c'est-à-dire regroupée dans un bon de commande, une ligne de commande doit impérativement comporter :
+
+  * une bibliothèque et une localisation de destination
+  * un fournisseur
+  * un prix
+  * un budget
+
+<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
+
 == Vue générale sur l’écran de création des lignes de commande ==
+
+L'écran de création des lignes de commande comporte un onglet principal, intitulé "Résumé".
+
+Cet onglet se sbdivie en 6 parties :
+
+  * "Informations sur l'exemplaire" : bibliothèque, localisation, code-barres, exception de circulation applicable à l'exemplaire ou aux exemplaires commandés
+  * "Informations sur le fournisseur" : fournisseur
+  * "Tarification" : tarif
+  * "Financement" : budget(s) imputé(s)
+  * "Détail de la ligne de commande" : mode d'entrée, type de matériel, codes statistiques, etc.
+  * "Supplémentaire" : identification de la référence de la ligne de commande à laquelle la ligne créée doit être associée.
+
+La section "Tarification" doit impérativement être complétée avant la partie "Financement".
+
+Il est recommandé, de manière générale, de remplir les sections dans l'ordre d'affichage, les unes après les autres. A défaut, des bugs risquent de survenir. C'est le cas lorsque prix et budget sont renseignés avant le fournisseur, du moins quand celui-ci applique une remise.
 
 == Renseigner les informations sur les exemplaires commandés ==
 

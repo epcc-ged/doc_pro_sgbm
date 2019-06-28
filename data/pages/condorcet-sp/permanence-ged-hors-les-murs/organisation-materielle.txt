@@ -1,27 +1,36 @@
 ====== Organisation matérielle ======
 
-<font 11pt/inherit;;inherit;;inherit>Les permanences d'accueil du GED hors les murs ont lieu dans la bibliothèque du rez-de-jardin de la la MSH Paris Nord.</font>
+<font 11pt/inherit;;inherit;;inherit>Les permanences d'accueil du GED hors les murs ont lieu dans la bibliothèque du rez-de-jardin de la MSH Paris Nord.</font>
 
 <font 11pt/inherit;;inherit;;inherit>Les clefs de la salle de lecture sont à retirer et à restituer à l’accueil du bâtiment à l’ouverture et à la fermeture.</font>
 
+<code>
+nicomo : tél / contact accueil P13 pour récupérer les clés si problème?
+</code>
+
 <font 11pt/inherit;;inherit;;inherit>Pour remplir leur mission, les agents ont à leur disposition :</font>
+
+<code>
+nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. Tél : numéro d'appel, code ouverture.
+</code>
 
   * un badge GED Campus Condorcet
   * un ordinateur portable,
   * un téléphone portable,
   * une platine RFID,
-  * un registre de consultation des archives, (dématrialisé ?)
-  * un lecteur scanner de microforme(achat ?).Mode d'emploi
-  * une visionneuse de diapositives (achat ?)
-  * une machine à lire(achat ?)mode d'emploi
-  * une boucle magnétique(achat?)Mode d'emploi
-  * une loupe(achat)
-  * un cahier des lecteurs (qui le consulte et y répond ?)
+  * un registre de consultation des archives, (dématérialisé ?)
+  * un cahier des lecteurs (MH QUI LE CONSULTE ET Y REPOND ?)
   * du petit matériel pour dépanner les lecteurs.
 
-<font 11pt/inherit;;inherit;;inherit>Ils ont également accès au planning hebdomadaire, à l’annuaire du Campus Condorcet, au calendrier des déménagements des collections.</font><font 11pt/inherit;;#e67e22;;inherit>mettre des liens qui s'actualisent</font>
+Ainsi que des outils plus spécialisés :
 
-<font 11pt/inherit;;inherit;;inherit>Les équipements sont stockés sur les étagères mises à disposition par l'EHESP dans le local du fond.</font><font 11pt/inherit;;#e67e22;;inherit>?</font>
+  * un lecteur scanner de microforme (achat ?).Mode d'emploi
+  * une visionneuse de diapositives (achat ?)
+  * une machine à lire (achat ?) mode d'emploi
+  * une boucle magnétique(achat?) Mode d'emploi
+  * une loupe(achat)
 
-<font 11pt/inherit;;inherit;;inherit>Penser à recharger les batteries des appareils électriques !</font>
+<font 11pt/inherit;;inherit;;inherit>Ces équipements sont stockés sur les étagères mises à disposition par l'EHESP dans le local du fond. Penser à recharger les batteries des différents appareils électriques !</font>
+
+<font 11pt/inherit;;inherit;;inherit>Les agents ont également accès au planning hebdomadaire, à l’annuaire du Campus Condorcet, au calendrier des déménagements des collections.</font><font 11pt/inherit;;#e67e22;;inherit>mettre des liens qui s'actualisent</font>
 
