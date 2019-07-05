@@ -1,43 +1,80 @@
 
-<h2 class="sectionedit1" id="circulationregles_de_pret">CIRCULATION : REGLES DE PRÊT</h2>
+<h2 class="sectionedit1" id="circulationcategories_d_usagers_regles_de_pret_et_rappels">CIRCULATION : CATEGORIES D&#039;USAGERS, REGLES DE PRET ET RAPPELS</h2>
 <div class="level2">
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;CIRCULATION : REGLES DE PR\u00caT&quot;,&quot;hid&quot;:&quot;circulationregles_de_pret&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-43&quot;} -->
-<h3 class="sectionedit2" id="duree_de_pret">Durée de prêt</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;CIRCULATION : CATEGORIES D&#039;USAGERS, REGLES DE PRET ET RAPPELS&quot;,&quot;hid&quot;:&quot;circulationcategories_d_usagers_regles_de_pret_et_rappels&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-76&quot;} -->
+<h3 class="sectionedit2" id="categories_d_usagers">Catégories d&#039;usagers</h3>
 <div class="level3">
 
-</div>
-
-<h4 id="generalites">Généralités</h4>
-<div class="level4">
-
 <p>
-Les durées de prêt dans Alma sont calculées par croisement de groupes d’usagers et de localisations (ou de TPU et de collections, au sens Horizon du terme).
+Au Campus Condorcet, les durées de prêt dans Alma sont fonction de la catégorie à laquelle appartient le lecteur.
 </p>
 
 <p>
-<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Par exemple, il peut être décidé que tous les documents appartenant à la localisation 63S seront prêtables :</span>
+Les catégories sont les suivantes :
 </p>
 <ul>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>21 jours aux étudiants de niveau L</span></div>
+<li class="level1"><div class="li"> CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>Inclus les personnels du Campus Condorcet</span>.</div>
 </li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>28 jours aux étudiants de niveau M</span></div>
+<li class="level1"><div class="li"> CU2 : Résidents M : masterants résidents du Campus venant des établissements membres</div>
 </li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>35 jours aux étudiants de niveau D</span></div>
+<li class="level1"><div class="li"> CU3 : Chercheurs membres non résidents : chercheurs non résidents venant des établissements membres</div>
 </li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>ainsi qu’aux professeurs et personnels des établissements</span></div>
+<li class="level1"><div class="li"> CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres</div>
 </li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>14 jours aux lecteurs autorisés</span></div>
+<li class="level1"><div class="li"> CU5 : M+ non-membres : masterants, doctorants ou chercheurs et autres profils académiques venant d&#039;un établissement non-membre</div>
+</li>
+<li class="level1"><div class="li"> CU6 : Autres : personnes ne venant pas d&#039;un établissement membre et n&#039;ayant pas de profil académique</div>
+</li>
+<li class="level1"><div class="li"> CU7 : Personnel GED : personnel du GED.</div>
 </li>
 </ul>
 
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cat\u00e9gories d&#039;usagers&quot;,&quot;hid&quot;:&quot;categories_d_usagers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;77-1071&quot;} -->
+<h3 class="sectionedit3" id="droits_de_pret">Droits de prêt</h3>
+<div class="level3">
+
 <p>
-Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche, ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
+A partir de ces catégories de lecteurs, on pose les droits de prêt suivants :
+</p>
+<div class="table sectionedit4"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0">Catégorie d&#039;usager</th><th class="col1 rightalign">  Nombre de documents prêtables simultanément</th><th class="col2">Durée initiale du prêt (jours)</th><th class="col3">Durée maximale du prêt (jours</th><th class="col4">Période au bout de laquelle le prêt devient rappelable (jours)</th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<th class="col0">CU1</th><td class="col1">30</td><td class="col2">60</td><td class="col3">365</td><td class="col4">30</td>
+	</tr>
+	<tr class="row2">
+		<th class="col0">CU2</th><td class="col1">20</td><td class="col2">30</td><td class="col3">30</td><td class="col4">14</td>
+	</tr>
+	<tr class="row3">
+		<th class="col0">CU3</th><td class="col1">10</td><td class="col2">60</td><td class="col3">365</td><td class="col4">30</td>
+	</tr>
+	<tr class="row4">
+		<th class="col0">CU4</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row5">
+		<th class="col0">CU5</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row6">
+		<th class="col0">CU6</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:4,&quot;range&quot;:&quot;1180-1477&quot;} -->
+<p>
+Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
 </p>
 
 <p>
-La date de retour est assortie d’une heure limite de retour, qui correspond à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt, comme il sera précisé plus loin.
+La date de retour est assortie d’une heure limite de retour, qui correspond<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>, par défaut,</span> à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
+</p>
+
+<p>
+Il n&#039;y a pas de délai de grâce par rapport à la date de retour.
 </p>
 
 <p>
@@ -45,69 +82,115 @@ Ces deux dernières particularités (retour repoussé au prochain jour ouvré et
 </p>
 
 </div>
-
-<h4 id="exceptions_de_circulation">Exceptions de circulation</h4>
-<div class="level4">
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Droits de pr\u00eat&quot;,&quot;hid&quot;:&quot;droits_de_pret&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1072-2660&quot;} -->
+<h3 class="sectionedit5" id="exceptions_de_circulation">Exceptions de circulation</h3>
+<div class="level3">
 
 <p>
-Certains documents d’une même localisation peuvent être soumis à des règles de circulation différentes. Dans ce cas, ils reçoivent une ou plusieurs « exceptions de circulation », qui correspondent peu ou prou aux TPE Horizon. Ces exceptions de circulation peuvent être une exception de type « Exclu du prêt » ou correspondre à des durées de prêt plus courtes (24 heures, 7 jours) ou plus longues (60 jours, 180 jours) que celle appliquée au niveau de la localisation. Dans tous les cas, elle s’applique de manière indifférenciée à l’ensemble des groupes d’usagers.
+Le principe au GED est que tous les documents du libre-accès ou au CTLES sont prêtables.
 </p>
 
 <p>
-Par exemple, il peut être décidé que tous les documents appartenant à la localisation 63S seront prêtables aux conditions décrites plus haut, sauf trois lots de documents :
-</p>
-
-<p>
-• Un premier lot sera exclu du prêt pour tous les usagers
-</p>
-
-<p>
-• Un deuxième sera prêtable 48 heures pour tous les usagers
-</p>
-
-<p>
-• Un troisième sera prêtable 90 jours pour tous les usagers
-</p>
-
-<p>
-Voici la liste des exceptions de circulation actuellement configurées. Veuillez noter qu’à la différence des TPE Horizon, ces exceptions de circulation sont communes à l’ensemble des bibliothèques et utilisables par toutes :
+Néanmoins, quelques exceptions existent :
 </p>
 <ul>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Exclu du prêt</span></div>
+<li class="level1"><div class="li"> les nouveautés (monographies, périodiques) ne sont pas prêtables</div>
 </li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 24h - non renouvelable</span></div>
+<li class="level1"><div class="li"> les usuels ne sont pas prêtables</div>
 </li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 48 heures - non renouvelable - non réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 48 heures - non renouvelable - réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 72h - non renouvelable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 7 jours - non renouvelable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 1 semaine - renouvelable 1 semaine ‑ réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 10 jours - non renouvelable - non réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 2 semaines - non renouvelable - non réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 2 semaines - renouvelable 2 semaines - réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 2 semaines - renouvelable 2 semaines - non réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 21 jours - non renouvelable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 3 semaines - renouvelables 3 semaines ‑ réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 4 semaines - non renouvelable - réservable</span></div>
-</li>
-<li class="level1"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #c0392b '>Prêt 90 jours - non renouvelable - non réservable</span></div>
+<li class="level1"><div class="li"> Les documents de la réserve ne sont pas prêtables. De plus, ils doivent être consultés dans une salle réservée à cet effet.</div>
 </li>
 </ul>
 
 <p>
-Ces exceptions de circulation sont donc à utiliser lorsqu’un exemplaire est soumis à des durées de prêt différentes de celles définies pour sa localisation de rangement. Pour un nouvel exemplaire, l’exception de circulation peut être renseigné dès la commande, mais le sera en règle générale après la réception. Voir le support « Gestion des données » pour plus de renseignements.
+Il existe une exception générique “autre exception de prêt” qui permet au besoin d&#039;exclure un document du prêt.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Dur\u00e9e de pr\u00eat&quot;,&quot;hid&quot;:&quot;duree_de_pret&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;44-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Exceptions de circulation&quot;,&quot;hid&quot;:&quot;exceptions_de_circulation&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;2661-3196&quot;} -->
+<h3 class="sectionedit6" id="gestion_des_retours_et_des_rappels_anticipes">Gestion des retours et des rappels anticipés</h3>
+<div class="level3">
+
+<p>
+On désigne par rappel anticipé, la demande adressée à un lecteur ayant emprunté un document de retourner le-dit document avant la date de retour normalement déterminée au moment du prêt.
+</p>
+
+<p>
+Pour un retour normal, Alma se charge généralement de signaler automatiquement au lecteur qu&#039;il doit rapporter le document en procédant à l&#039;envoi d&#039;un message à cette fin. Ce traitement est fait en temps réel.
+</p>
+
+<p>
+Lorsqu&#039;un document est prêté, Alma est théoriquement susceptible d&#039;envoyer les messages suivants :
+</p>
+<ul>
+<li class="level1"><div class="li"> une lettre de courtoisie pour rappeler au lecteur que la date de retour du document prêté approche</div>
+</li>
+<li class="level1"><div class="li"> une lettre de rappel envoyée le jour du retour</div>
+</li>
+<li class="level1"><div class="li"> une lettre de relance lorsque le document n&#039;est pas rendu et est en retard. Selon le paramétrage, plusieurs lettres de ce type pourront être envoyés selon une périodicité à définir</div>
+</li>
+<li class="level1"><div class="li"> une lettre de facturation informant l&#039;usager qu&#039;il doit rembourser un livre jamais rendu ou payer une amende suite au retard</div>
+</li>
+</ul>
+
+<p>
+Dans notre cas, qu&#039;il s&#039;agisse d&#039;un retour normal ou d&#039;un rappel non honorés, le retard n&#039;entraîne pas de paiement d&#039;une amende avant la cinquième relance. A la cinquième relance, l&#039;amende est de 100€.
+</p>
+
+<p>
+Le cycle de relance quand le document n&#039;est pas rendu à temps est le suivant (jours calendaires) :
+</p>
+<ul>
+<li class="level1"><div class="li"> Première relance : après 3 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Deuxième relance : après 17 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Troisième relance : après 30 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Quatrième relance : après 90 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Cinquième relance : après 180 jours de retard.</div>
+</li>
+</ul>
+
+<p>
+Après la cinquième relance, le document est considéré comme perdu. Comme on le disait ci-dessus, le lecteur doit s&#039;acquitter d&#039;une amende de 100€.
+</p>
+
+</div>
+
+<h5 id="rappel_anticipe">Rappel anticipé</h5>
+<div class="level5">
+
+<p>
+Le rappel anticipé consiste à demander au lecteur de rapporter un document avant la date de retour qui avait été calculée lors du prêt. Le lecteur dispose de trente jours à compter de la date du rappel anticipé pour rapporter le document.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Gestion des retours et des rappels anticip\u00e9s&quot;,&quot;hid&quot;:&quot;gestion_des_retours_et_des_rappels_anticipes&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;3197-5239&quot;} -->
+<h3 class="sectionedit7" id="blocage_du_compte_lecteur">Blocage du compte lecteur</h3>
+<div class="level3">
+
+<p>
+Le compte d&#039;un lecteur peut être bloqué si au moins l&#039;un des cas suivants arrive sur son compte :
+</p>
+<ul>
+<li class="level1"><div class="li"> Le lecteur a un document en retard et ne l&#039;a pas rapporté après la cinquième relance. Dès que cette cinquième relance est émise, son compte est bloqué.</div>
+</li>
+<li class="level1 node"><div class="li"> Le lecteur a plusieurs documents en retard simultanément :</div>
+<ul>
+<li class="level3"><div class="li"> Si le lecteur est dans la catégorie CU1 alors si cinq documents empruntés sont en retard simultanément et ce qu&#039;il s&#039;agisse d&#039;un retour normal non honoré à temps ou d&#039;un rappel anticipé de document non honoré dans la période de trente jours dans lequel le rappel doit être effectué, alors son compte est bloqué quel que soit l&#039;avancement du processus de relance pour chacun des documents.</div>
+</li>
+<li class="level3"><div class="li"> Si le lecteur est dans la catégorie CU2 ou CU3, le cas est le même que pour CU1 mais à compter de deux documents en retard simultanément.</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+<br/>
+
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Blocage du compte lecteur&quot;,&quot;hid&quot;:&quot;blocage_du_compte_lecteur&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;5240-&quot;} -->
