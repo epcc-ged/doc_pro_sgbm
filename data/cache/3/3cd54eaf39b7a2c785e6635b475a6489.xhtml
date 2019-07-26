@@ -1,0 +1,169 @@
+
+<h2 class="sectionedit1" id="generalitesles_donnees_dans_alma">GENERALITES : LES DONNEES DANS ALMA</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;GENERALITES : LES DONNEES DANS ALMA&quot;,&quot;hid&quot;:&quot;generalitesles_donnees_dans_alma&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-49&quot;} -->
+<h3 class="sectionedit2" id="zone_institution_et_zone_communaute">Zone « Institution » et zone « Communauté »</h3>
+<div class="level3">
+
+<p>
+Dans Alma, on distingue deux zones différentes : la zone “Institution” et la zone “Communauté”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(tableau)</span>
+</p>
+
+<p>
+NB : la zone proposée par défaut est toujours celle de l&#039;institution (= périmètre Condorcet)
+</p>
+
+<p>
+La zone “Institution” comprend :
+</p>
+<ul>
+<li class="level1"><div class="li"> les notices de ressources imprimées et électronique issues du SID chantier après le dernier chargement de décembre 2018</div>
+</li>
+<li class="level1"><div class="li"> les notices issues du Sudoc saisies entre le dernier export vers le SID chantier et la mise en production d&#039;Alma</div>
+</li>
+<li class="level1"><div class="li"> les notices de ressources électroniques issues de <span style='font-family: inherit; font-size:inherit; color: #e74c3c;  background-color: inherit '>?</span></div>
+</li>
+</ul>
+
+<p>
+La zone “Communauté” regroupe les notices de tous les établissements (en France et aileurs dans le monde) utilisant Alma, elle comporte donc des notices d&#039;autorités, des notices bibliographiques et des notices de ressources électroniques. Cette zone peut ainsi servir de réservoir de notices pour les acquisitions de ressources imprimées ou électroniques, ainsi que pour l&#039;activation de ressources libres.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(copie d&#039;écran)</span>
+</p>
+
+<p>
+Nous verrons plus tard comment identifier la provenance et l&#039;appartenanace d&#039;une notice à l&#039;une ou l&#039;autre de ces zones.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Zone \u00ab Institution \u00bb et zone \u00ab Communaut\u00e9 \u00bb&quot;,&quot;hid&quot;:&quot;zone_institution_et_zone_communaute&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;50-1350&quot;} -->
+<h3 class="sectionedit3" id="structure_des_donnees">Structure des données</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="ressources_physiquesdonnees_bibliographiques_et_d_exemplaires">Ressources physiques : données bibliographiques et d&#039;exemplaires</h4>
+<div class="level4">
+
+<p>
+(tableau)
+</p>
+
+</div>
+
+<h5 id="notice_bibliographique">Notice bibliographique</h5>
+<div class="level5">
+
+<p>
+Source initiale : SID chantier + Sudoc (de déc. 2018 à sept. 2019)
+</p>
+
+<p>
+Source en production : Sudoc
+</p>
+
+<p>
+Format : Unimarc
+</p>
+
+</div>
+
+<h5 id="notice_de_holding">Notice de holding</h5>
+<div class="level5">
+
+<p>
+Notice intermédiaire entre la notice bibliographique et les notices d&#039;exemplaires pour les monographies et les périodiques imprimés. Elle regroupe les exemplaires d&#039;une même “localisation”, c&#039;est-à-dire d&#039;un même emplacement.
+</p>
+
+<p>
+Cette notice contient les éléments communs à différents exemplaires : la localisation et la bibliothèque donc, mais aussi la cote des exemplaires qui lui sont rattachés.
+</p>
+
+<p>
+La notice de holding est parfois appelée notice de fonds ou de collection.
+</p>
+
+<p>
+Une notice bibliographique peut donc avoir plusieurs notices de holding, et une notice de holding peut avoir une ou plusieurs notices d&#039;exemplaires qui lui sont liées.
+</p>
+
+</div>
+
+<h5 id="notice_d_exemplaire">Notice d&#039;exemplaire</h5>
+<div class="level5">
+
+<p>
+Cette notice contient les informations spécifiques à chaque exemplaire, comme par exemple le code barres.
+</p>
+
+<p>
+Elle ne contient des informations sur les règles de prêt que dans le cas où les règles qui s&#039;appliquent à cet exemplaire sont différentes de celles qui s&#039;appliquent à la localisation à laquelle il appartient, par exemple un exemplaire exclu du prêt alors que la règle qui s&#039;applique aux exemplaires de cette localisation autorise le prêt.
+</p>
+
+</div>
+
+<h4 id="ressources_electroniques">Ressources électroniques</h4>
+<div class="level4">
+
+<p>
+(tableau)
+</p>
+
+</div>
+
+<h5 id="notice_bibliographique1">Notice bibliographique</h5>
+<div class="level5">
+
+<p>
+Rappel : Alma regoupe à la fois les notices de documents électroniques catalogués dans Sudoc (livres, thèses…) et les notices bibliographiques des livres et périodiques électroniques issues de SFX .
+</p>
+
+</div>
+
+<h5 id="portfolio">Portfolio</h5>
+<div class="level5">
+
+<p>
+Terme pouvant être considéré comme l&#039;équivalent de l&#039;exemplaire pour les ressources électroniques. Il consiste en l&#039;unité documentaire la plus “élémentaire”. En l&#039;occurrence, il contient les informations d&#039;accès à la ressource telle que le lien <abbr title="Uniform Resource Locator">URL</abbr>, les éventuelles restrictions d&#039;accès, la période de couverture, etc.
+</p>
+
+<p>
+Un portfolio peut faire partie d&#039;une collection ou être isolé (par exemple, le porfolio d&#039;un livre électronique acheté en dehors de tout bouquet).
+</p>
+
+<p>
+Pour un même établissement, il peut y avoir plusieurs porfolios rattachés à un même titre électronique ; c&#039;est le cas par exemple lorsqu&#039;un titre appartient à plusieurs bouquets souscrits par l&#039;établissement.
+</p>
+
+</div>
+
+<h5 id="collection_electronique">Collection électronique</h5>
+<div class="level5">
+
+<p>
+Une collection électronique regroupe plusieurs portfolios. Elle correspond à un bouquet de publications électroniques (périodiques ou ebooks) ou à une base de données.
+</p>
+
+</div>
+
+<h5 id="service">Service</h5>
+<div class="level5">
+
+<p>
+Correspond aux services qu&#039;une collection électronique propose pour accéder à ses portfolios. Dans Alma, vous aurez accès à des services de texte intégral.
+</p>
+
+<p>
+Le service contient des informations de lien ou de connexion sur l&#039;accès au texte intégral.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Structure des donn\u00e9es&quot;,&quot;hid&quot;:&quot;structure_des_donnees&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1351-&quot;} -->

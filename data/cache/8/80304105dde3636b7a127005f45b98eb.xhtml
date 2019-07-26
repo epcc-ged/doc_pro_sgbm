@@ -1,0 +1,821 @@
+
+<h3 class="sectionedit1" id="acquisitionscircuit_de_commandederiver_importer_ou_creer_un_titre_en_vue_d_une_commande">ACQUISITIONS : CIRCUIT DE COMMANDE : DERIVER, IMPORTER OU CREER UN TITRE EN VUE D&#039;UNE COMMANDE</h3>
+<div class="level3">
+
+<p>
+Lorsque la notice d&#039;un titre est absente du catalogue, il convient de l&#039;y ajouter afin de pouvoir lancer le processus de commande. Pour ce faire, trois modes opératoires peuvent être utilisés :
+</p>
+<ol>
+<li class="level1"><div class="li"> dériver une notice depuis un catalogue extérieur</div>
+</li>
+<li class="level1"><div class="li"> importer une notice depuis un réservoir extérieur</div>
+</li>
+<li class="level1"><div class="li"> créer une notice succincte ex nihilo</div>
+</li>
+</ol>
+
+</div>
+
+<h4 id="deriver_une_notice_depuis_un_catalogue_exterieur">Dériver une notice depuis un catalogue extérieur</h4>
+<div class="level4">
+
+</div>
+
+<h5 id="fonctionnement_general">Fonctionnement général</h5>
+<div class="level5">
+
+<p>
+La recherche dans un catalogue extérieur et la dérivation de notice qui s&#039;ensuit sont réalisées depuis Alma et la fonction intitulée <code>Recherche ressources externes</code>.
+</p>
+
+<p>
+Les administrateurs du système ont la possiiblité d&#039;ajouter des réservoirs de données interrogeables via des protocoles standardisés (Z39.50 ou SRU) et de créer des profils de recherche. La création de ces profils de recherche est réalisée par le <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>SICD</span> pour l&#039;ensemble des acquéreurs et catalogueurs habilités à utiliser cette fonction.
+</p>
+
+<p>
+Actuellement, seul le catalogue SUDOC est interrogeable par ce moyen.
+</p>
+
+<p>
+L&#039;utilisation de catalogues étrangers ou, du moins, de catalogues dans un format de donnés autres qu&#039;Unimarc pose actuellement un problème technique : une notice Marc21 dérivée d&#039;un catalogue extérieur pour servir de notice d&#039;acquisition ne serait pas écrasée par l&#039;importation de la notice Sudoc, ce qui complique d&#039;autant le processus de gestion.
+</p>
+
+<p>
+Le profil de recherche “Sudoc” a été créé dans Alma pour pouvoir dériver une notice du Sudoc. La notice ainsi dérivée portera la mention “NOTICE D&#039;ACQUISITION DERIVEE DU SUDOC” dans une zone 930 ; toutes les autres zones du bloc 9XX seront supprimées lors de la dérivation. Cela facilite l&#039;identification des notices du Sudoc utilisées comme notices d&#039;acquisition.
+</p>
+
+<p>
+L&#039;accès à la fonction <code>Recherche ressources externes</code>  nécessite d&#039;avoir le rôle de “catalogueur” qui sera donc associé par défaut à tous les acquéreurs du réseau.
+</p>
+
+</div>
+
+<h5 id="rechercher_un_titre_dans_un_catalogue_exterieur">Rechercher un titre dans un catalogue extérieur</h5>
+<div class="level5">
+
+<p>
+Cliquez sur le menu <code>Ressources</code>  puis sur <code>Recherche ressources externes</code>  :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le profil “Sudoc” est sélectionné par défaut, dans le champ <code>Rechercher un profil de catalogage</code>  :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Saisissez ensuite le ou les termes de recherche souhaités dans les différents index proposés (ici : “Richard et Jean Tassel” dans le <code>Titre</code>  pour la formule <code>Contient la phrase</code>). Cliquez sur <code>Recherche</code>  :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les résultats sont affichés sous forme de notices succinctes. Un onglet précise qu&#039;il s&#039;agit de notices provenant du Sudoc et au format Unimarc.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="deriver_la_notice">Dériver la notice</h5>
+<div class="level5">
+
+<p>
+Depuis la page de résultat, il vous est possible d&#039;afficher le détail d&#039;une notice, en cliquant sur <code>Voir</code>  sous la notice succincte.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La notice s&#039;ouvre en lecture, dans le format de catalogage de la base source (ici : Unimarc).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous pouvez importer la notice dans le catalogue du réseau en cliquant sur <code>Importer</code>  en bas de l&#039;écran précédent.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous avez aussi la possibilité d&#039;importer la notice depuis la liste des résultats :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Après avoir cliqué sur l&#039;un des boutons <code>Importer</code>, la notice s&#039;ouvre en mode édition dans l&#039;éditeur de métadonnées d&#039;Alma.
+</p>
+
+<p>
+Comme indiqué plus haut, la notice ainsi dérivée du Sudoc a subi plusieurs traitements comme la suppression des zones 9XX, des zones 856, des zones 31X et la création d&#039;une zone provisoire “930$a NOTICE D&#039;ACQUISITION DERIVEE DU SUDOC”.
+</p>
+
+<p>
+Ces modifications apportées sur la notice ont pour but de la simplifier et de la rendre “reconnaissable” comme notice d&#039;acquisition et de ne pas la confondre avec des notices issues des imports Sudoc par transferts réguliers.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous pouvez alors enregistrer et débloquer la notice : cliquez sur <code>Enregistrer et débloquer la notice</code>  à partir du menu <code>Fichier</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous pouvez alors quitter l&#039;écran (cliquez sur <code>Quitter</code>, en haut à droite la page, puis sur <code>Oui</code>, en réponse à la question “Voulez-vous enregistrer le brouillon avant de fermer ?”). La notice est désormais importée et accessible dans le catalogue du réseau et peut être retrouvée à partir d&#039;une recherche sur son titre : elle est dépourvue de tout exemplaire comme en atteste le fait que l&#039;onglet <code>Physique</code>  est laissé en grisé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une ligne de commande peut désormais ête créée : cliquez sur <code>Commande</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous êtes alors dirigé vers l&#039;écran de sélection du type d&#039;achat et <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>de la bibliothèque propriétaire</span> de la ligne de commande.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour les étapes suivantes, veuillez vous reporter à la partie “Processus de commande : fonctionnement général” du présent support.
+</p>
+
+<p>
+NB : vous pouvez aussi lancer la création de la ligne de commande directement depuis l&#039;éditeur de métadonnées en cliquant sur l&#039;icône chariot.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+NB : avant de procéder à la recherche d&#039;une notice dans le catalogue externe Sudoc, assurez-vous que la notice n&#039;existe pas dans Alma. Si toutefois cette vérification n&#039;a pas été faite en amont, le système envoie ce message d&#039;alerte s&#039;il détecte un doublon.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Répondez “Oui” à ce message pour pouvoir visualiser la notice déjà existante, puis cliquez sur <code>Quitter</code>  afin de ne pas créer de doublons dans Alma.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Recherchez ensuite la notice existante dans la base par son titre ou son ISBN et cliquez sur le bouton-action puis sur <code>Commande</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour les étapes suivantes, veuillez vous reporter à la partie “Processus de commande : fonctionnement général” du présent support.
+</p>
+
+</div>
+
+<h4 id="importer_une_notice_depuis_un_reservoir_exterieur">Importer une notice depuis un réservoir extérieur</h4>
+<div class="level4">
+
+</div>
+
+<h5 id="fonctionnement_general1">Fonctionnement général</h5>
+<div class="level5">
+
+<p>
+Alma permet l&#039;importation de paniers de notices constitués sur des plateformes commerciales (Electre, Erasmus et Decitre). Le système permet aussi l&#039;importation d&#039;une notice isolée ou de plusieurs notices en Marc21 et exportées de catalogues extérieurs comme la Library of Congress, par exemple.
+</p>
+
+<p>
+<strong>Profil d&#039;import</strong>  Electre, Erasmus et Decitre : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>ne rédiger que si on a la même configuration à Condorcet</span>
+</p>
+
+<p>
+<strong>Profil d&#039;import Marc21</strong>  : exemple de notices issues de la Library of Congress (LoC) : principes généraux
+</p>
+
+<p>
+A des fins de test et de formation, un profil d&#039;import “Marc21” minimal a été configuré par le <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>SICD</span>. C&#039;est le profil décrit ici sous l&#039;intitulé “Marc21 TEST procédures” et configuré <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>comme le profil Electre à l&#039;exception des particularités suivantes</span> :
+</p>
+<ul>
+<li class="level1"><div class="li"> le format de la source attendu pour l&#039;import de notices est en Marc21 (converti en Unimarc dans Alma)</div>
+</li>
+<li class="level1"><div class="li"> le nombre d&#039;exemplaires commandés n&#039;est pas importé dans Alma</div>
+</li>
+<li class="level1"><div class="li"> le prix n&#039;est pas importé dans la ligne de commande.</div>
+</li>
+</ul>
+
+<p>
+Dans la liste des profils d&#039;import, ce profil “Marc21 TEST procédures” permet d&#039;importer les notices selon les modalités décrites. Il peut être utilisé pour tous les catalogues et toutes les plateformes permettant l&#039;export de notices en UTF-8 et en Marc21.
+</p>
+
+<p>
+Pour exporter les notices depuis la LoC, voici la marche à suivre.
+</p>
+
+<p>
+Faites une recherche en interrrogeant le catalogue : <a href="https://catalog.loc.gov/vwebv/searchBrowse" class="urlextern" title="https://catalog.loc.gov/vwebv/searchBrowse" rel="nofollow">https://catalog.loc.gov/vwebv/searchBrowse</a>
+</p>
+
+<p>
+S&#039;il n&#039;y a qu&#039;un seul résultat, la notice s&#039;affiche au format public. Cliquez sur le bouton “Save record”, gardez l&#039;encodage par défaut UTF-8 et cliquez sur le bouton “Save”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Enregistrez le ficher sur le bureau après avoir créé un dossier que vous aurez nommé, par exemple, “Panier LoC”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Nommez le fichier de chaque notice importée, par exemple record_01, record_02, etc.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+S&#039;il y a plusieurs résultats, vous obtenez une liste. Il est possible d&#039;importer plusieurs notices en même temps. Cochez les notices à importer puis cliquez sur le bouton “Save”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Puis procédez aux étapes suivantes comme nous venons de le décrire pour enregistrer les notices sur votre bureau.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+<strong>Adaptation des profils d&#039;import <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>à votre contexte en bibliothèque</span></strong>
+</p>
+
+<p>
+Des profils d&#039;import adaptés <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>à vos bibliothèques</span> ont été créés dans Alma. Ils peuvent encore être affinés (par exemple, par l&#039;ajout du compte fournisseur et des initiales de l&#039;acquéreur) et des nouveaux profils peuvent être ajoutés. Les administrateurs système sont habilités à procéder à ces mises à jour ou créations.
+</p>
+
+<p>
+<strong>Précautions à prendre dans l&#039;utilisation d&#039;un profil d&#039;import depuis une plateforme payante</strong>
+</p>
+
+<p>
+Si vous souhaitez réduire le nombre de notices dans un panier, il est recommandé, avant de le constituer, de vérifier l&#039;existence des notices dans Alma. Si les notices sont déjà présentes dans la base, la commande peut être effectuée directement depuis celle-ci.
+</p>
+
+<p>
+Cette recherche préalable permet de limiter le nombre de notices utilisées, les conditions d&#039;abonnement aux plateformes payantes prévoyant souvent un nombre limité de notices à utiliser dans l&#039;année.
+</p>
+
+</div>
+
+<h5 id="acceder_a_la_fonction_d_import">Accéder à la fonction d’import</h5>
+<div class="level5">
+
+<p>
+Cliquez sur le menu <code>Acquisitions</code>  puis sur la sous-section<code> Importer</code>  (section <code>Importer</code>).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Choisissez le profil, par exemple “Electre TEST procédures” parmi tous les profils créés pour l&#039;ensemble du réseau.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+NB : en phase courante, vous choisirez ici le ou l&#039;un des profils de votre établissement. Pour retrouver facilement le profil qui vous concerne, vous pouvez utiliser la barre de recherche et rechercher par le nom du profil en saisissant, par exemple, le nom <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>de votre bibliothèque</span>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="lancer_l_import_des_donnees">Lancer l’import des données</h5>
+<div class="level5">
+
+<p>
+Sur la ligne correspondant au profil choisi, cliquez sur le boutont-action puis sur <code>Exécuter</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur <code>Sélectionner le fichier</code>  pour accéder au fichier des notices exportées depuis Electre et enregistré sur votre bureau, par exemple
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Sélectionnez le fichier
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur le bouton <code>Soumettre</code>  pour lancer le processus d&#039;import de données.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+L&#039;avancement du processus est visible dans la colonne <code>Fichiers traités</code>  : le % et la barre de téléchargement augmentent au fur et à mesure de l&#039;avancée du traitement.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur <code>Rafraîchir</code>  pour mettre à jour la page et visualiser la fin du traitement. Quand la barre de téléchargement est verte et que le compteur indique 100%, alors le traitement est terminé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="resoudre_les_problemes_d_import">Résoudre les problèmes d’import</h5>
+<div class="level5">
+
+<p>
+Si un traitement ne s&#039;effectue pas correctement, le statut “Traitement manuel requis” apparaît.
+</p>
+
+<p>
+Cliquez sur <code>Traitement manuel requis</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La page “Résoudre les erreurs de validation” s&#039;affiche. Cliquez sur le bouton-action puis sur <code>Modifier</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La liste des erreurs s&#039;affiche. Cliquez sur le bouton-action puis sur <code>Voir les erreurs</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le détail des erreurs s&#039;affiche (ici, la notice n&#039;a pas de titre). Cliquez sur <code>Ne pas importer</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La page <code>Résoudre les erreurs de validation</code>  est désormais vide. Cliquez sur le boutont <code>Retour</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le reste du ficher est maintenant importé. Le traitement s&#039;est bien déroulé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="visualiser_le_rapport_de_traitement">Visualiser le rapport de traitement</h5>
+<div class="level5">
+
+<p>
+Si vous souhaitez visualiser le rapport détaillé du traitement, cliquez sur le bouton-action <code>Rapport</code>  pour avoir accès au rapport détaillé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le rapport détaillé indique que l&#039;import s&#039;est bien déroulé et qu&#039;il n&#039;y a pas eu de problème technique.
+</p>
+
+<p>
+Dans la section <code>Compteurs</code>, le total des enregistrements traités est égal au total des enregistrements importés, ce qui signifie qu&#039;aucune notice n&#039;a été rejetée.
+</p>
+
+<p>
+Le rapport de traitement indique également le nombre total d&#039;exemplaires créés pour l&#039;ensemble des lignes de commande, il doit être égal à la quantité d&#039;exemplaires indiquée dans Electre (pour Erasmus et Decitre, le nombre d&#039;exemplaires n&#039;est pas importé).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le même rapport est envoyé sous forme de notification par mail à l&#039;agent qui a procédé à l&#039;import de données.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Dans la section <code>Notices bibliographiques correspondantes</code>, vous pouvez voir combien de notices existaient dans la base (“matches found”). Les lignes de commande ont été créées à partir de ces notices.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour revenir à la page précédente, cliquez sur la flèche retour.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="visualiser_et_modifier_les_lignes_de_commande_creees">Visualiser et modifier les lignes de commande créées</h5>
+<div class="level5">
+
+<p>
+Cliquez sur le bouton-action <code>Lignes de commande importées</code>  pour visualiser les lignes de commande crées par l&#039;import Electre.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Dans la liste de résultats, on voit sur chaque ligne de commande les informations saisies par défaut dans le profil d&#039;import :
+</p>
+<ul>
+<li class="level1"><div class="li"> le type d&#039;achat “Livre imprimé - achat ponctuel”</div>
+</li>
+<li class="level1"><div class="li"> le propriétaire de la ligne de commande “<span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>Campus Condorcet</span>”</div>
+</li>
+<li class="level1"><div class="li"> la localisation de ce futur exemplaire “<span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>Campus Condorcet - UNASSIGNED location</span>”</div>
+</li>
+<li class="level1"><div class="li"> le prix total de la ligne</div>
+</li>
+</ul>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les lignes de commande sont en statut “in review” (“en révision”) car plusieurs informations sont manquantes, notamment :
+</p>
+<ul>
+<li class="level1"><div class="li"> le fournisseur</div>
+</li>
+<li class="level1"><div class="li"> le compte budgétaire à imputer</div>
+</li>
+<li class="level1"><div class="li"> le code statistique</div>
+</li>
+</ul>
+
+<p>
+D&#039;autres informations peuvent être mises à jour si nécessaire, comme par exemple le type de matériel de l&#039;exemplaire.
+</p>
+
+<p>
+Pour mettre à jour les lignes de commande à partir de ce niveau, il faut cliquer sur le bouton “Aller à la liste des tâches”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Toutes les lignes de commande créées par import Electre peuvent aussi être retrouvées à partir du menu <code>Acquisitions</code>, depuis la fonction <code>Réviser</code>  de la section <code>Lignes de commande</code>. Par défaut, elles se trouvent derrière l&#039;onglet “Non attribué”, c&#039;est-à-dire qu&#039;elles ne sont associées à aucun acquéreur.
+</p>
+
+<p>
+Pour n&#039;afficher que les lignes de commande relatives à cet import, il est possible d&#039;utiliser la barre de recherche et l&#039;index “identifiant du traitement d&#039;import”. Cet identifiant peut se retrouver depuis le menu <code>Acquisitions &gt; Importer &gt; Suivre et visualiser les imports</code>, dans la première colonne “Identifiant de traitement”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Il suffit alors de le copier-coller dans la barre de recherche (à partir du menu <code>Acquisitions</code>, depuis la fonction “réviser” de la section <code>Lignes de commande</code>), pour accéder à la liste des lignes de commande issues de l&#039;import Electre et à réviser.
+</p>
+
+</div>
+
+<h5 id="retrouver_les_imports_de_donnees_deja_effectues">Retrouver les imports de données déjà effectués</h5>
+<div class="level5">
+
+<p>
+A tout moment, il est possible de retrouver les derniers imports effectués. Pour cela, allez dans le menu <code>Acquisitions</code>  et cliquez sur <code>Importer</code>  dans la section <code>Suivre et visualiser les imports</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour retrouver l&#039;import qui vous concerne, utilisez les options de tri :
+</p>
+<ul>
+<li class="level1"><div class="li"> nom du profil (ici, “Electre TEST procédures”)</div>
+</li>
+<li class="level1"><div class="li"> nom de l&#039;utilisateur (celui qui a procédé à l&#039;import de données)</div>
+</li>
+</ul>
+
+<p>
+Il faut ensuite cliquer sur le bouton-action <code>Lignes de commande importées</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h4 id="creer_une_notice_succincte">Créer une notice succincte</h4>
+<div class="level4">
+
+</div>
+
+<h5 id="fonctionnement_general2">Fonctionnement général</h5>
+<div class="level5">
+
+<p>
+Si vous n&#039;avez pas trouvé le titre que vous souhaitez commander dans les catalogues extérieurs interrogeables depuis Alma ou dans la base Electre, vous avez la possibilité de créer une notice directement dans le catalogue, selon deux méthodes.
+</p>
+
+<p>
+La première méthode se base sur un formulaire de catalogage rapide. Elle prévoit la création automatique d&#039;une notice de holding et d&#039;un exemplaire, tous deux rattachés à la notice bibliographiques créée. La notice de holding pourra être conservée mais l&#039;exemplaire devra être supprimé avant d&#039;effectuer la commande. En effet, la création de la ligne de commande entraîne aussi la création d&#039;un exemlpaire, rendant inutile le premier.
+</p>
+
+<p>
+La seconde méthode se base sur un modèle de notice succincte proposée dans l&#039;éditeur de métadonnées. Elle est à utiliser par ceux qui se sentent à l&#039;aise avec l&#039;interface de catalogage. Une fois la notice créée, la commande pourra directement se faire depuis l&#039;éditeur de métadonnées.
+</p>
+
+</div>
+
+<h5 id="creer_une_notice_bibliographique_ex_nihilo_depuis_la_fonction_d_ajout_d_un_exemplaire_physique_catalogage_rapide">Créer une notice bibliographique ex nihilo depuis la fonction d’ajout d’un exemplaire physique (catalogage rapide)</h5>
+<div class="level5">
+
+<p>
+Créer la notice bibliographique
+</p>
+
+<p>
+Depuis le menu <code>Ressources</code>, sélectionnez <code>Ajouter un exemplaire physique</code>  dans la section <code>Créer l&#039;inventaire</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Afin de créer une nouvelle notice dans le catalogue, sélectionnez le critère “Nouveau” comme type de holding et “Livre” comme type de référence :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Validez l&#039;opération en cliquant sur <code>Choisir</code>. Un formulaire s&#039;ouvre et permet la saisie des champs décrivant la ressource.
+</p>
+
+<p>
+A ce stade, il faut renseigner tous les champs utiles à la commande (titre, auteur, ISBN, date de publication, éditeur), même si seule la saisie du champ “Titre” est rendue obligatoire par le système (astérisque rouge).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Renseignez ensuite la localisation du document en choisissant celle d&#039;acquisition. Comme l&#039;exemplaire créé à ce stade sera supprimé ultérieurement, il n&#039;est pas nécessaire de sélectionner la localisation définitive. Ici par exemple, on utilise une localisation de type “Unassigned” dans la mesure où la bibliothèque ne dispose pas de localisation d&#039;acquisition.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Finissez l&#039;opération en cliquant sur <code>Enregistrer</code>. Une notice bibliographique est créée, ainsi qu&#039;une notice de holding et un exemplaires liés à la localisation choisie précédemment.
+</p>
+
+<p>
+NB : le formulaire de création des ajouts rapides (ou catalogage rapide) est disponible également depuis la fonction <code>Services aux usagers</code>. Il est identique au formulaire présenté ici. La création d&#039;ajouts rapides depuis la banque de prêt est décrite dans le support de formation “Services aux usagers”.
+</p>
+
+<p>
+Supprimer l&#039;exemplaire fictif créé précédemment.
+</p>
+
+<p>
+Avant de procéder à la commande, il convient de supprimer l&#039;exemplaire fictif qui vient d&#039;être créé mais de conserver la notice de holding existante. Comme indiqué plus haut, un nouvel exemplaire sera créé lors de l&#039;enregistrement de la ligne de commande : cet exemplaire est donc inutile et créerait un doublon.
+</p>
+
+<p>
+Pour pouvoir le supprimer, recherchez la notice en utilisant le critère de pré-recherche “Titres physiques” et l&#039;index “Titre” ou “ISBN” par exemple. A partir de la liste de résultats obtenus, cliquez sur le bouton-action puis sur <code>Exemplaires</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une fois sur la liste des exemplaires, cliquez sur el bouton-action puis sur <code>Supprimer</code>. Notez qu&#039;il ne doit y avoir, en théorie, qu&#039;un seul exemplaire : celui qui vient d&#039;être créé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Un message de confirmation s&#039;affiche. Il faut répondre <code>Confirmer</code>  pour que l&#039;exemplaire soit supprimé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Un autre message s&#039;affiche, il indique la suppression effective de l&#039;exemplaire et demande si la notice de holding doit être supprimée ou pas. Il faut laisser coché <code>Ne pas modifier la notice holding</code>  (NB : “Notice de fonds” et “Notice de holding” sont synonymes).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Un dernier message confirme la suppression de l&#039;exemplaire.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La notice peut désormais servir de base à la création d&#039;une ligne de commande. Cette création peut se faire depuis l&#039;éditeur de métadonnées ou depuis une liste de résultats en recherchant la notice créée dans Alma.
+</p>
+
+<p>
+Pour accéder à l&#039;éditeur de métadonnées, cliquez sur le titre de la notice.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez ensuite sur le bouton <code>Editer</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+A partir de l&#039;éditeur de métadonnées, cliquez sur le chariot.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour la créer depuis une liste de résultats issus d&#039;une recherche, il faut chercher la notice qui vient d&#039;être créée dans Alma et utiliser le bouton-action puis <code>Commande</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="creer_une_notice_bibliographique_ex_nihilo_depuis_un_modele_dans_l_editeur_de_metadonnees">Créer une notice bibliographique ex nihilo depuis un modèle dans l’éditeur de métadonnées</h5>
+<div class="level5">
+
+<p>
+Depuis le menu <code>Ressources</code>, sélectionnez <code>Ouvrir l&#039;éditeur de métadonnées</code>  dans la section <code>Catalogage</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur le menu <code>Modèles</code>  situé à gauche de l&#039;écran.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Déployez le menu et selectionnez le modèle “Notice brève” contenu dans le dossier <code>Unimarc Bibliographic</code>  (sous-dossier “partagé”). Cliquez ensuite sur <code>Nouveau</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Complétez les différents champs de la notice succincte.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Procédez ensuite à la création de la ligne de commande à partir de l&#039;icône chariot.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>

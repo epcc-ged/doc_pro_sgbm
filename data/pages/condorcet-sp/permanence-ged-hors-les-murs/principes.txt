@@ -6,11 +6,11 @@
 
 ====== Horaires ======
 
-<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil sont prévues du lundi au vendredi de 9 h à 17 h. Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences, seuls ou aux côtés d’un collègue de l’EHESP. Les uns comme les autres peuvent répondre aux questions des publics des deux institutions.</font>
+<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil sont prévues du lundi au vendredi de 9 h à 17 h. Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences, seuls ou aux côtés d’une collègue de l’EHESP. Les uns comme les autres peuvent répondre aux questions des publics des deux institutions.</font>
 
 <font 11pt/inherit;;inherit;;inherit>L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, etc.)</font>
 
-<font 11pt/inherit;;inherit;;inherit>Au moment de la fermeture, l'agent s'assure que tous les lecteurs sont partis, avant de fermer à clé et de quitter les lieux.</font>
+<font 11pt/inherit;;inherit;;inherit>À 17 heures, si la fin de la permanence d'accueil correspond à la fermeture de la salle de lecture, l'agent s'assure que tous les lecteurs sont partis, avant de fermer à clé et de quitter les lieux.</font>
 
 ====== Attitudes ======
 

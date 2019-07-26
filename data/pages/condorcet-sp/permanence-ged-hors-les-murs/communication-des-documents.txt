@@ -14,10 +14,12 @@ Pendant le GED hors les murs, sont exclus de la communication, les documents :
   * conservés sur palettes (voir déménageurs ?)
   * de format exceptionnel (préciser)
   * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD)
-  * des bibliothèques qui ne démégement pas dans la phase 1 (liste)
+  * des bibliothèques qui ne déménagement pas dans la phase 1 (liste)
+
+Les documents cotés réserve ou manifestement trop fragiles pour être prêtés sont consultables dans la salle de lecture, éventuellement sur les tables de consultation des archives.
 
 ===== Que faire si : =====
 
-  * un document qui a été réservé n'est pas communiqué ? Quelque soit la raison (ouvrage non trouvé, en trop mauvais état...) le GED (MH QUI ?) apporte une réponse au lecteur dans Alma. L'agent de permanence peut s'y référer ou, en l'absence de celle-ci, le signaler (MH à qui ?).
+  * un document qui a été réservé n'est pas communiqué ? Quelque soit la raison (ouvrage non trouvé, en trop mauvais état…) le GED (MH QUI ?) apporte une réponse au lecteur dans Alma. L'agent de permanence peut s'y référer ou, en l'absence de celle-ci, le signaler (MH à qui ?).
   * un lecteur demande un ouvrage déjà emprunté et ne peut pas attendre le délai de rappel ? L'agent de permanence peut prendre l'initiative de contacter le lecteur emprunteur pour expliquer la situation.
 

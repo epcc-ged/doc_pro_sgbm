@@ -1,22 +1,41 @@
-a:6:{s:2:"id";s:67:"condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives";s:6:"prefix";b:0;s:4:"text";s:2338:"<h1>Consultation des archives</h1>
+a:6:{s:2:"id";s:67:"condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives";s:6:"prefix";b:0;s:4:"text";s:4387:"<h1>Consultation des archives</h1>
 
 <div class="level1">
-<p><span style="font-size:11pt">[Au pr&eacute;alable, instruction en interne de la demande de communication des archives inventori&eacute;es dans Calames ou ayant fait l&#39;objet d&#39;un r&eacute;colement permmettant]</span></p>
+<p><span style="font-size:11pt">Sont communiquables pendant la p&eacute;riode du GED hors les murs les archives inventori&eacute;es dans Calames ou ayant fait l&#39;objet d&#39;un r&eacute;colement valant pr&eacute;-inventaire, d&eacute;m&eacute;nag&eacute;es au CTLes et qui ne sont pas stock&eacute;es sur palettes.</span></p>
 
-<p>Avant communication, le biblioth&eacute;caire v&eacute;rifie le contenu &agrave; l&rsquo;aide de l&rsquo;inventaire (est-ce que cette op&eacute;ration est faite avant, en interne ou en pr&eacute;sence du lecteur ?), retire &eacute;ventuellement les documents non communicables. Il v&eacute;rifie l&rsquo;identit&eacute; du lecteur (carte d&rsquo;identit&eacute; - uniquement ? autres pi&egrave;ces possibles ?) et remplit le registre des consultations (nom, pr&eacute;nom, adresse, fonds consult&eacute;s, date, etc.) possible de d&eacute;mat&eacute;rialiser le registre ?</p>
+<p><span style="font-size:11pt">La demande de consultation se fait via le formulaire d&eacute;di&eacute; sur le site du Campus Condorcet.</span></p>
 
-<p>Il explique les r&egrave;gles de consultation et s&rsquo;assure que celles-ci sont respect&eacute;es. Les archives sont communiqu&eacute;es sur la premi&egrave;re table &agrave; proximit&eacute; du bureau.</p>
+<p><span style="font-size:11pt">Elle fait l&#39;objet d&#39;une instruction en interne : le personnel v&eacute;rifie sur le listing des archives s&#39;il existe un pr&eacute;-inventaire, le lieu (CTLes ou service versant) et les conditions de stockage (tablettes ou palettes) et dans Calames des modalit&eacute;s de communication et de reproduction. Dans certains cas, l&#39;autorisation des ayants-droit doit &ecirc;tre demand&eacute;e.</span></p>
+
+<p><span style="font-size:11pt">Une fois, la demande instruite, un rendez-vous est fix&eacute; avec le lecteur (en tenant compte notamment de la disponibilit&eacute; des places r&eacute;serv&eacute;es &agrave; la consultation des archives) et le fonds est achemin&eacute; depuis le CTLes.</span></p>
+
+<p>Avant communication en salle de lecture, le personnel du GED v&eacute;rifie que le contenu correspond bien au contenant, &agrave; l&rsquo;aide de l&rsquo;inventaire il retire &eacute;ventuellement les documents non-communicables.</p>
+
+<p>Dans la salle de lecture, le personnel du GED v&eacute;rifie l&rsquo;identit&eacute; du lecteur en demandant une pi&egrave;ce d&#39;identit&eacute; comportant une photographie, il remplit le registre des consultations (lien vers le fichier excel).</p>
+
+<p>Il explique les r&egrave;gles de consultation et s&rsquo;assure que celles-ci sont respect&eacute;es.</p>
 
 <ul>
-	<li class="level1"><span style="font-size:11pt">Mat&eacute;riel autoris&eacute; : crayon &agrave; papier, ordinateur, feuilles volantes, mais les chemises o&ugrave; un document pourrait &ecirc;tre gliss&eacute; ne le sont pas,</span></li>
-	<li class="level1"><span style="font-size:11pt">Mise &agrave; l&rsquo;&eacute;cart des effets personnels.</span></li>
-	<li class="level1"><span style="font-size:11pt">Communication d&rsquo;une seule bo&icirc;te &agrave; la fois.</span></li>
-	<li class="level1"><span style="font-size:11pt">Un minimum de 10 bo&icirc;tes par jour et par lecteur est envisag&eacute;. maximum ?</span></li>
+	<li class="level1">Les archives sont communiqu&eacute;es sur la premi&egrave;re table &agrave; proximit&eacute; du bureau de renseignement,</li>
+	<li class="level1"><span style="font-size:11pt">Mat&eacute;riel autoris&eacute; : crayon &agrave; papier, ordinateur, feuilles volantes ; les chemises o&ugrave; un document pourrait &ecirc;tre gliss&eacute; ne sont pas accept&eacute;es,</span></li>
+	<li class="level1"><span style="font-size:11pt">Mise &agrave; l&rsquo;&eacute;cart des effets personnels,</span></li>
+	<li class="level1"><span style="font-size:11pt">Communication d&rsquo;une seule entit&eacute; &agrave; la fois (bo&icirc;te ou carton),</span></li>
+	<li class="level1"><span style="font-size:11pt">Un bulletin de communication est rempli pour chaque entit&eacute; communiqu&eacute;e,</span></li>
 	<li class="level1"><span style="font-size:11pt">Photographie autoris&eacute;e sauf mention contraire.</span></li>
 </ul>
 
-<p><span style="font-size:11pt">&Agrave; la fin de la consultation, le biblioth&eacute;caire v&eacute;rifie l&rsquo;int&eacute;grit&eacute; du fonds. Selon les cas, le fonds est r&eacute;achemin&eacute; au CTLES ou mis de c&ocirc;t&eacute; pour une consultation ult&eacute;rieure.</span></p>
+<p><span style="font-size:11pt">&Agrave; la fin de la consultation, le personnel du GED v&eacute;rifie l&rsquo;int&eacute;grit&eacute; du fonds. Selon les cas, le fonds est r&eacute;achemin&eacute; au CTLES ou mis de c&ocirc;t&eacute; pour une consultation ult&eacute;rieure.</span></p>
 
-<p><span style="font-size:11pt">D&#39;autres documents peuvent-ils &ecirc;tre communiqu&eacute;s dans les m&ecirc;mes conditions ? Les documents cot&eacute;s r&eacute;eserve ? Les diapo ?</span></p>
+<p><span style="font-size:11pt">Chaque jour, le personnel du GED compile les bulletins de communication. Ils sont ensuite enregistr&eacute;s dans le fichier excel.</span></p>
+
+<p><span style="font-size:11pt">&Agrave; noter : les coll&egrave;gues de l&#39;EHESP ne prennent pas en charge la communication des archives.</span></p>
 </div>
-";s:6:"suffix";s:0:"";s:4:"date";i:1559825780;s:6:"client";s:7:"mhgatto";}
+
+<h2>Qu&#39;est-ce que la communication au service versant pendant le GED hors les murs ?</h2>
+
+<div class="level2">
+<p><span style="font-size:11pt">Au moment de leur d&eacute;m&eacute;nagement sur le campus, certaines &eacute;quipes d&eacute;j&agrave; engag&eacute;es dans un projet de recherche ont demand&eacute; &agrave; avoir un acc&egrave;s large aux archives sur lesquelles elles travaillent. Un accord pr&eacute;voit que, pour le temps du projet, les archives sont plac&eacute;es sous la responsabilit&eacute; du directeur ou de la directice du laboratoire ou de l&#39;unit&eacute; de recherche. Elles doivent r&eacute;int&eacute;grer les collections du GED d&egrave;s la fin du projet et avant le d&eacute;management d&eacute;finitif.</span></p>
+
+<p><span style="font-size:11pt">Liste des unit&eacute;s de recherche ou de laboratoire b&eacute;n&eacute;ficiant de la communication au service versant (lien)</span></p>
+</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1563372797;s:6:"client";s:7:"mhgatto";}

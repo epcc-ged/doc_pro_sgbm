@@ -1,20 +1,35 @@
 ====== Consultation des archives ======
 
-<font 11pt/inherit;;inherit;;inherit>[Au préalable, instruction en interne de la demande]</font>
+<font 11pt/inherit;;inherit;;inherit>Sont communiquables pendant la période du GED hors les murs les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes.</font>
 
-<font 11pt/inherit;;inherit;;inherit>Sont communiquées les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire.</font>
+<font 11pt/inherit;;inherit;;inherit>La demande de consultation se fait via le formulaire dédié sur le site du Campus Condorcet.</font>
 
-Avant communication, le bibliothécaire vérifie le contenu à l’aide de l’inventaire (est-ce que cette opération est faite avant, en interne ou en présence du lecteur ?), retire éventuellement les documents non communicables. Il vérifie l’identité du lecteur (carte d’identité - uniquement ? autres pièces possibles ?) et remplit le registre des consultations (nom, prénom, adresse, fonds consultés, date, etc.) possible de dématérialiser le registre ?
+<font 11pt/inherit;;inherit;;inherit>Elle fait l'objet d'une instruction en interne : le personnel vérifie sur le listing des archives s'il existe un pré-inventaire, le lieu (CTLes ou service versant) et les conditions de stockage (tablettes ou palettes) et dans Calames des modalités de communication et de reproduction. Dans certains cas, l'autorisation des ayants-droit doit être demandée.</font>
 
-Il explique les règles de consultation et s’assure que celles-ci sont respectées. Les archives sont communiquées sur la première table à proximité du bureau.
+<font 11pt/inherit;;inherit;;inherit>Une fois, la demande instruite, un rendez-vous est fixé avec le lecteur (en tenant compte notamment de la disponibilité des places réservées à la consultation des archives) et le fonds est acheminé depuis le CTLes.</font>
 
-  * <font 11pt/inherit;;inherit;;inherit>Matériel autorisé : crayon à papier, ordinateur, feuilles volantes, mais les chemises où un document pourrait être glissé ne le sont pas,</font>
-  * <font 11pt/inherit;;inherit;;inherit>Mise à l’écart des effets personnels.</font>
-  * <font 11pt/inherit;;inherit;;inherit>Communication d’une seule boîte à la fois.</font>
-  * <font 11pt/inherit;;inherit;;inherit>Un minimum de 10 boîtes par jour et par lecteur est envisagé. maximum ?</font>
+Avant communication en salle de lecture, le personnel du GED vérifie que le contenu correspond bien au contenant, à l’aide de l’inventaire il retire éventuellement les documents non-communicables.
+
+Dans la salle de lecture, le personnel du GED vérifie l’identité du lecteur en demandant une pièce d'identité comportant une photographie, il remplit le registre des consultations (lien vers le fichier excel).
+
+Il explique les règles de consultation et s’assure que celles-ci sont respectées.
+
+  * Les archives sont communiquées sur la première table à proximité du bureau de renseignement,
+  * <font 11pt/inherit;;inherit;;inherit>Matériel autorisé : crayon à papier, ordinateur, feuilles volantes ; les chemises où un document pourrait être glissé ne sont pas acceptées,</font>
+  * <font 11pt/inherit;;inherit;;inherit>Mise à l’écart des effets personnels,</font>
+  * <font 11pt/inherit;;inherit;;inherit>Communication d’une seule entité à la fois (boîte ou carton),</font>
+  * <font 11pt/inherit;;inherit;;inherit>Un bulletin de communication est rempli pour chaque entité communiquée,</font>
   * <font 11pt/inherit;;inherit;;inherit>Photographie autorisée sauf mention contraire.</font>
 
-<font 11pt/inherit;;inherit;;inherit>À la fin de la consultation, le bibliothécaire vérifie l’intégrité du fonds. Selon les cas, le fonds est réacheminé au CTLES ou mis de côté pour une consultation ultérieure.</font>
+<font 11pt/inherit;;inherit;;inherit>À la fin de la consultation, le personnel du GED vérifie l’intégrité du fonds. Selon les cas, le fonds est réacheminé au CTLES ou mis de côté pour une consultation ultérieure.</font>
 
-<font 11pt/inherit;;inherit;;inherit>D'autres documents peuvent-ils être communiqués dans les mêmes conditions ? Les documents cotés réeserve ? Les diapo ?</font>
+<font 11pt/inherit;;inherit;;inherit>Chaque jour, le personnel du GED compile les bulletins de communication. Ils sont ensuite enregistrés dans le registre des consultations (fichier excel).</font>
+
+<font 11pt/inherit;;inherit;;inherit>À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.</font>
+
+===== Qu'est-ce que la communication au service versant pendant le GED hors les murs ? =====
+
+<font 11pt/inherit;;inherit;;inherit>Au moment de leur déménagement sur le campus, certaines équipes déjà engagées dans un projet de recherche ont demandé à avoir un accès large aux archives sur lesquelles elles travaillent. Un accord prévoit que, pour le temps du projet, les archives sont placées sous la responsabilité du directeur ou de la directice du laboratoire ou de l'unité de recherche. Elles doivent réintégrer les collections du GED dès la fin du projet et avant le démanagement définitif.</font>
+
+<font 11pt/inherit;;inherit;;inherit>Liste des unités de recherche ou de laboratoire bénéficiant de la communication au service versant (lien)</font>
 

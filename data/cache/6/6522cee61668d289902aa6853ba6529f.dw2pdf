@@ -1,0 +1,182 @@
+<a name="condorcetcirculationpreter-des-documents__"></a>
+<h2><bookmark content="CIRCULATION : PRETER DES DOCUMENTS" level="1" /><a name="condorcetcirculationpreter-des-documents__circulationpreter_des_documents">CIRCULATION : PRETER DES DOCUMENTS</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Appeler un compte lecteur" level="2" /><a name="condorcetcirculationpreter-des-documents__appeler_un_compte_lecteur">Appeler un compte lecteur</a></h3>
+<div class="level3">
+
+<p>
+Tout prêt doit être fait à partir d&#039;un <em>bureau de prêt</em>. Il peut être choisi / modifié au moment de la connexion, ou après la connexion à gauche des <strong><em>icônes du Menu principal</em></strong>  dans le <strong><em>menu permanent</em></strong>  , par exemple : <code>GED - Circulation</code>
+</p>
+
+<p>
+Le prêt est accessible via le menu <strong><em>Services aux usagers &gt; prêts/retours &gt; services aux usagers</em> </strong>
+</p>
+
+<p>
+L’écran <em><strong>Identification Lecteur</strong></em>  permet d&#039;appeler le dossier usager :
+</p>
+<ul>
+<li class="level1"><div class="li"> par l&#039;<em>identifiant de l&#039;usager</em>, qui peut être scanné ou tapé dans la boite de recherche</div>
+</li>
+<li class="level1"><div class="li"> par son <em>nom</em>: Alma propose une auto-complétion de votre recherche</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Enregistrer un prêt" level="2" /><a name="condorcetcirculationpreter-des-documents__enregistrer_un_pret">Enregistrer un prêt</a></h3>
+<div class="level3">
+
+<p>
+Le prêt s&#039;effectue depuis le dossier usager tel que présenté ci-dessus.
+</p>
+
+<p>
+Dans cet écran, il faut d&#039;abord identifier l&#039;exemplaire du titre à prêter. Pour cela, on dispose une zone de saisie du code-barre que l&#039;on peut renseigner ainsi :
+</p>
+<ul>
+<li class="level1"><div class="li"> on peut scanner le <em>code-barre</em>  de l&#039;exemplaire</div>
+</li>
+<li class="level1"><div class="li"> ou on peut saisir manuellement ce même code-barre</div>
+</li>
+<li class="level1"><div class="li"> ou, si l&#039;on ne dispose pas du code-barre, ouvrir la fenêtre de recherche associé au champ de saisie du code-barre et ainsi retrouver l&#039;exemplaire par la recherche (par exemple sur la base du titre). Cette recherche renvoie le code-barre dans le champ de saisie. La recherche est accessible par le bouton <img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:bouton-details.png" class="media" title="bouton détails" alt="bouton détails" />.</div>
+</li>
+</ul>
+
+<p>
+Le code-barre scanné, tapé ou retrouvé par la recherche, il faut cliquer sur le bouton <code>OK</code>  associé au champ de saisie du code-barre.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-scanner-code-barre-exemplaire.jpg" class="media" title="circulation-scanner-code-barre-exemplaire.jpg" alt="circulation-scanner-code-barre-exemplaire.jpg" />
+</p>
+
+<p>
+Dès que le bouton <code>OK</code>  a été pressé, un nouvel exemplaire prêté apparaît dans la liste des prêts associés au lecteur située sous la zone de saisie du code-barre.
+</p>
+
+<p>
+Dans la liste des prêts, plusieurs informations sont indiquées, notamment :
+</p>
+<ul>
+<li class="level1"><div class="li"> La <code>date de retour</code>  qui indique quand l&#039;exemplaire doit être restitué par le lecteur. Si le prêt de l&#039;exemplaire a été renouvelé, la date de retour initiale est écrasée dans cette colonne par la nouvelle date de retour.</div>
+</li>
+<li class="level1"><div class="li"> La valeur de l<code>&#039;amende</code>  éventuellement attachée au prêt</div>
+</li>
+<li class="level1"><div class="li"> La <code>date du prêt</code>: c&#039;est la date du jour où le prêt a été fait pour la première fois.</div>
+</li>
+<li class="level1"><div class="li"> Le <code>statut du prêt</code>: au moment du prêt initial, ce statut vaut <code>Normal</code>. Après un renouvellement, il vaut <code>Renouvelé</code>.</div>
+</li>
+<li class="level1"><div class="li"> La <code>bibliothèque</code>: c&#039;est la bibliothèque où ce prêt a été réalisé.</div>
+</li>
+</ul>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-liste-prets.jpg" class="media" title="circulation-liste-prets.jpg" alt="circulation-liste-prets.jpg" />
+</p>
+
+<p>
+On peut utiliser le menu <strong><code>···</code>  </strong>sur la ligne du prêt pour effectuer diverses actions sur ce prêt, notamment pour l&#039;annuler s&#039;il y a eu une erreur (auquel cas, il faut cliquer sur <code>Supprimer le prêt</code>dans ce menu ; dans ce cas l&#039;exemplaire est immédiatement considéré comme “en rayon”) ou modifier la date de retour.
+</p>
+
+<p>
+Vous pouvez scanner différents exemplaires pour prêt sans avoir à revenir à cet écran, mais il faut effectuer l&#039;opération successivement (on scanne un code-barre, on clique sur OK et on recommence avec le code-barre suivant).
+</p>
+
+</div>
+
+<h3><bookmark content="Afficher tous les prêts en cours d’un usager" level="2" /><a name="condorcetcirculationpreter-des-documents__afficher_tous_les_prets_en_cours_d_un_usager">Afficher tous les prêts en cours d’un usager</a></h3>
+<div class="level3">
+
+<p>
+Dans l&#039;écran de dossier usager, on peut voir les prêts que celui-ci a à son actif.
+</p>
+
+<p>
+Au-dessus de la liste des prêts, le filtre <code>Affichage de prêt</code>  permet d&#039;afficher soit <code>tous les prêts</code>  associés à cet usager soit les <code>prêts de cette session</code>.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-filtre-tous-les-prets.jpg" class="media" title="circulation-filtre-tous-les-prets.jpg" alt="circulation-filtre-tous-les-prets.jpg" />
+</p>
+
+<p>
+Dans le premier cas, <code>tous les prêts</code>, la liste affiche l&#039;ensemble des prêts en cours pour cet usager.
+</p>
+
+<p>
+Dans le second cas, <code>prêts de cette session</code>, la liste n&#039;affiche que les prêts qui ont été faits pour cet usager dans la présente session de connexion de l&#039;utilisateur professionnel qui est en train de visualiser le dossier du lecteur.
+</p>
+
+</div>
+
+<h3><bookmark content="Vider la fenêtre" level="2" /><a name="condorcetcirculationpreter-des-documents__vider_la_fenetre">Vider la fenêtre</a></h3>
+<div class="level3">
+
+<p>
+Cliquer sur le bouton <code>Effectué</code>  en haut à gauche de l&#039;écran quand vous avez terminé vos opérations sur cet écran pour retourner à l&#039;écran d&#039;identification des lecteurs.
+</p>
+
+<p>
+Attention : il n&#039;est pas nécessaire de cliquer sur ce bouton pour valider les opérations sur les prêts que vous avez effectués auparavant. Ces opérations sont automatiquement validés au fur et à mesure de leur effectuation.
+</p>
+
+</div>
+
+<h3><bookmark content="Consulter les règles de prêt liées à un exemplaire" level="2" /><a name="condorcetcirculationpreter-des-documents__consulter_les_regles_de_pret_liees_a_un_exemplaire">Consulter les règles de prêt liées à un exemplaire</a></h3>
+<div class="level3">
+
+<p>
+Il faut accéder au menu contextuel <strong><code>···</code>  </strong>attaché au prêt dont on souhaite consulter les règles et choisir <code>Consulter les règles</code>.
+</p>
+
+</div>
+
+<h3><bookmark content="Dossier usager avec retards et/ou blocages" level="2" /><a name="condorcetcirculationpreter-des-documents__dossier_usager_avec_retards_et_ou_blocages">Dossier usager avec retards et/ou blocages</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Usager ayant des prêts en retard" level="3" /><a name="condorcetcirculationpreter-des-documents__usager_ayant_des_prets_en_retard">Usager ayant des prêts en retard</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Usagers ayant des blocages de prêt en retard (suspensions)" level="3" /><a name="condorcetcirculationpreter-des-documents__usagers_ayant_des_blocages_de_pret_en_retard_suspensions">Usagers ayant des blocages de prêt en retard (suspensions)</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="(Re)Voir les blocages dans un dossier usager" level="3" /><a name="condorcetcirculationpreter-des-documents__re_voir_les_blocages_dans_un_dossier_usager">(Re)Voir les blocages dans un dossier usager</a></h4>
+<div class="level4">
+
+</div>
+
+<h3><bookmark content="Outrepasser les messages bloquants" level="2" /><a name="condorcetcirculationpreter-des-documents__outrepasser_les_messages_bloquants">Outrepasser les messages bloquants</a></h3>
+<div class="level3">
+
+<p>
+Si un problème est identifié au moment de la création du prêt, une fenêtre avertit de l&#039;erreur rencontré. Par exemple, elle peut indiquer que l&#039;exemplaire n&#039;est pas prêtable. Dans certains cas, il pourra être proposé de passer outre cette erreur. Pour passer outre, il suffit de cliquer sur le bouton <code>outrepasser</code>  dans la fenêtre d&#039;erreur. En outrepassant, le prêt est effectué malgré l&#039;erreur signalé.
+</p>
+
+<p>
+La capacité à outrepasser est fonction du rôle de l&#039;utilisateur bibliothécaire qui réalise le prêt.
+</p>
+
+</div>
+
+<h3><bookmark content="Modifier une date de retour manuellement" level="2" /><a name="condorcetcirculationpreter-des-documents__modifier_une_date_de_retour_manuellement">Modifier une date de retour manuellement</a></h3>
+<div class="level3">
+
+<p>
+Il faut accéder au menu contextuel <strong><code>···</code>  </strong>  attaché au prêt qu&#039;on souhaite renouveler et cliquer sur Modifier la date limite. Une fenêtre pop-up apparaît et permet de spécifier la date de retour souhaitée.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-choisir-date-de-retour.jpg" class="media" title="circulation-choisir-date-de-retour.jpg" alt="circulation-choisir-date-de-retour.jpg" />
+</p>
+
+</div>

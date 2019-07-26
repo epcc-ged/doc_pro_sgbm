@@ -1,0 +1,763 @@
+
+<h3 class="sectionedit1" id="acquisitioninfrastructurele_budget">ACQUISITION : INFRASTRUCTURE : LE BUDGET</h3>
+<div class="level3">
+
+<p>
+Pour pouvoir effectuer des commandes dans Alma, il faut au préalable avoir saisi les données relatives aux budgets et aux fournisseurs du réseau.
+</p>
+
+</div>
+
+<h4 id="generalites">Généralités</h4>
+<div class="level4">
+
+<p>
+Dans Alma, la structure budgétaire se compose ainsi :
+</p>
+<ul>
+<li class="level1"><div class="li"> le <strong>registre comptable</strong>, niveau le plus haut de la hiérarchie budgétaire, contient un ensemble de comptes de synthèse et de comptes budgétaires</div>
+</li>
+<li class="level1"><div class="li"> le <strong>compte de synthèse</strong>, niveau intermédiaire, permet d&#039;avoir une vue d&#039;ensemble sur les comptes budgétaires qu&#039;il réunit</div>
+</li>
+<li class="level1"><div class="li"> le <strong>compte budgétaire</strong>  est le niveau le plus bas de la hiérarchie budgétaire. C&#039;est à partir de ce compte que les fonds sont alloués (argent rendu disponible pour les commandes) et les transactions budgétaires effectuées.</div>
+</li>
+</ul>
+
+<p>
+Le chemin d&#039;accès permet de savoir où se situe le compte budgétaire ou de synthèse dans la hiérarchie budgétaire.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le rôle de <strong>gestionnaire des registres de comptes</strong>  permet de gérer les budgets (allouer et transférer des fonds) et les différents registres de comptes (créer, modifier et supprimer un registre comptable, un compte de synthèse et/ou un compte budgétaire). Les autres actions comme le changement de période fiscale et la clôture budgétaire sont dévolues aux <strong>administrateurs des acquisitions</strong>  et aux <strong>gestionnaires des périodes fiscales</strong>. Enfin le rôle de <strong>visionneur de registre de fonds</strong>  permet simplement de consulter les données liées au budget.
+</p>
+
+</div>
+
+<h4 id="particularites">Particularités</h4>
+<div class="level4">
+
+<p>
+La création d&#039;un compte, qu&#039;il soit de synthèse ou budgétaire, est conditionné par la création préalable d&#039;un registre comptable.
+</p>
+
+<p>
+Le budget n&#039;est saisi qu&#039;au niveau du compte budgétaire. Le compte de synthèse permet une vue d&#039;ensemble sur les comptes budgétaires associés. A un niveau supérieur, le registre comptable permet une vision consolidée de l&#039;ensemble de la structure.
+</p>
+
+<p>
+Il n&#039;y a pas, dans Alma, du vue consolidée pour l&#039;ensemble des registres comptables.
+</p>
+
+</div>
+
+<h4 id="modes_operatoires">Modes opératoires</h4>
+<div class="level4">
+
+</div>
+
+<h5 id="acceder_a_la_liste_des_registres_et_des_comptes">Accéder à la liste des registres et des comptes</h5>
+<div class="level5">
+
+<p>
+Sélectionnez <code>Registres comptables</code>  dans le menu <code>Acquisitions</code>, section <code>Infrastructure des acquisitions</code>, pour accéder à la liste des registres de comptes.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La liste propose l&#039;ensemble des registres et des comptes à l&#039;échelle du réseau. Deux filtres sont activés par défaut : statut actif, et le période fiscale en cours, ici 2019.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Il est possible d&#039;utiliser d&#039;autres filtres, comme le type de compte, le nom du registre comptable, ou encore le propriétaire de ce registre (<code>détenu par</code>).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="creer_un_registre_comptable_et_ajouter_des_regles_d_utilisation_du_registre">Créer un registre comptable et ajouter des règles d’utilisation du registre</h5>
+<div class="level5">
+
+<p>
+Le registre comptable est le niveau le plus haut de la hiérarchie budgétaire ; il contient un ensemble de comptes de synthèse et de comptes budgétaires. Il est basé sur une période fiscale (toujours une année) correspondant à l&#039;année civile.
+</p>
+
+<p>
+Pour créer un registre comptable, allez dans le menu <code>Acquisitions</code>, section <code>Infrastructure des Acquisitions</code>  et cliquez sur <code>Registres comptables</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La fenêtre avec les registres comptables existants s&#039;ouvre. Vous pouvez alors consulter l&#039;ensemble des registres comptables et visualiser les différents comptes (de synthèse et budgétaires) afférents.
+</p>
+
+<p>
+Pour créer un registre comptable, cliquez sur <code>Ajouter un registre</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+La fenêtre suivante s&#039;affiche sur l&#039;onglet <code>Résumé</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les champs obligatoires à remplir, dans le cadre <code>Général</code>, sont :
+</p>
+<ul>
+<li class="level1"><div class="li"> le nom du registre comptable, qui doit être nommé de la sorte : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>structure + exemple</span></div>
+</li>
+<li class="level1"><div class="li"> le code du registre comptable, qui doit être rédigé ainsi : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>structure + exemple</span>. <span style='font-family: inherit; font-size:inherit; color: #e74c3c;  background-color: inherit '>Attention</span>: veillez à ne pas vous tromper dans la saisie du code car il ne peut plus être modifié par la suite. En cas d&#039;erreur, vous devrez supprimer la création en cours et recommencer.</div>
+</li>
+<li class="level1"><div class="li"> <code>Détenu par</code>  : concerne l&#039;entité détentrice du registre ; <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>dans le cas présent, il s&#039;agit par défaut de l&#039;Institution, c&#039;est-à-dire le réseau Condorcet</span>.</div>
+</li>
+</ul>
+
+<p>
+Les autres champs sont facultatifs :
+</p>
+<ul>
+<li class="level1"><div class="li"> <code>Identifiant externe</code>  : permet de faire le lien avec les systèmes externes ; <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>ne rien mettre pour l&#039;instant</span>.</div>
+</li>
+<li class="level1"><div class="li"> <code>Description </code>: correspond à la description du registre.</div>
+</li>
+</ul>
+
+<p>
+D&#039;autres champs sont renseignés par défaut :
+</p>
+<ul>
+<li class="level1"><div class="li"> <code>Disponible pour</code>  : l&#039;information saisie dans <code>Détenu par</code>  est reprise dans ce champ. Elle peut être laissée telle quelle ou modifiée.</div>
+</li>
+<li class="level1"><div class="li"> <code>Statut </code>: le statut du registre peut être actif (= opérationnel), en ébauche (configuré dans le système mais non opérationnel), ou inactif (n&#039;est plus opérationnel).</div>
+</li>
+<li class="level1"><div class="li"> <code>Devise </code>: devise par défaut du registre, à savoir l&#039;Euro.</div>
+</li>
+<li class="level1"><div class="li"> <code>Période fiscale</code>  : année fiscale pour laquelle s&#039;applique le registre. Elle correspond à une année dans Alma. Elle se nomme ainsi : FY-2019.</div>
+</li>
+<li class="level1"><div class="li"> <code>Dates de la période fiscale</code>  : dates auxquelles la période fiscale s&#039;applique. Pour la période fiscale FY-2019, les dates sont <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>01/01/2019-31/12/2019</span>.</div>
+</li>
+</ul>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Dans le cadre <code>Rapports / Afficher le rapport</code>, 2 types de rapports à l&#039;échelle du registre sont accessibles : “solde du compte” et “utilisation du compte”. Ils permettent d&#039;avoir une vue sur le budget de départ, les sommes engagées et les sommes dépensées, ainsi que le budget restant. Ce rapport est consultable à partir du moment où des fonds ont été alloués et des commandes passées.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les données financières sont également reprises en haut de la page <code>Résumé</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Traduction des termes utilisés :
+</p>
+<ul>
+<li class="level1"><div class="li"> Allocated balance : montants alloués (ou solde provisionné)</div>
+</li>
+<li class="level1"><div class="li"> Expended balance : montants dépensés (ou solde réalisé)</div>
+</li>
+<li class="level1"><div class="li"> Encumbered balance : montants engagés (ou solde engagé)</div>
+</li>
+<li class="level1"><div class="li"> Cash balance : solde en cours (= montants alloués - montants dépensés)</div>
+</li>
+<li class="level1"><div class="li"> Available balance : solde disponible (= montants alloués - (montants engagés + dépensés))</div>
+</li>
+</ul>
+
+<p>
+NB : Ce rapport est disponible depuis le registre comptable et offre une vue d&#039;ensemble pour le suivi du budget, mais l&#039;équivalent de ce rapport appliqué à un compte de synthèse ou budgétaire est aussi accessible à chaque niveau de la hiérarchie budgétaire.
+</p>
+
+<p>
+Dans le cadre <code>Règles</code>, il est possible de définir les limites d&#039;engagement ou de dépense, avant ou après la période fiscale. Ces règles ainsi définies sont ensuite répercutées au niveau des comptes de synthèse et budgétaires.
+</p>
+
+<p>
+NB : il est possible, à partir d&#039;un compte de synthèse, d&#039;outrepasser les règles qui s&#039;appliquent par défaut au registre et donc, de définir des règles particulières qui s&#039;appliqueront aux comptes budgétaires liés à ce compte de synthèse. Il est aussi possible de définir des règles particulières pour un compte budgétaire donné.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Par défaut, tout est positionné sur “non” et les données sont à “0”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les 3 premiers champs à droite de la liste concernent les excédents d&#039;engagement :
+</p>
+<ul>
+<li class="level1"><div class="li"> si “excédent d&#039;engagement autorisé” est positionné sur “Non”, l&#039;acquéreur ne pourra pas procéder à la création de la ligne de commande si celle-ci provoque un dépassement du budget disponible dans le compte budgétaire ; un message d&#039;alerte bloquant apparaîtra au moment de l&#039;enregistrement de la ligne de bon de commande.</div>
+</li>
+<li class="level1"><div class="li"> si “excédent d&#039;engagement autorisé” est positionné sur “Aucune limite”, le système autorise la dépassement du budget sans aucun contrôle.</div>
+</li>
+<li class="level1"><div class="li"> si “excédent d&#039;engagement autorisé” est positionné sur “Oui”, il faudra définir un “pourcentage limite d&#039;excédent d&#039;engagement” et éventuellement, un “pourcentage d&#039;alerte d&#039;excédent d&#039;engagement” (égal ou inférieur au pourcentage limite) dans les champs dédiés.</div>
+</li>
+</ul>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Si les 2 champs sont renseignés comme ci-dessus, deux alertes sont alors générées par le système lors de l&#039;enregistrement de la ligne de commande.
+</p>
+
+<p>
+Un premier message non bloquant indique que la limite est bientôt atteinte.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Puis un second message bloque l&#039;enregistrement de la ligne de commande, quand le pourcentage limite est dépassé.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour poursuivre la saisie de la commande, soit les règles doivent être modifiées, soit le compte budgétaire doit être à nouveau alimenté.
+</p>
+
+<p>
+Les 3 premiers champs à gauche de la liste concernent les excédents de dépense :
+</p>
+<ul>
+<li class="level1"><div class="li"> si “excédent de dépenses autorisé” est positionné sur “Non”, l&#039;acquéreur ne pourra pas procéder à la création de la ligne de facture si celle-ci dépasse le budget disponible dans le compte budgétaire ; un message d&#039;alerte bloquant apparaîtra au moment de l&#039;enregistrement.</div>
+</li>
+<li class="level1"><div class="li"> si “excédent de dépenses autorisé” est positionné sur “Aucune limite”, le système autorise la dépassement du budget sans aucun contrôle.</div>
+</li>
+<li class="level1"><div class="li"> si “excédent de dépenses autorisé” est positionné sur “Oui”, il faudra définir une “somme limite d&#039;excédent de dépenses” et éventuellement, un “seuil d&#039;alerte pour excédent de dépenses” (égal ou inférieur à la somme limite) dans les champs dédiés.</div>
+</li>
+</ul>
+
+<p>
+Si les 2 champs sont renseignés, deux alertes sont alors générées par le système lors de l&#039;enregistrement de la ligne de facture.
+</p>
+
+<p>
+Un premier message non bloquant indique que la limite est bientôt atteinte.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Puis un second message bloque l&#039;enregistrement de la ligne de facture quand la somme limite est dépassée.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour poursuivre la saisie de la facture, soit les règles doivent être modifiées, soit le compte budgétaire concerné doit être abondé à nouveau.
+</p>
+
+<p>
+Les autres champs situés en bas de la liste sont en rapport avec la période fiscale.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+<ul>
+<li class="level1"><div class="li"> “Engagements avant la période fiscale (jours)” et “dépenses avant la période fiscale (jours)” : permettent d&#039;indiquer en nombre de jours à partir de quand on permet la création de lignes de commande et de facture avant le début de la période fiscale suivante.</div>
+</li>
+<li class="level1"><div class="li"> “Engagements après la période fiscale (jours)” et “dépenses après la période fiscale (jours)” : permettent d&#039;indiquer en nombre de jours jusqu&#039;à quand on autorise la création de lignes de commande et de facture après la fin de la période fiscale en cours.</div>
+</li>
+<li class="level1"><div class="li"> “Transferts avant la période fiscale (jours)” : permet d&#039;indiquer en nombre de jours à partir de quand on permet le transfert des lignes de bons de commande avant le début de la période fiscale suivante.</div>
+</li>
+</ul>
+
+<p>
+Quand toutes ces informations sont saisies, cliquez sur <code>Enregistrer</code>  ou sur <code>Activer</code>, ce qui permettra à la fois d&#039;enregistrer le registre et de l&#039;activer.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une fois activé, le registre comptable apparaît ainsi dans la liste des résultats :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+On voit son nom, son type (registre comptable), son statut (actif, en ébauche ou inactif) et la période fiscale.
+</p>
+
+<p>
+On peut ensuite créer, à partir de là, un ou plusieurs comptes de synthèse.
+</p>
+
+</div>
+
+<h5 id="creer_un_compte_de_synthese_et_ajouter_des_regles_d_utilisation_du_compte_de_synthese">Créer un compte de synthèse et ajouter des règles d’utilisation du compte de synthèse</h5>
+<div class="level5">
+
+<p>
+A partir du registre comptable, dans la ligne de résultats, cliquez sur le bouton <code>Modifier </code>:
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Quand vous êtes sur le formulaire du registre comptable, cliquez sur l&#039;onglet <code>Comptes</code>, puis <code>Ajouter un compte</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Vous avez alors le choix, soit de créer un compte de synthèse, soit de créer directement un compte budgétaire.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquer sur <code>Compte de synthèse</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Le formulaire de saisie des données liées à ce compte se présente ainsi :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les champs à remplir du cadre <code>Général </code>se présentent de la même façon que ceux du registre comptable, le champ <code>Détenu par</code>  est hérité du niveau supérieur et contient donc les données saisies en amont.
+</p>
+<ul>
+<li class="level1"><div class="li"> Le nom du compte de synthèse doit être saisi ainsi : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>structure + exemple</span></div>
+</li>
+<li class="level1"><div class="li"> Le code du compte de synthèse soit être saisis ainsi : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>structure + exemple</span></div>
+</li>
+</ul>
+
+<p>
+Le champ <code>Type de compte</code>  n&#039;est pas obligatoire ; une liste de plusieurs types (général, dotation, don, allocation, revenu, demandes PEB) est proposée.
+</p>
+
+<p>
+Dans le cadre <code>Rapports (afficher le rapport)</code>, deux types de rapports, à l&#039;échelle du compte de synthèse, sont proposés : “solde du compte” et “utilisation du compte” ; ils se présentent comme ceux du registre comptable mais sont appliqués au compte en question.
+</p>
+
+<p>
+NB : il est également possible de définir des règles d&#039;utilisation propres au compte de synthèse. Par défaut, les règles appliquées à ce dernier et aux comptes budgétaires qui lui sont liés sont celles du registre comptable, mais si vous souhaitez appliquer des règles particulières à un compte de synthèse (et par conséquent aux comptes budgétaires liés), il faut les définir après avoir cliquer sur <code>Outrepasser les règles définies</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Quand toutes ces informations sont saisies, cliquez sur <code>Enregistrer</code>  ou sur <code>Activer</code>  en haut à droite, ce qui permet à la fois d&#039;enregistrer le compte et de l&#039;activer.
+</p>
+
+<p>
+Une fois revenu à la liste de résultats des différents comptes et registres, il est possible de retrouver le compte de synthèse créé à l&#039;aide des facettes à gauche de l&#039;écran (statut, type, nom ou propriétaire des registres) pour activer celui-ci, si vous ne l&#039;avez pas fait au moment de l&#039;enregistrement.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une fois le compte de synthèse non activé retrouvé, cliquez sur <code>Modifier</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+A partir de l&#039;onglet <code>Résumé</code>, cliquez en haut à droite sur <code>Activer </code>; le statut deviendra alors actif.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une fois activé, le compte de synthèse apparaît ainsi dans la liste de résultats :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+On voit son nom, son type (compte de synthèse), son statut (actif, en ébauche ou inactif), sa période fiscale et le chemin d&#039;accès qui renvoie au niveau supérieur de la hiérarchie budgétaire, soit le registre comptable.
+</p>
+
+<p>
+On peut ensuite créer, sous le compte de synthèse, un ou plusiuers comptes budgétaires. Un compte de synthèse peut aussi contenir d&#039;autres comptes de synthèse.
+</p>
+
+</div>
+
+<h5 id="creer_un_compte_budgetaire_et_ajouter_des_regles_d_utilisation_du_compte_budgetaire">Créer un compte budgétaire et ajouter des règles d’utilisation du compte budgétaire</h5>
+<div class="level5">
+
+<p>
+Le compte budgétaire est le niveau le plus bas de la hiérarchie budgétaire. C&#039;est à partir de ce compte que les fonds sont alloués (argent disponible) et les transactions budgétaires effectuées (lignes de commande et lignes de facture).
+</p>
+
+<p>
+A partir du compte de synthèse dans la liste de résultats, cliquez sur <code>Modifier</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur <code>Compte</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Puis cliquez sur <code>Ajouter un compte</code>, en sélectionnant <code>Compte budgétaire</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Les champs à remplir du cadre <code>Général </code>se présentent de la même façon que ceux du registre comptable et du compte de synthèse, la notion de <code>Détenu par</code>  est héritée du niveau supérieur (registre comptable et compte de synthèse).
+</p>
+<ul>
+<li class="level1"><div class="li"> Le nom du compte budgétaire doit être saisi ainsi : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>structure + exemple</span></div>
+</li>
+<li class="level1"><div class="li"> Le code du compte budgétaire soit être saisi ainsi : <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>structure + exemple</span></div>
+</li>
+</ul>
+
+<p>
+Afin de diminuer la longueur et simplifier l&#039;intitulé du compte budgétaire, il est possible de donner des noms abrégés, comme dans l&#039;exemple ci-dessus.
+</p>
+
+<p>
+Dans le cadre <code>Rapports (afficher le rapport)</code>, deux types de rapports, à l&#039;échelle du compte de synthèse, sont accessibles : “solde du compte” et “utilisation du compte” ; ils se présentent comme ceux du registre comptable mais sont appliqués au compte en question.
+</p>
+
+<p>
+NB : il est possible de définir des règles d&#039;utilisation propres au compte budgétaire. Par défaut, les règles appliquées à ce dernier sont celles du registre comptable ou d&#039;un compte de synthèse (si des règles particulières sont été paramétrées à ce niveau), mais si vous souhaitez appliquer des règles particulières à un compte budgétaire, il faut les définir après avoir cliquer sur <code>Outrepasser les règles définies</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Quand toutes ces informations sont saisies, cliquez sur <code>Enregistrer</code>  ou sur <code>Activer</code>, ce qui permet à la fois d&#039;enregistrer le compte et de l&#039;activer.
+</p>
+
+<p>
+Une fois revenu à la liste de résultats des différents comptes et registres, il est possible de retrouver le compte budgétaire créé à l&#039;aide des facettes à gauche de l&#039;écran (statut, type, nom ou propriétaire des registres) pour activer celui-ci, si vous ne l&#039;avez pas fait au moment de l&#039;enregistrement.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une fois le compte budgétaire non activé retrouvé, cliquez sur <code>Modifier</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+A partir de l&#039;onglet <code>Résumé</code>, cliquez en haut à droite sur <code>Activer </code>; le statut deviendra alors actif.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="allouer_des_fonds_a_un_compte_budgetaire">Allouer des fonds à un compte budgétaire</h5>
+<div class="level5">
+
+<p>
+Une fois un compte budgétaire créé, il faut lui allouer des fonds.
+</p>
+
+<p>
+Cliquez sur le bouton <code>Modifier</code>  à partir du compte budgétaire dans la liste de résultats :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez ensuite sur <code>Transactions</code>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+A partir de cette page, il est possible de :
+</p>
+<ol>
+<li class="level1"><div class="li"> consulter les détails d&#039;une transaction</div>
+</li>
+<li class="level1"><div class="li"> allouer des fonds</div>
+</li>
+<li class="level1"><div class="li"> transférer des fonds</div>
+</li>
+</ol>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Pour consulter les détails d&#039;une transaction (dans le cas où le compte budgétaire a déjà été imputé lors d&#039;une commande), cliquez sur le bouton action puis sur <code>Consulter </code>: la page des détails de transaction apparaît.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur <code>Allouer des fonds</code>  pour abonder un budget.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Renseignez le champ <code>Montant de l&#039;allocation</code>  avec la somme en euros. Pour réduire l&#039;attribution d&#039;un fonds, il faut assigner de l&#039;argent en utilisant un nombre négatif, par exemple : -100,00.
+</p>
+
+<p>
+L&#039;action <code>Transfert de fonds</code>  permet de transférer un budget d&#039;un compte budgétaire vers un autre.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Une fois créé et approvisionné, le compte budgétaire apparaît ainsi :
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+On voit son nom, son type (compte budgétaire), son statut (actif, en ébauche ou inactif), sa période fiscale et le chemin d&#039;accès qui renvoie au niveau supérieur de la hiérarchie budgétaire (dans ce cas, c&#039;est le registre comptable suivi du compte de synthèse auquel il appartient). On peut voir aussi le montant alloué ainsi que les différents soldes.
+</p>
+
+<p>
+Une fois le registre et les différents comptes activés, le ou les comptes budgétaires pourront être imputés lors d&#039;une commande.
+</p>
+
+<p>
+En effet, lors de la saisie d&#039;une ligne de commande, il faut sélectionner un compte budgétaire. Dans la liste des comptes accessibles n&#039;apparaîtront que ceux pour lesquels la bibliothèque propriétaire de la ligne de commande est autorisée (champ <code>Disponible pour</code>  au niveau du registre comptable).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="deplacer_un_compte_de_synthese_ou_budgetaire_dans_la_hierarchie_budgetaire">Déplacer un compte de synthèse ou budgétaire dans la hiérarchie budgétaire</h5>
+<div class="level5">
+
+<p>
+Il est possible, à l&#039;intérieur d&#039;un même registre comptable, de déplacer des comptes de synthèse ou budgétaires, pour les associer à un registre ou à un compte de synthèse différent. Il est aussi possible de déplacer des comptes de synthèse et budgétaires d&#039;un registre vers un autre, si les deux registres sont liés à la même période fiscale.
+</p>
+
+<p>
+Pour déplacer un compte (de synthèse ou budgétaire), allez dans le menu <code>Acquisitions</code>, section <code>Infrastructure des acquisitions</code>, sous-section <code>Déplacer les fonds dans la hiérarchie</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Un formulaire s&#039;ouvre et propose de sélectionner, dans le champ <code>Compte à déplacer</code>, le compte que l&#039;on souhaite déplacer.
+</p>
+
+<p>
+Dans le champ <code>Registre/compte de synthèse cible</code>, sélectionnez le compte de synthèse ou le registre vers lequel vous souhaitez déplacer le compte sélectionné dans le champ précédent.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur <code>Déplacer le compte</code>  pour valider l&#039;action. Un message vous indique que le compte va être déplacé dans la hiérarchie, puis cliquez sur <code>Confirmer</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Un récapitulatif décrit l&#039;action qui vient d&#039;avoir lieu.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="transferer_des_fonds_d_un_compte_budgetaire_a_un_autre">Transférer des fonds d’un compte budgétaire à un autre</h5>
+<div class="level5">
+
+<p>
+Il est possible de transférer des fonds d&#039;un compte budgétaire à un autre, à partir du moment où ils sont rattachés à la même année fiscale.
+</p>
+
+<p>
+Pour ce faire, il faut aller dans l&#039;onglet <code>Transactions</code>  du compte budgétaire (voir plus haut) ou dans le menu <code>Acquisitions</code>, section <code>Infrastructure des acquisitions</code>, sous-section <code>Transfert de fonds</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Un formulaire s&#039;ouvre, avec plusieurs champs à renseigner. Dans le champ <code>Du compte</code>, sélectionnez le compte à partir duquel vous voulez transférer l&#039;argent, et dans le champ <code>Vers le compte</code>, indiquez le compte destinataire de cet argent. Indiquez ensuite, dans le champ <code>Montant</code>, la somme à transférer et une note éventuelle.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Cliquez sur le bouton <code>Ajouter une transaction de transfert</code>  et répondez <code>Valider</code>  au message pour valider l&#039;action.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="desactiver_supprimer_des_registres_et_des_comptes">Désactiver/supprimer des registres et des comptes</h5>
+<div class="level5">
+
+<p>
+Il est possible de désactiver un compte (de synthèse ou budgétaire) ou un registre si on n&#039;en a pas l&#039;utilité, voire de le supprimer. Tous les comptes associés à un registre comptable doivent être désactivés avant que le registre lui-même ne le soit.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Il est possible de supprimer des comptes et des registres. Pour ce faire, leur statut doit être inactif ou en ébauche. Si un registre comptable est supprimé, tous les comptes qui lui sont associés seront aussi supprimés.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5 id="analytics">Analytics</h5>
+<div class="level5">
+
+<p>
+Alma Analytics (module d&#039;Alma destiné à la production de statistiques) permet d&#039;avoir une vue d&#039;ensemble, sous forme de tableur, de la hiérarchie budgétaire pour l&#039;ensemble de l&#039;institution.
+</p>
+
+<p>
+Le rapport accessible depuis le menu <code>Analytique</code>  est intitulé <strong>Réseau_ACQ_Hiérarchie budgétaire</strong>
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Il est possible d&#039;en faire un export au format Excel.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>

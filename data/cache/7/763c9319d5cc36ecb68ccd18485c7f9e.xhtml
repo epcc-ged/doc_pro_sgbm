@@ -1,0 +1,144 @@
+
+<h2 class="sectionedit1" id="signalementorganisation_des_donnees_et_acces_a_l_editeur_de_metadonnees">SIGNALEMENT : ORGANISATION DES DONNEES ET ACCES A L&#039;EDITEUR DE METADONNEES</h2>
+<div class="level2">
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;SIGNALEMENT : ORGANISATION DES DONNEES ET ACCES A L&#039;EDITEUR DE METADONNEES&quot;,&quot;hid&quot;:&quot;signalementorganisation_des_donnees_et_acces_a_l_editeur_de_metadonnees&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-88&quot;} -->
+<h3 class="sectionedit2" id="connexion_a_alma_pour_le_catalogage">Connexion à Alma pour le catalogage</h3>
+<div class="level3">
+
+<p>
+Pour pouvoir effectuer le signalement des collections dans Alma, il faut disposer du rôle adéquat à cette fin : rôle de catalogueur au minimum.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Connexion \u00e0 Alma pour le catalogage&quot;,&quot;hid&quot;:&quot;connexion_a_alma_pour_le_catalogage&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;89-285&quot;} -->
+<h3 class="sectionedit3" id="organisation_des_donnees">Organisation des données.</h3>
+<div class="level3">
+
+<p>
+Dans Alma, les données de signalement sont découpées en trois “niveaux” :
+</p>
+<ul>
+<li class="level1"><div class="li"> Le niveau des “métadonnées descriptives” décrit un document. La <em><strong>notice bibliographique</strong></em>  correspond à ce niveau dans Alma. Elle est commune aussi bien aux ressources électroniques qu&#039;aux ressources physiques.</div>
+</li>
+<li class="level1"><div class="li"> Le niveau “intermédiaire” est un regroupement entre différentes instanciations du même titre. Ce niveau n&#039;a pas la même forme selon qu&#039;on parle de ressources physiques, électroniques ou numériques. Pour les ressources physiques, par exemple, il s&#039;agit de la <em><strong>notice holding</strong></em>  .</div>
+</li>
+<li class="level1"><div class="li"> Le niveau “inventaire” contient les informations du document au sens de l&#039;objet constituant le document recherché en tant que porteur de l&#039;information. Par exemple : un exemplaire donné, un fichier donné, une revue électronique donnée.</div>
+</li>
+</ul>
+
+<p>
+Pour le niveau intermédiaire et le niveau inventaire, on a dans Alma différents objets selon qu&#039;on a une ressource physique ou électronique.
+</p>
+
+<p>
+Il est à noter que dans les documents Alma mis en ligne par ExLibris, ce vocabulaire n&#039;est pas toujours cohérent. Notamment, la notion d&#039;inventaire englobe généralement le niveau intermédiaire et le niveau inventaire. On fera de même dans ce qui suit et, au moins pour les ressources physiques, quand on parlera d&#039;inventaire on désignera généralement à la fois la holding et l&#039;exemplaire proprement dit.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:signalement:signalement-structure-donnees.jpg" class="mediacenter" title="signalement-structure-donnees.jpg" alt="signalement-structure-donnees.jpg" />
+</p>
+
+</div>
+
+<h5 id="cas_des_ressources_physiquesholding_et_exemplaire">Cas des ressources physiques : holding et exemplaire</h5>
+<div class="level5">
+
+<p>
+Le modèle de données est le suivant :
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:signalement:signalement-modele-donnees-physiques.jpg" class="mediacenter" title="signalement-modele-donnees-physiques.jpg" alt="signalement-modele-donnees-physiques.jpg" />
+</p>
+
+<p>
+Dans cet exemple, deux holdings sont rattachée à la même notice bibliographique. La notice décrivant la holding est une notice différente de la notice bibliographique mais la holding est évidemment rattachée à sa notice bibliographique.
+</p>
+
+<p>
+Une notice bibliographique peut avoir plusieurs notices de holding mais une notice holding ne peut être rattachée qu&#039;à une seule notice bibliographique.
+</p>
+
+<p>
+La notice holding contient l&#039;information sur la bibliothèque où se trouve l&#039;exemplaire,sur la localisation de celui-ci et sa cote. Dans le cas du GED, il n&#039;y a qu&#039;une bibliothèque qui est le GED. On ne peut avoir qu&#039;une holding pour un titre pour une localisation donnée.
+</p>
+
+<p>
+<em>La notice holding est en MARC21 </em>: c&#039;est le champ 852. On peut noter en particulier les sous-champs suivants :
+</p>
+<ul>
+<li class="level1"><div class="li"> bibliothèque : 852$b</div>
+</li>
+<li class="level1"><div class="li"> localisation : 852$c</div>
+</li>
+<li class="level1"><div class="li"> cote: 852$h</div>
+</li>
+</ul>
+
+<p>
+<a href="http://www.loc.gov/marc/holdings/hd852.html" class="urlextern" title="http://www.loc.gov/marc/holdings/hd852.html" rel="nofollow">La structure de la zone 852 du MARC21 est décrite ici.</a>
+</p>
+
+<p>
+L&#039;exemplaire (niveau inventaire) est décrit par une notice d&#039;exemplaire. Celle-ci ne peut pas directement être éditée en Marc dans Alma mais elle peut être créé et modifiée à travers un écran prévu à cet effet comme cela sera décrit plus loin.
+</p>
+
+<p>
+Cas des ressources électroniques
+</p>
+
+<p>
+Le modèle de données est le suivant :
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:signalement:signalement-modele-donnees-electroniques.jpg" class="mediacenter" title="signalement-modele-donnees-electroniques.jpg" alt="signalement-modele-donnees-electroniques.jpg" />
+</p>
+
+<p>
+Dans le modèle proposée ci-dessus, deux portfolios sont attachés à la même notice bibliographique. Un portfolio permet couvre les années d&#039;une revue entre 2002 et 2013, l&#039;autre entre 1997 et 2011. Chaque de ces portfolios en accessible chez un fournisseur différent.
+</p>
+
+<p>
+On peut considérer en première approche que le portfolio est comme un “exemplaire électronique” au sens où c&#039;est à travers lui qu&#039;on accède à l&#039;information. Mais il n&#039;est pas tout à fait correct de plaquer le modèle holding / exemplaire des ressources physiques sur le modèle service / portfolio des ressources électroniques. C&#039;est pourquoi nous nous abstiendrons en général d&#039;une telle analogie.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Organisation des donn\u00e9es.&quot;,&quot;hid&quot;:&quot;organisation_des_donnees&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;286-4175&quot;} -->
+<h3 class="sectionedit4" id="acceder_a_l_editeur_de_metadonnees">Accéder à l&#039;éditeur de métadonnées</h3>
+<div class="level3">
+
+<p>
+Pour accéder à l&#039;éditeur de métadonnées : <strong>Ressources &gt; Ouvrir l&#039;éditeur de métadonnées</strong>.
+</p>
+
+<p>
+Si l&#039;on accède directement à l&#039;éditeur de métadonnées, sans être préalablement sur un titre précis dans Alma, alors l&#039;éditeur de métadonnées sera vide, c&#039;est-à-dire qu&#039;on ne verra aucune notice affichée dedans. Il faut alors rechercher un titre dans la barre de recherche placée au-dessus de l&#039;éditeur.
+</p>
+
+<p>
+Si l&#039;on veut accéder à la notice d&#039;un titre dans l&#039;éditeur de métadonnées en voyant cette notice dès qu&#039;on arrive dans l&#039;éditeur, il faut d&#039;abord rechercher le titre dans Alma et accéder à l&#039;éditeur de métadonnées depuis le résultat de la recherche. On a alors deux possibilités d&#039;accéder à l&#039;éditeur selon la notice que l&#039;on veut éditeur :
+</p>
+<ul>
+<li class="level1"><div class="li"> Accéder à la notice <em>bibliographique </em>: c&#039;est le bouton <strong>Modifier la notice </strong>qu&#039;il faut cliquer (voir image ci-dessous).</div>
+</li>
+<li class="level1"><div class="li"> Accéder à la notice <em>holding </em>: il faut cliquer sur le bouton <strong>Notice de fonds </strong>puis dans l&#039;écran qui permet de visualiser cette notice, cliquer sur le bouton <strong>Modifier</strong>  (au-dessus de la notice à droite).</div>
+</li>
+</ul>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:signalement:signalement-acces-editeur.jpg" class="mediacenter" title="signalement-acces-editeur.jpg" alt="signalement-acces-editeur.jpg" />
+</p>
+
+<p>
+Le menu <strong>Ressources &gt; Parcourir la liste des emplacements sur les rayons </strong>ouvre également l&#039;éditeur de métadonnées et permet de rechercher des notices par cote (a minima : ce critère est obligatoire), par bibliothèque (dans le cas du GED, il n&#039;y en a qu&#039;une) et par localisation (critère facultatif). On obtient alors une liste des titres concernés.
+</p>
+
+<p>
+Le menu <strong>Ressources &gt; Naviguer dans les vedettes bibliographiques </strong>ouvre également l&#039;éditeur de métadonnées et permet de rechercher des notices sur les critères suivants : titres, sujets, noms, collections, cote/classification soit en Marc21 soit en Unimarc. Selon le critère choisi, on pourra éventuellement préciser un (des) sous-critère(s).
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Acc\u00e9der \u00e0 l&#039;\u00e9diteur de m\u00e9tadonn\u00e9es&quot;,&quot;hid&quot;:&quot;acceder_a_l_editeur_de_metadonnees&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;4176-&quot;} -->

@@ -1,0 +1,175 @@
+
+<h2 class="sectionedit1" id="signalementholdings">SIGNALEMENT : HOLDINGS</h2>
+<div class="level2">
+
+<p>
+Une holding contient des informations sur la localisation d&#039;un exemplaire d&#039;un titre physique et sur sa cote. La holding est représentée par une notice de holding rattachée à la notice bibliographique du titre concerné. A la notice holding est ensuite rattaché l&#039;exemplaire (ou plusieurs s&#039;il y en a plus d&#039;un).
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;SIGNALEMENT : HOLDINGS&quot;,&quot;hid&quot;:&quot;signalementholdings&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:1,&quot;range&quot;:&quot;1-355&quot;} -->
+<h3 class="sectionedit2" id="ajouter_une_holding">Ajouter une holding</h3>
+<div class="level3">
+
+</div>
+
+<h4 id="ajout_de_la_premiere_holding">Ajout de la première holding</h4>
+<div class="level4">
+
+<p>
+Lors de la commande, en général, une notice bibliographique élémentaire est créée et une holding lui est rattachée puisqu&#039;il faut indiquer la future localisation du document. Mais il peut y avoir des cas où l&#039;on aura besoin de créer une holding de toute pièce.
+</p>
+
+<p>
+Pour ajouter une holding, la démarche est la suivante :
+</p>
+
+<p>
+Il faut d&#039;abord rechercher la notice bibliographique du titre voulu. Il est important d&#039;utiliser le critère de recherche <strong>Tous les titres </strong>et pas <strong>Titre physique </strong>seulement. Si la notice bibliographique n&#039;existe pas, il faudra préalablement la créer ou la faire redescendre depuis le Sudoc (fortement recommandé). Sinon, en cas de doublons, il importe de bien s&#039;assurer qu&#039;on identifie la notice adéquate.
+</p>
+
+<p>
+La notice bibliographique étant identifiée dans la liste des résultats, il faut cliquer sur le bouton <strong>Modifier la notice</strong> qui lui est associé. On est alors envoyer dans l&#039;éditeur de médatonnées.
+</p>
+
+<p>
+Pour créer une holding sous cette notice bibliographique, il faut cliquer sur l&#039;icône suivante : <img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:signalement:signalement-ajouter-holding.jpg" class="media" title="signalement-ajouter-holding.jpg" alt="signalement-ajouter-holding.jpg" />(Ajouter une notice holding) ou presser les touches Ctrl + Alt + H ou encore utiliser le menu <strong>Outils &gt; Bibliographique MARC &gt; Ajouter une notice holding</strong>. Cela crée une notice holding qui, dans l&#039;éditeur, apparaît à droite de la notice bibliographique. La notice est automatiquement préremplie et sa 852 présente avec des valeurs vides. C&#039;est dans cette zone que l&#039;on va travailler.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:signalement:signalement-biblio-et-holding.jpg" class="mediacenter" title="signalement-biblio-et-holding.jpg" alt="signalement-biblio-et-holding.jpg" />Il faut alors renseigner la 852 de la holding. Une fois positionné sur ce champ, vous pouvez cliquer sur Ctrl + F pour faire apparaître un formulaire de saisie. Le formulaire ressemble à ceci (rem. : ce n&#039;est pas la même notice entre l&#039;image ci-dessus et celle ci-dessous) :
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1176&amp;h=331&amp;tok=6a2e97&amp;media=condorcet:signalement:signalement-formulaire-holding.jpg" class="mediacenter" title="signalement-formulaire-holding.jpg" alt="signalement-formulaire-holding.jpg" width="1176" height="331" />
+</p>
+
+<p>
+Il faut renseigner les champs :
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>$b : bibliothèque</strong>. La valeur est toujours GED. C&#039;est la seule valeur de notre liste de valeurs.</div>
+</li>
+<li class="level1"><div class="li"> <strong>$c : localisation</strong>. Une liste de valeurs vous assiste.</div>
+</li>
+<li class="level1"><div class="li"> <strong>$h : cote</strong>.</div>
+</li>
+</ul>
+
+<p>
+Ceci fait, il faut enregistrer la notice soit en passant par le menu Fichier &gt; Enregistrer la notice, soit par le raccourci Ctrl + S, soit par l&#039;icône en forme de disquette.
+</p>
+
+<p>
+Il reste à ajouter un exemplaire à la holding. Se reporter au chapitre consacré aux exemplaires.
+</p>
+
+</div>
+
+<h4 id="ajout_de_deuxieme_holding_ou_plus">Ajout de deuxième holding ou plus</h4>
+<div class="level4">
+
+<p>
+Lorsqu&#039;une holding existe déjà sous une notice bibliographique, on peut en ajouter une nouvelle. On peut procéder comme si on ajoutait une première notice : la procédure fonctionne. Mais on peut aussi directement travailler au niveau de la notice holding sans passer par la notice bibliographique.
+</p>
+
+<p>
+Celle-ci reste néanmoins le point de départ : comme précédemment, on recherche la notice bibliographique. Puis on clique sur le bouton <strong>Notices de fonds</strong>. Ce bouton permet de voir toutes les notices holdings attachées à la notice bibliographique choisie. Le résultat type est semblable à ce que l&#039;on voit ci-dessous :
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1349&amp;h=376&amp;tok=9bb8d3&amp;media=condorcet:signalement:signalement-liste-holding.jpg" class="mediacenter" title="signalement-liste-holding.jpg" alt="signalement-liste-holding.jpg" width="1349" height="376" />
+</p>
+
+<p>
+Sur le nouvel écran, le lien <strong>Ajouter une nouvelle notice de fonds </strong>au-dessus de la liste des holdings existantes permet de basculer sur l&#039;éditeur de métadonnées qui ne contient qu&#039;une nouvelle notice holding prérémplie et qu&#039;il faut remplir comme l&#039;on a décrit ci-dessus pour la première holding. Lorsqu&#039;on enregistre la notice, on retourne à l&#039;écran listant les holdings. Il faut maintenant ajouter l&#039;exemplaire.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:3,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_important plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+Rappel : pensez bien à enregistrer et à débloquer la notice holding de la même façon qu&#039;on doit débloquer les notices bibliographiques. Si vous ne le faites pas, la notice reste bloquée pendant une heure. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:4,&quot;range&quot;:&quot;0-&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ajouter une holding&quot;,&quot;hid&quot;:&quot;ajouter_une_holding&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:2,&quot;range&quot;:&quot;356-4441&quot;} -->
+<h3 class="sectionedit5" id="consulter_une_holding">Consulter une holding</h3>
+<div class="level3">
+
+<p>
+Dans la liste des notices de fonds attachées à un titre donné (voir ci-dessus), le menu <code><strong>···</strong></code>  attaché à la notice de fonds propose le lien <strong>Voir</strong>. Ce lien vous permet de visualiser la notice au format Marc 21. De là vous pouvez accéder à la modification de la notice ou à son déplacement vers un autre titre.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Consulter une holding&quot;,&quot;hid&quot;:&quot;consulter_une_holding&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;4442-4806&quot;} -->
+<h3 class="sectionedit6" id="mettre_a_jour_une_holding">Mettre à jour une holding</h3>
+<div class="level3">
+
+<p>
+Depuis la liste des notices de fonds (voir ci-dessus), il faut cliquer sur le menu <code><strong>···</strong></code>  attaché à la notice de fonds que l&#039;on souhaite modifier : le sous-menu <strong>Modifier</strong>  permet d&#039;accéder à l&#039;éditeur de métadonnées pour la notice de holding.
+</p>
+
+<p>
+Le reste du travail dans cette notice se fait exactement comme pour la création (voir ci-dessus).
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Mettre \u00e0 jour une holding&quot;,&quot;hid&quot;:&quot;mettre_a_jour_une_holding&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;4807-5207&quot;} -->
+<h3 class="sectionedit7" id="supprimer_une_holding">Supprimer une holding</h3>
+<div class="level3">
+
+<p>
+Dans la liste des notices de fonds, il suffit de sélectionner les notices holdings à supprimer dans une notice bibliographique donnée puis de cliquer sur le lien “Supprimer les notices de fonds”. Le travail sur cet écran permet de supprimer plusieurs notices holding simultanément.
+</p>
+
+<p>
+On peut aussi supprimer les notices holdings directement dans l&#039;éditeur de métadonnées. On travaille alors sur une notice holding particulière (et pas sur un groupe de notices holding). Pour cela, il suffit d&#039;ouvrir la notice holding dans l&#039;éditeur et de cliquer sur l&#039;icône en forme de corbeille, ou d&#039;utiliser le raccourci Ctrl + D ou de cliquer sur <strong>Fichier &gt; Supprimer la notice</strong>.
+</p>
+<!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_start&quot;,&quot;secid&quot;:8,&quot;range&quot;:&quot;0-&quot;} --><div class="wrap_center wrap_round wrap_info plugin_wrap" style="width: 60%;">
+<p>
+ <br/>
+Dans tous les cas, si un exemplaire au moins est relié à une notice holding alors cette notice ne pourra pas être supprimée. Il faut supprimer le(s) exemplaire(s) auparavant. Voir chapitre sur la notice exemplaire. <br/>
+
+</p>
+</div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:9,&quot;range&quot;:&quot;0-&quot;} -->
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supprimer une holding&quot;,&quot;hid&quot;:&quot;supprimer_une_holding&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;5208-6185&quot;} -->
+<h3 class="sectionedit10" id="deplacer_une_holding">Déplacer une holding</h3>
+<div class="level3">
+
+<p>
+Alma permet de déplacer une notice holding d&#039;une notice bibliographique à une autre. Ce déplacement concerne alors bien sûr les exemplaires situés sous la notice holding (si vous souhaitez ne déplacer que des exemplaires, voir le chapitre sur la notice d&#039;exemplaire).
+</p>
+
+<p>
+Cette opération est accessible de plusieurs façons :
+</p>
+<ul>
+<li class="level1"><div class="li"> A partir de liste des notices de fonds (voir ci-dessus) rattachées à une notice bibliographique, dans le menu <code><strong>···</strong></code>  attaché à la notice de fonds que l&#039;on souhaite déplacer, choisir le sous-menu <strong>Lier à une autre notice</strong>.</div>
+</li>
+<li class="level1"><div class="li"> A partir de la consultation de la notice de fonds, cliquer sur le bouton <strong>Lier à une autre notice</strong>, en haut à droite de l&#039;écran.</div>
+</li>
+</ul>
+
+<p>
+Le déplacement se fait dans l&#039;éditeur de métadonnées. Celui-ci se présente alors comme suit :
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1063&amp;h=332&amp;tok=fb0376&amp;media=condorcet:signalement:signalement-deplacer-holding.jpg" class="mediacenter" title="signalement-deplacer-holding.jpg" alt="signalement-deplacer-holding.jpg" width="1063" height="332" />La notice holding est à gauche de l&#039;écran et à droite se trouve un formulaire de recherche. Celui-ci permet de rechercher la notice de titre vers laquelle la holding doit être déplacée. Il est recommandé de connaître le numéro système de la notice titre destination et de faire la recherche sur ce critère.
+</p>
+
+<p>
+La recherche permet d&#039;obtenir la liste des notices correspondantes au(x) critère(s). On peut visualiser le détail d&#039;une notice titre si on le souhaite ou directmeent cliquer sur <strong>Lier à une autre notice</strong>  pour effectuer le déplacement.
+</p>
+
+<p>
+Si vous visualisez le détail du titre, en bas de la notice il est vous proposer de <strong>Lier à une autre notice </strong> (dans le cas, il faut cliquer sur <strong>Exécuter</strong>).
+</p>
+
+<p>
+Ces deux méthodes ont le même résultat : la notice holding est déplacée.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;D\u00e9placer une holding&quot;,&quot;hid&quot;:&quot;deplacer_une_holding&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:10,&quot;range&quot;:&quot;6186-&quot;} -->
