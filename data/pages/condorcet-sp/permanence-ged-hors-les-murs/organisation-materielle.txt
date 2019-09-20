@@ -17,8 +17,7 @@ nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. Tél : numér
   * un badge GED Campus Condorcet
   * un ordinateur portable,
   * un téléphone portable,
-  * une platine RFID,
-  * un registre de consultation des archives, (dématérialisé ?)
+  * <font inherit/inherit;;#f39c12;;inherit>une platine RFID</font><font inherit/inherit;;#f39c12;;inherit>à supprimer ,</font>  * un registre de consultation des archives, (dématérialisé ?)
   * un cahier des lecteurs (MH QUI LE CONSULTE ET Y REPOND ?)
   * du petit matériel pour dépanner les lecteurs.
 
@@ -27,8 +26,8 @@ Ainsi que des outils plus spécialisés :
   * un lecteur scanner de microforme (achat ?).Mode d'emploi
   * une visionneuse de diapositives (achat ?)
   * une machine à lire (achat ?) mode d'emploi
-  * une boucle magnétique(achat?) Mode d'emploi
-  * une loupe(achat)
+  * une boucle magnétique (achat?) Mode d'emploi
+  * une loupe (achat)
 
 <font 11pt/inherit;;inherit;;inherit>Ces équipements sont stockés sur les étagères mises à disposition par l'EHESP dans le local du fond. Penser à recharger les batteries des différents appareils électriques !</font>
 

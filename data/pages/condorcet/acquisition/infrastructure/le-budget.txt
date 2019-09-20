@@ -75,7 +75,7 @@ D'autres champs sont renseignés par défaut :
   * ''Dates de la période fiscale''  : dates auxquelles la période fiscale s'applique. Pour la période fiscale FY-2019, les dates sont <font inherit/inherit;;#9b59b6;;inherit>01/01/2019-31/12/2019</font>.
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Dans le cadre ''Rapports / Afficher le rapport'', 2 types de rapports à l'échelle du registre sont accessibles : "solde du compte" et "utilisation du compte". Ils permettent d'avoir une vue sur le budget de départ, les sommes engagées et les sommes dépensées, ainsi que le budget restant. Ce rapport est consultable à partir du moment où des fonds ont été alloués et des commandes passées.
+Dans le la section ''Rapports''  et le menu ''Afficher le rapport'', 2 types de rapports à l'échelle du registre sont accessibles : "solde du compte" et "utilisation du compte". Ils permettent d'avoir une vue sur le budget de départ, les sommes engagées et les sommes dépensées, ainsi que le budget restant. Ce rapport est consultable à partir du moment où des fonds ont été alloués et des commandes passées.
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -191,7 +191,7 @@ Les champs à remplir du cadre ''Général ''se présentent de la même façon q
 
 Le champ ''Type de compte''  n'est pas obligatoire ; une liste de plusieurs types (général, dotation, don, allocation, revenu, demandes PEB) est proposée.
 
-Dans le cadre ''Rapports (afficher le rapport)'', deux types de rapports, à l'échelle du compte de synthèse, sont proposés : "solde du compte" et "utilisation du compte" ; ils se présentent comme ceux du registre comptable mais sont appliqués au compte en question.
+Dans la section ''Rapports''  et le menu ''Afficher le rapport'', deux types de rapports, à l'échelle du compte de synthèse, sont proposés : "solde du compte" et "utilisation du compte" ; ils se présentent comme ceux du registre comptable mais sont appliqués au compte en question.
 
 NB : il est également possible de définir des règles d'utilisation propres au compte de synthèse. Par défaut, les règles appliquées à ce dernier et aux comptes budgétaires qui lui sont liés sont celles du registre comptable, mais si vous souhaitez appliquer des règles particulières à un compte de synthèse (et par conséquent aux comptes budgétaires liés), il faut les définir après avoir cliquer sur ''Outrepasser les règles définies''.
 
@@ -241,7 +241,7 @@ Les champs à remplir du cadre ''Général ''se présentent de la même façon q
 
 Afin de diminuer la longueur et simplifier l'intitulé du compte budgétaire, il est possible de donner des noms abrégés, comme dans l'exemple ci-dessus.
 
-Dans le cadre ''Rapports (afficher le rapport)'', deux types de rapports, à l'échelle du compte de synthèse, sont accessibles : "solde du compte" et "utilisation du compte" ; ils se présentent comme ceux du registre comptable mais sont appliqués au compte en question.
+Dans la section ''Rapports''  et le menu ''Afficher le rapport'', deux types de rapports, à l'échelle du compte de synthèse, sont accessibles : "solde du compte" et "utilisation du compte" ; ils se présentent comme ceux du registre comptable mais sont appliqués au compte en question.
 
 NB : il est possible de définir des règles d'utilisation propres au compte budgétaire. Par défaut, les règles appliquées à ce dernier sont celles du registre comptable ou d'un compte de synthèse (si des règles particulières sont été paramétrées à ce niveau), mais si vous souhaitez appliquer des règles particulières à un compte budgétaire, il faut les définir après avoir cliquer sur ''Outrepasser les règles définies''.
 

@@ -9,7 +9,7 @@ Les différents types de fournisseurs sont :
   * <font inherit/inherit;;#9b59b6;;inherit>concédant de licence : il fournit une licence explicitant les modalités d'utilisation de la ressource électronique faisant l'objet du contrat</font>
   * <font inherit/inherit;;#9b59b6;;inherit>fournisseur officiel (il ne peut y en avoir qu'un seul par institution) : fournisseur qui reçoit le paiement de la TVA pour un paiement de facture auprès d'un autre fournisseur, lui-même non soumis à la TVA. Ce fournisseur est créé par le GED selon les besoins.</font>
 
-<font inherit/inherit;;#9b59b6;;inherit>NB : il existe une autre catégorie de fournisseur, le fournissuer "SUSHI". SUSHI est un protocole permettant la collecte automatisée de statistiques COUNTER.</font>
+<font inherit/inherit;;#9b59b6;;inherit>NB : il existe une autre catégorie de fournisseur, le fournisseur "SUSHI". SUSHI est un protocole permettant la collecte automatisée de statistiques COUNTER.</font>
 
 La gestion des fournisseurs et des comptes (ajout, modification, suppression) est réservée aux personnels ayant le rôle de **gestionnaire des fournisseurs**. Les autres rôles liés aux acquisitions (**gestionnaire et opérateur des factures, gestionnaire et opérateur des achats**) permettent uniquement la consultation de ces données.
 
@@ -148,7 +148,7 @@ Dans le cadre "Téléphone", cliquez sur ''Ajouter un numéro de téléphone''  
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Cliquez sur ''Ajouter et fermer''  s'il n'y a pas d'autre numéro de téléphone à saisir, ou sur ''Ajouter ''pour créer d'autres numéros de téléphone. Le principe du numéro de téléphone préféré est le même que pour les adresss postales.
+Cliquez sur ''Ajouter et fermer''  s'il n'y a pas d'autre numéro de téléphone à saisir, ou sur ''Ajouter ''pour créer d'autres numéros de téléphone. Le principe du numéro de téléphone préféré est le même que pour les adresses postales.
 
 Dans le cadre "Adresses e-mail", cliquez sur ''Ajouter une adresse e-mail''  et remplissez le formulaire de saisie en choisissant le type d'e-mail "demande / question" et en saisissant l'adresse e-mail du fournisseur.
 
@@ -188,7 +188,7 @@ A partir de cet onglet, il est possible de lister toutes les factures associées
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
-Il existe plusieurs possiiblités de tri pour retrouver les factures, par exemple le statut :
+Il existe plusieurs possibilités de tri pour retrouver les factures, par exemple le statut :
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -210,9 +210,9 @@ Il existe plusieurs critères de recherche pour retrouver une ligne de commande 
 
 - Onglet ''Communication''
 
-Cet onglet permet d'accéder à un outil de messagerie qui permet d'envoyer des mails au fournisseur (si une adresse a été renseignée dans le fiche fournisseur avec le type "demande / question") et de garder la trace des dfférents échanges, sous réserve de les consigner à cet endroit.
+Cet onglet permet d'accéder à un outil de messagerie qui permet d'envoyer des mails au fournisseur (si une adresse a été renseignée dans la fiche fournisseur avec le type "demande / question") et de garder la trace des dfférents échanges, sous réserve de les consigner à cet endroit.
 
-Attention, cette fonctionnalité est limitée puisqu'elle permet l'envoi mais pas la réception de messages. Ainsi, toutes les réponses du fournisseur, reçues par courriel via la messagerie classique ou par téléphone, doivent être restranscrites manuellement pour en conserver l'historique.
+<font inherit/inherit;;#c0392b;;inherit>Attention</font>, cette fonctionnalité est limitée puisqu'elle permet l'envoi mais pas la réception de messages. Ainsi, toutes les réponses du fournisseur, reçues par courriel via la messagerie classique ou par téléphone, doivent être restranscrites manuellement pour en conserver l'historique.
 
 <font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
 
@@ -319,6 +319,8 @@ Pour ajouter un contact, cliquez sur ''Ajouter un contact''  ; lorsqu'on ajoute 
 Puis cliquez sur ''Enregistrer''.
 
 == Supprimer une fiche ou un compte fournisseur ==
+
+(<font inherit/inherit;;#9b59b6;;inherit>on laisse ? car c'est dangereux d'expliquer comment faire ? dans la mesure où on peut rendre un fournisseur inactif, ça pourrait suffire, non ?!</font>)
 
 Il est possible de supprimer définitivement une fiche ou un compte fournisseur, à condition qu'aucune ligne de commande liée ne soit en cours.
 

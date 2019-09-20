@@ -1,17 +1,17 @@
-a:6:{s:2:"id";s:48:"condorcet-sp:permanence-ged-hors-les-murs:le-peb";s:6:"prefix";b:0;s:4:"text";s:2230:"<h1>Le PEB</h1>
+a:6:{s:2:"id";s:48:"condorcet-sp:permanence-ged-hors-les-murs:le-peb";s:6:"prefix";b:0;s:4:"text";s:2371:"<h1>Le PEB</h1>
 
 <div class="level1">
-<p>Le PEB permet aux lecteurs d&#39;obtenir des documents conserv&eacute;s dans d&#39;autres biblioth&egrave;ques fran&ccedil;aises (hormis les biblioth&egrave;ques franciliennes) et &eacute;trang&egrave;res. Pendant le GED hors les murs, seul le PEB demandeur est possible. Il est r&eacute;serv&eacute; aux r&eacute;sidents D+. Pendant la p&eacute;riode du GED hors les murs, il est gratuit. Cette mesure exceptionnelle est destin&eacute;e &agrave; compenser les difficult&eacute;s &eacute;ventuelles d&#39;acc&egrave;s &agrave; la documentation.</p>
+<p>Le PEB permet aux lecteurs d&#39;obtenir des documents conserv&eacute;s dans d&#39;autres biblioth&egrave;ques fran&ccedil;aises (hormis les biblioth&egrave;ques franciliennes) et &eacute;trang&egrave;res. Pendant le GED hors les murs, seul le PEB demandeur est possible. Il est r&eacute;serv&eacute; aux r&eacute;sidents D+. Pendant la p&eacute;riode du GED hors les murs, il n&#39;est pas factur&eacute; au. Cette mesure exceptionnelle est destin&eacute;e &agrave; compenser les difficult&eacute;s &eacute;ventuelles d&#39;acc&egrave;s &agrave; la documentation.</p>
 
-<p><span style="font-size:12pt">La demande de PEB se fait via le formulaire de demande g&eacute;n&eacute;rale, disponible sur le portail du Campus Condorcet.</span></p>
+<p><span style="color:#f1c40f"><span style="font-size:12pt">La demande de PEB se fait via le formulaire de demande g&eacute;n&eacute;rale, disponible sur le portail du Campus Condorcet</span></span>.</p>
 
-<p><span style="font-size:12pt">Le d&eacute;lai de r&eacute;ception varie selon le type de document, la provenance et le mode d&#39;acheminement. <span style="color:#c0392b;">(voir si a</span></span></p>
+<p><span style="color:#c0392b"><span style="font-size:12pt">Le d&eacute;lai de r&eacute;ception varie selon le type de document, la provenance et le mode d&#39;acheminement. (voir si alma g&egrave;re le peb ou si on fait un fichier excl pour suivre les demandes)</span></span></p>
 
 <p><span style="font-size:12pt">Les conditions de pr&ecirc;t (dur&eacute;e, pr&ecirc;t &agrave; domicile ou consultation, autorisation ou non de faire des photocopies) sont fix&eacute;es par la biblioth&egrave;que pr&ecirc;teuse. Elles doivent &ecirc;tre v&eacute;rifi&eacute;es au moment de la remise du document.</span></p>
 
-<p><span style="font-size:12pt">Le document est remis uniquement au lecteur qui a fait la demande de PEB, sur pr&eacute;sentation de sa carte d&rsquo;usager. Une prolongation peut &ecirc;tre demand&eacute;e par mail.</span></p>
+<p><span style="color:#f1c40f"><span style="font-size:12pt">Le document est remis uniquement au lecteur qui a fait la demande de PEB, sur pr&eacute;sentation de sa carte d&rsquo;usager</span></span>. Une prolongation peut &ecirc;tre demand&eacute;e par mail.</p>
 
-<p><span style="color:#e67e22"><span style="font-size:12.0pt">En cas de perte ou d&eacute;gradation, le remplacement ou le remboursement de l&#39;ouvrage est exig&eacute; (&agrave; qui ? au labo ?)</span></span></p>
+<p><span style="color:#e67e22"><span style="font-size:12.0pt">En cas de perte ou d&eacute;gradation, le remplacement ou le remboursement de l&#39;ouvrage est exig&eacute;.</span></span></p>
 
 <p><span style="font-size:12pt">Tarifs</span></p>
 
@@ -21,4 +21,4 @@ a:6:{s:2:"id";s:48:"condorcet-sp:permanence-ged-hors-les-murs:le-peb";s:6:"prefi
 
 <p><span style="color:#e67e22"><span style="font-size:12.0pt">Le nombre de demandes simultan&eacute;es est limit&eacute; &agrave; : combien ? par qui ? par chercheur ou par labo ? ou pas ?</span></span></p>
 </div>
-";s:6:"suffix";s:0:"";s:4:"date";i:1562326935;s:6:"client";s:7:"mhgatto";}
+";s:6:"suffix";s:0:"";s:4:"date";i:1568193084;s:6:"client";s:7:"mhgatto";}
