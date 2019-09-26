@@ -2,9 +2,9 @@
 
 <font 11pt/inherit;;inherit;;inherit>Sont communicables pendant la période du GED hors les murs les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes.</font>
 
-<font 11pt/inherit;;inherit;;inherit>La demande de consultation se fait via le formulaire dédié sur le site du Campus Condorcet. Elle fait l'objet d'une instruction en interne. Une fois cette demande instruite, une information est envoyée à l'ensemble des collègues particiapnt aux permanences.</font>
+<font 11pt/inherit;;inherit;;inherit>La demande de consultation se fait via le formulaire dédié sur le site du Campus Condorcet. Elle fait l'objet d'une instruction en interne. Une fois cette demande instruite, une information est envoyée à l'ensemble des collègues participant aux permanences.</font>
 
-Dans la salle de lecture, le personnel du GED en service public fait remplir une fiche d'incription et vérifie sa pièce d'identité.
+Dans la salle de lecture, le personnel du GED en service public fait remplir au lecteur une fiche d'incription et vérifie sa pièce d'identité.
 
 Il explique les règles de consultation et s’assure que celles-ci sont respectées.
 
@@ -15,7 +15,7 @@ Il explique les règles de consultation et s’assure que celles-ci sont respect
   * <font 11pt/inherit;;inherit;;inherit>Un bulletin de communication est rempli pour chaque entité communiquée,</font>
   * <font 11pt/inherit;;inherit;;inherit>Photographie autorisée sauf mention contraire (voir inventaire sur Calames).</font>
 
-<font 11pt/inherit;;inherit;;inherit>À la fin de la consultation,. selon les cas, le fonds est réacheminé au CTLES ou mis de côté pour une consultation ultérieure.</font>
+<font 11pt/inherit;;inherit;;inherit>À la fin de la consultation, selon les cas, le fonds est réacheminé au CTLES ou mis de côté pour une consultation ultérieure.</font>
 
 <font 11pt/inherit;;inherit;;inherit>À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.</font>
 

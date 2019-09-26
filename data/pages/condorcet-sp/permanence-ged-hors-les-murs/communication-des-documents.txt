@@ -4,7 +4,7 @@ La réservation des documents pour consultation ou emprunt se fait via le catalo
 
 Cet outil est mis à jour au fur et à mesure des déménagements des collections.
 
-Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai J+1 (jours ouvrable)
+Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai : 48 h.
 
 Les ouvrages sont mis de côté pendant 10 jours.
 

@@ -2,7 +2,7 @@
 
 ===== Le catalogue du Grand équipement documentaire =====
 
-<font 11pt/inherit;;inherit;;inherit>Documentation disponible :</font>[[https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:generalites:faire-une-recherche-dans-alma|https://outils-test.campus-condorcet.fr/dokuwiki/doku.php?id=condorcet:generalites:faire-une-recherche-dans-alma]]
+[[:condorcet:start|Documentation disponible]]
 
 <font 11pt/inherit;;inherit;;inherit>Important : les collections s'affichent au fur et à mesure des déménagements des structures documentaires. Pour connaître le calendrier des déménagements :</font><font inherit/inherit;;#f39c12;;inherit>lien</font>
 
@@ -12,15 +12,9 @@ Les établissements qui ne déménagent pas en phase 1 continuent de communiquer
 
 MH autres ?
 
-===== Le SID-chantier =====
-
-Donner des <font inherit/inherit;;#f39c12;;inherit>exemples</font> où il est intéressant d'interroger le SID chantier,
-
-<font inherit/inherit;;#f39c12;;inherit>MH lien, login et mot de passe</font>
-
 ===== Le Sudoc =====
 
-Permet de localiser un ouvrage ou un périodique qui n'est pas dans les collections du Grand équipement documentaire.
+[[http://www.sudoc.abes.fr/|Le catalogue du Système Universitaire de Documentation]] permet de localiser un ouvrage ou un périodique qui n'est pas dans les collections du Grand équipement documentaire.
 
 ===== Calames Campus Condorcet =====
 

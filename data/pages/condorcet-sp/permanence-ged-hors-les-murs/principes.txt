@@ -6,7 +6,7 @@
 
 ====== Horaires ======
 
-<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil du GED hors les murs sont prévues du **lundi au vendredi **de** 12 h 30 à 18 h 30.**</font>Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP. <font inherit/inherit;;#f1c40f;;inherit>Les uns comme les autres peuvent répondre aux questions des publics des deux institutions</font>.
+<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil du GED hors les murs sont prévues du **lundi au jeudi **de** 12 h 30 à 18 h 30. **L'accès aubâtiment de la MSH Paris nord (et de la bibliothèque) est possible jusqu'à 18 h. Les lecteurs peuvent rester dans la bibliothèque jusqu'à 18 h 30.</font>Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP. Les uns comme les autres peuvent avoir à répondre aux questions des publics des deux institutions.
 
 <font 11pt/inherit;;inherit;;inherit>L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, etc.)</font>
 
@@ -16,7 +16,7 @@
 
 <font 11pt/inherit;;inherit;;inherit>Pendant sa permanence, l’agent porte un badge qui rend explicite son rattachement au GED. De même, en répondant au téléphone, il se présente au nom de l’institution.</font>
 
-<font 11pt/inherit;;inherit;;inherit>L’agent doit, par son attitude, montrer sa disponibilité pour répondre aux demandes du public. Il informe, oriente, renseigne. Si la question est complexe, elle peut être traitée en différé</font><font 11pt/inherit;;#f39c12;;inherit>. (Il est important que le lecteur reparte en ayant le sentiment qu’une réponse a été apportée à sa demande, même si ce n’est pas celle qu’il attendait au départ. supprimer ?</font>)
+<font 11pt/inherit;;inherit;;inherit>L’agent doit, par son attitude, montrer sa disponibilité pour répondre aux demandes du public. Il informe, oriente, renseigne. Si la question est complexe, elle peut être traitée en différé</font><font 11pt/inherit;;inherit;;inherit>.</font>
 
 <font 11pt/inherit;;inherit;;inherit>Dans sa fonction d'accueil, l'agent a accès, notamment par le compte lecteur, à des données personnelles. Il est tenu de ne pas les communiquer.</font>
 

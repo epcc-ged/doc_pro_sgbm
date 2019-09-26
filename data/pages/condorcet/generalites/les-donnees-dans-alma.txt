@@ -1,30 +1,22 @@
-===== GENERALITES : LES DONNEES DANS ALMA =====
+===== GENERALITES : LES RESSOURCES DOCUMENTAIRES DANS ALMA =====
 
-==== Zone « Institution » et zone « Communauté » ====
+==== Zone « Institution » et zone de « Communauté » ====
 
-Dans Alma, on distingue deux zones différentes : la zone "Institution" et la zone "Communauté".
+Dans Alma, on distingue deux zones différentes : la zone "Institution" et la zone de "Communauté". La zone proposée par défaut est toujours celle de l'institution (= périmètre GED).
 
-<font inherit/inherit;;#1abc9c;;inherit>(tableau)</font>
+La zone "Institution" comprend l'ensemble des données du catalogue du GED composé :
 
-NB : la zone proposée par défaut est toujours celle de l'institution (= périmètre Condorcet)
+  * des notices de ressources physiques et électronique issues du SID chantier après le dernier chargement de décembre 2018
+  * des notices issues du Sudoc saisies entre le dernier export vers le SID chantier et la mise en production d'Alma
+  * des notices issues du travail de cataloguage et de mise à jour des données depuis la mise en production d'Alma (et bien sûr, par conséquent, ce qui arrive par le transfert régulier Sudoc).
 
-La zone "Institution" comprend :
+La zone dite de "Communauté" regroupe les notices de tous les établissements (en France et aileurs dans le monde) utilisant Alma, elle comporte donc des notices d'autorités, des notices bibliographiques et des notices de ressources électroniques. Cette zone peut ainsi servir de réservoir de notices pour les acquisitions de ressources imprimées ou électroniques, ainsi que pour l'activation de ressources libres. La zone de communauté met en général l'accent sur les ressources électroniques. Dans un premier temps, nous n'utiliserons pas la zone de communauté avant de déterminer plus précisément si nous voulons le faire et, en ce cas, à quelles fins.
 
-  * les notices de ressources imprimées et électronique issues du SID chantier après le dernier chargement de décembre 2018
-  * les notices issues du Sudoc saisies entre le dernier export vers le SID chantier et la mise en production d'Alma
-  * les notices de ressources électroniques issues de <font inherit/inherit;;#e74c3c;;inherit>?</font>
-
-La zone "Communauté" regroupe les notices de tous les établissements (en France et aileurs dans le monde) utilisant Alma, elle comporte donc des notices d'autorités, des notices bibliographiques et des notices de ressources électroniques. Cette zone peut ainsi servir de réservoir de notices pour les acquisitions de ressources imprimées ou électroniques, ainsi que pour l'activation de ressources libres.
-
-<font inherit/inherit;;#1abc9c;;inherit>(copie d'écran)</font>
-
-Nous verrons plus tard comment identifier la provenance et l'appartenanace d'une notice à l'une ou l'autre de ces zones.
-
-==== Structure des données ====
+==== Type de ressources documentaires gérées dans Alma ====
 
 === Ressources physiques : données bibliographiques et d'exemplaires ===
 
-(tableau)
+Vous pouvez trouver des informations détaillés sur ce sujet dans la rubrique sur [[:condorcet:signalement:start|le signalement.]]
 
 == Notice bibliographique ==
 
@@ -36,13 +28,15 @@ Format : Unimarc
 
 == Notice de holding ==
 
-Notice intermédiaire entre la notice bibliographique et les notices d'exemplaires pour les monographies et les périodiques imprimés. Elle regroupe les exemplaires d'une même "localisation", c'est-à-dire d'un même emplacement.
+Notice intermédiaire entre la notice bibliographique et les notices d'exemplaires pour les ressources physiques. Elle regroupe les exemplaires d'une même "localisation", c'est-à-dire d'un même emplacement physique, et d'une même cote.
 
 Cette notice contient les éléments communs à différents exemplaires : la localisation et la bibliothèque donc, mais aussi la cote des exemplaires qui lui sont rattachés.
 
 La notice de holding est parfois appelée notice de fonds ou de collection.
 
-Une notice bibliographique peut donc avoir plusieurs notices de holding, et une notice de holding peut avoir une ou plusieurs notices d'exemplaires qui lui sont liées.
+Une notice bibliographique peut donc avoir une ou plusieurs notices de holding, et une notice de holding peut avoir une ou plusieurs notices d'exemplaires qui lui sont liées.
+
+Format : Marc21
 
 == Notice d'exemplaire ==
 
@@ -50,21 +44,23 @@ Cette notice contient les informations spécifiques à chaque exemplaire, comme 
 
 Elle ne contient des informations sur les règles de prêt que dans le cas où les règles qui s'appliquent à cet exemplaire sont différentes de celles qui s'appliquent à la localisation à laquelle il appartient, par exemple un exemplaire exclu du prêt alors que la règle qui s'applique aux exemplaires de cette localisation autorise le prêt.
 
-=== Ressources électroniques ===
+Format : interne à Alma (écran de saisie //ad hoc//)
 
-(tableau)
+=== Ressources électroniques ===
 
 == Notice bibliographique ==
 
-Rappel : Alma regoupe à la fois les notices de documents électroniques catalogués dans Sudoc (livres, thèses…) et les notices bibliographiques des livres et périodiques électroniques issues de SFX .
+Même informations que ci-dessus pour les notices physiques.
 
 == Portfolio ==
 
-Terme pouvant être considéré comme l'équivalent de l'exemplaire pour les ressources électroniques. Il consiste en l'unité documentaire la plus "élémentaire". En l'occurrence, il contient les informations d'accès à la ressource telle que le lien URL, les éventuelles restrictions d'accès, la période de couverture, etc.
+Terme pouvant être considéré comme l'équivalent de l'exemplaire pour les ressources électroniques. Il consiste en l'unité documentaire la plus "élémentaire" pour ce qui est de la ressource électronique. En l'occurrence, il contient les informations d'accès à la ressource telle que le lien URL, les éventuelles restrictions d'accès, la période de couverture, etc.
 
 Un portfolio peut faire partie d'une collection ou être isolé (par exemple, le porfolio d'un livre électronique acheté en dehors de tout bouquet).
 
 Pour un même établissement, il peut y avoir plusieurs porfolios rattachés à un même titre électronique ; c'est le cas par exemple lorsqu'un titre appartient à plusieurs bouquets souscrits par l'établissement.
+
+On peut ajouter les informations suivantes qui sont dans Alma pour décrire les ressources électroniques :
 
 == Collection électronique ==
 

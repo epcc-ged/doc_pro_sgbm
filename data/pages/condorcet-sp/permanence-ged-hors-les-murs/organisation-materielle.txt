@@ -16,20 +16,12 @@ nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. Tél : numér
 
   * un badge GED Campus Condorcet
   * un ordinateur portable,
-  * un téléphone portable,
-  * <font inherit/inherit;;#f39c12;;inherit>une platine RFID</font><font inherit/inherit;;#f39c12;;inherit>à supprimer ,</font>  * un registre de consultation des archives, (dématérialisé ?)
+  * un téléphone portable : 06 98 56 35 76, code 0000
+  * un dossier archives pour l'inscription des lecteurs et les demandes de consultation
   * un cahier des lecteurs (MH QUI LE CONSULTE ET Y REPOND ?)
   * du petit matériel pour dépanner les lecteurs.
 
-Ainsi que des outils plus spécialisés :
-
-  * un lecteur scanner de microforme (achat ?).Mode d'emploi
-  * une visionneuse de diapositives (achat ?)
-  * une machine à lire (achat ?) mode d'emploi
-  * une boucle magnétique (achat?) Mode d'emploi
-  * une loupe (achat)
-
 <font 11pt/inherit;;inherit;;inherit>Ces équipements sont stockés sur les étagères mises à disposition par l'EHESP dans le local du fond. Penser à recharger les batteries des différents appareils électriques !</font>
 
-<font 11pt/inherit;;inherit;;inherit>Les agents ont également accès au planning hebdomadaire, à l’annuaire du Campus Condorcet, au calendrier des déménagements des collections.</font><font 11pt/inherit;;#e67e22;;inherit>mettre des liens qui s'actualisent</font>
+Les agents ont également accès au planning hebdomadaire, à l’annuaire du [[https://partages.campus-condorcet.fr/library/a53aab55-1119-4845-8b53-cade5a75792f/CC - Ressources Humaines - Tous/Organigramme EPCC|Campus Condorcet]], au calendrier des déménagements des collections. <font 11pt/inherit;;#e67e22;;inherit>mettre des liens qui s'actualisent</font>
 

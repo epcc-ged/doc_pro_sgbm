@@ -2,162 +2,90 @@
 
 ==== Se connecter à Alma ====
 
-Alma est un système de gestion hébergé sur les serveurs du fournisseur Ex Libris. Il est utilisable depuis un navigateur Internet. Pour s’y connecter, utiliser le lien suivant : <font inherit/inherit;;#e74c3c;;inherit>XXX</font>
+Alma est un système de gestion hébergé sur les serveurs du fournisseur Ex Libris. Il est utilisable depuis un navigateur internet (nous vous recommandons d'utiliser Firefox ou Chrome). Pour s’y connecter, utiliser le lien suivant : [[https://campus-condorcet.alma.exlibrisgroup.com|https://campus-condorcet.alma.exlibrisgroup.com]].
 
-Les identifiant et mot de passe pour se connecter sont ceux que vous utilisez habituellement pour aller sur <font inherit/inherit;;#e74c3c;;inherit>l’Intranet réseau ou l’ENT de votre établissement.</font>
+Les identifiant et mot de passe pour se connecter sont ceux qui sont les vôtres dans le référentiel d'identité du Campus Condorcet. (Remarque : lors de la phase de mise en production d'Alma, il se peut que nous ayons besoin dans certains cas d'utiliser un identifiant interne à Alma.)
 
-Veuillez noter que la déconnexion est automatique après <font inherit/inherit;;#e74c3c;;inherit>30 min</font> sans action.
+Veuillez noter que la déconnexion est automatique après 60 minutes sans aucune action dans Alma.
+
+==== Ecran de travail dans Alma ====
+
+Une fenêtre Alma s'affiche dans un navigateur internet (Firefox, Chrome). On peut l'analyser en trois parties :
+
+  - Une barre de menus qui sera toujours visible ;
+  - Une barre de recherche qui sera quasiment toujours visible ;
+  - Une zone de travail ou de consultation des informations.
+
+L'image ci-dessous indique ces trois parties de l'écran selon le numéro (1, 2, 3) indiqué dans la liste ci-dessus :
+
+{{  :condorcet:generalites:ecranalma.jpg?nolink&  |ecranalma.jpg}}
+
+Les menus de la barre de menus comportent un certain nombre d'actions proposées à l'utilisateur. La liste des actions (ou fonctionnalités) est fonction de deux paramètres :
+
+  - Les rôles associés à l'utilisateur. Ces rôles sont attribués à l'utilisateur lors de la création de son compte et peuvent être modifiés par la suite par un administrateur. Les rôles correspondent aux actions possibles à l'utilisateur ;
+  - La localisation de l'utilisateur, comme nous allons le voir ci-dessous.
 
 ==== Se localiser dans Alma ====
 
-Les fonctionnalités proposées sont déterminées par les **rôles **qui vous ont été attribués. Certaines de ces fonctionnalités sont associées à des localisations, bureau de prêt ou <font inherit/inherit;;#e74c3c;;inherit>département d’acquisition</font> : elles ne sont pas proposées si vous ne vous êtes pas préalablement localisé.
+Comme indiqué ci-dessus, les fonctionnalités proposées sont déterminées non seulement par les rôles qui vous ont été attribués mais également par la localisation qui est la vôtre.
 
-A chaque connexion, vous êtes donc invité à choisir un bureau de prêt ou un <font inherit/inherit;;#e74c3c;;inherit>département d’acquisition</font>, en fonction de vos rôles.
+En effet, certaines de ces fonctionnalités sont //associées //à des localisations : bureau de prêt ou département. Un fonctionnalité associée à telle ou telle localisation ne sera accessible que si l'utilisateur se localise dans l'une de ces localisations. Sinon, elle ne sera pas visible même si l'utilisateur a un rôle suffisant pour la voir. //Il est donc essentiel de vous localiser au moment de votre connexion à Alma. //
 
-<font inherit/inherit;;#16a085;;inherit>(capture d'écran)</font>
+La liste des localisations possibles à un utilisateur est fonction des rôles qui sont les siens. Par exemple, si tel est le paramétrage, on peut imaginer que celui qui n'a de rôle relatif aux acquisitions ne pourra pas se localiser dans le département des acquisitions.
 
-Veuillez noter que cette liste peut être différente en fonction des rôles que vous aurez dans Alma.
+Si vous n'êtes pas localisé, Alma vous invitera lors de votre connexion à choisir une localisation. Alma n'indiquera que les localisations possibles selon vos rôles. Alma conserve d'une connexion à l'autre la dernière localisation que vous avez indiqué.
 
-====\\
-Page d’accueil d’Alma ====
+La localisation se paramètre dans la partie "barre de menus" de l'écran, à droite : dans l'image ci-dessus, on voit ainsi affiché "Grand Equipement Documentaire - Accueil". L'utilisateur est localisation à l'accueil du GED. Il faut faire plusieurs remarques à ce sujet :
 
-=== Vue générale ===
+  * Par défaut, Alma n'affiche pas la localisation en toutes lettres mais l'icône {{:condorcet:generalites:icone_localisation.jpg?nolink&44x48|icone_localisation.jpg}};
+  * Pour se localiser, on clique sur cette icône et Alma affiche une liste déroulante des localisations possibles. Par exemple :
 
-Après la connexion, vous êtes dirigé automatiquement vers la page d’accueil.
+{{:condorcet:generalites:liste_localisation.jpg?nolink&491x262|liste_localisation.jpg}}
 
-Cette page se découpe en différentes zones. L’affichage de certaines d’entre elles est personnalisable, notamment la partie basse où vous pouvez choisir un certain nombre de widgets.
+  * On peut faire afficher la localisation en toutes lettres en cliquant sur la case à cocher suivante : {{:condorcet:generalites:affiche_toujours_localisation.jpg?nolink&299x49|affiche_toujours_localisation.jpg}}. Alma conserve en mémoire ce choix d'une connexion à l'autre. Si vous préférez finalement l'icône, il suffit de décocher cette case.
 
-(<font inherit/inherit;;#1abc9c;;inherit>capture d'écran)</font>
+Remarque : par conséquent, si en vous connectant, vous ne voyez pas une fonctionnalité dans un menu alors que vous savez que vous y avez accès, pensez à vérifier votre localisation.
 
-  * Menu permanent
+==== Les menus ====
 
-Chaque page Alma a le même en-tête appelé **Menu permanent**
-  * **Barre de recherche**  permanente
-Apparaît toujours sous le Menu permanent de chaque page
+La barre de menus comporte quatre segments distincts de gauche à droite :
 
-  * Message de bienvenue
+1. Le logo de l’institution
 
-Inclut votre nom d'utilisateur et la date
+2. L'étoile, symbole du lien vers les favoris. Voir plus bas pour les modalités de configuration des Favoris
 
-  * Message de maintenance
-
-Informations affichées par Alma sur des changements de version et des mises à jour. Cet encart peut être supprimé
-
-  * Historique
-
-Affiche les pages d’Alma les plus utilisées lors de vos sessions précédentes, permet un accès direct à ces pages
-
-  * Widgets
-
-L’affichage des widgets est paramétrable (voir plus loin)
-
-NB : veuillez noter dès maintenant que la navigation dans Alma se fait avec les **boutons du logiciel**. N’utilisez pas les flèches de votre navigateur, mais uniquement les flèches de navigation d’Alma.
-
-Il est aussi recommandé d’autoriser les pop-ups pour Alma.
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-=== === \\
-Menu permanent
-
-Ce menu comporte 4 segments distincts de gauche à droite :
-
-1. Le **logo **de l’institution
-
-2. L'étoile, symbole du **Lien vers les Favoris**
-
-Voir plus bas pour les modalités de configuration des Favoris
-
-3. La barre de navigation du **Menu principal**
-
-Ce menu permet de naviguer dans Alma et d’accéder aux sous-menus.
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-En fonction de vos rôles, vous accéderez aux menus suivants, ainsi qu’à tout ou partie de leurs sous-menus :
+3. Le menu principal. Ce menu permet de naviguer dans Alma et d’accéder aux sous-menus. Comme indiqué précédemment, en fonction de vos rôles, vous accéderez aux menus suivants, ainsi qu’à tout ou partie de leurs sous-menus :
 
   * Acquisitions : achat de ressources
   * Ressources : accès aux fonctions de catalogage, d’exemplarisation et d’activation des ressources électroniques
   * Services aux usagers : accès aux fonctions de prêt, de retour et d’inscription
+  * Découvertes : accès a des fonctions de paramétrages de l'outil de découverte
   * Admin : accès à des fonctions relevant de l’administration générale du système
   * Analytique : accès à un tableau de bord avec listes et statistiques
 
-4. Les **icônes **du Menu permanent
+4. Les icônes :
 
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-  * Icône localisation : sélection du bureau de prêt ou du <font inherit/inherit;;#e74c3c;;inherit>département</font>, la liste varie en fonction des rôles attribués.
-
-NB : l’emplacement actuel n’apparaît pas par défaut, il faut le cocher pour l’afficher.
-
-Exemple :
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-  * <font inherit/inherit;;#e74c3c;;inherit>Icône de connexion à la RFID</font>. Attention, n’est utile qu’aux bibliothèques équipées de RFID. Sinon, cette icône doit être laissée désactivée comme dans l’illustration précédente.
-
-{{:condorcet:generalites:logo_perso.jpg?nolink&|logo_perso.jpg}}
-
-  * Icône utilisateur : votre nom apparaît, avec un lien vers votre fiche usager.
-
-Cette icône vous permet de configurer la taille de la police, et aussi de vous déconnecter pour quitter la session.
-
-{{:condorcet:generalites:liste_taches.jpg?nolink&57x64|liste_taches.jpg}}
-
+  * Icône localisation : voir ci-dessus
+  * Icône utilisateur (forme de buste) : en cliquant dessus, vous pourrez accéder à votre compte utilisateur, changer votre langue de travail et quelques autres actions pour configurer la taille de la police, et aussi de vous déconnecter pour quitter la session.
   * Icône liste des tâches : indique le type de tâches et le nombre. Chaque ligne est cliquable.
+  * Icône configuration d’Alma (roue dentée d'engrenage).
+  * Icône aide en ligne (point d'interrogation).
 
-Par exemple :
+==== La barre de recherche ====
 
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-{{:condorcet:generalites:configuration.jpg?nolink&|configuration.jpg}}
-
-  * Icône configuration d’Alma
-
-{{:condorcet:generalites:aide_en_ligne.jpg?nolink&|aide_en_ligne.jpg}}
-
-  * Icône aide en ligne
-
-=== \\
-Barre de recherche permanente ===
-
-Cette barre de recherche apparaît sous le Menu permanent, et figure sur toutes les pages.
+Cette barre de recherche apparaît dans (quasiment) toutes les pages.
 
 {{:condorcet:generalites:barre_recherche_simple.jpg?nolink&|barre_recherche_simple.jpg}}
 
-Par défaut c’est la recherche simple qui est proposée, avec pour périmètre de recherche l’Institution, c’est-à-dire l'ensemble du réseau Condorcet.
+Par défaut c’est la //recherche simple //qui est proposée, avec pour périmètre de recherche l’Institution, c’est-à-dire l'ensemble des collections du GED. C'est l'icône de la maison qui indique qu'on a pour périmètre l'institution. L'autre périmètre disponible est la zone de communauté. C'est une zone créée et maintenue par ExLibris à partir de données reçues des éditeurs et des données des différents clients d'ExLibris. La zone de communauté se concentre essentiellement sur les ressources électroniques. Dans un premier temps nous ne l'utiliserons pas mais on pourrait imaginer plus tard l'utiliser pour trouver des titres à acquérir (par exemple).
 
 {{:condorcet:generalites:deux_zones_de_recherche.jpg?nolink&|deux_zones_de_recherche.jpg}}
 
-La recherche avancée permet de combiner différents critères de recherche, d’utiliser des opérateurs booléens et de modifier la zone de recherche (Zone Institution ou Communauté).
+La //recherche avancée //permet de combiner différents critères de recherche, d’utiliser des opérateurs booléens. Certaines critères ne sont disponibles que dans la recherche avancée.
 
 {{:condorcet:generalites:recherche_avancee.jpg?nolink&|recherche_avancee.jpg}}
 
-=== \\
-Widgets Alma ===
-
-Les widgets sont de petites fenêtres disponibles en fonction de votre rôle dans Alma. Vous pouvez afficher ou supprimer des widgets depuis votre page d’accueil Alma.
-
-Le contenu et la disponibilité des widgets sont configurables au niveau de l’administration d’Alma.
-
-  * Pour afficher les widgets :
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-Le bouton ''Gérer les widgets''  permet d’afficher le tableau des widgets disponibles pour vous à l’instant T :
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-Dans la liste proposée, sélectionner ou décocher le widget souhaité.
-
-  * Pour supprimer un widget :
-
-Sélectionner ''Supprimer ''dans le menu déroulant en haut à droite du widget.
-
-<font inherit/inherit;;#1abc9c;;inherit>(capture d'écran)</font>
-
-=== \\
-Configuration des favoris ===
+==== Configuration des favoris ====
 
 Vous pouvez sélectionner des favoris en cliquant sur l'étoile devant le nom des fonctions dans tous les menus. De le même manière, vous pouvez désactiver ces fonctions de la liste des favoris en recliquant sur l'étoile.
 
@@ -171,5 +99,5 @@ Pour retourner au Menu permanent, cliquez sur les trois barres parallèles.
 
 {{:condorcet:generalites:retour_favoris.jpg?nolink&|retour_favoris.jpg}}
 
-NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Certains favoris ne sont donc proposés que lorsque vous êtes dans une banque de prêt ; d’autres quand vous êtes au <font inherit/inherit;;#e74c3c;;inherit>Département acquisitions</font>.
+NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Comme la liste des fonctionnalités dans les menus, la liste des fonctionnalités dans les favoris s'adaptent donc à la localisation choisie. Notez également que vous pouvez rechercher dans tous ces menus pour retrouver la fonctionnalité que vous cherchez.
 
