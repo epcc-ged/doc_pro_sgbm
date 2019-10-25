@@ -1,0 +1,211 @@
+<a name="condorcetcirculationregles-de-pret-et-de-renouvellement__"></a>
+<h2><bookmark content="CIRCULATION : CATEGORIES D&#039;USAGERS, REGLES DE PRET ET RAPPELS" level="1" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__circulationcategories_d_usagers_regles_de_pret_et_rappels">CIRCULATION : CATEGORIES D&#039;USAGERS, REGLES DE PRET ET RAPPELS</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Catégories d&#039;usagers" level="2" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__categories_d_usagers">Catégories d&#039;usagers</a></h3>
+<div class="level3">
+
+<p>
+Au Campus Condorcet, les durées de prêt dans Alma sont fonction de la catégorie à laquelle appartient le lecteur.
+</p>
+
+<p>
+Les catégories sont les suivantes :
+</p>
+<ul>
+<li class="level1"><div class="li"> CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. Inclus les personnels du Campus Condorcet. Ces comptes sont pré-chargés dans Alma par le référentiel d&#039;identité, et ne devraient pas être créés à la main.</div>
+</li>
+<li class="level1 node"><div class="li"> CU2 : Résidents M : masterants résidents du Campus venant des établissements membres, càd :</div>
+<ul>
+<li class="level3"><div class="li"> Masters de l&#039;IHEAL (Paris 3): la liste des étudiants est disponible sur le poste de service public</div>
+</li>
+<li class="level3"><div class="li"> Masters d&#039;Histoire de Paris 1 : mention UFR09 sur la carte d&#039;étudiant</div>
+</li>
+<li class="level3"><div class="li"> Masters de Géographie de Paris 1 : mention UFR08 sur la carte d&#039;étudiant</div>
+</li>
+<li class="level3"><div class="li"> Masters de l&#039;EPHE</div>
+</li>
+<li class="level3"><div class="li"> Masters de l&#039;EHESS</div>
+</li>
+<li class="level3"><div class="li"> Masters de l&#039;ENC</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> CU3 : Chercheurs membres non résidents : chercheurs non résidents venant des établissements membres</div>
+</li>
+<li class="level1"><div class="li"> CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres</div>
+</li>
+<li class="level1"><div class="li"> CU5 : M+ non-membres : masterants, doctorants ou chercheurs et autres profils académiques venant d&#039;un établissement non-membre</div>
+</li>
+<li class="level1"><div class="li"> CU6 : Autres : personnes ne venant pas d&#039;un établissement membre et n&#039;ayant pas de profil académique, ou étudiant de niveau L.</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Droits de prêt" level="2" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__droits_de_pret">Droits de prêt</a></h3>
+<div class="level3">
+
+<p>
+A partir de ces catégories de lecteurs, on pose les droits de prêt suivants :
+</p>
+<div class="table sectionedit1"><table class="inline">
+	<thead>
+	<tr class="row0">
+		<th class="col0">Catégorie d&#039;usager</th><th class="col1 rightalign">  Nombre de documents prêtables simultanément</th><th class="col2">Durée initiale du prêt (jours)</th><th class="col3">Durée maximale du prêt (jours</th><th class="col4">Période au bout de laquelle le prêt devient rappelable (jours)</th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<th class="col0">CU1 Résidents D+</th><td class="col1">30</td><td class="col2">60</td><td class="col3">365</td><td class="col4">30</td>
+	</tr>
+	<tr class="row2">
+		<th class="col0">CU2 Résidents M</th><td class="col1">20</td><td class="col2">30</td><td class="col3">30</td><td class="col4">14</td>
+	</tr>
+	<tr class="row3">
+		<th class="col0">CU3 Chercheurs membres non résidents</th><td class="col1">10</td><td class="col2">60</td><td class="col3">365</td><td class="col4">30</td>
+	</tr>
+	<tr class="row4">
+		<th class="col0">CU4 Etudiants M+ membres non résidents</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row5">
+		<th class="col0">CU5 M+ non-membres</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+	<tr class="row6">
+		<th class="col0">CU6 Autres</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
+	</tr>
+</table></div>
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:1,&quot;range&quot;:&quot;1592-2008&quot;} -->
+<p>
+Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
+</p>
+
+<p>
+La date de retour est assortie d’une heure limite de retour, qui correspond, par défaut, à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
+</p>
+
+<p>
+Il n&#039;y a pas de délai de grâce par rapport à la date de retour.
+</p>
+
+<p>
+Ces deux dernières particularités (retour repoussé au prochain jour ouvré et date de retour assortie d’une heure de retour) s’expliquent par le fait que les calendriers et heures d’ouverture et de fermeture doivent être détaillés bibliothèque par bibliothèque dans Alma. Ne rien renseigner provoquerait des effets de bord, à commencer par des retours fixés en période de fermeture des bibliothèques.
+</p>
+
+</div>
+
+<h3><bookmark content="Exceptions de circulation" level="2" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__exceptions_de_circulation">Exceptions de circulation</a></h3>
+<div class="level3">
+
+<p>
+Le principe au GED est que tous les documents du libre-accès ou au CTLES sont prêtables.
+</p>
+
+<p>
+Néanmoins, quelques exceptions existent :
+</p>
+<ul>
+<li class="level1"><div class="li"> les nouveautés (monographies, périodiques) ne sont pas prêtables</div>
+</li>
+<li class="level1"><div class="li"> les usuels ne sont pas prêtables</div>
+</li>
+<li class="level1"><div class="li"> Les documents de la réserve ne sont pas prêtables. De plus, ils doivent être consultés dans une salle réservée à cet effet.</div>
+</li>
+</ul>
+
+<p>
+Il existe une exception générique “autre exception de prêt” qui permet au besoin d&#039;exclure un document du prêt.
+</p>
+
+</div>
+
+<h3><bookmark content="Gestion des retours et des rappels anticipés" level="2" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__gestion_des_retours_et_des_rappels_anticipes">Gestion des retours et des rappels anticipés</a></h3>
+<div class="level3">
+
+<p>
+On désigne par rappel anticipé, la demande adressée à un lecteur ayant emprunté un document de retourner le-dit document avant la date de retour normalement déterminée au moment du prêt.
+</p>
+
+<p>
+Pour un retour normal, Alma se charge généralement de signaler automatiquement au lecteur qu&#039;il doit rapporter le document en procédant à l&#039;envoi d&#039;un message à cette fin. Ce traitement est fait en temps réel.
+</p>
+
+<p>
+Lorsqu&#039;un document est prêté, Alma est théoriquement susceptible d&#039;envoyer les messages suivants :
+</p>
+<ul>
+<li class="level1"><div class="li"> une lettre de courtoisie pour rappeler au lecteur que la date de retour du document prêté approche</div>
+</li>
+<li class="level1"><div class="li"> une lettre de rappel envoyée le jour du retour</div>
+</li>
+<li class="level1"><div class="li"> une lettre de relance lorsque le document n&#039;est pas rendu et est en retard. Selon le paramétrage, plusieurs lettres de ce type pourront être envoyés selon une périodicité à définir</div>
+</li>
+<li class="level1"><div class="li"> une lettre de facturation informant l&#039;usager qu&#039;il doit rembourser un livre jamais rendu ou payer une amende suite au retard</div>
+</li>
+</ul>
+
+<p>
+Dans notre cas, qu&#039;il s&#039;agisse d&#039;un retour normal ou d&#039;un rappel non honorés, le retard n&#039;entraîne pas de paiement d&#039;une amende avant la cinquième relance.
+</p>
+
+<p>
+Un document perdu génère une facture forfaitaire de 100€ sur le compte du lecteur. Elle peut être levée si l&#039;usager remplace le document.
+</p>
+
+<p>
+Le cycle de relance quand le document n&#039;est pas rendu à temps est le suivant (jours calendaires) :
+</p>
+<ul>
+<li class="level1"><div class="li"> Première relance : après 3 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Deuxième relance : après 17 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Troisième relance : après 30 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Quatrième relance : après 90 jours de retard</div>
+</li>
+<li class="level1"><div class="li"> Cinquième relance : après 180 jours de retard.</div>
+</li>
+</ul>
+
+<p>
+Après la cinquième relance, le document est considéré comme perdu.
+</p>
+
+</div>
+
+<h5><bookmark content="Rappel anticipé" level="3" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__rappel_anticipe">Rappel anticipé</a></h5>
+<div class="level5">
+
+<p>
+Le rappel anticipé consiste à demander au lecteur de rapporter un document avant la date de retour qui avait été calculée lors du prêt. Le lecteur dispose de trente jours à compter de la date du rappel anticipé pour rapporter le document.
+</p>
+
+</div>
+
+<h3><bookmark content="Blocage du compte lecteur" level="2" /><a name="condorcetcirculationregles-de-pret-et-de-renouvellement__blocage_du_compte_lecteur">Blocage du compte lecteur</a></h3>
+<div class="level3">
+
+<p>
+Le compte d&#039;un lecteur peut être bloqué si au moins l&#039;un des cas suivants arrive sur son compte :
+</p>
+<ul>
+<li class="level1"><div class="li"> Le lecteur a un document en retard et ne l&#039;a pas rapporté après la cinquième relance. Dès que cette cinquième relance est émise, son compte est bloqué.</div>
+</li>
+<li class="level1 node"><div class="li"> Le lecteur a plusieurs documents en retard simultanément :</div>
+<ul>
+<li class="level3"><div class="li"> Si le lecteur est dans la catégorie CU1 alors si cinq documents empruntés sont en retard simultanément et ce qu&#039;il s&#039;agisse d&#039;un retour normal non honoré à temps ou d&#039;un rappel anticipé de document non honoré dans la période de trente jours dans lequel le rappel doit être effectué, alors son compte est bloqué quel que soit l&#039;avancement du processus de relance pour chacun des documents.</div>
+</li>
+<li class="level3"><div class="li"> Si le lecteur est dans la catégorie CU2 ou CU3, le cas est le même que pour CU1 mais à compter de deux documents en retard simultanément.</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+<br/>
+
+</p>
+
+</div>

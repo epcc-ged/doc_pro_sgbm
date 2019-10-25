@@ -1,0 +1,17 @@
+<a name="wikicirculationintroduction-et-recherche__"></a>
+<p>
+Connexion à Alma pour le catalogage
+Organisation des données. Rappel
+</p>
+
+<p>
+Dans Alma, les données de signalement sont découpées en trois “couches” :
+</p>
+<ul>
+<li class="level1"><div class="li"> Les “métadonnées descriptives” décrivent un document. La notice bibliographiquecorrespond à ce niveau dans Alma.</div>
+</li>
+<li class="level1"><div class="li"> Le “niveau intermédiaire” est un regroupement entre différentes instanciations du même titre. Ce niveau n&#039;a pas la même forme selon qu&#039;on parle de ressources physiques, électroniques ou numériques.</div>
+</li>
+<li class="level1"><div class="li"> Le niveau “inventaire” contient les informations du document au sens de l&#039;objet constituant le document recherché en tant que porteur de l&#039;information. Par exemple : un exemplaire donné, un fichier donné, une revue électronique donnée.</div>
+</li>
+</ul>

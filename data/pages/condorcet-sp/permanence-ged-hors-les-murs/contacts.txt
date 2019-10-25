@@ -1,10 +1,12 @@
 ====== Contacts ======
 
-<font 11pt/inherit;;inherit;;inherit>En cas d’absence imprévue de l'agent :</font>
+Absence imprévue et de dernier moment en SP : Marie-Hélène 01 55 93 **93 17**, Aurélie 01 55 93 **93 86** ou Sandrine 01 55 93 **93 47**
 
-<font 11pt/inherit;;inherit;;inherit>En cas de problème informatique :</font>
+Alma, Primo : Jérôme 01 55 93 **93 67** ou Nicolas 01 55 93 **93 41**
 
-<font 11pt/inherit;;inherit;;inherit>En cas de problème lié au bâtiment : nettoyage</font>
+<font 11pt/inherit;;inherit;;inherit>Problème informatique :</font> [[assistance.informatique@campus-condorcet.fr|]]
 
-<font 11pt/inherit;;inherit;;inherit>En cas de malaise d'un lecteur :</font>
+<font 11pt/inherit;;inherit;;inherit>Problème lié au bâtiment : Marie-Hélène</font> 01 55 93 **93 17, **Aurélie 01 55 93 **93 86**
+
+Objet de valeur oublié : le confier à l'agent de sécurité de la MSH Paris Nord
 

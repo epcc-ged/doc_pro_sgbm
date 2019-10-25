@@ -1,9 +1,9 @@
-a:6:{s:2:"id";s:65:"condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle";s:6:"prefix";b:0;s:4:"text";s:2261:"<h1>Organisation mat&eacute;rielle</h1>
+a:6:{s:2:"id";s:65:"condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle";s:6:"prefix";b:0;s:4:"text";s:2467:"<h1>Organisation mat&eacute;rielle</h1>
 
 <div class="level1">
 <p><span style="font-size:11pt">Les permanences d&#39;accueil du GED hors les murs ont lieu dans la biblioth&egrave;que du rez-de-jardin de la MSH Paris Nord.</span></p>
 
-<p><span style="font-size:11pt">Les clefs de la salle de lecture sont &agrave; retirer et &agrave; restituer &agrave; l&rsquo;accueil du b&acirc;timent &agrave; l&rsquo;ouverture et &agrave; la fermeture.</span></p>
+<p><span style="font-size:11pt">Les clefs de la salle de lecture sont &agrave; retirer et &agrave; remettre dans le coffre &agrave; cl&eacute;s du 1er &eacute;tage &agrave; l&rsquo;ouverture et &agrave; la fermeture.</span></p>
 
 <pre class="code">
 nicomo : t&eacute;l / contact accueil P13 pour r&eacute;cup&eacute;rer les cl&eacute;s si probl&egrave;me?
@@ -27,15 +27,16 @@ nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. T&eacute;l : 
 
 <ul>
 	<li class="level1">un badge GED Campus Condorcet</li>
-	<li class="level1">un ordinateur portable,</li>
-	<li class="level1">un t&eacute;l&eacute;phone portable : 06 98 56 35 76,</li>
+	<li class="level1">un ordinateur portable, session GED Accueil/ mot de passe : Campus2019!</li>
+	<li class="level1">un t&eacute;l&eacute;phone portable : 06 98 56 35 76, code 2093</li>
 	<li class="level1">un dossier archives pour l&#39;inscription des lecteurs et les demandes de consultation</li>
-	<li class="level1">un cahier des lecteurs (MH QUI LE CONSULTE ET Y REPOND ?)</li>
+	<li class="level1">un dossier Pi&egrave;ves d&#39;identit&eacute;</li>
+	<li class="level1">un cahier de transmission</li>
 	<li class="level1">du petit mat&eacute;riel pour d&eacute;panner les lecteurs.</li>
 </ul>
 
-<p><span style="font-size:11pt">Ces &eacute;quipements sont stock&eacute;s sur les &eacute;tag&egrave;res mises &agrave; disposition par l&#39;EHESP dans le local du fond. Penser &agrave; recharger les batteries des diff&eacute;rents appareils &eacute;lectriques !</span></p>
+<p><span style="font-size:11pt">Ces &eacute;quipements sont stock&eacute;s dans le. Penser &agrave; recharger les batteries des diff&eacute;rents appareils &eacute;lectriques !</span></p>
 
-<p>Les agents ont &eacute;galement acc&egrave;s au planning hebdomadaire, &agrave; l&rsquo;annuaire du <a class="urlextern" href="https://partages.campus-condorcet.fr/library/a53aab55-1119-4845-8b53-cade5a75792f/CC - Ressources Humaines - Tous/Organigramme EPCC" rel="nofollow" title="https://partages.campus-condorcet.fr/library/a53aab55-1119-4845-8b53-cade5a75792f/CC - Ressources Humaines - Tous/Organigramme EPCC">Campus Condorcet</a>, au calendrier des d&eacute;m&eacute;nagements des collections. <span style="color:#e67e22"><span style="font-size:11pt">mettre des liens qui s&#39;actualisent</span></span></p>
+<p>Les agents ont &eacute;galement acc&egrave;s au planning hebdomadaire sur zimbra, &agrave; l&rsquo;annuaire du <a class="urlextern" href="https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/Annuaire EPCC_ septembre 2019-1.xlsx" rel="nofollow" title="https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/Annuaire EPCC_ septembre 2019-1.xlsx">Campus Condorcet</a>, au <a class="urlextern" href="https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/GED_Trombinoscope.pdf" rel="nofollow" title="https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/GED_Trombinoscope.pdf">trombinoscope du GED</a>, au calendrier des d&eacute;m&eacute;nagements des collections (&agrave; venir).</p>
 </div>
-";s:6:"suffix";s:0:"";s:4:"date";i:1569405265;s:6:"client";s:7:"mhgatto";}
+";s:6:"suffix";s:0:"";s:4:"date";i:1571660279;s:6:"client";s:7:"mhgatto";}

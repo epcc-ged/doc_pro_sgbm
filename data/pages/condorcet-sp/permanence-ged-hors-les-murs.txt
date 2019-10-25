@@ -14,6 +14,5 @@
   - Réponses à distance
   - Accessibilité
   - [[:condorcet-sp:permanence-ged-hors-les-murs:procedures-de-securite|Procédures de sécurité]]
-  - [[:condorcet-sp:permanence-ged-hors-les-murs:objets-trouves-vols|Objets trouvés / vols]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:contacts|Contacts]]
 

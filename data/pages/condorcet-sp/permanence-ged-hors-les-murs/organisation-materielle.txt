@@ -2,7 +2,7 @@
 
 <font 11pt/inherit;;inherit;;inherit>Les permanences d'accueil du GED hors les murs ont lieu dans la bibliothèque du rez-de-jardin de la MSH Paris Nord.</font>
 
-<font 11pt/inherit;;inherit;;inherit>Les clefs de la salle de lecture sont à retirer et à restituer à l’accueil du bâtiment à l’ouverture et à la fermeture.</font>
+<font 11pt/inherit;;inherit;;inherit>Les clefs de la salle de lecture sont à retirer et à remettre dans le coffre à clés du 1er étage à l’ouverture et à la fermeture.</font>
 
 <code>
 nicomo : tél / contact accueil P13 pour récupérer les clés si problème?
@@ -15,13 +15,14 @@ nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. Tél : numér
 </code>
 
   * un badge GED Campus Condorcet
-  * un ordinateur portable,
-  * un téléphone portable : 06 98 56 35 76, code 0000
+  * un ordinateur portable, session GED Accueil/ mot de passe : Campus2019!
+  * un téléphone portable : 06 98 56 35 76, code 2093
   * un dossier archives pour l'inscription des lecteurs et les demandes de consultation
-  * un cahier des lecteurs (MH QUI LE CONSULTE ET Y REPOND ?)
+  * un dossier Pièves d'identité
+  * un cahier de transmission
   * du petit matériel pour dépanner les lecteurs.
 
-<font 11pt/inherit;;inherit;;inherit>Ces équipements sont stockés sur les étagères mises à disposition par l'EHESP dans le local du fond. Penser à recharger les batteries des différents appareils électriques !</font>
+<font 11pt/inherit;;inherit;;inherit>Ces équipements sont stockés dans le caisson du bureau. Penser à recharger les batteries des différents appareils électriques !</font>
 
-Les agents ont également accès au planning hebdomadaire, à l’annuaire du [[https://partages.campus-condorcet.fr/library/a53aab55-1119-4845-8b53-cade5a75792f/CC - Ressources Humaines - Tous/Organigramme EPCC|Campus Condorcet]], au calendrier des déménagements des collections. <font 11pt/inherit;;#e67e22;;inherit>mettre des liens qui s'actualisent</font>
+Les agents ont également accès au planning hebdomadaire sur zimbra, à l’annuaire du [[https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/Annuaire EPCC_ septembre 2019-1.xlsx|Campus Condorcet]], au [[https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/GED_Trombinoscope.pdf|trombinoscope du GED]], au calendrier des déménagements des collections (à venir).
 

@@ -1,35 +1,39 @@
 ===== CIRCULATION : CATEGORIES D'USAGERS, REGLES DE PRET ET RAPPELS =====
 
-
 ==== Catégories d'usagers ====
 
 Au Campus Condorcet, les durées de prêt dans Alma sont fonction de la catégorie à laquelle appartient le lecteur.
 
 Les catégories sont les suivantes :
 
-  * CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. <font inherit/inherit;;inherit;;#d35400>Inclus les personnels du Campus Condorcet</font>.
-  * CU2 : Résidents M : masterants résidents du Campus venant des établissements membres
+  * CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. Inclus les personnels du Campus Condorcet. Ces comptes sont pré-chargés dans Alma par le référentiel d'identité, et ne devraient pas être créés à la main.
+  * CU2 : Résidents M : masterants résidents du Campus venant des établissements membres, càd :
+      * Masters de l'IHEAL (Paris 3): la liste des étudiants est disponible sur le poste de service public
+      * Masters d'Histoire de Paris 1 : mention UFR09 sur la carte d'étudiant
+      * Masters de Géographie de Paris 1 : mention UFR08 sur la carte d'étudiant
+      * Masters de l'EPHE
+      * Masters de l'EHESS
+      * Masters de l'ENC
   * CU3 : Chercheurs membres non résidents : chercheurs non résidents venant des établissements membres
   * CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres
   * CU5 : M+ non-membres : masterants, doctorants ou chercheurs et autres profils académiques venant d'un établissement non-membre
-  * CU6 : Autres : personnes ne venant pas d'un établissement membre et n'ayant pas de profil académique
-  * CU7 : Personnel GED : personnel du GED.
+  * CU6 : Autres : personnes ne venant pas d'un établissement membre et n'ayant pas de profil académique, ou étudiant de niveau L.
 
 ==== Droits de prêt ====
 
 A partir de ces catégories de lecteurs, on pose les droits de prêt suivants :
 
 ^Catégorie d'usager^  Nombre de documents prêtables simultanément^Durée initiale du prêt (jours)^Durée maximale du prêt (jours^Période au bout de laquelle le prêt devient rappelable (jours)|
-^CU1|30|60|365|30|
-^CU2|20|30|30|14|
-^CU3|10|60|365|30|
-^CU4|0| | | |
-^CU5|0| | | |
-^CU6|0| | | |
+^CU1 Résidents D+|30|60|365|30|
+^CU2 Résidents M|20|30|30|14|
+^CU3 Chercheurs membres non résidents|10|60|365|30|
+^CU4 Etudiants M+ membres non résidents|0| | | |
+^CU5 M+ non-membres|0| | | |
+^CU6 Autres|0| | | |
 
 Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
 
-La date de retour est assortie d’une heure limite de retour, qui correspond<font inherit/inherit;;inherit;;#d35400>, par défaut,</font> à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
+La date de retour est assortie d’une heure limite de retour, qui correspond, par défaut, à l’heure de fermeture de la bibliothèque : passée cette heure, l’usager est en retard et ne peut plus renouveler son prêt.
 
 Il n'y a pas de délai de grâce par rapport à la date de retour.
 
@@ -60,7 +64,9 @@ Lorsqu'un document est prêté, Alma est théoriquement susceptible d'envoyer le
   * une lettre de relance lorsque le document n'est pas rendu et est en retard. Selon le paramétrage, plusieurs lettres de ce type pourront être envoyés selon une périodicité à définir
   * une lettre de facturation informant l'usager qu'il doit rembourser un livre jamais rendu ou payer une amende suite au retard
 
-Dans notre cas, qu'il s'agisse d'un retour normal ou d'un rappel non honorés, le retard n'entraîne pas de paiement d'une amende avant la cinquième relance. A la cinquième relance, l'amende est de 100€.
+Dans notre cas, qu'il s'agisse d'un retour normal ou d'un rappel non honorés, le retard n'entraîne pas de paiement d'une amende avant la cinquième relance.
+
+Un document perdu génère une facture forfaitaire de 100€ sur le compte du lecteur. Elle peut être levée si l'usager remplace le document.
 
 Le cycle de relance quand le document n'est pas rendu à temps est le suivant (jours calendaires) :
 
@@ -70,7 +76,7 @@ Le cycle de relance quand le document n'est pas rendu à temps est le suivant (j
   * Quatrième relance : après 90 jours de retard
   * Cinquième relance : après 180 jours de retard.
 
-Après la cinquième relance, le document est considéré comme perdu. Comme on le disait ci-dessus, le lecteur doit s'acquitter d'une amende de 100€.
+Après la cinquième relance, le document est considéré comme perdu.
 
 == Rappel anticipé ==
 

@@ -1,0 +1,213 @@
+<a name="condorcetgeneralitesnaviguer-dans-alma__"></a>
+<h2><bookmark content="GENERALITES : NAVIGUER DANS ALMA" level="1" /><a name="condorcetgeneralitesnaviguer-dans-alma__generalitesnaviguer_dans_alma">GENERALITES : NAVIGUER DANS ALMA</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Se connecter à Alma" level="2" /><a name="condorcetgeneralitesnaviguer-dans-alma__se_connecter_a_alma">Se connecter à Alma</a></h3>
+<div class="level3">
+
+<p>
+Alma est un système de gestion hébergé sur les serveurs du fournisseur Ex Libris. Il est utilisable depuis un navigateur internet (nous vous recommandons d&#039;utiliser Firefox ou Chrome). Pour s’y connecter, utiliser le lien suivant : <a href="https://campus-condorcet.alma.exlibrisgroup.com" class="urlextern" title="https://campus-condorcet.alma.exlibrisgroup.com" rel="nofollow">https://campus-condorcet.alma.exlibrisgroup.com</a>.
+</p>
+
+<p>
+Les identifiant et mot de passe pour se connecter sont ceux qui sont les vôtres dans le référentiel d&#039;identité du Campus Condorcet. (Remarque : lors de la phase de mise en production d&#039;Alma, il se peut que nous ayons besoin dans certains cas d&#039;utiliser un identifiant interne à Alma.)
+</p>
+
+<p>
+Veuillez noter que la déconnexion est automatique après 60 minutes sans aucune action dans Alma.
+</p>
+
+</div>
+
+<h3><bookmark content="Ecran de travail dans Alma" level="2" /><a name="condorcetgeneralitesnaviguer-dans-alma__ecran_de_travail_dans_alma">Ecran de travail dans Alma</a></h3>
+<div class="level3">
+
+<p>
+Une fenêtre Alma s&#039;affiche dans un navigateur internet (Firefox, Chrome). On peut l&#039;analyser en trois parties :
+</p>
+<ol>
+<li class="level1"><div class="li"> Une barre de menus qui sera toujours visible ;</div>
+</li>
+<li class="level1"><div class="li"> Une barre de recherche qui sera quasiment toujours visible ;</div>
+</li>
+<li class="level1"><div class="li"> Une zone de travail ou de consultation des informations.</div>
+</li>
+</ol>
+
+<p>
+L&#039;image ci-dessous indique ces trois parties de l&#039;écran selon le numéro (1, 2, 3) indiqué dans la liste ci-dessus :
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:generalites:ecranalma.jpg" class="mediacenter" title="ecranalma.jpg" alt="ecranalma.jpg" /></div>
+</p>
+
+<p>
+Les menus de la barre de menus comportent un certain nombre d&#039;actions proposées à l&#039;utilisateur. La liste des actions (ou fonctionnalités) est fonction de deux paramètres :
+</p>
+<ol>
+<li class="level1"><div class="li"> Les rôles associés à l&#039;utilisateur. Ces rôles sont attribués à l&#039;utilisateur lors de la création de son compte et peuvent être modifiés par la suite par un administrateur. Les rôles correspondent aux actions possibles à l&#039;utilisateur ;</div>
+</li>
+<li class="level1"><div class="li"> La localisation de l&#039;utilisateur, comme nous allons le voir ci-dessous.</div>
+</li>
+</ol>
+
+</div>
+
+<h3><bookmark content="Se localiser dans Alma" level="2" /><a name="condorcetgeneralitesnaviguer-dans-alma__se_localiser_dans_alma">Se localiser dans Alma</a></h3>
+<div class="level3">
+
+<p>
+Comme indiqué ci-dessus, les fonctionnalités proposées sont déterminées non seulement par les rôles qui vous ont été attribués mais également par la localisation qui est la vôtre.
+</p>
+
+<p>
+En effet, certaines de ces fonctionnalités sont <em>associées </em>à des localisations : bureau de prêt ou département. Un fonctionnalité associée à telle ou telle localisation ne sera accessible que si l&#039;utilisateur se localise dans l&#039;une de ces localisations. Sinon, elle ne sera pas visible même si l&#039;utilisateur a un rôle suffisant pour la voir. <em>Il est donc essentiel de vous localiser au moment de votre connexion à Alma. </em>
+</p>
+
+<p>
+La liste des localisations possibles à un utilisateur est fonction des rôles qui sont les siens. Par exemple, si tel est le paramétrage, on peut imaginer que celui qui n&#039;a de rôle relatif aux acquisitions ne pourra pas se localiser dans le département des acquisitions.
+</p>
+
+<p>
+Si vous n&#039;êtes pas localisé, Alma vous invitera lors de votre connexion à choisir une localisation. Alma n&#039;indiquera que les localisations possibles selon vos rôles. Alma conserve d&#039;une connexion à l&#039;autre la dernière localisation que vous avez indiqué.
+</p>
+
+<p>
+La localisation se paramètre dans la partie “barre de menus” de l&#039;écran, à droite : dans l&#039;image ci-dessus, on voit ainsi affiché “Grand Equipement Documentaire - Accueil”. L&#039;utilisateur est localisation à l&#039;accueil du GED. Il faut faire plusieurs remarques à ce sujet :
+</p>
+<ul>
+<li class="level1"><div class="li"> Par défaut, Alma n&#039;affiche pas la localisation en toutes lettres mais l&#039;icône <img src="/doc_pro_sgbm/lib/exe/fetch.php?w=44&amp;h=48&amp;tok=7da14e&amp;media=condorcet:generalites:icone_localisation.jpg" class="media" title="icone_localisation.jpg" alt="icone_localisation.jpg" width="44" height="48" />;</div>
+</li>
+<li class="level1"><div class="li"> Pour se localiser, on clique sur cette icône et Alma affiche une liste déroulante des localisations possibles. Par exemple :</div>
+</li>
+</ul>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=491&amp;h=262&amp;tok=e7c846&amp;media=condorcet:generalites:liste_localisation.jpg" class="media" title="liste_localisation.jpg" alt="liste_localisation.jpg" width="491" height="262" />
+</p>
+<ul>
+<li class="level1"><div class="li"> On peut faire afficher la localisation en toutes lettres en cliquant sur la case à cocher suivante : <img src="/doc_pro_sgbm/lib/exe/fetch.php?w=299&amp;h=49&amp;tok=5dc9c5&amp;media=condorcet:generalites:affiche_toujours_localisation.jpg" class="media" title="affiche_toujours_localisation.jpg" alt="affiche_toujours_localisation.jpg" width="299" height="49" />. Alma conserve en mémoire ce choix d&#039;une connexion à l&#039;autre. Si vous préférez finalement l&#039;icône, il suffit de décocher cette case.</div>
+</li>
+</ul>
+
+<p>
+Remarque : par conséquent, si en vous connectant, vous ne voyez pas une fonctionnalité dans un menu alors que vous savez que vous y avez accès, pensez à vérifier votre localisation.
+</p>
+
+</div>
+
+<h3><bookmark content="Les menus" level="2" /><a name="condorcetgeneralitesnaviguer-dans-alma__les_menus">Les menus</a></h3>
+<div class="level3">
+
+<p>
+La barre de menus comporte quatre segments distincts de gauche à droite :
+</p>
+
+<p>
+1. Le logo de l’institution
+</p>
+
+<p>
+2. L&#039;étoile, symbole du lien vers les favoris. Voir plus bas pour les modalités de configuration des Favoris
+</p>
+
+<p>
+3. Le menu principal. Ce menu permet de naviguer dans Alma et d’accéder aux sous-menus. Comme indiqué précédemment, en fonction de vos rôles, vous accéderez aux menus suivants, ainsi qu’à tout ou partie de leurs sous-menus :
+</p>
+<ul>
+<li class="level1"><div class="li"> Acquisitions : achat de ressources</div>
+</li>
+<li class="level1"><div class="li"> Ressources : accès aux fonctions de catalogage, d’exemplarisation et d’activation des ressources électroniques</div>
+</li>
+<li class="level1"><div class="li"> Services aux usagers : accès aux fonctions de prêt, de retour et d’inscription</div>
+</li>
+<li class="level1"><div class="li"> Découvertes : accès a des fonctions de paramétrages de l&#039;outil de découverte</div>
+</li>
+<li class="level1"><div class="li"> Admin : accès à des fonctions relevant de l’administration générale du système</div>
+</li>
+<li class="level1"><div class="li"> Analytique : accès à un tableau de bord avec listes et statistiques</div>
+</li>
+</ul>
+
+<p>
+4. Les icônes :
+</p>
+<ul>
+<li class="level1"><div class="li"> Icône localisation : voir ci-dessus</div>
+</li>
+<li class="level1"><div class="li"> Icône utilisateur (forme de buste) : en cliquant dessus, vous pourrez accéder à votre compte utilisateur, changer votre langue de travail et quelques autres actions pour configurer la taille de la police, et aussi de vous déconnecter pour quitter la session.</div>
+</li>
+<li class="level1"><div class="li"> Icône liste des tâches : indique le type de tâches et le nombre. Chaque ligne est cliquable.</div>
+</li>
+<li class="level1"><div class="li"> Icône configuration d’Alma (roue dentée d&#039;engrenage).</div>
+</li>
+<li class="level1"><div class="li"> Icône aide en ligne (point d&#039;interrogation).</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="La barre de recherche" level="2" /><a name="condorcetgeneralitesnaviguer-dans-alma__la_barre_de_recherche">La barre de recherche</a></h3>
+<div class="level3">
+
+<p>
+Cette barre de recherche apparaît dans (quasiment) toutes les pages.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:generalites:barre_recherche_simple.jpg" class="media" title="barre_recherche_simple.jpg" alt="barre_recherche_simple.jpg" />
+</p>
+
+<p>
+Par défaut c’est la <em>recherche simple </em>qui est proposée, avec pour périmètre de recherche l’Institution, c’est-à-dire l&#039;ensemble des collections du GED. C&#039;est l&#039;icône de la maison qui indique qu&#039;on a pour périmètre l&#039;institution. L&#039;autre périmètre disponible est la zone de communauté. C&#039;est une zone créée et maintenue par ExLibris à partir de données reçues des éditeurs et des données des différents clients d&#039;ExLibris. La zone de communauté se concentre essentiellement sur les ressources électroniques. Dans un premier temps nous ne l&#039;utiliserons pas mais on pourrait imaginer plus tard l&#039;utiliser pour trouver des titres à acquérir (par exemple).
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:generalites:deux_zones_de_recherche.jpg" class="media" title="deux_zones_de_recherche.jpg" alt="deux_zones_de_recherche.jpg" />
+</p>
+
+<p>
+La <em>recherche avancée </em>permet de combiner différents critères de recherche, d’utiliser des opérateurs booléens. Certaines critères ne sont disponibles que dans la recherche avancée.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:generalites:recherche_avancee.jpg" class="media" title="recherche_avancee.jpg" alt="recherche_avancee.jpg" />
+</p>
+
+</div>
+
+<h3><bookmark content="Configuration des favoris" level="2" /><a name="condorcetgeneralitesnaviguer-dans-alma__configuration_des_favoris">Configuration des favoris</a></h3>
+<div class="level3">
+
+<p>
+Vous pouvez sélectionner des favoris en cliquant sur l&#039;étoile devant le nom des fonctions dans tous les menus. De le même manière, vous pouvez désactiver ces fonctions de la liste des favoris en recliquant sur l&#039;étoile.
+</p>
+
+<p>
+Pour accéder à vos favoris, il suffit de cliquer sur l’étoile dans la barre du Menu permanent :
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:generalites:etoile.jpg" class="media" title="etoile.jpg" alt="etoile.jpg" />
+</p>
+
+<p>
+Cette barre ne comporte que les favoris que vous avez sélectionnés.
+</p>
+
+<p>
+Pour retourner au Menu permanent, cliquez sur les trois barres parallèles.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:generalites:retour_favoris.jpg" class="media" title="retour_favoris.jpg" alt="retour_favoris.jpg" />
+</p>
+
+<p>
+NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Comme la liste des fonctionnalités dans les menus, la liste des fonctionnalités dans les favoris s&#039;adaptent donc à la localisation choisie. Notez également que vous pouvez rechercher dans tous ces menus pour retrouver la fonctionnalité que vous cherchez.
+</p>
+
+</div>

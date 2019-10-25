@@ -4,12 +4,12 @@
 
 <font 11pt/inherit;;inherit;;inherit>Plusieurs cas de figure sont possibles :</font>
 
-  * Le lecteur a déjà créé son compte Campus Condorcet, suite à un mail de son établissement d’origine. Il peut se connecter avec son adresse @campus-condorcet.fr et le mot de passe qu’il a choisi.
-  * Le lecteur, universitaire, n’a pas encore de compte Campus Condorcet. Il sélectionne l’établissement d'enseignement supérieur dont il dépend dans le menu déroulant, et se connecte à son compte d'établissement. Celui-ci renvoie les informations (au bout de combien de temps ?) qui permettent de préremplir le formulaire. L'établissement peut être un membre ou un non-membre (par exemple l’EHESP).
-  * Le lecteur n’appartient pas au monde universitaire. Il remplit le formulaire dans Alma (Il est inscrit via Alma, qui envoie le compte vers le référentiel et récupère un identifiant de référentiel) et ensuite ? délai avant de pouvoir utiliser sa carte ?
+  * Le lecteur a déjà créé son compte Campus Condorcet, suite à un mail de son établissement d’origine. Il peut se connecter avec son adresse mail de son établissement d'origine et le mot de passe qu’il a choisi. C'est normalement le cas de tous les chercheurs, personnels administratifs résidant sur le campus, des chercheurs et étudiants de l'EHESS, EPHE, FMSH.
+  * Les masters IHEAL de Paris 3 et les masters Histoire ou Géographie de Paris 1 sont inscrits manuellement (compte interne) dans Alma avec les droits de Masters résidents (CU2).
+  * Dans tous les autres cas, la personne est inscrite manuellement dans Alma selon son statut, elle peut uniquement consulter les documents sur place.
 
 ===== Que faire si : =====
 
-  * un membre résident n'a pas recu le mail de son établissement lui permettant de créer son compte ?
+  * un membre résident n'a pas recu le mail de son établissement lui permettant de créer son compte ? Il est possible de lui créer un compte interne manuellement dans une catégorie ne donnant pas accès au prêt (il faut fortement l'inciter à demander à son établissement d'origine la création d'un compte Campus Condorcet. L'information sera prise en compte dans Alma à J+1).
   * un lecteur affirme être membre du campus sans que son nom figure dans le référentiel d'identité du Campus Condorcet ?
 

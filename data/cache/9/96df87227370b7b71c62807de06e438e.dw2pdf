@@ -1,0 +1,87 @@
+<a name="condorcetsignalementle-catalogage-rapide__"></a>
+<h2><bookmark content="SIGNALEMENT : LE CATALOGAGE RAPIDE" level="1" /><a name="condorcetsignalementle-catalogage-rapide__signalementle_catalogage_rapide">SIGNALEMENT : LE CATALOGAGE RAPIDE</a></h2>
+<div class="level2">
+
+<p>
+Alma permet d&#039;ajouter rapidement un exemplaire dans les ressources disponibles dans la bibliothèque quand la ressource en question n&#039;est pas passée dans le circuit normal des acquisitions.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: inherit;  background-color: #d35400 '>(A VOIR AVEC GR SGBM : ON POURRAIT AUSSI AVOIR DES MODELES DE NOTICES COURTES ET LES UTILISER DANS L EDITEUR DE METADONNEES. CF. MESSAGE SUR LISTE ACEF DU 25/04)</span>
+</p>
+
+<p>
+Ce type de catalogage peut permettre :
+</p>
+
+<p>
+Cas 1 : d&#039;ajouter un exemplaire à une notice holding existante
+</p>
+
+<p>
+Cas 2 : d&#039;ajouter un exemplaire à une notice holding inexistante.
+</p>
+
+<p>
+On y accède par le menu Ressources &gt; Créer l&#039;inventaire &gt; Ajouter un exemplaire physique.
+</p>
+
+<p>
+En premier lieu, il faudra choisir le cas applicable.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=908&amp;h=286&amp;tok=778587&amp;media=condorcet:signalement:signalement-catalogage-rapide-etape-1.jpg" class="mediacenter" title="signalement-catalogage-rapide-etape-1.jpg" alt="signalement-catalogage-rapide-etape-1.jpg" width="908" height="286" /></div>
+</p>
+
+</div>
+
+<h4><bookmark content="Cas du catalogage rapide pour une holding existante" level="2" /><a name="condorcetsignalementle-catalogage-rapide__cas_du_catalogage_rapide_pour_une_holding_existante">Cas du catalogage rapide pour une holding existante</a></h4>
+<div class="level4">
+
+<p>
+La fenêtre de travail qui apparaît après le clic sur le bouton Choisir ci-dessus est la suivante :
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1500&amp;h=315&amp;tok=9495fd&amp;media=condorcet:signalement:signalement-catalogage-rapide-existante-1.jpg" class="mediacenter" title="signalement-catalogage-rapide-existante-1.jpg" alt="signalement-catalogage-rapide-existante-1.jpg" width="1500" height="315" /></div>Grâce à la zone de saisie Titre, il faut chercher le titre pour lequel on veut ajouter un exemplaire.
+</p>
+
+<p>
+Le titre identifié, les champs relatifs à l&#039;exemplaire deviennent renseignables. La localisation est un champ obligatoire ! Dans la liste de valeurs associée à ce champ ne seront listées que les localisations pour lequel ce titre a une holding. L&#039;exemplaire recevra donc la cote que contient cette holding.
+</p>
+
+<p>
+Si vous n&#039;indiquez pas de code-barre, Alma en attribue un automatiquement.
+</p>
+
+<p>
+A la fin de l&#039;enregistrement, Alma place automatiquement l&#039;exemplaire en rayon. Il peut être immédiatement prêté.
+</p>
+
+</div>
+
+<h4><bookmark content="Cas du catalogage rapide pour une holding inexistante" level="2" /><a name="condorcetsignalementle-catalogage-rapide__cas_du_catalogage_rapide_pour_une_holding_inexistante">Cas du catalogage rapide pour une holding inexistante</a></h4>
+<div class="level4">
+
+<p>
+Dans ce cas, la première fenêtre vous demande d&#039;indiquer le type de la ressource : s&#039;agit-il d&#039;un livre ou d&#039;un article ?
+</p>
+
+<p>
+Dans ce mode, puisque la holding n&#039;existe pas, Alma assume que la notice bibliographique n&#039;existe pas non plus ! Il faut donc créer une notice bibliographique élémentaire pour ce titre à la main dans l&#039;écran qui apparaît (voir ci-dessous).
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1470&amp;h=832&amp;tok=c0786b&amp;media=condorcet:signalement:signalement-catalogage-rapide-inexistant.jpg" class="mediacenter" title="signalement-catalogage-rapide-inexistant.jpg" alt="signalement-catalogage-rapide-inexistant.jpg" width="1470" height="832" /></div>La liste des champs obligatoires s&#039;adapte en fonction du type de ressource choisi.
+</p>
+
+<p>
+Notez que dans tous les cas, la localisation est obligatoire : c&#039;est elle qui permet de créer la holding.
+</p>
+
+<p>
+A l&#039;enregistrement, la notice bibliographique, la notice holding et l&#039;exemplaire sont créés simultanément. Chacun de ces niveaux pourra ensuite faire l&#039;objet de modification. Attention : on ne peut pas ajouter la cote dans la holding au moment de la création.
+</p>
+
+</div>

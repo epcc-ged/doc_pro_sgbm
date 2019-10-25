@@ -26,6 +26,12 @@ Lorsqu'on clique sur ce bouton, on est redirigé vers un formulaire qui permet d
 
 {{:condorcet:circulation:circulation-liste-demandes.jpg?nolink&|circulation-liste-demandes.jpg}}
 
+=== GED hors-les-murs: réserver un document accessible ===
+
+Pendant la période du GED hors les murs, seuls certains exemplaires sont accessibles côté Primo, mais tous le sont côté Alma. Il faut donc s'assurer, avant de faire la demande côté Alma, qu'il y a bien au moins un exemplaire accessible.
+
+En cas de multi-exemplaires, il faut s'assurer que le système a bien faire la réservation sur l'un des exemplaires accessibles. Si ça n'est pas le cas, vous pouvez modifier la demande pour choisir un autre exemplaire. Cf ci-dessous.
+
 === Vérifier / Annuler / Modifier une demande de réservation ===
 
 Ces opérations peuvent se faire depuis la recherche de titre ou depuis un dossier usager.

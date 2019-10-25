@@ -18,5 +18,7 @@ Liste des abonnements des ressources électroniques du GED <font inherit/inherit
 
 ===== Accès au wifi =====
 
-La connection au wifi se fait via eduroam.
+La connection au wifi se fait via eduroam avec les identifiants fournis par l'université d'origine.
+
+Il peut être utile de consulter la page de l'université d'origine sur ce sujet.
 

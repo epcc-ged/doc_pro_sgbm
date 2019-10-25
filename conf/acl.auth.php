@@ -12,3 +12,4 @@ condorcet-sp:*	mhgatto	8
 condorcet:*	mhgatto	1
 condorcet:*	aalbespy	1
 condorcet-sp:*	aalbespy	8
+condorcet-sp:*	fmouillot	1

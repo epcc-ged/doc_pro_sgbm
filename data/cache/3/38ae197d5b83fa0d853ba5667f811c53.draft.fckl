@@ -1,18 +1,12 @@
-a:6:{s:2:"id";s:61:"condorcet-sp:permanence-ged-hors-les-murs:objets-trouves-vols";s:6:"prefix";b:0;s:4:"text";s:885:"<h1>Objets trouv&eacute;s, vols</h1>
+a:6:{s:2:"id";s:61:"condorcet-sp:permanence-ged-hors-les-murs:objets-trouves-vols";s:6:"prefix";b:0;s:4:"text";s:654:"<h1>Objets trouv&eacute;s, vols</h1>
 
 <div class="level1">
-<p>Les objets trouv&eacute;s sont r&eacute;pertori&eacute;s (documents papier ou en ligne ?). Ils sont conserv&eacute;s pendant trois semaines &agrave; l&#39;accueil. (avant ?)</p>
+<p>Les objets trouv&eacute;s sont r&eacute;pertori&eacute;s (documents papier ou en ligne ?) et confi&eacute;s &agrave; l&#39;agent de s&eacute;curit&eacute; de la MSH Paris Nord.</p>
 
-<p>Les objets de valeur sont mis sous cl&eacute;. (o&ugrave; ?remis &agrave; qui ? dispose-t-on d&#39;un coffre ?)</p>
-
-<p>Les livres des autres biblioth&egrave;ques sont retourn&eacute;s (par qui ?)</p>
-
-<p>En cas de vol, pr&eacute;venir le responsable de service public (44 48) qui g&eacute;rera le probl&egrave;me avec le lecteur.<br />
-&nbsp;<br />
-&nbsp;</p>
+<p>Les objets de valeur sont mis sous cl&eacute;. (o&ugrave; ? remis &agrave; qui ? dispose-t-on d&#39;un coffre ?)</p>
 
 <p>Les livres oubli&eacute;s appartenant &agrave; d&#39;autres biblioth&egrave;ques sont mis o&ugrave; ?. Ils sont ensuite renvoy&eacute;s (par qui ?) aux biblioth&egrave;ques propri&eacute;taires. La liste de ces ouvrages est consultable sur la page ?</p>
 
-<p>&nbsp;</p>
+<p>En cas de vol, ?</p>
 </div>
-";s:6:"suffix";s:0:"";s:4:"date";i:1559736498;s:6:"client";s:7:"mhgatto";}
+";s:6:"suffix";s:0:"";s:4:"date";i:1562313640;s:6:"client";s:7:"mhgatto";}

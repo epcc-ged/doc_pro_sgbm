@@ -8,18 +8,24 @@ Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Ién
 
 Les ouvrages sont mis de côté pendant 10 jours.
 
-\\
 Pendant le GED hors les murs, sont exclus de la communication, les documents :
 
-  * conservés sur palettes (voir déménageurs ?)
-  * de format exceptionnel (préciser)
-  * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD)
+  * conservés sur palettes
+  * de format exceptionnel
+  * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD, etc.)
   * des bibliothèques qui ne déménagement pas dans la phase 1 (liste)
 
 Les documents cotés réserve ou manifestement trop fragiles pour être prêtés sont consultables dans la salle de lecture, éventuellement sur les tables de consultation des archives.
 
-===== Que faire si : =====
+====== ♦ Les périodiques ======
 
-  * un document qui a été réservé n'est pas communiqué ? Quelque soit la raison (ouvrage non trouvé, en trop mauvais état…) le GED (MH QUI ?) apporte une réponse au lecteur dans Alma. L'agent de permanence peut s'y référer ou, en l'absence de celle-ci, le signaler (MH à qui ?).
-  * un lecteur demande un ouvrage déjà emprunté et ne peut pas attendre le délai de rappel ? L'agent de permanence peut prendre l'initiative de contacter le lecteur emprunteur pour expliquer la situation.
+Les établissements ont eu des pratiques très variées pour gérer les périodiques. L'identification des exemplaires dans le catalogue est difficile. Il faut demander demander au lecteur de compléter sa demande en indiquant Année ou/et numéro dans la zone Note.
+
+====== ♦ Les prêts de documents ======
+
+Pour utiliser la doucette, bien penser à se mettre en majuscule avant de doucher un code-barres.
+
+Mettre la fiche de communication dans un dossier. Au moment du retour du document, cela facilitera le rangement du livre au CTLes.
+
+=====   =====
 

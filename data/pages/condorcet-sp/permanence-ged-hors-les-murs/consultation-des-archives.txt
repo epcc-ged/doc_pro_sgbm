@@ -2,11 +2,13 @@
 
 <font 11pt/inherit;;inherit;;inherit>Sont communicables pendant la période du GED hors les murs les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes.</font>
 
-<font 11pt/inherit;;inherit;;inherit>La demande de consultation se fait via le formulaire dédié sur le site du Campus Condorcet. Elle fait l'objet d'une instruction en interne. Une fois cette demande instruite, une information est envoyée à l'ensemble des collègues participant aux permanences.</font>
+<font 11pt/inherit;;inherit;;inherit>La demande de consultation se fait via le formulaire dédié sur le site du Campus Condorcet. Elle fait l'objet d'une instruction en interne. Une fois cette demande instruite, une information à ce sujet est envoyée à l'ensemble des collègues participant aux permanences.</font>
 
 Dans la salle de lecture, le personnel du GED en service public fait remplir au lecteur une fiche d'incription et vérifie sa pièce d'identité.
 
-Il explique les règles de consultation et s’assure que celles-ci sont respectées.
+Dans les cas de consultations s'étalant sur plusieurs jours, le personnel du GED vérifie que le lecteur est bien inscrit avant de lui communiquer les documents.
+
+Le personnel du GED explique les règles de consultation et s’assure que celles-ci sont respectées.
 
   * Les archives sont communiquées sur la première table à proximité du bureau de renseignement,
   * <font 11pt/inherit;;inherit;;inherit>Matériel autorisé : crayon à papier, ordinateur, feuilles volantes ; les chemises où un document pourrait être glissé ne sont pas acceptées,</font>

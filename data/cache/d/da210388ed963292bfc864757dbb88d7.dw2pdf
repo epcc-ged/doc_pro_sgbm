@@ -1,0 +1,70 @@
+<a name="condorcetgeneralitesfaire-une-recherche-dans-alma__"></a>
+<h2><bookmark content="GENERALITES : FAIRE UNE RECHERCHE DANS ALMA" level="1" /><a name="condorcetgeneralitesfaire-une-recherche-dans-alma__generalitesfaire_une_recherche_dans_alma">GENERALITES : FAIRE UNE RECHERCHE DANS ALMA</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Objets à rechercher" level="2" /><a name="condorcetgeneralitesfaire-une-recherche-dans-alma__objets_a_rechercher">Objets à rechercher</a></h3>
+<div class="level3">
+
+<p>
+Quand on fait une recherche, on doit indiquer à Alma les objets que l&#039;on souhaite rechercher. On ne peut rechercher qu&#039;un type d&#039;objets à la fois. Cela se choisit grâce au menu déroulant situé tout à gauche de la barre de recherche (ci-dessous “Tous les titres”).
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1003&amp;h=62&amp;tok=8d8d11&amp;media=condorcet:generalites:barre_recherche.jpg" class="media" title="barre_recherche.jpg" alt="barre_recherche.jpg" width="1003" height="62" />
+</p>
+
+<p>
+Le choix de l&#039;objet a une incidence sur les types de résultats obtenus. Ainsi, par exemple, si vous sélectionnez
+</p>
+<ul>
+<li class="level1"><div class="li"> “exemplaires physiques” : les résultats affichés seront des exemplaires physiques</div>
+</li>
+<li class="level1"><div class="li"> “titres électroniques” : les résultats affichés seront des notices bibliographiques ayant des ressources électroniques</div>
+</li>
+<li class="level1"><div class="li"> “tous les titres” : les résultats affichés seront des notices bibliographiques ayant des ressources électroniques ou physiques indifféremment</div>
+</li>
+<li class="level1"><div class="li"> etc.</div>
+</li>
+</ul>
+
+<p>
+La liste des objets de recherche proposée dépend de votre rôle dans Alma. Par exemple, un utilisateur n&#039;ayant aucun rôle en acquisition ne pourra pas faire de recherche sur des données en lien avec les acquisitions (factures par exemple). Néanmoins, les objets relatifs à la recherche bibliographique sont disponibles pour <strong>tout le monde</strong>, quel que soit le rôle dans Alma (“Tous les titres”, “Titres physiques”, “Exemplaires physiques”, “Titres électroniques”, etc.)
+</p>
+
+<p>
+Pour sélectionner un objet de recherche, il suffit de cliquer sur la flèche blanche à droite de <code>Tous les titres</code>.
+</p>
+
+<p>
+En fonction de l&#039;objet choisi, Alma va éventuellement adapter la liste des critères proprement dits. Le critère se choisit dans la liste déroulante sur fonds blanc (dans l&#039;image ci-dessus, nous avons choisi “Titre”).
+</p>
+
+<p>
+Au sujet des critères, on trouvera dans l&#039;aide d&#039;ExLibris indiquant les correspondances entre les critères et les champs Unimarc.
+</p>
+
+</div>
+
+<h3><bookmark content="Recherche simple" level="2" /><a name="condorcetgeneralitesfaire-une-recherche-dans-alma__recherche_simple">Recherche simple</a></h3>
+<div class="level3">
+
+<p>
+La recherche simple fonctionne comme dans tous SIGBs : on choisit le critère, on entre la valeur à rechercher et on clique sur l&#039;icône “loupe” pour lancer la recherche. On peut aussi simplement presser sur entrée.
+</p>
+
+</div>
+
+<h3><bookmark content="Recherche avancée" level="2" /><a name="condorcetgeneralitesfaire-une-recherche-dans-alma__recherche_avancee">Recherche avancée</a></h3>
+<div class="level3">
+
+<p>
+La recherche avancée permet d&#039;affiner la recherche en interrogeant plusieurs critères et de faire des limitations. On l&#039;obtient en cliquant sur le lien “Avancé”.
+</p>
+
+<p>
+En recherche avancée, la liste des critères proposés par objet est plus large.
+</p>
+
+</div>

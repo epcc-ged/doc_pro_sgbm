@@ -1,0 +1,160 @@
+<a name="condorcetgeneralitesles-donnees-dans-alma__"></a>
+<h2><bookmark content="GENERALITES : LES RESSOURCES DOCUMENTAIRES DANS ALMA" level="1" /><a name="condorcetgeneralitesles-donnees-dans-alma__generalitesles_ressources_documentaires_dans_alma">GENERALITES : LES RESSOURCES DOCUMENTAIRES DANS ALMA</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Zone « Institution » et zone de « Communauté »" level="2" /><a name="condorcetgeneralitesles-donnees-dans-alma__zone_institution_et_zone_de_communaute">Zone « Institution » et zone de « Communauté »</a></h3>
+<div class="level3">
+
+<p>
+Dans Alma, on distingue deux zones différentes : la zone “Institution” et la zone de “Communauté”. La zone proposée par défaut est toujours celle de l&#039;institution (= périmètre GED).
+</p>
+
+<p>
+La zone “Institution” comprend l&#039;ensemble des données du catalogue du GED composé :
+</p>
+<ul>
+<li class="level1"><div class="li"> des notices de ressources physiques et électronique issues du SID chantier après le dernier chargement de décembre 2018</div>
+</li>
+<li class="level1"><div class="li"> des notices issues du Sudoc saisies entre le dernier export vers le SID chantier et la mise en production d&#039;Alma</div>
+</li>
+<li class="level1"><div class="li"> des notices issues du travail de cataloguage et de mise à jour des données depuis la mise en production d&#039;Alma (et bien sûr, par conséquent, ce qui arrive par le transfert régulier Sudoc).</div>
+</li>
+</ul>
+
+<p>
+La zone dite de “Communauté” regroupe les notices de tous les établissements (en France et aileurs dans le monde) utilisant Alma, elle comporte donc des notices d&#039;autorités, des notices bibliographiques et des notices de ressources électroniques. Cette zone peut ainsi servir de réservoir de notices pour les acquisitions de ressources imprimées ou électroniques, ainsi que pour l&#039;activation de ressources libres. La zone de communauté met en général l&#039;accent sur les ressources électroniques. Dans un premier temps, nous n&#039;utiliserons pas la zone de communauté avant de déterminer plus précisément si nous voulons le faire et, en ce cas, à quelles fins.
+</p>
+
+</div>
+
+<h3><bookmark content="Type de ressources documentaires gérées dans Alma" level="2" /><a name="condorcetgeneralitesles-donnees-dans-alma__type_de_ressources_documentaires_gerees_dans_alma">Type de ressources documentaires gérées dans Alma</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Ressources physiques : données bibliographiques et d&#039;exemplaires" level="3" /><a name="condorcetgeneralitesles-donnees-dans-alma__ressources_physiquesdonnees_bibliographiques_et_d_exemplaires">Ressources physiques : données bibliographiques et d&#039;exemplaires</a></h4>
+<div class="level4">
+
+<p>
+Vous pouvez trouver des informations détaillés sur ce sujet dans la rubrique sur <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:start" class="wikilink1" title="condorcet:signalement:start">le signalement.</a>
+</p>
+
+</div>
+
+<h5><bookmark content="Notice bibliographique" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__notice_bibliographique">Notice bibliographique</a></h5>
+<div class="level5">
+
+<p>
+Source initiale : SID chantier + Sudoc (de déc. 2018 à sept. 2019)
+</p>
+
+<p>
+Source en production : Sudoc
+</p>
+
+<p>
+Format : Unimarc
+</p>
+
+</div>
+
+<h5><bookmark content="Notice de holding" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__notice_de_holding">Notice de holding</a></h5>
+<div class="level5">
+
+<p>
+Notice intermédiaire entre la notice bibliographique et les notices d&#039;exemplaires pour les ressources physiques. Elle regroupe les exemplaires d&#039;une même “localisation”, c&#039;est-à-dire d&#039;un même emplacement physique, et d&#039;une même cote.
+</p>
+
+<p>
+Cette notice contient les éléments communs à différents exemplaires : la localisation et la bibliothèque donc, mais aussi la cote des exemplaires qui lui sont rattachés.
+</p>
+
+<p>
+La notice de holding est parfois appelée notice de fonds ou de collection.
+</p>
+
+<p>
+Une notice bibliographique peut donc avoir une ou plusieurs notices de holding, et une notice de holding peut avoir une ou plusieurs notices d&#039;exemplaires qui lui sont liées.
+</p>
+
+<p>
+Format : Marc21
+</p>
+
+</div>
+
+<h5><bookmark content="Notice d&#039;exemplaire" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__notice_d_exemplaire">Notice d&#039;exemplaire</a></h5>
+<div class="level5">
+
+<p>
+Cette notice contient les informations spécifiques à chaque exemplaire, comme par exemple le code barres.
+</p>
+
+<p>
+Elle ne contient des informations sur les règles de prêt que dans le cas où les règles qui s&#039;appliquent à cet exemplaire sont différentes de celles qui s&#039;appliquent à la localisation à laquelle il appartient, par exemple un exemplaire exclu du prêt alors que la règle qui s&#039;applique aux exemplaires de cette localisation autorise le prêt.
+</p>
+
+<p>
+Format : interne à Alma (écran de saisie <em>ad hoc</em>)
+</p>
+
+</div>
+
+<h4><bookmark content="Ressources électroniques" level="3" /><a name="condorcetgeneralitesles-donnees-dans-alma__ressources_electroniques">Ressources électroniques</a></h4>
+<div class="level4">
+
+</div>
+
+<h5><bookmark content="Notice bibliographique" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__notice_bibliographique1">Notice bibliographique</a></h5>
+<div class="level5">
+
+<p>
+Même informations que ci-dessus pour les notices physiques.
+</p>
+
+</div>
+
+<h5><bookmark content="Portfolio" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__portfolio">Portfolio</a></h5>
+<div class="level5">
+
+<p>
+Terme pouvant être considéré comme l&#039;équivalent de l&#039;exemplaire pour les ressources électroniques. Il consiste en l&#039;unité documentaire la plus “élémentaire” pour ce qui est de la ressource électronique. En l&#039;occurrence, il contient les informations d&#039;accès à la ressource telle que le lien URL, les éventuelles restrictions d&#039;accès, la période de couverture, etc.
+</p>
+
+<p>
+Un portfolio peut faire partie d&#039;une collection ou être isolé (par exemple, le porfolio d&#039;un livre électronique acheté en dehors de tout bouquet).
+</p>
+
+<p>
+Pour un même établissement, il peut y avoir plusieurs porfolios rattachés à un même titre électronique ; c&#039;est le cas par exemple lorsqu&#039;un titre appartient à plusieurs bouquets souscrits par l&#039;établissement.
+</p>
+
+<p>
+On peut ajouter les informations suivantes qui sont dans Alma pour décrire les ressources électroniques :
+</p>
+
+</div>
+
+<h5><bookmark content="Collection électronique" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__collection_electronique">Collection électronique</a></h5>
+<div class="level5">
+
+<p>
+Une collection électronique regroupe plusieurs portfolios. Elle correspond à un bouquet de publications électroniques (périodiques ou ebooks) ou à une base de données.
+</p>
+
+</div>
+
+<h5><bookmark content="Service" level="4" /><a name="condorcetgeneralitesles-donnees-dans-alma__service">Service</a></h5>
+<div class="level5">
+
+<p>
+Correspond aux services qu&#039;une collection électronique propose pour accéder à ses portfolios. Dans Alma, vous aurez accès à des services de texte intégral.
+</p>
+
+<p>
+Le service contient des informations de lien ou de connexion sur l&#039;accès au texte intégral.
+</p>
+
+</div>
