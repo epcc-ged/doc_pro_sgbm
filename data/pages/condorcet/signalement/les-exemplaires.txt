@@ -51,7 +51,7 @@ Par l'accès 3, merci de vous référer au chapitre **catalogage rapide**  dans 
 
 <WRAP center round info 60%> \\ 1. Le code-barre de l'exemplaire est une donnée obligatoire mais, par défaut, Alma ne vous bloquera pas si vous oubliez de l'indiquer. Dans ce cas, Alma calculera un code-barre et l'imposera (vous pourrez le modifier a posteriori)
 
-2. L'utlisation de l'onglet ENUM/CHRON puis du champ "description" dans l'onglet des informations générales est très important pour déterminer si l'exemplaire est une monographie ou un périodique. Si le champ **description**  est défini (c'est-à-dire s'il contient des caractères), l'exemplaire est un périodique. Si le champ "description" est vide, l'exemplaire est une monographie. Ce champ **description **est calculé à partir des informations contenu dans ENUM/CHRON. \\ </WRAP>
+2. L'utlisation du champ "description" dans l'onglet des informations générales est très important pour le traitement des périodiques et des multivolumes catalogués sous une même notice bibliographique. \\ </WRAP>
 
 <font inherit/inherit;;#d35400;;inherit><WRAP center round important 60%> \\
 Attention : si vous modifiez la localisation de l'exemplaire, cela aura un effet dans la holding : si l'exemplaire est le seul de sa holding alors la localisation sera modifiée également dans la holding ; si l'exemplaire n'est pas le seul dans sa holding alors une nouvelle holding sera créée avec la nouvelle localisation. Elle ne contiendra que l'exemplaire en cours de création. La holding initiale continuera de contenir les autres exemplaires.</WRAP></font>
@@ -65,6 +65,16 @@ La procédure d'accès est la même que ci-dessus (sauf celle qui se passe par l
 La suppression de l'exemplaire est réalisée depuis la liste des exemplaires dans le menu **''···'' **attaché à l'exemplaire.
 
 Si l'exemplaire était le seul ou le dernier attaché à sa holding, Alma déclenchera un traitement pour savoir que faire de la holding et de la notice bibliographique. Plusieurs choix vous seront proposés : il faudra en choisir un (ne pas modifier la holding, supprimer la holding, supprimer la notice bibliographique s'il n'y a pas d'autres holdings etc.)
+
+Procédure de suppression d'un exemplaire étape par étape :
+
+<font inherit/inherit;;#8e44ad;;inherit>**1) Rechercher sa notice bibliographique, cliquer sur "Physique" puis sur "Tous les exemplaires"**</font>
+
+{{:condorcet:signalement:ex1.jpg?nolink&1468x353|ex1.jpg}}
+
+**<font inherit/inherit;;#8e44ad;;inherit>2) Sur l'écran suivant, sélectionner l'exemplaire à supprimer, cliquer sur</font>''···''<font inherit/inherit;;#8e44ad;;inherit>et sélectionner "Supprimer"</font>**
+
+{{:condorcet:signalement:ex2.jpg?nolink&1546x616|ex2.jpg}}
 
 ==== Déplacer un exemplaire ====
 
@@ -86,6 +96,22 @@ Une première façon consiste à partir de la holding : en observant les exempla
 On peut également directement travailler depuis la page de modification de l'exemplaire. Si vous effectuez le déplacement directement depuis cette page de modification de l'exemplaire en modifiant la valeur du champ "Localisation détentrice", le principe sera le même que ci-dessus mais l'exemplaire //ne sera pas //"en transit" : il sera immédiatement placé en rayon dans la nouvelle localisation !
 
 Pour déplacer //plusieurs //exemplaires d'un même titre dans une même localisation (et donc dans une même holding) vers une autre localisation existante pour un autre exemplaire du même titre (et donc une holding existe déjà), on peut sélectionner les exemplaires à déplacer dans la liste des exemplaires de la holding d'origine et cliquer sur le lien **Modifier les notices de fonds**. On doit alors sélectionner la holding vers laquelle on souhaite déplacer les exemplaires sélectionnés. Le déplacement est immédiat : les exemplaires sont immédiatement en rayon dans la nouvelle localisation.
+
+==== Déclarer un exemplaire "manquant" ====
+
+Si un document a été perdu et qu'il ne se trouve donc plus dans les collections de la bibliothèques, son exemplaire est à passer en statut "manquant"
+
+procédure étape par étape :
+
+<font inherit/inherit;;#8e44ad;;inherit>**1) Rechercher sa notice bibliographique, cliquer sur "Physique" puis sur "Tous les exemplaires"**</font>
+
+{{:condorcet:signalement:ex1.jpg?nolink&1468x353|ex1.jpg}}
+
+**<font inherit/inherit;;#8e44ad;;inherit>2) Sur l'écran suivant, sélectionner l'exemplaire à supprimer, cliquer sur</font>''···''<font inherit/inherit;;#8e44ad;;inherit>et sélectionner "Basculer le statut manquant"</font>**
+
+{{:condorcet:signalement:ex4.jpg?nolink&1530x627|ex4.jpg}}
+
+Après une période définie, l'exemplaire passera automatiquement en statut "Perdu"
 
 ==== Pilonner un exemplaire ====
 

@@ -1,5 +1,89 @@
-====== PERIODIQUES : TABLE DES MATIERES ======
+====== PERIODIQUES ======
 
-  - [[condorcet:periodiques:bulletinage-et-gestion-des-exemplaires:start|Bulletinage et gestion des exemplaires]]
-  - [[condorcet:periodiques:catalogage-et-abonnement:start|Catalogage et abonnement]]
-  - [[condorcet:periodiques:holdings-et-prevision:start|Holdings et prévision]]
+===== Présupposés =====
+
+Ce qui suit présuppose que l'on dispose d'un fournisseur pour l'abonnement aux périodiques et d'un compte à débiter à cet effet. Ces points relèvent des acquisitions et il faut donc se reporter à la partie de la documentation en traitant.
+
+Pour établir un modèle de prévision d'un périodique qui permettra la création automatique des exemplaires à bulletiner, il faut travailler au niveau de la holding sous la notice titre correspondant au périodique. Cette notice holding doit être associée à une ligne de commande pour que le bulletinage soit possible.
+
+Dans ce qui suit, nous partirons donc du principe que la ligne de commande existe.
+
+La ligne de commande a prévu une localisation pour les exemplaires, c'est-à-dire qu'à la notice titre est associé une holding donnant la localisation.
+
+Par exemple, nous partirons ici du titre //Saragam //pour lequel on a créé une holding en A-PERIO (le choix de cette orientation ne reflète pas nécessairement le territoire réel où devrait se trouver le périodique mais il ne s'agit ici que d'un exemple et nous avons choisi le territoire sans prêter attention au domaine de recherche).
+
+{{:condorcet:periodiques:saragamsansexemplaire.jpg|saragamsansexemplaire.jpg}}
+
+===== Créer le modèle de prévision : zone 853 de la holding =====
+
+Le modèle de prévision permet de générer automatiquement tous les exemplaires attendus d'un périodique pour l'année (ou même pour plusieurs années).
+
+Le modèle de prévision est déclaré dans la notice holding du titre, au niveau de la zone Marc21 **853**. Alma propose des modèles prédéfinis.
+
+Pour créer la zone 853, il faut donc ouvrir la holding souhaitée dans l'éditeur de métadonnées. La holding, dans le cas présent, ne contient encore aucune information, comme on le voit ci-dessous.
+
+{{  :condorcet:periodiques:saragamholding1.jpg?nolink&  |saragamholding1.jpg}}
+
+Dans le cas présent, nous allons donc inscrire la cote dans la holding en rajoutant un $h (attention, dans l'éditeur de métadonnées, on saisit donc $$h suivi d'un espace et de la cote).
+
+Ceci étant fait, dans la menu **Modifier **de l'éditeur de métadonnées, choisir **Développer à partir du modèle**. Une fenêtre pop-up s'affiche avec un menu déroulant.
+
+Ce menu déroulant permet de choisir un type de périodicité du périodique. Il faut choisir celui qui correspond au périodique en cours de traitement. Ici, nous supposons que nous avons un trimestriel.
+
+{{  :condorcet:periodiques:saragamdevmodele.jpg?nolink&624x186  |saragamdevmodele.jpg}}
+
+<WRAP center round info 60%>\\
+Si le périodique a une périodicité qui ne se trouve pas dans la liste, choisissez par exemple "Serial prediction with two 853 fields" : nous verrons plus loin comment traiter ce genre de cas.\\
+</WRAP>
+
+En cliquant sur OK, on peut voir que la notice holding a reçu deux nouveaux champs : le 853 et le 590. Ces champs sont préremplis.
+
+{{  :condorcet:periodiques:saragamholding2.jpg?nolink&  |saragamholding2.jpg}}
+
+<WRAP center round info 60%>\\
+Vous pouvez modifier la description dans la 590$a : c'est une zone de saisie libre explicitant la 853. Il est d'ailleurs recommandé de le faire, la 853 pouvant être difficile à lire quand on n'est pas habitué à son fonctionnement.
+
+La zone 853 est régie par une grammaire précise. [[https://www.loc.gov/marc/holdings/hd853855.html|La grammaire de cette zone est décrite en ligne ici]].\\
+</WRAP>
+
+Selon la 853, un périodique est décrit par plusieurs éléments et notamment une énumération et une chronologie. Enumération et chronologie permettent de générer les exemplaires et la description de chacun des exemplaires. La description contient des informations comme la volumaison, le numéro d'exemplaire dans la volumaison, l'année, le mois, etc.
+
+Dans l'exemple ci-dessus, on a :
+
+  * **$a v**. : un premier niveau d'énumération (ici la volumaison) qui apparaîtra dans la description associée à l'exemplaire sous la forme "v." suivi de la volumaison en cours. Lors de la création des exemplaires, chacun d'entre eux recevra donc un premier niveau d'énumération correspondant au volume ;
+  * **$b no. **: un deuxième niveau d'énumération hiérarchiquement placé sous le premier niveau décrit en $a (ici le numéro sous la volumaison en cours) qui apparaîtra dans la description associé à l'exemplaire sous la forme "no." suivi du numéro en cours. Lors de la création des exemplaires, chaque exemplaire aura un numéro.
+  * Les champs **$u**  et **$v**  se rapportent au **$b**  et signifient dans notre exemple :
+      * **$u 4**  : quand on a attend le quatrième numéro, la volumaison en cours est terminée. Autrement dit, on a quatre numéro par volumaison ;
+      * **$v r **: quand on change de volumaison, les numéros suivants sont comptés en partant de 1 (r = reset).
+  * **$i**  : un premier niveau chronologique qui sera indiqué dans la description de l'exemplaire : c'est ici l'année ;
+  * **$j**  : un deuxième niveau chronologique qui sera indiqué dans la description de l'exemplaire : c'est ici le mois.
+  * **$w**  : c'est la périodicité du périodique. La lettre q indique que c'est un trimestriel ("quarterly").
+  * **$8**  : laissez la valeur prérenseignée (champ de contrôle propre à la holding : sa fonction précise n'est pas claire en l'état de notre compréhension)
+**Donner le calendrier prévisionnel**
+
+Pour générer les exemplaires, il faut maintenant donner les conditions initiales à partir desquelles Alma va compter les exemplaires du périodiques.
+
+Pour cela, il faut placer le curseur dans la zone 853 puis accéder à l'action **Calendrier prévisionnel**  dans le menu **Outils**, sous-menu **Holdings Marc 21**.
+
+Une nouvelle fenêtre s'ouvre avec un champ par zones d'énumération et chronologique ainsi qu'un champ contenant une date au format AAAAMMJJ. Ce champ correspond à la date de publication du premier exemplaire du périodique à recevoir. On indique dans les zones d'énumération et de chronologie les valeurs à partir desquelles on souhaite commencer à bulletiner. Dans l'exemple suviant, nous voulons avoir prêts à bulletiner les exemplaires à compter du volume 1, numéro 1, pour l'année 2019, en janvier, la première publication ayant lieu de 05 janvier 2019.
+
+{{  :condorcet:periodiques:calendrier.jpg?nolink&399x357  }}
+
+On clique alors sur **Fermer**. Nous sommes prêts à générer les exemplaires qui pourront être bulletiner.
+
+Générer les exemplaires prévus
+
+Afin de générer les exemplaires prévus sur la base des conditions énoncées par la 853 et des valeurs données dans le calendrier prévisionnel, on clique sur **Ouvrir les exemplaires prévus**  dans le menu **Outils**, sous-menu **Holdings Marc 21**.
+
+Alma ouvre une pop-up indiquant le résultat de ses calculs.
+
+{{  :condorcet:periodiques:exemplairesprevus.jpg?nolink&859x453  }}
+
+Comme on le voit ici Alma propose de créer quatre exemplaires pour le volume 1 portant les numéros 1 à 4 de l'année 2019 (au mois de janvier, avril, juillet et octobre). Ces exemplaires auront un statut "pas en rayon" et leur date d'arrivée prévisionnelle est indiquée. Si on clique sur **Enregistrer**, les exemplaires sont créés et prêts à être bulletiner ; si on clique sur **Rejeter**, rien ne se passe et la fenêtre se ferme.
+
+Lorsqu'au bout d'une année, on veut préparer les exemplaires suivants, pour 2020, il suffit de recommencer la manipulation décrite dans ce paragraphe. On clique directement sur l'ouverture des exemplaires prévus. Alma va automatiquement détecter qu'on passe au volume 2 pour l'année 2020.
+
+Si entre-temps, le périodique a changé de périodicité ou d'enumération ou de chronologie, il est possible de modifier la 853, de donner les nouvelles conditions de calendrier prévisionnel puis d'ouvrir les exemplaires pour le nouveau cycle.
+
+===== Bulletiner =====
+

@@ -9,7 +9,8 @@ En lien avec ce qui précède, on sera notamment mis en situation de créer des 
 
 Quand on visualise une notice dans l'éditeur de métadonnées, l'écran est divisée en trois parties principales :
 
-  * bandeau de gauche : accès aux modèles de notices, <font inherit/inherit;;inherit;;#d35400>aux notices récentes (??)</font>et aux règles permettant d'effectuer automatiquement des transformations sur les notices
+bandeau de gauche : accès aux modèles de notices, aux notices récentes et aux règles permettant d'effectuer automatiquement des transformations sur les notices
+
   * bandeau de droite haut : partie principale contenant la notice et dans laquelle on réalise l'édition de la notice
   * bandeau de droite bas : différentes informations
 
@@ -29,11 +30,9 @@ Dans le menu Modifier, il faut cliquer sur l'entrée Ajouter un champ (ou presse
 
 Il suffit de se positionner sur le champ que l'on souhaite modifier et de cliquer dessus : le champ devient alors éditable.
 
-<WRAP center round important 60%> \\
-Attention : on note le '$' en redoublant ce signe, soit '$$' dans l'éditeur de métadonnées.
+<WRAP center round important 60%> \\ Attention : on note le '$' en redoublant ce signe, soit '$$' dans l'éditeur de métadonnées.
 
-Quand vous êtes positionnés sur le label et sur certaines autres zones codées, vous pouvez presser les touches Ctrl F : un formulaire de saisie apparaît et peut constituer une aide appréciable. \\
-</WRAP>
+Quand vous êtes positionnés sur le label et sur certaines autres zones codées, vous pouvez presser les touches Ctrl F : un formulaire de saisie apparaît et peut constituer une aide appréciable. \\ </WRAP>
 
 === Suppression de champ ===
 

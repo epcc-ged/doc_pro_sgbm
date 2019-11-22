@@ -1,6 +1,26 @@
-===== ACQUISITION : CIRCUIT DE COMMANDE : TABLE DES MATIERES =====
+====== Commande par EOD ======
 
-  - [[:condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
+La procédure de commande par //Embedded Order Data// (EOD) consiste à importer dans Alma un panier de notices dans lesquelles **toutes les informations de commande sont déjà incluses**.
+
+Les choix de titres, le prix, le choix du nombre d'exemplaires, des budgets, etc. sont faits sur la plateforme du prestataire.
+
+La procédure de création des fichiers EOD est propre à chaque plateforme fournisseur :\\
+- [Procédure chez XXX]\\
+- [Procédure chez YYY]
+
+//nicomo : poursuivre ici//
+====== Commande sans EOD ======
+
+===== Commande EDI =====
+
+//nicomo : some lame text for now//
+===== Commande manuelle =====
+
+//nicomo : some lame text for now//
+
+//archi initiale de cette partie, à reprendre// \\
+- [[:condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
+
   - [[:condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base|Rechercher un titre dans la base]]
   - [[:condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande|Dériver, importer ou créer un titre en vue d'une commande]]
   - [[:condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande|Créer un modèle de ligne de commande]]

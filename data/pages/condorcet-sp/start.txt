@@ -2,5 +2,6 @@
 
   - [[:condorcet-sp:permanence-ged-hors-les-murs|Les permanences du GED hors les murs ]]
   - [[:outils-test.campus-condorcet.fr:dokuwiki:doku.php?id=:condorcet-sp:Règlement intérieur|Règlement intérieur]]
-  - Autre point
+  - {{:condorcet-sp:aide1.pptx|Mémo inscription - réservation}}
+   - {{:condorcet-sp:aide2.pptx|Mémo prêt - retour}}
 

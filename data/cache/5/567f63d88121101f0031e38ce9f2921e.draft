@@ -1,0 +1,120 @@
+a:6:{s:2:"id";s:27:"condorcet:periodiques:start";s:6:"prefix";b:0;s:4:"text";s:12711:"<h1>PERIODIQUES</h1>
+
+<div class="level1">&nbsp;</div>
+
+<h2>Pr&eacute;suppos&eacute;s</h2>
+
+<div class="level2">
+<p>Ce qui suit pr&eacute;suppose que l&#39;on dispose d&#39;un fournisseur pour l&#39;abonnement aux p&eacute;riodiques et d&#39;un compte &agrave; d&eacute;biter &agrave; cet effet. Ces points rel&egrave;vent des acquisitions et il faut donc se reporter &agrave; la partie de la documentation en traitant.</p>
+
+<p>Pour &eacute;tablir un mod&egrave;le de pr&eacute;vision d&#39;un p&eacute;riodique qui permettra la cr&eacute;ation automatique des exemplaires &agrave; bulletiner, il faut travailler au niveau de la holding sous la notice titre correspondant au p&eacute;riodique. Cette notice holding doit &ecirc;tre associ&eacute;e &agrave; une ligne de commande pour que le bulletinage soit possible.</p>
+
+<p>Dans ce qui suit, nous partirons donc du principe que la ligne de commande existe.</p>
+
+<p>La ligne de commande a pr&eacute;vu une localisation pour les exemplaires, c&#39;est-&agrave;-dire qu&#39;&agrave; la notice titre est associ&eacute; une holding donnant la localisation.</p>
+
+<p>Par exemple, nous partirons ici du titre <em>Saragam </em>pour lequel on a cr&eacute;&eacute; une holding en A-PERIO (le choix de cette orientation ne refl&egrave;te pas n&eacute;cessairement le territoire r&eacute;el o&ugrave; devrait se trouver le p&eacute;riodique mais il ne s&#39;agit ici que d&#39;un exemple et nous avons choisi le territoire sans pr&ecirc;ter attention au domaine de recherche).</p>
+
+<p><a class="media" href="/doc_pro_sgbm/lib/exe/detail.php?id=condorcet%3Aperiodiques%3Astart&amp;media=condorcet:periodiques:saragamsansexemplaire.jpg" title="condorcet:periodiques:saragamsansexemplaire.jpg"><img alt="saragamsansexemplaire.jpg" class="media" src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:saragamsansexemplaire.jpg" title="saragamsansexemplaire.jpg" /></a></p>
+</div>
+
+<h2>Cr&eacute;er le mod&egrave;le de pr&eacute;vision : zone 853 de la holding</h2>
+
+<div class="level2">
+<p>Le mod&egrave;le de pr&eacute;vision permet de g&eacute;n&eacute;rer automatiquement tous les exemplaires attendus d&#39;un p&eacute;riodique pour l&#39;ann&eacute;e (ou m&ecirc;me pour plusieurs ann&eacute;es).</p>
+
+<p>Le mod&egrave;le de pr&eacute;vision est d&eacute;clar&eacute; dans la notice holding du titre, au niveau de la zone Marc21 <b>853</b>. Alma propose des mod&egrave;les pr&eacute;d&eacute;finis.</p>
+
+<p>Pour cr&eacute;er la zone 853, il faut donc ouvrir la holding souhait&eacute;e dans l&#39;&eacute;diteur de m&eacute;tadonn&eacute;es. La holding, dans le cas pr&eacute;sent, ne contient encore aucune information, comme on le voit ci-dessous.</p>
+
+<p><img alt="saragamholding1.jpg" class="mediacenter" src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:saragamholding1.jpg" title="saragamholding1.jpg" /></p>
+
+<p>Dans le cas pr&eacute;sent, nous allons donc inscrire la cote dans la holding en rajoutant un $h (attention, dans l&#39;&eacute;diteur de m&eacute;tadonn&eacute;es, on saisit donc $$h suivi d&#39;un espace et de la cote).</p>
+
+<p>Ceci &eacute;tant fait, dans la menu <b>Modifier </b>de l&#39;&eacute;diteur de m&eacute;tadonn&eacute;es, choisir <b>D&eacute;velopper &agrave; partir du mod&egrave;le</b>. Une fen&ecirc;tre pop-up s&#39;affiche avec un menu d&eacute;roulant.</p>
+
+<p>Ce menu d&eacute;roulant permet de choisir un type de p&eacute;riodicit&eacute; du p&eacute;riodique. Il faut choisir celui qui correspond au p&eacute;riodique en cours de traitement. Ici, nous supposons que nous avons un trimestriel.</p>
+
+<p><img alt="saragamdevmodele.jpg" class="mediacenter" height="186" src="/doc_pro_sgbm/lib/exe/fetch.php?w=624&amp;h=186&amp;tok=6124a4&amp;media=condorcet:periodiques:saragamdevmodele.jpg" title="saragamdevmodele.jpg" width="624" /></p>
+
+<p>&lt;WRAP center round info 60%&gt;<br />
+Si le p&eacute;riodique a une p&eacute;riodicit&eacute; qui ne se trouve pas dans la liste, choisissez par exemple &quot;Serial prediction with two 853 fields&quot; : nous verrons plus loin comment traiter ce genre de cas.<br />
+&lt;/WRAP&gt;</p>
+
+<p>En cliquant sur OK, on peut voir que la notice holding a re&ccedil;u deux nouveaux champs : le 853 et le 590. Ces champs sont pr&eacute;remplis.</p>
+
+<p><img alt="saragamholding2.jpg" class="mediacenter" src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:saragamholding2.jpg" title="saragamholding2.jpg" /></p>
+
+<p>&lt;WRAP center round info 60%&gt;<br />
+Vous pouvez modifier la description dans la 590$a : c&#39;est une zone de saisie libre explicitant la 853. Il est d&#39;ailleurs recommand&eacute; de le faire, la 853 pouvant &ecirc;tre difficile &agrave; lire quand on n&#39;est pas habitu&eacute; &agrave; son fonctionnement.</p>
+
+<p>La zone 853 est r&eacute;gie par une grammaire pr&eacute;cise. <a class="urlextern" href="https://www.loc.gov/marc/holdings/hd853855.html" rel="nofollow" title="https://www.loc.gov/marc/holdings/hd853855.html">La grammaire de cette zone est d&eacute;crite en ligne ici</a>.<br />
+&lt;/WRAP&gt;</p>
+
+<p>Selon la 853, un p&eacute;riodique est d&eacute;crit par plusieurs &eacute;l&eacute;ments et notamment une &eacute;num&eacute;ration et une chronologie. Enum&eacute;ration et chronologie permettent de g&eacute;n&eacute;rer les exemplaires et la description de chacun des exemplaires. La description contient des informations comme la volumaison, le num&eacute;ro d&#39;exemplaire dans la volumaison, l&#39;ann&eacute;e, le mois, etc.</p>
+
+<p>Dans l&#39;exemple ci-dessus, on a :</p>
+
+<ul>
+	<li class="level1"><b>$a v</b>. : un premier niveau d&#39;&eacute;num&eacute;ration (ici la volumaison) qui appara&icirc;tra dans la description associ&eacute;e &agrave; l&#39;exemplaire sous la forme &quot;v.&quot; suivi de la volumaison en cours. Lors de la cr&eacute;ation des exemplaires, chacun d&#39;entre eux recevra donc un premier niveau d&#39;&eacute;num&eacute;ration correspondant au volume ;</li>
+	<li class="level1"><b>$b no. </b>: un deuxi&egrave;me niveau d&#39;&eacute;num&eacute;ration hi&eacute;rarchiquement plac&eacute; sous le premier niveau d&eacute;crit en $a (ici le num&eacute;ro sous la volumaison en cours) qui appara&icirc;tra dans la description associ&eacute; &agrave; l&#39;exemplaire sous la forme &quot;no.&quot; suivi du num&eacute;ro en cours. Lors de la cr&eacute;ation des exemplaires, chaque exemplaire aura un num&eacute;ro.</li>
+	<li class="level1 node">Les champs <b>$u</b> et <b>$v</b> se rapportent au <b>$b</b> et signifient dans notre exemple :
+	<ul>
+		<li class="level3"><b>$u 4</b> : quand on a attend le quatri&egrave;me num&eacute;ro, la volumaison en cours est termin&eacute;e. Autrement dit, on a quatre num&eacute;ro par volumaison ;</li>
+		<li class="level3"><b>$v r </b>: quand on change de volumaison, les num&eacute;ros suivants sont compt&eacute;s en partant de 1 (r = reset).</li>
+	</ul>
+	</li>
+	<li class="level1"><b>$i</b> : un premier niveau chronologique qui sera indiqu&eacute; dans la description de l&#39;exemplaire : c&#39;est ici l&#39;ann&eacute;e ;</li>
+	<li class="level1"><b>$j</b> : un deuxi&egrave;me niveau chronologique qui sera indiqu&eacute; dans la description de l&#39;exemplaire : c&#39;est ici le mois.</li>
+	<li class="level1"><b>$w</b> : c&#39;est la p&eacute;riodicit&eacute; du p&eacute;riodique. La lettre q indique que c&#39;est un trimestriel (&quot;quarterly&quot;).</li>
+	<li class="level1"><b>$8</b> : laissez la valeur pr&eacute;renseign&eacute;e (champ de contr&ocirc;le propre &agrave; la holding : sa fonction pr&eacute;cise n&#39;est pas claire en l&#39;&eacute;tat de notre compr&eacute;hension)</li>
+</ul>
+
+<p><b>Donner le calendrier pr&eacute;visionnel</b></p>
+
+<p>Pour g&eacute;n&eacute;rer les exemplaires, il faut maintenant donner les conditions initiales &agrave; partir desquelles Alma va compter les exemplaires du p&eacute;riodiques.</p>
+
+<p>Pour cela, il faut placer le curseur dans la zone 853 puis acc&eacute;der &agrave; l&#39;action <b>Calendrier pr&eacute;visionnel</b> dans le menu <b>Outils</b>, sous-menu <b>Holdings Marc 21</b>.</p>
+
+<p>Une nouvelle fen&ecirc;tre s&#39;ouvre avec un champ par zones d&#39;&eacute;num&eacute;ration et chronologique ainsi qu&#39;un champ contenant une date au format AAAAMMJJ. Ce champ correspond &agrave; la date de publication du premier exemplaire du p&eacute;riodique &agrave; recevoir. On indique dans les zones d&#39;&eacute;num&eacute;ration et de chronologie les valeurs &agrave; partir desquelles on souhaite commencer &agrave; bulletiner. Dans l&#39;exemple suviant, nous voulons avoir pr&ecirc;ts &agrave; bulletiner les exemplaires &agrave; compter du volume 1, num&eacute;ro 1, pour l&#39;ann&eacute;e 2019, en janvier, la premi&egrave;re publication ayant lieu de 05 janvier 2019.</p>
+
+<p><img alt="calendrier.jpg" class="mediacenter" height="357" src="/doc_pro_sgbm/lib/exe/fetch.php?w=399&amp;h=357&amp;tok=7fcd36&amp;media=condorcet:periodiques:calendrier.jpg" title="calendrier.jpg" width="399" /></p>
+
+<p>On clique alors sur <b>Fermer</b>. Nous sommes pr&ecirc;ts &agrave; g&eacute;n&eacute;rer les exemplaires qui pourront &ecirc;tre bulletiner.</p>
+
+<p>G&eacute;n&eacute;rer les exemplaires pr&eacute;vus</p>
+
+<p>Afin de g&eacute;n&eacute;rer les exemplaires pr&eacute;vus sur la base des conditions &eacute;nonc&eacute;es par la 853 et des valeurs donn&eacute;es dans le calendrier pr&eacute;visionnel, on clique sur <b>Ouvrir les exemplaires pr&eacute;vus</b> dans le menu <b>Outils</b>, sous-menu <b>Holdings Marc 21</b>.</p>
+
+<p>Alma ouvre une pop-up indiquant le r&eacute;sultat de ses calculs.</p>
+
+<p><img alt="exemplairesprevus.jpg" class="mediacenter" height="453" src="/doc_pro_sgbm/lib/exe/fetch.php?w=859&amp;h=453&amp;tok=f606e5&amp;media=condorcet:periodiques:exemplairesprevus.jpg" title="exemplairesprevus.jpg" width="859" /></p>
+
+<p>Comme on le voit ici Alma propose de cr&eacute;er quatre exemplaires pour le volume 1 portant les num&eacute;ros 1 &agrave; 4 de l&#39;ann&eacute;e 2019 (au mois de janvier, avril, juillet et octobre). Ces exemplaires auront un statut &quot;pas en rayon&quot; et leur date d&#39;arriv&eacute;e pr&eacute;visionnelle est indiqu&eacute;e. Si on clique sur <b>Enregistrer</b>, les exemplaires sont cr&eacute;&eacute;s et pr&ecirc;ts &agrave; &ecirc;tre bulletiner ; si on clique sur <b>Rejeter</b>, rien ne se passe et la fen&ecirc;tre se ferme.</p>
+
+<p>Lorsqu&#39;au bout d&#39;une ann&eacute;e, on veut pr&eacute;parer les exemplaires suivants, pour 2020, il suffit de recommencer la manipulation d&eacute;crite dans ce paragraphe. On clique directement sur l&#39;ouverture des exemplaires pr&eacute;vus. Alma va automatiquement d&eacute;tecter qu&#39;on passe au volume 2 pour l&#39;ann&eacute;e 2020.</p>
+
+<p>Si entre-temps, le p&eacute;riodique a chang&eacute; de p&eacute;riodicit&eacute; ou d&#39;enum&eacute;ration ou de chronologie, il est possible de modifier la 853, de donner les nouvelles conditions de calendrier pr&eacute;visionnel puis d&#39;ouvrir les exemplaires pour le nouveau cycle.</p>
+
+<h3>Remarque</h3>
+
+<p>La zone 853 a une grammaire tr&egrave;s riche et les p&eacute;riodiques pr&eacute;sentent eux-m&ecirc;mes une grande richesse de cas. Il est impossible de d&eacute;crire dans cette documentation tous les cas possibles.&nbsp;</p>
+
+<p>Voici par exemple un cas o&ugrave; le p&eacute;riodique a une num&eacute;rotation de premier niveau en chiffre romain (correspondant au num&eacute;ro d&#39;ann&eacute;e du p&eacute;riodique), un deuxi&egrave;me niveau (num&eacute;ro dans l&#39;ann&eacute;e) puis un deuxi&egrave;me niveau alternatif qui est le num&eacute;ro depuis la cr&eacute;ation du p&eacute;riodique. Enfin on indique en chronologie l&#39;ann&eacute;e seulement. La 853 est alors la suivante :</p>
+
+<pre class="code" data-key="58">
+853 $$a (*) $$z abrn $$b (*) $$u 4 $$v r $$g (*) $$u 4 $$v c $$i (year) $$w q $$8 1</pre>
+
+<p data-key="60">On la lit ainsi :</p>
+
+<p data-key="60">$a (*) : le premier niveau d&#39;&eacute;num&eacute;ration&nbsp;n&#39;est introduit pas aucun mot (type &quot;v.&quot;, &quot;tome&quot;, &quot;vol.&quot; etc.)</p>
+
+<p data-key="60">$z abrn : ce $z se rapporte &agrave; la zone qui pr&eacute;c&egrave;de. Il indique donc que le num&eacute;ro g&eacute;n&eacute;r&eacute; au titre du $a r&eacute;pond au format suivant : c&#39;est un chiffre (a)&nbsp;not&eacute; en minuscule (b)&nbsp;selon la num&eacute;rotation romaine (rn). Rq : si on n&#39;indique pas de $</p>
+
+<p data-key="60">$b (*) : le deuxi&egrave;me niveau d&#39;&eacute;num&eacute;ration est un&nbsp;</p>
+
+<p data-key="60">Bulletiner</p>
+</div>
+
+<div class="level2">&nbsp;</div>
+";s:6:"suffix";s:0:"";s:4:"date";i:1574265406;s:6:"client";s:10:"jchiavassa";}

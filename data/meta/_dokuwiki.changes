@@ -1,28 +1,48 @@
-1570093237	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-17
-1570093525	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			-355
-1570093594	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:contacts	mhgatto			31
-1570096135	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:contacts	mhgatto			27
-1570203669	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			42
-1570433982	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	nicomo	  		284
-1570435131	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	nicomo	[Droits de prêt] 		124
-1570440275	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	nicomo			76
-1570527480	194.254.171.10	E	condorcet:circulation:reserver-des-documents-depuis-alma-et-primo	nicomo			543
-1570528828	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			35
-1570528949	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			-12
-1570614798	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	mhgatto			160
-1570695417	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			9
-1570695462	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs	mhgatto			-9
-1570695699	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques	mhgatto			141
-1571122395	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto			39
-1571231216	194.254.171.10	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	nicomo			14
-1571660279	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			9
-1571660355	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			-45
-1571660529	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	mhgatto			35
-1562313640	127.0.0.1	E	condorcet:signalement:les-exemplaires		modification externe		0
-1571991649	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			20
-1571991769	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			108
-1571991887	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			-128
-1562313640	127.0.0.1	E	condorcet:signalement:start		modification externe		0
-1571992059	194.254.171.10	E	condorcet:signalement:start	fmouillot			79
-1571992074	194.254.171.10	C	condorcet:signalement:supprimer-un-exemplaire	fmouillot	créée		8
-1571992117	194.254.171.10	E	condorcet:signalement:start	fmouillot			-79
+1574238603	194.254.171.10	E	condorcet:start	jchiavassa			59
+1574238731	194.254.171.10	E	condorcet:start	jchiavassa			-8
+1574238970	194.254.171.10	E	condorcet:start	jchiavassa			-1
+1574239680	194.254.171.10	E	condorcet:start	jchiavassa			51
+1574239730	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			-281
+1574239860	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			226
+1574239885	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			74
+1574243965	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			410
+1574255967	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			567
+1574256004	194.254.171.10	D	condorcet:periodiques:start	jchiavassa	supprimée		-1325
+1574256016	194.254.171.10	C	condorcet:periodiques:start	jchiavassa	créée		1319
+1574258064	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			356
+1574258287	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			237
+1574259069	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			1066
+1574259766	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			1203
+1574262342	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			306
+1574262508	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			234
+1574262532	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			0
+1574262561	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			-67
+1574263977	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			590
+1574264076	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			78
+1574265406	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			3332
+1574346958	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot	[Supprimer une holding] 		322
+1574351337	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			147
+1574353569	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			136
+1574415169	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			475
+1574415215	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			15
+1574415261	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			-4
+1574415319	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			5
+1574416510	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			749
+1574416605	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			-54
+1574416699	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			61
+1574416741	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot	[Déclarer un exemplaire "manquant"] 		0
+1574421480	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			8
+1574421536	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			0
+1574421591	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			55
+1574428325	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			-274
+1574429698	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			229
+1574429828	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			20
+1562313640	127.0.0.1	E	condorcet:signalement:editeur-de-metadonnees		modification externe		0
+1574430707	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	fmouillot			-54
+1574430922	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			0
+1574435677	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			56
+1574436126	194.254.171.10	E	condorcet:signalement:start	fmouillot			-73
+1574436142	194.254.171.10	E	condorcet:signalement:start	fmouillot			73
+1574438322	194.254.171.10	E	condorcet:signalement:start	fmouillot			8
+1574438370	194.254.171.10	E	condorcet:signalement:start	fmouillot			-4
+1574438526	194.254.171.10	E	condorcet:signalement:start	fmouillot			-77
