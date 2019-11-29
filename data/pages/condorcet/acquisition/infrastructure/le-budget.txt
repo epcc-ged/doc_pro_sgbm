@@ -6,9 +6,23 @@ Pour pouvoir effectuer des commandes dans Alma, il faut au préalable avoir sais
 
 Dans Alma, la structure budgétaire se compose ainsi :
 
-  * le **registre comptable**, niveau le plus haut de la hiérarchie budgétaire, contient un ensemble de comptes de synthèse et de comptes budgétaires
+  * le **registre comptable**, niveau le plus haut de la hiérarchie budgétaire, contient un ensemble de comptes de synthèse et de comptes budgétaires. Il y a un registre comptable par année budgétaire.
   * le **compte de synthèse**, niveau intermédiaire, permet d'avoir une vue d'ensemble sur les comptes budgétaires qu'il réunit
   * le **compte budgétaire**  est le niveau le plus bas de la hiérarchie budgétaire. C'est à partir de ce compte que les fonds sont alloués (argent rendu disponible pour les commandes) et les transactions budgétaires effectuées.
+
+L'architecture budgétaire du GED est la suivante :
+
+  * registre comptable 2020
+      * <font inherit/inherit;;#1abc9c;;inherit>Périodiques (compte budgétaire)</font>
+      * <font inherit/inherit;;#1abc9c;;inherit>Packages d'ebooks (compte budgétaire)</font>
+      * Collections 2020 (compte de synthèse)
+        * <font inherit/inherit;;#1abc9c;;inherit>Pôle A - 2020 (compte budgétaire)</font>
+        * <font inherit/inherit;;#1abc9c;;inherit>.../...</font>
+        * <font inherit/inherit;;#1abc9c;;inherit>Pôle H - 2020 (compte budgétaire)</font>
+
+Les dépenses sont imputées uniquement dans les //comptes budgétaires//. Le compte de synthèse et le registre permettent uniquement de donner une vision globale des dépenses et de faire des rapports, mais aucune dépense n'est faite à leur niveau.
+
+Il n'y a pas de gestion de droit entre les acquéreurs au niveau des budgets : un acquéreur a techniquement le droit de dépenser sur n'importe quel budget. Les contraintes de dépense entre les budgets relèvent de procédures internes au service.
 
 Le chemin d'accès permet de savoir où se situe le compte budgétaire ou de synthèse dans la hiérarchie budgétaire.
 

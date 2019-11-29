@@ -1,25 +1,158 @@
+Le circuit de la commande se décompose en plusieurs parties :
+
+  * la //sélection des notices//  sous lesquelles vont être commandées les références, qu'il s'agisse d'une commande papier ou d'une commande électronique
+  * la création des informations de commande pour un document spécifique : c'est la //ligne de commande//
+  * le rassemblement d'une ou plusieurs lignes de commande dans un //bon de commande//
+  * //l'expédition //du bon de commande au fournisseur.
+Il existe deux circuits bien distincts pour faire des commandes :
+
+  * via un processus d'//Embedded Order Data//  (EOD), qui consiste à importer dans Alma, depuis le site du fournisseur, un panier de notices dans lesquelles **toutes les informations de commande sont déjà incluses**
+  * ou bien en créant //ex nihilo//  une commande dans Alma pour l'envoyer ensuite au fournisseur
+
 ====== Commande par EOD ======
 
-La procédure de commande par //Embedded Order Data// (EOD) consiste à importer dans Alma un panier de notices dans lesquelles **toutes les informations de commande sont déjà incluses**.
+La procédure de commande par //Embedded Order Data//  (EOD) consiste à importer dans Alma un panier de notices dans lesquelles **toutes les informations de commande sont déjà incluses**.
 
 Les choix de titres, le prix, le choix du nombre d'exemplaires, des budgets, etc. sont faits sur la plateforme du prestataire.
 
-La procédure de création des fichiers EOD est propre à chaque plateforme fournisseur :\\
-- [Procédure chez XXX]\\
-- [Procédure chez YYY]
+La procédure de création des fichiers EOD est propre à chaque plateforme fournisseur : \\ - [Procédure chez XXX] \\ - [Procédure chez YYY]
 
 //nicomo : poursuivre ici//
+
 ====== Commande sans EOD ======
 
-===== Commande EDI =====
+Le processus se décompose en plusieurs étapes :
+
+  - la sélection d'une ou plusieurs notices représentant les ressources qu'on souhaite acquérir
+  - la création de la ligne de commande
+  - la création du bon de commande
+  - l'expédition de la commande
+
+===== Notices : le point de départ d'une commande =====
+
+==== La notice existe au catalogue (rachat) ====
+
+Quand il s'agit de racheter un exemplaire ou une autre version (ebook) d'une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
+
+==== Import d'un lot de notices ====
 
 //nicomo : some lame text for now//
-===== Commande manuelle =====
 
-//nicomo : some lame text for now//
+==== Récupérer une notice de la Zone Communautaire (ZC) ====
 
-//archi initiale de cette partie, à reprendre// \\
-- [[:condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
+Dans la fenêtre de recherche bibliographique, menu déroulant à droite, sélectionnez la zone de recherche : Communauté
+
+{{  :condorcet:acquisition:circuit-de-commande:zone-communaute.png?nolink&  |sélection de la zone communauté}}
+
+Attention, la zone communautaire contient essentiellement des notices de documentation électronique, et est donc plus pertinente pour les achats d'ebooks, ou pour vérifier l'existence sur le marché d'une version électronique d'un document qui vous intéresse.
+
+Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
+
+==== Récupérer une notice dans un catalogue externe ====
+
+Le menu **Ressources > Chercher des ressources externes **vous permet d'accéder à une fenêtre de recherche spécifique qui vous permettra d'importer une notice d'un catalogue extérieur, par exemple le Sudoc, la British Library, la Library of Congress, etc.
+
+On ne peut pas faire une recherche en même temps sur plusieurs sources distantes : sélectionnez d'abord votre source dans le champ **Rechercher un profil de catalogage**, par ex Sudoc ou British Library
+
+Si la notice que vous cherchez se trouve dans la liste des résultats, cliquez sur le bouton **Importer**
+
+La notice est alors importée dans l'éditeur de métadonnées. Cliquez au-dessus de la notice sur l'icone "**caddie**" (Créer une ligne de commande et quitter) pour créer une ligne de commande à partir de cette notice.
+
+{{  :condorcet:acquisition:circuit-de-commande:caddie.png?nolink&  |icone caddie}}
+
+==== Demande d'achat d'un usager ====
+
+Les suggestions d'achat des utilisateurs se trouvent derrière le menu **Acquisitions > Demandes d'achat > Gérer les demandes d'achat**
+
+Les informations saisies par l'utilisateur ne sont pas forcément suffisantes pour lancer une commande. Il faut donc chercher si on a déjà une notice pour ce titre et/ou si une notice pour ce titre existe dans la zone communautaire. Depuis la demande, derrière le bouton ''…'', utilisez la commande ''lier à une notice''  pour lancer une recherche.
+
+En fonction des résultats vous pouvez ou bien **valider**  la notice trouvée ou bien **continuer **avec les informations remplies par l'usager si aucune notice n'a été trouvée (la notice sera complétée plus tard).
+
+De retour à la liste des suggestions, pour la suggestion que vous traitez, cliquez sur ''Modifier''
+
+Editez les informations bibliographiques de la notice si nécessaire (cas d'une nouvelle notice).
+
+Dans tous les cas, remplissez la partie **attributs de la demande**  du formulaire :
+
+  * bibliothèque propriétaire : obligatoirement GED
+  * coût estimé : coût TTC du document
+  * compte (budget) : sélectionnez le budget sur lequel vous allez imputer la demande
+  * fournisseur/compte : sélectionnez le fournisseur auprès duquel vous allez envoyer la demande et, si nous avons plusieurs comptes chez ce fournisseur, le compte utilisé.
+
+{{  :condorcet:acquisition:circuit-de-commande:demande-achat.png?nolink&600x389  }}
+
+===== Créer la ligne de commande =====
+
+La ligne de commande proprement dite se répartie en plusieurs écrans.
+
+==== Type et propriétaire de la ligne de commande ====
+
+  * Choisir le type d'achat, par exemple //Livre imprimé - achat ponctuel//
+  * remplir le propriétaire : c'est toujours //GED//
+
+Les autres champs sont facultatifs. __Ne jamais cocher__// Assigner l'inventaire manuellement//  : c'est Alma qui créera un exemplaire automatiquement à la commande.
+
+Cliquez sur ''Créer une ligne de commande''
+
+==== Détails de la ligne de commande ====
+
+Dans l'écran de **Détails de la ligne de commande**, toutes les informations à remplir sont dans l'onglet **Résumé**.
+
+Dans ce formulaire, il convient de :
+
+  * Dans la partie //Information sur le fournisseur//  :
+      * choisir le //Fournisseur de matériel//  : sélectionnez le fournisseur auprès duquel vous allez envoyer la demande et, si nous avons plusieurs comptes chez ce fournisseur, le compte utilisé.
+  * Dans la partie //Tarification //
+      * Saisir le //Prix catalogue//
+      * Saisir la //Quantité//
+  * Dans la partie //Financement//
+      * cliquez sur ''Ajouter un compte''
+      * sélectionnez le compte (budget) sur lequel sera imputée la somme
+  * Dans la partie //Détails de la ligne de commande//
+      * sélectionnez la// méthode d'acquisition//  : a priori //Achat//
+      * sélectionnez le //type de matériel//  : par exemple //Livre//
+      * sélectionnez le //code statistique//  : par exemple //Livre imprimé//
+      * sélectionnez le //code statistique secondaire//  : c'est le //nom de l'acquéreur//
+      * les autres champs restent vides
+  * Cliquez sur ''Enregistrer et continuer''
+
+**Attention, ne pas cliquer**  sur ''Commander maintenant''  : ce bouton envoit directement et immédiatement la commande au fournisseur pour cet unique ouvrage.
+
+Votre ligne de commande est enregistrée. Alma vous le confirme par une fenêtre d'information qui vous donne aussi le numéro de ligne de commande attribué, par exemple //LC-238//
+
+//{{  :condorcet:acquisition:circuit-de-commande:confirmationlc.png?nolink&300x186  }}//
+
+===== Création et expédition du bon de commande =====
+
+Les lignes de commande sont regroupées automatiquement une fois par semaine (//paquetage //dans le vocabulaire Alma)
+
+//nicomo : jour de la semaine? Dimanche?//
+
+Alma créé une commande par fournisseur et par circuit : les commandes EOD sont envoyées d'un côté et les commandes hors EOD d'un autre côté.
+
+Il y a une étape de validation du bon de commande qui permet d'ajouter un numéro comptable de Bon de Commande.
+
+Du point de vue de l'acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
+
+===== Cas particuliers =====
+
+==== Chercher ses lignes de commande ====
+
+requête LC code stat secondaire == NOM
+
+enregistrer la requete → Admin > Gérer les jeux
+
+Voir mes tâches
+
+Explication des différents statuts
+
+==== Ligne de commande en révision ====
+
+==== Annuler une ligne de commande ====
+
+//==========================//
+
+//archi initiale de cette partie, à reprendre// \\ - [[:condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
 
   - [[:condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base|Rechercher un titre dans la base]]
   - [[:condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande|Dériver, importer ou créer un titre en vue d'une commande]]

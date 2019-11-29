@@ -1,25 +1,3 @@
-1574238603	194.254.171.10	E	condorcet:start	jchiavassa			59
-1574238731	194.254.171.10	E	condorcet:start	jchiavassa			-8
-1574238970	194.254.171.10	E	condorcet:start	jchiavassa			-1
-1574239680	194.254.171.10	E	condorcet:start	jchiavassa			51
-1574239730	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			-281
-1574239860	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			226
-1574239885	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			74
-1574243965	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			410
-1574255967	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			567
-1574256004	194.254.171.10	D	condorcet:periodiques:start	jchiavassa	supprimée		-1325
-1574256016	194.254.171.10	C	condorcet:periodiques:start	jchiavassa	créée		1319
-1574258064	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			356
-1574258287	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			237
-1574259069	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			1066
-1574259766	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			1203
-1574262342	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			306
-1574262508	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			234
-1574262532	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			0
-1574262561	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			-67
-1574263977	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			590
-1574264076	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			78
-1574265406	194.254.171.10	E	condorcet:periodiques:start	jchiavassa			3332
 1574346958	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot	[Supprimer une holding] 		322
 1574351337	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			147
 1574353569	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			136
@@ -37,7 +15,6 @@
 1574428325	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			-274
 1574429698	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			229
 1574429828	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			20
-1562313640	127.0.0.1	E	condorcet:signalement:editeur-de-metadonnees		modification externe		0
 1574430707	194.254.171.10	E	condorcet:signalement:editeur-de-metadonnees	fmouillot			-54
 1574430922	194.254.171.10	E	condorcet:signalement:les-notices-holdings	fmouillot			0
 1574435677	194.254.171.10	E	condorcet:signalement:les-exemplaires	fmouillot			56
@@ -46,3 +23,32 @@
 1574438322	194.254.171.10	E	condorcet:signalement:start	fmouillot			8
 1574438370	194.254.171.10	E	condorcet:signalement:start	fmouillot			-4
 1574438526	194.254.171.10	E	condorcet:signalement:start	fmouillot			-77
+1574668316	194.254.171.10	E	condorcet-sp:start	mhgatto			69
+1574668897	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:outils-professionnels	mhgatto			29
+1574668922	194.254.171.10	E	condorcet-sp:start	mhgatto			-69
+1574763112	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			74
+1574763163	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			8
+1574763246	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			20
+1574764851	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			635
+1574765002	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			109
+1574766208	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			415
+1574766646	194.254.171.56	E	condorcet:acquisition:circuit-de-commande:start	nicomo			236
+1574781981	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			2
+1574783658	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			1124
+1574784001	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			340
+1574784447	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			141
+1574784566	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			252
+1574786249	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			672
+1574844315	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			810
+1574844360	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			8
+1574844432	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			106
+1574847077	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			1796
+1574847156	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			62
+1574847281	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			123
+1574866144	92.169.187.187	E	condorcet:acquisition:circuit-de-commande:start	nicomo			-27
+1574868373	92.169.187.187	E	condorcet:acquisition:infrastructure:le-budget	nicomo			54
+1574868873	92.169.187.187	E	condorcet:acquisition:infrastructure:le-budget	nicomo			1068
+1574953775	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			490
+1574953907	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			92
+1574954145	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			135
+1574960208	194.254.171.10	E	condorcet:acquisition:circuit-de-commande:start	nicomo			56

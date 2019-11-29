@@ -4,7 +4,9 @@
 
 [[:condorcet:start|Documentation disponible]]
 
-<font 11pt/inherit;;inherit;;inherit>Important : les collections s'affichent au fur et à mesure des déménagements des structures documentaires. Pour connaître le calendrier des déménagements :</font><font inherit/inherit;;#f39c12;;inherit>lien</font>
+<font 11pt/inherit;;inherit;;inherit>Important : les collections s'affichent au fur et à mesure des déménagements des structures documentaires.</font>
+
+[[https://partages.campus-condorcet.fr/smart-link/27c7a3ec-ee37-4e3b-8638-e5bacfc27ddc/|Calendrier des déménagements 2019-2020]]
 
 Les établissements qui ne déménagent pas en phase 1 continuent de communiquer leurs documents selon leurs propres modalités :
 
