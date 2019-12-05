@@ -274,11 +274,7 @@ Votre ligne de commande est enregistrée. Alma vous le confirme par une fenêtre
 <div class="level2">
 
 <p>
-Les lignes de commande sont regroupées automatiquement une fois par semaine (<em>paquetage </em>dans le vocabulaire Alma)
-</p>
-
-<p>
-<em>nicomo : jour de la semaine? Dimanche?</em>
+Les lignes de commande sont regroupées automatiquement chaque dimanche (<em>paquetage </em>dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande.
 </p>
 
 <p>
@@ -290,44 +286,119 @@ Il y a une étape de validation du bon de commande qui permet d&#039;ajouter un 
 </p>
 
 <p>
-Du point de vue de l&#039;acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
+Le Bon de commande est réellement expédié non pas le dimanche lors du <em>paquetage</em>  mais ultérieurement lors de la validation du bon de commande. Du point de vue de l&#039;acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cr\u00e9ation et exp\u00e9dition du bon de commande&quot;,&quot;hid&quot;:&quot;creation_et_expedition_du_bon_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:12,&quot;range&quot;:&quot;7426-8028&quot;} -->
-<h2 class="sectionedit13" id="cas_particuliers">Cas particuliers</h2>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cr\u00e9ation et exp\u00e9dition du bon de commande&quot;,&quot;hid&quot;:&quot;creation_et_expedition_du_bon_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:12,&quot;range&quot;:&quot;7426-8176&quot;} -->
+<h2 class="sectionedit13" id="astuces_et_cas_particuliers">Astuces et cas particuliers</h2>
 <div class="level2">
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cas particuliers&quot;,&quot;hid&quot;:&quot;cas_particuliers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:13,&quot;range&quot;:&quot;8029-8058&quot;} -->
-<h3 class="sectionedit14" id="chercher_ses_lignes_de_commande">Chercher ses lignes de commande</h3>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Astuces et cas particuliers&quot;,&quot;hid&quot;:&quot;astuces_et_cas_particuliers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:13,&quot;range&quot;:&quot;8177-8217&quot;} -->
+<h3 class="sectionedit14" id="retrouver_ses_lignes_de_commande">Retrouver ses lignes de commande</h3>
 <div class="level3">
 
+</div>
+
+<h4 id="par_une_recherche">Par une recherche</h4>
+<div class="level4">
+
 <p>
-requête LC code stat secondaire == NOM
+Dans la recherche générale, vous pouvez choisir <strong>Lignes de commande &gt; Code statistique secondaire</strong>  pour chercher vos commandes. Vous pouvez entrer indiféremment votre code statistique (<em>par exemple NM</em>) ou votre nom (<em>par exemple MORIN</em>).
 </p>
 
 <p>
-enregistrer la requete → Admin &gt; Gérer les jeux
-</p>
-
-<p>
-Voir mes tâches
-</p>
-
-<p>
-Explication des différents statuts
+La liste de résultats peut être filtrée en utilisant les facettes. Les critères de filtres peuvent entre autres être : le fournisseur, le statut de la ligne de commande (envoyée, etc.), le type d&#039;achat (livre électronique, imprimé, etc.).
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Chercher ses lignes de commande&quot;,&quot;hid&quot;:&quot;chercher_ses_lignes_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:14,&quot;range&quot;:&quot;8059-8249&quot;} -->
+
+<h4 id="voir_mes_taches">Voir mes tâches</h4>
+<div class="level4">
+
+<p>
+Vous pouvez aussi accéder à vos lignes de commande, et plus généralement aux actions en cours pour vous, en utilisant l&#039;icone “mes tâches” en haut à droite de la barre de navigation d&#039;Alma.
+</p>
+
+<p>
+Dans la liste de vos tâches, vous trouverez des raccourcis vers les lignes de commande et les suggestions d&#039;acquisition qui vous sont attribuées.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=400&amp;h=308&amp;tok=2a8768&amp;media=condorcet:acquisition:circuit-de-commande:mes-taches.png" class="mediacenter" alt="" width="400" height="308" />
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Retrouver ses lignes de commande&quot;,&quot;hid&quot;:&quot;retrouver_ses_lignes_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:14,&quot;range&quot;:&quot;8218-9240&quot;} -->
 <h3 class="sectionedit15" id="ligne_de_commande_en_revision">Ligne de commande en révision</h3>
 <div class="level3">
 
+<p>
+Lorsqu’on clique sur <code>enregistrer et continuer</code>  et qu’il manque des informations essentielles (fournisseur, prix, compte de commande..) un message d’erreur apparaît et il est impossible de continuer.
+</p>
+
+<p>
+On peut cependant enregistrer la ligne de commande en cliquant sur le bouton <code>enregistrer</code>. Ce bouton peut également servir à sauvegarder un brouillon de ligne de commande que l’on ne souhaite pas valider tout de suite.
+</p>
+
+<p>
+Le statut de la ligne de commande est alors en statut « <em>en révision</em>  ». Le statut apparaît entre parenthèse à côté du numéro de ligne.
+</p>
+
+<p>
+La ligne de commande peut être retrouvée via la recherche.
+</p>
+
+<p>
+Il faudra modifier la ligne de commande (bouton <code>modifier</code>) et compléter les informations, puis cliquer sur <code>enregistrer et continuer</code>  pour qu’elle parte au <em>paquetage </em>automatique.
+</p>
+
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ligne de commande en r\u00e9vision&quot;,&quot;hid&quot;:&quot;ligne_de_commande_en_revision&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:15,&quot;range&quot;:&quot;8250-8291&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ligne de commande en r\u00e9vision&quot;,&quot;hid&quot;:&quot;ligne_de_commande_en_revision&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:15,&quot;range&quot;:&quot;9241-10124&quot;} -->
 <h3 class="sectionedit16" id="annuler_une_ligne_de_commande">Annuler une ligne de commande</h3>
 <div class="level3">
+
+<p>
+On peut annuler une ligne de commande qui nous est attribuée (dont on est l’auteur) à partir de la notice de la ligne de commande dans les options sous les <code>…</code>  à côté du bouton <code>commander maintenant</code>. Dans le détail de la ligne de commande, l’action annuler est également disponible sous les <code>…</code>  en haut à gauche de la barre avec les boutons <code>enregistrer</code>  et <code>enregistrer et continuer</code>.
+</p>
+
+<p>
+Si la ligne de commande est déjà groupée dans un bon de commande qui a été approuvé, il faut cocher l’option <em>envoyer l’annulation au fournisseur</em>. Attention : si le fournisseur a déjà expédié la commande il faudra rouvrir la ligne de commande. D’une manière générale il est conseillé de ne pas annuler les commandes une fois qu’elles sont groupées dans un bon de commande, sauf gros retard de livraison ou réclamations infructueuses et de bien vérifier sa ligne de commande avant de la valider ( bouton <code>enregistrer et continuer</code>).
+</p>
+
+<p>
+On ne peut pas annuler un exemplaire déjà reçu.
+</p>
+
+</div>
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Annuler une ligne de commande&quot;,&quot;hid&quot;:&quot;annuler_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:16,&quot;range&quot;:&quot;10125-11197&quot;} -->
+<h3 class="sectionedit17" id="supprimer_une_ligne_de_commande">Supprimer une ligne de commande</h3>
+<div class="level3">
+
+<p>
+On peut supprimer une ligne de commande <em>en révision</em>  (non terminée) ou déjà <em>annulée </em>qui nous est attribuée.
+</p>
+
+<p>
+Pour supprimer une ligne de commande déjà groupée dans un bon de commande il faut d’abord l’annuler.
+</p>
+
+<p>
+Attention : il est recommandé de ne pas supprimer une commande annulée qui est déjà partie au fournisseur avant d’être sûr que le fournisseur n’a pas déjà expédié la commande, dans la mesure où la suppression efface toute trace de la ligne de commande.
+</p>
+
+<p>
+La fonction <strong>supprimer</strong> se situe dans la liste des actions sous le bouton <code>…</code>  à droite de la notice de la ligne de commande.
+</p>
+
+<p>
+Dans le détail de la ligne de commande, l’action <strong>supprimer </strong>est également disponible sous le bouton <code>…</code>  en haut à gauche de la barre avec les boutons <code>enregistrer </code>et <code>enregistrer et continuer</code>.
+</p>
+
+<p>
+On ne peut pas supprimer une ligne de commande correspondant à un exemplaire reçu : il faut la clôturer en procédant à sa facturation.
+</p>
 
 <p>
 <em>==========================</em>
@@ -359,4 +430,4 @@ Explication des différents statuts
 </ol>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Annuler une ligne de commande&quot;,&quot;hid&quot;:&quot;annuler_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:16,&quot;range&quot;:&quot;8292-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supprimer une ligne de commande&quot;,&quot;hid&quot;:&quot;supprimer_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:17,&quot;range&quot;:&quot;11198-&quot;} -->

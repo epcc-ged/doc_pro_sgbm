@@ -124,31 +124,65 @@ Votre ligne de commande est enregistrée. Alma vous le confirme par une fenêtre
 
 ===== Création et expédition du bon de commande =====
 
-Les lignes de commande sont regroupées automatiquement une fois par semaine (//paquetage //dans le vocabulaire Alma)
-
-//nicomo : jour de la semaine? Dimanche?//
+Les lignes de commande sont regroupées automatiquement chaque dimanche (//paquetage //dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande.
 
 Alma créé une commande par fournisseur et par circuit : les commandes EOD sont envoyées d'un côté et les commandes hors EOD d'un autre côté.
 
 Il y a une étape de validation du bon de commande qui permet d'ajouter un numéro comptable de Bon de Commande.
 
-Du point de vue de l'acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
+Le Bon de commande est réellement expédié non pas le dimanche lors du //paquetage//  mais ultérieurement lors de la validation du bon de commande. Du point de vue de l'acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
 
-===== Cas particuliers =====
+===== Astuces et cas particuliers =====
 
-==== Chercher ses lignes de commande ====
+==== Retrouver ses lignes de commande ====
 
-requête LC code stat secondaire == NOM
+=== Par une recherche ===
 
-enregistrer la requete → Admin > Gérer les jeux
+Dans la recherche générale, vous pouvez choisir **Lignes de commande > Code statistique secondaire**  pour chercher vos commandes. Vous pouvez entrer indiféremment votre code statistique (//par exemple NM//) ou votre nom (//par exemple MORIN//).
 
-Voir mes tâches
+La liste de résultats peut être filtrée en utilisant les facettes. Les critères de filtres peuvent entre autres être : le fournisseur, le statut de la ligne de commande (envoyée, etc.), le type d'achat (livre électronique, imprimé, etc.).
 
-Explication des différents statuts
+=== Voir mes tâches ===
+
+Vous pouvez aussi accéder à vos lignes de commande, et plus généralement aux actions en cours pour vous, en utilisant l'icone "mes tâches" en haut à droite de la barre de navigation d'Alma.
+
+Dans la liste de vos tâches, vous trouverez des raccourcis vers les lignes de commande et les suggestions d'acquisition qui vous sont attribuées.
+
+{{  :condorcet:acquisition:circuit-de-commande:mes-taches.png?nolink&400x308  }}
 
 ==== Ligne de commande en révision ====
 
+Lorsqu’on clique sur ''enregistrer et continuer''  et qu’il manque des informations essentielles (fournisseur, prix, compte de commande..) un message d’erreur apparaît et il est impossible de continuer.
+
+On peut cependant enregistrer la ligne de commande en cliquant sur le bouton ''enregistrer''. Ce bouton peut également servir à sauvegarder un brouillon de ligne de commande que l’on ne souhaite pas valider tout de suite.
+
+Le statut de la ligne de commande est alors en statut « //en révision//  ». Le statut apparaît entre parenthèse à côté du numéro de ligne.
+
+La ligne de commande peut être retrouvée via la recherche.
+
+Il faudra modifier la ligne de commande (bouton ''modifier'') et compléter les informations, puis cliquer sur ''enregistrer et continuer''  pour qu’elle parte au //paquetage //automatique.
+
 ==== Annuler une ligne de commande ====
+
+On peut annuler une ligne de commande qui nous est attribuée (dont on est l’auteur) à partir de la notice de la ligne de commande dans les options sous les ''…''  à côté du bouton ''commander maintenant''. Dans le détail de la ligne de commande, l’action annuler est également disponible sous les ''…''  en haut à gauche de la barre avec les boutons ''enregistrer''  et ''enregistrer et continuer''.
+
+Si la ligne de commande est déjà groupée dans un bon de commande qui a été approuvé, il faut cocher l’option //envoyer l’annulation au fournisseur//. Attention : si le fournisseur a déjà expédié la commande il faudra rouvrir la ligne de commande. D’une manière générale il est conseillé de ne pas annuler les commandes une fois qu’elles sont groupées dans un bon de commande, sauf gros retard de livraison ou réclamations infructueuses et de bien vérifier sa ligne de commande avant de la valider ( bouton ''enregistrer et continuer'').
+
+On ne peut pas annuler un exemplaire déjà reçu.
+
+==== Supprimer une ligne de commande ====
+
+On peut supprimer une ligne de commande //en révision//  (non terminée) ou déjà //annulée //qui nous est attribuée.
+
+Pour supprimer une ligne de commande déjà groupée dans un bon de commande il faut d’abord l’annuler.
+
+Attention : il est recommandé de ne pas supprimer une commande annulée qui est déjà partie au fournisseur avant d’être sûr que le fournisseur n’a pas déjà expédié la commande, dans la mesure où la suppression efface toute trace de la ligne de commande.
+
+La fonction **supprimer** se situe dans la liste des actions sous le bouton ''…''  à droite de la notice de la ligne de commande.
+
+Dans le détail de la ligne de commande, l’action **supprimer **est également disponible sous le bouton ''…''  en haut à gauche de la barre avec les boutons ''enregistrer ''et ''enregistrer et continuer''.
+
+On ne peut pas supprimer une ligne de commande correspondant à un exemplaire reçu : il faut la clôturer en procédant à sa facturation.
 
 //==========================//
 
