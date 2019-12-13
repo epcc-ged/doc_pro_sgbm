@@ -114,7 +114,7 @@ Le périodique a une énumération à deux niveaux : volumaison ($a), numéro pa
 
 ==== Préliminaire 1 : s'assurer que la holding est bien liée à une ligne de commande ====
 
-Pour bulletiner les exemplaires d'un périodique, il faut que la holding devant porter ces exemplaires soit associée à une ligne de commande. Si ce n'est pas le cas, vous pouvez utiliser le menu contextuel situé sur la droite de la ligne décrivant la holding et choisir **Associer une ligne de commande**  (voir l'image ci-dessous).
+Pour bulletiner les exemplaires d'un périodique, il faut que la holding devant porter ces exemplaires soit associée à une ligne de commande. Si ce n'est pas le cas, vous pouvez utiliser le menu contextuel ''**···**'' situé sur la droite de la ligne décrivant la holding et choisir **Associer une ligne de commande**  (voir l'image ci-dessous).
 
 {{  :condorcet:periodiques:holding-associer-lc.png?nolink&  }}
 
@@ -142,7 +142,7 @@ Vous pouvez rechercher le titre souhaité dans la liste ou utiliser les différe
 
 Avant toute maniuplation, l'exemplaire(s) n'étant pas équipé, il faut cocher la case **Garder dans le département**  et choisir la valeur **Equipement**  dans la liste déroulante qui s'affiche alors.
 
-Ensuite, dans le menu contextuel associé au titre pour lequel vous voulez réceptionner des exemplaires, choisissez **Gérer les exemplaires**  (et non pas **Réceptionner **qui permet de créer un exemplaire imprévu : voir plus bas).
+Ensuite, dans le menu contextuel ''**···**'' associé au titre pour lequel vous voulez réceptionner des exemplaires, choisissez **Gérer les exemplaires**  (et non pas **Réceptionner **qui permet de créer un exemplaire imprévu : voir plus bas).
 
 {{  :condorcet:periodiques:receptionner-menu-contextuel.png?nolink&  }}
 

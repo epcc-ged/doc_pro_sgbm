@@ -6,13 +6,13 @@
 
 <font 11pt/inherit;;inherit;;inherit>Important : les collections s'affichent au fur et à mesure des déménagements des structures documentaires.</font>
 
+<font 11pt/inherit;;inherit;;inherit>Les deux postes informatiques donnent accès aux catalogues de l'EHESP et du GED (via explorer).</font>
+
 [[https://partages.campus-condorcet.fr/smart-link/27c7a3ec-ee37-4e3b-8638-e5bacfc27ddc/|Calendrier des déménagements 2019-2020]]
 
-Les établissements qui ne déménagent pas en phase 1 continuent de communiquer leurs documents selon leurs propres modalités :
+Les établissements qui ne déménagent pas en phase 1, notamment la FMSH, continuent de communiquer leurs documents selon leurs propres modalités :
 
 [[http://bibliotheque.fmsh.fr/|FMSH]]
-
-MH autres ?
 
 ===== Le Sudoc =====
 
@@ -20,7 +20,7 @@ MH autres ?
 
 ===== Calames Campus Condorcet =====
 
-Fonds d'archives du Campus Condorcet inventoriés
+[[http://www.calames.abes.fr/pub/#details?id=FileId-2800|Fonds d'archives du Campus Condorcet inventoriés]]
 
 ===== Adria =====
 
@@ -30,5 +30,5 @@ Application dynamique pour le recensement et l'inventaire des archives
 
 ===== Autres ressources utiles pour les archives =====
 
-Salle des inventaires virtuelle (SIV) des Archives nationales, Archives Portal Europe France-Archives, BnF Archives et Manuscrits…
+[[https://www.siv.archives-nationales.culture.gouv.fr/siv/cms/content/display.action?uuid=Accueil1RootUuid&onglet=1|Salle des inventaires virtuelle (SIV)]] des Archives nationales, [[https://www.archivesportaleurope.net/fr/home|Archives Portal Europe France-Archives]], [[https://archivesetmanuscrits.bnf.fr/|BnF Archives et Manuscrits]]…
 

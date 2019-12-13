@@ -4,18 +4,28 @@ La réservation des documents pour consultation ou emprunt se fait via le catalo
 
 Cet outil est mis à jour au fur et à mesure des déménagements des collections.
 
-Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai : 48 h.
-
-Les ouvrages sont mis de côté pendant 10 jours.
-
 Pendant le GED hors les murs, sont exclus de la communication, les documents :
 
   * conservés sur palettes
   * de format exceptionnel
   * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD, etc.)
-  * des bibliothèques qui ne déménagement pas dans la phase 1 (liste)
+  * des bibliothèques qui ne déménagement pas dans la phase 1
 
-Les documents cotés réserve ou manifestement trop fragiles pour être prêtés sont consultables dans la salle de lecture, éventuellement sur les tables de consultation des archives.
+Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai : 48 h. Tous les documents sont accomapgnés d'une fiche de réservation nominative où apparaît une information importante : l'adresse du document au CTLes.
+
+Les lecteurs sont prévenus par mail dès que les documentss sont disponibles dans la salle de lecture. Le statut du document est alors : sur le rayon des réservations actives.
+
+Les ouvrages sont mis de côté pendant 10 jours. La date peut-être prolongée si besoin.
+
+====== ♦ Consultation sur place ======
+
+Certains documents sont exclus du prêt : documents cotés réserve ou manifestement trop fragiles, thèses et mémoires. La mention est inscrite sur la fiche qui accompagne le livre.
+
+Par ailleurs, certains lecteurs n'ont pas le droit d'emprunter. L'opération de prêt est alors impossible dans Alma, un pop-up apparait avec le message (peu clair) : exemplaire non prétable.
+
+Dans ces deux cas, les ouvrages sont communiqués sur place en échange d'une pièce d'identité qui est restituée à l'issue de la consultation.
+
+Les archives sont également communiquées sur place, selon les modalités détaillées dans le point 7.
 
 ====== ♦ Les périodiques ======
 
@@ -23,7 +33,9 @@ Les établissements ont eu des pratiques très variées pour gérer les périodi
 
 ====== ♦ Les prêts de documents ======
 
-Pour utiliser la doucette, bien penser à se mettre en majuscule avant de doucher un code-barres.
+La procédure est décrite dans le mémo de la page d'accueil.
+
+Pour utiliser la douchette, penser à se mettre en majuscule avant de doucher un code-barres.
 
 Mettre la fiche de communication dans un dossier. Au moment du retour du document, cela facilitera le rangement du livre au CTLes.
 

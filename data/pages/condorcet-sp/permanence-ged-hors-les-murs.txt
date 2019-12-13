@@ -8,11 +8,9 @@
   - [[:condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents|Communication des documents]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives|Consultation des archives]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques|Consultation des ressources électroniques]]
-  - Consultation de microformes
-  - Photocopier, scanner
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:Photocopier|]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:le-peb|Le PEB]]
   - Réponses à distance
-  - Accessibilité
   - [[:condorcet-sp:permanence-ged-hors-les-murs:procedures-de-securite|Procédures de sécurité]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:contacts|Contacts]]
 

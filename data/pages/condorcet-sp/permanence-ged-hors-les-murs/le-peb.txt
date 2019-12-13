@@ -1,20 +1,6 @@
 ====== Le PEB ======
 
-Le PEB permet aux lecteurs d'obtenir des documents conservés dans d'autres bibliothèques françaises (hormis les bibliothèques franciliennes) et étrangères. Pendant le GED hors les murs, seul le PEB demandeur est possible. Il est réservé aux résidents D+. Pendant la période du GED hors les murs, il n'est pas facturé. Cette mesure exceptionnelle est destinée à compenser les difficultés éventuelles d'accès à la documentation.
+Pendant la période du GED hors les murs, le GED ne participe pas au PEB.
 
-<font 12pt/inherit;;#f1c40f;;inherit>La demande de PEB se fait via le formulaire de demande générale, disponible sur le portail du Campus Condorcet</font>.
-
-<font 12pt/inherit;;#c0392b;;inherit>Le délai de réception varie selon le type de document, la provenance et le mode d'acheminement. (voir si alma gère le peb ou si on fait un fichier excl pour suivre les demandes)</font>
-
-<font 12pt/inherit;;inherit;;inherit>Les conditions de prêt (durée, prêt à domicile ou consultation, autorisation ou non de faire des photocopies) sont fixées par la bibliothèque prêteuse. Elles doivent être vérifiées au moment de la remise du document.</font>
-
-<font 12pt/inherit;;#f1c40f;;inherit>Le document est remis uniquement au lecteur qui a fait la demande de PEB, sur présentation de sa carte d’usager</font>. Une prolongation peut être demandée par mail.
-
-<font 12.0pt/inherit;;#e67e22;;inherit>En cas de perte ou dégradation, le remplacement ou le remboursement de l'ouvrage est exigé.</font>
-
-<font 12pt/inherit;;inherit;;inherit>Tarifs</font>
-
-  * <font 12.0pt/inherit;;inherit;;inherit>Prêt d’originaux : 8 euros par volume</font>* <font 12.0pt/inherit;;inherit;;inherit>Photocopies d’articles : 4 euros par tranche de 10pages</font>
-
-<font 12.0pt/inherit;;#e67e22;;inherit>Le nombre de demandes simultanées est limité à : combien ? par qui ? par chercheur ou par labo ? ou pas ?</font>
+Le PEB demandeur sera éventuellement possible, réservé aux résidents D+.
 
