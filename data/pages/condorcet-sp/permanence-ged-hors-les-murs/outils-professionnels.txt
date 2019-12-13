@@ -6,7 +6,7 @@
 
 <font 11pt/inherit;;inherit;;inherit>Important : les collections s'affichent au fur et à mesure des déménagements des structures documentaires.</font>
 
-<font 11pt/inherit;;inherit;;inherit>Les deux postes informatiques donnent accès aux catalogues de l'EHESP et du GED (via explorer).</font>
+<font 11pt/inherit;;inherit;;inherit>Deux postes informatiques donnent accès aux catalogues de l'EHESP et du GED (via explorer).</font>
 
 [[https://partages.campus-condorcet.fr/smart-link/27c7a3ec-ee37-4e3b-8638-e5bacfc27ddc/|Calendrier des déménagements 2019-2020]]
 
@@ -21,12 +21,6 @@ Les établissements qui ne déménagent pas en phase 1, notamment la FMSH, conti
 ===== Calames Campus Condorcet =====
 
 [[http://www.calames.abes.fr/pub/#details?id=FileId-2800|Fonds d'archives du Campus Condorcet inventoriés]]
-
-===== Adria =====
-
-Application dynamique pour le recensement et l'inventaire des archives
-
-<font inherit/inherit;;#f39c12;;inherit>MH lien, login et mot de passe</font>
 
 ===== Autres ressources utiles pour les archives =====
 
