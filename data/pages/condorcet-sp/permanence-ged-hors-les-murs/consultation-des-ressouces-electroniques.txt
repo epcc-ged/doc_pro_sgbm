@@ -4,17 +4,13 @@
 
 La consultation des ressources électroniques s'effectue selon les modalités de l'établissement d'origine.
 
-  * [[https://bib.cnrs.fr/|https://bib.cnrs.fr/]]
-  * [[http://bibliotheque.fmsh.fr/|http://bibliotheque.fmsh.fr/]]
-  * to be continued
-
 ===== À partir de janvier 2020 =====
 
 EPHE, INED, EHESS, FMSH : le GED reprend progressivement les abonnements des établissements
 
 Universités et CNRS : accès à la documentation électronique de l’établissement d’origine et à celle achetée par le GED
 
-Liste des abonnements des ressources électroniques du GED <font inherit/inherit;;#e67e22;;inherit>(lien à mettre)</font>
+Liste des abonnements des ressources électroniques du GED sera disponible prochainement.
 
 ===== Accès au wifi =====
 

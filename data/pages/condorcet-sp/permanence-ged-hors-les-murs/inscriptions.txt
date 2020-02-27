@@ -5,8 +5,10 @@
 <font 11pt/inherit;;inherit;;inherit>Plusieurs cas de figure sont possibles :</font>
 
   * Le lecteur a déjà créé son compte Campus Condorcet, suite à un mail de son établissement d’origine. Il s'agit alors d'un compte externe ("externe à Alma"). Le lecteur peut se connecter en choisissant compte Campus et en mettant l'adresse mail de son établissement d'origine et son mot de passe habituel. C'est normalement le cas de tous les chercheurs, personnels administratifs résidant sur le campus, des chercheurs et étudiants de l'EHESS, EPHE, FMSH.
-  * Les masters IHEAL de Paris 3 et les masters Histoire ou Géographie de Paris 1 sont inscrits manuellement (compte interne) dans Alma avec les droits de Masters résidents (CU2).
-  * Dans tous les autres cas, la personne est inscrite manuellement dans Alma selon son statut, elle peut uniquement consulter les documents sur place.
+  * Les masters IHEAL de Paris 3 et les masters Histoire ou Géographie de Paris 1 sont inscrits manuellement (compte interne) dans Alma avec les droits de Masters résidents (CU2). Une liste nominative, fournie par la scolarité, est sur le bureau du poste de service public. Les masters se connectent via Compte GEd avec le mot de passe choisi au moment de la création du compte.
+  * Dans tous les autres cas, la personne est inscrite manuellement (compte interne dans Alma) selon son statut, elle peut uniquement consulter les documents sur place. Elle peut consulter son compte via Compte GEd et le mot de passe choisi au moment de la création du compte.
 
-La procédure d'inscription est décrite dans le document mémo en page d'accueil. Important : Les lecteurs inscrits manuellement doivent choisir pour se connecter Compte GED
+La procédure d'inscription est décrite dans le document mémo en page d'accueil.
+
+Important, au risque d'être redondant : Les lecteurs inscrits manuellement doivent choisir pour se connecter Compte GED
 

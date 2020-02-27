@@ -2,19 +2,21 @@
 
 <font 11pt/inherit;;inherit;;inherit>Tous les agents du Grand équipement documentaire participent aux permanences d’accueil et de renseignement du public. Chaque agent est responsable des permanences qui lui sont attribuées : en cas d’absence ou d’indisponibilité, il organise son remplacement et inscrit l’échange dans le planning, disponible sur Zimbra. Une réunion hebdomadaire est prévue à cet effet, cependant des échanges de dernière minute sont toujours possibles. Ils doivent être inscrits dans le planning.</font>
 
-<font 11pt/inherit;;inherit;;inherit>En cas d'impossiblité majeure et de dernière minute, l’agent, s’il est de permanence dans la journée, doit en informer Marie-Hélène, Aurélie ou Sandrine.</font>
+<font 11pt/inherit;;inherit;;inherit>En cas d'impossiblité majeure et de dernière minute, l’agent, s’il est de permanence dans la journée, doit en informer Laura, Marie-Hélène ou Sandrine.</font>
 
 ====== Horaires ======
 
 <font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil du GED hors les murs sont prévues du **lundi au jeudi **de** 12 h 30 à 18 h 30. **</font>
 
+**<font 11pt/inherit;;inherit;;inherit>À partir du 3 février 2020, les horaires des permanences sont de 10 h 30 à 18 h 30 du lundi au jeudi.</font>**
+
 <font 11pt/inherit;;inherit;;inherit>L'accès au bâtiment de la MSH Paris Nord (et de la bibliothèque) est possible jusqu'à 18 h 30.</font>
 
-Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP. Les uns comme les autres peuvent avoir à répondre aux questions des publics des deux institutions.
+Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP.
 
 <font 11pt/inherit;;inherit;;inherit>L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, etc.)</font>
 
-<font 11pt/inherit;;inherit;;inherit>À la fin de la dernière permanence</font>, l'agent s'assure que tous les lecteurs sont partis, avant d'éteindre les postes catalogues, l'imprimante, les lumières et de fermer à clé. La clé est rangée dans le coffre à clés du 1er étage.
+<font 11pt/inherit;;inherit;;inherit>Lors de la première permanence, notamment si la collègue de l'EHESP n'est pas là, il faut allumer les postes informatiques et l'imprimante. À la fin de la dernière permanence</font>, l'agent s'assure que tous les lecteurs sont partis, avant d'éteindre les postes informatiques, l'imprimante, les lumières et de fermer à clé. La clé est rangée dans le coffre à clés du 1er étage.
 
 ====== Attitudes ======
 

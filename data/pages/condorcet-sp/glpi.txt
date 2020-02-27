@@ -1,0 +1,83 @@
+====== Réponses à distance (GLPI) ======
+
+===== Organisation générale =====
+
+[[https://assistance.campus-condorcet.fr|GLPI ]]est un système de gestion de tickets qui permet de recevoir des demandes/questions du public, d'avoir un circuit de traitement de ces demandes et d'y répondre tout en gardant trace des interactions. Il est conçu pour la gestion de parc informatique et dispose de nombreuses fonctionnalités dans ce contexte. Nous utilisons uniquement quelques fonctionnalités du logiciel, pour répondre aux questions par mail de nos publics.
+
+Le public peut créer un ticket en écrivant à une adresse mail connue de GLPI. Chaque adresse mail correspond à une "file de gestion" séparée dans le logiciel.
+
+Le GED dispose de 2 mails / files de gestion : services.ged@campus-condorcet.fr et archives.ged@campus-condorcet.fr
+
+Nous pouvons vous attribuer des **droits ** (pour répondre aux questions) dans une ou plusieurs files.\\
+Il existe 2 types de droits :
+
+  * //hotliner//, qui permet de voir toutes les questions entrantes, de les attribuer à quelqu'un (à soi-même éventuellement) et d'y répondre
+  * //technicien//, qui permet de répondre aux questions.
+Il est important de comprendre le **cycle de vie d'une question**, qui se reflète dans le statut de la demande. Dans l'ordre, nous utilisons les statuts :
+
+  * //Nouveau//. La demande nouvellement créée par l'usager est de statut Nouveau : à ce stade, personne n'est responsable de la demande, elle attend d'être prise en charge dans une de nos deux files d'attente
+  * //En cours (attribuée)//. La demande a été prise en charge par un collègue ou attribuée à un collègue, et doit être traitée par le collègue. Il peut s'agir d'une réponse initiale ou d'un complément de réponse, mais une action est attendue de sa part.
+  * //En attente//. Un message de réponse (peut consister en une demande de précision) a été envoyée à l'utilisateur, dont on attend une réponse
+  * //Résolu//. Les interactions avec l'usager sont considérées comme terminées.
+===== Navigation =====
+
+A la connexion sur [[https://assistance.campus-condorcet.fr|https://assistance.campus-condorcet.fr/ ]]on arrive sur une page qui est identifiée par une chemin (''Accueil > Assistance > Tickets''), qui comporte 2 parties : une boîte de recherche et une liste de tickets.
+
+La liste des tickets proposées est fonction des options sélectionnées dans la boîte de recherche. Par défaut, il s'affiche la liste des tickets non résolus, correspondant aux statuts nouveau, en cours (attribué) et en attente.
+
+Pour chaque ticket dans la liste nous avons les informations pertinentes suivantes :
+
+  * ID : le numéro unique du ticket
+  * Titre : le sujet bref de la question
+  * Statut : nouveau, en cours, etc.
+  * Date d'ouverture
+  * Date de résolution
+  * Dernière modification
+  * Demandeur : le mail du demandeur
+  * Attribué à - Technicien : le nom du collègue qui a pris en charge cette demande si elle est déjà prise en charge
+  * Catégorie : GED Services ou GED Archives
+
+Cliquer sur le titre d'un ticket permet d'en voir le détail et d'effectuer les actions liées au ticket (répondre…).
+
+Modifier les paramètres de la barre de recherche permet de modifier la liste des tickets, par exemple pour n'afficher que les tickets non résolus qui vous sont attribués.
+
+{{  :condorcet-sp:glpi-searchbar.png?nolink&  |barre de recherche GLPI}}
+
+Il faut cliquer sur ''+ règle''  pour ajouter des critères de recherche. Si vous cliquer, une fois la recherche faite, sur le bouton ''étoile'', alors cette recherche sera enregistrée dans vos favoris et pourrra être rappelée ultérieurement par le bouton ''étoile ''présent en haut à droite de l'écran à côté de votre nom.
+
+===== Traitement d'un ticket =====
+
+==== Prendre en charge un ticket nouveau ====
+
+Quand on ouvre un ticket particulier, la première page regroupe les informations correspondant au ticket créé, tel que la date de création, le mail du demandeur, le texte de la question elle-même, etc.
+
+La plupart des informations sont présentes par défaut. Nous intéressent :
+
+  * //Catégorie //: si l'usager à écrit à services.ged@campus-condorcet.fr et que la demande concerne en fait les archives, ou l'inverse, on peut changer de file d'attente ici.
+  * //Attribué à//  : cliquer sur le ''bouton +''  puis ''utilisateur ''pour attribuer le ticket à un collègue ou à vous-même.
+  * //Observateur //: vous pouvez utiliser ce champ pour ajouter le mail d'un collègue ou d'une personne tierce dont vous souhaitez qu'elle suive la question. Cette personne recevra les mails de question / réponse liés à ce ticket.
+Une fois faites ces vérifications et ces choix, cliquez sur ''sauvegarder ''en bas de page. Le fait d'avoir sélectionné un nom dans //attribué à//  suffit à changer le statut du ticket : il est désormais en statut //En cours (attribué à)//.
+
+==== Répondre à un ticket ====
+
+Pour accéder à l'écran de réponse, dans la fenêtre de détail d'un ticket, dans la liste des menu sur la gauche de l'écran, cliquez sur ''Traitement du ticket''. Vous allez voir sur cette page tous les messages échangés entre le demandeur et le service, dans l'ordre chronologique inverse.
+
+Pour accéder au formulaire de réponse, cliquer sur le bouton ''Suivi''.
+
+{{  :condorcet-sp:glpi-suivi.png?nolink&750x399  }}
+
+Vous pouvez insérer votre texte dans la zone de saisie. Il peut s'agir d'une réponse à l'usager, d'une demande d'information complémentaire ou d'une note interne, qui pourra être visible dans l'historique du ticket mais ne sera pas communiquée à l'usager. Pour créer une note interne, cliquer sur le bouton ''canevas''  à droite de l'écran.
+
+Une fois votre texte rédigé, vous devez choisir quel statut donner à la demande après envoi de votre réponse :
+
+  * En cours (attribué) : vous avez apporté un premier élément de réponse, vous ferez une réponse complémentaire plus tard, vous n'attendez pas de réponse de l'usager, la demande reste en cours.
+  * //En attente//  : vous avez posé une question ou demande d'information complémentaire à l'usager, vous attendrez sa réponse pour poursuivre, la demande reste en cours.
+  * //Résolu //: avez avez apporté à l'usager une réponse que vous pensez complète, vous fermez ce ticket.
+Cliquez sur ''Ajouter ''quand vous avez fait votre choix.
+
+Pour revenir à la liste des tickets depuis l'écran de détail d'un ticket, cliquez sur ''Tickets''  dans le chemin ''Accueil > Assistance > Tickets''  en haut de page.
+
+===== Créer un ticket au nom d'un usager =====
+
+//en cours de rédaction//
+

@@ -23,7 +23,7 @@ Certains documents sont exclus du prêt : documents cotés réserve ou manifeste
 
 Par ailleurs, certains lecteurs n'ont pas le droit d'emprunter. L'opération de prêt est alors impossible dans Alma, un pop-up apparait avec le message (peu clair) : exemplaire non prétable.
 
-Dans ces deux cas, les ouvrages sont communiqués sur place en échange d'une pièce d'identité qui est restituée à l'issue de la consultation.
+Dans ces deux cas, les ouvrages sont communiqués sur place en échange d'une pièce d'identité qui est restituée à l'issue de la consultation. Lorsque le lecteur indique qu'il n'a plus besoin de l'ouvrage, sa demande de consultation est annulée dans Alma (la procédure est décrite dans {{:condorcet-sp:aide2revu.pptx|le mémo}}  ).
 
 Les archives sont également communiquées sur place, selon les modalités détaillées dans le point 7.
 
@@ -33,7 +33,7 @@ Les établissements ont eu des pratiques très variées pour gérer les périodi
 
 ====== Les prêts de documents ======
 
-La procédure est décrite dans le mémo de la page d'accueil.
+La procédure est décrite dans le {{:condorcet-sp:aide1.pptx|mémo}}  de la page d'accueil.
 
 Pour utiliser la douchette, penser à se mettre en majuscule avant de doucher un code-barres.
 

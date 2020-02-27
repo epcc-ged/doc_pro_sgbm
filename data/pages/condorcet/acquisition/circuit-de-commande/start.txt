@@ -6,20 +6,10 @@ Le circuit de la commande se décompose en plusieurs parties :
   * //l'expédition //du bon de commande au fournisseur.
 Il existe deux circuits bien distincts pour faire des commandes :
 
-  * via un processus d'//Embedded Order Data//  (EOD), qui consiste à importer dans Alma, depuis le site du fournisseur, un panier de notices dans lesquelles **toutes les informations de commande sont déjà incluses**
   * ou bien en créant //ex nihilo//  une commande dans Alma pour l'envoyer ensuite au fournisseur
+  * via un processus d'import dans Alma, depuis le site du fournisseur, un //panier de notices//  dans lesquelles les informations de commande sont déjà incluses et une ligne de pré-commande est générée.
 
-====== Commande par EOD ======
-
-La procédure de commande par //Embedded Order Data//  (EOD) consiste à importer dans Alma un panier de notices dans lesquelles **toutes les informations de commande sont déjà incluses**.
-
-Les choix de titres, le prix, le choix du nombre d'exemplaires, des budgets, etc. sont faits sur la plateforme du prestataire.
-
-La procédure de création des fichiers EOD est propre à chaque plateforme fournisseur : \\ - [Procédure chez XXX] \\ - [Procédure chez YYY]
-
-//nicomo : poursuivre ici//
-
-====== Commande sans EOD ======
+====== Commande notice par notice ======
 
 Le processus se décompose en plusieurs étapes :
 
@@ -33,10 +23,6 @@ Le processus se décompose en plusieurs étapes :
 ==== La notice existe au catalogue (rachat) ====
 
 Quand il s'agit de racheter un exemplaire ou une autre version (ebook) d'une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
-
-==== Import d'un lot de notices ====
-
-//nicomo : some lame text for now//
 
 ==== Récupérer une notice de la Zone Communautaire (ZC) ====
 
@@ -132,6 +118,14 @@ Il y a une étape de validation du bon de commande qui permet d'ajouter un numé
 
 Le Bon de commande est réellement expédié non pas le dimanche lors du //paquetage//  mais ultérieurement lors de la validation du bon de commande. Du point de vue de l'acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
 
+====== Commande avec Paniers de pré-commande ======
+
+La procédure de commande consiste à importer dans Alma un panier de notices dans lesquelles **des informations permettant la génération des lignes de commande sont déjà incluses**.
+
+Des profils d'import par fournisseurs doivent être paramétrés (en cours pour Dawson).
+
+Ces imports créé les notices si elle n'existe pas, et génére des lignes de commandes avec des informations minimales, qu'il faut compléter (cf procédure ci-dessous).
+
 ===== Astuces et cas particuliers =====
 
 ==== Retrouver ses lignes de commande ====
@@ -178,7 +172,7 @@ Pour supprimer une ligne de commande déjà groupée dans un bon de commande il 
 
 Attention : il est recommandé de ne pas supprimer une commande annulée qui est déjà partie au fournisseur avant d’être sûr que le fournisseur n’a pas déjà expédié la commande, dans la mesure où la suppression efface toute trace de la ligne de commande.
 
-La fonction **supprimer** se situe dans la liste des actions sous le bouton ''…''  à droite de la notice de la ligne de commande.
+La fonction **supprimer**  se situe dans la liste des actions sous le bouton ''…''  à droite de la notice de la ligne de commande.
 
 Dans le détail de la ligne de commande, l’action **supprimer **est également disponible sous le bouton ''…''  en haut à gauche de la barre avec les boutons ''enregistrer ''et ''enregistrer et continuer''.
 

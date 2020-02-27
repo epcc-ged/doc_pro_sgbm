@@ -1,0 +1,181 @@
+<a name="condorcet-spglpi__"></a>
+<h1><bookmark content="Réponses à distance (GLPI)" level="0" /><a name="condorcet-spglpi__reponses_a_distance_glpi">Réponses à distance (GLPI)</a></h1>
+<div class="level1">
+
+</div>
+
+<h2><bookmark content="Organisation générale" level="1" /><a name="condorcet-spglpi__organisation_generale">Organisation générale</a></h2>
+<div class="level2">
+
+<p>
+<a href="https://assistance.campus-condorcet.fr" class="urlextern" title="https://assistance.campus-condorcet.fr" rel="nofollow">GLPI </a>est un système de gestion de tickets qui permet de recevoir des demandes/questions du public, d&#039;avoir un circuit de traitement de ces demandes et d&#039;y répondre tout en gardant trace des interactions. Il est conçu pour la gestion de parc informatique et dispose de nombreuses fonctionnalités dans ce contexte. Nous utilisons uniquement quelques fonctionnalités du logiciel, pour répondre aux questions par mail de nos publics.
+</p>
+
+<p>
+Le public peut créer un ticket en écrivant à une adresse mail connue de GLPI. Chaque adresse mail correspond à une “file de gestion” séparée dans le logiciel.
+</p>
+
+<p>
+Le GED dispose de 2 mails / files de gestion : services.ged@campus-condorcet.fr et archives.ged@campus-condorcet.fr
+</p>
+
+<p>
+Nous pouvons vous attribuer des <strong>droits </strong> (pour répondre aux questions) dans une ou plusieurs files.<br/>
+
+Il existe 2 types de droits :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>hotliner</em>, qui permet de voir toutes les questions entrantes, de les attribuer à quelqu&#039;un (à soi-même éventuellement) et d&#039;y répondre</div>
+</li>
+<li class="level1"><div class="li"> <em>technicien</em>, qui permet de répondre aux questions.</div>
+</li>
+</ul>
+
+<p>
+Il est important de comprendre le <strong>cycle de vie d&#039;une question</strong>, qui se reflète dans le statut de la demande. Dans l&#039;ordre, nous utilisons les statuts :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Nouveau</em>. La demande nouvellement créée par l&#039;usager est de statut Nouveau : à ce stade, personne n&#039;est responsable de la demande, elle attend d&#039;être prise en charge dans une de nos deux files d&#039;attente</div>
+</li>
+<li class="level1"><div class="li"> <em>En cours (attribuée)</em>. La demande a été prise en charge par un collègue ou attribuée à un collègue, et doit être traitée par le collègue. Il peut s&#039;agir d&#039;une réponse initiale ou d&#039;un complément de réponse, mais une action est attendue de sa part.</div>
+</li>
+<li class="level1"><div class="li"> <em>En attente</em>. Un message de réponse (peut consister en une demande de précision) a été envoyée à l&#039;utilisateur, dont on attend une réponse</div>
+</li>
+<li class="level1"><div class="li"> <em>Résolu</em>. Les interactions avec l&#039;usager sont considérées comme terminées.</div>
+</li>
+</ul>
+
+</div>
+
+<h2><bookmark content="Navigation" level="1" /><a name="condorcet-spglpi__navigation">Navigation</a></h2>
+<div class="level2">
+
+<p>
+A la connexion sur <a href="https://assistance.campus-condorcet.fr" class="urlextern" title="https://assistance.campus-condorcet.fr" rel="nofollow">https://assistance.campus-condorcet.fr/ </a>on arrive sur une page qui est identifiée par une chemin (<code>Accueil &gt; Assistance &gt; Tickets</code>), qui comporte 2 parties : une boîte de recherche et une liste de tickets.
+</p>
+
+<p>
+La liste des tickets proposées est fonction des options sélectionnées dans la boîte de recherche. Par défaut, il s&#039;affiche la liste des tickets non résolus, correspondant aux statuts nouveau, en cours (attribué) et en attente.
+</p>
+
+<p>
+Pour chaque ticket dans la liste nous avons les informations pertinentes suivantes :
+</p>
+<ul>
+<li class="level1"><div class="li"> ID : le numéro unique du ticket</div>
+</li>
+<li class="level1"><div class="li"> Titre : le sujet bref de la question</div>
+</li>
+<li class="level1"><div class="li"> Statut : nouveau, en cours, etc.</div>
+</li>
+<li class="level1"><div class="li"> Date d&#039;ouverture</div>
+</li>
+<li class="level1"><div class="li"> Date de résolution</div>
+</li>
+<li class="level1"><div class="li"> Dernière modification</div>
+</li>
+<li class="level1"><div class="li"> Demandeur : le mail du demandeur</div>
+</li>
+<li class="level1"><div class="li"> Attribué à - Technicien : le nom du collègue qui a pris en charge cette demande si elle est déjà prise en charge</div>
+</li>
+<li class="level1"><div class="li"> Catégorie : GED Services ou GED Archives</div>
+</li>
+</ul>
+
+<p>
+Cliquer sur le titre d&#039;un ticket permet d&#039;en voir le détail et d&#039;effectuer les actions liées au ticket (répondre…).
+</p>
+
+<p>
+Modifier les paramètres de la barre de recherche permet de modifier la liste des tickets, par exemple pour n&#039;afficher que les tickets non résolus qui vous sont attribués.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet-sp:glpi-searchbar.png" class="mediacenter" title="barre de recherche GLPI" alt="barre de recherche GLPI" /></div>
+</p>
+
+<p>
+Il faut cliquer sur <code>+ règle</code>  pour ajouter des critères de recherche. Si vous cliquer, une fois la recherche faite, sur le bouton <code>étoile</code>, alors cette recherche sera enregistrée dans vos favoris et pourrra être rappelée ultérieurement par le bouton <code>étoile </code>présent en haut à droite de l&#039;écran à côté de votre nom.
+</p>
+
+</div>
+
+<h2><bookmark content="Traitement d&#039;un ticket" level="1" /><a name="condorcet-spglpi__traitement_d_un_ticket">Traitement d&#039;un ticket</a></h2>
+<div class="level2">
+
+</div>
+
+<h3><bookmark content="Prendre en charge un ticket nouveau" level="2" /><a name="condorcet-spglpi__prendre_en_charge_un_ticket_nouveau">Prendre en charge un ticket nouveau</a></h3>
+<div class="level3">
+
+<p>
+Quand on ouvre un ticket particulier, la première page regroupe les informations correspondant au ticket créé, tel que la date de création, le mail du demandeur, le texte de la question elle-même, etc.
+</p>
+
+<p>
+La plupart des informations sont présentes par défaut. Nous intéressent :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Catégorie </em>: si l&#039;usager à écrit à services.ged@campus-condorcet.fr et que la demande concerne en fait les archives, ou l&#039;inverse, on peut changer de file d&#039;attente ici.</div>
+</li>
+<li class="level1"><div class="li"> <em>Attribué à</em>  : cliquer sur le <code>bouton +</code>  puis <code>utilisateur </code>pour attribuer le ticket à un collègue ou à vous-même.</div>
+</li>
+<li class="level1"><div class="li"> <em>Observateur </em>: vous pouvez utiliser ce champ pour ajouter le mail d&#039;un collègue ou d&#039;une personne tierce dont vous souhaitez qu&#039;elle suive la question. Cette personne recevra les mails de question / réponse liés à ce ticket.</div>
+</li>
+</ul>
+
+<p>
+Une fois faites ces vérifications et ces choix, cliquez sur <code>sauvegarder </code>en bas de page. Le fait d&#039;avoir sélectionné un nom dans <em>attribué à</em>  suffit à changer le statut du ticket : il est désormais en statut <em>En cours (attribué à)</em>.
+</p>
+
+</div>
+
+<h3><bookmark content="Répondre à un ticket" level="2" /><a name="condorcet-spglpi__repondre_a_un_ticket">Répondre à un ticket</a></h3>
+<div class="level3">
+
+<p>
+Pour accéder à l&#039;écran de réponse, dans la fenêtre de détail d&#039;un ticket, dans la liste des menu sur la gauche de l&#039;écran, cliquez sur <code>Traitement du ticket</code>. Vous allez voir sur cette page tous les messages échangés entre le demandeur et le service, dans l&#039;ordre chronologique inverse.
+</p>
+
+<p>
+Pour accéder au formulaire de réponse, cliquer sur le bouton <code>Suivi</code>.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=750&amp;h=399&amp;tok=43fa01&amp;media=condorcet-sp:glpi-suivi.png" class="mediacenter" alt="" width="750" height="399" /></div>
+</p>
+
+<p>
+Vous pouvez insérer votre texte dans la zone de saisie. Il peut s&#039;agir d&#039;une réponse à l&#039;usager, d&#039;une demande d&#039;information complémentaire ou d&#039;une note interne, qui pourra être visible dans l&#039;historique du ticket mais ne sera pas communiquée à l&#039;usager. Pour créer une note interne, cliquer sur le bouton <code>canevas</code>  à droite de l&#039;écran.
+</p>
+
+<p>
+Une fois votre texte rédigé, vous devez choisir quel statut donner à la demande après envoi de votre réponse :
+</p>
+<ul>
+<li class="level1"><div class="li"> En cours (attribué) : vous avez apporté un premier élément de réponse, vous ferez une réponse complémentaire plus tard, vous n&#039;attendez pas de réponse de l&#039;usager, la demande reste en cours.</div>
+</li>
+<li class="level1"><div class="li"> <em>En attente</em>  : vous avez posé une question ou demande d&#039;information complémentaire à l&#039;usager, vous attendrez sa réponse pour poursuivre, la demande reste en cours.</div>
+</li>
+<li class="level1"><div class="li"> <em>Résolu </em>: avez avez apporté à l&#039;usager une réponse que vous pensez complète, vous fermez ce ticket.</div>
+</li>
+</ul>
+
+<p>
+Cliquez sur <code>Ajouter </code>quand vous avez fait votre choix.
+</p>
+
+<p>
+Pour revenir à la liste des tickets depuis l&#039;écran de détail d&#039;un ticket, cliquez sur <code>Tickets</code>  dans le chemin <code>Accueil &gt; Assistance &gt; Tickets</code>  en haut de page.
+</p>
+
+</div>
+
+<h2><bookmark content="Créer un ticket au nom d&#039;un usager" level="1" /><a name="condorcet-spglpi__creer_un_ticket_au_nom_d_un_usager">Créer un ticket au nom d&#039;un usager</a></h2>
+<div class="level2">
+
+<p>
+<em>en cours de rédaction</em>
+</p>
+
+</div>

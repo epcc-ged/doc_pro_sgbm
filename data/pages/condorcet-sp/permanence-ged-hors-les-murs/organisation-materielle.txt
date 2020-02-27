@@ -28,11 +28,11 @@ nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. Tél : numér
 
 <font 11pt/inherit;;inherit;;inherit>Pensez à recharger les batteries des différents appareils électriques !</font>
 
-Les agents ont également accès au planning hebdomadaire sur zimbra, à l’annuaire du [[https://annuaire.campus-condorcet.fr/|Campus Condorcet]], au [[https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/GED_Trombinoscope.pdf|trombinoscope du GED]], au calendrier des déménagements des collections (à venir).
+Les agents ont également accès au planning hebdomadaire sur zimbra, à l’annuaire du [[https://annuaire.campus-condorcet.fr/|Campus Condorcet]], au [[https://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/GED_Trombinoscope.pdf|trombinoscope du GED]], au calendrier des [[https://partages.campus-condorcet.fr/smart-link/27c7a3ec-ee37-4e3b-8638-e5bacfc27ddc/|déménagements des collections]] (phase 1).
 
 ====== Les clés : ======
 
 La clé de la bibliothèque, à laquelle est accrochée la clé du caisson.
 
-Deux autres clés sont dans un gobelet rangé dans le caisson : il s'agit de la clé de l'espace de rangement des archives et de celle de l'éarmoire basse (derrière le bureau).
+Deux autres clés sont dans un gobelet rangé dans le caisson : il s'agit de la clé de l'espace de rangement des archives et de celle de l'armoire basse (derrière le bureau).
 

@@ -27,5 +27,7 @@ Le personnel du GED explique les règles de consultation et s’assure que celle
 
 <font 11pt/inherit;;inherit;;inherit>Si le lecteur souhaite revenir mais dans un délai de plusieurs jours, il faut également envoyer un message d'information aux collègues.</font>
 
-<font 11pt/inherit;;inherit;;inherit>À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.</font>
+À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.
+
+[[http://partages.campus-condorcet.fr/lib/63417211-4de1-40a8-97e3-be129ba48b54/file/Mission Archives/GED hors les murs/Communication salle de lecture/20191022_vademecum_consultation_archives.docx|Le vademecum]] détaille toutes les étapes de l'instruction et de la consultation.
 

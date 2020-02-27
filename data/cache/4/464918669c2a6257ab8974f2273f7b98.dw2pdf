@@ -24,7 +24,7 @@ La ligne de commande a prévu une localisation pour les exemplaires, c&#039;est-
 </p>
 
 <p>
-Par exemple, nous partirons ici du titre <em>Saragam </em>pour lequel on a créé une holding en A-PERIO (le choix de cette orientation ne reflète pas nécessairement le territoire réel où devrait se trouver le périodique mais il ne s&#039;agit ici que d&#039;un exemple et nous avons choisi le territoire sans prêter attention au domaine de recherche).
+Par exemple, nous partirons ici du titre <em>Saragam </em>pour lequel on a créé une holding en A-PERIO (le choix du territoire A est totalement arbitraire dans ce cadre qui ne vaut que pour exemple).
 </p>
 
 <p>
@@ -36,16 +36,21 @@ Par exemple, nous partirons ici du titre <em>Saragam </em>pour lequel on a cré�
 <h2><bookmark content="Créer le modèle de prévision : zone 853 de la holding" level="1" /><a name="condorcetperiodiquesstart__creer_le_modele_de_previsionzone_853_de_la_holding">Créer le modèle de prévision : zone 853 de la holding</a></h2>
 <div class="level2">
 
+</div>
+
+<h3><bookmark content="Création assistée du modèle de prévision en 853" level="2" /><a name="condorcetperiodiquesstart__creation_assistee_du_modele_de_prevision_en_853">Création assistée du modèle de prévision en 853</a></h3>
+<div class="level3">
+
 <p>
-Le modèle de prévision permet de générer automatiquement tous les exemplaires attendus d&#039;un périodique pour l&#039;année (ou même pour plusieurs années).
+Le modèle de prévision permet de générer automatiquement tous les exemplaires d&#039;un périodique <em>a priori</em> attendus pour l&#039;année (et même pour plusieurs années si on le souhaite).
 </p>
 
 <p>
-Le modèle de prévision est déclaré dans la notice holding du titre, au niveau de la zone Marc21 <strong>853</strong>. Alma propose des modèles prédéfinis.
+Le modèle de prévision est déclaré dans la notice holding au niveau de la zone Marc21 <strong>853</strong>. Alma propose des modèles prédéfinis pour cette zone. Remarquez cependant que rien n&#039;empêche de la créer entièrement à la main si on le souhaite.
 </p>
 
 <p>
-Pour créer la zone 853, il faut donc ouvrir la holding souhaitée dans l&#039;éditeur de métadonnées. La holding, dans le cas présent, ne contient encore aucune information, comme on le voit ci-dessous.
+Pour créer la zone 853, il faut ouvrir la holding souhaitée dans l&#039;éditeur de métadonnées. La holding, dans notre exemple, ne contient encore quasiment aucune information comme on le voit ci-dessous.
 </p>
 
 <p>
@@ -53,15 +58,11 @@ Pour créer la zone 853, il faut donc ouvrir la holding souhaitée dans l&#039;�
 </p>
 
 <p>
-Dans le cas présent, nous allons donc inscrire la cote dans la holding en rajoutant un $h (attention, dans l&#039;éditeur de métadonnées, on saisit donc $$h suivi d&#039;un espace et de la cote).
+Nous allons déjà inscrire la cote dans la holding en rajoutant un $h (attention, dans l&#039;éditeur de métadonnées, on saisit $$h suivi d&#039;un espace et de la cote).
 </p>
 
 <p>
-Ceci étant fait, dans la menu <strong>Modifier </strong>de l&#039;éditeur de métadonnées, choisir <strong>Développer à partir du modèle</strong>. Une fenêtre pop-up s&#039;affiche avec un menu déroulant.
-</p>
-
-<p>
-Ce menu déroulant permet de choisir un type de périodicité du périodique. Il faut choisir celui qui correspond au périodique en cours de traitement. Ici, nous supposons que nous avons un trimestriel.
+Ceci étant fait, dans le menu <strong>Modifier </strong>de l&#039;éditeur de métadonnées, choisir <strong>Développer à partir du modèle</strong>. Une fenêtre pop-up s&#039;affiche avec un menu déroulant. Ce menu contient les modèles prédéfinis que nous citions ci-dessus. Il faut choisir celui qui correspond au périodique en cours de traitement. Ici, nous supposons que nous avons un trimestriel.
 </p>
 
 <p>
@@ -71,12 +72,12 @@ Ce menu déroulant permet de choisir un type de périodicité du périodique. Il
 <p>
 <br/>
 
-Si le périodique a une périodicité qui ne se trouve pas dans la liste, choisissez par exemple “Serial prediction with two 853 fields” : nous verrons plus loin comment traiter ce genre de cas.<br/>
+Si le périodique a une périodicité qui ne se trouve pas dans la liste, choisissez par exemple “Serial prediction with two 853 fields” : nous verrons plus loin comment traiter ce genre de cas. On peut aussi, dans ce cas, créer la 853 entièrement à la main.<br/>
 
 </p>
 </div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:2,&quot;range&quot;:&quot;0-&quot;} -->
 <p>
-En cliquant sur OK, on peut voir que la notice holding a reçu deux nouveaux champs : le 853 et le 590. Ces champs sont préremplis.
+En cliquant sur OK, on constate que la notice holding est mise à jour avec deux nouveaux champs : le 853 et le 590. Ces champs sont préremplis.
 </p>
 
 <p>
@@ -86,7 +87,7 @@ En cliquant sur OK, on peut voir que la notice holding a reçu deux nouveaux cha
 <p>
 <br/>
 
-Vous pouvez modifier la description dans la 590$a : c&#039;est une zone de saisie libre explicitant la 853. Il est d&#039;ailleurs recommandé de le faire, la 853 pouvant être difficile à lire quand on n&#039;est pas habitué à son fonctionnement.
+Vous pouvez modifier la description dans la 590$a : c&#039;est une zone de saisie libre explicitant la 853. Il est d&#039;ailleurs recommandé de le faire, la 853 pouvant être difficile à déchiffrer.
 </p>
 
 <p>
@@ -94,23 +95,68 @@ La zone 853 est régie par une grammaire précise. <a href="https://www.loc.gov/
 
 </p>
 </div><!-- EDIT{&quot;target&quot;:&quot;plugin_wrap_end&quot;,&quot;secid&quot;:4,&quot;range&quot;:&quot;0-&quot;} -->
+</div>
+
+<h3><bookmark content="Enumération et chronologie" level="2" /><a name="condorcetperiodiquesstart__enumeration_et_chronologie">Enumération et chronologie</a></h3>
+<div class="level3">
+
 <p>
-Selon la 853, un périodique est décrit par plusieurs éléments et notamment une énumération et une chronologie. Enumération et chronologie permettent de générer les exemplaires et la description de chacun des exemplaires. La description contient des informations comme la volumaison, le numéro d&#039;exemplaire dans la volumaison, l&#039;année, le mois, etc.
+La 853 comprend potentiellement beaucoup d&#039;informations répartis dans de nombreux champs. Ceux-ci décrivent notamment ce que l&#039;on appelle <strong>l&#039;énumération</strong> et la <strong>chronologie</strong>. Enumération et chronologie permettent de générer les exemplaires et la description de chacun des exemplaires attendus.
 </p>
 
 <p>
-Dans l&#039;exemple ci-dessus, on a :
+<strong>L&#039;énumération</strong> correspond à la volumaison, la numérotation et toute autre information de ce type. Dans l&#039;exemple que l&#039;on a créé ci-dessus, les champs d&#039;énumération sont le $a et le $b. La 853 peut gérer jusqu&#039;à six niveaux d&#039;énumération ($a à $f inclus auxquels s&#039;ajoutent deux champs d&#039;énumération alternative $g et $h dont il sera question ci-dessous en remarque).
+</p>
+
+<p>
+La <strong>chronologie</strong> permet de gérer les informations relatives au temps (année du périodique, mois, saison, etc.) Dans l&#039;exemple que l&#039;on a créé ci-dessus, les champs de chronologie sont le $i et le $j. La 853 peut gérer jusqu&#039;à quatre niveaux de chronologie ($i à $l inclus).
+</p>
+
+<p>
+<em class="u">Remarque</em> : le $g et le $h permettent aussi de gérer des alternatives d&#039;énumération pour les niveaux $a et $b respectivement. Soit, par exemple, un titre qui dispose d&#039;une énumération de niveau $a par volume et de niveau $b par numéro dans le volume. On peut vouloir calculer en $h une alternative à $b qui donne le numéro <em>depuis la première parution paru et non pas dans l&#039;année en cours</em>. Les deux informations (numéro dans l&#039;année en cours, numéro depuis la première parution) seraient indiquées dans les exemplaires dans Alma resp. en $b et $h.
+</p>
+
+</div>
+
+<h3><bookmark content="Autres informations" level="2" /><a name="condorcetperiodiquesstart__autres_informations">Autres informations</a></h3>
+<div class="level3">
+
+<p>
+Bien que tous ne soient pas dans l&#039;exemple ci-dessus, d&#039;autres champs interviennent pour préciser les informations d&#039;énumération et de chronologie :
 </p>
 <ul>
-<li class="level1"><div class="li"> <strong>$a v</strong>. : un premier niveau d&#039;énumération (ici la volumaison) qui apparaîtra dans la description associée à l&#039;exemplaire sous la forme “v.” suivi de la volumaison en cours. Lors de la création des exemplaires, chacun d&#039;entre eux recevra donc un premier niveau d&#039;énumération correspondant au volume ;</div>
+<li class="level1"><div class="li"> le<strong> $u</strong>  indique le nombre d&#039;exemplaires attendus dans un niveau d&#039;énumération. On peut définir cela dans chaque niveau d&#039;énumération <em>sauf au premier niveau</em>  ($a). Le $u se place <em>après</em>  le niveau d&#039;énumération qu&#039;il qualifie. Le $u demande également un $v.</div>
 </li>
-<li class="level1"><div class="li"> <strong>$b no. </strong>: un deuxième niveau d&#039;énumération hiérarchiquement placé sous le premier niveau décrit en $a (ici le numéro sous la volumaison en cours) qui apparaîtra dans la description associé à l&#039;exemplaire sous la forme “no.” suivi du numéro en cours. Lors de la création des exemplaires, chaque exemplaire aura un numéro.</div>
+<li class="level1"><div class="li"> le <strong>$v</strong>  indique si la numération est continue (valeur : <em>c</em>) ou pas (valeur : <em>r</em>). On peut définir cela dans chaque niveau d&#039;énumération <em>sauf le premier niveau</em>  ($a). Le $v se place <em>après</em>  le niveau d&#039;énumération qu&#039;il qualifie. Le $v exige un $u.</div>
 </li>
-<li class="level1 node"><div class="li"> Les champs <strong>$u</strong>  et <strong>$v</strong>  se rapportent au <strong>$b</strong>  et signifient dans notre exemple :</div>
+<li class="level1"><div class="li"> le <strong>$w</strong>  indique la périodicité (trimestriel, semestriel, biennal…)</div>
+</li>
+<li class="level1"><div class="li"> le <strong>$x</strong>  indique le moment chronologique où le changement de numérotation a lieu dans le plus haut niveau d&#039;énumération.</div>
+</li>
+<li class="level1"><div class="li"> le <strong>$y</strong>  est utilisé pour définir une périodicité avec des cas complexes.</div>
+</li>
+<li class="level1"><div class="li"> le <strong>$z</strong>  permet de paramétrer la façon dont les volumaisons et numérations sont gérées du point de vue de leur présentation graphique : chiffres arabes ou romains, par exemple. Il peut être paramétré pour chaque niveau d&#039;énumération.</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Exemple" level="2" /><a name="condorcetperiodiquesstart__exemple">Exemple</a></h3>
+<div class="level3">
+
+<p>
+Dans l&#039;exemple ci-dessus :
+</p>
 <ul>
-<li class="level3"><div class="li"> <strong>$u 4</strong>  : quand on a attend le quatrième numéro, la volumaison en cours est terminée. Autrement dit, on a quatre numéro par volumaison ;</div>
+<li class="level1"><div class="li"> <strong>$a v</strong>. : premier niveau d&#039;énumération (la volumaison) qui apparaît dans la description associée à l&#039;exemplaire a la forme “v.” suivi de la volumaison en cours. Lors de la création des exemplaires, chacun d&#039;entre eux recevra donc un premier niveau d&#039;énumération correspondant au volume ;</div>
 </li>
-<li class="level3"><div class="li"> <strong>$v r </strong>: quand on change de volumaison, les numéros suivants sont comptés en partant de 1 (r = reset).</div>
+<li class="level1"><div class="li"> <strong>$b no. </strong>: un deuxième niveau d&#039;énumération hiérarchiquement placé sous le premier niveau décrit en $a (ici le numéro sous la volumaison en cours) qui apparaîtra dans la description associée à l&#039;exemplaire sous la forme “no.” suivi du numéro en cours. Lors de la création des exemplaires, chaque exemplaire aura un numéro.</div>
+</li>
+<li class="level1 node"><div class="li"> Les champs <strong>$u</strong>  et <strong>$v</strong>  se rapportent au <strong>$b </strong>puisque ils le suivent et signifient :</div>
+<ul>
+<li class="level3"><div class="li"> <strong>$u 4</strong>  : quand on a atteint le quatrième numéro, la volumaison en cours est terminée. Autrement dit, on a quatre numéro par volumaison ;</div>
+</li>
+<li class="level3"><div class="li"> <strong>$v r </strong>: quand on change de volumaison, les numéros suivants sont comptés en repartant de 1 (r = reset).</div>
 </li>
 </ul>
 </li>
@@ -124,12 +170,13 @@ Dans l&#039;exemple ci-dessus, on a :
 </li>
 </ul>
 
-<p>
-<strong>Donner le calendrier prévisionnel</strong>
-</p>
+</div>
+
+<h3><bookmark content="Donner le calendrier prévisionnel" level="2" /><a name="condorcetperiodiquesstart__donner_le_calendrier_previsionnel">Donner le calendrier prévisionnel</a></h3>
+<div class="level3">
 
 <p>
-Pour générer les exemplaires, il faut maintenant donner les conditions initiales à partir desquelles Alma va compter les exemplaires du périodiques.
+Pour générer les exemplaires d&#039;un périodique, il faut d&#039;abord donner les conditions initiales à partir desquelles Alma va compter ces exemplaires.
 </p>
 
 <p>
@@ -137,7 +184,7 @@ Pour cela, il faut placer le curseur dans la zone 853 puis accéder à l&#039;ac
 </p>
 
 <p>
-Une nouvelle fenêtre s&#039;ouvre avec un champ par zones d&#039;énumération et chronologique ainsi qu&#039;un champ contenant une date au format AAAAMMJJ. Ce champ correspond à la date de publication du premier exemplaire du périodique à recevoir. On indique dans les zones d&#039;énumération et de chronologie les valeurs à partir desquelles on souhaite commencer à bulletiner. Dans l&#039;exemple suviant, nous voulons avoir prêts à bulletiner les exemplaires à compter du volume 1, numéro 1, pour l&#039;année 2019, en janvier, la première publication ayant lieu de 05 janvier 2019.
+Une nouvelle fenêtre s&#039;ouvre avec un champ par zones d&#039;énumération et de chronologie ainsi qu&#039;un champ contenant une date au format AAAAMMJJ. Ce champ correspond à la date de publication du premier exemplaire à recevoir. On indique dans les zones d&#039;énumération et de chronologie les valeurs à partir desquelles on souhaite commencer à bulletiner. Dans l&#039;exemple suviant, nous voulons avoir prêts à bulletiner les exemplaires à compter du volume 1, numéro 1, pour l&#039;année 2019, en janvier (01), la première publication ayant lieu de 05 janvier 2019.
 </p>
 
 <p>
@@ -148,9 +195,10 @@ Une nouvelle fenêtre s&#039;ouvre avec un champ par zones d&#039;énumération 
 On clique alors sur <strong>Fermer</strong>. Nous sommes prêts à générer les exemplaires qui pourront être bulletiner.
 </p>
 
-<p>
-Générer les exemplaires prévus
-</p>
+</div>
+
+<h3><bookmark content="Générer les exemplaires prévus" level="2" /><a name="condorcetperiodiquesstart__generer_les_exemplaires_prevus">Générer les exemplaires prévus</a></h3>
+<div class="level3">
 
 <p>
 Afin de générer les exemplaires prévus sur la base des conditions énoncées par la 853 et des valeurs données dans le calendrier prévisionnel, on clique sur <strong>Ouvrir les exemplaires prévus</strong>  dans le menu <strong>Outils</strong>, sous-menu <strong>Holdings Marc 21</strong>.
@@ -173,12 +221,141 @@ Lorsqu&#039;au bout d&#039;une année, on veut préparer les exemplaires suivant
 </p>
 
 <p>
-Si entre-temps, le périodique a changé de périodicité ou d&#039;enumération ou de chronologie, il est possible de modifier la 853, de donner les nouvelles conditions de calendrier prévisionnel puis d&#039;ouvrir les exemplaires pour le nouveau cycle.
+Si entre-temps, le périodique a changé de périodicité, d&#039;énumération ou de chronologie, il est possible de modifier la 853 pour énoncer les nouvelles conditions de calendrier prévisionnel puis d&#039;ouvrir les exemplaires pour le nouveau cycle.
+</p>
+
+</div>
+
+<h3><bookmark content="Exemple d&#039;une 853 complexe" level="2" /><a name="condorcetperiodiquesstart__exemple_d_une_853_complexe">Exemple d&#039;une 853 complexe</a></h3>
+<div class="level3">
+
+<p>
+Il est impossible de donner en détail toutes les possibilités de configuration. Voici un exemple commenté tiré du manuel Marc21 dont nous donnions le lien ci-dessus.
+</p>
+<pre class="code">$a v. $b no. $u var $v r $i (year) $j (month) $k (day) $w c $x 07 $y pw00mo,00th $y od0101,0704,1225 $y ow0901mo,1104th</pre>
+
+<p>
+Le périodique a une énumération à deux niveaux : volumaison ($a), numéro par volumaison ($b). Le nombre de numéro par volumaison est variable ($u) et on n&#039;a pas pu donner un chiffre précis : il faut se référer aux champs $w à $y pour avoir des détails. Néanmoins quand on change de volume, la numérotation par volumaison reprend à 1 ($v). La nouvelle volumaison commence en juillet ($x). La chronologie comporte trois niveaux : l&#039;année, le mois, le jour ($i, $j et $k). Ce titre est “semi-hebdomadaire” ($w). Le premier $y nous apprend que ce périodique est <strong>p</strong>ublié hebdomadairement (<strong>w</strong>) chaque mois (<strong>00</strong>) le lundi (<strong>mo</strong>) et (<strong>,</strong>) chaque mois (<strong>00</strong>) le jeudi (<strong>th</strong>). Néanmoins le deuxième $y nous informe qu&#039;il y des exceptions à la parution certains jours précis (<strong>od</strong>) : le 1er janvier (<strong>0101</strong>), le 4 juillet (<strong>0704</strong>) et le 25 décembre (<strong>1225</strong>). Le troisième $y indique enfin des exceptions supplémentaires (<strong>ow</strong>  - le w indique ici qu&#039;on va compter non pas les jours mais soit les semaines soit la position de jours particuliers dans les semaines du mois) : le premier lundi de septembre (<strong>0901mo</strong>) et le 4e jeudi de novembre (<strong>1104th</strong>) le périodique ne paraît pas.
 </p>
 
 </div>
 
 <h2><bookmark content="Bulletiner" level="1" /><a name="condorcetperiodiquesstart__bulletiner">Bulletiner</a></h2>
 <div class="level2">
+
+</div>
+
+<h3><bookmark content="Préliminaire 1 : s&#039;assurer que la holding est bien liée à une ligne de commande" level="2" /><a name="condorcetperiodiquesstart__preliminaire_1s_assurer_que_la_holding_est_bien_liee_a_une_ligne_de_commande">Préliminaire 1 : s&#039;assurer que la holding est bien liée à une ligne de commande</a></h3>
+<div class="level3">
+
+<p>
+Pour bulletiner les exemplaires d&#039;un périodique, il faut que la holding devant porter ces exemplaires soit associée à une ligne de commande. Si ce n&#039;est pas le cas, vous pouvez utiliser le menu contextuel <code><strong>···</strong></code>  situé sur la droite de la ligne décrivant la holding et choisir <strong>Associer une ligne de commande</strong>  (voir l&#039;image ci-dessous).
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:holding-associer-lc.png" class="mediacenter" alt="" /></div>
+</p>
+
+</div>
+<div class="level3">
+
+<p>
+Dans l&#039;exemple ci-dessus, la holding du titre Saragam a été associé à la ligne de commande LC-229.
+</p>
+
+</div>
+
+<h3><bookmark content="Préliminaire 2 : s&#039;assurer que des exemplaires sont bien prévus." level="2" /><a name="condorcetperiodiquesstart__preliminaire_2s_assurer_que_des_exemplaires_sont_bien_prevus">Préliminaire 2 : s&#039;assurer que des exemplaires sont bien prévus.</a></h3>
+<div class="level3">
+
+<p>
+Si vous ne savez plus si vous avez bien ouvert les exemplaires comme on l&#039;a décrit ci-dessus, vous pouvez, depuis la holding, aller <strong>Voir les exemplaires</strong>.
+</p>
+
+<p>
+Si des exemplaires sont prévus (ils ont été “ouverts”) alors la liste de ces exemplaires apparaîtra alors. Leur type de processus sera “en acquisition” tant qu&#039;ils n&#039;auront pas été bulletiné.
+</p>
+
+<p>
+Si vous ne les avez pas ouvert, il est possible de le faire dans cet écran de visualisation des exemplaires en cliquant sur le lien <strong>Ouvrir les exemplaires prévus</strong>. Ou bien il faut aller dans l&#039;éditeur de métadonnées comme on l&#039;a vu précédemment.
+</p>
+
+<p>
+Quelle que soit la méthode que vous utilisiez, le fait d&#039;avoir ouvert les exemplaires va les créer dans Alma avec la description adéquate. <div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1108&amp;h=666&amp;tok=37a69b&amp;media=condorcet:periodiques:periodiques-exemplaires.png" class="mediacenter" alt="" width="1108" height="666" /></div>
+</p>
+
+</div>
+
+<h3><bookmark content="Bulletiner les exemplaires" level="2" /><a name="condorcetperiodiquesstart__bulletiner_les_exemplaires">Bulletiner les exemplaires</a></h3>
+<div class="level3">
+
+<p>
+On accède à cette fonctionnalité par le menu général <strong>Acquisitions &gt; Réceptionner </strong>et en se plaçant dans l&#039;écran concerné dans l&#039;onglet<strong> Continue.</strong>
+</p>
+
+<p>
+<strong><div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:receptionner-liste.png" class="mediacenter" alt="" /></div></strong>
+</p>
+
+<p>
+Vous pouvez rechercher le titre souhaité dans la liste ou utiliser les différents filtres et la barre de recherche (champ de saisie suivi d&#039;une loupe) pour trouver le titre qui vous intéresse.
+</p>
+
+<p>
+Avant toute maniuplation, l&#039;exemplaire n&#039;étant pas équipé, il faut cocher la case <strong>Garder dans le département</strong>  et choisir la valeur <strong>Equipement</strong>  dans la liste déroulante qui s&#039;affiche alors.
+</p>
+
+<p>
+Ensuite, dans le menu contextuel <code><strong>···</strong></code>  associé au titre pour lequel vous voulez réceptionner des exemplaires, choisissez <strong>Gérer les exemplaires</strong>  (et pas <strong>Réceptionner </strong>qui permet de créer un exemplaire imprévu : voir plus bas).
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:receptionner-menu-contextuel.png" class="mediacenter" alt="" /></div>
+</p>
+
+<p>
+Alma vous envoie alors sur l&#039;écran permettant de bulletiner des exemplaires précis. Dans cet écran (voir ci-dessous), on retrouve la liste des exemplaires prévus : un code-barre a été précalculé, la description est celle calculée lors de l&#039;établissement du modèle de prévision.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:receptionner-exemplaires.png" class="mediacenter" alt="" /></div>
+</p>
+
+<p>
+Il est possible à ce moment de modifier l&#039;exemplaire si nécessaire, d&#039;en changer le code-barre, d&#039;en supprimer si nécessaire.
+</p>
+
+<p>
+Pour bulletiner, deux façons : soit vous cocher le ou les exemplaire(s) intéressant(s) puis cliquez sur le bouton <strong>Enregistrer et réceptionner en haut de l&#039;écran, </strong>soit vous travaillez exemplaire par exemplaire et à l&#039;aide du menu contextuel associé, vous cliquez sur <strong>Réceptionner</strong>.
+</p>
+
+<p>
+Dans la description des exemplaires associés à la holding, le périodique sera alors en type de processus <strong>Acquisition technical services (EQUIP)</strong>  pour indiquer qu&#039;il doit maintenant être équipé. Si vous n&#039;avez pas coché la case <strong>Garder dans le département</strong>  dans l&#039;écran précédent, l&#039;exemplaire passera <strong>en rayon</strong>  et sera communicable (il faudra donc remettre l&#039;exemplaire dans le département équipement le temps qu&#039;il soit équipé).
+</p>
+
+</div>
+
+<h3><bookmark content="Bulletiner un exemplaire imprévu" level="2" /><a name="condorcetperiodiquesstart__bulletiner_un_exemplaire_imprevu">Bulletiner un exemplaire imprévu</a></h3>
+<div class="level3">
+
+<p>
+Nous avons vu ci-dessus qu&#039;on pouvait bulletiner un exemplaire imprévu. On y accède soit au niveau de la liste de tous les périodiques en cliquant sur <strong>Réceptionner</strong>  dans le menu contextuel associé à un titre donné, soit quand on visualise la liste des exemplaires à bulletiner, en cliquant sur le lien <strong>Recevoir de nouveaux exemplaires</strong>.
+</p>
+
+<p>
+L&#039;écran qui apparaît permet de construire la description de l&#039;exemplaire imprévu. Il est conseillé de simplement copier/coller la description du dernier exemplaire reçu dans la zone de saisie de la description de l&#039;exemplaire en cours de bulletinage (ne cliquez pas sur le bouton <strong>Générer</strong>). Néanmoins, vous devez aussi renseigner les champs de description et d&#039;énumération associés. Si vous cliquez sur <strong>Générer</strong>, le bouton utilisera ces informations pour écraser la description que vous avez tapée - mais le modèle n&#039;est pas correctement configuré à l&#039;heure actuelle et cela sera illisible. Dans l&#039;exemple ci-dessous, nous créons un exemplaire 2bis en juin 2019.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:periodiques:receptionner-exemplaire-imprevu-complet.png" class="mediacenter" alt="" /></div>
+</p>
+
+<p>
+Le numéro est automatiquement inséré dans la liste des exemplaires prévus. Ce numéro imprévu est directement considéré comme bulletiné.
+</p>
+
+<p>
+Il peut malheureusement arriver que le numéro imprévu entraîne des modifications dans les autres exemplaires (par exemple au niveau de la numérotation). Auquel cas, il sera nécessaire de modifier à la main ces exemplaires…
+</p>
 
 </div>

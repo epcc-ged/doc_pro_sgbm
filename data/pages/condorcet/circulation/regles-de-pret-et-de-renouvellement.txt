@@ -14,7 +14,7 @@ Les catégories sont les suivantes :
       * Masters de l'EPHE
       * Masters de l'EHESS
       * Masters de l'ENC
-  * CU3 : Chercheurs membres non résidents : chercheurs non résidents venant des établissements membres
+  * CU3 : Chercheurs membres non résidents : chercheurs à partir du Doctorat, non résidents au Campus, venant des établissements membres
   * CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres
   * CU5 : M+ non-membres : masterants, doctorants ou chercheurs et autres profils académiques venant d'un établissement non-membre
   * CU6 : Autres : personnes ne venant pas d'un établissement membre et n'ayant pas de profil académique, ou étudiant de niveau L.

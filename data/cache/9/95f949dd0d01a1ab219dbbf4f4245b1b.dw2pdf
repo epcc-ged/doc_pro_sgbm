@@ -1,0 +1,108 @@
+<a name="condorcetacquisitioninfrastructurele-budget__"></a>
+<h3><bookmark content="ACQUISITION : INFRASTRUCTURE : LE BUDGET" level="2" /><a name="condorcetacquisitioninfrastructurele-budget__acquisitioninfrastructurele_budget">ACQUISITION : INFRASTRUCTURE : LE BUDGET</a></h3>
+<div class="level3">
+
+<p>
+Pour pouvoir effectuer des commandes dans Alma, il faut au préalable avoir saisi les données relatives aux budgets et aux fournisseurs du réseau.
+</p>
+
+</div>
+
+<h4><bookmark content="Généralités" level="3" /><a name="condorcetacquisitioninfrastructurele-budget__generalites">Généralités</a></h4>
+<div class="level4">
+
+<p>
+Dans Alma, la structure budgétaire se compose ainsi :
+</p>
+<ul>
+<li class="level1"><div class="li"> le <strong>registre comptable</strong>, niveau le plus haut de la hiérarchie budgétaire, contient un ensemble de comptes de synthèse et de comptes budgétaires. Il y a un registre comptable par année budgétaire.</div>
+</li>
+<li class="level1"><div class="li"> le <strong>compte de synthèse</strong>, niveau intermédiaire, permet d&#039;avoir une vue d&#039;ensemble sur les comptes budgétaires qu&#039;il réunit</div>
+</li>
+<li class="level1"><div class="li"> le <strong>compte budgétaire</strong>  est le niveau le plus bas de la hiérarchie budgétaire. C&#039;est à partir de ce compte que les fonds sont alloués (argent rendu disponible pour les commandes) et les transactions budgétaires effectuées.</div>
+</li>
+</ul>
+
+<p>
+L&#039;architecture budgétaire du GED est la suivante :
+</p>
+<ul>
+<li class="level1 node"><div class="li"> registre comptable 2020</div>
+<ul>
+<li class="level3"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>Périodiques (compte budgétaire)</span></div>
+</li>
+<li class="level3"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>Packages d&#039;ebooks (compte budgétaire)</span></div>
+</li>
+<li class="level3 node"><div class="li"> Collections 2020 (compte de synthèse)</div>
+<ul>
+<li class="level4"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>Pôle A - 2020 (compte budgétaire)</span></div>
+</li>
+<li class="level4"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>…/…</span></div>
+</li>
+<li class="level4"><div class="li"> <span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>Pôle H - 2020 (compte budgétaire)</span></div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+Les dépenses sont imputées uniquement dans les <em>comptes budgétaires</em>. Le compte de synthèse et le registre permettent uniquement de donner une vision globale des dépenses et de faire des rapports, mais aucune dépense n&#039;est faite à leur niveau.
+</p>
+
+<p>
+Il n&#039;y a pas de gestion de droit entre les acquéreurs au niveau des budgets : un acquéreur a techniquement le droit de dépenser sur n&#039;importe quel budget. Les contraintes de dépense entre les budgets relèvent de procédures internes au service.
+</p>
+
+</div>
+
+<h4><bookmark content="Navigation" level="3" /><a name="condorcetacquisitioninfrastructurele-budget__navigation">Navigation</a></h4>
+<div class="level4">
+
+<p>
+Le <strong>chemin</strong>  indiqué au niveau d&#039;un budhet permet de savoir où se situe le compte budgétaire ou de synthèse dans la hiérarchie budgétaire, par exemple<code> Registre 2020 &gt; Collections 2020</code>  pour le budget Pôle C - 2020
+</p>
+
+<p>
+Vous pouvez sélectionner <code>Acquisitions &gt; Infrastructure des acquisitions &gt; Registres comptables</code>  pour accéder à la liste des registres de comptes.
+</p>
+
+<p>
+Deux filtres sont activés par défaut : statut actif, et le période fiscale (année) en cours.
+</p>
+
+<p>
+Il est possible d&#039;utiliser d&#039;autres filtres dans les facettes, comme le type de compte, le nom du registre comptable, ou encore le propriétaire de ce registre (<code>détenu par</code>).
+</p>
+
+</div>
+
+<h4><bookmark content="Rapports élémentaires" level="3" /><a name="condorcetacquisitioninfrastructurele-budget__rapports_elementaires">Rapports élémentaires</a></h4>
+<div class="level4">
+
+<p>
+Quand on est sur la page de détail d&#039;un budget, quel que soit son <em>type</em>, l&#039;onglet <strong>Résumé</strong>contient une partie <strong>Rapport</strong>  avec 2 types de rapports à l&#039;échelle du registre sont accessibles : <code>solde du compte</code>  et <code>utilisation du compte</code>. Ils permettent d&#039;avoir une vue sur le budget de départ, les sommes engagées et les sommes dépensées, ainsi que le budget restant. Ce rapport est consultable à partir du moment où des fonds ont été alloués et des commandes passées.
+</p>
+
+<p>
+Les données financières sont également reprises en haut de la page <code>Résumé</code>.
+</p>
+
+<p>
+Traduction des termes utilisés :
+</p>
+<ul>
+<li class="level1"><div class="li"> Allocated balance : montants alloués (ou solde provisionné)</div>
+</li>
+<li class="level1"><div class="li"> Expended balance : montants dépensés (ou solde réalisé)</div>
+</li>
+<li class="level1"><div class="li"> Encumbered balance : montants engagés (ou solde engagé)</div>
+</li>
+<li class="level1"><div class="li"> Cash balance : solde en cours (= montants alloués - montants dépensés)</div>
+</li>
+<li class="level1"><div class="li"> Available balance : solde disponible (= montants alloués - (montants engagés + dépensés))</div>
+</li>
+</ul>
+
+</div>

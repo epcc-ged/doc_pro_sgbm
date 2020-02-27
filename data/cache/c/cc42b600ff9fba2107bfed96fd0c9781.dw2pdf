@@ -33,7 +33,7 @@ Les catégories sont les suivantes :
 </li>
 </ul>
 </li>
-<li class="level1"><div class="li"> CU3 : Chercheurs membres non résidents : chercheurs non résidents venant des établissements membres</div>
+<li class="level1"><div class="li"> CU3 : Chercheurs membres non résidents : chercheurs à partir du Doctorat, non résidents au Campus, venant des établissements membres</div>
 </li>
 <li class="level1"><div class="li"> CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres</div>
 </li>
@@ -76,7 +76,7 @@ A partir de ces catégories de lecteurs, on pose les droits de prêt suivants :
 		<th class="col0">CU6 Autres</th><td class="col1">0</td><td class="col2"> </td><td class="col3"> </td><td class="col4"> </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:1,&quot;range&quot;:&quot;1592-2008&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:1,&quot;range&quot;:&quot;1626-2042&quot;} -->
 <p>
 Les durées de prêt sont calculées en jours calendaires. Toutefois, un retour ne peut pas tomber un jour de fermeture déclaré de la bibliothèque : dans ce cas de figure, la date de retour est automatiquement repoussée au premier jour d’ouverture suivant (un lundi si le retour tombe un dimanche ou le jour de la réouverture de la bibliothèque si le retour tombe pendant une période de fermeture pour congés).
 </p>
