@@ -1,0 +1,300 @@
+<a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__"></a>
+<h3><bookmark content="ACQUISITIONS : CIRCUIT DE COMMANDE : FONCTIONNEMENT GENERAL DU PROCESSUS DE COMMANDE" level="2" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__acquisitionscircuit_de_commandefonctionnement_general_du_processus_de_commande">ACQUISITIONS : CIRCUIT DE COMMANDE : FONCTIONNEMENT GENERAL DU PROCESSUS DE COMMANDE</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Rechercher un titre au catalogue" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__rechercher_un_titre_au_catalogue">Rechercher un titre au catalogue</a></h4>
+<div class="level4">
+
+<p>
+Recherchez une notice de document imprimé dans Alma en utilisant le critère de pré-recherche <code>Tous les titres</code> ou <code>Titres physiques</code>. Le premier critère est à privilégier.
+</p>
+
+<p>
+Pour rappel, le second critère cherche les notices bibliographiques de ressources physiques ayant au moins une notice de holding attachée. Le premier, lui, recherche indifféremment des ressources physiques ou électroniques, mais permet de ramener des titres de ressources physiques sans holding ni exemplaire, ce qui est le cas d&#039;une notice qui vient d&#039;être dérivée d&#039;un catalogue extérieur.
+</p>
+
+<p>
+Ces critères de pré-recherche doivent être combinés avec un ou plusieurs index de votre choix (“Tout”, “Titre”, “ISBN”, etc.).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Si la notice est sans exemplaire, l&#039;onglet “Physique” est laissé en grisé. C&#039;est le cas dans l&#039;exemple suivant, qui correspond à une notice dérivée du Sudoc à des fins d&#039;acquisition.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Si la notice a des exemplaires, l&#039;onglet “Physique” apparaît avec un point vert, suivi du nombre d&#039;exemplaires entre parenthèses. En cliquant sur “Physique”, la liste des holdings liés à cette notice bibliographique apparaît et permet de savoir qui, au sein du réseau, possède cette ressource.
+</p>
+
+<p>
+Dans un cas comme dans l&#039;autre, une fois le titre trouvé, cliquez sur le bouton-action puis sur “Commande”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h4><bookmark content="Renseigner le type d’achat et le propriétaire de la ligne de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__renseigner_le_type_d_achat_et_le_proprietaire_de_la_ligne_de_commande">Renseigner le type d’achat et le propriétaire de la ligne de commande</a></h4>
+<div class="level4">
+
+<p>
+Un écran s&#039;affiche vous invitant à renseigner :
+</p>
+<ul>
+<li class="level1 node"><div class="li"> le type d&#039;achat</div>
+<ul>
+<li class="level3"><div class="li"> achat de livre imprimé : à l&#039;unité ou commande permanente de toutes les monographies parues dans une même collection</div>
+</li>
+<li class="level3"><div class="li"> achat de livre électronique</div>
+</li>
+<li class="level3"><div class="li"> souscription par abonnement à un livre électronique</div>
+</li>
+<li class="level3"><div class="li"> achat de matériel : “Physique - Achat ponctuel” ou “Physique - Commande permanente monographie” (NB : le terme de monographie relève ici d&#039;une mauvaise traduction de l&#039;anglais)</div>
+</li>
+<li class="level3"><div class="li"> etc.</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+Cette liste est générée de manière contextualisée, en fonction des informations contenues dans la notice. Le choix du type d&#039;achat détermine l&#039;affichage de certains champs du formulaire de création de ligne de commande.
+</p>
+
+<p>
+Ici nous sélectionnerons “Livre imprimé - Achat ponctuel”.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+<ul>
+<li class="level1"><div class="li"> le propriétaire de la ligne de commande</div>
+</li>
+</ul>
+
+<p>
+Le choix effectué détermine quelle bibliothèque est responsable de l&#039;achat. La bibliothèque propriétaire peut acheter pour elle-même mais aussi pour d&#039;autres bibliothèques dans le cadre d&#039;une politique d&#039;acquisition centralisée. La distinction concernant la localisation de l&#039;exemplaire commandé se fera au niveau de la ligne de commande.
+</p>
+
+<p>
+L&#039;affichage de cette liste est contextualisée. Il dépend du périmètre institutionnel associé à votre rôle d&#039;acqéreur. Dans l&#039;exemple, l&#039;acquéreur ne peut acheter des documents que pour la bibliothèque <span style='font-family: inherit; font-size:inherit; color: #9b59b6;  background-color: inherit '>SICD (BU Arsenal</span>).
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+<ul>
+<li class="level1"><div class="li"> un modèle de bon de commande : si souhaité, sélectionnez ici un modèle de ligne de commande comme vu dans la partie précédente.</div>
+</li>
+</ul>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Après la sélection de ces informations, deux lignes supplémentaires s&#039;ajoutent :
+</p>
+<ol>
+<li class="level1"><div class="li"> “Générer un code-barres à l&#039;aide d&#039;une séquence” : sélectionnez “default_institution”. Les codes-barres des exemplaires en commande seront préfixés “ACQ”.</div>
+</li>
+<li class="level1 node"><div class="li"> “Assigner l&#039;inventaire manuellement” :</div>
+<ol>
+<li class="level3"><div class="li"> Si la case est cochée, le ou les exemplaires en commande devront être créés manuellement, code-barres inclus</div>
+</li>
+<li class="level3"><div class="li"> Si la case est décochée, un exemplaire sera automatiquement créé avec un certain nombre d&#039;informations pré-renseignées comme la “localisation d&#039;acquisition par défaut” (localisation de type “ACQ”, pour les bibliothèques ayant des collections de ce type). Ces informations pourront être modifiées ultérieurement, si besoin est.</div>
+</li>
+</ol>
+</li>
+</ol>
+
+<p>
+Dans l&#039;exemple suivant, “Assigner l&#039;inventaire manuellement” est décoché.
+</p>
+
+<p>
+Après avoir renseigné ces informations, cliquez sur <code>Créer une ligne de commande</code>.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+NB : si “Assigner l&#039;inventaire manuellement” est coché, la ligne “Générer un code-barres à l&#039;aide d&#039;une séquence” est supprimée. Le code-barres sera créé manuellement.
+</p>
+
+</div>
+
+<h4><bookmark content="Créer la ligne de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__creer_la_ligne_de_commande">Créer la ligne de commande</a></h4>
+<div class="level4">
+
+<p>
+Une ligne de commande vient d&#039;être créée. Elle est dite “en révision”, ce qui signifie qu&#039;elle doit être complétée.
+</p>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+<p>
+Notez dès mainteannt que pour être “paquetable”, c&#039;est-à-dire regroupée dans un bon de commande, une ligne de commande doit impérativement comporter :
+</p>
+<ul>
+<li class="level1"><div class="li"> une bibliothèque et une localisation de destination</div>
+</li>
+<li class="level1"><div class="li"> un fournisseur</div>
+</li>
+<li class="level1"><div class="li"> un prix</div>
+</li>
+<li class="level1"><div class="li"> un budget</div>
+</li>
+</ul>
+
+<p>
+<span style='font-family: inherit; font-size:inherit; color: #1abc9c;  background-color: inherit '>(capture d&#039;écran)</span>
+</p>
+
+</div>
+
+<h5><bookmark content="Vue générale sur l’écran de création des lignes de commande" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__vue_generale_sur_l_ecran_de_creation_des_lignes_de_commande">Vue générale sur l’écran de création des lignes de commande</a></h5>
+<div class="level5">
+
+<p>
+L&#039;écran de création des lignes de commande comporte un onglet principal, intitulé “Résumé”.
+</p>
+
+<p>
+Cet onglet se sbdivie en 6 parties :
+</p>
+<ul>
+<li class="level1"><div class="li"> “Informations sur l&#039;exemplaire” : bibliothèque, localisation, code-barres, exception de circulation applicable à l&#039;exemplaire ou aux exemplaires commandés</div>
+</li>
+<li class="level1"><div class="li"> “Informations sur le fournisseur” : fournisseur</div>
+</li>
+<li class="level1"><div class="li"> “Tarification” : tarif</div>
+</li>
+<li class="level1"><div class="li"> “Financement” : budget(s) imputé(s)</div>
+</li>
+<li class="level1"><div class="li"> “Détail de la ligne de commande” : mode d&#039;entrée, type de matériel, codes statistiques, etc.</div>
+</li>
+<li class="level1"><div class="li"> “Supplémentaire” : identification de la référence de la ligne de commande à laquelle la ligne créée doit être associée.</div>
+</li>
+</ul>
+
+<p>
+La section “Tarification” doit impérativement être complétée avant la partie “Financement”.
+</p>
+
+<p>
+Il est recommandé, de manière générale, de remplir les sections dans l&#039;ordre d&#039;affichage, les unes après les autres. A défaut, des bugs risquent de survenir. C&#039;est le cas lorsque prix et budget sont renseignés avant le fournisseur, du moins quand celui-ci applique une remise.
+</p>
+
+</div>
+
+<h5><bookmark content="Renseigner les informations sur les exemplaires commandés" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__renseigner_les_informations_sur_les_exemplaires_commandes">Renseigner les informations sur les exemplaires commandés</a></h5>
+<div class="level5">
+
+</div>
+
+<h5><bookmark content="Renseigner le fournisseur" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__renseigner_le_fournisseur">Renseigner le fournisseur</a></h5>
+<div class="level5">
+
+</div>
+
+<h5><bookmark content="Renseigner le prix" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__renseigner_le_prix">Renseigner le prix</a></h5>
+<div class="level5">
+
+</div>
+
+<h5><bookmark content="Ajouter le budget" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__ajouter_le_budget">Ajouter le budget</a></h5>
+<div class="level5">
+
+</div>
+
+<h5><bookmark content="Renseigner les autres informations sur la ligne de commande" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__renseigner_les_autres_informations_sur_la_ligne_de_commande">Renseigner les autres informations sur la ligne de commande</a></h5>
+<div class="level5">
+
+</div>
+
+<h4><bookmark content="« Enregistrer » la ligne de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__enregistrer_la_ligne_de_commande">« Enregistrer » la ligne de commande</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="« Réviser » la ligne de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__reviser_la_ligne_de_commande">« Réviser » la ligne de commande</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Créer un bon de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__creer_un_bon_de_commande">Créer un bon de commande</a></h4>
+<div class="level4">
+
+</div>
+
+<h5><bookmark content="Paqueter des lignes de commande" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__paqueter_des_lignes_de_commande">Paqueter des lignes de commande</a></h5>
+<div class="level5">
+
+</div>
+
+<h5><bookmark content="Vue générale sur le bon de commande" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__vue_generale_sur_le_bon_de_commande">Vue générale sur le bon de commande</a></h5>
+<div class="level5">
+
+</div>
+
+<h4><bookmark content="Réviser un bon de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__reviser_un_bon_de_commande">Réviser un bon de commande</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Approuver un bon de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__approuver_un_bon_de_commande">Approuver un bon de commande</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Descriptif de la notification « bon de commande »" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__descriptif_de_la_notification_bon_de_commande">Descriptif de la notification « bon de commande »</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Affichage des commandes dans Primo" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__affichage_des_commandes_dans_primo">Affichage des commandes dans Primo</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Accéder à la liste des bons de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__acceder_a_la_liste_des_bons_de_commande">Accéder à la liste des bons de commande</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Télécharger la notification « bon de commande »" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__telecharger_la_notification_bon_de_commande">Télécharger la notification « bon de commande »</a></h4>
+<div class="level4">
+
+</div>
+
+<h4><bookmark content="Exporter une liste de lignes de commande pour faire une demande de devis" level="3" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__exporter_une_liste_de_lignes_de_commande_pour_faire_une_demande_de_devis">Exporter une liste de lignes de commande pour faire une demande de devis</a></h4>
+<div class="level4">
+
+</div>
+
+<h5><bookmark content="Exporter une liste à partir de lignes de commande en révision" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__exporter_une_liste_a_partir_de_lignes_de_commande_en_revision">Exporter une liste à partir de lignes de commande en révision</a></h5>
+<div class="level5">
+
+</div>
+
+<h5><bookmark content="Exporter une liste à partir de lignes de commande constituant un bon de commande en révision" level="4" /><a name="condorcetacquisitioncircuit-de-commandeprocessus-de-commande-fonctionnement-general__exporter_une_liste_a_partir_de_lignes_de_commande_constituant_un_bon_de_commande_en_revision">Exporter une liste à partir de lignes de commande constituant un bon de commande en révision</a></h5>
+<div class="level5">
+
+</div>

@@ -5,4 +5,5 @@
   - [[:condorcet-sp:glpi|Réponses à distance (GLPI)]]
   - {{:condorcet-sp:aide1.pptx|Mémo inscription - réservation}}
    - {{:condorcet-sp:aide2revu.pptx|Mémo prêt - retour}}
+   - {{:condorcet-sp:glpi.docx|Mémo GLPI}}
 

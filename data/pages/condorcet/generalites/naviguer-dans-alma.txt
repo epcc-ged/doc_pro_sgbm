@@ -12,9 +12,9 @@ Veuillez noter que la déconnexion est automatique après 60 minutes sans aucune
 
 Une fenêtre Alma s'affiche dans un navigateur internet (Firefox, Chrome). On peut l'analyser en trois parties :
 
-  - Une barre de menus qui sera toujours visible ;
-  - Une barre de recherche qui sera quasiment toujours visible ;
-  - Une zone de travail ou de consultation des informations.
+  - Une barre de menus principale et permanent ; le fonctionnel de l'outil
+  - Une barre de recherche permanent ; les données gérées par l'outil [Entités | Critères]
+  - Une zone de travail ou de consultation des informations ; Données et Fonctionnel
 
 L'image ci-dessous indique ces trois parties de l'écran selon le numéro (1, 2, 3) indiqué dans la liste ci-dessus :
 
@@ -24,6 +24,7 @@ Les menus de la barre de menus comportent un certain nombre d'actions proposées
 
   - Les rôles associés à l'utilisateur. Ces rôles sont attribués à l'utilisateur lors de la création de son compte et peuvent être modifiés par la suite par un administrateur. Les rôles correspondent aux actions possibles à l'utilisateur ;
   - La localisation de l'utilisateur, comme nous allons le voir ci-dessous.
+
 
 ==== Se localiser dans Alma ====
 
@@ -81,9 +82,10 @@ Par défaut c’est la //recherche simple //qui est proposée, avec pour périm�
 
 {{:condorcet:generalites:deux_zones_de_recherche.jpg?nolink&|deux_zones_de_recherche.jpg}}
 
-La //recherche avancée //permet de combiner différents critères de recherche, d’utiliser des opérateurs booléens. Certaines critères ne sont disponibles que dans la recherche avancée.
+La //recherche avancée //permet de combiner différentes | <font inherit/inherit;;inherit;;#ffffcc>Données</font> | : | <font inherit/inherit;;inherit;;#ffffcc>Entité</font> | ; | <font inherit/inherit;;inherit;;#ffffcc>Zone</font> | ; | <font inherit/inherit;;inherit;;#ffffcc>Critère</font> | auxquelles on peut associer les | <font inherit/inherit;;inherit;;#ffffcc>Opérateurs booléens</font> | pour rechercher un | <font inherit/inherit;;inherit;;#ffffcc>Mots</font> |. Certaines | Données | ne sont disponibles que dans la recherche avancée et d'autres le sont pas
 
 {{:condorcet:generalites:recherche_avancee.jpg?nolink&|recherche_avancee.jpg}}
+
 
 ==== Configuration des favoris ====
 

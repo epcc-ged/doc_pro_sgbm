@@ -1,0 +1,16 @@
+====== Divers ======
+
+===== Faire une demande de traitement interne sur un exemplaire =====
+
+Cas d'usage : vous souhaitez faire venir un document du magasin (CTLES) pour traitement interne, par exemple pour le coter s'il n'a pas de cote.
+
+Les demandes de traitement interne portent exclusivement sur des exemplaires spécifiques, et ne peuvent porter sur une notice. Il faut donc faire une recherche sur les exemplaires.
+
+Quand on a un exemplaire, cliquez sur le bouton d'actions ''…'' et choisir ''traitement interne''.
+
+Dans la fenêtre suivant, on vous demande de choisir un //Type de traitement interne//. A ce stade, un seul traitement interne est paramétré dans notre Alma, qui s'appele lui-même ''traitement interne''.
+
+Nous avons également un seul département à ce stade. Choisir ''GED Acquisitions''
+
+Quand vous cliquez sur ''Soumettre'', une demande de communication est générée, identique aux demandes de communication / réservations des usagers, mais à destination des services internes.
+

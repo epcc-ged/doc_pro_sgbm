@@ -143,8 +143,6 @@ On accède à cette fonctionnalité par le menu général **Acquisitions > Réce
 
 Vous pouvez rechercher le titre souhaité dans la liste ou utiliser les différents filtres et la barre de recherche (champ de saisie suivi d'une loupe) pour trouver le titre qui vous intéresse.
 
-Avant toute maniuplation, l'exemplaire n'étant pas équipé, il faut cocher la case **Garder dans le département**  et choisir la valeur **Equipement**  dans la liste déroulante qui s'affiche alors.
-
 Ensuite, dans le menu contextuel ''**···**''  associé au titre pour lequel vous voulez réceptionner des exemplaires, choisissez **Gérer les exemplaires**  (et pas **Réceptionner **qui permet de créer un exemplaire imprévu : voir plus bas).
 
 {{  :condorcet:periodiques:receptionner-menu-contextuel.png?nolink&  }}
@@ -169,5 +167,5 @@ L'écran qui apparaît permet de construire la description de l'exemplaire impr�
 
 Le numéro est automatiquement inséré dans la liste des exemplaires prévus. Ce numéro imprévu est directement considéré comme bulletiné.
 
-Il peut malheureusement arriver que le numéro imprévu entraîne des modifications dans les autres exemplaires (par exemple au niveau de la numérotation). Auquel cas, il sera nécessaire de modifier à la main ces exemplaires...
+Il peut malheureusement arriver que le numéro imprévu entraîne des modifications dans les autres exemplaires (par exemple au niveau de la numérotation). Auquel cas, il sera nécessaire de modifier à la main ces exemplaires…
 

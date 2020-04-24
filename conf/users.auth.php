@@ -16,3 +16,4 @@ aalbespy:$1$i3kVfo8v$V4kuU9EOmkHTJdQrWKSVM.:Aurélie Albespy:aurelie.albespy@cam
 nicomo:$1$epNcEWCf$tDBHbibgYxJrdqx.WoLsK/:Nicolas Morin:nicolas.morin@campus-condorcet.fr:admin,user
 fmouillot:$1$SSkle2EZ$2s7YUpqJtLklFNiAKhiwd1:Fabrice Mouillot:fabrice.mouillot@campus-condorcet.fr:user
 mhgatto:$1$xa2eJeML$w1L3c9AgDeOF4l7E0DhJ5/:Marie-Hélène Gatto:marie-helene.gatto@campus-condorcet.fr:user
+caubree:$1$NllinLrQ$u/TsQGtFYpuIlyKQa/04x1:Christine Aubrée:christine.aubree@campus-condorcet.fr:user

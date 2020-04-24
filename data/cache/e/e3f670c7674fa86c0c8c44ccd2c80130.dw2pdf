@@ -17,36 +17,13 @@ Le circuit de la commande se décompose en plusieurs parties :
 Il existe deux circuits bien distincts pour faire des commandes :
 </p>
 <ul>
-<li class="level1"><div class="li"> via un processus d&#039;<em>Embedded Order Data</em>  (EOD), qui consiste à importer dans Alma, depuis le site du fournisseur, un panier de notices dans lesquelles <strong>toutes les informations de commande sont déjà incluses</strong></div>
-</li>
 <li class="level1"><div class="li"> ou bien en créant <em>ex nihilo</em>  une commande dans Alma pour l&#039;envoyer ensuite au fournisseur</div>
+</li>
+<li class="level1"><div class="li"> via un processus d&#039;import dans Alma, depuis le site du fournisseur, un <em>panier de notices</em>  dans lesquelles les informations de commande sont déjà incluses et une ligne de pré-commande est générée.</div>
 </li>
 </ul>
 
-<h1><bookmark content="Commande par EOD" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_par_eod">Commande par EOD</a></h1>
-<div class="level1">
-
-<p>
-La procédure de commande par <em>Embedded Order Data</em>  (EOD) consiste à importer dans Alma un panier de notices dans lesquelles <strong>toutes les informations de commande sont déjà incluses</strong>.
-</p>
-
-<p>
-Les choix de titres, le prix, le choix du nombre d&#039;exemplaires, des budgets, etc. sont faits sur la plateforme du prestataire.
-</p>
-
-<p>
-La procédure de création des fichiers EOD est propre à chaque plateforme fournisseur : <br/>
-- [Procédure chez XXX] <br/>
-- [Procédure chez YYY]
-</p>
-
-<p>
-<em>nicomo : poursuivre ici</em>
-</p>
-
-</div>
-
-<h1><bookmark content="Commande sans EOD" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_sans_eod">Commande sans EOD</a></h1>
+<h1><bookmark content="Commande notice par notice" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_notice_par_notice">Commande notice par notice</a></h1>
 <div class="level1">
 
 <p>
@@ -75,15 +52,6 @@ Le processus se décompose en plusieurs étapes :
 
 <p>
 Quand il s&#039;agit de racheter un exemplaire ou une autre version (ebook) d&#039;une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction <code>Commande</code>  derrière le bouton <code>…</code>
-</p>
-
-</div>
-
-<h3><bookmark content="Import d&#039;un lot de notices" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__import_d_un_lot_de_notices">Import d&#039;un lot de notices</a></h3>
-<div class="level3">
-
-<p>
-<em>nicomo : some lame text for now</em>
 </p>
 
 </div>
@@ -291,6 +259,23 @@ Le Bon de commande est réellement expédié non pas le dimanche lors du <em>paq
 
 </div>
 
+<h1><bookmark content="Commande avec Paniers de pré-commande" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_avec_paniers_de_pre-commande">Commande avec Paniers de pré-commande</a></h1>
+<div class="level1">
+
+<p>
+La procédure de commande consiste à importer dans Alma un panier de notices dans lesquelles <strong>des informations permettant la génération des lignes de commande sont déjà incluses</strong>.
+</p>
+
+<p>
+Des profils d&#039;import par fournisseurs doivent être paramétrés (en cours pour Dawson).
+</p>
+
+<p>
+Ces imports créé les notices si elle n&#039;existe pas, et génére des lignes de commandes avec des informations minimales, qu&#039;il faut compléter (cf procédure ci-dessous).
+</p>
+
+</div>
+
 <h2><bookmark content="Astuces et cas particuliers" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__astuces_et_cas_particuliers">Astuces et cas particuliers</a></h2>
 <div class="level2">
 
@@ -389,7 +374,7 @@ Attention : il est recommandé de ne pas supprimer une commande annulée qui est
 </p>
 
 <p>
-La fonction <strong>supprimer</strong> se situe dans la liste des actions sous le bouton <code>…</code>  à droite de la notice de la ligne de commande.
+La fonction <strong>supprimer</strong>  se situe dans la liste des actions sous le bouton <code>…</code>  à droite de la notice de la ligne de commande.
 </p>
 
 <p>
