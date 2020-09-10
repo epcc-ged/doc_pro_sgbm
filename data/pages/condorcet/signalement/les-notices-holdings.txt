@@ -24,7 +24,7 @@ Il faut renseigner les champs :
 
   * **$b : bibliothèque**. La valeur est toujours GED. C'est la seule valeur de notre liste de valeurs.
   * **$c : localisation**. Une liste de valeurs vous assiste.
-  * **$h : cote**. Pour renseigner la cote, se reporter au Guide pour la cotation des documents destinés au libre accès dans Alma disponible [[https://partages.campus-condorcet.fr/f/cefa2f9f9ded4cf78494/|ici]]
+  * **$h : cote**. Pour renseigner la cote, se reporter au Guide pour la cotation des documents destinés au libre accès dans Alma disponible [[https://partages.campus-condorcet.fr/d/af7e44a6eb5b45b694b6/|ici]]
 Ceci fait, il faut enregistrer la notice soit en passant par le menu Fichier > Enregistrer la notice, soit par le raccourci Ctrl + S, soit par l'icône en forme de disquette.
 
 Il reste à ajouter un exemplaire à la holding. Se reporter au chapitre consacré aux exemplaires.

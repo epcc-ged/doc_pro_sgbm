@@ -17,7 +17,7 @@ nicomo: qq infos sur chaque outil. Par exemple Laptop : connexion. Tél : numér
 </code>
 
   * un badge GED Campus Condorcet
-  * un ordinateur portable, session GED Accueil/ mot de passe : Campus2019!
+  * un ordinateur portable, session GED Accueil/ mot de passe : Campus2020!
   * un téléphone portable : 06 98 56 35 76, code 2093
   * un dossier archives pour l'inscription des lecteurs et les demandes de consultation
   * un dossier Pièces d'identité

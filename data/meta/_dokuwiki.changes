@@ -1,20 +1,20 @@
-1582212204	194.254.171.10	E	condorcet-sp:glpi	nicomo			1
-1582212308	194.254.171.10	E	condorcet-sp:glpi	nicomo			168
-1582212648	194.254.171.10	E	condorcet-sp:glpi	nicomo			254
-1582212678	194.254.171.10	E	condorcet-sp:glpi	nicomo			4
-1582214421	194.254.171.10	E	condorcet-sp:glpi	nicomo			352
-1582214664	194.254.171.10	E	condorcet-sp:glpi	nicomo			667
-1582214776	194.254.171.10	E	condorcet-sp:glpi	nicomo			171
-1582214819	194.254.171.10	E	condorcet-sp:glpi	nicomo	[Créer un ticket au nom d'un usager] 		28
-1582791107	194.254.171.10	E	condorcet-sp:start	mhgatto			16
-1582791345	194.254.171.10	E	condorcet-sp:start	mhgatto			28
-1582804966	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto			-198
-1582805119	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	mhgatto			96
-1582875391	81.194.43.244	E	condorcet:signalement:start	nicomo			45
-1582875629	81.194.43.244	C	condorcet:signalement:divers	nicomo	créée		1021
-1582875685	81.194.43.244	E	condorcet:signalement:divers	nicomo			-7
-1584026132	195.98.225.201	E	condorcet:periodiques:start	jchiavassa			-203
-1585663390	86.252.198.42	E	condorcet:generalites:naviguer-dans-alma	caubree	[Ecran de travail dans Alma] 		47
-1585664151	86.252.198.42	E	condorcet:generalites:naviguer-dans-alma	caubree	[Ecran de travail dans Alma] 		34
-1585668708	86.252.198.42	E	condorcet:generalites:naviguer-dans-alma	caubree	[La barre de recherche] 		365
-1585671053	86.252.198.42	E	condorcet:generalites:naviguer-dans-alma	caubree	[La barre de recherche] 		21
+1594042422	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			781
+1594044456	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			676
+1594045588	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			462
+1594046137	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			393
+1594287750	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			114
+1594287869	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			205
+1594288557	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			102
+1594305220	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			79
+1594307982	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-276
+1594362809	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			425
+1594362837	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
+1594362863	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			9
+1594363126	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			161
+1594366243	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			371
+1594366661	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			657
+1598431695	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		1
+1598433681	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo			22
+1598445340	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		10
+1598445446	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Segmenté : réceptionner puis facturer] 		2548
+1599116412	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			0

@@ -48,3 +48,5 @@ Traduction des termes utilisés :
   * Cash balance : solde en cours (= montants alloués - montants dépensés)
   * Available balance : solde disponible (= montants alloués - (montants engagés + dépensés))
 
+Voir sous forme de vidéo: [[https://youtu.be/QcOEO5lOW6g|https://youtu.be/QcOEO5lOW6g]]
+

@@ -1,6 +1,147 @@
-===== ACQUISITION : RECEPTION ET FACTURATION : TABLE DES MATIERES =====
+====== ACQUISITION : RECEPTION ET FACTURATION ======
 
-  - [[condorcet:acquisition:reception-et-facturation:presentation-generale|Présentation générale]]
-  - [[condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires|Réceptionner des exemplaires]]
-  - [[condorcet:acquisition:reception-et-facturation:facturer-des-lignes-de-commande|Facturer des lignes de commande]]
-  - [[condorcet:acquisition:reception-et-facturation:reception-apres-facturation|Réception après facturation]]
+La réception doit se faire depuis la localisation **GED - Dpt Acquisitions** : veillez à positionnez votre compte dans cette localisation avant de démarrer. L'indication de votre localisation se trouve dans la partie droite du bandeau de navigation, en haut de l'écran.
+
+Notre circuit sépare plusieurs étapes pour chaque document :
+
+  * réceptionner
+  * facturer
+  * cataloguer
+  * équiper et mettre en rayon
+
+===== Réception & facturation =====
+
+Deux cas de figure se présentent :
+
+  * Unique : vous avez la facture dans le carton, vous pouvez donc d'un seul coup facturer et réceptionner
+  * Segmenté : vous n'avez pas la facture dans le carton, vous devez réceptionner seulement, et vous enregistrerez la facture à part plus tard.
+
+Notez qu'il est demandé aux fournisseurs de mettre une copie de leur facture dans chaque carton, et que le premier processus est donc recommandé.
+
+==== Unique : facturation-réception ====
+
+La logique est celle de d'abord créer un contenant, la facture, puis de la remplir avec des lignes de commande.
+
+Utilisez le menu **Acquisitions > Réception et facturation > Créer une facture**
+
+Il y a 2 modes de création d'une facture :
+
+  * ''manuellement '': vous devrez saisir manuellement les informations de la facture, puis récupérer les lignes de commande concernées une à une.
+  * ''à partir d'une commande''  : Alma va vous demander à quel Bon de Commande correspond la facture que vous crééez. Le Bon de Commande peut être recherché par plusieurs critères, dont le numéro de bon de commande Alma (//BC-nnnn//) et le numéro de bon de commande Sifac (par ex. //4500002692//). Cette option a l'avantage de pré-remplir votre facture avec les informations qui existent au niveau du bon de commande : fournisseur, valeur globale de la commande, liste des lignes de commande concernées. Par contre cela préjuge qu'une facture ne concerne qu'un seul bon de commande.
+Utiliser l'un ou l'autre dépend du contexte : si vous avez en main une facture concernant 50 titres et que vous constatez dans Alma que le Bon de commande correspondant concernait 50 titres, il est plus intéressant de partir d'une commande; si vous avez en main une facture concernant 10 titres et que vous constatez dans Alma que le Bon de commande correspondant concernait 50 titres, il est plus intéressant de faire les choses manuellement. Il faut donc avoir, avant de démarrer, jeté un coup d'oeil au bon de commande Alma pour pouvoir décider de l'option à choisir.
+
+Dans les deux cas vous voudrez cocher le bouton ''Traiter la réception'': les exemplaires seront alors réceptionnés en même temps que facturés.
+
+=== Facturation manuelle ===
+
+Si vous avez choisi la facturation manuelle, vous devrez remplir les au moins les informations suivantes manuellement :
+
+  * //numéro de facture//  : le numéro de facture du prestataire
+  * //fournisseur//
+  * //date de la facture//
+  * //montant total de la facture//
+Si nécessaire vous pouvez ajouter des frais dits supplémentaires au niveau de la facture, en particulier des frais de port (//Montant de livraison//).
+
+La partie TVA n'est pas par ligne de facture mais calculée globalement au niveau de la facture ( le //Type de TVA//  est donc par défaut //Inclusif//). Il faut choisir un code tva, par ex. 5,5% et cliquer sur ''mettre à jour le montant''  pour voir le montant de la TVA.
+
+Cliquez sur ''Enregistrer et créer lignes de facture''.
+
+=== Facturation à partir d'une commande ===
+
+Si vous avez choisi la facturation à partir d'une commande, vous devez rechercher le bon de commande correspondant. Vous pouvez chercher par fournisseur, numéro de commande, mais aussi par numéro d'une des lignes de commande, le titre du premier document que vous avez en main, etc.
+
+Une fois identifié la commande concernée, vous pouvez la sélectionner : Alma créé une facture pour cette commande : les informations générales de la notice (fournisseur, prix total, etc) sont préremplies à partir des informations de la commande, et l'écran vous présente la liste des ouvrages qui appartiennent à cette commande.
+
+=== Gérer les lignes de facture ===
+
+Depuis l’onglet **Lignes de facture**, vous pouvez directement sélectionner les lignes de commande proposées ou en ajouter (cas de facturation manuelle) en cliquant sur ''Ajouter une ligne de facture''. Dans la nouvelle fenêtre ouverte, vous devez sélectionner la ligne de commande à facturer et vérifier (et éventuellement corriger) les informations pertinentes, en particulier le prix du document et la quantité.
+
+Validez l’opération en cliquant sur ''Ajouter''. Attention, ne cliquez sur ''Ajouter et fermer''  *que* lorsqu'il s'agit de la dernière ligne a ajouter à cette facture : cette opération clôture //et// la ligne, //et// la facture.
+
+Lorsque votre facture est complète, cliquez sur ''Enregistrer et continuer''  : les documents sont réceptionnés, et la facture passe au statut //Complété//
+
+
+==== Segmenté : réceptionner puis facturer ====
+
+=== Réceptionner ===
+
+L'écran de réception se trouve sous le menu **Acquisitions > Réception et facturation > Réceptionner**.
+
+Un certain nombre de choix sont communs à tous les ouvrages réceptionnés :
+
+  * Tout le traitement se fait au sein du département Acquisitions d'Alma, qui suit les différentes étapes du circuit. Il convient donc de sélectionner **Garder dans le département**  et de choisir l'étape suivante : **Catalogage**.
+  * Prêt à mettre en rayon : laisser décoché, puisque nous avons choisi de passer par une étape de catalogage avant que le document soit prêt à mettre en rayon.
+  * Date de réception : c'est a priori la date du jour, déjà remplie par défaut, mais qui peut être changée manuellement.
+  * Pour les monographies nous travaillons sous l'onglet de réception **Ponctuelle**  : l'onglet "Continue" concerne la réception des fascicules de périodiques
+
+Il faut ensuite utiliser la fenêtre de recherche et les filtres pour trouver la ligne de commande correspondant au document que vous voulez réceptionner:
+
+  * //filtrer par fournisseur//  vous permet de limiter la liste des documents en attente en sélectionnant le fournisseur concerné
+  * vous pouvez chercher ensuite la ligne par divers moyens : le numéro de ligne de commande (toujours de la forme LC-1234), par ISBN, titre, etc.
+
+La liste des résultats apparaît sous forme de tableau qui, pour chaque ligne de commande, vous donne les principales informations nécessaires, dont son numéro, son titre, le nombre d'exemplaires attendus, si l'acquéreur a entré une note pour la réception, etc.
+
+{{  :condorcet:acquisition:reception-et-facturation:annotation2020-07-06102230.png?nolink&1512x688  }}
+
+Cliquer sur le numéro de Ligne de commande vous permet d'accéder aux informations complètes de la ligne de commande et en particulier de voir, dans le champs //Code statistique secondaire//, quel est l'acquéreur qui a fait cette commande.
+
+Si vous réceptionnez la totalité des exemplaires attendus (1/1, 2/2, etc), vous pouvez cliquer directement sur ''…''  et ''Réceptionner''  en bout de ligne. Si la réception est partielle (1 exemplaire sur 2, par ex.), cliquez sur ''…''  et ''Gérer les exemplaires''. Le nouvel écran vous présente les exemplaires commandés dans un tableau. Vous pouvez cocher la case permettant de sélectionner le premier exemplaire, et cliquer sur ''Enregistrer et réceptionner''.
+
+L'exemplaire que vous aviez reçu est sélectionné et passage eu //catalogage//  mais la ligne de commande reste au statut //envoyé//  et pourra être trouvée en réception quand les exemplaires suivants arriveront.
+
+=== Facturer ===
+
+La facturation, dans le mode segmenté, est identique à la facturation décrite dans le mode unifié où facturation et réception sont faites d'un bloc. Cf ci-dessus.
+
+===== Cas particuliers : annulation d'une réception =====
+
+On peut annuler la réception d'un exemplaire à condition qu'il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c'est-à-dire avant qu'il ne soit mis en rayon.
+
+Il faut retrouver la ligne de commande concernée, par les mêmes moyens que précédement et éventuellement en ajoutant le filtre //En attente de facturation//, qui est son statut après réception. Une fois que vous l'avez identifié, cliquez sur ''…''  et ''Gérer les exemplaires''  et, pour l'exemplaire concerné, cliquez sur ''annuler la réception''.
+
+L'exemplaire retrouve son statut //Envoyé//.
+
+===== Cataloguer et modifier l'exemplaire =====
+
+Pour le catalogage proprement dit, cf la documentation Sudoc et la partie [[:condorcet:signalement:start|Signalement ]]de ce site, et sur les modifications de l'exemplaire en général, cf [[:condorcet:signalement:les-exemplaires|Modification des exemplaires]]
+
+Il convient de modifier 2 informations d'exemplaire pour pouvoir poursuivre le circuit du document :
+
+  * //Localisation détentrice //: au moment de la commande, elle a été positionnée à //Bureaux du GED//  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. //GED: Pôle C-Monographies (C-MONOGRAP)//
+  * //Code-barres//: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d'équiper nos documents d'étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l'étiquette et remplacer dans l'exemplaire Alma le code-barres fictif par la valeur du code-barres réel.
+===== Mettre en rayon =====
+
+Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner ''GED Accueil''  dans le menu de localisation.
+
+La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires**. Dans l'écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+
+  * //Imprimer automatiquement l'avis//  : non
+  * //Enregistrer un usage interne//  : oui
+Il suffit alors de Scanner le code-barres de l'exemplaire, qui va changer de statut pour devenir : //Exemplaire en rayon//.
+
+
+===== Cas particuliers : annulation d'une réception =====
+
+On peut annuler la réception d'un exemplaire à condition qu'il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c'est-à-dire avant qu'il ne soit mis en rayon.
+
+Il faut retrouver la ligne de commande concernée, par les mêmes moyens que précédement et éventuellement en ajoutant le filtre //En attente de facturation//, qui est son statut après réception. Une fois que vous l'avez identifié, cliquez sur ''…''  et ''Gérer les exemplaires''  et, pour l'exemplaire concerné, cliquez sur ''annuler la réception''.
+
+L'exemplaire retrouve son statut //Envoyé//.
+
+===== Cataloguer et modifier l'exemplaire =====
+
+Pour le catalogage proprement dit, cf la documentation Sudoc et la partie [[:condorcet:signalement:start|Signalement ]]de ce site, et sur les modifications de l'exemplaire en général, cf [[:condorcet:signalement:les-exemplaires|Modification des exemplaires]]
+
+Il convient de modifier 2 informations d'exemplaire pour pouvoir poursuivre le circuit du document :
+
+  * //Localisation détentrice //: au moment de la commande, elle a été positionnée à //Bureaux du GED//  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. //GED: Pôle C-Monographies (C-MONOGRAP)//
+  * //Code-barres//: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d'équiper nos documents d'étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l'étiquette et remplacer dans l'exemplaire Alma le code-barres fictif par la valeur du code-barres réel.
+===== Mettre en rayon =====
+
+Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner ''GED Accueil''  dans le menu de localisation.
+
+La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires**. Dans l'écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+  * //Imprimer automatiquement l'avis//  : non
+  * //Enregistrer un usage interne//  : oui
+Il suffit alors de Scanner le code-barres de l'exemplaire, qui va changer de statut pour devenir : //Exemplaire en rayon//.
+

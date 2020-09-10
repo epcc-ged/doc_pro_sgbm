@@ -2,14 +2,16 @@ Le circuit de la commande se décompose en plusieurs parties :
 
   * la //sélection des notices//  sous lesquelles vont être commandées les références, qu'il s'agisse d'une commande papier ou d'une commande électronique
   * la création des informations de commande pour un document spécifique : c'est la //ligne de commande//
-  * le rassemblement d'une ou plusieurs lignes de commande dans un //bon de commande//
-  * //l'expédition //du bon de commande au fournisseur.
+  * le rassemblement d'une ou plusieurs lignes de commande dans un //bon de commande//  et l'//expédition //du bon de commande au fournisseur.
+
+====== Sélection et lignes de commandes ======
+
 Il existe deux circuits bien distincts pour faire des commandes :
 
   * ou bien en créant //ex nihilo//  une commande dans Alma pour l'envoyer ensuite au fournisseur
   * via un processus d'import dans Alma, depuis le site du fournisseur, un //panier de notices//  dans lesquelles les informations de commande sont déjà incluses et une ligne de pré-commande est générée.
 
-====== Commande notice par notice ======
+===== Commande notice par notice =====
 
 Le processus se décompose en plusieurs étapes :
 
@@ -18,13 +20,13 @@ Le processus se décompose en plusieurs étapes :
   - la création du bon de commande
   - l'expédition de la commande
 
-===== Notices : le point de départ d'une commande =====
+==== Notices : le point de départ d'une commande ====
 
-==== La notice existe au catalogue (rachat) ====
+=== La notice existe au catalogue (rachat) ===
 
 Quand il s'agit de racheter un exemplaire ou une autre version (ebook) d'une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
 
-==== Récupérer une notice de la Zone Communautaire (ZC) ====
+=== Récupérer une notice de la Zone Communautaire (ZC) ===
 
 Dans la fenêtre de recherche bibliographique, menu déroulant à droite, sélectionnez la zone de recherche : Communauté
 
@@ -34,19 +36,19 @@ Attention, la zone communautaire contient essentiellement des notices de documen
 
 Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
 
-==== Récupérer une notice dans un catalogue externe ====
+=== Récupérer une notice dans un catalogue externe ===
 
 Le menu **Ressources > Chercher des ressources externes **vous permet d'accéder à une fenêtre de recherche spécifique qui vous permettra d'importer une notice d'un catalogue extérieur, par exemple le Sudoc, la British Library, la Library of Congress, etc.
 
 On ne peut pas faire une recherche en même temps sur plusieurs sources distantes : sélectionnez d'abord votre source dans le champ **Rechercher un profil de catalogage**, par ex Sudoc ou British Library
 
-Si la notice que vous cherchez se trouve dans la liste des résultats, cliquez sur le bouton **Importer**
+Si la notice que vous cherchez se trouve dans la liste des résultats, cliquez sur le bouton ''Importer''
 
-La notice est alors importée dans l'éditeur de métadonnées. Cliquez au-dessus de la notice sur l'icone "**caddie**" (Créer une ligne de commande et quitter) pour créer une ligne de commande à partir de cette notice.
+La notice est alors importée dans l'éditeur de métadonnées. Cliquez au-dessus de la notice sur l'icone ''caddie'' (Créer une ligne de commande et quitter) pour créer une ligne de commande à partir de cette notice.
 
 {{  :condorcet:acquisition:circuit-de-commande:caddie.png?nolink&  |icone caddie}}
 
-==== Demande d'achat d'un usager ====
+=== Demande d'achat d'un usager ===
 
 Les suggestions d'achat des utilisateurs se trouvent derrière le menu **Acquisitions > Demandes d'achat > Gérer les demandes d'achat**
 
@@ -67,11 +69,13 @@ Dans tous les cas, remplissez la partie **attributs de la demande**  du formulai
 
 {{  :condorcet:acquisition:circuit-de-commande:demande-achat.png?nolink&600x389  }}
 
-===== Créer la ligne de commande =====
+Voir sous forme de vidéo: [[https://youtu.be/0stSreemm7I|https://youtu.be/0stSreemm7I]]
+
+==== Créer la ligne de commande ====
 
 La ligne de commande proprement dite se répartie en plusieurs écrans.
 
-==== Type et propriétaire de la ligne de commande ====
+=== Type et propriétaire de la ligne de commande ===
 
   * Choisir le type d'achat, par exemple //Livre imprimé - achat ponctuel//
   * remplir le propriétaire : c'est toujours //GED//
@@ -80,7 +84,7 @@ Les autres champs sont facultatifs. __Ne jamais cocher__// Assigner l'inventaire
 
 Cliquez sur ''Créer une ligne de commande''
 
-==== Détails de la ligne de commande ====
+=== Détails de la ligne de commande ===
 
 Dans l'écran de **Détails de la ligne de commande**, toutes les informations à remplir sont dans l'onglet **Résumé**.
 
@@ -97,8 +101,9 @@ Dans ce formulaire, il convient de :
   * Dans la partie //Détails de la ligne de commande//
       * sélectionnez la// méthode d'acquisition//  : a priori //Achat//
       * sélectionnez le //type de matériel//  : par exemple //Livre//
-      * sélectionnez le //code statistique//  : par exemple //Livre imprimé//
+      * sélectionnez le //code statistique//  si le livre correspond à un financement CollEx seulement
       * sélectionnez le //code statistique secondaire//  : c'est le //nom de l'acquéreur//
+      * sélectionnez le //code statistique tertiaire//  : c'est le //secteur d'acquisition//
       * les autres champs restent vides
   * Cliquez sur ''Enregistrer et continuer''
 
@@ -108,7 +113,9 @@ Votre ligne de commande est enregistrée. Alma vous le confirme par une fenêtre
 
 //{{  :condorcet:acquisition:circuit-de-commande:confirmationlc.png?nolink&300x186  }}//
 
-===== Création et expédition du bon de commande =====
+Voir sous forme de vidéo: [[https://youtu.be/MO4QKZxKL6Q|https://youtu.be/MO4QKZxKL6Q]]
+
+==== Création et expédition du bon de commande ====
 
 Les lignes de commande sont regroupées automatiquement chaque dimanche (//paquetage //dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande.
 
@@ -118,13 +125,44 @@ Il y a une étape de validation du bon de commande qui permet d'ajouter un numé
 
 Le Bon de commande est réellement expédié non pas le dimanche lors du //paquetage//  mais ultérieurement lors de la validation du bon de commande. Du point de vue de l'acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
 
-====== Commande avec Paniers de pré-commande ======
+===== Commande par lots =====
 
-La procédure de commande consiste à importer dans Alma un panier de notices dans lesquelles **des informations permettant la génération des lignes de commande sont déjà incluses**.
+Il faut distinguer 2 situations :
 
-Des profils d'import par fournisseurs doivent être paramétrés (en cours pour Dawson).
+  * celle où vous avez un panier de notices que vous devez importer dans Alma (voir //Import de paniers //ci-dessous)
+  * celle où une connexion technique est faite entre la plateforme du fournisseur et Alma qui permet de générer des commandes dans Alma directement, sans import de paniers (Cf //EDI/EOD//  ci-dessous).
 
-Ces imports créé les notices si elle n'existe pas, et génére des lignes de commandes avec des informations minimales, qu'il faut compléter (cf procédure ci-dessous).
+==== Import de paniers ====
+
+La procédure de commande consiste à :
+
+  * importer dans Alma un panier de notices que vous avez téléchargé sur le site du fournisseur
+  * générer automatiquement autant de lignes de commandes que de notices, qui sont en statut en révision et qu'il faudra compléter
+
+Pour pouvoir utiliser cette procédure, il y a 2 pré-requis :
+
+  * vous avez créé un panier de commande sur la plateforme du fournisseur, par exemple Dawson ou Eyrolles, et que vous avez téléchargé sur votre ordinateur le fichier fourni. La procédure peut être différente selon les fournisseurs et tous ne la proposent pas.
+  * un //profil d'import//  existe déjà dans Alma pour ce fournisseur.
+
+Pour importer votre panier de notices, allez dans **Acquisitions > Importer**.
+
+Vous verrez la liste des profils d'import disponibles. Si vous ne trouvez pas de profil pour le fournisseur qui vous intéresse, contactez les administrateurs Alma pour leur demander de l'ajouter en leur fournissant un fichier de panier en exemple pour le prestataire souhaité.
+
+Pour le fournisseur qui vous intéresse, cliquez sur ''…''  puis ''Exécuter''  et ''Sélectionner le fichier''. Vous pourrez alors récupérer le fichier sur votre disque dur, et l'importer dans Alma. Vous pouvez aussi ici, en option, libeller votre fichier (par exemple //dawson 05-05-2020//) et rédiger une note (par exemple : //panier sociologie nicolas//). Une fois le fichier récupéré par Alma, vous pouvez cliquer sur ''Soumettre''  pour lancer l'import.
+
+Alma attribue un //numéro d'import//  à votre panier : il peut être utile de le noter pour regrouper plus facilement toutes les Lignes de Commande générées par cet import.
+
+A ce stade les notices ont été importées, et les lignes de commande correspondantes créées. Elles ont un statut //en révision//. Il va vous falloir compléter l'onglet **Détails de la ligne de commande **pour chacune avant qu'elles ne puissent être définitivement validées, selon la même procédure que décrite ci-dessus pour les commandes individuelles.
+
+Pour retrouvez les commandes en révision qui viennent d'être créées, le plus simple est d'aller dans **Acquisitions > Réviser**. Dans la barre de recherche, vous pouvez sélectionner ''Lignes de commande''  > ''Identifiant du traitement d'import''  et utiliser comme terme de recherche le **numéro d'import**  mentionné précédemment. Vous aurez alors à l'écran la liste de vos lignes de commande liées à ce panier, et la possibilité de les ''modifier''  pour compléter la commande en saisissant les informations manquantes (par ex. Fonds ou Code statistique secondaire avec votre nom).
+
+Voir sous forme de vidéo: [[https://youtu.be/tHBGngEjH18|https://youtu.be/tHBGngEjH18]]
+
+==== EDI / EOD ====
+
+EDI (Echange de Données Informatisé) et EOD (Embedded order data) sont deux quasi-synonymes : dans les deux cas, il s'agit, à partir d'un panier de commande réalisé sur la plateforme du fournisseur, d'envoyer à Alma, directement depuis le site du fournisseur et sans import manuel côté Alma, les informations nécessaires à la création des lignes de commande.
+
+A ce stade, aucun de nos fournisseurs n'a mis en place avec nous cette procédure, elle est en cours d'élaboration avec Harrassowitz et cette partie du manuel sera complétée quand la fonctionnalité sera disponible.
 
 ===== Astuces et cas particuliers =====
 
@@ -160,9 +198,11 @@ Il faudra modifier la ligne de commande (bouton ''modifier'') et compléter les 
 
 On peut annuler une ligne de commande qui nous est attribuée (dont on est l’auteur) à partir de la notice de la ligne de commande dans les options sous les ''…''  à côté du bouton ''commander maintenant''. Dans le détail de la ligne de commande, l’action annuler est également disponible sous les ''…''  en haut à gauche de la barre avec les boutons ''enregistrer''  et ''enregistrer et continuer''.
 
-Si la ligne de commande est déjà groupée dans un bon de commande qui a été approuvé, il faut cocher l’option //envoyer l’annulation au fournisseur//. Attention : si le fournisseur a déjà expédié la commande il faudra rouvrir la ligne de commande. D’une manière générale il est conseillé de ne pas annuler les commandes une fois qu’elles sont groupées dans un bon de commande, sauf gros retard de livraison ou réclamations infructueuses et de bien vérifier sa ligne de commande avant de la valider ( bouton ''enregistrer et continuer'').
+Si la ligne de commande est déjà groupée dans un bon de commande qui a été approuvé, il faut cocher l’option //envoyer l’annulation au fournisseur//. Attention : si le fournisseur a déjà expédié la commande il faudra rouvrir la ligne de commande. D’une manière générale il est conseillé de ne pas annuler les commandes une fois qu’elles sont **groupées **dans un bon de commande **et approuvées**, sauf gros retard de livraison ou réclamations infructueuses, si le document est épuisé ou indisponible.
 
 On ne peut pas annuler un exemplaire déjà reçu.
+
+Alma garde trace d'une commande annulée.
 
 ==== Supprimer une ligne de commande ====
 
@@ -178,17 +218,42 @@ Dans le détail de la ligne de commande, l’action **supprimer **est également
 
 On ne peut pas supprimer une ligne de commande correspondant à un exemplaire reçu : il faut la clôturer en procédant à sa facturation.
 
-//==========================//
+====== Gestion des bons de commande ======
 
-//archi initiale de cette partie, à reprendre// \\ - [[:condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit|Présentation générale du circuit]]
+===== Trouver les bons de commande =====
 
-  - [[:condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base|Rechercher un titre dans la base]]
-  - [[:condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande|Dériver, importer ou créer un titre en vue d'une commande]]
-  - [[:condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande|Créer un modèle de ligne de commande]]
-  - [[:condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general|Processus de commande : fonctionnement général]]
-  - [[:condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires|Cas particulier n° 1 : rachat d'exemplaires]]
-  - [[:condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons|Cas particulier n° 2 : dons]]
-  - [[:condorcet:acquisition:circuit-de-commande:cas-particulier-3-que-faire-si-une-ligne-de-commande-est-en-paquetage-automatique|Cas particulier n° 3 : que faire si une ligne de commande est en paquetage automatique]]
-  - [[:condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande|Modification, annulation et suppression de lignes de commande]]
-  - [[:condorcet:acquisition:circuit-de-commande:reclamation-des-monographies|Réclamation des monographies]]
+Un processus automatique regroupe pour chaque fournisseur les lignes de commandes qui sont prêtes à envoyer en un //bon de commande//. Au moment de leur regroupement, ces bons de commande ont un statut //à approuver//  : ils ne sont pas complets encore et ne sont pas envoyés au fournisseur.
+
+Pour retrouver les bons de commande //à approuver//, aller dans **Acquisitions > Commandes > Approuver**.
+
+L'écran de résultats présente la liste des bons de commande //à approuver//. Il est possible de filtrer la liste de plusieurs manières :
+
+  * en utilisant les facettes à gauche de l'écran, qui propose en particulier de filtrer la liste par fournisseur
+  * en utilisant la fenêtre de recherche qui est proposée juste au-dessus de la liste, qui propose divers critères de recherche, qui portent sur le bon de commande lui-même (par ex. le fournisseur) ou son contenu (par ex. le numéro de ligne de commande ou le titre d'un ouvrage spécifique)
+
+===== Exporter les lignes de commande =====
+
+La DAF a besoin pour émettre un bon de commande SIFAC de connaître le fournisseur, la somme totale, et d'avoir jointe la liste des documents concernés.
+
+Pour un bon de commande Alma spécifique que vous avez identifié, cliquez sur ''…''  > ''Consulter''  pour accéder au résumé de la commande. Dans l'onglet ''Liste des lignes de commandes'', vous pouvez utiliser l'''icone export''  {{:condorcet:acquisition:circuit-de-commande:alma-acq-export.png?nolink&}}pour exporter la liste des documents à commander vers Excel.
+
+Ce tableur peut être retravaillé et nettoyé dans Excel (cf Macro fournie) avant d'être fourni à la DAF.
+
+===== Valider la commande =====
+
+Une fois le bon de commande SIFAC généré et signé, il faut le lier à la commande Alma et envoyer la commande.
+
+Retrouver votre commande Alma, qui est toujours en statut //à approuver//  (cf ci-dessus).
+
+Cliquez sur ''…''  et ''Modifier''  pour accéder au détail de la commande.
+
+Dans le premier onglet, //Résumé//, il faut saisir le numéro de BC SIFAC dans le champ intitulé //Numéro ERP//.
+
+Dans l'onglet //Pièces jointes//, vous pouvez cliquer sur ''Ajouter une pièce jointe'', sélectionner le pdf du bon de commande SIFAC sur votre disque dur et l'attacher à la commande.
+
+Cliquez sur ''Enregistrer et approuver''.
+
+La commande est approuvée et expédiée par Alma au fournisseur.
+
+La documentation complète d'ExLibris sur ce sujet est accessible sur leur site : [[https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/020Acquisitions/020Achats/060Approuver_et_envoyer_des_commandes|https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/020Acquisitions/020Achats/060Approuver_et_envoyer_des_commandes]]
 

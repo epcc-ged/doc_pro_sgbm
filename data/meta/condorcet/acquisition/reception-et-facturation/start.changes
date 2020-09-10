@@ -1,3 +1,49 @@
 1553261834	194.254.171.10	C	condorcet:acquisition:reception-et-facturation:start	jchiavassa	créée		76
 1553261847	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	jchiavassa			14
 1553262766	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	jchiavassa			-2
+1562313640	127.0.0.1	E	condorcet:acquisition:reception-et-facturation:start		modification externe		433
+1594018885	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-467
+1594018921	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			49
+1594019474	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			298
+1594019485	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			3
+1594020802	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			109
+1594021556	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			144
+1594022029	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			0
+1594023017	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			250
+1594023819	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			1191
+1594023906	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			213
+1594024706	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			466
+1594024749	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-23
+1594024962	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			276
+1594025001	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			1
+1594025607	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Cas général] 		170
+1594031427	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			33
+1594035353	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			218
+1594036269	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			518
+1594036308	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			40
+1594036408	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			74
+1594039102	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			526
+1594039186	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-5
+1594039207	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-2
+1594039287	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			43
+1594040291	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			644
+1594041660	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			674
+1594042422	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			781
+1594044456	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			676
+1594045588	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			462
+1594046137	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			393
+1594287750	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			114
+1594287869	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			205
+1594288557	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			102
+1594305220	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			79
+1594307982	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-276
+1594362809	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			425
+1594362837	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
+1594362863	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			9
+1594363126	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			161
+1594366243	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			371
+1594366661	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			657
+1598431695	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		1
+1598433681	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo			22
+1598445340	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		10
+1598445446	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Segmenté : réceptionner puis facturer] 		2548

@@ -1,15 +1,319 @@
 <a name="condorcetacquisitionreception-et-facturationstart__"></a>
-<h2><bookmark content="ACQUISITION : RECEPTION ET FACTURATION : TABLE DES MATIERES" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__acquisitionreception_et_facturationtable_des_matieres">ACQUISITION : RECEPTION ET FACTURATION : TABLE DES MATIERES</a></h2>
+<h1><bookmark content="ACQUISITION : RECEPTION ET FACTURATION" level="0" /><a name="condorcetacquisitionreception-et-facturationstart__acquisitionreception_et_facturation">ACQUISITION : RECEPTION ET FACTURATION</a></h1>
+<div class="level1">
+
+<p>
+La réception doit se faire depuis la localisation <strong>GED - Dpt Acquisitions</strong> : veillez à positionnez votre compte dans cette localisation avant de démarrer. L&#039;indication de votre localisation se trouve dans la partie droite du bandeau de navigation, en haut de l&#039;écran.
+</p>
+
+<p>
+Notre circuit sépare plusieurs étapes pour chaque document :
+</p>
+<ul>
+<li class="level1"><div class="li"> réceptionner</div>
+</li>
+<li class="level1"><div class="li"> facturer</div>
+</li>
+<li class="level1"><div class="li"> cataloguer</div>
+</li>
+<li class="level1"><div class="li"> équiper et mettre en rayon</div>
+</li>
+</ul>
+
+</div>
+
+<h2><bookmark content="Réception &amp; facturation" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__reception_facturation">Réception &amp; facturation</a></h2>
 <div class="level2">
-<ol>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:reception-et-facturation:presentation-generale" class="wikilink1" title="condorcet:acquisition:reception-et-facturation:presentation-generale">Présentation générale</a></div>
+
+<p>
+Deux cas de figure se présentent :
+</p>
+<ul>
+<li class="level1"><div class="li"> Unique : vous avez la facture dans le carton, vous pouvez donc d&#039;un seul coup facturer et réceptionner</div>
 </li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires" class="wikilink1" title="condorcet:acquisition:reception-et-facturation:receptionner-les-exemplaires">Réceptionner des exemplaires</a></div>
+<li class="level1"><div class="li"> Segmenté : vous n&#039;avez pas la facture dans le carton, vous devez réceptionner seulement, et vous enregistrerez la facture à part plus tard.</div>
 </li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:reception-et-facturation:facturer-des-lignes-de-commande" class="wikilink1" title="condorcet:acquisition:reception-et-facturation:facturer-des-lignes-de-commande">Facturer des lignes de commande</a></div>
+</ul>
+
+<p>
+Notez qu&#039;il est demandé aux fournisseurs de mettre une copie de leur facture dans chaque carton, et que le premier processus est donc recommandé.
+</p>
+
+</div>
+
+<h3><bookmark content="Unique : facturation-réception" level="2" /><a name="condorcetacquisitionreception-et-facturationstart__uniquefacturation-reception">Unique : facturation-réception</a></h3>
+<div class="level3">
+
+<p>
+La logique est celle de d&#039;abord créer un contenant, la facture, puis de la remplir avec des lignes de commande.
+</p>
+
+<p>
+Utilisez le menu <strong>Acquisitions &gt; Réception et facturation &gt; Créer une facture</strong>
+</p>
+
+<p>
+Il y a 2 modes de création d&#039;une facture :
+</p>
+<ul>
+<li class="level1"><div class="li"> <code>manuellement </code>: vous devrez saisir manuellement les informations de la facture, puis récupérer les lignes de commande concernées une à une.</div>
 </li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:reception-et-facturation:reception-apres-facturation" class="wikilink1" title="condorcet:acquisition:reception-et-facturation:reception-apres-facturation">Réception après facturation</a></div>
+<li class="level1"><div class="li"> <code>à partir d&#039;une commande</code>  : Alma va vous demander à quel Bon de Commande correspond la facture que vous crééez. Le Bon de Commande peut être recherché par plusieurs critères, dont le numéro de bon de commande Alma (<em>BC-nnnn</em>) et le numéro de bon de commande Sifac (par ex. <em>4500002692</em>). Cette option a l&#039;avantage de pré-remplir votre facture avec les informations qui existent au niveau du bon de commande : fournisseur, valeur globale de la commande, liste des lignes de commande concernées. Par contre cela préjuge qu&#039;une facture ne concerne qu&#039;un seul bon de commande.</div>
 </li>
-</ol>
+</ul>
+
+<p>
+Utiliser l&#039;un ou l&#039;autre dépend du contexte : si vous avez en main une facture concernant 50 titres et que vous constatez dans Alma que le Bon de commande correspondant concernait 50 titres, il est plus intéressant de partir d&#039;une commande; si vous avez en main une facture concernant 10 titres et que vous constatez dans Alma que le Bon de commande correspondant concernait 50 titres, il est plus intéressant de faire les choses manuellement. Il faut donc avoir, avant de démarrer, jeté un coup d&#039;oeil au bon de commande Alma pour pouvoir décider de l&#039;option à choisir.
+</p>
+
+<p>
+Dans les deux cas vous voudrez cocher le bouton <code>Traiter la réception</code>: les exemplaires seront alors réceptionnés en même temps que facturés.
+</p>
+
+</div>
+
+<h4><bookmark content="Facturation manuelle" level="3" /><a name="condorcetacquisitionreception-et-facturationstart__facturation_manuelle">Facturation manuelle</a></h4>
+<div class="level4">
+
+<p>
+Si vous avez choisi la facturation manuelle, vous devrez remplir les au moins les informations suivantes manuellement :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>numéro de facture</em>  : le numéro de facture du prestataire</div>
+</li>
+<li class="level1"><div class="li"> <em>fournisseur</em></div>
+</li>
+<li class="level1"><div class="li"> <em>date de la facture</em></div>
+</li>
+<li class="level1"><div class="li"> <em>montant total de la facture</em></div>
+</li>
+</ul>
+
+<p>
+Si nécessaire vous pouvez ajouter des frais dits supplémentaires au niveau de la facture, en particulier des frais de port (<em>Montant de livraison</em>).
+</p>
+
+<p>
+La partie TVA n&#039;est pas par ligne de facture mais calculée globalement au niveau de la facture ( le <em>Type de TVA</em>  est donc par défaut <em>Inclusif</em>). Il faut choisir un code tva, par ex. 5,5% et cliquer sur <code>mettre à jour le montant</code>  pour voir le montant de la TVA.
+</p>
+
+<p>
+Cliquez sur <code>Enregistrer et créer lignes de facture</code>.
+</p>
+
+</div>
+
+<h4><bookmark content="Facturation à partir d&#039;une commande" level="3" /><a name="condorcetacquisitionreception-et-facturationstart__facturation_a_partir_d_une_commande">Facturation à partir d&#039;une commande</a></h4>
+<div class="level4">
+
+<p>
+Si vous avez choisi la facturation à partir d&#039;une commande, vous devez rechercher le bon de commande correspondant. Vous pouvez chercher par fournisseur, numéro de commande, mais aussi par numéro d&#039;une des lignes de commande, le titre du premier document que vous avez en main, etc.
+</p>
+
+<p>
+Une fois identifié la commande concernée, vous pouvez la sélectionner : Alma créé une facture pour cette commande : les informations générales de la notice (fournisseur, prix total, etc) sont préremplies à partir des informations de la commande, et l&#039;écran vous présente la liste des ouvrages qui appartiennent à cette commande.
+</p>
+
+</div>
+
+<h4><bookmark content="Gérer les lignes de facture" level="3" /><a name="condorcetacquisitionreception-et-facturationstart__gerer_les_lignes_de_facture">Gérer les lignes de facture</a></h4>
+<div class="level4">
+
+<p>
+Depuis l’onglet <strong>Lignes de facture</strong>, vous pouvez directement sélectionner les lignes de commande proposées ou en ajouter (cas de facturation manuelle) en cliquant sur <code>Ajouter une ligne de facture</code>. Dans la nouvelle fenêtre ouverte, vous devez sélectionner la ligne de commande à facturer et vérifier (et éventuellement corriger) les informations pertinentes, en particulier le prix du document et la quantité.
+</p>
+
+<p>
+Validez l’opération en cliquant sur <code>Ajouter</code>. Attention, ne cliquez sur <code>Ajouter et fermer</code>  *que* lorsqu&#039;il s&#039;agit de la dernière ligne a ajouter à cette facture : cette opération clôture <em>et</em> la ligne, <em>et</em> la facture.
+</p>
+
+<p>
+Lorsque votre facture est complète, cliquez sur <code>Enregistrer et continuer</code>  : les documents sont réceptionnés, et la facture passe au statut <em>Complété</em>
+</p>
+
+</div>
+
+<h3><bookmark content="Segmenté : réceptionner puis facturer" level="2" /><a name="condorcetacquisitionreception-et-facturationstart__segmentereceptionner_puis_facturer">Segmenté : réceptionner puis facturer</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Réceptionner" level="3" /><a name="condorcetacquisitionreception-et-facturationstart__receptionner">Réceptionner</a></h4>
+<div class="level4">
+
+<p>
+L&#039;écran de réception se trouve sous le menu <strong>Acquisitions &gt; Réception et facturation &gt; Réceptionner</strong>.
+</p>
+
+<p>
+Un certain nombre de choix sont communs à tous les ouvrages réceptionnés :
+</p>
+<ul>
+<li class="level1"><div class="li"> Tout le traitement se fait au sein du département Acquisitions d&#039;Alma, qui suit les différentes étapes du circuit. Il convient donc de sélectionner <strong>Garder dans le département</strong>  et de choisir l&#039;étape suivante : <strong>Catalogage</strong>.</div>
+</li>
+<li class="level1"><div class="li"> Prêt à mettre en rayon : laisser décoché, puisque nous avons choisi de passer par une étape de catalogage avant que le document soit prêt à mettre en rayon.</div>
+</li>
+<li class="level1"><div class="li"> Date de réception : c&#039;est a priori la date du jour, déjà remplie par défaut, mais qui peut être changée manuellement.</div>
+</li>
+<li class="level1"><div class="li"> Pour les monographies nous travaillons sous l&#039;onglet de réception <strong>Ponctuelle</strong>  : l&#039;onglet “Continue” concerne la réception des fascicules de périodiques</div>
+</li>
+</ul>
+
+<p>
+Il faut ensuite utiliser la fenêtre de recherche et les filtres pour trouver la ligne de commande correspondant au document que vous voulez réceptionner:
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>filtrer par fournisseur</em>  vous permet de limiter la liste des documents en attente en sélectionnant le fournisseur concerné</div>
+</li>
+<li class="level1"><div class="li"> vous pouvez chercher ensuite la ligne par divers moyens : le numéro de ligne de commande (toujours de la forme LC-1234), par ISBN, titre, etc.</div>
+</li>
+</ul>
+
+<p>
+La liste des résultats apparaît sous forme de tableau qui, pour chaque ligne de commande, vous donne les principales informations nécessaires, dont son numéro, son titre, le nombre d&#039;exemplaires attendus, si l&#039;acquéreur a entré une note pour la réception, etc.
+</p>
+
+<p>
+<div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=1512&amp;h=688&amp;tok=2eb034&amp;media=condorcet:acquisition:reception-et-facturation:annotation2020-07-06102230.png" class="mediacenter" alt="" width="1512" height="688" /></div>
+</p>
+
+<p>
+Cliquer sur le numéro de Ligne de commande vous permet d&#039;accéder aux informations complètes de la ligne de commande et en particulier de voir, dans le champs <em>Code statistique secondaire</em>, quel est l&#039;acquéreur qui a fait cette commande.
+</p>
+
+<p>
+Si vous réceptionnez la totalité des exemplaires attendus (1/1, 2/2, etc), vous pouvez cliquer directement sur <code>…</code>  et <code>Réceptionner</code>  en bout de ligne. Si la réception est partielle (1 exemplaire sur 2, par ex.), cliquez sur <code>…</code>  et <code>Gérer les exemplaires</code>. Le nouvel écran vous présente les exemplaires commandés dans un tableau. Vous pouvez cocher la case permettant de sélectionner le premier exemplaire, et cliquer sur <code>Enregistrer et réceptionner</code>.
+</p>
+
+<p>
+L&#039;exemplaire que vous aviez reçu est sélectionné et passage eu <em>catalogage</em>  mais la ligne de commande reste au statut <em>envoyé</em>  et pourra être trouvée en réception quand les exemplaires suivants arriveront.
+</p>
+
+</div>
+
+<h4><bookmark content="Facturer" level="3" /><a name="condorcetacquisitionreception-et-facturationstart__facturer">Facturer</a></h4>
+<div class="level4">
+
+<p>
+La facturation, dans le mode segmenté, est identique à la facturation décrite dans le mode unifié où facturation et réception sont faites d&#039;un bloc. Cf ci-dessus.
+</p>
+
+</div>
+
+<h2><bookmark content="Cas particuliers : annulation d&#039;une réception" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__cas_particuliersannulation_d_une_reception">Cas particuliers : annulation d&#039;une réception</a></h2>
+<div class="level2">
+
+<p>
+On peut annuler la réception d&#039;un exemplaire à condition qu&#039;il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c&#039;est-à-dire avant qu&#039;il ne soit mis en rayon.
+</p>
+
+<p>
+Il faut retrouver la ligne de commande concernée, par les mêmes moyens que précédement et éventuellement en ajoutant le filtre <em>En attente de facturation</em>, qui est son statut après réception. Une fois que vous l&#039;avez identifié, cliquez sur <code>…</code>  et <code>Gérer les exemplaires</code>  et, pour l&#039;exemplaire concerné, cliquez sur <code>annuler la réception</code>.
+</p>
+
+<p>
+L&#039;exemplaire retrouve son statut <em>Envoyé</em>.
+</p>
+
+</div>
+
+<h2><bookmark content="Cataloguer et modifier l&#039;exemplaire" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__cataloguer_et_modifier_l_exemplaire">Cataloguer et modifier l&#039;exemplaire</a></h2>
+<div class="level2">
+
+<p>
+Pour le catalogage proprement dit, cf la documentation Sudoc et la partie <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:start" class="wikilink1" title="condorcet:signalement:start">Signalement </a>de ce site, et sur les modifications de l&#039;exemplaire en général, cf <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:les-exemplaires" class="wikilink1" title="condorcet:signalement:les-exemplaires">Modification des exemplaires</a>
+</p>
+
+<p>
+Il convient de modifier 2 informations d&#039;exemplaire pour pouvoir poursuivre le circuit du document :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Localisation détentrice </em>: au moment de la commande, elle a été positionnée à <em>Bureaux du GED</em>  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. <em>GED: Pôle C-Monographies (C-MONOGRAP)</em></div>
+</li>
+<li class="level1"><div class="li"> <em>Code-barres</em>: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d&#039;équiper nos documents d&#039;étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l&#039;étiquette et remplacer dans l&#039;exemplaire Alma le code-barres fictif par la valeur du code-barres réel.</div>
+</li>
+</ul>
+
+</div>
+
+<h2><bookmark content="Mettre en rayon" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__mettre_en_rayon">Mettre en rayon</a></h2>
+<div class="level2">
+
+<p>
+Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner <code>GED Accueil</code>  dans le menu de localisation.
+</p>
+
+<p>
+La mise en rayon se fait par le menu <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires</strong>. Dans l&#039;écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Imprimer automatiquement l&#039;avis</em>  : non</div>
+</li>
+<li class="level1"><div class="li"> <em>Enregistrer un usage interne</em>  : oui</div>
+</li>
+</ul>
+
+<p>
+Il suffit alors de Scanner le code-barres de l&#039;exemplaire, qui va changer de statut pour devenir : <em>Exemplaire en rayon</em>.
+</p>
+
+</div>
+
+<h2><bookmark content="Cas particuliers : annulation d&#039;une réception" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__cas_particuliersannulation_d_une_reception1">Cas particuliers : annulation d&#039;une réception</a></h2>
+<div class="level2">
+
+<p>
+On peut annuler la réception d&#039;un exemplaire à condition qu&#039;il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c&#039;est-à-dire avant qu&#039;il ne soit mis en rayon.
+</p>
+
+<p>
+Il faut retrouver la ligne de commande concernée, par les mêmes moyens que précédement et éventuellement en ajoutant le filtre <em>En attente de facturation</em>, qui est son statut après réception. Une fois que vous l&#039;avez identifié, cliquez sur <code>…</code>  et <code>Gérer les exemplaires</code>  et, pour l&#039;exemplaire concerné, cliquez sur <code>annuler la réception</code>.
+</p>
+
+<p>
+L&#039;exemplaire retrouve son statut <em>Envoyé</em>.
+</p>
+
+</div>
+
+<h2><bookmark content="Cataloguer et modifier l&#039;exemplaire" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__cataloguer_et_modifier_l_exemplaire1">Cataloguer et modifier l&#039;exemplaire</a></h2>
+<div class="level2">
+
+<p>
+Pour le catalogage proprement dit, cf la documentation Sudoc et la partie <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:start" class="wikilink1" title="condorcet:signalement:start">Signalement </a>de ce site, et sur les modifications de l&#039;exemplaire en général, cf <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:les-exemplaires" class="wikilink1" title="condorcet:signalement:les-exemplaires">Modification des exemplaires</a>
+</p>
+
+<p>
+Il convient de modifier 2 informations d&#039;exemplaire pour pouvoir poursuivre le circuit du document :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Localisation détentrice </em>: au moment de la commande, elle a été positionnée à <em>Bureaux du GED</em>  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. <em>GED: Pôle C-Monographies (C-MONOGRAP)</em></div>
+</li>
+<li class="level1"><div class="li"> <em>Code-barres</em>: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d&#039;équiper nos documents d&#039;étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l&#039;étiquette et remplacer dans l&#039;exemplaire Alma le code-barres fictif par la valeur du code-barres réel.</div>
+</li>
+</ul>
+
+</div>
+
+<h2><bookmark content="Mettre en rayon" level="1" /><a name="condorcetacquisitionreception-et-facturationstart__mettre_en_rayon1">Mettre en rayon</a></h2>
+<div class="level2">
+
+<p>
+Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner <code>GED Accueil</code>  dans le menu de localisation.
+</p>
+
+<p>
+La mise en rayon se fait par le menu <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires</strong>. Dans l&#039;écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Imprimer automatiquement l&#039;avis</em>  : non</div>
+</li>
+<li class="level1"><div class="li"> <em>Enregistrer un usage interne</em>  : oui</div>
+</li>
+</ul>
+
+<p>
+Il suffit alors de Scanner le code-barres de l&#039;exemplaire, qui va changer de statut pour devenir : <em>Exemplaire en rayon</em>.
+</p>
 
 </div>

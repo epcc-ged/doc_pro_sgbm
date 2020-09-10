@@ -7,11 +7,12 @@ Le circuit de la commande se décompose en plusieurs parties :
 </li>
 <li class="level1"><div class="li"> la création des informations de commande pour un document spécifique : c&#039;est la <em>ligne de commande</em></div>
 </li>
-<li class="level1"><div class="li"> le rassemblement d&#039;une ou plusieurs lignes de commande dans un <em>bon de commande</em></div>
-</li>
-<li class="level1"><div class="li"> <em>l&#039;expédition </em>du bon de commande au fournisseur.</div>
+<li class="level1"><div class="li"> le rassemblement d&#039;une ou plusieurs lignes de commande dans un <em>bon de commande</em>  et l&#039;<em>expédition </em>du bon de commande au fournisseur.</div>
 </li>
 </ul>
+
+<h1><bookmark content="Sélection et lignes de commandes" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__selection_et_lignes_de_commandes">Sélection et lignes de commandes</a></h1>
+<div class="level1">
 
 <p>
 Il existe deux circuits bien distincts pour faire des commandes :
@@ -23,8 +24,10 @@ Il existe deux circuits bien distincts pour faire des commandes :
 </li>
 </ul>
 
-<h1><bookmark content="Commande notice par notice" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_notice_par_notice">Commande notice par notice</a></h1>
-<div class="level1">
+</div>
+
+<h2><bookmark content="Commande notice par notice" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_notice_par_notice">Commande notice par notice</a></h2>
+<div class="level2">
 
 <p>
 Le processus se décompose en plusieurs étapes :
@@ -42,13 +45,13 @@ Le processus se décompose en plusieurs étapes :
 
 </div>
 
-<h2><bookmark content="Notices : le point de départ d&#039;une commande" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__noticesle_point_de_depart_d_une_commande">Notices : le point de départ d&#039;une commande</a></h2>
-<div class="level2">
+<h3><bookmark content="Notices : le point de départ d&#039;une commande" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__noticesle_point_de_depart_d_une_commande">Notices : le point de départ d&#039;une commande</a></h3>
+<div class="level3">
 
 </div>
 
-<h3><bookmark content="La notice existe au catalogue (rachat)" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__la_notice_existe_au_catalogue_rachat">La notice existe au catalogue (rachat)</a></h3>
-<div class="level3">
+<h4><bookmark content="La notice existe au catalogue (rachat)" level="3" /><a name="condorcetacquisitioncircuit-de-commandestart__la_notice_existe_au_catalogue_rachat">La notice existe au catalogue (rachat)</a></h4>
+<div class="level4">
 
 <p>
 Quand il s&#039;agit de racheter un exemplaire ou une autre version (ebook) d&#039;une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction <code>Commande</code>  derrière le bouton <code>…</code>
@@ -56,8 +59,8 @@ Quand il s&#039;agit de racheter un exemplaire ou une autre version (ebook) d&#0
 
 </div>
 
-<h3><bookmark content="Récupérer une notice de la Zone Communautaire (ZC)" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__recuperer_une_notice_de_la_zone_communautaire_zc">Récupérer une notice de la Zone Communautaire (ZC)</a></h3>
-<div class="level3">
+<h4><bookmark content="Récupérer une notice de la Zone Communautaire (ZC)" level="3" /><a name="condorcetacquisitioncircuit-de-commandestart__recuperer_une_notice_de_la_zone_communautaire_zc">Récupérer une notice de la Zone Communautaire (ZC)</a></h4>
+<div class="level4">
 
 <p>
 Dans la fenêtre de recherche bibliographique, menu déroulant à droite, sélectionnez la zone de recherche : Communauté
@@ -77,8 +80,8 @@ Dans la liste des résultats, la référence qui vous intéresse a une fonction 
 
 </div>
 
-<h3><bookmark content="Récupérer une notice dans un catalogue externe" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__recuperer_une_notice_dans_un_catalogue_externe">Récupérer une notice dans un catalogue externe</a></h3>
-<div class="level3">
+<h4><bookmark content="Récupérer une notice dans un catalogue externe" level="3" /><a name="condorcetacquisitioncircuit-de-commandestart__recuperer_une_notice_dans_un_catalogue_externe">Récupérer une notice dans un catalogue externe</a></h4>
+<div class="level4">
 
 <p>
 Le menu <strong>Ressources &gt; Chercher des ressources externes </strong>vous permet d&#039;accéder à une fenêtre de recherche spécifique qui vous permettra d&#039;importer une notice d&#039;un catalogue extérieur, par exemple le Sudoc, la British Library, la Library of Congress, etc.
@@ -89,11 +92,11 @@ On ne peut pas faire une recherche en même temps sur plusieurs sources distante
 </p>
 
 <p>
-Si la notice que vous cherchez se trouve dans la liste des résultats, cliquez sur le bouton <strong>Importer</strong>
+Si la notice que vous cherchez se trouve dans la liste des résultats, cliquez sur le bouton <code>Importer</code>
 </p>
 
 <p>
-La notice est alors importée dans l&#039;éditeur de métadonnées. Cliquez au-dessus de la notice sur l&#039;icone “<strong>caddie</strong>” (Créer une ligne de commande et quitter) pour créer une ligne de commande à partir de cette notice.
+La notice est alors importée dans l&#039;éditeur de métadonnées. Cliquez au-dessus de la notice sur l&#039;icone <code>caddie</code> (Créer une ligne de commande et quitter) pour créer une ligne de commande à partir de cette notice.
 </p>
 
 <p>
@@ -102,8 +105,8 @@ La notice est alors importée dans l&#039;éditeur de métadonnées. Cliquez au-
 
 </div>
 
-<h3><bookmark content="Demande d&#039;achat d&#039;un usager" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__demande_d_achat_d_un_usager">Demande d&#039;achat d&#039;un usager</a></h3>
-<div class="level3">
+<h4><bookmark content="Demande d&#039;achat d&#039;un usager" level="3" /><a name="condorcetacquisitioncircuit-de-commandestart__demande_d_achat_d_un_usager">Demande d&#039;achat d&#039;un usager</a></h4>
+<div class="level4">
 
 <p>
 Les suggestions d&#039;achat des utilisateurs se trouvent derrière le menu <strong>Acquisitions &gt; Demandes d&#039;achat &gt; Gérer les demandes d&#039;achat</strong>
@@ -143,10 +146,14 @@ Dans tous les cas, remplissez la partie <strong>attributs de la demande</strong>
 <div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=600&amp;h=389&amp;tok=de6f1e&amp;media=condorcet:acquisition:circuit-de-commande:demande-achat.png" class="mediacenter" alt="" width="600" height="389" /></div>
 </p>
 
+<p>
+Voir sous forme de vidéo: <a href="https://youtu.be/0stSreemm7I" class="urlextern" title="https://youtu.be/0stSreemm7I" rel="nofollow">https://youtu.be/0stSreemm7I</a>
+</p>
+
 </div>
 
-<h2><bookmark content="Créer la ligne de commande" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__creer_la_ligne_de_commande">Créer la ligne de commande</a></h2>
-<div class="level2">
+<h3><bookmark content="Créer la ligne de commande" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__creer_la_ligne_de_commande">Créer la ligne de commande</a></h3>
+<div class="level3">
 
 <p>
 La ligne de commande proprement dite se répartie en plusieurs écrans.
@@ -154,8 +161,8 @@ La ligne de commande proprement dite se répartie en plusieurs écrans.
 
 </div>
 
-<h3><bookmark content="Type et propriétaire de la ligne de commande" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__type_et_proprietaire_de_la_ligne_de_commande">Type et propriétaire de la ligne de commande</a></h3>
-<div class="level3">
+<h4><bookmark content="Type et propriétaire de la ligne de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandestart__type_et_proprietaire_de_la_ligne_de_commande">Type et propriétaire de la ligne de commande</a></h4>
+<div class="level4">
 <ul>
 <li class="level1"><div class="li"> Choisir le type d&#039;achat, par exemple <em>Livre imprimé - achat ponctuel</em></div>
 </li>
@@ -173,8 +180,8 @@ Cliquez sur <code>Créer une ligne de commande</code>
 
 </div>
 
-<h3><bookmark content="Détails de la ligne de commande" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__details_de_la_ligne_de_commande">Détails de la ligne de commande</a></h3>
-<div class="level3">
+<h4><bookmark content="Détails de la ligne de commande" level="3" /><a name="condorcetacquisitioncircuit-de-commandestart__details_de_la_ligne_de_commande">Détails de la ligne de commande</a></h4>
+<div class="level4">
 
 <p>
 Dans l&#039;écran de <strong>Détails de la ligne de commande</strong>, toutes les informations à remplir sont dans l&#039;onglet <strong>Résumé</strong>.
@@ -212,9 +219,11 @@ Dans ce formulaire, il convient de :
 </li>
 <li class="level3"><div class="li"> sélectionnez le <em>type de matériel</em>  : par exemple <em>Livre</em></div>
 </li>
-<li class="level3"><div class="li"> sélectionnez le <em>code statistique</em>  : par exemple <em>Livre imprimé</em></div>
+<li class="level3"><div class="li"> sélectionnez le <em>code statistique</em>  si le livre correspond à un financement CollEx seulement</div>
 </li>
 <li class="level3"><div class="li"> sélectionnez le <em>code statistique secondaire</em>  : c&#039;est le <em>nom de l&#039;acquéreur</em></div>
+</li>
+<li class="level3"><div class="li"> sélectionnez le <em>code statistique tertiaire</em>  : c&#039;est le <em>secteur d&#039;acquisition</em></div>
 </li>
 <li class="level3"><div class="li"> les autres champs restent vides</div>
 </li>
@@ -236,10 +245,14 @@ Votre ligne de commande est enregistrée. Alma vous le confirme par une fenêtre
 <em><div align="center" style="text-align: center"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=300&amp;h=186&amp;tok=4bb4a6&amp;media=condorcet:acquisition:circuit-de-commande:confirmationlc.png" class="mediacenter" alt="" width="300" height="186" /></div></em>
 </p>
 
+<p>
+Voir sous forme de vidéo: <a href="https://youtu.be/MO4QKZxKL6Q" class="urlextern" title="https://youtu.be/MO4QKZxKL6Q" rel="nofollow">https://youtu.be/MO4QKZxKL6Q</a>
+</p>
+
 </div>
 
-<h2><bookmark content="Création et expédition du bon de commande" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__creation_et_expedition_du_bon_de_commande">Création et expédition du bon de commande</a></h2>
-<div class="level2">
+<h3><bookmark content="Création et expédition du bon de commande" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__creation_et_expedition_du_bon_de_commande">Création et expédition du bon de commande</a></h3>
+<div class="level3">
 
 <p>
 Les lignes de commande sont regroupées automatiquement chaque dimanche (<em>paquetage </em>dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande.
@@ -259,19 +272,83 @@ Le Bon de commande est réellement expédié non pas le dimanche lors du <em>paq
 
 </div>
 
-<h1><bookmark content="Commande avec Paniers de pré-commande" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_avec_paniers_de_pre-commande">Commande avec Paniers de pré-commande</a></h1>
-<div class="level1">
+<h2><bookmark content="Commande par lots" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__commande_par_lots">Commande par lots</a></h2>
+<div class="level2">
 
 <p>
-La procédure de commande consiste à importer dans Alma un panier de notices dans lesquelles <strong>des informations permettant la génération des lignes de commande sont déjà incluses</strong>.
+Il faut distinguer 2 situations :
+</p>
+<ul>
+<li class="level1"><div class="li"> celle où vous avez un panier de notices que vous devez importer dans Alma (voir <em>Import de paniers </em>ci-dessous)</div>
+</li>
+<li class="level1"><div class="li"> celle où une connexion technique est faite entre la plateforme du fournisseur et Alma qui permet de générer des commandes dans Alma directement, sans import de paniers (Cf <em>EDI/EOD</em>  ci-dessous).</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Import de paniers" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__import_de_paniers">Import de paniers</a></h3>
+<div class="level3">
+
+<p>
+La procédure de commande consiste à :
+</p>
+<ul>
+<li class="level1"><div class="li"> importer dans Alma un panier de notices que vous avez téléchargé sur le site du fournisseur</div>
+</li>
+<li class="level1"><div class="li"> générer automatiquement autant de lignes de commandes que de notices, qui sont en statut en révision et qu&#039;il faudra compléter</div>
+</li>
+</ul>
+
+<p>
+Pour pouvoir utiliser cette procédure, il y a 2 pré-requis :
+</p>
+<ul>
+<li class="level1"><div class="li"> vous avez créé un panier de commande sur la plateforme du fournisseur, par exemple Dawson ou Eyrolles, et que vous avez téléchargé sur votre ordinateur le fichier fourni. La procédure peut être différente selon les fournisseurs et tous ne la proposent pas.</div>
+</li>
+<li class="level1"><div class="li"> un <em>profil d&#039;import</em>  existe déjà dans Alma pour ce fournisseur.</div>
+</li>
+</ul>
+
+<p>
+Pour importer votre panier de notices, allez dans <strong>Acquisitions &gt; Importer</strong>.
 </p>
 
 <p>
-Des profils d&#039;import par fournisseurs doivent être paramétrés (en cours pour Dawson).
+Vous verrez la liste des profils d&#039;import disponibles. Si vous ne trouvez pas de profil pour le fournisseur qui vous intéresse, contactez les administrateurs Alma pour leur demander de l&#039;ajouter en leur fournissant un fichier de panier en exemple pour le prestataire souhaité.
 </p>
 
 <p>
-Ces imports créé les notices si elle n&#039;existe pas, et génére des lignes de commandes avec des informations minimales, qu&#039;il faut compléter (cf procédure ci-dessous).
+Pour le fournisseur qui vous intéresse, cliquez sur <code>…</code>  puis <code>Exécuter</code>  et <code>Sélectionner le fichier</code>. Vous pourrez alors récupérer le fichier sur votre disque dur, et l&#039;importer dans Alma. Vous pouvez aussi ici, en option, libeller votre fichier (par exemple <em>dawson 05-05-2020</em>) et rédiger une note (par exemple : <em>panier sociologie nicolas</em>). Une fois le fichier récupéré par Alma, vous pouvez cliquer sur <code>Soumettre</code>  pour lancer l&#039;import.
+</p>
+
+<p>
+Alma attribue un <em>numéro d&#039;import</em>  à votre panier : il peut être utile de le noter pour regrouper plus facilement toutes les Lignes de Commande générées par cet import.
+</p>
+
+<p>
+A ce stade les notices ont été importées, et les lignes de commande correspondantes créées. Elles ont un statut <em>en révision</em>. Il va vous falloir compléter l&#039;onglet <strong>Détails de la ligne de commande </strong>pour chacune avant qu&#039;elles ne puissent être définitivement validées, selon la même procédure que décrite ci-dessus pour les commandes individuelles.
+</p>
+
+<p>
+Pour retrouvez les commandes en révision qui viennent d&#039;être créées, le plus simple est d&#039;aller dans <strong>Acquisitions &gt; Réviser</strong>. Dans la barre de recherche, vous pouvez sélectionner <code>Lignes de commande</code>  &gt; <code>Identifiant du traitement d&#039;import</code>  et utiliser comme terme de recherche le <strong>numéro d&#039;import</strong>  mentionné précédemment. Vous aurez alors à l&#039;écran la liste de vos lignes de commande liées à ce panier, et la possibilité de les <code>modifier</code>  pour compléter la commande en saisissant les informations manquantes (par ex. Fonds ou Code statistique secondaire avec votre nom).
+</p>
+
+<p>
+Voir sous forme de vidéo: <a href="https://youtu.be/tHBGngEjH18" class="urlextern" title="https://youtu.be/tHBGngEjH18" rel="nofollow">https://youtu.be/tHBGngEjH18</a>
+</p>
+
+</div>
+
+<h3><bookmark content="EDI / EOD" level="2" /><a name="condorcetacquisitioncircuit-de-commandestart__edi_eod">EDI / EOD</a></h3>
+<div class="level3">
+
+<p>
+EDI (Echange de Données Informatisé) et EOD (Embedded order data) sont deux quasi-synonymes : dans les deux cas, il s&#039;agit, à partir d&#039;un panier de commande réalisé sur la plateforme du fournisseur, d&#039;envoyer à Alma, directement depuis le site du fournisseur et sans import manuel côté Alma, les informations nécessaires à la création des lignes de commande.
+</p>
+
+<p>
+A ce stade, aucun de nos fournisseurs n&#039;a mis en place avec nous cette procédure, elle est en cours d&#039;élaboration avec Harrassowitz et cette partie du manuel sera complétée quand la fonctionnalité sera disponible.
 </p>
 
 </div>
@@ -349,11 +426,15 @@ On peut annuler une ligne de commande qui nous est attribuée (dont on est l’a
 </p>
 
 <p>
-Si la ligne de commande est déjà groupée dans un bon de commande qui a été approuvé, il faut cocher l’option <em>envoyer l’annulation au fournisseur</em>. Attention : si le fournisseur a déjà expédié la commande il faudra rouvrir la ligne de commande. D’une manière générale il est conseillé de ne pas annuler les commandes une fois qu’elles sont groupées dans un bon de commande, sauf gros retard de livraison ou réclamations infructueuses et de bien vérifier sa ligne de commande avant de la valider ( bouton <code>enregistrer et continuer</code>).
+Si la ligne de commande est déjà groupée dans un bon de commande qui a été approuvé, il faut cocher l’option <em>envoyer l’annulation au fournisseur</em>. Attention : si le fournisseur a déjà expédié la commande il faudra rouvrir la ligne de commande. D’une manière générale il est conseillé de ne pas annuler les commandes une fois qu’elles sont <strong>groupées </strong>dans un bon de commande <strong>et approuvées</strong>, sauf gros retard de livraison ou réclamations infructueuses, si le document est épuisé ou indisponible.
 </p>
 
 <p>
 On ne peut pas annuler un exemplaire déjà reçu.
+</p>
+
+<p>
+Alma garde trace d&#039;une commande annulée.
 </p>
 
 </div>
@@ -385,33 +466,86 @@ Dans le détail de la ligne de commande, l’action <strong>supprimer </strong>e
 On ne peut pas supprimer une ligne de commande correspondant à un exemplaire reçu : il faut la clôturer en procédant à sa facturation.
 </p>
 
+</div>
+
+<h1><bookmark content="Gestion des bons de commande" level="0" /><a name="condorcetacquisitioncircuit-de-commandestart__gestion_des_bons_de_commande">Gestion des bons de commande</a></h1>
+<div class="level1">
+
+</div>
+
+<h2><bookmark content="Trouver les bons de commande" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__trouver_les_bons_de_commande">Trouver les bons de commande</a></h2>
+<div class="level2">
+
 <p>
-<em>==========================</em>
+Un processus automatique regroupe pour chaque fournisseur les lignes de commandes qui sont prêtes à envoyer en un <em>bon de commande</em>. Au moment de leur regroupement, ces bons de commande ont un statut <em>à approuver</em>  : ils ne sont pas complets encore et ne sont pas envoyés au fournisseur.
 </p>
 
 <p>
-<em>archi initiale de cette partie, à reprendre</em> <br/>
-- <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:presentation-generale-du-circuit">Présentation générale du circuit</a>
+Pour retrouver les bons de commande <em>à approuver</em>, aller dans <strong>Acquisitions &gt; Commandes &gt; Approuver</strong>.
 </p>
-<ol>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:recherche-un-titre-dans-la-base">Rechercher un titre dans la base</a></div>
+
+<p>
+L&#039;écran de résultats présente la liste des bons de commande <em>à approuver</em>. Il est possible de filtrer la liste de plusieurs manières :
+</p>
+<ul>
+<li class="level1"><div class="li"> en utilisant les facettes à gauche de l&#039;écran, qui propose en particulier de filtrer la liste par fournisseur</div>
 </li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:deriver-importer-ou-creer-un-titre-en-vue-d-une-commande">Dériver, importer ou créer un titre en vue d&#039;une commande</a></div>
+<li class="level1"><div class="li"> en utilisant la fenêtre de recherche qui est proposée juste au-dessus de la liste, qui propose divers critères de recherche, qui portent sur le bon de commande lui-même (par ex. le fournisseur) ou son contenu (par ex. le numéro de ligne de commande ou le titre d&#039;un ouvrage spécifique)</div>
 </li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:creer-un-modele-de-ligne-de-commande">Créer un modèle de ligne de commande</a></div>
-</li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:processus-de-commande-fonctionnement-general">Processus de commande : fonctionnement général</a></div>
-</li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:cas-particulier-1-rachat-d-exemplaires">Cas particulier n° 1 : rachat d&#039;exemplaires</a></div>
-</li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:cas-particulier-2-dons">Cas particulier n° 2 : dons</a></div>
-</li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:cas-particulier-3-que-faire-si-une-ligne-de-commande-est-en-paquetage-automatique" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:cas-particulier-3-que-faire-si-une-ligne-de-commande-est-en-paquetage-automatique">Cas particulier n° 3 : que faire si une ligne de commande est en paquetage automatique</a></div>
-</li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:modification-annulation-et-suppression-de-lignes-de-commande">Modification, annulation et suppression de lignes de commande</a></div>
-</li>
-<li class="level1"><div class="li"> <a href="/doc_pro_sgbm/doku.php?id=condorcet:acquisition:circuit-de-commande:reclamation-des-monographies" class="wikilink1" title="condorcet:acquisition:circuit-de-commande:reclamation-des-monographies">Réclamation des monographies</a></div>
-</li>
-</ol>
+</ul>
+
+</div>
+
+<h2><bookmark content="Exporter les lignes de commande" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__exporter_les_lignes_de_commande">Exporter les lignes de commande</a></h2>
+<div class="level2">
+
+<p>
+La DAF a besoin pour émettre un bon de commande SIFAC de connaître le fournisseur, la somme totale, et d&#039;avoir jointe la liste des documents concernés.
+</p>
+
+<p>
+Pour un bon de commande Alma spécifique que vous avez identifié, cliquez sur <code>…</code>  &gt; <code>Consulter</code>  pour accéder au résumé de la commande. Dans l&#039;onglet <code>Liste des lignes de commandes</code>, vous pouvez utiliser l<code>&#039;icone export</code>  <img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:acquisition:circuit-de-commande:alma-acq-export.png" class="media" alt="" />pour exporter la liste des documents à commander vers Excel.
+</p>
+
+<p>
+Ce tableur peut être retravaillé et nettoyé dans Excel (cf Macro fournie) avant d&#039;être fourni à la DAF.
+</p>
+
+</div>
+
+<h2><bookmark content="Valider la commande" level="1" /><a name="condorcetacquisitioncircuit-de-commandestart__valider_la_commande">Valider la commande</a></h2>
+<div class="level2">
+
+<p>
+Une fois le bon de commande SIFAC généré et signé, il faut le lier à la commande Alma et envoyer la commande.
+</p>
+
+<p>
+Retrouver votre commande Alma, qui est toujours en statut <em>à approuver</em>  (cf ci-dessus).
+</p>
+
+<p>
+Cliquez sur <code>…</code>  et <code>Modifier</code>  pour accéder au détail de la commande.
+</p>
+
+<p>
+Dans le premier onglet, <em>Résumé</em>, il faut saisir le numéro de BC SIFAC dans le champ intitulé <em>Numéro ERP</em>.
+</p>
+
+<p>
+Dans l&#039;onglet <em>Pièces jointes</em>, vous pouvez cliquer sur <code>Ajouter une pièce jointe</code>, sélectionner le pdf du bon de commande SIFAC sur votre disque dur et l&#039;attacher à la commande.
+</p>
+
+<p>
+Cliquez sur <code>Enregistrer et approuver</code>.
+</p>
+
+<p>
+La commande est approuvée et expédiée par Alma au fournisseur.
+</p>
+
+<p>
+La documentation complète d&#039;ExLibris sur ce sujet est accessible sur leur site : <a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/020Acquisitions/020Achats/060Approuver_et_envoyer_des_commandes" class="urlextern" title="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/020Acquisitions/020Achats/060Approuver_et_envoyer_des_commandes" rel="nofollow">https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/Alma_Online_Help_(Francais)/020Acquisitions/020Achats/060Approuver_et_envoyer_des_commandes</a>
+</p>
 
 </div>
