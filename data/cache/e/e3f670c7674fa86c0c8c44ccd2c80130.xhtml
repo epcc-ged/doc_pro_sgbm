@@ -54,7 +54,7 @@ Le processus se décompose en plusieurs étapes :
 <div class="level4">
 
 <p>
-Quand il s&#039;agit de racheter un exemplaire ou une autre version (ebook) d&#039;une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction <code>Commande</code>  derrière le bouton <code>…</code>
+Quand il s&#039;agit de racheter un exemplaire ou une autre version (ebook) d&#039;une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction <code>Commande</code> derrière le bouton <code>…</code>
 </p>
 
 </div>
@@ -71,11 +71,11 @@ Dans la fenêtre de recherche bibliographique, menu déroulant à droite, sélec
 </p>
 
 <p>
-Attention, la zone communautaire contient essentiellement des notices de documentation électronique, et est donc plus pertinente pour les achats d&#039;ebooks, ou pour vérifier l&#039;existence sur le marché d&#039;une version électronique d&#039;un document qui vous intéresse.
+Attention, la zone communautaire contient des notices en marc21 et sont essentiellement des notices de documentation électronique, elle est donc plus pertinente pour les achats d&#039;ebooks, ou pour vérifier l&#039;existence sur le marché d&#039;une version électronique d&#039;un document qui vous intéresse.
 </p>
 
 <p>
-Dans la liste des résultats, la référence qui vous intéresse a une fonction <code>Commande</code>  derrière le bouton <code>…</code>
+Les notices dans la zone communautaire étant en marc21, il ne faut donc pas utiliser la fonction <code>Commande</code> dans la liste des résultats d&#039;une recherche. Par contre, vous pouvez importer la notice dans l&#039;instance GED :  cliquant sur le titre, la notice s&#039;ouvre alors, elle est en marc21, vous avez un bouton <code>Copier</code> qui permet de l&#039;importer dans l&#039;instance GED en unimarc
 </p>
 
 </div>
@@ -113,11 +113,11 @@ Les suggestions d&#039;achat des utilisateurs se trouvent derrière le menu <str
 </p>
 
 <p>
-Les informations saisies par l&#039;utilisateur ne sont pas forcément suffisantes pour lancer une commande. Il faut donc chercher si on a déjà une notice pour ce titre et/ou si une notice pour ce titre existe dans la zone communautaire. Depuis la demande, derrière le bouton <code>…</code>, utilisez la commande <code>lier à une notice</code>  pour lancer une recherche.
+Les informations saisies par l&#039;utilisateur ne sont pas forcément suffisantes pour lancer une commande. Il faut donc chercher si on a déjà une notice pour ce titre et/ou si une notice pour ce titre existe dans la zone communautaire. Depuis la demande, derrière le bouton <code>…</code>, utilisez la commande <code>lier à une notice</code> pour lancer une recherche.
 </p>
 
 <p>
-En fonction des résultats vous pouvez ou bien <strong>valider</strong>  la notice trouvée ou bien <strong>continuer </strong>avec les informations remplies par l&#039;usager si aucune notice n&#039;a été trouvée (la notice sera complétée plus tard).
+En fonction des résultats vous pouvez ou bien <strong>valider</strong> la notice trouvée ou bien <strong>continuer </strong>avec les informations remplies par l&#039;usager si aucune notice n&#039;a été trouvée (la notice sera complétée plus tard).
 </p>
 
 <p>
@@ -129,7 +129,7 @@ Editez les informations bibliographiques de la notice si nécessaire (cas d&#039
 </p>
 
 <p>
-Dans tous les cas, remplissez la partie <strong>attributs de la demande</strong>  du formulaire :
+Dans tous les cas, remplissez la partie <strong>attributs de la demande</strong> du formulaire :
 </p>
 <ul>
 <li class="level1"><div class="li"> bibliothèque propriétaire : obligatoirement GED</div>
@@ -151,7 +151,7 @@ Voir sous forme de vidéo: <a href="https://youtu.be/0stSreemm7I" class="urlexte
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Notices : le point de d\u00e9part d&#039;une commande&quot;,&quot;hid&quot;:&quot;noticesle_point_de_depart_d_une_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1206-4811&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Notices : le point de d\u00e9part d&#039;une commande&quot;,&quot;hid&quot;:&quot;noticesle_point_de_depart_d_une_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:3,&quot;range&quot;:&quot;1206-5095&quot;} -->
 <h3 class="sectionedit4" id="creer_la_ligne_de_commande">Créer la ligne de commande</h3>
 <div class="level3">
 
@@ -250,28 +250,30 @@ Voir sous forme de vidéo: <a href="https://youtu.be/MO4QKZxKL6Q" class="urlexte
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cr\u00e9er la ligne de commande&quot;,&quot;hid&quot;:&quot;creer_la_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;4812-7152&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cr\u00e9er la ligne de commande&quot;,&quot;hid&quot;:&quot;creer_la_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:4,&quot;range&quot;:&quot;5096-7436&quot;} -->
 <h3 class="sectionedit5" id="creation_et_expedition_du_bon_de_commande">Création et expédition du bon de commande</h3>
 <div class="level3">
 
 <p>
-Les lignes de commande sont regroupées automatiquement chaque dimanche (<em>paquetage </em>dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande.
+Les lignes de commande sont regroupées automatiquement (<em>paquetage </em>dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande qui sont en statut <em>A approuver</em>
 </p>
 
 <p>
-Alma créé une commande par fournisseur et par circuit : les commandes EOD sont envoyées d&#039;un côté et les commandes hors EOD d&#039;un autre côté.
+Il y a une étape de validation du bon de commande, qui se trouve sous <strong>Acquisitions &gt; Commande &gt; Approuver</strong>. Il faut cliquer sur <code>…</code>  et <code>Modifier</code> qui permet d&#039;ajouter deux informations :
 </p>
+<ul>
+<li class="level1"><div class="li"> dans l&#039;onglet Fichier, on peut charger le bon de commande SIFAC correspondant à cette commande</div>
+</li>
+<li class="level1"><div class="li"> dans l&#039;onlget résumé on peut ajouter le numéro de Bon de Commande SIFAC dans le champs <em>Numéro ERP</em>.</div>
+</li>
+</ul>
 
 <p>
-Il y a une étape de validation du bon de commande qui permet d&#039;ajouter un numéro comptable de Bon de Commande.
-</p>
-
-<p>
-Le Bon de commande est réellement expédié non pas le dimanche lors du <em>paquetage</em>  mais ultérieurement lors de la validation du bon de commande. Du point de vue de l&#039;acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
+Le Bon de Commande est expédié au fournisseur quand on clique sur <code>Enregistrer et continuer</code>.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cr\u00e9ation et exp\u00e9dition du bon de commande&quot;,&quot;hid&quot;:&quot;creation_et_expedition_du_bon_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;7153-7901&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cr\u00e9ation et exp\u00e9dition du bon de commande&quot;,&quot;hid&quot;:&quot;creation_et_expedition_du_bon_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:5,&quot;range&quot;:&quot;7437-8179&quot;} -->
 <h2 class="sectionedit6" id="commande_par_lots">Commande par lots</h2>
 <div class="level2">
 
@@ -286,7 +288,7 @@ Il faut distinguer 2 situations :
 </ul>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Commande par lots&quot;,&quot;hid&quot;:&quot;commande_par_lots&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;7902-8292&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Commande par lots&quot;,&quot;hid&quot;:&quot;commande_par_lots&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:6,&quot;range&quot;:&quot;8180-8570&quot;} -->
 <h3 class="sectionedit7" id="import_de_paniers">Import de paniers</h3>
 <div class="level3">
 
@@ -339,7 +341,7 @@ Voir sous forme de vidéo: <a href="https://youtu.be/tHBGngEjH18" class="urlexte
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Import de paniers&quot;,&quot;hid&quot;:&quot;import_de_paniers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;8293-11072&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Import de paniers&quot;,&quot;hid&quot;:&quot;import_de_paniers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;8571-11350&quot;} -->
 <h3 class="sectionedit8" id="edi_eod">EDI / EOD</h3>
 <div class="level3">
 
@@ -352,12 +354,12 @@ A ce stade, aucun de nos fournisseurs n&#039;a mis en place avec nous cette proc
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;EDI \/ EOD&quot;,&quot;hid&quot;:&quot;edi_eod&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;11073-11684&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;EDI \/ EOD&quot;,&quot;hid&quot;:&quot;edi_eod&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;11351-11962&quot;} -->
 <h2 class="sectionedit9" id="astuces_et_cas_particuliers">Astuces et cas particuliers</h2>
 <div class="level2">
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Astuces et cas particuliers&quot;,&quot;hid&quot;:&quot;astuces_et_cas_particuliers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:9,&quot;range&quot;:&quot;11685-11725&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Astuces et cas particuliers&quot;,&quot;hid&quot;:&quot;astuces_et_cas_particuliers&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:9,&quot;range&quot;:&quot;11963-12003&quot;} -->
 <h3 class="sectionedit10" id="retrouver_ses_lignes_de_commande">Retrouver ses lignes de commande</h3>
 <div class="level3">
 
@@ -392,7 +394,7 @@ Dans la liste de vos tâches, vous trouverez des raccourcis vers les lignes de c
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Retrouver ses lignes de commande&quot;,&quot;hid&quot;:&quot;retrouver_ses_lignes_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:10,&quot;range&quot;:&quot;11726-12748&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Retrouver ses lignes de commande&quot;,&quot;hid&quot;:&quot;retrouver_ses_lignes_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:10,&quot;range&quot;:&quot;12004-13026&quot;} -->
 <h3 class="sectionedit11" id="ligne_de_commande_en_revision">Ligne de commande en révision</h3>
 <div class="level3">
 
@@ -417,7 +419,7 @@ Il faudra modifier la ligne de commande (bouton <code>modifier</code>) et compl�
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ligne de commande en r\u00e9vision&quot;,&quot;hid&quot;:&quot;ligne_de_commande_en_revision&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:11,&quot;range&quot;:&quot;12749-13632&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Ligne de commande en r\u00e9vision&quot;,&quot;hid&quot;:&quot;ligne_de_commande_en_revision&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:11,&quot;range&quot;:&quot;13027-13910&quot;} -->
 <h3 class="sectionedit12" id="annuler_une_ligne_de_commande">Annuler une ligne de commande</h3>
 <div class="level3">
 
@@ -438,7 +440,7 @@ Alma garde trace d&#039;une commande annulée.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Annuler une ligne de commande&quot;,&quot;hid&quot;:&quot;annuler_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:12,&quot;range&quot;:&quot;13633-14715&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Annuler une ligne de commande&quot;,&quot;hid&quot;:&quot;annuler_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:12,&quot;range&quot;:&quot;13911-14993&quot;} -->
 <h3 class="sectionedit13" id="supprimer_une_ligne_de_commande">Supprimer une ligne de commande</h3>
 <div class="level3">
 
@@ -467,12 +469,12 @@ On ne peut pas supprimer une ligne de commande correspondant à un exemplaire re
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supprimer une ligne de commande&quot;,&quot;hid&quot;:&quot;supprimer_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:13,&quot;range&quot;:&quot;14716-15748&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supprimer une ligne de commande&quot;,&quot;hid&quot;:&quot;supprimer_une_ligne_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:13,&quot;range&quot;:&quot;14994-16026&quot;} -->
 <h1 class="sectionedit14" id="gestion_des_bons_de_commande">Gestion des bons de commande</h1>
 <div class="level1">
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Gestion des bons de commande&quot;,&quot;hid&quot;:&quot;gestion_des_bons_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:14,&quot;range&quot;:&quot;15749-15792&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Gestion des bons de commande&quot;,&quot;hid&quot;:&quot;gestion_des_bons_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:14,&quot;range&quot;:&quot;16027-16070&quot;} -->
 <h2 class="sectionedit15" id="trouver_les_bons_de_commande">Trouver les bons de commande</h2>
 <div class="level2">
 
@@ -495,7 +497,7 @@ L&#039;écran de résultats présente la liste des bons de commande <em>à appro
 </ul>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Trouver les bons de commande&quot;,&quot;hid&quot;:&quot;trouver_les_bons_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:15,&quot;range&quot;:&quot;15793-16795&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Trouver les bons de commande&quot;,&quot;hid&quot;:&quot;trouver_les_bons_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:15,&quot;range&quot;:&quot;16071-17073&quot;} -->
 <h2 class="sectionedit16" id="exporter_les_lignes_de_commande">Exporter les lignes de commande</h2>
 <div class="level2">
 
@@ -512,7 +514,7 @@ Ce tableur peut être retravaillé et nettoyé dans Excel (cf Macro fournie) ava
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Exporter les lignes de commande&quot;,&quot;hid&quot;:&quot;exporter_les_lignes_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:16,&quot;range&quot;:&quot;16796-17480&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Exporter les lignes de commande&quot;,&quot;hid&quot;:&quot;exporter_les_lignes_de_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:16,&quot;range&quot;:&quot;17074-17758&quot;} -->
 <h2 class="sectionedit17" id="valider_la_commande">Valider la commande</h2>
 <div class="level2">
 
@@ -549,4 +551,4 @@ La documentation complète d&#039;ExLibris sur ce sujet est accessible sur leur 
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Valider la commande&quot;,&quot;hid&quot;:&quot;valider_la_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:17,&quot;range&quot;:&quot;17481-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Valider la commande&quot;,&quot;hid&quot;:&quot;valider_la_commande&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:17,&quot;range&quot;:&quot;17759-&quot;} -->

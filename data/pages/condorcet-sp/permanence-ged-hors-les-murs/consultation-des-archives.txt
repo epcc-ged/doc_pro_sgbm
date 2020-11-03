@@ -6,7 +6,7 @@
 
 <font 11pt/inherit;;inherit;;inherit>Elle fait l'objet d'une instruction en interne. Une fois cette demande instruite, une information est envoyée à l'ensemble des collègues (groupe mail pôle documentaire). Par exemple : "Madame Z viendra consulter les archives du fonds Y le 3 décembre". Cette information figure également dans le planning de sp.</font>
 
-Dans la salle de lecture, le personnel du GED en service public fait remplir au lecteur[[https://partages.campus-condorcet.fr/f/96f3e038175541fdb9da/| une fiche d'incription]]. Celle-ci comporte des informations obligatoires, d'autres facultatives et un engagement de réserve qui doit être daté et signé. Le personnel du GED vérifie les informations en particulier celles concernant la pièce d'identité. Il est inutile de la garder pendant la durée de la consultation.
+Dans la salle de lecture, le personnel du GED en service public fait remplir au lecteur[[https://partages.campus-condorcet.fr/f/96f3e038175541fdb9da/| une fiche d'inscription]]. Celle-ci comporte des informations obligatoires, d'autres facultatives et un engagement de réserve qui doit être daté et signé. Le personnel du GED vérifie les informations en particulier celles concernant la pièce d'identité. Il est inutile de la garder pendant la durée de la consultation.
 
 Le lecteur remplit pour chaque entitée consultée (boîte ou carton) le formulaire [[https://partages.campus-condorcet.fr/f/9789abf97595492caeeb/|bulletin de communication.]]
 
@@ -29,5 +29,5 @@ Le personnel du GED explique les règles de consultation et s’assure que celle
 
 À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.
 
-Le {{:condorcet-sp:permanence-ged-hors-les-murs:20200219_vademecum_archives_service_public.docx|vademecum }} détaille toutes les étapes de l'instruction et de la consultation.
+Le {{:condorcet-sp:permanence-ged-hors-les-murs:20200219_vademecum_archives_service_public.docx|vademecum }}  détaille toutes les étapes de l'instruction et de la consultation.
 

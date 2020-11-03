@@ -17,3 +17,5 @@ nicomo:$1$epNcEWCf$tDBHbibgYxJrdqx.WoLsK/:Nicolas Morin:nicolas.morin@campus-con
 fmouillot:$1$SSkle2EZ$2s7YUpqJtLklFNiAKhiwd1:Fabrice Mouillot:fabrice.mouillot@campus-condorcet.fr:user
 mhgatto:$1$xa2eJeML$w1L3c9AgDeOF4l7E0DhJ5/:Marie-Hélène Gatto:marie-helene.gatto@campus-condorcet.fr:user
 caubree:$1$NllinLrQ$u/TsQGtFYpuIlyKQa/04x1:Christine Aubrée:christine.aubree@campus-condorcet.fr:user
+cpedroja:$1$U5rGjBwU$uF4Gt4y5ophTDu9nTPaDr1:Cynthia Pedroja:cynthia.pedroja@campus-condorcet.fr:user
+alybarella:$1$epg053H0$GH17b8uB8V7L3NqgSJHRT0:Alicia León y Barella:alicia.leon-y-barella@campus-condorcet.fr:user

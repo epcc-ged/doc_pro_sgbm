@@ -24,18 +24,16 @@ Le processus se décompose en plusieurs étapes :
 
 === La notice existe au catalogue (rachat) ===
 
-Quand il s'agit de racheter un exemplaire ou une autre version (ebook) d'une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
-
+Quand il s'agit de racheter un exemplaire ou une autre version (ebook) d'une référence qui existe déjà à notre catalogue, il suffit de faire une recherche bibliographique. Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande'' derrière le bouton ''…''
 === Récupérer une notice de la Zone Communautaire (ZC) ===
 
 Dans la fenêtre de recherche bibliographique, menu déroulant à droite, sélectionnez la zone de recherche : Communauté
 
 {{  :condorcet:acquisition:circuit-de-commande:zone-communaute.png?nolink&  |sélection de la zone communauté}}
 
-Attention, la zone communautaire contient essentiellement des notices de documentation électronique, et est donc plus pertinente pour les achats d'ebooks, ou pour vérifier l'existence sur le marché d'une version électronique d'un document qui vous intéresse.
+Attention, la zone communautaire contient des notices en marc21 et sont essentiellement des notices de documentation électronique, elle est donc plus pertinente pour les achats d'ebooks, ou pour vérifier l'existence sur le marché d'une version électronique d'un document qui vous intéresse.
 
-Dans la liste des résultats, la référence qui vous intéresse a une fonction ''Commande''  derrière le bouton ''…''
-
+Les notices dans la zone communautaire étant en marc21, il ne faut donc pas utiliser la fonction ''Commande'' dans la liste des résultats d'une recherche. Par contre, vous pouvez importer la notice dans l'instance GED :  cliquant sur le titre, la notice s'ouvre alors, elle est en marc21, vous avez un bouton ''Copier'' qui permet de l'importer dans l'instance GED en unimarc
 === Récupérer une notice dans un catalogue externe ===
 
 Le menu **Ressources > Chercher des ressources externes **vous permet d'accéder à une fenêtre de recherche spécifique qui vous permettra d'importer une notice d'un catalogue extérieur, par exemple le Sudoc, la British Library, la Library of Congress, etc.
@@ -52,17 +50,17 @@ La notice est alors importée dans l'éditeur de métadonnées. Cliquez au-dessu
 
 Les suggestions d'achat des utilisateurs se trouvent derrière le menu **Acquisitions > Demandes d'achat > Gérer les demandes d'achat**
 
-Les informations saisies par l'utilisateur ne sont pas forcément suffisantes pour lancer une commande. Il faut donc chercher si on a déjà une notice pour ce titre et/ou si une notice pour ce titre existe dans la zone communautaire. Depuis la demande, derrière le bouton ''…'', utilisez la commande ''lier à une notice''  pour lancer une recherche.
+Les informations saisies par l'utilisateur ne sont pas forcément suffisantes pour lancer une commande. Il faut donc chercher si on a déjà une notice pour ce titre et/ou si une notice pour ce titre existe dans la zone communautaire. Depuis la demande, derrière le bouton ''…'', utilisez la commande ''lier à une notice'' pour lancer une recherche.
 
-En fonction des résultats vous pouvez ou bien **valider**  la notice trouvée ou bien **continuer **avec les informations remplies par l'usager si aucune notice n'a été trouvée (la notice sera complétée plus tard).
+En fonction des résultats vous pouvez ou bien **valider** la notice trouvée ou bien **continuer **avec les informations remplies par l'usager si aucune notice n'a été trouvée (la notice sera complétée plus tard).
 
 De retour à la liste des suggestions, pour la suggestion que vous traitez, cliquez sur ''Modifier''
 
 Editez les informations bibliographiques de la notice si nécessaire (cas d'une nouvelle notice).
 
-Dans tous les cas, remplissez la partie **attributs de la demande**  du formulaire :
+Dans tous les cas, remplissez la partie **attributs de la demande** du formulaire :
 
-  * bibliothèque propriétaire : obligatoirement GED
+   * bibliothèque propriétaire : obligatoirement GED
   * coût estimé : coût TTC du document
   * compte (budget) : sélectionnez le budget sur lequel vous allez imputer la demande
   * fournisseur/compte : sélectionnez le fournisseur auprès duquel vous allez envoyer la demande et, si nous avons plusieurs comptes chez ce fournisseur, le compte utilisé.
@@ -70,6 +68,7 @@ Dans tous les cas, remplissez la partie **attributs de la demande**  du formulai
 {{  :condorcet:acquisition:circuit-de-commande:demande-achat.png?nolink&600x389  }}
 
 Voir sous forme de vidéo: [[https://youtu.be/0stSreemm7I|https://youtu.be/0stSreemm7I]]
+
 
 ==== Créer la ligne de commande ====
 
@@ -117,13 +116,14 @@ Voir sous forme de vidéo: [[https://youtu.be/MO4QKZxKL6Q|https://youtu.be/MO4QK
 
 ==== Création et expédition du bon de commande ====
 
-Les lignes de commande sont regroupées automatiquement chaque dimanche (//paquetage //dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande.
+Les lignes de commande sont regroupées automatiquement (//paquetage //dans le vocabulaire Alma) pour former un ou plusieurs Bons de commande qui sont en statut //A approuver//
 
-Alma créé une commande par fournisseur et par circuit : les commandes EOD sont envoyées d'un côté et les commandes hors EOD d'un autre côté.
+Il y a une étape de validation du bon de commande, qui se trouve sous **Acquisitions > Commande > Approuver**. Il faut cliquer sur ''...''  et ''Modifier'' qui permet d'ajouter deux informations :
 
-Il y a une étape de validation du bon de commande qui permet d'ajouter un numéro comptable de Bon de Commande.
+  * dans l'onglet Fichier, on peut charger le bon de commande SIFAC correspondant à cette commande
+  * dans l'onlget résumé on peut ajouter le numéro de Bon de Commande SIFAC dans le champs //Numéro ERP//.
 
-Le Bon de commande est réellement expédié non pas le dimanche lors du //paquetage//  mais ultérieurement lors de la validation du bon de commande. Du point de vue de l'acquéreur, cette étape est transparente : elle est réalisée globalement au niveau du service.
+Le Bon de Commande est expédié au fournisseur quand on clique sur ''Enregistrer et continuer''.
 
 ===== Commande par lots =====
 

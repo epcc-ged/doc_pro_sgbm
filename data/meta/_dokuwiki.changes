@@ -1,11 +1,3 @@
-1594042422	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			781
-1594044456	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			676
-1594045588	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			462
-1594046137	86.247.62.181	E	condorcet:acquisition:reception-et-facturation:start	nicomo			393
-1594287750	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			114
-1594287869	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			205
-1594288557	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			102
-1594305220	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			79
 1594307982	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-276
 1594362809	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			425
 1594362837	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
@@ -18,3 +10,11 @@
 1598445340	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		10
 1598445446	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Segmenté : réceptionner puis facturer] 		2548
 1599116412	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			0
+1600171505	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	alybarella	[Horaires] 		-150
+1600939610	86.246.202.236	E	condorcet:acquisition:circuit-de-commande:start	nicomo			-5
+1601453099	194.57.102.1	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
+1601643361	194.57.102.1	E	condorcet:acquisition:circuit-de-commande:start	caubree	[Notices : le point de départ d'une commande] 		283
+1601650441	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	cpedroja	[Les périodiques] 		-8
+1601650717	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	cpedroja			2
+1601910494	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	cpedroja	[Communication des documents] 		0
+1601913499	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:le-peb	cpedroja			2157

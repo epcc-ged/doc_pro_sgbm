@@ -6,13 +6,12 @@
 
 ====== Horaires ======
 
-<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil du GED hors les murs sont prévues du **lundi au jeudi **de** 12 h 30 à 18 h 30. **</font>
+<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil du GED hors les murs sont prévues du **lundi au vendredi **de** 10 h 30 à 18 h 30. **</font>
 
-**<font 11pt/inherit;;inherit;;inherit>À partir du 3 février 2020, les horaires des permanences sont de 10 h 30 à 18 h 30 du lundi au jeudi.</font>**
 
 <font 11pt/inherit;;inherit;;inherit>L'accès au bâtiment de la MSH Paris Nord (et de la bibliothèque) est possible jusqu'à 18 h 30.</font>
 
-Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP.
+Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED Hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP.
 
 <font 11pt/inherit;;inherit;;inherit>L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, etc.)</font>
 

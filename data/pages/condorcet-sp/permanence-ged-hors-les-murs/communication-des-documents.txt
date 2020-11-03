@@ -11,11 +11,12 @@ Pendant le GED hors les murs, sont exclus de la communication, les documents :
   * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD, etc.)
   * des bibliothèques qui ne déménagement pas dans la phase 1
 
-Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai : 48 h. Tous les documents sont accomapgnés d'une fiche de réservation nominative où apparaît une information importante : l'adresse du document au CTLes.
+Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. Délai : 48 h. Tous les documents sont accompagnés d'une fiche de réservation nominative où apparaît une information importante : l'adresse du document au CTLes.
 
-Les lecteurs sont prévenus par mail dès que les documentss sont disponibles dans la salle de lecture. Le statut du document est alors : sur le rayon des réservations actives.
+Les lecteurs sont prévenus par mail dès que les documents sont disponibles dans la salle de lecture. Le statut du document est alors : sur le rayon des réservations actives.
 
 Les ouvrages sont mis de côté pendant 10 jours. La date peut-être prolongée si besoin.
+
 
 ====== Consultation sur place ======
 
@@ -29,7 +30,8 @@ Les archives sont également communiquées sur place, selon les modalités déta
 
 ====== Les périodiques ======
 
-Les établissements ont eu des pratiques très variées pour gérer les périodiques. L'identification des exemplaires dans le catalogue est difficile. Il faut demander demander au lecteur de compléter sa demande en indiquant Année ou/et numéro dans la zone Note.
+Les établissements ont eu des pratiques très variées pour gérer les périodiques. L'identification des exemplaires dans le catalogue est difficile. Il faut demander au lecteur de compléter sa demande en indiquant Année ou/et numéro dans la zone Note.
+
 
 ====== Les prêts de documents ======
 

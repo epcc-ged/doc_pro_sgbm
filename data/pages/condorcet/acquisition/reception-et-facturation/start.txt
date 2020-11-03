@@ -34,7 +34,7 @@ Dans les deux cas vous voudrez cocher le bouton ''Traiter la réception'': les e
 
 === Facturation manuelle ===
 
-Si vous avez choisi la facturation manuelle, vous devrez remplir les au moins les informations suivantes manuellement :
+Si vous avez choisi la facturation manuelle, vous devrez remplir au moins les informations suivantes manuellement :
 
   * //numéro de facture//  : le numéro de facture du prestataire
   * //fournisseur//
@@ -56,10 +56,9 @@ Une fois identifié la commande concernée, vous pouvez la sélectionner : Alma 
 
 Depuis l’onglet **Lignes de facture**, vous pouvez directement sélectionner les lignes de commande proposées ou en ajouter (cas de facturation manuelle) en cliquant sur ''Ajouter une ligne de facture''. Dans la nouvelle fenêtre ouverte, vous devez sélectionner la ligne de commande à facturer et vérifier (et éventuellement corriger) les informations pertinentes, en particulier le prix du document et la quantité.
 
-Validez l’opération en cliquant sur ''Ajouter''. Attention, ne cliquez sur ''Ajouter et fermer''  *que* lorsqu'il s'agit de la dernière ligne a ajouter à cette facture : cette opération clôture //et// la ligne, //et// la facture.
+Validez l’opération en cliquant sur ''Ajouter''. Attention, ne cliquez sur ''Ajouter et fermer''  *que* lorsqu'il s'agit de la dernière ligne a ajouter à cette facture : cette opération clôture //et//  la ligne, //et//  la facture.
 
 Lorsque votre facture est complète, cliquez sur ''Enregistrer et continuer''  : les documents sont réceptionnés, et la facture passe au statut //Complété//
-
 
 ==== Segmenté : réceptionner puis facturer ====
 
@@ -119,7 +118,6 @@ La mise en rayon se fait par le menu **Acquisitions > Traitement après récepti
   * //Enregistrer un usage interne//  : oui
 Il suffit alors de Scanner le code-barres de l'exemplaire, qui va changer de statut pour devenir : //Exemplaire en rayon//.
 
-
 ===== Cas particuliers : annulation d'une réception =====
 
 On peut annuler la réception d'un exemplaire à condition qu'il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c'est-à-dire avant qu'il ne soit mis en rayon.
@@ -141,6 +139,7 @@ Il convient de modifier 2 informations d'exemplaire pour pouvoir poursuivre le c
 Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner ''GED Accueil''  dans le menu de localisation.
 
 La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires**. Dans l'écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+
   * //Imprimer automatiquement l'avis//  : non
   * //Enregistrer un usage interne//  : oui
 Il suffit alors de Scanner le code-barres de l'exemplaire, qui va changer de statut pour devenir : //Exemplaire en rayon//.
