@@ -110,37 +110,17 @@ Il convient de modifier 2 informations d'exemplaire pour pouvoir poursuivre le c
   * //Code-barres//: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d'équiper nos documents d'étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l'étiquette et remplacer dans l'exemplaire Alma le code-barres fictif par la valeur du code-barres réel.
 ===== Mettre en rayon =====
 
-Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner ''GED Accueil''  dans le menu de localisation.
+Les exemplaires réceptionnés et équipés sont mis en rayon depuis la Localisation « GED-Acquisition ». Pour procéder à cette opération, il convient donc de sélectionner ''GED-Acquisition'' dans le menu de localisation.
 
-La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires**. Dans l'écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires :**
 
-  * //Imprimer automatiquement l'avis//  : non
-  * //Enregistrer un usage interne//  : oui
-Il suffit alors de Scanner le code-barres de l'exemplaire, qui va changer de statut pour devenir : //Exemplaire en rayon//.
-
-===== Cas particuliers : annulation d'une réception =====
-
-On peut annuler la réception d'un exemplaire à condition qu'il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c'est-à-dire avant qu'il ne soit mis en rayon.
-
-Il faut retrouver la ligne de commande concernée, par les mêmes moyens que précédement et éventuellement en ajoutant le filtre //En attente de facturation//, qui est son statut après réception. Une fois que vous l'avez identifié, cliquez sur ''…''  et ''Gérer les exemplaires''  et, pour l'exemplaire concerné, cliquez sur ''annuler la réception''.
-
-L'exemplaire retrouve son statut //Envoyé//.
-
-===== Cataloguer et modifier l'exemplaire =====
-
-Pour le catalogage proprement dit, cf la documentation Sudoc et la partie [[:condorcet:signalement:start|Signalement ]]de ce site, et sur les modifications de l'exemplaire en général, cf [[:condorcet:signalement:les-exemplaires|Modification des exemplaires]]
-
-Il convient de modifier 2 informations d'exemplaire pour pouvoir poursuivre le circuit du document :
-
-  * //Localisation détentrice //: au moment de la commande, elle a été positionnée à //Bureaux du GED//  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. //GED: Pôle C-Monographies (C-MONOGRAP)//
-  * //Code-barres//: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d'équiper nos documents d'étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l'étiquette et remplacer dans l'exemplaire Alma le code-barres fictif par la valeur du code-barres réel.
-===== Mettre en rayon =====
-
-Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner ''GED Accueil''  dans le menu de localisation.
-
-La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires**. Dans l'écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+{{:condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq2.png?nolink&761x364}}
 
   * //Imprimer automatiquement l'avis//  : non
-  * //Enregistrer un usage interne//  : oui
-Il suffit alors de Scanner le code-barres de l'exemplaire, qui va changer de statut pour devenir : //Exemplaire en rayon//.
+  * //Changer le statut en//  : sélectionner en bas du menu déroulant la ligne vide (sous Temp Storage)
+  * Effectué : Oui
+  * //Scanner le code-barres de l'exemplaire et valider en cliquant sur OK//
+//{{:condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq3.png?nolink&642x348}}//
+
+Ainsi l'exemplaire est mis en : //Exemplaire en rayon//.
 

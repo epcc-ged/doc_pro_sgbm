@@ -1,15 +1,3 @@
-1594307982	194.254.171.10	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-276
-1594362809	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			425
-1594362837	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
-1594362863	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			9
-1594363126	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			161
-1594366243	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			371
-1594366661	86.247.49.9	E	condorcet:acquisition:reception-et-facturation:start	nicomo			657
-1598431695	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		1
-1598433681	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo			22
-1598445340	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		10
-1598445446	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Segmenté : réceptionner puis facturer] 		2548
-1599116412	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle	mhgatto			0
 1600171505	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	alybarella	[Horaires] 		-150
 1600939610	86.246.202.236	E	condorcet:acquisition:circuit-de-commande:start	nicomo			-5
 1601453099	194.57.102.1	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
@@ -18,3 +6,17 @@
 1601650717	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	cpedroja			2
 1601910494	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	cpedroja	[Communication des documents] 		0
 1601913499	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:le-peb	cpedroja			2157
+1605201568	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		17
+1605202174	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		101
+1605202212	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-101
+1605202781	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		98
+1605203306	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		194
+1605203434	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Cataloguer et modifier l'exemplaire] 		-1026
+1605203460	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-660
+1605266049	109.221.208.223	E	condorcet:acquisition:start	caubree			71
+1605266508	109.221.208.223	E	condorcet:acquisition:start	caubree			0
+1605270042	109.221.208.223	E	condorcet:acquisition:start	caubree			-67
+1605270942	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Cas particuliers : annulation d'une réception] 		-691
+1605286687	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-89
+1605878239	88.120.46.143	E	condorcet:acquisition:start	jchiavassa			65
+1605878703	88.120.46.143	C	condorcet:acquisition:mise-en-rayon:start	jchiavassa	créée		6

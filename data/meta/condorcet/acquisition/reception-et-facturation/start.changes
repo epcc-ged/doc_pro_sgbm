@@ -48,3 +48,12 @@
 1598445340	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Unique : facturation-réception] 		10
 1598445446	81.194.43.244	E	condorcet:acquisition:reception-et-facturation:start	nicomo	[Segmenté : réceptionner puis facturer] 		2548
 1601453099	194.57.102.1	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
+1605201568	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		17
+1605202174	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		101
+1605202212	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-101
+1605202781	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		98
+1605203306	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		194
+1605203434	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Cataloguer et modifier l'exemplaire] 		-1026
+1605203460	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-660
+1605270942	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Cas particuliers : annulation d'une réception] 		-691
+1605286687	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-89

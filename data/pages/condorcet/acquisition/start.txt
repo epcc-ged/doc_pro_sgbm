@@ -1,5 +1,7 @@
 ====== ACQUISITIONS : TABLE DES MATIERES ======
 
-  - [[condorcet:acquisition:infrastructure:start|Infrastructure des acquisitions]]
-  - [[condorcet:acquisition:circuit-de-commande:start|Circuit de commande]]
-  - [[condorcet:acquisition:reception-et-facturation:start|Réception et facturation]]
+  - [[:condorcet:acquisition:infrastructure:start|Infrastructure des acquisitions]]
+  - [[:condorcet:acquisition:circuit-de-commande:start|Circuit de commande]]
+  - [[:condorcet:acquisition:reception-et-facturation:start|Réception et facturation]]
+  - [[:condorcet:acquisition:mise-en-rayon:start|Mise en rayon]]
+

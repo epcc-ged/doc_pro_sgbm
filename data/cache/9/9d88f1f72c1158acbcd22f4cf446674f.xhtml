@@ -240,81 +240,34 @@ Il convient de modifier 2 informations d&#039;exemplaire pour pouvoir poursuivre
 <div class="level2">
 
 <p>
-Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner <code>GED Accueil</code>  dans le menu de localisation.
+Les exemplaires réceptionnés et équipés sont mis en rayon depuis la Localisation « GED-Acquisition ». Pour procéder à cette opération, il convient donc de sélectionner <code>GED-Acquisition</code> dans le menu de localisation.
 </p>
 
 <p>
-La mise en rayon se fait par le menu <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires</strong>. Dans l&#039;écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
+La mise en rayon se fait par le menu <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires :</strong>
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=761&amp;h=364&amp;tok=87f9e5&amp;media=condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq2.png" class="media" alt="" width="761" height="364" />
 </p>
 <ul>
 <li class="level1"><div class="li"> <em>Imprimer automatiquement l&#039;avis</em>  : non</div>
 </li>
-<li class="level1"><div class="li"> <em>Enregistrer un usage interne</em>  : oui</div>
+<li class="level1"><div class="li"> <em>Changer le statut en</em>  : sélectionner en bas du menu déroulant la ligne vide (sous Temp Storage)</div>
+</li>
+<li class="level1"><div class="li"> Effectué : Oui</div>
+</li>
+<li class="level1"><div class="li"> <em>Scanner le code-barres de l&#039;exemplaire et valider en cliquant sur OK</em></div>
 </li>
 </ul>
 
 <p>
-Il suffit alors de Scanner le code-barres de l&#039;exemplaire, qui va changer de statut pour devenir : <em>Exemplaire en rayon</em>.
+<em><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=642&amp;h=348&amp;tok=6587e5&amp;media=condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq3.png" class="media" alt="" width="642" height="348" /></em>
+</p>
+
+<p>
+Ainsi l&#039;exemplaire est mis en : <em>Exemplaire en rayon</em>.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Mettre en rayon&quot;,&quot;hid&quot;:&quot;mettre_en_rayon&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;9662-10321&quot;} -->
-<h2 class="sectionedit8" id="cas_particuliersannulation_d_une_reception1">Cas particuliers : annulation d&#039;une réception</h2>
-<div class="level2">
-
-<p>
-On peut annuler la réception d&#039;un exemplaire à condition qu&#039;il soit encore au sein du département Acquisitions (statuts en commande, traitement interne ou catalogage), c&#039;est-à-dire avant qu&#039;il ne soit mis en rayon.
-</p>
-
-<p>
-Il faut retrouver la ligne de commande concernée, par les mêmes moyens que précédement et éventuellement en ajoutant le filtre <em>En attente de facturation</em>, qui est son statut après réception. Une fois que vous l&#039;avez identifié, cliquez sur <code>…</code>  et <code>Gérer les exemplaires</code>  et, pour l&#039;exemplaire concerné, cliquez sur <code>annuler la réception</code>.
-</p>
-
-<p>
-L&#039;exemplaire retrouve son statut <em>Envoyé</em>.
-</p>
-
-</div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cas particuliers : annulation d&#039;une r\u00e9ception&quot;,&quot;hid&quot;:&quot;cas_particuliersannulation_d_une_reception1&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:8,&quot;range&quot;:&quot;10322-11011&quot;} -->
-<h2 class="sectionedit9" id="cataloguer_et_modifier_l_exemplaire1">Cataloguer et modifier l&#039;exemplaire</h2>
-<div class="level2">
-
-<p>
-Pour le catalogage proprement dit, cf la documentation Sudoc et la partie <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:start" class="wikilink1" title="condorcet:signalement:start">Signalement </a>de ce site, et sur les modifications de l&#039;exemplaire en général, cf <a href="/doc_pro_sgbm/doku.php?id=condorcet:signalement:les-exemplaires" class="wikilink1" title="condorcet:signalement:les-exemplaires">Modification des exemplaires</a>
-</p>
-
-<p>
-Il convient de modifier 2 informations d&#039;exemplaire pour pouvoir poursuivre le circuit du document :
-</p>
-<ul>
-<li class="level1"><div class="li"> <em>Localisation détentrice </em>: au moment de la commande, elle a été positionnée à <em>Bureaux du GED</em>  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. <em>GED: Pôle C-Monographies (C-MONOGRAP)</em></div>
-</li>
-<li class="level1"><div class="li"> <em>Code-barres</em>: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d&#039;équiper nos documents d&#039;étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l&#039;étiquette et remplacer dans l&#039;exemplaire Alma le code-barres fictif par la valeur du code-barres réel.</div>
-</li>
-</ul>
-
-</div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Cataloguer et modifier l&#039;exemplaire&quot;,&quot;hid&quot;:&quot;cataloguer_et_modifier_l_exemplaire1&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:9,&quot;range&quot;:&quot;11012-12038&quot;} -->
-<h2 class="sectionedit10" id="mettre_en_rayon1">Mettre en rayon</h2>
-<div class="level2">
-
-<p>
-Les exemplaires réceptionnés et équipés sont mis en rayon depuis le « bureau de prêt ». Pour procéder à cette opération, il convient donc de sélectionner <code>GED Accueil</code>  dans le menu de localisation.
-</p>
-
-<p>
-La mise en rayon se fait par le menu <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires</strong>. Dans l&#039;écran qui suit, les valeurs par défaut peuvent être laissées telles quelles :
-</p>
-<ul>
-<li class="level1"><div class="li"> <em>Imprimer automatiquement l&#039;avis</em>  : non</div>
-</li>
-<li class="level1"><div class="li"> <em>Enregistrer un usage interne</em>  : oui</div>
-</li>
-</ul>
-
-<p>
-Il suffit alors de Scanner le code-barres de l&#039;exemplaire, qui va changer de statut pour devenir : <em>Exemplaire en rayon</em>.
-</p>
-
-</div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Mettre en rayon&quot;,&quot;hid&quot;:&quot;mettre_en_rayon1&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:10,&quot;range&quot;:&quot;12039-&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Mettre en rayon&quot;,&quot;hid&quot;:&quot;mettre_en_rayon&quot;,&quot;codeblockOffset&quot;:0,&quot;secid&quot;:7,&quot;range&quot;:&quot;9662-&quot;} -->
