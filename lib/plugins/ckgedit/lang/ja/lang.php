@@ -3,6 +3,7 @@
 /**
  * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
  *
+ * @author M. Turner <turnermm02@shaw.ca>
  * @author HokkaidoPerson <dosankomali@yahoo.co.jp>
  * @author Hideaki SAWADA <chuno@live.jp>
  */
@@ -53,7 +54,6 @@ $lang['btn_title_dw_fb']       = '保存してエディターを閉じ、DWフ�
 $lang['btn_title_ckg_fb']      = '保存してエディターを閉じ、CKGファイルブラウザーに切り替える';
 $lang['formatdel']             = 'ヘッダーからマークアップを除去しました。DokuWikiでサポートされていません。';
 $lang['fontdel']               = 'リンクからフォントマークアップを除去しました。DokuWikiでサポートされていません。';
-$lang['ckgcke_conflict']       = 'ckgeditのコピーが検出されました。一方もしくは両方を無効化する必要があります。';
 $lang['ws_cantcopy']           = 'winstyleセットアップに際して：次に対してコピー出来ません：';
 $lang['ws_copiedhtaccess']     = 'winstyleセットアップに際して、セキュリティ設定された.htaccessファイルを、ディレクトリ data・mediaにコピーしました
 ckgedit/fckeditor/userfiles/.htacess.security をご覧下さい';
@@ -62,3 +62,4 @@ $lang['sym_not created_1']     = '作成出来ません';
 $lang['sym_not created_2']     = 'シンボリックリンクをファイルブラウザーに作成出来ません。以下にアクセス出来ません：';
 $lang['sym_not created_3']     = '次に対しシンボリックリンクを作成しようとした際にエラーが発生しました：';
 $lang['syms_created']          = '以下のリンクがユーザーファイルのディレクトリに作成されました。';
+$lang['dblclk_reminder']       = '<b>リマインダー</b>';

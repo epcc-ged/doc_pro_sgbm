@@ -3,7 +3,6 @@ $conf['groups'] = 'ANY';
 $conf['guest_toolbar']= 1;
 $conf['guest_media']= 1;
 $conf['open_upload']=0;
-# $conf['xcl_plugins']="ckgedit_dwplugin";
 $conf['allow_ckg_filebrowser'] = 'all';
 $conf['default_ckg_filebrowser'] = 'ckgedit';
 $conf['default_fb'] = 'acl';
@@ -27,18 +26,19 @@ $conf['winstyle'] = 0;
 $conf['other_lang'] = 'default';
 $conf['dw_priority'] = 0;
 $conf['dw_users'] ="";
-$conf['preload_ckeditorjs'] = 0;
 $conf['color_options'] = 0;
 $conf['font_options']  = 0;
 $conf['nofont_styling'] = 0;
 $conf['alt_toolbar'] = 'Paste,PasteText,PasteFromWord';
 $conf['mfiles'] = 0;
 $conf['extra_plugins'] ="Geshi,Msword";
-$conf['captcha_auth'] = 'CREATE';
 $conf['htmlblock_ok'] = 0;
 $conf['dblclk'] ='on';
 $conf['preserve_enc'] = 0;
 $conf['gui'] = 'moono';
 $conf['rel_links'] = 0;
+$conf['style_sheet'] = 0;
+
+
 
 

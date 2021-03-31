@@ -1,0 +1,137 @@
+<a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__"></a>
+<h2><bookmark content="CIRCULATION : RENOUVELER DES PRÊTS" level="1" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__circulationrenouveler_des_prets">CIRCULATION : RENOUVELER DES PRÊTS</a></h2>
+<div class="level2">
+
+<p>
+Le renouvellement de prêt d&#039;un document peut être effectué par le lecteur depuis son compte lecteur sur Primo VE ou par un bibliothécaire disposant d&#039;un rôle adéquat sur Alma.
+</p>
+
+<p>
+Le renouvellement peut être partiel c&#039;est-à-dire que le lecteur ne souhaite renouveler que certains de ses prêts, ou il peut être total, auquel cas le lecteur souhaite renouveler tous ses prêts en cours.
+</p>
+
+</div>
+
+<h3><bookmark content="Renouvellement depuis Alma" level="2" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__renouvellement_depuis_alma">Renouvellement depuis Alma</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Appeler un compte lecteur" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__appeler_un_compte_lecteur">Appeler un compte lecteur</a></h4>
+<div class="level4">
+
+<p>
+Cette opération est la même que celle décrite de même nom décrite au chapitre précédent sur le <a href="/doc_pro_sgbm/doku.php?id=condorcet:circulation:preter-des-documents" class="wikilink1" title="condorcet:circulation:preter-des-documents" data-wiki-id="condorcet:circulation:preter-des-documents">prêt</a>.
+</p>
+
+</div>
+
+<h4><bookmark content="Afficher les prêts en cours du lecteur" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__afficher_les_prets_en_cours_du_lecteur">Afficher les prêts en cours du lecteur</a></h4>
+<div class="level4">
+
+<p>
+Dans l&#039;écran de dossier usager, on peut voir les prêts que celui-ci a à son actif. Vérifiez bien que le filtre <code>Affichage de prêt</code> soit à la valeur <code>tous les prêts</code> pour être en mesure de voir tous les prêts que ce lecteur a fait.
+</p>
+
+</div>
+
+<h4><bookmark content="Renouveler les documents" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__renouveler_les_documents">Renouveler les documents</a></h4>
+<div class="level4">
+
+<p>
+Que le renouvellement soit total ou partiel, on dispose de deux modes opératoires.
+</p>
+
+<p>
+Le premier mode consiste à sélectionner tous les prêts ou une partie d&#039;entre eux (selon le type de renouvellement souhaité) directement dans la liste des prêts en cours du lecteur. On clique alors sur le lien <code>Renouveler la sélection </code>au-dessus et à droite de la liste des prêts.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-renouveler-pret.jpg" class="media" title="circulation-renouveler-pret.jpg" alt="circulation-renouveler-pret.jpg" />
+</p>
+
+<p>
+Le second mode consiste :
+</p>
+<ul>
+<li class="level1"><div class="li"> Pour le renouvellement total : à cliquer directement sur le lien <code>Tout renouveler</code>, sans nécessité de sélectionner dans la liste les prêts au préalable.</div>
+</li>
+<li class="level1"><div class="li"> Pour le renouvellement partiel : à utiliser le menu contextuel <strong><code>···</code> </strong>attaché au prêt qu&#039;on souhaite renouveler. Le menu contextuel propose alors l&#039;option <code>Renouveler</code>. En la cliquant, le renouvellement du prêt concerné sera réalisé.</div>
+</li>
+</ul>
+
+</div>
+
+<h4><bookmark content="Vérifier la bonne prise en compte du renouvellement" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__verifier_la_bonne_prise_en_compte_du_renouvellement">Vérifier la bonne prise en compte du renouvellement</a></h4>
+<div class="level4">
+
+<p>
+Lorsqu&#039;un prêt est bien renouvelé, un message le confirme en haut de la page et dans l&#039;affichage des prêts, une icône verte (avec un V blanc) <img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-icone-validation.jpg" class="media" title="circulation-icone-validation.jpg" alt="circulation-icone-validation.jpg" />apparaît à côté du prêt renouvelé et son statut est désormais <code>renouvelé</code>  au lieu de <code>normal</code>.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-statut-renouvele.jpg" class="media" title="circulation-statut-renouvele.jpg" alt="circulation-statut-renouvele.jpg" />
+</p>
+
+<p>
+Attention : l&#039;affichage de la petite icône verte ne perdurera pas. Elle disparaîtra si vous cliquez dessus ou quand vous changerez d&#039;écran. Sa disparition à l&#039;affichage ne signifie néanmoins pas que le renouvellement a été annulé. Elle sert simplement à indiquer que l&#039;action que vous venez d&#039;effectuer s&#039;est bien déroulée. Il vaut donc mieux se baser sur la colonne <code>Statut</code>de la liste des prêts pour vérifier si un prêt a été renouvelé ou pas.
+</p>
+
+</div>
+
+<h3><bookmark content="Renouvellement depuis Primo" level="2" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__renouvellement_depuis_primo">Renouvellement depuis Primo</a></h3>
+<div class="level3">
+
+</div>
+
+<h4><bookmark content="Se connecter" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__se_connecter">Se connecter</a></h4>
+<div class="level4">
+
+<p>
+Un lien en haut de l&#039;écran à droite permet d&#039;afficher la fenêtre de connexion.
+</p>
+
+</div>
+
+<h4><bookmark content="Accéder à son compte lecteur" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__acceder_a_son_compte_lecteur">Accéder à son compte lecteur</a></h4>
+<div class="level4">
+
+<p>
+Après la connexion, le nom du lecteur apparaît en haut de l&#039;écran à droite apparaît. Il est cliquable et permet l&#039;affichage d&#039;un menu où le compte lecteur est accessible.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?media=condorcet:circulation:circulation-primo-acces-compte-lecteur.jpg" class="media" title="circulation-primo-acces-compte-lecteur.jpg" alt="circulation-primo-acces-compte-lecteur.jpg" />
+</p>
+
+</div>
+
+<h4><bookmark content="Accéder à ses prêts en cours" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__acceder_a_ses_prets_en_cours">Accéder à ses prêts en cours</a></h4>
+<div class="level4">
+
+<p>
+Dans le menu décrit ci-dessus, il faut choisir <code>Mes prêts</code>pour accéder à la liste des prêts du lecteur.
+</p>
+
+</div>
+
+<h4><bookmark content="Renouveler ses prêts en cours" level="3" /><a name="condorcetcirculationrenouveler-des-prets-depuis-alma-et-primo__renouveler_ses_prets_en_cours">Renouveler ses prêts en cours</a></h4>
+<div class="level4">
+
+<p>
+Le principe est le même que dans Alma mais c&#039;est ici l&#039;utilisateur qui fait l&#039;action et non un bibliothécaire. Le renouvellement peut être partiel ou total.
+</p>
+
+<p>
+Quand on fait une sélection de titres à renouveler, le lien équivalent à <code>Renouveler la sélection</code>  dans Alma se nomme toutefois <code>Prolonger la sélection</code>  dans Primo.
+</p>
+
+<p>
+Comme dans Alma, on peut agir soit par les liens <code>Tout renouveler</code>  (ou <code>Prolonger la sélection</code>) au-dessus de la liste des prêts soit renouveler prêt à prêt grâce au lien attaché à la ligne de prêt.
+</p>
+
+<p>
+Un bibliothécaire qui se connecterait dans Alma pour voir les prêts attachés à l&#039;utilisateur ayant renouvelé dans Primo, verra que les prêts concernés sont au statut <code>Renouvelé</code>.
+</p>
+
+</div>

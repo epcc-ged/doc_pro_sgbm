@@ -1,0 +1,187 @@
+====== Communication des documents ======
+
+===== Réservations =====
+
+La réservation des documents pour consultation ou emprunt se fait via le catalogue du GED. Les archives font l'objet d'une procédure dédiée (Voir ci-dessous).\\
+Les droits et durée de prêt dépendent du statut du lecteur. Voir rubrique [[:inscriptions_et_prets|Inscriptions et prêts]].
+
+Pendant le GED hors les murs, sont exclus de la communication, les documents :
+
+  * conservés sur palettes
+  * de format exceptionnel
+  * sur support fragile (plaque de verres) ou nécessitant un appareil de lecture particulier (VHS, DVD, etc.)
+  * <font inherit/inherit;;inherit;;#f1c40f>des bibliothèques qui ne déménagement pas dans la phase 1</font>
+
+Les documents sont acheminés tous les jours depuis les sites du CTLes et d'Iéna par navette jusqu’à la salle de lecture. **Délai estimé : 48 h**. \\
+Tous les documents sont accompagnés d'une fiche de réservation nominative où apparaît une information importante : l'adresse du document au CTLes.
+
+Les **lecteurs sont prévenus par mail dès que les documents sont disponibles dans la salle de lecture**. \\
+Le statut du document est alors : sur le rayon des réservations actives.
+
+Les **ouvrages sont mis de côté pendant 1 mois**.
+
+===== Prêts =====
+
+La procédure est décrite dans le {{:condorcet-sp:aide1.pptx|mémo}}  de la page d'accueil (<font inherit/inherit;;inherit;;#f1c40f>lien</font>). <font inherit/inherit;;inherit;;#f1c40f>Vidéo à venir.</font>
+
+**Pour utiliser la douchette, penser à se mettre en majuscule avant de doucher un code-barres**.
+
+Mettre la fiche de réservation dans le dossier dédié (cf. [[:principes_et_espaces|Principes et espaces]]). Au moment du retour du document, cela facilitera le rangement du livre au CTLes.
+
+===== Périodiques =====
+
+Les établissements ont eu des pratiques très variées pour gérer les périodiques. L'identification des exemplaires dans le catalogue est difficile. Il faut demander au lecteur de compléter sa demande en indiquant Année ou/et numéro dans la zone Note.
+
+===== Consultation des ressources électroniques (sur place et à distance) =====
+
+Les ressources en ligne sous droit sont accessibles aux résidents du Campus Condorcet déclarés par les établissements membres dans le référentiel d’identités (Voir [[:inscriptions_et_prets|Inscriptions et prêts]]).
+
+Depuis janvier 2020, le GED a repris les abonnements des établissements suivants : EPHE, INED, EHESS, FMSH.
+
+Les personnels universitaires et CNRS conservent, en plus, l'accès à la documentation électronique de leur établissement d’origine.
+
+La [[https://www.campus-condorcet.fr/fr/pour-la-recherche/le-grand-equipement-documentaire/modes-demploi/consulter-la-documentation-electronique|liste des ressources électroniques]] est consultable sur le site du GED.
+
+===== Consultation sur place =====
+
+Sont concernés : les documents exclus du prêt, les documents pour les lecteurs qui n'ont pas le droit d'emprunter, les archives, les documents du PEB.
+
+==== Documents exclus du prêt ====
+
+Les documents cotés réserve ou manifestement trop fragiles, thèses et mémoires. **La mention est inscrite sur la fiche qui accompagne le livre**.
+
+==== Lecteurs sans droit de prêt ====
+
+Certains lecteurs n'ont pas le droit d'emprunter. L'opération de prêt est alors impossible dans Alma, un pop-up apparait avec le message (peu clair) : **exemplaire non prétable**.
+
+Dans ces deux cas, les ouvrages sont **communiqués sur place en échange d'une pièce d'identité**  qui est restituée à l'issue de la consultation. Lorsque le lecteur indique qu'il n'a plus besoin de l'ouvrage, sa demande de consultation est annulée dans Alma (la procédure est décrite dans {{:condorcet-sp:aide2revu.pptx|le mémo}} <font inherit/inherit;;inherit;;#f1c40f>lien</font>).
+
+==== Archives (circuit spécifique) ====
+
+Les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes sont communicables pendant la période du GED hors les murs.
+
+À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.
+
+=== Réservation ===
+
+  - **Envoyer une demande de consultation**  par mail à : [[archives.ged@campus-condorcet.fr|]].
+  - Le **demande est instruite **par le service Archives.
+  - Une fois la demande instruite, une **information est envoyée à l'ensemble des collègues **  (groupe mail pôle documentaire). Par exemple : "Madame Z viendra consulter les archives du fonds Y le 3 décembre". Cette information figure également dans le planning de service public.
+  - Dans la salle de lecture, le **personnel du GED en service public fait remplir au lecteur [[https://partages.campus-condorcet.fr/f/cde878744238429ab5f3/?dl=1|une fiche d'inscription]]**  . Celle-ci comporte des informations obligatoires d'autres facultatives et un engagement de réserve qui doit être daté et signé.
+  - Le **personnel du GED vérifie les information**, en particulier celles concernant la pièce d'identité. Il est inutile de la garder pendant la durée de la consultation.
+  - Le **lecteur remplit pour chaque entitée consultée (boîte ou carton) le ** **[[https://partages.campus-condorcet.fr/f/e3ddf855e7f24118b3e8/?dl=1|bulletin de communication**.]]**
+
+Dans les cas de consultations s'étalant sur plusieurs jours, le personnel du GED vérifie que le lecteur est bien inscrit avant de lui communiquer les documents.
+
+=== Consultation ===
+
+Le personnel du GED explique les règles de consultation et s’assure que celles-ci sont respectées.
+
+  * Les **archives sont communiquées sur la première table**  à proximité du bureau de renseignement
+  * <font 11pt/inherit;;inherit;;inherit>**Matériel autorisé** :</font><font 11pt/inherit;;inherit;;inherit>crayon à papier, ordinateur, feuilles volantes</font>
+  * <font 11pt/inherit;;inherit;;inherit>Les **chemises** où un document pourrait être glissé **ne sont pas acceptées**</font>
+  * <font 11pt/inherit;;inherit;;inherit>Mise à l’écart des effets personnels</font>
+  * <font 11pt/inherit;;inherit;;inherit>__**Communication d’une seule entité à la fois (boîte ou carton)**__</font>
+  * [[http://www.calames.abes.fr/pub/#details?id=FileId-2800|Photographie autorisée sauf mention contraire (voir inventaire sur Calames]])
+
+<font 11pt/inherit;;inherit;;inherit>À la fin de la consultation, selon les cas, le fonds peut être réacheminé au CTLES ou mis de côté dans le local du fonds pour une consultation ultérieure. \\
+Si la consultation est définitivement terminée, l'agent de permanence envoie un message au groupe pôle documentaire : "Madame Z a fini la consultation des archives du fonds Y". \\
+Si le lecteur souhaite revenir mais dans un délai de plusieurs jours, il faut également envoyer un message d'information aux collègues.</font>
+
+Le {{:condorcet-sp:permanence-ged-hors-les-murs:20200219_vademecum_archives_service_public.docx|vademecum }}  détaille toutes les étapes de l'instruction et de la consultation.
+
+==== PEB ====
+
+Depuis septembre 2020, le PEB est progressivement mis en place. À ce jour nous n'utilisons pas encore le module de gestion SUPEB. \\
+Les demandes de lecteurs doivent passer par l'adresse suivante : [[peb.ged@campus-condorcet.fr?subject=[PEB]|peb.ged@campus-condorcet.fr]].
+
+=== PEB demandeur ===
+
+Si le document demandé est disponible dans une bibliothèque située en Île-de-France, nous n'effectuons pas de demandes de PEB. \\
+Le lecteur est invité à contacter la bibliothèque qui dispose du document pour une consultation sur place.
+
+Si le document demandé est disponible dans une bibliothèque située en province ou à l'étranger, nous pouvons effectuer une demande de PEB auprès de la bibliotèque concernée, mais ce uniquement si le lecteur est un résident du Campus Condorcet (CU1 - Résidents D et CU2 - Résidents M). Pendant la période du GED Hors les murs, nous ne facturons pas les demandes de PEB mais une fois le GED ouvert, ce service sera probablement paynt pour les lecteurs selon une grille tarifaire qui reste encore à définir.
+
+=== PEB fournisseur ===
+
+À ce stade de notre projet, nous ne sommes pas en mesure de faire du PEB fournisseur, mais nous proposons d'organiser des consultations sur place pour les lecteurs extérieurs qui pourraient se déplacer dans nos locaux.
+
+=== Documents exclus du prêt ===
+
+Les documents cotés réserve ou manifestement trop fragiles, thèses et mémoires. **La mention est inscrite sur la fiche qui accompagne le livre**.
+
+==== Lecteurs sans droit de prêt ====
+
+Certains lecteurs n'ont pas le droit d'emprunter. L'opération de prêt est alors impossible dans Alma, un pop-up apparait avec le message (peu clair) : **exemplaire non prétable**.
+
+Dans ces deux cas, les ouvrages sont **communiqués sur place en échange d'une pièce d'identité**  qui est restituée à l'issue de la consultation. Lorsque le lecteur indique qu'il n'a plus besoin de l'ouvrage, sa demande de consultation est annulée dans Alma (la procédure est décrite dans {{:condorcet-sp:aide2revu.pptx|le mémo}} <font inherit/inherit;;inherit;;#f1c40f>lien</font>).
+
+==== Archives (circuit spécifique) ====
+
+Les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes sont communicables pendant la période du GED hors les murs.
+
+À noter : les collègues de l'EHESP ne prennent pas en charge la communication des archives.
+
+=== Réservation ===
+
+  - **Envoyer une demande de consultation**  par mail à : [[archives.ged@campus-condorcet.fr|]].
+  - Le **demande est instruite **par le service Archives.
+  - Une fois la demande instruite, une **information est envoyée à l'ensemble des collègues **  (groupe mail pôle documentaire). Par exemple : "Madame Z viendra consulter les archives du fonds Y le 3 décembre". Cette information figure également dans le planning de service public.
+  - Dans la salle de lecture, le **personnel du GED en service public fait remplir au lecteur [[https://partages.campus-condorcet.fr/f/cde878744238429ab5f3/?dl=1|une fiche d'inscription]]**  . Celle-ci comporte des informations obligatoires d'autres facultatives et un engagement de réserve qui doit être daté et signé.
+  - Le **personnel du GED vérifie les information**, en particulier celles concernant la pièce d'identité. Il est inutile de la garder pendant la durée de la consultation.
+  - Le **lecteur remplit pour chaque entitée consultée (boîte ou carton) le ** **[[https://partages.campus-condorcet.fr/f/e3ddf855e7f24118b3e8/?dl=1|bulletin de communication**.]]**
+
+Dans les cas de consultations s'étalant sur plusieurs jours, le personnel du GED vérifie que le lecteur est bien inscrit avant de lui communiquer les documents.
+
+=== Consultation ===
+
+Le personnel du GED explique les règles de consultation et s’assure que celles-ci sont respectées.
+
+  * Les **archives sont communiquées sur la première table**  à proximité du bureau de renseignement
+  * <font 11pt/inherit;;inherit;;inherit>**Matériel autorisé** :</font><font 11pt/inherit;;inherit;;inherit>crayon à papier, ordinateur, feuilles volantes</font>
+  * <font 11pt/inherit;;inherit;;inherit>Les **chemises** où un document pourrait être glissé **ne sont pas acceptées**</font>
+  * <font 11pt/inherit;;inherit;;inherit>Mise à l’écart des effets personnels</font>
+  * <font 11pt/inherit;;inherit;;inherit>__**Communication d’une seule entité à la fois (boîte ou carton)**__</font>
+  * [[http://www.calames.abes.fr/pub/#details?id=FileId-2800|Photographie autorisée sauf mention contraire (voir inventaire sur Calames]])
+
+<font 11pt/inherit;;inherit;;inherit>À la fin de la consultation, selon les cas, le fonds peut être réacheminé au CTLES ou mis de côté dans le local du fonds pour une consultation ultérieure. \\
+Si la consultation est définitivement terminée, l'agent de permanence envoie un message au groupe pôle documentaire : "Madame Z a fini la consultation des archives du fonds Y". \\
+Si le lecteur souhaite revenir mais dans un délai de plusieurs jours, il faut également envoyer un message d'information aux collègues.</font>
+
+Le {{:condorcet-sp:permanence-ged-hors-les-murs:20200219_vademecum_archives_service_public.docx|vademecum }}  détaille toutes les étapes de l'instruction et de la consultation.
+
+===== Consultation des ressources électroniques (sur place et à distance) =====
+
+Les ressources en ligne sous droit sont accessibles aux résidents du Campus Condorcet déclarés par les établissements membres dans le référentiel d’identités (Voir [[:inscriptions_et_prets|Inscriptions et prêts]]).
+
+Depuis janvier 2020, le GED a repris les abonnements des établissements suivants : EPHE, INED, EHESS, FMSH.
+
+Les personnels universitaires et CNRS conservent, en plus, l'accès à la documentation électronique de leur établissement d’origine.
+
+La [[https://www.campus-condorcet.fr/fr/pour-la-recherche/le-grand-equipement-documentaire/modes-demploi/consulter-la-documentation-electronique|liste des ressources électroniques]] est consultable sur le site du GED.
+
+===== PEB =====
+
+Depuis septembre 2020, le PEB est progressivement mis en place. À ce jour nous n'utilisons pas encore le module de gestion SUPEB. \\
+Les demandes de lecteurs doivent passer par l'adresse suivante : [[peb.ged@campus-condorcet.fr?subject=[PEB]|peb.ged@campus-condorcet.fr]].
+
+==== PEB demandeur ====
+
+Si le document demandé est disponible dans une bibliothèque située en Île-de-France, nous n'effectuons pas de demandes de PEB. \\
+Le lecteur est invité à contacter la bibliothèque qui dispose du document pour une consultation sur place.
+
+Si le document demandé est disponible dans une bibliothèque située en province ou à l'étranger, nous pouvons effectuer une demande de PEB auprès de la bibliotèque concernée, mais ce uniquement si le lecteur est un résident du Campus Condorcet (CU1 - Résidents D+ et CU2 - Résidents M). Pendant la période du GED Hors les murs, nous ne facturons pas les demandes de PEB mais une fois le GED ouvert, ce service sera probablement paynt pour les lecteurs selon une grille tarifaire qui reste encore à définir.
+
+==== PEB fournisseur ====
+
+À ce stade de notre projet, nous ne sommes pas en mesure de faire du PEB fournisseur, mais nous proposons d'organiser des consultations sur place pour les lecteurs extérieurs qui pourraient se déplacer dans nos locaux.
+
+==== Modalités de consultation si vous êtes postés en service public ====
+
+Les **documents PEB ne sont pas empruntables**. Ils sont consultables sur place, généralement pendant une durée d'un mois, suivant les mêmes modalités de consultation que les archives ou les documents de la réserve.
+  - Le **lecteur se présente à la banque d'accueil **et vous informe qu'il souhaite consulter le document qu'il a commandé. Il aura été prévenu au préalable par le service PEB de la disponibilité de son document.
+  - **Aller chercher l'ouvrage**  à l'emplacement dédié aux demandes de PEB du GED situé dans la salle du fond (Voir [[:principes_et_espaces|Principes et espaces]]).
+  - **Prendre la pièce d'identité du lecteur le temps de la consultation**.
+  - **Rendre la pièce d'identitié du lecteur lors de la remise du document**.
+Prévenir le service PEB lorsque la consultation est terminée si le lecteur ne souhaite pas revenir consulter l'ouvrage ([[peb.ged@campus-condorcet.fr?subject=[PEB]|peb.ged@campus-condorcet.fr]]).
+

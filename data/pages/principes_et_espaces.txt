@@ -1,0 +1,80 @@
+====== Principes et espaces ======
+
+===== Principes =====
+
+Tous les agents du GED participent aux permanences d’accueil et de renseignement du public.\\
+Chaque agent est responsable des permanences qui lui sont attribuées.
+
+En cas d’absence ou d’indisponibilité :
+
+  * organiser son remplacement
+  * inscrire l’échange dans le planning ([[https://webmail.campus-condorcet.fr|Webmail]], Calendrier //Service public//)
+  * envoyer un mail à [[amelie.saint-marc@campus-condorcet.fr|Amélie Saint-Marc]] (gestionnaire du service public) : [[amelie.saint-marc@campus-condorcet.fr|]]
+
+En cas d'impossiblité majeure et de dernière minute, l’agent, s’il est de permanence dans la journée, doit envoyer un mail à l'adresse qui est consultée par l'ensemble des agents du Service Accueil du public : [[accueil.ged@listes.campus-condorcet.fr|]].
+
+
+===== Accès au wifi =====
+
+La **connexion au wifi se fait via eduroam**  avec les identifiants fournis par l'établissement d'origine.
+
+===== Ouverture et fermeture de la bibliothèque =====
+
+Les permanences d’accueil du GED hors les murs sont prévues du **lundi au vendredi **de** 10h30 à 18h30. ** \\ L'accès au bâtiment de la MSH Paris Nord (et de la bibliothèque) est possible jusqu'à 18h30. \\ En cas de circonstances exceptionnelles les horaires sont susceptibles de varier (ex. : restrictions sanitaires, problème dans la salle, événement, //etc.//).
+
+==== Lors de la première permanence ====
+
+  - Prendre la clef dans la boîte au 1<sup>er</sup>   étage et ouvrir la salle de lecture
+  - Ouvrir les caissons près de la banque d'accueil avec la 2<sup>e</sup>   clef du trousseau
+  - Allumer les lumières
+  - Ouvrir la porte de sortie
+  - Allumer les postes informatiques et l'imprimante
+  - Ouvrir une session sur l'ordinateur portable (Mot de passe : Campus2020!)
+  - Ouvrir Alma et se connecter avec ses identifiants personnels (Rappel identifiant: prénom.nom)
+  - Se localiser dans Alma sur la fonction "GED Accueil" pour pouvoir réaliser des prêts et des retours
+
+
+==== À la fin de la dernière permanence ====
+
+  - S'assurer que tous les lecteurs sont partis
+  - Ranger les dossiers sortis dans le caisson
+  - Eteindre les postes informatiques, éteidnre l'imprimante
+  - Eteindre les lumières
+  - Fermer à clé les 2 portes
+  - Ranger la clef dans la boîte au 1<sup>er</sup>   étage
+
+
+===== Déroulement du service public =====
+
+L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, //etc.//). \\ La banque de renseignements est partagée avec les collègues de l'EHESP.
+
+==== Matériel à disposition de l'agent ====
+
+  * Caisson pour le matériel du GED
+  * Ordinateur portable - Mot de passe : Campus2020!
+  * Dossier Archives
+  * Classeurs contenant les fiches des documents prêtés
+
+
+==== Espaces ====
+
+{{:gedhm_espaces.png?nolink&|bouton détails}}
+
+Les **ouvrages réservés** par les lecteurs sont disposés sur une étagère près de la baie vitrée, en face du bureau.
+
+La **première table de lecture**, sous contrôle visuel, est réservée en priorité à la consultation des archives.
+
+Au fond de la salle de lecture, une petite salle est équipée de deux postes informatiques. Ils donnent accès aux catalogues du GED et de l'EHESP (via le navigateur //Internet Explorer//). Ces postes sont reliées à une **imprimante/photocopieuse**. Celle-ci est en libre-accès mais les lecteurs doivent apporter du papier.
+
+Un ordinateur est également mis à disposition pour la consultation des thèses électroniques de l’EHESS. Il est clairement identifié “thèses EHESS” et ne permet rien d’autre que la consultation des thèses électroniques (pas d’accès internet, pas de bureautique, pas de possibilité de brancher une clé usb).
+
+Les **archives **demandées en consultation et des **documents du PEB** sont stockés dans le local situé au fond de la salle informatique. Ce local n'est pas accessible aux lecteurs.
+
+
+==== Attitudes ====
+
+Pendant sa permanence, l’agent porte un badge qui rend explicite son rattachement au GED.
+
+**Dans sa fonction d'accueil, l'agent a accès, notamment par le compte lecteur, à des données personnelles.\\
+__Il est tenu de ne pas les communiquer__.**
+

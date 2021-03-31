@@ -141,6 +141,10 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
             if(empty($this->title)) {
                 $this->title = p_get_first_heading($ID);
             }
+            // use page name if title is still empty
+            if(empty($this->title)) {
+                $this->title = noNS($ID);
+            }
 
             $filename = wikiFN($ID, $REV);
             if(!file_exists($filename)) {
@@ -179,11 +183,19 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
             $dir = utf8_encodeFN(str_replace(':', '/', $pdfnamespace));
             search($result, $conf['datadir'], 'search_allpages', $opts, $dir);
 
+            // exclude ids
+            $excludes = $INPUT->arr('excludes');
+            if (!empty($excludes)) {
+                $result = array_filter($result, function ($item) use ($excludes) {
+                    return array_search($item['id'], $excludes) === false;
+                });
+            }
+
             //sorting
             if(count($result) > 0) {
                 if($order == 'date') {
                     usort($result, array($this, '_datesort'));
-                } elseif($order == 'pagename') {
+                } elseif ($order == 'pagename' || $order == 'natural') {
                     usort($result, array($this, '_pagenamesort'));
                 }
             }
@@ -396,6 +408,7 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
         $hasToC = $this->getExportConfig('hasToC');
         $levels = $this->getExportConfig('levels');
         $isDebug = $this->getExportConfig('isDebug');
+        $watermark = $this->getExportConfig('watermark');
 
         // initialize PDF library
         require_once(dirname(__FILE__) . "/DokuPDF.class.php");
@@ -427,6 +440,12 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
             $mpdf->h2toc = $levels;
         } else {
             $mpdf->PageNumSubstitutions[] = array('from' => 1, 'reset' => 0, 'type' => '1', 'suppress' => 'off');
+        }
+        
+        // Watermarker
+        if($watermark) {
+            $mpdf->SetWatermarkText($watermark);
+            $mpdf->showWatermarkText = true;
         }
 
         // load the template
@@ -683,7 +702,17 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
         $replace['@PAGEURL@'] = wl($id, $params, true, "&");
         $replace['@QRCODE@']  = $qr_code;
 
-        $content = str_replace(array_keys($replace), array_values($replace), $raw);
+        $content = $raw;
+
+        // let other plugins define their own replacements
+        $evdata = ['id' => $id, 'replace' => &$replace, 'content' => &$content];
+        $event = new Doku_Event('PLUGIN_DW2PDF_REPLACE', $evdata);
+        if ($event->advise_before()) {
+            $content = str_replace(array_keys($replace), array_values($replace), $raw);
+        }
+
+        // plugins may post-process HTML, e.g to clean up unused replacements
+        $event->advise_after();
 
         // @DATE(<date>[, <format>])@
         $content = preg_replace_callback(
@@ -832,12 +861,40 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
      * @return int
      */
     public function _pagenamesort($a, $b) {
-        // do not sort numbers before namespace separators
-        $aID = str_replace(':', '/', $a['id']);
-        $bID = str_replace(':', '/', $b['id']);
-        if($aID <= $bID) return -1;
-        if($aID > $bID) return 1;
-        return 0;
+        global $conf;
+
+        $partsA = explode(':', $a['id']);
+        $countA = count($partsA);
+        $partsB = explode(':', $b['id']);
+        $countB = count($partsB);
+        $max = max($countA, $countB);
+
+
+        // compare namepsace by namespace
+        for ($i = 0; $i < $max; $i++) {
+            $partA = $partsA[$i] ?: null;
+            $partB = $partsB[$i] ?: null;
+
+            // have we reached the page level?
+            if ($i === ($countA - 1) || $i === ($countB - 1)) {
+                // start page first
+                if ($partA == $conf['start']) return -1;
+                if ($partB == $conf['start']) return 1;
+            }
+
+            // prefer page over namespace
+            if($partA === $partB) {
+                if (!isset($partsA[$i + 1])) return -1;
+                if (!isset($partsB[$i + 1])) return 1;
+                continue;
+            }
+
+
+            // simply compare
+            return strnatcmp($partA, $partB);
+        }
+
+        return strnatcmp($a['id'], $b['id']);
     }
 
     /**
@@ -863,6 +920,8 @@ class action_plugin_dw2pdf extends DokuWiki_Action_Plugin {
 
         $doublesided = $INPUT->bool('doublesided', (bool) $this->getConf('doublesided'));
         $this->exportConfig['doublesided'] = $doublesided ? '1' : '0';
+        
+        $this->exportConfig['watermark'] = $INPUT->str('watermark', '');
 
         $hasToC = $INPUT->bool('toc', (bool) $this->getConf('toc'));
         $levels = array();

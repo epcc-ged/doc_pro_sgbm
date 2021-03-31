@@ -113,7 +113,7 @@ class action_plugin_ckgedit_save extends DokuWiki_Action_Plugin {
                     $TEXT
                  );
         }
-        
+  
         $TEXT = rawurldecode($TEXT);
         $TEXT = preg_replace('/NOWIKI_%_NOWIKI_%_/', '%%',$TEXT);
         $TEXT = preg_replace('/URLENC_PERCENT/', '%',$TEXT); 
@@ -177,6 +177,14 @@ class action_plugin_ckgedit_save extends DokuWiki_Action_Plugin {
             $TEXT = str_replace('L_PARgr', '(',$TEXT);
             $TEXT = str_replace('R_PARgr', ')',$TEXT);
        } 
+/*
+Restructure numbered syntax highlighting  13/09/2019
+*/
+$TEXT = preg_replace_callback("#<code\s+(\w+)>.*?(\[enable_line_numbers.*?\])\s*\*\/#ms",
+    function($matches) {
+        return '<code ' . $matches[1] .' ' . $matches[2] .'>';
+    }, $TEXT
+) ;
        
         $this->replace_entities();
  /*Remove urls from linkonly images inserted after second and additional saves, resulting in multiple urls  corrupting  HTML output */
@@ -190,7 +198,9 @@ class action_plugin_ckgedit_save extends DokuWiki_Action_Plugin {
                     if($this->helper->has_plugin('button') && strpos($matches[0], '[[{') === 0) {    
                         return $matches[0];
                     }
-                    if(preg_match('/(doku|this)\s*>/',$matches[0])) return $matches[0]; // exclude dokuwiki's wiki links
+                    if(preg_match('/[\w\.]+\s*>/',$matches[0])) {
+                        return $matches[0];
+                    }
 	 	             if(preg_match('/([\w\.\-]+@[\w\.\-]+\.\w{2,3})\?.*?\|\1/i',$matches[0])) {
                              return $matches[0];
                      }
@@ -227,14 +237,15 @@ class action_plugin_ckgedit_save extends DokuWiki_Action_Plugin {
                    }  
                    $tmp_ar = explode(':',$link_id);
                    $tmp_id = array_pop($tmp_ar);
-                   if(trim($linktext,'.: ' ) == trim($tmp_id,'.: ')) $linktext = "";
+                   if(!useHeading('content') && (trim($linktext,'.: ' ) == trim($tmp_id,'.: '))) 
+					   $linktext = "";
                               
                    $current_id = $current_id.'|'.$linktext;
                    return '[[' . $current_id .']]';
                },
            $TEXT
          );      
-         
+      
         if($this->getConf('rel_links')) {    
           $TEXT = preg_replace_callback(
            '#\{\{(\s*)(.*?)(\s*)\}\}#ms',
@@ -312,31 +323,41 @@ Removed newlines and spaces from beginnings and ends of text enclosed by font ta
     $TEXT = preg_replace_callback(  
          '#\|[\s\n]+(\<file.*?\>)(.*?)(\<\/file>\s*.*?)\n?\|#ms',   
          function($matches) {  
+            //$ret =  '</' . $matches[1] . '>' . str_replace('\\',"",$matches[2]) . '|'; 
              $matches[3]  = preg_replace('/\n+/',"",$matches[3] );
              $matches[3]  = preg_replace('/\s+$/',"",$matches[3] ) . '|';     
              return '|' . $matches[1]  . $matches[2]  . str_replace("\\ ","",$matches[3]);
          },
          $TEXT     
-    );      
+    );
+    
 
         /*  Feb 23 2019
 	remove spaces and line feeds between beginning of table cell and start of code block
 	*/
       $TEXT = preg_replace_callback(
        '#\|(.*?)[\s\n]+\<(code|file)\>#ms',  
-       function($matches) {  	      
-	   return '|' . $matches[1] .'<'. $matches[2] .'>';         
+       function($matches) { 
+	   return '|' . $matches[1] ."\n<". $matches[2] .'>' . "\n";         
        },$TEXT
        );
      /*remove line feeds following block */
-    $TEXT = preg_replace_callback(
-       '#\<\/(code|file)\>([\s\S]+)\|#ms',  
+    $TEXT = preg_replace_callback(     
+	   '#\<\/(code|file)\>([^\w\|]+)#ms', 
        function($matches) {  
-          $ret =  '</' . $matches[1] . '>' . str_replace('\\',"",$matches[2]) . '|';  
-          return $ret;  
+       $matches[2] = str_replace(':\\', '~~WIN__DIR~~',$matches[2]);     
+       $matches[2] = preg_replace('#([\w;.:=\:])\\\\#ms', "$1_bSL_",$matches[2]);  //protect backslashes in Windows paths
+       $ret = '</' . $matches[1] . '>' . str_replace("\\","",$matches[2]);  
+       $ret = str_replace( '_bSL_', '\\',$ret); 
+       $ret = str_replace( '~~WIN__DIR~~', ':\\',$ret); 
+          return "\n" .$ret;  
        },$TEXT
        ); 
-       
+	  $TEXT = str_replace('CBL__Bksl','\\',$TEXT);
+	  $TEXT = preg_replace("/<code\s+file/ms",'<code ',$TEXT);
+	  
+        $TEXT = preg_replace('#((\\\\){2}\s*)$#', "",$TEXT);
+        
          return;
     
     }

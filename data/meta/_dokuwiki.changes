@@ -1,22 +1,20 @@
-1600171505	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:principes	alybarella	[Horaires] 		-150
-1600939610	86.246.202.236	E	condorcet:acquisition:circuit-de-commande:start	nicomo			-5
-1601453099	194.57.102.1	E	condorcet:acquisition:reception-et-facturation:start	nicomo			-3
-1601643361	194.57.102.1	E	condorcet:acquisition:circuit-de-commande:start	caubree	[Notices : le point de départ d'une commande] 		283
-1601650441	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	cpedroja	[Les périodiques] 		-8
-1601650717	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives	cpedroja			2
-1601910494	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:communication-des-documents	cpedroja	[Communication des documents] 		0
-1601913499	194.254.171.10	E	condorcet-sp:permanence-ged-hors-les-murs:le-peb	cpedroja			2157
-1605201568	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		17
-1605202174	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		101
-1605202212	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-101
-1605202781	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		98
-1605203306	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		194
-1605203434	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Cataloguer et modifier l'exemplaire] 		-1026
-1605203460	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-660
-1605266049	109.221.208.223	E	condorcet:acquisition:start	caubree			71
-1605266508	109.221.208.223	E	condorcet:acquisition:start	caubree			0
-1605270042	109.221.208.223	E	condorcet:acquisition:start	caubree			-67
-1605270942	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Cas particuliers : annulation d'une réception] 		-691
-1605286687	109.221.208.223	E	condorcet:acquisition:reception-et-facturation:start	caubree	[Mettre en rayon] 		-89
-1605878239	88.120.46.143	E	condorcet:acquisition:start	jchiavassa			65
-1605878703	88.120.46.143	C	condorcet:acquisition:mise-en-rayon:start	jchiavassa	créée		6
+1615478393	134.158.39.70	E	contacts	lpages	[Autres contacts] 		29
+1615478413	134.158.39.70	E	contacts	lpages	[Autres contacts] 		88
+1615808322	134.158.39.70	E	contacts	lpages	[Autres contacts] 		47
+1615808345	134.158.39.70	E	contacts	lpages	[Autres contacts] 		48
+1615808384	134.158.39.70	E	contacts	lpages	[Autres contacts] 		44
+1615817919	134.158.39.70	E	contacts	lpages	[Service Accueil du public] 		7
+1615818133	134.158.39.70	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	lpages	[Catégories d'usagers] 		87
+1615818324	134.158.39.70	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	lpages	[Exceptions de circulation] 		307
+1615818393	134.158.39.70	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	lpages	[Exceptions de circulation] 		17
+1615819738	134.158.39.70	E	service_public	alybarella	[Les permanences du GED hors les murs] 		44
+1615917208	134.158.39.70	E	condorcet:acquisition:infrastructure:les-fournisseurs	caubree			168
+1615919407	134.158.39.70	E	condorcet:acquisition:infrastructure:les-fournisseurs	caubree			3
+1616687926	134.158.39.70	E	contacts	lpages	[Autres contacts] 		93
+1616687945	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-95
+1616688016	134.158.39.70	E	contacts	lpages	[Autres contacts] 		103
+1616688029	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-103
+1616688047	134.158.39.70	E	contacts	lpages	[Autres contacts] 		95
+1616688060	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-95
+1616688087	134.158.39.70	E	contacts	lpages	[Autres contacts] 		77
+1616688108	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-77

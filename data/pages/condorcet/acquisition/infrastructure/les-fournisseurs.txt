@@ -27,6 +27,8 @@ Tout fournisseur de matériel doit avoir au moins un //compte //rattaché. Cliqu
 
 Cliquez sur ''Sauvegarder''
 
+<font inherit/inherit;;#c0392b;;inherit>[Les paragraphes suivant sont en cours de refonte (en attente d'avoir réglé le problème d'envoi des bons de commandes)]</font>
+
 Vous êtes ramené à l'écran général de présentation du fournisseur. Dans l'onglet **Contacts**, il faut ajouter au moins 1 contact avec un email qui recevra les bons de commande. Cliquez sur ''Ajouter''  et saisissez les informations pertinentes dans le formulaire : prénom, nom, langue de communication préférée.
 
 Cliquez sur ''Sauvegarder''  et accéder à l'onglet **Informations de contact**  pour pouvoir ajouter au moins une adresse email, et éventuellement une adresse postale et un numéro de téléphone. Dans **adresses e-mail**, cliquez sur ''ajouter une adresse e-mail''. Dans les types d'adresse, cochez les cases pertinentes, dont au moins ''commande''. Saisissez l'adresse email et cliquez sur ''ajouter et fermer''. Cliquez sur ''enregistrer''  dans la page générale du fournisseur.

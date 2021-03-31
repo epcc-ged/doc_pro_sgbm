@@ -125,14 +125,14 @@ function parse_wikitext(id) {
          'h1': "\n====== ", 'h2': "\n===== ", 'h3': "\n==== ", 'h4': "\n=== ", 'h5': "\n== ",
          'td': "|", 'th': "^", 'tr':" ", 'table': "\n\n", 'ol':"  - ", 'ul': "  * ", 'li': "",
          'code': "\'\'",'pre': "\n<", 'hr': "\n\n----\n\n", 'sub': '<sub>',         
-         'font': "",
+         'font': "",'blockquote': '<blockquote>',
          'sup': '<sup>', 'div':"\n\n", 'span': "\n", 'dl': "\n", 'dd': "\n", 'dt': "\n"
      };
     var markup_end = { 'del': '</del>', 's': '</del>', 'strike': '</del>', 'p': " ", 'br':" ", 'a': ']]','img': '\}\}',
           'h1': " ======\n", 'h2': " =====\n", 'h3': " ====\n", 'h4': " ===\n", 'h5': " ==\n", 
           'td': " ", 'th': " ", 'tr':"|\n", 'ol':" ", 'ul': " ", 'li': "\n",
            'pre': "\n</",'sub': '</sub>', 'sup': '</sup> ', 'div':"\n\n", 'p': "\n\n",
-           'font': "</font>", 'span': " ",
+           'font': "</font>", 'span': " ",'blockquote': '</blockquote>',
      }; 
    
     markup['temp_u'] = "CKGE_TMP_u";
@@ -262,9 +262,8 @@ function parse_wikitext(id) {
     },
     is_iwiki: function(class_name, title) {
                     var iw_type = class_name.match(/iw_(\w+\.?\w{0,12})/);                    
-					 var iw_title = title.split(/\//);
-                     var interwiki_label = iw_title[iw_title.length-1];
-                    interwiki_label = interwiki_label.replace(String.frasl,"\/");    
+					var iw_title = title.split(/\/\//);
+                    var interwiki_label = iw_title[iw_title.length-1];
                     if(!interwiki_label.match(/oIWIKIo.*?cIWIKIc/)) {
                        interwiki_label = 'oIWIKIo'  + interwiki_label + 'cIWIKIc';
                     }
@@ -1148,7 +1147,7 @@ function parse_wikitext(id) {
                if(!this.attr) this.attr = 'code';          
                results += this.attr + '>'; 
                this.downloadable_file = "";
-               this.downloadable_code = false;
+               this.downloadable_code = false;			   
           }
 
         }   // if markup tag
@@ -1287,7 +1286,7 @@ function parse_wikitext(id) {
     }
     else if(tag == 'pre') {
           tag = markup_end[tag];
-          if(this.code_type) {        
+          if(this.code_type) {  
            tag += this.code_type + ">"; 
           }
           else {
@@ -1403,16 +1402,19 @@ function parse_wikitext(id) {
 
     chars: function( text ) {
 	text = text.replace(/\t/g,"    ");
-   
+	if(this.code_type == 'code'){ 
+	   text = text.replace(/(\n?|\s+)\\/gm,"$1CBL__Bksl");
+   }
     if(text.match(/~~START_HTML_BLOCK~~/)) {          
          text = text.replace(/~~START_HTML_BLOCK~~\n*/, "~~START_HTML_BLOCK~~\n<code>\n");
     }
     if(text.match(/~~CLOSE_HTML_BLOCK~~/)) {      
        text = text.replace(/~~CLOSE_HTML_BLOCK~~\n*/gm, "\n</code>\n\n~~CLOSE_HTML_BLOCK~~\n\n");
-    }   
+    } 
     
+   /*interwiki frasl refactoring*/
     if(this.interwiki) {
-       text = text.replace(String.frasl,"\/");  
+   //    text = text.replace(String.frasl,"\/");  
     }
 	if(this.interwiki && results.match(/>\w+\s*\|$/)) 	{	 
 	    this.interwiki=false;
@@ -1431,7 +1433,8 @@ function parse_wikitext(id) {
      text = text.replace(/^(&gt;)+/,function(match,quotes) {
          return(match.replace(/(&gt;)/g, "\__QUOTE__")) ;         
      }
-     );     
+     );  
+     text = text.replace(/&not;ags/g, '&notags'); //replace &not entity in include notags param	 
       //adjust spacing on multi-formatted strings
     results=results.replace(/([\/\*_])_FORMAT_SPACE_([\/\*_]{2})_FORMAT_SPACE_$/,"$1$2@@_SP_@@");   
     if(text.match(/^&\w+;/)) {
@@ -1472,7 +1475,7 @@ function parse_wikitext(id) {
         }
 
        if(this.in_td && !text) {
-           text = "_FCKG_BLANK_TD_";
+     //      text = "_FCKG_BLANK_TD_";
            this.in_td = false;
        }
     }
@@ -1648,6 +1651,7 @@ results = results.replace(/(\s*={2,})(.*?)(\[\[|\{\{)(.*?)(\]\]|\}\})(.*?)\1/gm,
     }
    
 	results = results.replace(/\{ \{ rss&gt;Feed:/mg,'{{rss&gt;http://');
+	results = results.replace(/\{ \{ rss&gt;sFeed:/mg,'{{rss&gt;https://')
     results = results.replace(/~ ~ (NOCACHE|NOTOC)~ ~/mg,'~~'+"$1"+'~~');
     if(HTML_InterWiki) {
              var ReplaceLinkMatch = function(tag, link) {
@@ -1711,13 +1715,21 @@ results = results.replace(/(\s*={2,})(.*?)(\[\[|\{\{)(.*?)(\]\]|\}\})(.*?)\1/gm,
          }
     }
 
-         /* fix for links in lists, at ends of lines, which cause loss of line-feeds */
+         /* Fixes for links in lists*/
      if(HTMLLinkInList) {
+     /*fix for links in lists at ends of lines, which cause loss of line-feeds 
          results = results.replace(/(\]\]|\}\})(\s+)(\*|-)/mg,
                  function(match,link,spaces,type) {                
                   spaces =  spaces.replace(/\n/,"");              
                  return (link + "\n" + spaces+type);
            });      
+         /*fix for links in lists before ends of lines, which cause extra  line-feeds */
+            results = results.replace(  /(\*|-).*?(\[\[|\{\{).*?(\]\]|\}\})([\s\w\/\-\x3A-\x40\x5B-\x60\x7B-\x7F,;\>\<\&]+)\n\n/mg,
+                 function(all,type,b,c,tail) {    
+                  all = all.replace(/[\n]$/,"");                       
+			      return (all);
+           }); 
+           
     }
     
     var line_break_final = "\\\\";   
@@ -1949,9 +1961,9 @@ jQuery( "#ebtn__dwedit" ).click(function() {
 
 jQuery("#ebtn__fbswitch").click(function(){
     if(getCookie('ckgFbOpt') == 'dokuwiki') {
-        document.cookie = 'ckgFbOpt=ckgedit;';
+        document.cookie = 'ckgFbOpt=ckgedit;SameSite=Lax';
     } else {
-        document.cookie = 'ckgFbOpt=dokuwiki;';
+        document.cookie = 'ckgFbOpt=dokuwiki;SameSite=Lax';
     }
     parse_wikitext('edbtn__save');
    this.form.submit();
@@ -1975,6 +1987,8 @@ jQuery( "#no_styling_btn" ).click(function() {
 });
 
 jQuery( "#ebut_cancel" ).mouseup(function() { 
+   if( this.form.template && this.form.template.value == 'tpl' ) return;
+   if(window.dwfckTextChanged) return;
    draft_delete();
 });
 jQuery( "#save_button" ).mousedown(function() { 

@@ -6,8 +6,9 @@
 
 <WRAP center round info 60%> Documentation professionnelle du Grand Equipement Documentaire du Campus Condorcet. </WRAP>
 
-Depuis cette page, vous pouvez accéder à :
+Depuis cette page, vous pouvez accéder à documentation suivante :
 
-  * la [[:condorcet:start|documentation Alma du GED]] ;
-  * la [[:condorcet-sp:start|documentation service public]].
+  * [[:condorcet:start|Alma du GED]]
+  * [[:service_public|Service public]]
+  * [[:condorcet-sp:glpi|Réponses à distance (GLPI)]]
 

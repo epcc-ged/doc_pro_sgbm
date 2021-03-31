@@ -1,0 +1,105 @@
+<a name="inscriptions_et_droits_de_pret__"></a>
+<h1><bookmark content="Inscriptions et droits de prêt" level="0" /><a name="inscriptions_et_droits_de_pret__inscriptions_et_droits_de_pret">Inscriptions et droits de prêt</a></h1>
+<div class="level1">
+
+<p>
+Les droits et durée de prêt dépendent du statut du lecteur. Ils apparaissent automatiquement dans Alma lorsque le lecteur est inscrit.
+</p>
+
+<p>
+La communication de documents n&#039;est possible que si le lecteur est inscrit. Plusieurs cas de figure sont possibles et explicités ci-après.
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=783&amp;h=439&amp;tok=76bd15&amp;media=ged_cat_usagers.png" class="media" title="bouton détails" alt="bouton détails" width="783" height="439" />
+</p>
+
+</div>
+
+<h2><bookmark content="Lecteurs inscrits par défaut" level="1" /><a name="inscriptions_et_droits_de_pret__lecteurs_inscrits_par_defaut">Lecteurs inscrits par défaut</a></h2>
+<div class="level2">
+
+<p>
+Ces lecteurs sont inscrits dans le référentiel d’identités du Campus Condorcet, et grâce à cela, sont inscrits automatiquement dans Alma.
+</p>
+
+</div>
+
+<h3><bookmark content="Résidents du campus" level="2" /><a name="inscriptions_et_droits_de_pret__residents_du_campus">Résidents du campus</a></h3>
+<div class="level3">
+
+<p>
+Personnes (chercheurs, administratifs) installées, ou en passe de l&#039;être, dans un des bâtiments du Campus Condorcet.<br/>
+
+<strong>Sélectionner “Compte Campus”</strong> au moment de la connexion.<br/>
+
+<strong>Connexion avec leur compte institutionnel</strong> (EHESS, Ined, université Paris 10, etc.).
+</p>
+
+</div>
+
+<h3><bookmark content="Etudiants EHESS, EPHE et Paris 3 (université Sorbonne Nouvelle)" level="2" /><a name="inscriptions_et_droits_de_pret__etudiants_ehess_ephe_et_paris_3_universite_sorbonne_nouvelle">Etudiants EHESS, EPHE et Paris 3 (université Sorbonne Nouvelle)</a></h3>
+<div class="level3">
+
+<p>
+Pour les étudiants de l’EHESS et l’EPHE, un formulaire d’inscription est disponible depuis leur ENT.<br/>
+
+Pour les étudiants de Paris 3, c’est la scolarité de l’IHEAL qui les inscrit dans le référentiel.
+</p>
+
+<p>
+<strong>Sélectionner “Compte Campus”</strong> au moment de la connexion.<br/>
+
+<strong>Connexion avec leur compte institutionnel</strong> (EHESS, EPHE, Paris 3).
+</p>
+
+</div>
+
+<h2><bookmark content="Lecteurs non-inscrits automatiquement" level="1" /><a name="inscriptions_et_droits_de_pret__lecteurs_non-inscrits_automatiquement">Lecteurs non-inscrits automatiquement</a></h2>
+<div class="level2">
+
+<p>
+Ces lecteurs ne sont pas inscrits dans le référentiel d’identités du Campus Condorcet, et doivent donc être inscrits manuellement dans Alma.<br/>
+
+Si besoin, demander une carte professionnelle ou d’étudiant.
+</p>
+
+<p>
+Une fois inscrits, ces lecteurs :
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>doivent choisir pour se connecter “Compte GED”</strong></div>
+</li>
+<li class="level1"><div class="li"> n’ont <strong>pas accès aux ressources électroniques à distance</strong>  (en dehors du GED)</div>
+</li>
+</ul>
+
+</div>
+
+<h3><bookmark content="Etudiants du master histoire ou géographie de Paris 1 et du master de Paris 3" level="2" /><a name="inscriptions_et_droits_de_pret__etudiants_du_master_histoire_ou_geographie_de_paris_1_et_du_master_de_paris_3">Etudiants du master histoire ou géographie de Paris 1 et du master de Paris 3</a></h3>
+<div class="level3">
+
+<p>
+Inscription <a href="/doc_pro_sgbm/doku.php?id=condorcet:circulation:inscriptions-et-categories-d-usagers" class="wikilink1" title="condorcet:circulation:inscriptions-et-categories-d-usagers" data-wiki-id="condorcet:circulation:inscriptions-et-categories-d-usagers">manuelle dans Alma</a> avec les droits de Masters résident (CU2).
+</p>
+
+</div>
+
+<h3><bookmark content="Autres" level="2" /><a name="inscriptions_et_droits_de_pret__autres">Autres</a></h3>
+<div class="level3">
+
+<p>
+Inscription manuelle dans Alma selon le statut (voir ci-avant le tableau récapitulatif des catégories d&#039;usagers). <br/>
+Ces catégories de lecteurs peuvent uniquement consulter les documents sur place.
+</p>
+
+</div>
+
+<h3><bookmark content="Un lecteur estime ne pas être dans la bonne catégorie de lecteurs ?" level="2" /><a name="inscriptions_et_droits_de_pret__un_lecteur_estime_ne_pas_etre_dans_la_bonne_categorie_de_lecteurs">Un lecteur estime ne pas être dans la bonne catégorie de lecteurs ?</a></h3>
+<div class="level3">
+
+<p>
+Le référentiel du Campus Condorcet est alimenté par les différents établissements membres. Ce sont eux qui déterminent l&#039;appartenance aux différentes catégories. Se rapprocher de leur établissement (scolarité, administration).
+</p>
+
+</div>

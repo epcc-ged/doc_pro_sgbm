@@ -108,19 +108,3 @@ Il convient de modifier 2 informations d'exemplaire pour pouvoir poursuivre le c
 
   * //Localisation détentrice //: au moment de la commande, elle a été positionnée à //Bureaux du GED//  par défaut. Il faut choisir dans quelle destination finale le document va être rangé, par ex. //GED: Pôle C-Monographies (C-MONOGRAP)//
   * //Code-barres//: au moment de la commande, Alma génère un code-barres fictif de la forme EPCC-12345. Nous avons choisi d'équiper nos documents d'étiquettes RFID pré-encodées avec un code-barres de la forme GED12345 imprimé au dos. Il faut coller l'étiquette et remplacer dans l'exemplaire Alma le code-barres fictif par la valeur du code-barres réel.
-===== Mettre en rayon =====
-
-Les exemplaires réceptionnés et équipés sont mis en rayon depuis la Localisation « GED-Acquisition ». Pour procéder à cette opération, il convient donc de sélectionner ''GED-Acquisition'' dans le menu de localisation.
-
-La mise en rayon se fait par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires :**
-
-{{:condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq2.png?nolink&761x364}}
-
-  * //Imprimer automatiquement l'avis//  : non
-  * //Changer le statut en//  : sélectionner en bas du menu déroulant la ligne vide (sous Temp Storage)
-  * Effectué : Oui
-  * //Scanner le code-barres de l'exemplaire et valider en cliquant sur OK//
-//{{:condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq3.png?nolink&642x348}}//
-
-Ainsi l'exemplaire est mis en : //Exemplaire en rayon//.
-

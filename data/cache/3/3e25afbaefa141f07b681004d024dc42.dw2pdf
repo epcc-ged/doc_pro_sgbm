@@ -1,0 +1,81 @@
+<a name="condorcetacquisitionmise-en-rayonstart__"></a>
+<h2><bookmark content="Mettre en rayon" level="1" /><a name="condorcetacquisitionmise-en-rayonstart__mettre_en_rayon">Mettre en rayon</a></h2>
+<div class="level2">
+
+<p>
+Les exemplaires réceptionnés et équipés sont mis en rayon en deux étapes :
+</p>
+
+<p>
+- La 1ère depuis la localisation du compte en « <code>GED-Acquisition</code> » : elle permet de terminer le “Traitement interne” du Département Acquisition<br/>
+
+- La 2de depuis la localisation du compte en « <code>GED-Accueil</code>» : elle permet de rendre le document disponible pour le lecteur.
+</p>
+
+</div>
+
+<h3><bookmark content="Attention particulière sur la localisation du compte" level="2" /><a name="condorcetacquisitionmise-en-rayonstart__attention_particuliere_sur_la_localisation_du_compte">Attention particulière sur la localisation du compte</a></h3>
+<div class="level3">
+
+<p>
+Ces changements de localisations se font en haut à droite. Pour la rendre visible sur Alma cliquer sur “Toujours afficher la localisation actuel”
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=531&amp;h=259&amp;tok=f6bfe1&amp;media=condorcet:acquisition:reception-et-facturation:localisationducompte22021-01-08182438.png" class="media" alt="" width="531" height="259" />
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=355&amp;h=503&amp;tok=32beb4&amp;media=condorcet:acquisition:reception-et-facturation:localisationcompte32021-01-08182922.png" class="media" alt="" width="355" height="503" />
+</p>
+
+</div>
+
+<h3><bookmark content="1ère étape : localiser son compte en GED-Acquisition" level="2" /><a name="condorcetacquisitionmise-en-rayonstart__ere_etapelocaliser_son_compte_en_ged-acquisition">1ère étape : localiser son compte en GED-Acquisition</a></h3>
+<div class="level3">
+
+<p>
+Puis par le menu <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires :</strong>
+</p>
+
+<p>
+<img src="/doc_pro_sgbm/lib/exe/fetch.php?w=761&amp;h=364&amp;tok=d994b7&amp;media=condorcet:acquisition:reception-et-facturation:scannerexemplaire2021-01-07170637.png" class="media" alt="" width="761" height="364" />
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Imprimer automatiquement l&#039;avis</em>  : non</div>
+</li>
+<li class="level1"><div class="li"> <em>Changer le statut en</em>  : sélectionner en bas du menu déroulant la ligne vide (sous Temp Storage)</div>
+</li>
+<li class="level1"><div class="li"> Effectué : Oui</div>
+</li>
+<li class="level1"><div class="li"> <em>Scanner le code-barres de l&#039;exemplaire et valider en cliquant sur OK</em> <em><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=642&amp;h=348&amp;tok=ad74ac&amp;media=condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq3.png" class="media" alt="" width="642" height="348" /></em></div>
+</li>
+</ul>
+
+<p>
+Ainsi l&#039;exemplaire sort du “Traitement interne” et son statut devient en “Transit”.
+</p>
+
+</div>
+
+<h3><bookmark content="2de étape    : localiser son compte en   GED-Accueil" level="2" /><a name="condorcetacquisitionmise-en-rayonstart__de_etapelocaliser_son_compte_en_ged-accueil">2de étape    : localiser son compte en   GED-Accueil</a></h3>
+<div class="level3">
+
+<p>
+Puis par le même menu : <strong>Acquisitions &gt; Traitement après réception &gt; Scanner des exemplaires :</strong>
+</p>
+
+<p>
+<strong><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=625&amp;h=349&amp;tok=27b727&amp;media=condorcet:acquisition:reception-et-facturation:annotation2021-01-08184616.png" class="media" alt="" width="625" height="349" /></strong>
+</p>
+<ul>
+<li class="level1"><div class="li"> <em>Scanner le code-barres de l&#039;exemplaire et valider en cliquant sur OK</em></div>
+</li>
+</ul>
+
+<p>
+Cette seconde étape permet de mettre le statut de l&#039;exemplaire “En rayon” <br/>
+(si vous n&#039;aviez pas fait la 1ère étape, l&#039;exemplaire passerait “En transit” car le “Traitement interne” n&#039;aurait pas été à son terme).
+</p>
+
+</div>

@@ -1,2 +1,35 @@
-Toto
+===== Mettre en rayon =====
+
+Les exemplaires réceptionnés et équipés sont mis en rayon en deux étapes :
+
+- La 1ère depuis la localisation du compte en « ''GED-Acquisition'' » : elle permet de terminer le "Traitement interne" du Département Acquisition\\
+- La 2de depuis la localisation du compte en « ''GED-Accueil''» : elle permet de rendre le document disponible pour le lecteur.
+==== Attention particulière sur la localisation du compte ====
+
+Ces changements de localisations se font en haut à droite. Pour la rendre visible sur Alma cliquer sur "Toujours afficher la localisation actuel"
+
+{{:condorcet:acquisition:reception-et-facturation:localisationducompte22021-01-08182438.png?nolink&531x259}}
+
+{{:condorcet:acquisition:reception-et-facturation:localisationcompte32021-01-08182922.png?nolink&355x503}}
+
+==== 1ère étape : localiser son compte en GED-Acquisition ====
+
+Puis par le menu **Acquisitions > Traitement après réception > Scanner des exemplaires :**
+
+{{:condorcet:acquisition:reception-et-facturation:scannerexemplaire2021-01-07170637.png?nolink&761x364}}
+
+  * //Imprimer automatiquement l'avis//  : non
+  * //Changer le statut en//  : sélectionner en bas du menu déroulant la ligne vide (sous Temp Storage)
+  * Effectué : Oui
+  * //Scanner le code-barres de l'exemplaire et valider en cliquant sur OK// //{{:condorcet:acquisition:reception-et-facturation:scannerexemplaireged-acq3.png?nolink&642x348}}//
+Ainsi l'exemplaire sort du "Traitement interne" et son statut devient en "Transit".
+
+
+====     2de étape    : localiser son compte en   GED-Accueil   ====
+
+Puis par le même menu : **Acquisitions > Traitement après réception > Scanner des exemplaires :**
+
+**{{:condorcet:acquisition:reception-et-facturation:annotation2021-01-08184616.png?nolink&625x349}}**
+  * //Scanner le code-barres de l'exemplaire et valider en cliquant sur OK//
+Cette seconde étape permet de mettre le statut de l'exemplaire "En rayon" \\ (si vous n'aviez pas fait la 1ère étape, l'exemplaire passerait “En transit” car le “Traitement interne” n'aurait pas été à son terme).
 

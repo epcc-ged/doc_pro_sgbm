@@ -19,3 +19,5 @@ mhgatto:$1$xa2eJeML$w1L3c9AgDeOF4l7E0DhJ5/:Marie-Hélène Gatto:marie-helene.gat
 caubree:$1$NllinLrQ$u/TsQGtFYpuIlyKQa/04x1:Christine Aubrée:christine.aubree@campus-condorcet.fr:user
 cpedroja:$1$U5rGjBwU$uF4Gt4y5ophTDu9nTPaDr1:Cynthia Pedroja:cynthia.pedroja@campus-condorcet.fr:user
 alybarella:$1$epg053H0$GH17b8uB8V7L3NqgSJHRT0:Alicia León y Barella:alicia.leon-y-barella@campus-condorcet.fr:user
+lpages:$2y$10$e4TT05CwHfaiVTavMAVIcOF5LLphEwHthEpN.u5eGsxRlVU9hXgQO:Laura Pages:laura.pages@campus-condorcet.fr:user
+asaintmarc:$2y$10$qXHyXdCe2nVaUUYNEUsJ5uNpfnU7Jxn5oNHndoTvC2n4CsDZWGmhi:Amélie Saint-Marc:amelie.saint-marc@campus-condorcet.fr:user

@@ -17,7 +17,6 @@ Les lecteurs sont prévenus par mail dès que les documents sont disponibles dan
 
 Les ouvrages sont mis de côté pendant 10 jours. La date peut-être prolongée si besoin.
 
-
 ====== Consultation sur place ======
 
 Certains documents sont exclus du prêt : documents cotés réserve ou manifestement trop fragiles, thèses et mémoires. La mention est inscrite sur la fiche qui accompagne le livre.
@@ -31,7 +30,6 @@ Les archives sont également communiquées sur place, selon les modalités déta
 ====== Les périodiques ======
 
 Les établissements ont eu des pratiques très variées pour gérer les périodiques. L'identification des exemplaires dans le catalogue est difficile. Il faut demander au lecteur de compléter sa demande en indiquant Année ou/et numéro dans la zone Note.
-
 
 ====== Les prêts de documents ======
 

@@ -1,6 +1,6 @@
 
 
-  - [[:condorcet-sp:permanence-ged-hors-les-murs:principes|Principes]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:principes|Principes et espaces]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:organisation-materielle|Organisation matérielle]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:les_espaces|Les espaces]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:outils-professionnels|Outils professionnels]]
@@ -10,7 +10,8 @@
   - [[:condorcet-sp:permanence-ged-hors-les-murs:consultation-des-archives|Consultation des archives]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:consultation-des-ressouces-electroniques|Consultation des ressources électroniques]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:le-peb|Le PEB]]
-  - [[:condorcet-sp:permanence-ged-hors-les-murs:Réponses à distance|]]
+  - [[:condorcet-sp:permanence-ged-hors-les-murs:reponses_a_distance|Réponses à distance]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:procedures-de-securite|Procédures de sécurité]]
   - [[:condorcet-sp:permanence-ged-hors-les-murs:contacts|Contacts]]
+  - Dons
 

@@ -9,8 +9,8 @@ Les catégories sont les suivantes :
   * CU1 : Résidents D+ : doctorants et chercheurs résidents du Campus venant des établissements membres. Inclus les personnels du Campus Condorcet. Ces comptes sont pré-chargés dans Alma par le référentiel d'identité, et ne devraient pas être créés à la main.
   * CU2 : Résidents M : masterants résidents du Campus venant des établissements membres, càd :
       * Masters de l'IHEAL (Paris 3): la liste des étudiants est disponible sur le poste de service public
-      * Masters d'Histoire de Paris 1 : mention UFR09 sur la carte d'étudiant
-      * Masters de Géographie de Paris 1 : mention UFR08 sur la carte d'étudiant
+      * Masters d'Histoire de Paris 1 : mention UFR09 sur la carte d'étudiant ou vérification sur l'annuaire de Paris 1
+      * Masters de Géographie de Paris 1 : mention UFR08 sur la carte d'étudiant ou vérification sur l'annuaire de Paris 1
       * Masters de l'EPHE
       * Masters de l'EHESS
       * Masters de l'ENC
@@ -18,6 +18,7 @@ Les catégories sont les suivantes :
   * CU4 : Etudiants M+ membres non résidents : masterants ou doctorants non résidents venant des établissements membres
   * CU5 : M+ non-membres : masterants, doctorants ou chercheurs et autres profils académiques venant d'un établissement non-membre
   * CU6 : Autres : personnes ne venant pas d'un établissement membre et n'ayant pas de profil académique, ou étudiant de niveau L.
+
 
 ==== Droits de prêt ====
 
@@ -45,11 +46,12 @@ Le principe au GED est que tous les documents du libre-accès ou au CTLES sont p
 
 Néanmoins, quelques exceptions existent :
 
-  * les nouveautés (monographies, périodiques) ne sont pas prêtables
-  * les usuels ne sont pas prêtables
-  * Les documents de la réserve ne sont pas prêtables. De plus, ils doivent être consultés dans une salle réservée à cet effet.
-
+  * **Les thèses et mémoires**  ne sont pas prêtables et font l'objet d'une consultation sur place
+  * **Les documents de la réserve **ne sont pas prêtables. De plus, ils doivent être consultés dans une salle réservée à cet effet
+  * **Les archives **ne sont pas prêtables. De plus, ils doivent être consultés dans une salle réservée à cet effet
+  * **Les ouvrages considérés en trop mauvais état**  par le Service Accueil du public ou le Service des entrées et de la conservation ne sont pas prêtables et font l'objet d'une consultation sur place
 Il existe une exception générique "autre exception de prêt" qui permet au besoin d'exclure un document du prêt.
+
 
 ==== Gestion des retours et des rappels anticipés ====
 

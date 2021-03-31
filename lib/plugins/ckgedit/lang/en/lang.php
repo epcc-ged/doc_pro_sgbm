@@ -45,7 +45,6 @@ $lang['btn_title_dw_fb'] = "Save and close the editor and switch to the DW Fileb
 $lang['btn_title_ckg_fb'] = "Save and close the editor and switch to the CKG Filebrowser";
 $lang['formatdel'] = 'Markup removed from headers(s): not supported by Dokuwiki';
 $lang["fontdel"] ='Font Markup removed from link(s): not supported by Dokuwiki';
-$lang["ckgcke_conflict"] ='A copy of ckgedit has been detected.  Either ckgedit or ckgedit must be disabled.';
 $lang["ws_cantcopy"] ='For winstyle setup: cannot copy to ';
 $lang["ws_copiedhtaccess"]='For winstyle setup, copied security-enabled .htaccess to data/media' ."\n" .'See ckgedit/fckeditor/userfiles/.htacess.security';
 $lang["userfiles_perm"] ='Please check permissions; ckgedit cannot access ';
@@ -65,5 +64,17 @@ $lang['js']['off'] ='off';
 $lang['broken_image'] = "Use the imagePaste plugin with the Dokuwiki Mediamanager or try the MS Word Paste Tool.  Raw data of Ctrl-v images  over 2.5M can hang. This image is: " ; 
 $lang['js']['broken_image_1'] = "Use the imagePaste plugin with the Dokuwiki Mediamanager or try the MS Word Paste Tool.";
 $lang['js']['broken_image_2'] =  "Ctrl-v images with raw data over 2.5M can hang. This image is: " ; 
-
+$lang['menu'] = 'CKEditor editor CSS tool'; 
+$lang['default_stylesheet']  = 'Create a style sheet for the current template';
+$lang['alt_stylesheet']  = 'Create a stylesheet for another template'; 
+$lang['style_sheet'] = 'Create Style sheet';
+$lang['style_sheet_msg'] = 'Creating Style sheet for the current template:';
+$lang['alt_style_sheet_msg'] = 'Creating Style sheet for:';
+$lang['checkbox'] = 'Copy to ckeditor/css';
+$lang['stylesheet_oinfo'] = 'Info';
+$lang['stylesheet_cinfo'] = 'Close Info';
+$lang['js']['stylesheet_oinfo'] = 'Info';
+$lang['js']['stylesheet_cinfo'] = 'Close Info';
+$lang['js']['lock_msg'] = "Your lock for editing this page is about to expire in one minute\n";
+$lang['js']['willexpire']      = 'Your lock for editing this page is about to expire in a minute.\nTo avoid conflicts use the backup button to reset the locktimer.';
 

@@ -1,21 +1,37 @@
-====== Gestion des grilles et permanences ======
+====== Fonctionnement ======
 
-<font 11pt/inherit;;inherit;;inherit>Tous les agents du Grand équipement documentaire participent aux permanences d’accueil et de renseignement du public. Chaque agent est responsable des permanences qui lui sont attribuées : en cas d’absence ou d’indisponibilité, il organise son remplacement et inscrit l’échange dans le planning, disponible sur Zimbra. Une réunion hebdomadaire est prévue à cet effet, cependant des échanges de dernière minute sont toujours possibles. Ils doivent être inscrits dans le planning.</font>
+Tous les agents du GED participent aux permanences d’accueil et de renseignement du public.\\
+Chaque agent est responsable des permanences qui lui sont attribuées. En cas d’absence ou d’indisponibilité :
 
-<font 11pt/inherit;;inherit;;inherit>En cas d'impossiblité majeure et de dernière minute, l’agent, s’il est de permanence dans la journée, doit en informer Laura, Marie-Hélène ou Sandrine.</font>
+  * organiser son remplacement
+  * inscrire l’échange dans le planning ([[https://webmail.campus-condorcet.fr|Webmail]], Calendrier //Service public de Sandrine Coll//)
+  * envoyer un mail à [[amelie.saint-marc@campus-condorcet.fr|Amélie Saint-Marc]] (gestionnaire du service public)
 
-====== Horaires ======
+Une <font inherit/inherit;;inherit;;#f1c40f>réunion hebdomadaire est prévue à cet effet</font>, cependant des échanges de dernière minute sont toujours possibles. Ils doivent être inscrits dans le planning.
 
-<font 11pt/inherit;;inherit;;inherit>Les permanences d’accueil du GED hors les murs sont prévues du **lundi au vendredi **de** 10 h 30 à 18 h 30. **</font>
+En cas d'impossiblité majeure et de dernière minute, l’agent, s’il est de permanence dans la journée, doit en informer
 
+  * <font 11pt/inherit;;inherit;;#f1c40f>Laura : mail + téléphone</font>
+  * <font 11pt/inherit;;inherit;;#f1c40f>ou Marie-Hélène : mail + téléphone</font>
+  * <font 11pt/inherit;;inherit;;#f1c40f>ou Sandrine : mail + téléphone</font>
 
-<font 11pt/inherit;;inherit;;inherit>L'accès au bâtiment de la MSH Paris Nord (et de la bibliothèque) est possible jusqu'à 18 h 30.</font>
+====== Ouverture au public ======
 
-Les horaires sont susceptibles de varier en fonction des besoins. Pendant la période du GED Hors les murs, les agents du GED peuvent effectuer leurs permanences seuls ou aux côtés d’une collègue de l’EHESP.
+Les permanences d’accueil du GED hors les murs sont prévues du **lundi au vendredi **de** 10 h 30 à 18 h 30. ** \\
+L'accès au bâtiment de la MSH Paris Nord (et de la bibliothèque) est possible jusqu'à 18 h 30. \\
+En cas de circonstances exceptionnelles les horaires sont susceptibles de varier (ex. : restrictions sanitaires, problème dans la salle, événement, //etc.//).
 
-<font 11pt/inherit;;inherit;;inherit>L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, etc.)</font>
+L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, //etc.//)
 
-<font 11pt/inherit;;inherit;;inherit>Lors de la première permanence, notamment si la collègue de l'EHESP n'est pas là, il faut allumer les postes informatiques et l'imprimante. À la fin de la dernière permanence</font>, l'agent s'assure que tous les lecteurs sont partis, avant d'éteindre les postes informatiques, l'imprimante, les lumières et de fermer à clé. La clé est rangée dans le coffre à clés du 1er étage.
+<font 11pt/inherit;;inherit;;inherit>Lors de la première permanence, notamment si la collègue de l'EHESP n'est pas là, il faut</font>
+
+  - <font 11pt/inherit;;inherit;;inherit>allumer les postes informatiques et l'imprimante</font>- <font 11pt/inherit;;inherit;;inherit>ouvrir Alma</font>
+
+<font 11pt/inherit;;inherit;;inherit>À la fin de la dernière permanence</font>, l'agent doit :
+
+  - s'assurer que tous les lecteurs sont partis
+  - éteindre les postes informatiques, l'imprimante, les lumières
+  - fermer à clé les 2 portes. La clé est rangée dans le coffre à clés du 1er étage
 
 ====== Attitudes ======
 

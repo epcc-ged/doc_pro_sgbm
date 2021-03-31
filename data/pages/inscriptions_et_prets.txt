@@ -1,0 +1,67 @@
+====== Inscriptions et droits de prêt ======
+
+La communication de documents n'est possible que si le lecteur est inscrit. Plusieurs cas de figure sont possibles :
+
+===== Inscrits par défaut =====
+
+  * Résidents du campus : personnes (chercheurs, administratifs) installées, ou en passe de l'être, dans un des bâtiments du Campus Condorcet.
+  * Etudiants de l'EHESS, EPHE et du master IHEAL : inscrits par défaut.
+
+Aucune procédure. Les **lecteurs se connectent en utilisant leur compte institutionnel**  (EHESS, Ined, université Paris 10, //etc.//). **Sélectionner "Compte Campus" au moment de la connexion**.
+
+===== Non inscrits =====
+
+==== Etudiants du master histoire ou géographie de Paris 1 et de master de Paris 3 ====
+
+Inscription manuelle dans Alma ( lien vers procédure : La procédure d'inscription est décrite dans le document mémo en page d'accueil. ) avec les droits de Masters résident (CU2).
+
+==== Autres cas ====
+
+Inscription manuelle dans Alma selon le statut. Ces catégories de lecteurs peuvent uniquement consulter les documentas du place.
+
+Les **lecteurs inscrits manuellement doivent choisir pour se connecter "Compte GED"**.
+
+====== Catégories de lecteurs, règles de prêt ======
+
+Les droits et durée de prêt dépendent du statut du lecteur. Ils apparaissent automatiquement dans Alma lorsque le lecteur est inscrit. \\ Les catégories de lecteurs et règles de prêt sont rappelées dans la documentation Alma : [[:condorcet:circulation:regles-de-pret-et-de-renouvellement|Circulation : catégories d'usagers, règles de prêt et rappels]]
+
+===== Que faire si : =====
+
+  * Un lecteur estime ne pas être dans la bonne catégorie de lecteurs ?
+
+Le référentiel du Campus Condorcet est alimenté par les différents établissements membres. Ce sont eux qui déterminent l'appartenance aux différentes catégories. Se rapprocher de leur établissement (scolarité, administration).
+
+  * Contact : [[service.ged@campus-condorcet.fr|]].
+
+===== Inscrits par défaut =====
+
+  * Résidents du campus : personnes (chercheurs, administratifs) installées, ou en passe de l'être, dans un des bâtiments du Campus Condorcet.
+  * Etudiants de l'EHESS, EPHE et du master IHEAL : inscrits par défaut.
+
+Aucune procédure. Les **lecteurs se connectent en utilisant leur compte institutionnel**  (EHESS, Ined, université Paris 10, //etc.//). **Sélectionner "Compte Campus" au moment de la connexion**.
+
+===== Non inscrits (trouver autre formule. "A inscrire" ? "Inscription manuelle" ?) =====
+
+  * Etudiants du master histoire ou géographie de Paris 1 et de master de Paris 3.
+
+Inscription manuelle dans Alma (<font inherit/inherit;;inherit;;#f1c40f>lien vers procédure : La procédure d'inscription est décrite dans le document mémo en page d'accueil.</font>) avec les droits de Masters résident (CU2).
+
+  * Autres cas.
+
+Inscription manuelle dans Alma selon le statut. Ces catégories de lecteurs peuvent uniquement consulter les documentas du place.
+
+Les **lecteurs inscrits manuellement doivent choisir pour se connecter "Compte GED"**.
+
+====== Catégories de lecteurs, règles de prêt ======
+
+Les droits et durée de prêt dépendent du statut du lecteur. Ils apparaissent automatiquement dans Alma lorsque le lecteur est inscrit. \\
+Les catégories de lecteurs et règles de prêt sont rappelées dans la documentation Alma : [[:condorcet:circulation:regles-de-pret-et-de-renouvellement|Circulation : catégories d'usagers, règles de prêt et rappels]]
+
+===== Que faire si : =====
+
+  * Un lecteur estime ne pas être dans la bonne catégorie de lecteurs ?
+
+Le référentiel du Campus Condorcet est alimenté par les différents établissements membres. Ce sont eux qui déterminent l'appartenance aux différentes catégories. Se rapprocher de leur établissement (scolarité, administration).
+
+  * Contact : [[service.ged@campus-condorcet.fr|]].
+

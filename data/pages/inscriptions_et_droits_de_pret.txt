@@ -1,0 +1,50 @@
+====== Inscriptions et droits de prêt ======
+
+Les droits et durée de prêt dépendent du statut du lecteur. Ils apparaissent automatiquement dans Alma lorsque le lecteur est inscrit.
+
+La communication de documents n'est possible que si le lecteur est inscrit. Plusieurs cas de figure sont possibles et explicités ci-après.
+
+{{:ged_cat_usagers.png?nolink&783x439|bouton détails}}
+
+
+===== Lecteurs inscrits par défaut =====
+
+Ces lecteurs sont inscrits dans le référentiel d’identités du Campus Condorcet, et grâce à cela, sont inscrits automatiquement dans Alma.
+
+==== Résidents du campus ====
+
+Personnes (chercheurs, administratifs) installées, ou en passe de l'être, dans un des bâtiments du Campus Condorcet.\\
+**Sélectionner "Compte Campus"** au moment de la connexion.\\
+**Connexion avec leur compte institutionnel** (EHESS, Ined, université Paris 10, etc.).
+==== Etudiants EHESS, EPHE et Paris 3 (université Sorbonne Nouvelle) ====
+
+Pour les étudiants de l’EHESS et l’EPHE, un formulaire d’inscription est disponible depuis leur ENT.\\
+Pour les étudiants de Paris 3, c’est la scolarité de l’IHEAL qui les inscrit dans le référentiel.
+
+**Sélectionner "Compte Campus"** au moment de la connexion.\\
+**Connexion avec leur compte institutionnel** (EHESS, EPHE, Paris 3).
+===== Lecteurs non-inscrits automatiquement =====
+
+Ces lecteurs ne sont pas inscrits dans le référentiel d’identités du Campus Condorcet, et doivent donc être inscrits manuellement dans Alma.\\
+Si besoin, demander une carte professionnelle ou d’étudiant.
+
+Une fois inscrits, ces lecteurs :
+
+  * **doivent choisir pour se connecter "Compte GED"**
+  * n’ont **pas accès aux ressources électroniques à distance**  (en dehors du GED)
+
+
+==== Etudiants du master histoire ou géographie de Paris 1 et du master de Paris 3 ====
+
+Inscription [[:condorcet:circulation:inscriptions-et-categories-d-usagers|manuelle dans Alma]] avec les droits de Masters résident (CU2).
+
+
+==== Autres ====
+
+Inscription manuelle dans Alma selon le statut (voir ci-avant le tableau récapitulatif des catégories d'usagers). \\ Ces catégories de lecteurs peuvent uniquement consulter les documents sur place.
+
+
+==== Un lecteur estime ne pas être dans la bonne catégorie de lecteurs ? ====
+
+Le référentiel du Campus Condorcet est alimenté par les différents établissements membres. Ce sont eux qui déterminent l'appartenance aux différentes catégories. Se rapprocher de leur établissement (scolarité, administration).
+

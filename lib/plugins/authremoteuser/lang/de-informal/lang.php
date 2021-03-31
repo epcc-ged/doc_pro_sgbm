@@ -5,6 +5,7 @@
  * 
  * @author Anika Henke <anika@selfthinker.org>
  */
-$lang['userexists']     = 'Der Benutzername existiert leider schon.';
-$lang['usernotexists']  = 'Dieser Benutzer existiert nicht.';
-$lang['writefail']      = 'Kann Benutzerdaten nicht ändern. Bitte informieren Sie den Wiki-Administratoren';
+$lang['stripOffDomain'] = 'Domäne ("DOMAIN\") von User-ID entfernen.';
+$lang['userexists']     = 'Dieser Benutzername existiert leider schon.';
+$lang['usernotexists']  = 'Dieser Benutzername existiert nicht.';
+$lang['writefail']      = 'Kann Benutzerdaten nicht ändern. Informier bitte den Wiki-Administrator.';

@@ -1,6 +1,8 @@
-====== Consultation des archives ======
+===== Archives =====
 
-<font 11pt/inherit;;inherit;;inherit>Les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes sont communicables pendant la période du GED hors les murs.</font>
+Les archives inventoriées dans Calames ou ayant fait l'objet d'un récolement valant pré-inventaire, déménagées au CTLes et qui ne sont pas stockées sur palettes sont communicables pendant la période du GED hors les murs.
+
+==== Demande ====
 
 <font 11pt/inherit;;inherit;;inherit>La demande de consultation est adressée à : archives.ged@campus-condorcet.fr</font>.
 
