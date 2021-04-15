@@ -14,13 +14,12 @@
 
 ===== Les permanences du GED hors les murs =====
 
-[[:principes_et_espaces|Principes et espaces]]\\
-[[:inscriptions_et_droits_de_pret|Inscriptions et droits de prêt]]\\
-[[:prets_et_consultations|Prêts et consultations]]\\
-[[:dons|Dons]]\\
-Archives\\
+[[:principes_et_espaces|Principes et espaces]] \\
+[[:inscriptions_et_droits_de_pret|Inscriptions et droits de prêt]] \\
+[[:prets_et_consultations|Prêts et consultations]] \\
+[[:dons|Dons]] \\
+Archives \\
 Prêt entre bibliothèques (PEB)
-
 
 ===== Accès aux outils =====
 
@@ -29,10 +28,9 @@ Prêt entre bibliothèques (PEB)
 
 ===== Mémos =====
 
-<font 12.0pt/inherit;;inherit;;inherit>Inscription - réservation (lien)\\
-Catégorie de lecteurs (tableau récapitulatif)</font>\\
-<font 12.0pt/inherit;;inherit;;inherit>Prêt - retour (lien)\\
-Consultation des archives (lien)\\
-Consultation des thèses électroniques (lien)\\
+<font 12.0pt/inherit;;inherit;;inherit>Inscription - réservation (lien) \\
+Catégorie de lecteurs (tableau récapitulatif)</font> \\ <font 12.0pt/inherit;;inherit;;inherit>Prêt - retour (lien) \\
+Consultation des archives (lien) \\
+Consultation des thèses électroniques (lien) \\
 Démarrage et Fermeture du poste des thèses électroniques (lien)</font>
 
