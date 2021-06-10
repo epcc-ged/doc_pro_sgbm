@@ -4,7 +4,7 @@
 
 </WRAP>
 
-<WRAP center round info 60%> <font inherit/Georgia,serif;;inherit;;inherit>Documentation professionnelle pour l'utilisation de l'instance Alma du Grand Equipement Documentaire du Campus Condorcet.</font></WRAP>
+<WRAP center round info 60%> Documentation professionnelle pour l'utilisation de l'instance Alma du Grand Equipement Documentaire du Campus Condorcet.</WRAP>
 
   - [[:condorcet:generalites:start|Généralités]]
   - [[:condorcet:acquisition:start|Acquisitions]]

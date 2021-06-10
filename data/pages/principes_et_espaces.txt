@@ -20,55 +20,65 @@ La **connexion au wifi se fait via eduroam**  avec les identifiants fournis par 
 
 ===== Ouverture et fermeture de la bibliothèque =====
 
-Les permanences d’accueil du GED hors les murs sont prévues du **lundi au vendredi **de** 10h30 à 18h30. ** \\ L'accès au bâtiment de la MSH Paris Nord (et de la bibliothèque) est possible jusqu'à 18h30. \\ En cas de circonstances exceptionnelles les horaires sont susceptibles de varier (ex. : restrictions sanitaires, problème dans la salle, événement, //etc.//).
+Les permanences d’accueil du GED dans l'espace Françoise Héritier sont les suivantes: Lundi, mercredi, vendredi : 11h-13h - Mardi et jeudi : 11h-18h30 (pour un départ des agents postés à 19h maximum)
+
+L'accès au bâtiment du Grand équipement documentaire est possible de 7h à 19h. En cas de circonstances exceptionnelles les horaires sont susceptibles de varier (ex. : restrictions sanitaires, problème dans la salle, événement,etc.).
+
+L'adresse de la salle de lecture est la suivante: 
+Grand équipement documentaire - 
+Espace Françoise Héritier Open Space
+ - Campus Condorcet
+- 10, cours des Humanités
+- 93322 Aubervilliers cedex
 
 ==== Lors de la première permanence ====
 
-  - Prendre la clef dans la boîte au 1<sup>er</sup>   étage et ouvrir la salle de lecture
-  - Ouvrir les caissons près de la banque d'accueil avec la 2<sup>e</sup>   clef du trousseau
-  - Allumer les lumières
-  - Ouvrir la porte de sortie
-  - Allumer les postes informatiques et l'imprimante
-  - Ouvrir une session sur l'ordinateur portable (Mot de passe : Campus2020!)
+  - Ouvrir la porte de la salle Open Space avec votre badge personnel
+  - Veiller à ce que la porte reste ouverte car les lecteurs n'ont pas encore de badges d'accès
+  - Installer son ordinateur portable et prendre une douchette dans la salle dédiée au stockage près de la banque d'accueil
   - Ouvrir Alma et se connecter avec ses identifiants personnels (Rappel identifiant: prénom.nom)
   - Se localiser dans Alma sur la fonction "GED Accueil" pour pouvoir réaliser des prêts et des retours
 
-
+Dans la salle dédiée au stockage, vous trouverez dans un casier qui ferme à clé :
+- Un ordinateur portable de secours (Mot de passe : Campus2020!)
+- Un téléphone portable pour joindre les services en cas de problème
+- 2 douchettes pour scanner les documents
+La clé est dans la boite à clé disponible à la banque d'accueil (code 318)
 ==== À la fin de la dernière permanence ====
 
   - S'assurer que tous les lecteurs sont partis
   - Ranger les dossiers sortis dans le caisson
-  - Eteindre les postes informatiques, éteidnre l'imprimante
-  - Eteindre les lumières
-  - Fermer à clé les 2 portes
-  - Ranger la clef dans la boîte au 1<sup>er</sup>   étage
+  - Ranger le matériel informatique sensible dans le casier qui ferme à clé situé dans le local dédié au stockage
+  - Fermer la porte de la salle Open Space en partant
 
 
 ===== Déroulement du service public =====
 
-L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, //etc.//). \\ La banque de renseignements est partagée avec les collègues de l'EHESP.
+L’agent se présente cinq minutes avant le début de sa permanence (installation du matériel, échanges d’information avec le collègue relayé, //etc.//). 
 
 ==== Matériel à disposition de l'agent ====
 
-  * Caisson pour le matériel du GED
+  * Caisson pour le matériel du GED (contenant la boite à clé)
   * Ordinateur portable - Mot de passe : Campus2020!
+  * Téléphone portable - Pas de mot de passe
   * Dossier Archives
   * Classeurs contenant les fiches des documents prêtés
+  * Classeur à onglets pour un accès rapide à l'information
 
 
 ==== Espaces ====
 
-{{:gedhm_espaces.png?nolink&|bouton détails}}
+{{:annotation_2021-05-03_092455.jpg|}}
 
-Les **ouvrages réservés** par les lecteurs sont disposés sur une étagère près de la baie vitrée, en face du bureau.
+Les **ouvrages réservés** par les lecteurs sont disposés sur les étagères situées dans le local de stockage, près de la banque d'accueil.
 
-La **première table de lecture**, sous contrôle visuel, est réservée en priorité à la consultation des archives.
+Les **trois premières tables de lecture**, sous contrôle visuel, sont réservées en priorité à la consultation des archives.
 
-Au fond de la salle de lecture, une petite salle est équipée de deux postes informatiques. Ils donnent accès aux catalogues du GED et de l'EHESP (via le navigateur //Internet Explorer//). Ces postes sont reliées à une **imprimante/photocopieuse**. Celle-ci est en libre-accès mais les lecteurs doivent apporter du papier.
+Au fond de la salle de lecture, **deux salles de travail en groupe** de 4 places sont à la disposition des lecteurs. 
 
-Un ordinateur est également mis à disposition pour la consultation des thèses électroniques de l’EHESS. Il est clairement identifié “thèses EHESS” et ne permet rien d’autre que la consultation des thèses électroniques (pas d’accès internet, pas de bureautique, pas de possibilité de brancher une clé usb).
+**Dans une salle près de la banque d'accueil**, un ordinateur est mis à disposition pour la consultation des thèses électroniques de l’EHESS. Il est clairement identifié “thèses EHESS” et ne permet rien d’autre que la consultation des thèses électroniques (pas d’accès internet, pas de bureautique, pas de possibilité de brancher une clé usb).
 
-Les **archives **demandées en consultation et des **documents du PEB** sont stockés dans le local situé au fond de la salle informatique. Ce local n'est pas accessible aux lecteurs.
+Les **archives **demandées en consultation et les **documents du PEB** sont dans le local de stockage. Ce local n'est pas accessible aux lecteurs.
 
 
 ==== Attitudes ====

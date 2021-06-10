@@ -1,0 +1,106 @@
+a:8:{s:2:"id";s:40:"condorcet:generalites:naviguer-dans-alma";s:6:"prefix";s:0:"";s:4:"text";s:8594:"===== GENERALITES : NAVIGUER DANS ALMA =====
+
+==== Se connecter à Alma ====
+
+Alma est un système de gestion hébergé sur les serveurs du fournisseur Ex Libris. Il est utilisable depuis un navigateur internet (nous vous recommandons d'utiliser Firefox ou Chrome). Pour s’y connecter, utiliser le lien suivant : [[https://campus-condorcet.alma.exlibrisgroup.com|https://campus-condorcet.alma.exlibrisgroup.com]].
+
+Les identifiant et mot de passe pour se connecter sont ceux qui sont les vôtres dans le référentiel d'identité du Campus Condorcet. (Remarque : lors de la phase de mise en production d'Alma, il se peut que nous ayons besoin dans certains cas d'utiliser un identifiant interne à Alma.)
+
+Veuillez noter que la déconnexion est automatique après 60 minutes sans aucune action dans Alma.
+
+==== Ecran de travail dans Alma ====
+
+Une fenêtre Alma s'affiche dans un navigateur internet (Firefox, Chrome). On peut l'analyser en trois parties :
+
+  - Une barre de menus principale et permanent ; le fonctionnel de l'outil
+  - Une barre de recherche permanent ; les données gérées par l'outil [Entités | Critères]
+  - Une zone de travail ou de consultation des informations ; Données et Fonctionnel
+
+L'image ci-dessous indique ces trois parties de l'écran selon le numéro (1, 2, 3) indiqué dans la liste ci-dessus :
+
+{{  :condorcet:generalites:ecranalma.jpg?nolink&  |ecranalma.jpg}}
+
+Les menus de la barre de menus comportent un certain nombre d'actions proposées à l'utilisateur. La liste des actions (ou fonctionnalités) est fonction de deux paramètres :
+
+  - Les rôles associés à l'utilisateur. Ces rôles sont attribués à l'utilisateur lors de la création de son compte et peuvent être modifiés par la suite par un administrateur. Les rôles correspondent aux actions possibles à l'utilisateur ;
+  - La localisation de l'utilisateur, comme nous allons le voir ci-dessous.
+
+
+==== Se localiser dans Alma ====
+
+Comme ****indiqué**** ci-dessus, les fonctionnalités proposées sont déterminées non seulement par les rôles qui vous ont été attribués mais également par la localisation qui est la vôtre.
+
+En effet, certaines de ces fonctionnalités sont //associées //à des localisations : bureau de prêt ou département. Un fonctionnalité associée à telle ou telle localisation ne sera accessible que si l'utilisateur se localise dans l'une de ces localisations. Sinon, elle ne sera pas visible même si l'utilisateur a un rôle suffisant pour la voir. //Il est donc essentiel de vous localiser au moment de votre connexion à Alma. //
+
+La liste des localisations possibles à un utilisateur est fonction des rôles qui sont les siens. Par exemple, si tel est le paramétrage, on peut imaginer que celui qui n'a de rôle relatif aux acquisitions ne pourra pas se localiser dans le département des acquisitions.
+
+Si vous n'êtes pas localisé, Alma vous invitera lors de votre connexion à choisir une localisation. Alma n'indiquera que les localisations possibles selon vos rôles. Alma conserve d'une connexion à l'autre la dernière localisation que vous avez indiqué.
+
+La localisation se paramètre dans la partie "barre de menus" de l'écran, à droite : dans l'image ci-dessus, on voit ainsi affiché "Grand Equipement Documentaire - Accueil". L'utilisateur est localisation à l'accueil du GED. Il faut faire plusieurs remarques à ce sujet :
+
+  * Par défaut, Alma n'affiche pas la localisation en toutes lettres mais l'icône {{:condorcet:generalites:icone_localisation.jpg?nolink&44x48|icone_localisation.jpg}};
+  * Pour se localiser, on clique sur cette icône et Alma affiche une liste déroulante des localisations possibles. Par exemple :
+
+{{:condorcet:generalites:liste_localisation.jpg?nolink&491x262|liste_localisation.jpg}}
+
+  * On peut faire afficher la localisation en toutes lettres en cliquant sur la case à cocher suivante : {{:condorcet:generalites:affiche_toujours_localisation.jpg?nolink&299x49|affiche_toujours_localisation.jpg}}. Alma conserve en mémoire ce choix d'une connexion à l'autre. Si vous préférez finalement l'icône, il suffit de décocher cette case.
+
+Remarque : par conséquent, si en vous connectant, vous ne voyez pas une fonctionnalité dans un menu alors que vous savez que vous y avez accès, pensez à vérifier votre localisation.
+
+==== Les menus ====
+
+La barre de menus comporte quatre segments distincts de gauche à droite :
+
+1. Le logo de l’institution
+
+2. L'étoile, symbole du lien vers les favoris. Voir plus bas pour les modalités de configuration des Favoris
+
+3. Le menu principal. Ce menu permet de naviguer dans Alma et d’accéder aux sous-menus. Comme indiqué précédemment, en fonction de vos rôles, vous accéderez aux menus suivants, ainsi qu’à tout ou partie de leurs sous-menus :
+
+  * Acquisitions : achat de ressources
+  * Ressources : accès aux fonctions de catalogage, d’exemplarisation et d’activation des ressources électroniques
+  * Services aux usagers : accès aux fonctions de prêt, de retour et d’inscription
+  * Découvertes : accès a des fonctions de paramétrages de l'outil de découverte
+  * Admin : accès à des fonctions relevant de l’administration générale du système
+  * Analytique : accès à un tableau de bord avec listes et statistiques
+
+4. Les icônes :
+
+  * Icône localisation : voir ci-dessus
+  * Icône utilisateur (forme de buste) : en cliquant dessus, vous pourrez accéder à votre compte utilisateur, changer votre langue de travail et quelques autres actions pour configurer la taille de la police, et aussi de vous déconnecter pour quitter la session.
+  * Icône liste des tâches : indique le type de tâches et le nombre. Chaque ligne est cliquable.
+  * Icône configuration d’Alma (roue dentée d'engrenage).
+  * Icône aide en ligne (point d'interrogation).
+
+==== La barre de recherche ====
+
+Cette barre de recherche apparaît dans (quasiment) toutes les pages.
+
+{{:condorcet:generalites:barre_recherche_simple.jpg?nolink&|barre_recherche_simple.jpg}}
+
+Par défaut c’est la //recherche simple //qui est proposée, avec pour périmètre de recherche l’Institution, c’est-à-dire l'ensemble des collections du GED. C'est l'icône de la maison qui indique qu'on a pour périmètre l'institution. L'autre périmètre disponible est la zone de communauté. C'est une zone créée et maintenue par ExLibris à partir de données reçues des éditeurs et des données des différents clients d'ExLibris. La zone de communauté se concentre essentiellement sur les ressources électroniques. Dans un premier temps nous ne l'utiliserons pas mais on pourrait imaginer plus tard l'utiliser pour trouver des titres à acquérir (par exemple).
+
+{{:condorcet:generalites:deux_zones_de_recherche.jpg?nolink&|deux_zones_de_recherche.jpg}}
+
+La //recherche avancée //permet de combiner différentes | <font inherit/inherit;;inherit;;#ffffcc>Données</font> | : | <font inherit/inherit;;inherit;;#ffffcc>Entité</font> | ; | <font inherit/inherit;;inherit;;#ffffcc>Zone</font> | ; | <font inherit/inherit;;inherit;;#ffffcc>Critère</font> | auxquelles on peut associer les | <font inherit/inherit;;inherit;;#ffffcc>Opérateurs booléens</font> | pour rechercher un | <font inherit/inherit;;inherit;;#ffffcc>Mots</font> |. Certaines | Données | ne sont disponibles que dans la recherche avancée et d'autres le sont pas
+
+{{:condorcet:generalites:recherche_avancee.jpg?nolink&|recherche_avancee.jpg}}
+
+
+==== Configuration des favoris ====
+
+Vous pouvez sélectionner des favoris en cliquant sur l'étoile devant le nom des fonctions dans tous les menus. De le même manière, vous pouvez désactiver ces fonctions de la liste des favoris en recliquant sur l'étoile.
+
+Pour accéder à vos favoris, il suffit de cliquer sur l’étoile dans la barre du Menu permanent :
+
+{{:condorcet:generalites:etoile.jpg?nolink&|etoile.jpg}}
+
+Cette barre ne comporte que les favoris que vous avez sélectionnés.
+
+Pour retourner au Menu permanent, cliquez sur les trois barres parallèles.
+
+{{:condorcet:generalites:retour_favoris.jpg?nolink&|retour_favoris.jpg}}
+
+NB : certains favoris sont proposés contextuellement en fonction de la localisation sélectionnée. Comme la liste des fonctionnalités dans les menus, la liste des fonctionnalités dans les favoris s'adaptent donc à la localisation choisie. Notez également que vous pouvez rechercher dans tous ces menus pour retrouver la fonctionnalité que vous cherchez.
+
+";s:6:"suffix";s:0:"";s:4:"date";i:1585671053;s:6:"client";s:10:"jchiavassa";s:5:"cname";s:73:"/var/www/doc_pro_sgbm/data/cache/1/10dd5fd571fa9e0b2c57df6a41131d20.draft";s:6:"errors";a:0:{}}

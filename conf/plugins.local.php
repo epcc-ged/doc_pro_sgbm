@@ -7,6 +7,7 @@
  *       enabled by default.
  */
 $plugins['authpdo'] = 0;
+$plugins['ckgedit'] = 0;
 $plugins['authad'] = 0;
 $plugins['authremoteuser'] = 0;
 $plugins['authldap'] = 0;

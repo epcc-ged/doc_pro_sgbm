@@ -1,35 +1,15 @@
 ====== Contacts ======
 
+**En cas d'urgence - 
+Numéro du PC Sécurité :  
+01 88 12 18 18** ======
 
 ==== Service Accueil du public ====
 
-<font 12px/inherit;;inherit;;inherit>Adresse mail pour joindre le Service Accueil du public pour toutes les questions liées au service public n’ayant pas trouvé de réponse après avoir consulté le mémo sur les problèmes récurrents (lien) :</font>
+{{:annotation_2021-05-03_150914.jpg|}}
 
-[[archives.ged@campus-conodrcet.fr|accueil.ged@listes.campus-condorcet.fr]]
-
-<font 12px/inherit;;inherit;;inherit>En cas d'urgence:</font>
-
-|Sujet|Nom  |Téléphone|Bureau|
-|**<font 9.0pt/inherit;;inherit;;inherit>Fourniture de documents</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Olivier VARLET</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Fourniture de documents</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Richard WOLLO-TONYE</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Fourniture de documents</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Didier PICHIN</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Fourniture de documents</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Marc JULES</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Service public</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Amélie SAINT-MARC</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Espaces publics</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Sandrine COLL</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Espaces publics</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Isabelle COULON</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Divers</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Laura PAGÈS</font>  | | |
-|**<font 9.0pt/inherit;;inherit;;inherit>Navettes</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Boulaye KANOUTÉ</font>  | | |
 
 
 ==== Autres contacts ====
 
-|**<font 9.0pt/inherit;;inherit;;inherit>Accueil du GED</font> ** |<font 9.0pt/inherit;;inherit;;inherit>06 98 56 35 76</font>|
-|**<font 9.0pt/inherit;;inherit;;inherit>Services aux lecteurs</font> ** |[[services.ged@campus-condorcet.fr|]]  |
-|**<font 9.0pt/inherit;;inherit;;inherit>Service Archives</font> ** |[[archives.ged@campus-conodrcet.fr|archives.ged@campus-condorcet.fr]]  |
-|**<font 9.0pt/inherit;;inherit;;inherit>Service PEB</font> ** |[[peb.ged@campus-conodorcet.fr|peb.ged@campus-condorcet.fr]]  |
-|**<font 9.0pt/inherit;;inherit;;inherit>Ressources électroniques</font> ** |<font 12px/inherit;;inherit;;inherit>Florence Rouiller</font>|
-|**<font 9.0pt/inherit;;inherit;;inherit>Demandes d’achat</font> ** |<font 12px/inherit;;inherit;;inherit>Rachel Guidoni</font>|
-|<font 12px/inherit;;inherit;;inherit>**Demandes de bibliographies**</font>|<font 12px/inherit;;inherit;;inherit>Florence Rouiller</font>|
-|**<font 9.0pt/inherit;;inherit;;inherit>Référents</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Voir liste par laboratoires</font>  |
-|**<font 9.0pt/inherit;;inherit;;inherit>Chargés de collection</font> ** |<font 9.0pt/inherit;;inherit;;inherit>Voir tableau</font>  |
-
+{{:annotation_2021-05-03_145943.jpg|}}

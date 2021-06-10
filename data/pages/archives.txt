@@ -1,0 +1,46 @@
+====== Archives ======
+
+**Principes**
+
+Une personne souhaitant consulter des archives du GED se réfère uniquement aux inventaires en ligne sur Calames.
+
+Documents disponibles pour la gestion des communications des archives dans la pochette verte dans le caisson :
+
+  * fiche d’inscription des lecteurs archives
+  * bulletin de suivi des communications
+  * fiche fantôme (suivi de la gestion par Boulaye au CTLES)
+
+**Instruction des demandes**
+
+  * Le lecteur envoie une demande de consultation par mail : archives.ged@campus-condorcet.fr.
+  * Le demande est instruite par le service Archives qui valide la date et si possible la tranche horaire à laquelle le lecteur compte venir.
+  * Le service Archives informe les collègues du GED par mail (à l’adresse ged-equipe-epcc@listes.campus-condorcet.fr) de la venue du lecteur et inscrit sur le calendrier dédié au Service public les dates de consultation. Par exemple : « Madame Z viendra consulter les archives du fonds Y le 3 décembre ».
+  * La veille de la venue du lecteur, le service Archives descend les archives demandées dans la salle dédiée à la préparation des archives.
+  * Le service Archives dépose dans la pochette « Archives » un bulletin de suivi des communications au nom du lecteur, qui mentionne :
+  - si le lecteur est déjà inscrit ou s’il doit être inscrit dans le fichier Excel Archives tenu par le service Archives.
+  - les cotes qui doivent être communiquées au lecteur
+
+**Consultation**
+
+Le jour de la consultation, les collègues postés en service public :
+
+  * Récupèrent le bulletin de suivi des communications qui se trouve dans la pochette « Archives »
+  * Vont chercher dans la salle de préparation des Archives les cotes demandées par le lecteur qui sont inscrites sur le bulletin de suivi des communications et les conservent derrière la banque d’accueil
+  * Font remplir au lecteur la Fiche d’inscription lecteur archives si le bulletin de communication mentionne que le lecteur n’est pas encore inscrit (dans le fichier Excel). Celle-ci comporte des informations obligatoires d'autres facultatives et un engagement de réserve qui doit être daté et signé. Une fois l’inscription finalisée, ils le mentionnent sur le bulletin de communication.
+  * Conservent la pièce d’identité du lecteur (même si le lecteur est déjà inscrit depuis une précédente consultation) et commencent à remplir le bulletin de communication en communiquant une seule entité à la fois (boîte ou carton)
+  * Expliquent les règles de consultation et s’assurent qu’elles sont bien respectées :
+  - Les archives sont communiquées sur les trois premières tables rondes à proximité du bureau de renseignement (consultation encadrée)
+  - La pièce d’identité du lecteur est conservée le temps de la consultation
+  - Matériel autorisé : crayon à papier, ordinateur, feuilles volantes
+  - Les chemises où un document pourrait être glissé ne sont pas acceptées
+  - Mise à l’écart des effets personnels
+  - Communication d’une seule entité à la fois (boîte ou carton)
+  - Photographie autorisée sauf mention contraire (voir inventaire sur Calames)
+
+Dans les cas de consultations s'étalant sur plusieurs jours, le personnel du GED vérifie que le lecteur est bien inscrit avant de lui communiquer les documents (c’est indiqué sur le bulletin de communication).
+
+À la fin de la consultation, selon les cas, le fonds peut être réacheminé au CTLES ou mis de côté dans le local du fonds pour une consultation ultérieure.
+
+Si la consultation est définitivement terminée, l'agent de permanence l’indique sur le bulletin de communication, et il envoie un message au service Archives (archives.ged@campus-condorcet.fr) : “Madame Z a fini la consultation des archives du fonds Y”.
+
+Si le lecteur souhaite revenir dans un délai de plusieurs jours, il faut également envoyer un message d'information aux collègues du service Archives (archives.ged@campus-condorcet.fr) : « Madame Z n’a pas terminé la consultation et va revenir ».

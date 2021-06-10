@@ -7,9 +7,9 @@
 
 $conf['toolbar']         = 'noempty';
 
-$conf['book_page']       = 'condorcet:ebook'; 
-$conf['help_page']       = 'condorcet:ebook_help'; 
-$conf['save_namespace']  = 'condorcet:ebook'; 
+$conf['book_page']       = 'wiki:ebook'; 
+$conf['help_page']       = 'wiki:ebook_help'; 
+$conf['save_namespace']  = 'wiki:ebook'; 
 
 $conf['skip_ids']        = 'sidebar,user,group,playground,wiki:syntax,wiki:ebook';
 

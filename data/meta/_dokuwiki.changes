@@ -1,20 +1,20 @@
-1615478393	134.158.39.70	E	contacts	lpages	[Autres contacts] 		29
-1615478413	134.158.39.70	E	contacts	lpages	[Autres contacts] 		88
-1615808322	134.158.39.70	E	contacts	lpages	[Autres contacts] 		47
-1615808345	134.158.39.70	E	contacts	lpages	[Autres contacts] 		48
-1615808384	134.158.39.70	E	contacts	lpages	[Autres contacts] 		44
-1615817919	134.158.39.70	E	contacts	lpages	[Service Accueil du public] 		7
-1615818133	134.158.39.70	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	lpages	[Catégories d'usagers] 		87
-1615818324	134.158.39.70	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	lpages	[Exceptions de circulation] 		307
-1615818393	134.158.39.70	E	condorcet:circulation:regles-de-pret-et-de-renouvellement	lpages	[Exceptions de circulation] 		17
-1615819738	134.158.39.70	E	service_public	alybarella	[Les permanences du GED hors les murs] 		44
-1615917208	134.158.39.70	E	condorcet:acquisition:infrastructure:les-fournisseurs	caubree			168
-1615919407	134.158.39.70	E	condorcet:acquisition:infrastructure:les-fournisseurs	caubree			3
-1616687926	134.158.39.70	E	contacts	lpages	[Autres contacts] 		93
-1616687945	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-95
-1616688016	134.158.39.70	E	contacts	lpages	[Autres contacts] 		103
-1616688029	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-103
-1616688047	134.158.39.70	E	contacts	lpages	[Autres contacts] 		95
-1616688060	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-95
-1616688087	134.158.39.70	E	contacts	lpages	[Autres contacts] 		77
-1616688108	134.158.39.70	E	contacts	lpages	[Autres contacts] 		-77
+1620065089	10.64.20.15	C	demandes_d_achat	lpages	créée		506
+1620065115	10.64.20.15	E	prets_et_consultations	lpages	[Demandes d'achat] 		-499
+1620065130	10.64.20.15	E	prets_et_consultations	lpages	[PEB (circuit spécifique)] 		-1568
+1620065141	10.64.20.15	E	prets_et_consultations	lpages	[Archives (circuit spécifique)] 		-4569
+1620065444	10.64.20.15	E	pret_entre_bibliotheques_peb	lpages			-3
+1620065472	10.64.20.15	E	service_public	lpages	[Les permanences du GED hors les murs] 		-3
+1620065636	10.64.20.15	E	service_public	lpages	[Mémos] 		11
+1620127122	10.64.20.14	E	principes_et_espaces	lpages	[Ouverture et fermeture de la bibliothèque] 		24
+1620127950	10.64.20.15	E	principes_et_espaces	lpages	[Matériel à disposition de l'agent] 		22
+1620128078	10.64.20.15	E	prets_et_consultations	lpages	[Réservations] 		6
+1620128095	10.64.20.15	E	prets_et_consultations	lpages	[Réservations] 		12
+1620128108	10.64.20.15	E	prets_et_consultations	lpages	[Réservations] 		-2
+1620128353	10.64.20.15	E	archives	lpages			2
+1620128428	10.64.20.15	E	pret_entre_bibliotheques_peb	lpages			-60
+1621003808	10.64.20.14	E	service_public	cpedroja			1
+1621003862	10.64.20.14	E	service_public	cpedroja			-1
+1621008171	10.64.20.15	E	service_public	cpedroja			199
+1621008182	10.64.20.15	E	service_public	cpedroja	[Mémos] 		3
+1621008195	10.64.20.15	E	service_public	cpedroja			3
+1621008215	10.64.20.15	E	service_public	cpedroja			-35

@@ -4,7 +4,9 @@ Les droits et durée de prêt dépendent du statut du lecteur. Ils apparaissent 
 
 La communication de documents n'est possible que si le lecteur est inscrit. Plusieurs cas de figure sont possibles et explicités ci-après.
 
-{{:ged_cat_usagers.png?nolink&783x439|bouton détails}}
+{{:annotation_2021-05-03_194302.jpg|}}
+
+
 
 
 ===== Lecteurs inscrits par défaut =====

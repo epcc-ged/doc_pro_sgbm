@@ -3,7 +3,7 @@
 <div class="level1">
 
 <p>
-<a href="https://www.dokuwiki.org/DokuWiki" class="interwiki iw_doku" title="https://www.dokuwiki.org/DokuWiki">DokuWiki</a> supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing “Edit this page”. If you want to try something, just use the <a href="/doc_pro_sgbm/doku.php?id=playground:playground" class="wikilink1" title="playground:playground">playground</a> page. The simpler markup is easily accessible via <a href="https://www.dokuwiki.org/toolbar" class="interwiki iw_doku" title="https://www.dokuwiki.org/toolbar">quickbuttons</a>, too.
+<a href="https://www.dokuwiki.org/DokuWiki" class="interwiki iw_doku" title="https://www.dokuwiki.org/DokuWiki">DokuWiki</a> supports some simple markup language, which tries to make the datafiles to be as readable as possible. This page contains all possible syntax you may use when editing the pages. Simply have a look at the source of this page by pressing “Edit this page”. If you want to try something, just use the <a href="/doc_pro_sgbm/doku.php?id=playground:playground" class="wikilink1" title="playground:playground" data-wiki-id="playground:playground">playground</a> page. The simpler markup is easily accessible via <a href="https://www.dokuwiki.org/toolbar" class="interwiki iw_doku" title="https://www.dokuwiki.org/toolbar">quickbuttons</a>, too.
 </p>
 
 </div>
@@ -62,7 +62,7 @@ DokuWiki supports multiple ways of creating links.
 <div class="level3">
 
 <p>
-External links are recognized automagically: <a href="http://www.google.com" class="urlextern" title="http://www.google.com" rel="nofollow">http://www.google.com</a> or simply <a href="http://www.google.com" class="urlextern" title="http://www.google.com" rel="nofollow">www.google.com</a> - You can set the link text as well: <a href="http://www.google.com" class="urlextern" title="http://www.google.com" rel="nofollow">This Link points to google</a>. Email addresses like this one: <a href="mailto:&#x61;&#x6e;&#x64;&#x69;&#x40;&#x73;&#x70;&#x6c;&#x69;&#x74;&#x62;&#x72;&#x61;&#x69;&#x6e;&#x2e;&#x6f;&#x72;&#x67;" class="mail" title="&#x61;&#x6e;&#x64;&#x69;&#x40;&#x73;&#x70;&#x6c;&#x69;&#x74;&#x62;&#x72;&#x61;&#x69;&#x6e;&#x2e;&#x6f;&#x72;&#x67;">&#x61;&#x6e;&#x64;&#x69;&#x40;&#x73;&#x70;&#x6c;&#x69;&#x74;&#x62;&#x72;&#x61;&#x69;&#x6e;&#x2e;&#x6f;&#x72;&#x67;</a> are recognized, too.
+External links are recognized automagically: <a href="http://www.google.com" class="urlextern" title="http://www.google.com" rel="ugc nofollow">http://www.google.com</a> or simply <a href="http://www.google.com" class="urlextern" title="http://www.google.com" rel="ugc nofollow">www.google.com</a> - You can set the link text as well: <a href="http://www.google.com" class="urlextern" title="http://www.google.com" rel="ugc nofollow">This Link points to google</a>. Email addresses like this one: <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;</a> are recognized, too.
 </p>
 <pre class="code">DokuWiki supports multiple ways of creating links. External links are recognized
 automagically: http://www.google.com or simply www.google.com - You can set
@@ -75,7 +75,7 @@ addresses like this one: &lt;andi@splitbrain.org&gt; are recognized, too.</pre>
 <div class="level3">
 
 <p>
-Internal links are created by using square brackets. You can either just give a <a href="/doc_pro_sgbm/doku.php?id=wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow">pagename</a> or use an additional <a href="/doc_pro_sgbm/doku.php?id=wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow">link text</a>.
+Internal links are created by using square brackets. You can either just give a <a href="/doc_pro_sgbm/doku.php?id=wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow" data-wiki-id="wiki:pagename">pagename</a> or use an additional <a href="/doc_pro_sgbm/doku.php?id=wiki:pagename" class="wikilink2" title="wiki:pagename" rel="nofollow" data-wiki-id="wiki:pagename">link text</a>.
 </p>
 <pre class="code">Internal links are created by using square brackets. You can either just give
 a [[pagename]] or use an additional [[pagename|link text]].</pre>
@@ -85,7 +85,7 @@ a [[pagename]] or use an additional [[pagename|link text]].</pre>
 </p>
 
 <p>
-You can use <a href="/doc_pro_sgbm/doku.php?id=some:namespaces" class="wikilink2" title="some:namespaces" rel="nofollow">namespaces</a> by using a colon in the pagename.
+You can use <a href="/doc_pro_sgbm/doku.php?id=some:namespaces" class="wikilink2" title="some:namespaces" rel="nofollow" data-wiki-id="some:namespaces">namespaces</a> by using a colon in the pagename.
 </p>
 <pre class="code">You can use [[some:namespaces]] by using a colon in the pagename.</pre>
 
@@ -94,7 +94,7 @@ For details about namespaces see <a href="https://www.dokuwiki.org/namespaces" c
 </p>
 
 <p>
-Linking to a specific section is possible, too. Just add the section name behind a hash character as known from <abbr title="HyperText Markup Language">HTML</abbr>. This links to <span class="curid"><a href="/doc_pro_sgbm/doku.php?id=wiki:syntax#internal" class="wikilink1" title="wiki:syntax">this Section</a></span>.
+Linking to a specific section is possible, too. Just add the section name behind a hash character as known from <abbr title="HyperText Markup Language">HTML</abbr>. This links to <a href="/doc_pro_sgbm/doku.php?id=wiki:syntax#internal" class="wikilink1" title="wiki:syntax" data-wiki-id="wiki:syntax">this Section</a>.
 </p>
 <pre class="code">This links to [[syntax#internal|this Section]].</pre>
 
@@ -102,7 +102,7 @@ Linking to a specific section is possible, too. Just add the section name behind
 Notes:
 </p>
 <ul>
-<li class="level1"><div class="li"> Links to <span class="curid"><a href="/doc_pro_sgbm/doku.php?id=wiki:syntax" class="wikilink1" title="wiki:syntax">existing pages</a></span> are shown in a different style from <a href="/doc_pro_sgbm/doku.php?id=wiki:nonexisting" class="wikilink2" title="wiki:nonexisting" rel="nofollow">nonexisting</a> ones.</div>
+<li class="level1"><div class="li"> Links to <a href="/doc_pro_sgbm/doku.php?id=wiki:syntax" class="wikilink1" title="wiki:syntax" data-wiki-id="wiki:syntax">existing pages</a> are shown in a different style from <a href="/doc_pro_sgbm/doku.php?id=wiki:nonexisting" class="wikilink2" title="wiki:nonexisting" rel="nofollow" data-wiki-id="wiki:nonexisting">nonexisting</a> ones.</div>
 </li>
 <li class="level1"><div class="li"> DokuWiki does not use <a href="https://en.wikipedia.org/wiki/CamelCase" class="interwiki iw_wp" title="https://en.wikipedia.org/wiki/CamelCase">CamelCase</a> to automatically create links by default, but this behavior can be enabled in the <a href="https://www.dokuwiki.org/config" class="interwiki iw_doku" title="https://www.dokuwiki.org/config">config</a> file. Hint: If DokuWiki is a link, then it&#039;s enabled.</div>
 </li>
@@ -137,7 +137,7 @@ Notes:
 <ul>
 <li class="level1"><div class="li"> For security reasons direct browsing of windows shares only works in Microsoft Internet Explorer per default (and only in the “local zone”).</div>
 </li>
-<li class="level1"><div class="li"> For Mozilla and Firefox it can be enabled through different workaround mentioned in the <a href="http://kb.mozillazine.org/Links_to_local_pages_do_not_work" class="urlextern" title="http://kb.mozillazine.org/Links_to_local_pages_do_not_work" rel="nofollow">Mozilla Knowledge Base</a>. However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in <code>conf/lang/en/lang.php</code> (more details at <a href="https://www.dokuwiki.org/localization#changing_some_localized_texts_and_strings_in_your_installation" class="interwiki iw_doku" title="https://www.dokuwiki.org/localization#changing_some_localized_texts_and_strings_in_your_installation">localization</a>): <dl class="code">
+<li class="level1"><div class="li"> For Mozilla and Firefox it can be enabled through different workaround mentioned in the <a href="http://kb.mozillazine.org/Links_to_local_pages_do_not_work" class="urlextern" title="http://kb.mozillazine.org/Links_to_local_pages_do_not_work" rel="ugc nofollow">Mozilla Knowledge Base</a>. However, there will still be a JavaScript warning about trying to open a Windows Share. To remove this warning (for all users), put the following line in <code>conf/lang/en/lang.php</code> (more details at <a href="https://www.dokuwiki.org/localization#changing_some_localized_texts_and_strings_in_your_installation" class="interwiki iw_doku" title="https://www.dokuwiki.org/localization#changing_some_localized_texts_and_strings_in_your_installation">localization</a>): <dl class="code">
 <dt><a href="/doc_pro_sgbm/doku.php?do=export_code&amp;id=wiki:syntax&amp;codeblock=0" title="Télécharger cet extrait" class="mediafile mf_php">conf/lang/en/lang.php</a></dt>
 <dd><pre class="code">&lt;?php
 /**
@@ -161,7 +161,7 @@ You can also use an image to link to another internal or external page by combin
 <pre class="code">[[http://php.net|{{wiki:dokuwiki-128.png}}]]</pre>
 
 <p>
-<a href="http://php.net" class="media" title="http://php.net" rel="nofollow"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="media" alt="" /></a>
+<a href="http://php.net" class="media" title="http://php.net" rel="ugc nofollow"><img src="/doc_pro_sgbm/lib/exe/fetch.php?media=wiki:dokuwiki-128.png" class="media" alt="" /></a>
 </p>
 
 <p>
@@ -236,12 +236,12 @@ Resize to given width and height<sup><a href="#fn__2" id="fnt__2" class="fn_top"
 </p>
 
 <p>
-Resized external image:           <a href="/doc_pro_sgbm/lib/exe/fetch.php?tok=14a5a2&amp;media=http%3A%2F%2Fphp.net%2Fimages%2Fphp.gif" class="media" title="http://php.net/images/php.gif"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=200&amp;h=50&amp;tok=3a8cdc&amp;media=http%3A%2F%2Fphp.net%2Fimages%2Fphp.gif" class="media" alt="" width="200" height="50" /></a>
+Resized external image:           <a href="/doc_pro_sgbm/lib/exe/fetch.php?tok=4e987c&amp;media=https%3A%2F%2Fsecure.php.net%2Fimages%2Fphp.gif" class="media" title="https://secure.php.net/images/php.gif"><img src="/doc_pro_sgbm/lib/exe/fetch.php?w=200&amp;h=50&amp;tok=bc84d8&amp;media=https%3A%2F%2Fsecure.php.net%2Fimages%2Fphp.gif" class="media" alt="" width="200" height="50" /></a>
 </p>
 <pre class="code">Real size:                        {{wiki:dokuwiki-128.png}}
 Resize to given width:            {{wiki:dokuwiki-128.png?50}}
 Resize to given width and height: {{wiki:dokuwiki-128.png?200x50}}
-Resized external image:           {{http://php.net/images/php.gif?200x50}}</pre>
+Resized external image:           {{https://secure.php.net/images/php.gif?200x50}}</pre>
 
 <p>
 By using left or right whitespaces you can choose the alignment.
@@ -276,7 +276,7 @@ For linking an image to another page see <a href="#image_links" title="wiki:synt
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Media Files&quot;,&quot;hid&quot;:&quot;media_files&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:12,&quot;range&quot;:&quot;6152-7498&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Media Files&quot;,&quot;hid&quot;:&quot;media_files&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:12,&quot;range&quot;:&quot;6152-7524&quot;} -->
 <h3 class="sectionedit13" id="supported_media_formats">Supported Media Formats</h3>
 <div class="level3">
 
@@ -297,7 +297,7 @@ DokuWiki can embed the following media formats directly.
 		<td class="col0"> Flash </td><td class="col1 leftalign"> <code>swf</code>                    </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:14,&quot;range&quot;:&quot;7592-7747&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table&quot;,&quot;secid&quot;:14,&quot;range&quot;:&quot;7618-7773&quot;} -->
 <p>
 If you specify a filename that is not a supported media format, then it will be displayed as a link instead.
 </p>
@@ -312,7 +312,7 @@ By adding <code>?linkonly</code> you provide a link to the media without display
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supported Media Formats&quot;,&quot;hid&quot;:&quot;supported_media_formats&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:13,&quot;range&quot;:&quot;7499-8052&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Supported Media Formats&quot;,&quot;hid&quot;:&quot;supported_media_formats&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:13,&quot;range&quot;:&quot;7525-8078&quot;} -->
 <h3 class="sectionedit15" id="fallback_formats">Fallback Formats</h3>
 <div class="level3">
 
@@ -334,7 +334,7 @@ Additionally DokuWiki supports a “poster” image which will be shown before t
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Fallback Formats&quot;,&quot;hid&quot;:&quot;fallback_formats&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:15,&quot;range&quot;:&quot;8053-8783&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Fallback Formats&quot;,&quot;hid&quot;:&quot;fallback_formats&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:15,&quot;range&quot;:&quot;8079-8809&quot;} -->
 <h2 class="sectionedit16" id="lists">Lists</h2>
 <div class="level2">
 
@@ -380,7 +380,7 @@ Also take a look at the <a href="https://www.dokuwiki.org/faq%3Alists" class="in
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Lists&quot;,&quot;hid&quot;:&quot;lists&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:16,&quot;range&quot;:&quot;8784-9443&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Lists&quot;,&quot;hid&quot;:&quot;lists&quot;,&quot;codeblockOffset&quot;:1,&quot;secid&quot;:16,&quot;range&quot;:&quot;8810-9469&quot;} -->
 <h2 class="sectionedit17" id="text_conversions">Text Conversions</h2>
 <div class="level2">
 
@@ -393,7 +393,7 @@ The text to image conversion is mainly done for smileys. And the text to <abbr t
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Text Conversions&quot;,&quot;hid&quot;:&quot;text_conversions&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:17,&quot;range&quot;:&quot;9444-9748&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Text Conversions&quot;,&quot;hid&quot;:&quot;text_conversions&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:17,&quot;range&quot;:&quot;9470-9774&quot;} -->
 <h3 class="sectionedit18" id="text_to_image_conversions">Text to Image Conversions</h3>
 <div class="level3">
 
@@ -444,12 +444,12 @@ DokuWiki converts commonly used <a href="https://en.wikipedia.org/wiki/emoticon"
 </ul>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Text to Image Conversions&quot;,&quot;hid&quot;:&quot;text_to_image_conversions&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:18,&quot;range&quot;:&quot;9749-10404&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Text to Image Conversions&quot;,&quot;hid&quot;:&quot;text_to_image_conversions&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:18,&quot;range&quot;:&quot;9775-10430&quot;} -->
 <h3 class="sectionedit19" id="text_to_html_conversions">Text to HTML Conversions</h3>
 <div class="level3">
 
 <p>
-Typography: <a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki">DokuWiki</a> can convert simple text characters to their typographically correct entities. Here is an example of recognized characters.
+Typography: <a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can convert simple text characters to their typographically correct entities. Here is an example of recognized characters.
 </p>
 
 <p>
@@ -468,7 +468,7 @@ There are three exceptions which do not come from that pattern file: multiplicat
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Text to HTML Conversions&quot;,&quot;hid&quot;:&quot;text_to_html_conversions&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:19,&quot;range&quot;:&quot;10405-11112&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Text to HTML Conversions&quot;,&quot;hid&quot;:&quot;text_to_html_conversions&quot;,&quot;codeblockOffset&quot;:2,&quot;secid&quot;:19,&quot;range&quot;:&quot;10431-11138&quot;} -->
 <h2 class="sectionedit20" id="quoting">Quoting</h2>
 <div class="level2">
 
@@ -510,7 +510,7 @@ I think we should do it
 </div></blockquote>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Quoting&quot;,&quot;hid&quot;:&quot;quoting&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:20,&quot;range&quot;:&quot;11113-11478&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Quoting&quot;,&quot;hid&quot;:&quot;quoting&quot;,&quot;codeblockOffset&quot;:3,&quot;secid&quot;:20,&quot;range&quot;:&quot;11139-11504&quot;} -->
 <h2 class="sectionedit21" id="tables">Tables</h2>
 <div class="level2">
 
@@ -533,7 +533,7 @@ DokuWiki supports a simple syntax to create tables.
 		<td class="col0 leftalign"> Row 3 Col 1    </td><td class="col1 leftalign"> Row 3 Col 2     </td><td class="col2 leftalign"> Row 3 Col 3        </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table1&quot;,&quot;secid&quot;:22,&quot;range&quot;:&quot;11552-11783&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table1&quot;,&quot;secid&quot;:22,&quot;range&quot;:&quot;11578-11809&quot;} -->
 <p>
 Table rows have to start and end with a <code>|</code> for normal rows or a <code>^</code> for headers.
 </p>
@@ -565,7 +565,7 @@ Vertical tableheaders are possible, too.
 		<th class="col0 leftalign"> Heading 5    </th><td class="col1 leftalign"> Row 2 Col 2          </td><td class="col2 leftalign"> Row 2 Col 3        </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table2&quot;,&quot;secid&quot;:23,&quot;range&quot;:&quot;12303-12546&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table2&quot;,&quot;secid&quot;:23,&quot;range&quot;:&quot;12329-12572&quot;} -->
 <p>
 As you can see, it&#039;s the cell separator before a cell which decides about the formatting:
 </p>
@@ -593,7 +593,7 @@ You can have rowspans (vertically connected cells) by adding <code>:::</code> in
 		<td class="col0 leftalign"> Row 3 Col 1    </td><td class="col1 leftalign"> Row 2 Col 3        </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table3&quot;,&quot;secid&quot;:24,&quot;range&quot;:&quot;13025-13300&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table3&quot;,&quot;secid&quot;:24,&quot;range&quot;:&quot;13051-13326&quot;} -->
 <p>
 Apart from the rowspan syntax those cells should not contain anything else.
 </p>
@@ -621,7 +621,7 @@ You can align the table contents, too. Just add at least two whitespaces at the 
 		<td class="col0"> xxxxxxxxxxxx </td><td class="col1"> xxxxxxxxxxxx </td><td class="col2"> xxxxxxxxxxxx </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table4&quot;,&quot;secid&quot;:25,&quot;range&quot;:&quot;13909-14096&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table4&quot;,&quot;secid&quot;:25,&quot;range&quot;:&quot;13935-14122&quot;} -->
 <p>
 This is how it looks in the source:
 </p>
@@ -635,7 +635,7 @@ Note: Vertical alignment is not supported.
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Tables&quot;,&quot;hid&quot;:&quot;tables&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:21,&quot;range&quot;:&quot;11479-14375&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Tables&quot;,&quot;hid&quot;:&quot;tables&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:21,&quot;range&quot;:&quot;11505-14401&quot;} -->
 <h2 class="sectionedit26" id="no_formatting">No Formatting</h2>
 <div class="level2">
 
@@ -655,7 +655,7 @@ This is some text which contains addresses like this: http://www.splitbrain.org 
 The same is true for %%//__this__ text// with a smiley ;-)%%.</pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;No Formatting&quot;,&quot;hid&quot;:&quot;no_formatting&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:26,&quot;range&quot;:&quot;14376-15031&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;No Formatting&quot;,&quot;hid&quot;:&quot;no_formatting&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:26,&quot;range&quot;:&quot;14402-15057&quot;} -->
 <h2 class="sectionedit27" id="code_blocks">Code Blocks</h2>
 <div class="level2">
 
@@ -678,12 +678,12 @@ This is pretty much the same, but you could use it to show that you quoted a fil
 &lt;/file&gt;</pre>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Code Blocks&quot;,&quot;hid&quot;:&quot;code_blocks&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:27,&quot;range&quot;:&quot;15032-15773&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Code Blocks&quot;,&quot;hid&quot;:&quot;code_blocks&quot;,&quot;codeblockOffset&quot;:4,&quot;secid&quot;:27,&quot;range&quot;:&quot;15058-15799&quot;} -->
 <h3 class="sectionedit28" id="syntax_highlighting">Syntax Highlighting</h3>
 <div class="level3">
 
 <p>
-<a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki">DokuWiki</a> can highlight sourcecode, which makes it easier to read. It uses the <a href="http://qbnz.com/highlighter/" class="urlextern" title="http://qbnz.com/highlighter/" rel="nofollow">GeSHi</a> Generic Syntax Highlighter – so any language supported by GeSHi is supported. The syntax uses the same code and file blocks described in the previous section, but this time the name of the language syntax to be highlighted is included inside the tag, e.g. <code>&lt;code java&gt;</code> or <code>&lt;file java&gt;</code>.
+<a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can highlight sourcecode, which makes it easier to read. It uses the <a href="http://qbnz.com/highlighter/" class="urlextern" title="http://qbnz.com/highlighter/" rel="ugc nofollow">GeSHi</a> Generic Syntax Highlighter – so any language supported by GeSHi is supported. The syntax uses the same code and file blocks described in the previous section, but this time the name of the language syntax to be highlighted is included inside the tag, e.g. <code>&lt;code java&gt;</code> or <code>&lt;file java&gt;</code>.
 </p>
 <pre class="code java"><span class="co3">/**
  * The HelloWorldApp class implements an application that
@@ -696,7 +696,7 @@ This is pretty much the same, but you could use it to show that you quoted a fil
 <span class="br0">&#125;</span></pre>
 
 <p>
-The following language strings are currently recognized: <em>4cs 6502acme 6502kickass 6502tasm 68000devpac abap actionscript3 actionscript ada aimms algol68 apache applescript apt_sources arm asm asp asymptote autoconf autohotkey autoit avisynth awk bascomavr bash basic4gl batch bf biblatex bibtex blitzbasic bnf boo caddcl cadlisp ceylon cfdg cfm chaiscript chapel cil c_loadrunner clojure c_mac cmake cobol coffeescript c cpp cpp-qt cpp-winapi csharp css cuesheet c_winapi dart dcl dcpu16 dcs delphi diff div dos dot d ecmascript eiffel email epc e erlang euphoria ezt f1 falcon fo fortran freebasic freeswitch fsharp gambas gdb genero genie gettext glsl gml gnuplot go groovy gwbasic haskell haxe hicest hq9plus html html4strict html5 icon idl ini inno intercal io ispfpanel java5 java javascript jcl j jquery julia kixtart klonec klonecpp kotlin latex lb ldif lisp llvm locobasic logtalk lolcode lotusformulas lotusscript lscript lsl2 lua m68k magiksf make mapbasic mathematica matlab mercury metapost mirc mk-61 mmix modula2 modula3 mpasm mxml mysql nagios netrexx newlisp nginx nimrod nsis oberon2 objc objeck ocaml-brief ocaml octave oobas oorexx oracle11 oracle8 oxygene oz parasail parigp pascal pcre perl6 perl per pf phix php-brief php pic16 pike pixelbender pli plsql postgresql postscript povray powerbuilder powershell proftpd progress prolog properties providex purebasic pycon pys60 python qbasic qml q racket rails rbs rebol reg rexx robots rpmspec rsplus ruby rust sas sass scala scheme scilab scl sdlbasic smalltalk smarty spark sparql sql standardml stonescript swift systemverilog tclegg tcl teraterm texgraph text thinbasic tsql twig typoscript unicon upc urbi uscript vala vbnet vb vbscript vedit verilog vhdl vim visualfoxpro visualprolog whitespace whois winbatch xbasic xml xojo xorg_conf xpp yaml z80 zxbasic</em>
+The following language strings are currently recognized: <em>4cs 6502acme 6502kickass 6502tasm 68000devpac abap actionscript3 actionscript ada aimms algol68 apache applescript apt_sources arm asm asp asymptote autoconf autohotkey autoit avisynth awk bascomavr bash basic4gl batch bf biblatex bibtex blitzbasic bnf boo caddcl cadlisp ceylon cfdg cfm chaiscript chapel cil c_loadrunner clojure c_mac cmake cobol coffeescript c cpp cpp-qt cpp-winapi csharp css cuesheet c_winapi dart dcl dcpu16 dcs delphi diff div dos dot d ecmascript eiffel email epc e erlang euphoria ezt f1 falcon fo fortran freebasic freeswitch fsharp gambas gdb genero genie gettext glsl gml gnuplot go groovy gwbasic haskell haxe hicest hq9plus html html4strict html5 icon idl ini inno intercal io ispfpanel java5 java javascript jcl j jquery julia kixtart klonec klonecpp kotlin latex lb ldif lisp llvm locobasic logtalk lolcode lotusformulas lotusscript lscript lsl2 lua m68k magiksf make mapbasic mathematica matlab mercury metapost mirc mk-61 mmix modula2 modula3 mpasm mxml mysql nagios netrexx newlisp nginx nimrod nsis oberon2 objc objeck ocaml-brief ocaml octave oobas oorexx oracle11 oracle8 oxygene oz parasail parigp pascal pcre perl6 perl per pf phix php-brief php pic16 pike pixelbender pli plsql postgresql postscript povray powerbuilder powershell proftpd progress prolog properties providex purebasic pycon pys60 python qbasic qml q racket rails rbs rebol reg rexx robots roff rpmspec rsplus ruby rust sas sass scala scheme scilab scl sdlbasic smalltalk smarty spark sparql sql sshconfig standardml stonescript swift systemverilog tclegg tcl teraterm texgraph text thinbasic tsql twig typoscript unicon upc urbi uscript vala vbnet vb vbscript vedit verilog vhdl vim visualfoxpro visualprolog whitespace whois winbatch wolfram xbasic xml xojo xorg_conf xpp yaml z80 zxbasic</em>
 </p>
 
 <p>
@@ -704,7 +704,7 @@ There are additional <a href="https://www.dokuwiki.org/syntax_highlighting" clas
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Highlighting&quot;,&quot;hid&quot;:&quot;syntax_highlighting&quot;,&quot;codeblockOffset&quot;:6,&quot;secid&quot;:28,&quot;range&quot;:&quot;15774-18536&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Highlighting&quot;,&quot;hid&quot;:&quot;syntax_highlighting&quot;,&quot;codeblockOffset&quot;:6,&quot;secid&quot;:28,&quot;range&quot;:&quot;15800-18585&quot;} -->
 <h3 class="sectionedit29" id="downloadable_code_blocks">Downloadable Code Blocks</h3>
 <div class="level3">
 
@@ -724,7 +724,7 @@ If you don&#039;t want any highlighting but want a downloadable file, specify a 
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Downloadable Code Blocks&quot;,&quot;hid&quot;:&quot;downloadable_code_blocks&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:29,&quot;range&quot;:&quot;18537-19067&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Downloadable Code Blocks&quot;,&quot;hid&quot;:&quot;downloadable_code_blocks&quot;,&quot;codeblockOffset&quot;:7,&quot;secid&quot;:29,&quot;range&quot;:&quot;18586-19116&quot;} -->
 <h2 class="sectionedit30" id="embedding_html_and_php">Embedding HTML and PHP</h2>
 <div class="level2">
 
@@ -773,12 +773,12 @@ echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
 </p>
 
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Embedding HTML and PHP&quot;,&quot;hid&quot;:&quot;embedding_html_and_php&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:30,&quot;range&quot;:&quot;19068-20301&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Embedding HTML and PHP&quot;,&quot;hid&quot;:&quot;embedding_html_and_php&quot;,&quot;codeblockOffset&quot;:9,&quot;secid&quot;:30,&quot;range&quot;:&quot;19117-20350&quot;} -->
 <h2 class="sectionedit31" id="rss_atom_feed_aggregation">RSS/ATOM Feed Aggregation</h2>
 <div class="level2">
 
 <p>
-<a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki">DokuWiki</a> can integrate data from external XML feeds. For parsing the XML feeds, <a href="http://simplepie.org/" class="urlextern" title="http://simplepie.org/" rel="nofollow">SimplePie</a> is used. All formats understood by SimplePie can be used in DokuWiki as well. You can influence the rendering by multiple additional space separated parameters:
+<a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> can integrate data from external XML feeds. For parsing the XML feeds, <a href="http://simplepie.org/" class="urlextern" title="http://simplepie.org/" rel="ugc nofollow">SimplePie</a> is used. All formats understood by SimplePie can be used in DokuWiki as well. You can influence the rendering by multiple additional space separated parameters:
 </p>
 <div class="table sectionedit32"><table class="inline">
 	<thead>
@@ -808,9 +808,9 @@ echo &#039;&lt;/tr&gt;&lt;/table&gt;&#039;;
 		<td class="col0"> <em>n</em>[dhm] </td><td class="col1"> refresh period, where d=days, h=hours, m=minutes. (e.g. 12h = 12 hours). </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table5&quot;,&quot;secid&quot;:32,&quot;range&quot;:&quot;20622-21113&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table5&quot;,&quot;secid&quot;:32,&quot;range&quot;:&quot;20671-21162&quot;} -->
 <p>
-The refresh period defaults to 4 hours. Any value below 10 minutes will be treated as 10 minutes. <a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki">DokuWiki</a> will generally try to supply a cached version of a page, obviously this is inappropriate when the page contains dynamic external content. The parameter tells <a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki">DokuWiki</a> to re-render the page if it is more than <em>refresh period</em> since the page was last rendered.
+The refresh period defaults to 4 hours. Any value below 10 minutes will be treated as 10 minutes. <a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> will generally try to supply a cached version of a page, obviously this is inappropriate when the page contains dynamic external content. The parameter tells <a href="/doc_pro_sgbm/doku.php?id=wiki:dokuwiki" class="wikilink1" title="wiki:dokuwiki" data-wiki-id="wiki:dokuwiki">DokuWiki</a> to re-render the page if it is more than <em>refresh period</em> since the page was last rendered.
 </p>
 
 <p>
@@ -821,9 +821,9 @@ By default the feed will be sorted by date, newest items first. You can sort it 
 <strong>Example:</strong>
 </p>
 <pre class="code">{{rss&gt;http://slashdot.org/index.rss 5 author date 1h }}</pre>
-<ul class="rss"><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/fXHJBDFEH1U/microsofts-new-data-dignity-team-could-help-users-control-their-personal-data" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/fXHJBDFEH1U/microsofts-new-data-dignity-team-could-help-users-control-their-personal-data" rel="nofollow">Microsoft&#039;s New &#039;Data Dignity&#039; Team Could Help Users Control Their Personal Data</a> par msmash (2019/09/24 17:21)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/g1H6vy93TmA/xiaomi-launches-big-5g-challenge-to-huawei-in-china" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/g1H6vy93TmA/xiaomi-launches-big-5g-challenge-to-huawei-in-china" rel="nofollow">Xiaomi Launches Big 5G Challenge To Huawei in China</a> par msmash (2019/09/24 16:40)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/DDuoVIx9-9E/google-wins-fight-to-restrict-right-to-be-forgotten-ruling-to-eu-search-engines" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/DDuoVIx9-9E/google-wins-fight-to-restrict-right-to-be-forgotten-ruling-to-eu-search-engines" rel="nofollow">Google Wins Fight To Restrict Right-To-Be-Forgotten Ruling To EU Search Engines</a> par msmash (2019/09/24 16:00)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/kzVMwAsLrSM/facebook-buys-ctrl-labs-startup-that-makes-neural--and-movement-monitoring-armband" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/kzVMwAsLrSM/facebook-buys-ctrl-labs-startup-that-makes-neural--and-movement-monitoring-armband" rel="nofollow">Facebook Buys CTRL-Labs, Startup That Makes Neural- and Movement-Monitoring Armband</a> par BeauHD (2019/09/24 15:00)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/fvCN9BqhspQ/busy-north-korean-hackers-have-new-malware-to-target-atms" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/fvCN9BqhspQ/busy-north-korean-hackers-have-new-malware-to-target-atms" rel="nofollow">Busy North Korean Hackers Have New Malware To Target ATMs</a> par BeauHD (2019/09/24 12:00)</div></li></ul>
+<ul class="rss"><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8QzvRrZribo/fbi-has-gained-access-to-sci-hub-founders-apple-account-email-claims" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8QzvRrZribo/fbi-has-gained-access-to-sci-hub-founders-apple-account-email-claims" rel="ugc nofollow">FBI Has Gained Access To Sci-Hub Founder&#039;s Apple Account, Email Claims</a> de msmash (2021/05/14 17:21)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/hbhK4yP-sA8/significant-ransomware-attack-forces-irelands-health-service-to-shut-down-it-systems" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/hbhK4yP-sA8/significant-ransomware-attack-forces-irelands-health-service-to-shut-down-it-systems" rel="ugc nofollow">&#039;Significant&#039; Ransomware Attack Forces Ireland&#039;s Health Service To Shut Down IT Systems</a> de msmash (2021/05/14 16:41)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/JqgIVLNAmYA/big-tech-enters-fray-to-save-jobs-for-spouses-of-foreign-workers" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/JqgIVLNAmYA/big-tech-enters-fray-to-save-jobs-for-spouses-of-foreign-workers" rel="ugc nofollow">Big Tech Enters Fray To Save Jobs for Spouses of Foreign Workers</a> de msmash (2021/05/14 16:00)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/xvtwdVyMGyE/exxon-uses-big-tobaccos-playbook-to-downplay-the-climate-crisis-says-study" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/xvtwdVyMGyE/exxon-uses-big-tobaccos-playbook-to-downplay-the-climate-crisis-says-study" rel="ugc nofollow">Exxon Uses Big Tobacco&#039;s Playbook To Downplay the Climate Crisis, Says Study</a> de BeauHD (2021/05/14 15:00)</div></li><li><div class="li"><a href="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ushzAx5amig/frameworks-repairable-laptop-is-up-for-preorder" class="urlextern" title="http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ushzAx5amig/frameworks-repairable-laptop-is-up-for-preorder" rel="ugc nofollow">Framework&#039;s Repairable Laptop Is Up For Preorder</a> de BeauHD (2021/05/14 12:00)</div></li></ul>
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;RSS\/ATOM Feed Aggregation&quot;,&quot;hid&quot;:&quot;rss_atom_feed_aggregation&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:31,&quot;range&quot;:&quot;20302-21805&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;RSS\/ATOM Feed Aggregation&quot;,&quot;hid&quot;:&quot;rss_atom_feed_aggregation&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:31,&quot;range&quot;:&quot;20351-21854&quot;} -->
 <h2 class="sectionedit33" id="control_macros">Control Macros</h2>
 <div class="level2">
 
@@ -843,18 +843,18 @@ Some syntax influences how DokuWiki renders a page without creating any output i
 		<td class="col0"> ~~NOCACHE~~ </td><td class="col1"> DokuWiki caches all output by default. Sometimes this might not be wanted (eg. when the &lt;php&gt; syntax above is used), adding this macro will force DokuWiki to rerender a page on every call </td>
 	</tr>
 </table></div>
-<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table6&quot;,&quot;secid&quot;:34,&quot;range&quot;:&quot;21966-22308&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;table&quot;,&quot;name&quot;:&quot;&quot;,&quot;hid&quot;:&quot;table6&quot;,&quot;secid&quot;:34,&quot;range&quot;:&quot;22015-22357&quot;} -->
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Control Macros&quot;,&quot;hid&quot;:&quot;control_macros&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:33,&quot;range&quot;:&quot;21806-22309&quot;} -->
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Control Macros&quot;,&quot;hid&quot;:&quot;control_macros&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:33,&quot;range&quot;:&quot;21855-22358&quot;} -->
 <h2 class="sectionedit35" id="syntax_plugins">Syntax Plugins</h2>
 <div class="level2">
 
 <p>
 DokuWiki&#039;s syntax can be extended by <a href="https://www.dokuwiki.org/plugins" class="interwiki iw_doku" title="https://www.dokuwiki.org/plugins">Plugins</a>. How the installed plugins are used is described on their appropriate description pages. The following syntax plugins are available in this particular DokuWiki installation:
 </p>
-<ul><li><div class="li"><a href="https://www.dokuwiki.org/plugin:docnavigation" class="urlextern" title="https://www.dokuwiki.org/plugin:docnavigation" rel="nofollow">DocNavigation plugin</a> <em>2014-12-27</em> par <a href="mailto:&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;" class="mail" title="&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">Gerrit Uitslag</a><br />Add navigation for documentation</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:ckgedit" class="urlextern" title="https://www.dokuwiki.org/plugin:ckgedit" rel="nofollow">ckgedit</a> <em>2019-04-04</em> par <a href="mailto:&#x74;&#x75;&#x72;&#x6e;&#x65;&#x72;&#x6d;&#x6d;&#x30;&#x32;&#x40;&#x73;&#x68;&#x61;&#x77;&#x2e;&#x63;&#x61;" class="mail" title="&#x74;&#x75;&#x72;&#x6e;&#x65;&#x72;&#x6d;&#x6d;&#x30;&#x32;&#x40;&#x73;&#x68;&#x61;&#x77;&#x2e;&#x63;&#x61;">Myron Turner</a><br />WYSIWYG plugin for Dokuwiki</div></li><li><div class="li"><a href="http://dokuwiki.org/plugin:info" class="urlextern" title="http://dokuwiki.org/plugin:info" rel="nofollow">Info Plugin</a> <em>2014-10-01</em> par <a href="mailto:&#x61;&#x6e;&#x64;&#x69;&#x40;&#x73;&#x70;&#x6c;&#x69;&#x74;&#x62;&#x72;&#x61;&#x69;&#x6e;&#x2e;&#x6f;&#x72;&#x67;" class="mail" title="&#x61;&#x6e;&#x64;&#x69;&#x40;&#x73;&#x70;&#x6c;&#x69;&#x74;&#x62;&#x72;&#x61;&#x69;&#x6e;&#x2e;&#x6f;&#x72;&#x67;">Andreas Gohr</a><br />Displays information about various DokuWiki internals</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:dw2pdf" class="urlextern" title="https://www.dokuwiki.org/plugin:dw2pdf" rel="nofollow">Dw2Pdf plugin</a> <em>2019-03-20</em> par <a href="mailto:&#x6c;&#x2e;&#x6d;&#x69;&#x63;&#x63;&#x6f;&#x40;&#x74;&#x69;&#x73;&#x63;&#x61;&#x6c;&#x69;&#x2e;&#x69;&#x74;" class="mail" title="&#x6c;&#x2e;&#x6d;&#x69;&#x63;&#x63;&#x6f;&#x40;&#x74;&#x69;&#x73;&#x63;&#x61;&#x6c;&#x69;&#x2e;&#x69;&#x74;">Andreas Gohr and Luigi Micco</a><br />DokuWiki to PDF converter</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:bookcreator" class="urlextern" title="https://www.dokuwiki.org/plugin:bookcreator" rel="nofollow">Bookcreator Plugin</a> <em>2016-08-11</em> par <a href="mailto:&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;" class="mail" title="&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x6b;&#x6c;&#x61;&#x70;&#x69;&#x6e;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">Gerrit Uitslag (previous: Luigi Micco)</a><br />Allow to make a book (PDF or text) from selected pages</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:wrap" class="urlextern" title="https://www.dokuwiki.org/plugin:wrap" rel="nofollow">Wrap Plugin</a> <em>2018-04-22</em> par <a href="mailto:&#x61;&#x6e;&#x69;&#x6b;&#x61;&#x40;&#x73;&#x65;&#x6c;&#x66;&#x74;&#x68;&#x69;&#x6e;&#x6b;&#x65;&#x72;&#x2e;&#x6f;&#x72;&#x67;" class="mail" title="&#x61;&#x6e;&#x69;&#x6b;&#x61;&#x40;&#x73;&#x65;&#x6c;&#x66;&#x74;&#x68;&#x69;&#x6e;&#x6b;&#x65;&#x72;&#x2e;&#x6f;&#x72;&#x67;">Anika Henke</a><br />Universal plugin which combines functionalities of many other plugins. Wrap wiki text inside containers (divs or spans) and give them a class (choose from a variety of preset classes), a width and/or a language with its associated text direction.</div></li></ul>
+<ul><li><div class="li"><a href="https://www.dokuwiki.org/plugin:bookcreator" class="urlextern" title="https://www.dokuwiki.org/plugin:bookcreator" rel="ugc nofollow">Bookcreator Plugin</a> <em>2021-03-30</em> de <a href="mailto:&#107;&#108;&#97;&#112;&#105;&#110;&#107;&#108;&#97;&#112;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="mail" title="&#107;&#108;&#97;&#112;&#105;&#110;&#107;&#108;&#97;&#112;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Gerrit Uitslag (previous: Luigi Micco)</a><br />Allow to make a book (PDF, ODT, HTML or text) from selected pages</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:docnavigation" class="urlextern" title="https://www.dokuwiki.org/plugin:docnavigation" rel="ugc nofollow">DocNavigation plugin</a> <em>2019-09-05</em> de <a href="mailto:&#107;&#108;&#97;&#112;&#105;&#110;&#107;&#108;&#97;&#112;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;" class="mail" title="&#107;&#108;&#97;&#112;&#105;&#110;&#107;&#108;&#97;&#112;&#105;&#110;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Gerrit Uitslag</a><br />Add navigation for documentation</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:dw2pdf" class="urlextern" title="https://www.dokuwiki.org/plugin:dw2pdf" rel="ugc nofollow">Dw2Pdf plugin</a> <em>2021-02-07</em> de <a href="mailto:&#108;&#46;&#109;&#105;&#99;&#99;&#111;&#64;&#116;&#105;&#115;&#99;&#97;&#108;&#105;&#46;&#105;&#116;" class="mail" title="&#108;&#46;&#109;&#105;&#99;&#99;&#111;&#64;&#116;&#105;&#115;&#99;&#97;&#108;&#105;&#46;&#105;&#116;">Andreas Gohr and Luigi Micco</a><br />DokuWiki to PDF converter</div></li><li><div class="li"><a href="http://dokuwiki.org/plugin:info" class="urlextern" title="http://dokuwiki.org/plugin:info" rel="ugc nofollow">Info Plugin</a> <em>2020-06-04</em> de <a href="mailto:&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#100;&#105;&#64;&#115;&#112;&#108;&#105;&#116;&#98;&#114;&#97;&#105;&#110;&#46;&#111;&#114;&#103;">Andreas Gohr</a><br />Displays information about various DokuWiki internals</div></li><li><div class="li"><a href="https://www.dokuwiki.org/plugin:wrap" class="urlextern" title="https://www.dokuwiki.org/plugin:wrap" rel="ugc nofollow">Wrap Plugin</a> <em>2018-04-22</em> de <a href="mailto:&#97;&#110;&#105;&#107;&#97;&#64;&#115;&#101;&#108;&#102;&#116;&#104;&#105;&#110;&#107;&#101;&#114;&#46;&#111;&#114;&#103;" class="mail" title="&#97;&#110;&#105;&#107;&#97;&#64;&#115;&#101;&#108;&#102;&#116;&#104;&#105;&#110;&#107;&#101;&#114;&#46;&#111;&#114;&#103;">Anika Henke</a><br />Universal plugin which combines functionalities of many other plugins. Wrap wiki text inside containers (divs or spans) and give them a class (choose from a variety of preset classes), a width and/or a language with its associated text direction.</div></li></ul>
 </div>
-<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Plugins&quot;,&quot;hid&quot;:&quot;syntax_plugins&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:35,&quot;range&quot;:&quot;22310-&quot;} --><div class="footnotes">
+<!-- EDIT{&quot;target&quot;:&quot;section&quot;,&quot;name&quot;:&quot;Syntax Plugins&quot;,&quot;hid&quot;:&quot;syntax_plugins&quot;,&quot;codeblockOffset&quot;:11,&quot;secid&quot;:35,&quot;range&quot;:&quot;22359-&quot;} --><div class="footnotes">
 <div class="fn"><sup><a href="#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
 <div class="content">This is a footnote</div></div>
 <div class="fn"><sup><a href="#fnt__2" id="fn__2" class="fn_bot">2)</a></sup> 

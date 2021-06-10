@@ -10,7 +10,10 @@
 div.bookcreator__bookbar {
     border: 1px solid __border__;
     background-color: __background_alt__;
-    background-image: url(images/book.png);
+    background-image: url(images/notebook-outline.svg);
+    background-position: 40px 5px;
+    background-repeat: no-repeat;
+    background-size: 40px;
 
     margin: 0.5em;
     margin-left: auto;
@@ -21,12 +24,36 @@ div.bookcreator__bookbar {
     vertical-align: middle;
     border-collapse: collapse;
     padding: 5px 5px 5px 90px;
-    background-position: 5px 50%;
-    background-repeat: no-repeat;
+}
+/* Workaround for Bootstrap3 template */
+.tpl_bootstrap3 div.bookcreator__bookbar {
+    min-height: 52px;
 }
 
 div.bookcreator__bookbar {
     display: none; /* will be shown by JavaScript */
+}
+
+div.bookcreator__bookbar {
+    svg {
+        height: 18px;
+        width: 18px;
+        vertical-align: middle;
+    }
+    .bc__bookmarkplus svg{
+        fill: #00b000;
+    }
+    .bc__bookmarkmin svg {
+        fill: #b1240c;
+    }
+    .bc__manager svg {
+        /*height: 20px;*/
+        /*width: 20px;*/
+        fill: #5d6368;
+    }
+    .bc__bookmarkhelp svg {
+        fill: #0d7bdc;
+    }
 }
 
 div.bookcreator__panel {
@@ -62,22 +89,37 @@ div.bookcreator__panel {
 }
 .dokuwiki .bookcreator__pagelist li{
     margin: 0;
+    background-color: #fafafa;
 }
 /* delete and include bottons */
 .dokuwiki .bookcreator__pagelist ul li a.action{
-    width: 14px;
-    height:14px;
+    width: 16px;
+    height:16px;
     display: inline-block;
-    background:transparent url('images/remove.png') center bottom no-repeat;
     cursor: pointer;
+    vertical-align: middle;
 }
-.dokuwiki .bookcreator__pagelist ul.selected li a.action{
-    background-image: url('images/remove.png');
-    content: attr(data-titlerem);
+.dokuwiki .bookcreator__pagelist ul.selected li a.action.include {
+    display: none;
 }
-.dokuwiki .bookcreator__pagelist ul.deleted li a.action{
-    background-image: url('images/include.png');
-    content: attr(data-titleadd);
+.dokuwiki .bookcreator__pagelist ul.selected li a.action.remove {
+    display: inline-block;
+}
+.dokuwiki .bookcreator__pagelist ul.selected li a.action svg{
+    fill: #b1240c;
+    height: 18px;
+    width: 18px;
+}
+.dokuwiki .bookcreator__pagelist ul.deleted li a.action.include {
+    display: inline-block;
+}
+.dokuwiki .bookcreator__pagelist ul.deleted li a.action.remove {
+    display: none;
+}
+.dokuwiki .bookcreator__pagelist ul.deleted li a.action svg{
+    fill: #00b000;
+    height: 18px;
+    width: 18px;
 }
 
 .dokuwiki .bookcreator__manager div.bookcreator__actions {
@@ -92,18 +134,32 @@ div.bookcreator__panel {
     margin-bottom: 1em;
 }
 .dokuwiki .bookcreator__manager fieldset legend,
-.dokuwiki #bookcreator__selections__list fieldset legend {
+.dokuwiki .bookcreator__selections__list fieldset legend {
     font-weight: bold;
 }
 
-.dokuwiki .book_skipforbiddenpages {
+.dokuwiki label.book_skipforbiddenpages {
     display: block;
 }
 /*
  * List of saved selections
  */
-#bookcreator__selections__list fieldset {
+.dokuwiki .bookcreator__selections__list fieldset {
     text-align:left;
+}
+
+.bookcreator__selections__list svg {
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+    fill: @ini_link;
+}
+.bookcreator__selections__list .load svg {
+    fill: @ini_text;
+}
+
+.bookcreator__selections__list .delete svg {
+    fill: @ini_missing;
 }
 
 /*
@@ -118,58 +174,6 @@ div.bookcreator__panel {
  * show add/remove icon
  */
 
-/* OLD BUTTONS DEPRECATED     since 2017    */
-
-
-
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook {
-    background-position: right -90px;
-}
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:before {
-    content: url(images/pagetools-pdf-sprite.png);
-    margin-top: -90px;
-}
-#dokuwiki__pagetools:hover ul li a.plugin_bookcreator_addtobook,
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:focus,
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:active {
-    background-image: url(images/pagetools-pdf-sprite.png);
-}
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:hover,
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:active,
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:focus {
-    background-position: right -135px;
-}
-
-/* show remove icon */
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove {
-    background-position: right -180px;
-}
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:before {
-    margin-top: -180px;
-}
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:hover,
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:active,
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:focus {
-    background-position: right -225px;
-}
-/*Keep icons on left side on hover for rtl languages*/
-/*add to book icon*/
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:hover,
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:active,
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook:focus {
-    background-position: left -135px;
-}
-/*remove from book icon*/
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:hover,
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:active,
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove:focus {
-    background-position: left -225px;
-}
-[dir=rtl] #dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook.remove {
-    background-position: left -180px;
-}
-
-/* NEW SVG BUTTONS       since 2017    */
 /* svg has two paths, toggling depending on selection state of page */
 #dokuwiki__pagetools div.tools ul li.plugin_bookcreator__addtobook a .bookmin {
     display: none;
@@ -182,9 +186,105 @@ div.bookcreator__panel {
     display: block;
 }
 
-/**
- * page add/remove button
+/*
+ * Workaround for bootstrap3 Template
  */
-#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook {
-    display: none; /* will be shown by JavaScript */
+.tools a.plugin_bookcreator__addtobook .bookmin {
+    display: none;
 }
+
+.tools a.plugin_bookcreator__addtobook.remove .bookplus {
+    display: none;
+}
+.tools a.plugin_bookcreator__addtobook.remove .bookmin {
+    display: block;
+}
+
+
+/*!***/
+/* * page add/remove button*/
+/* *!*/
+/*#dokuwiki__pagetools ul li a.plugin_bookcreator_addtobook {*/
+/*    display: none; !* will be shown by JavaScript *!*/
+/*}*/
+
+/* Namespace picker (opens by clicking on button "Add Namespace to Selection")
+******************************************************************************/
+.bookcreator__selectns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bc__nspicker {
+}
+
+[dir=rtl] #bc__nspicker_close {
+    float: left;
+}
+
+#bc__nspicker_select {
+    margin-left: 1em;
+}
+
+#bc__nspicker_cancel {
+    margin-left: 0.5em;
+}
+
+#bc__nspicker_recursive {
+    margin-right: 0.5em;
+}
+
+#bc__nspicker_result {
+    background-color: @ini_background;
+    width:  40vw;
+    height: 50vh;
+    overflow: auto;
+    border: 1px solid @ini_border;
+    margin: 3px auto;
+    text-align: left;
+    line-height: 1;
+}
+[dir=rtl] #bc__nspicker_result {
+    text-align: right;
+}
+
+#bc__nspicker_result div {
+    padding: 3px 3px 3px 0;
+}
+
+#bc__nspicker_result div a {
+    display: block;
+    padding-left: 22px;
+    min-height: 16px;
+    background: transparent 3px center no-repeat;
+}
+[dir=rtl] #bc__nspicker_result div a {
+    padding: 3px 22px 3px 3px;
+    background-position: 257px 3px;
+}
+
+#bc__nspicker_result div.type_u a {
+    background-image: url(../../images/up.png);
+}
+#bc__nspicker_result div.type_f a {
+    background-image: url(../../images/page.png);
+}
+#bc__nspicker_result div.type_d a {
+    background-image: url(../../images/ns.png);
+}
+
+#bc__nspicker_result div.even {
+    background-color: @ini_background_neu;
+}
+
+#bc__nspicker_result div.selected {
+    background-color: @ini_background_alt;
+}
+
+#bc__nspicker_result span {
+    display: block;
+    color: @ini_text_neu;
+    margin-left: 22px;
+}
+
